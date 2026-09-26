@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://putheamak.github.io/my-project/blog/sitemap.xml
