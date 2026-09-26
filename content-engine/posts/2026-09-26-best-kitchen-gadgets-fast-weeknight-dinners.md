@@ -5,7 +5,7 @@ description: The best kitchen gadgets for fast weeknight dinners: simple, afford
 slug: best-kitchen-gadgets-fast-weeknight-dinners
 keyword: best kitchen gadgets for fast weeknight dinners
 date: 2026-09-26
-status: draft
+status: published
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -27,28 +27,28 @@ A gadget saves time when it replaces a slow manual step *and* cleans up fast. Us
 ### Which gadgets cut the most prep time on a weeknight?
 
 **A garlic press.** Peeling and mincing garlic is the slowest part of most quick dinners. A press turns it into a three-second step.
-[LINK: search Amazon for "stainless steel garlic press"]
+
 
 **An adjustable mandoline slicer.** Even slices of potato, cucumber or onion in a fraction of the knife time. Always use the hand guard it comes with.
-[LINK: search Amazon for "adjustable mandoline slicer with hand guard"]
+
 
 **A pair of kitchen shears.** Faster than a knife for herbs, scallions, bacon, and opening packaging. Look for a pair that comes apart for washing.
-[LINK: search Amazon for "kitchen shears that come apart"]
+
 
 **A salad spinner.** Washed greens that are actually dry means dressing sticks and salad becomes a five-minute side instead of a project.
-[LINK: search Amazon for "salad spinner"]
+
 
 **A digital instant-read thermometer.** Stops the guessing on chicken and pork, which is where most weeknight cooks lose time hovering over the pan.
-[LINK: search Amazon for "digital instant read kitchen thermometer"]
+
 
 **A handheld citrus juicer.** Fresh lemon or lime finishes a dish in seconds and turns leftovers into something that tastes new.
-[LINK: search Amazon for "handheld citrus juicer"]
+
 
 **Silicone-edged spatula / spoonula.** One tool for stirring, scraping and serving means one fewer dish.
-[LINK: search Amazon for "silicone spoonula spatula"]
+
 
 **Stackable prep bowls or glass containers.** The real weeknight hack: chop once on Sunday, cook fast all week.
-[LINK: search Amazon for "glass meal prep containers with lids"]
+
 
 ### Which gadget should I buy first?
 
