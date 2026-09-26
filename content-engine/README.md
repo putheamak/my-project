@@ -65,7 +65,7 @@ A free, fast blog hosted on GitHub Pages at **https://putheamak.github.io/my-pro
 
 1. Open the day's draft in GitHub: `content-engine/posts/YYYY-MM-DD-<slug>.md`.
 2. Tap the pencil icon. Replace any `[LINK: ...]` placeholders with your real Amazon links and fix anything the compliance report flagged.
-3. Change `status: draft` to `status: published` and commit.
+3. Change `status: "draft"` to `status: "published"` (quotes optional) and commit.
 4. The **Publish blog** workflow rebuilds and publishes the site within about a minute.
 
 ### Adding photos

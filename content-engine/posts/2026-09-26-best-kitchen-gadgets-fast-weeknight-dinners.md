@@ -1,11 +1,11 @@
 ---
-title: Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)
-seoTitle: Best Kitchen Gadgets for Fast Weeknight Dinners (56 characters)
-description: The best kitchen gadgets for fast weeknight dinners: simple, affordable tools that cut prep time so dinner lands on the table sooner.
-slug: best-kitchen-gadgets-fast-weeknight-dinners
-keyword: best kitchen gadgets for fast weeknight dinners
-date: 2026-09-26
-status: published
+title: "Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)"
+seoTitle: "Best Kitchen Gadgets for Fast Weeknight Dinners"
+description: "The best kitchen gadgets for fast weeknight dinners: simple, affordable tools that cut prep time so dinner lands on the table sooner."
+slug: "best-kitchen-gadgets-fast-weeknight-dinners"
+keyword: "best kitchen gadgets for fast weeknight dinners"
+date: "2026-09-26"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.

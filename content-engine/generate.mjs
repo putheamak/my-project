@@ -79,8 +79,8 @@ Produce today's posting pack as Markdown with exactly these sections:
 - Primary keyword: one long-tail phrase with buying intent (for example "best ... for ...", "... vs ...", "how to ... without ...").
 - Secondary keywords: 3-5 related phrases.
 - How to verify: one line telling the creator to type the primary keyword into Google, YouTube and Pinterest search and check the autocomplete suggestions before posting.
-- SEO title: at most 60 characters, primary keyword near the start.
-- Meta description: at most 155 characters, includes the primary keyword.
+- SEO title: at most 60 characters, primary keyword near the start. Write only the title, without a character count.
+- Meta description: at most 155 characters, includes the primary keyword. Write only the description, without a character count.
 - URL slug: short, lowercase, hyphens.
 - Image alt text: 3 descriptive alt texts for the creator's own photos.
 - Internal links: 1-3 earlier topics from the list above to link to, if any fit.
