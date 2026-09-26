@@ -3,9 +3,16 @@
   "effort": "medium",
   "language": "English",
   "niche": "Useful kitchen gadgets under $30",
+  "targetKeywords": [],
   "audience": "Busy people who cook at home and want to save time",
   "affiliateProgram": "Amazon Associates",
-  "platforms": ["Blog / Facebook post", "TikTok", "YouTube Shorts", "Pinterest"],
+  "disclosure": "As an Amazon Associate I earn from qualifying purchases.",
+  "platforms": [
+    "Blog / Facebook post",
+    "TikTok",
+    "YouTube Shorts",
+    "Pinterest"
+  ],
   "videoScriptsPerDay": 3,
   "products": [
     {

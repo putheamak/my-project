@@ -9,6 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
+import { checkCompliance, formatReport } from "./compliance.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const outputDir = path.join(here, "output");
@@ -34,43 +35,77 @@ const products = (config.products ?? [])
   .map((p) => `- ${p.name} | link: ${p.link} | owner's notes: ${p.notes || "none"}`)
   .join("\n");
 
-const system = `You write daily affiliate-marketing content for a solo creator who reviews it and posts it by hand.
+const disclosure = config.disclosure;
 
-Honesty rules - these protect the creator's accounts and their audience's trust:
-- Never invent prices, ratings, review counts, specs, or discounts. Say "check the current price" instead.
-- Never write fake first-person experiences ("I tested this for 3 weeks"). Only describe personal use when it appears in the owner's notes.
+const system = `You write daily affiliate-marketing content for a solo creator who reviews it and posts it by hand. Every pack must be findable in search (SEO) and must comply with the Amazon Associates Program Operating Agreement.
+
+Amazon Associates rules - never break these:
+- Include this disclosure verbatim, word for word: ${disclosure}
+  Put it in the article before the first link, and in every caption, description, or pin that has a link.
+- Never state or estimate prices, price ranges for a specific product, discounts, sales, or deals ("on sale", "% off", "lowest price"). Amazon prices change and static prices are not allowed. Write "check the current price on Amazon" instead.
+- Never show star ratings or review counts, and never quote or paraphrase Amazon customer reviews.
+- Never mention Amazon badges such as "Best Seller" or "Amazon's Choice".
+- Never imply Amazon sponsors or endorses the creator. "Available on Amazon" is fine.
+- Only use the links from the product list (amazon.com or amzn.to). Never use other link shorteners or disguise where a link goes. Never suggest putting links in emails, PDFs, ebooks, or printed material.
+- Never offer or imply a reward for clicking or buying (no giveaways tied to purchases, no "use my link to support me").
+- For images, tell the creator to use their own photos or video. Never suggest downloading images from Amazon product pages.
+
+Honesty rules:
+- Never invent specs or fake first-person experiences ("I tested this for 3 weeks"). Only describe personal use when it appears in the owner's notes.
 - Never make health or medical claims.
-- Only link products from the provided product list. When the list is empty or does not fit the topic, describe the product type and insert a placeholder like [LINK: search Amazon for "silicone spatula set"] for the creator to fill in.
-- Include a short affiliate disclosure in the article and in every caption.
+- When the product list is empty or doesn't fit the topic, describe the product type and insert a placeholder like [LINK: search Amazon for "silicone spatula set"] for the creator to fill in.
+- You have no search-volume data. Choose keywords by likely buyer intent and label them as ideas to verify.
 
-Write in ${config.language}. Keep it practical, friendly, and skimmable.`;
+Write in ${config.language}, but keep the disclosure sentence exactly as given. Keep it practical, friendly, and skimmable.`;
 
 const prompt = `Niche: ${config.niche}
 Audience: ${config.audience}
 Affiliate program: ${config.affiliateProgram}
 Platforms: ${config.platforms.join(", ")}
+Keyword ideas from the creator: ${(config.targetKeywords ?? []).join(", ") || "(none - suggest your own)"}
 
 Products the creator can link:
 ${products || "- (none yet - use placeholders)"}
 
-Topics already covered (pick a clearly different angle today):
+Topics already covered (pick a clearly different angle today, and use them for internal-link suggestions):
 ${recentTitles}
 
 Produce today's posting pack as Markdown with exactly these sections:
 
 # <Today's topic title>
 
+## SEO brief
+- Primary keyword: one long-tail phrase with buying intent (for example "best ... for ...", "... vs ...", "how to ... without ...").
+- Secondary keywords: 3-5 related phrases.
+- How to verify: one line telling the creator to type the primary keyword into Google, YouTube and Pinterest search and check the autocomplete suggestions before posting.
+- SEO title: at most 60 characters, primary keyword near the start.
+- Meta description: at most 155 characters, includes the primary keyword.
+- URL slug: short, lowercase, hyphens.
+- Image alt text: 3 descriptive alt texts for the creator's own photos.
+- Internal links: 1-3 earlier topics from the list above to link to, if any fit.
+
 ## Article
-A 600-900 word blog/Facebook article with a hook, useful tips, the product mentions with links or placeholders, and a closing call to action. Include the affiliate disclosure.
+600-900 words, ready to paste into a blog:
+- The disclosure first, before any link.
+- A title containing the primary keyword, and the keyword in the first 100 words.
+- H2/H3 subheadings that answer the questions buyers search for.
+- Short paragraphs and bullet lists.
+- A comparison table of features and use cases (no prices, no ratings).
+- A "Frequently asked questions" section with 3-4 real buyer questions and short answers.
+- A closing call to action.
 
 ## Short video scripts
-${config.videoScriptsPerDay} scripts for TikTok / YouTube Shorts, 30-45 seconds each. For each: a 3-second hook, scene-by-scene lines with what to show on screen, and the on-screen text.
+${config.videoScriptsPerDay} scripts for TikTok / YouTube Shorts / Reels, 30-45 seconds each. For each:
+- Title (at most 70 characters, primary or secondary keyword included).
+- A 3-second hook that says the keyword out loud, because TikTok and YouTube search read speech and on-screen text.
+- Scene-by-scene lines with what to film (the creator's own footage) and the on-screen text.
+- Description with the disclosure and 3-5 relevant hashtags.
 
 ## Captions
-One caption per platform (${config.platforms.join(", ")}), each with hashtags and the disclosure.
+One caption per platform (${config.platforms.join(", ")}), with the keyword in the first line, 3-5 relevant hashtags, and the disclosure.
 
 ## Pinterest pin
-Pin title (under 100 characters) and description.
+Keyword-rich pin title (under 100 characters), description (under 500 characters, with the disclosure), and a suggested board name.
 
 ## Posting checklist
 3-5 short reminders specific to today's content (for example which placeholder links to fill in).`;
@@ -130,10 +165,12 @@ if (message.stop_reason === "max_tokens" || !text) {
 const title = text.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? `Posting pack ${today}`;
 
 fs.mkdirSync(outputDir, { recursive: true });
-fs.writeFileSync(outPath, `<!-- generated ${today} -->\n${text}\n`);
+const issues = checkCompliance(text, disclosure);
+fs.writeFileSync(outPath, `<!-- generated ${today} -->\n${formatReport(issues)}\n\n${text}\n`);
 history.push({ date: today, title });
 fs.writeFileSync(historyPath, JSON.stringify(history, null, 2) + "\n");
 
 const { input_tokens, output_tokens } = message.usage;
 console.log(`Wrote ${path.relative(here, outPath)}: "${title}"`);
+console.log(`Compliance: ${issues.filter((i) => i.level === "FIX").length} to fix, ${issues.filter((i) => i.level === "CHECK").length} to check`);
 console.log(`Tokens: ${input_tokens} in / ${output_tokens} out`);
