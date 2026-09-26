@@ -1,0 +1,48 @@
+name: Publish blog
+
+# Builds content-engine/posts into a static site and publishes it to the
+# gh-pages branch under /blog, next to the existing app (keep_files leaves the
+# app's files alone). Live at https://putheamak.github.io/my-project/blog/
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content-engine/posts/**"
+      - "content-engine/site.json"
+      - "content-engine/config.json"
+      - "content-engine/build-blog.mjs"
+      - "content-engine/compliance.mjs"
+      - "content-engine/lib/**"
+  # Commits made by the daily workflow don't trigger "push", so also run after it.
+  workflow_run:
+    workflows: ["Daily content pack"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-blog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build-blog.mjs
+        working-directory: content-engine
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: content-engine/dist-blog
+          destination_dir: blog
+          keep_files: true
+          commit_message: "Publish blog"
