@@ -1,0 +1,17 @@
+{
+  "model": "claude-opus-5",
+  "effort": "medium",
+  "language": "English",
+  "niche": "Useful kitchen gadgets under $30",
+  "audience": "Busy people who cook at home and want to save time",
+  "affiliateProgram": "Amazon Associates",
+  "platforms": ["Blog / Facebook post", "TikTok", "YouTube Shorts", "Pinterest"],
+  "videoScriptsPerDay": 3,
+  "products": [
+    {
+      "name": "EXAMPLE - replace me: Digital kitchen scale",
+      "link": "https://amzn.to/your-link-here",
+      "notes": "What you like about it, from your own experience"
+    }
+  ]
+}
