@@ -4,7 +4,7 @@
 //
 //   ---
 //   title: Best Garlic Press for Small Kitchens
-//   status: draft          <- change to "published" to put it on the blog
+//   status: "draft"        <- change to "published" to put it on the blog
 //   ---
 
 export function slugify(s) {
@@ -29,7 +29,12 @@ function section(text, name) {
 
 function field(brief, label) {
   const m = brief.match(new RegExp(`^\\s*[-*]?\\s*\\**${label}\\**\\s*:\\s*(.+)$`, "im"));
-  return m ? m[1].replace(/\*\*/g, "").replace(/^["'`]|["'`]$/g, "").trim() : "";
+  if (!m) return "";
+  return m[1]
+    .replace(/\*\*/g, "")
+    .replace(/\s*\(\d+\s*(?:characters?|chars?)\)\s*$/i, "") // drop "(56 characters)" notes
+    .replace(/^["'`]|["'`]$/g, "")
+    .trim();
 }
 
 export function postFromPack(pack, date) {
@@ -46,7 +51,8 @@ export function postFromPack(pack, date) {
 const FIELDS = ["title", "seoTitle", "description", "slug", "keyword", "date", "image", "status"];
 
 export function serializePost(post) {
-  const header = FIELDS.map((k) => `${k}: ${String(post[k] ?? "").replace(/\n/g, " ")}`);
+  // Values are written as quoted strings so titles containing ":" stay valid YAML.
+  const header = FIELDS.map((k) => `${k}: ${JSON.stringify(String(post[k] ?? "").replace(/\n/g, " "))}`);
   return `---\n${header.join("\n")}\n---\n\n${post.body.trim()}\n`;
 }
 
@@ -56,7 +62,18 @@ export function parsePost(text) {
   const post = { body: m[2].trim() };
   for (const line of m[1].split("\n")) {
     const i = line.indexOf(":");
-    if (i > 0) post[line.slice(0, i).trim()] = line.slice(i + 1).trim();
+    if (i <= 0) continue;
+    let value = line.slice(i + 1).trim();
+    if (value.startsWith('"') && value.endsWith('"')) {
+      try {
+        value = JSON.parse(value);
+      } catch {
+        value = value.slice(1, -1);
+      }
+    } else if (value.startsWith("'") && value.endsWith("'")) {
+      value = value.slice(1, -1);
+    }
+    post[line.slice(0, i).trim()] = value;
   }
   return post;
 }
