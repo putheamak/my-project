@@ -10,6 +10,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { checkCompliance, formatReport } from "./compliance.mjs";
+import { postFromPack, serializePost } from "./lib/post.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const outputDir = path.join(here, "output");
@@ -85,14 +86,15 @@ Produce today's posting pack as Markdown with exactly these sections:
 - Internal links: 1-3 earlier topics from the list above to link to, if any fit.
 
 ## Article
-600-900 words, ready to paste into a blog:
-- The disclosure first, before any link.
-- A title containing the primary keyword, and the keyword in the first 100 words.
-- H2/H3 subheadings that answer the questions buyers search for.
+600-900 words. It is published to the blog as-is, under the title above:
+- Start with the disclosure on its own line, before any link.
+- Don't repeat the title. Use the primary keyword in the first 100 words.
+- Use only ### subheadings (never # or ##), phrased as the questions buyers search for.
 - Short paragraphs and bullet lists.
 - A comparison table of features and use cases (no prices, no ratings).
-- A "Frequently asked questions" section with 3-4 real buyer questions and short answers.
+- A "### Frequently asked questions" section with 3-4 real buyer questions, each as a #### heading followed by a short answer paragraph.
 - A closing call to action.
+- Write links as Markdown: [product name](link).
 
 ## Short video scripts
 ${config.videoScriptsPerDay} scripts for TikTok / YouTube Shorts / Reels, 30-45 seconds each. For each:
@@ -167,6 +169,18 @@ const title = text.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? `Posting pack ${today}`;
 fs.mkdirSync(outputDir, { recursive: true });
 const issues = checkCompliance(text, disclosure);
 fs.writeFileSync(outPath, `<!-- generated ${today} -->\n${formatReport(issues)}\n\n${text}\n`);
+// Save the article as a blog post. It stays a draft until you change its
+// status to "published" (or site.json has autoPublish and the post is clean).
+const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
+const post = postFromPack(text, today);
+const postIssues = checkCompliance(post.body, disclosure);
+const clean = !postIssues.some((i) => i.level === "FIX" || i.found.includes("placeholder"));
+post.status = site.autoPublish && clean ? "published" : "draft";
+const postPath = path.join(here, "posts", `${today}-${post.slug}.md`);
+fs.mkdirSync(path.dirname(postPath), { recursive: true });
+fs.writeFileSync(postPath, serializePost(post));
+console.log(`Blog post: ${path.relative(here, postPath)} (${post.status})`);
+
 history.push({ date: today, title });
 fs.writeFileSync(historyPath, JSON.stringify(history, null, 2) + "\n");
 

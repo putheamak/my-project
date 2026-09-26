@@ -11,6 +11,8 @@ Every morning this generates one **posting pack** for your affiliate niche:
 
 The pack is saved to `output/YYYY-MM-DD.md`. **You read it, fix anything the report flags, add your links, and post it yourself.** Nothing is posted automatically.
 
+The article is also saved as a **blog draft** in `posts/`. It goes live on your free blog only after you approve it (see [Your blog](#your-blog)).
+
 ## One-time setup
 
 1. **Get a Claude API key** at https://console.anthropic.com and add some credit. One pack costs roughly $0.10–0.30 with the default model.
@@ -54,6 +56,39 @@ The checker is a safety net, not legal advice. These rules are also your respons
 - The article has the keyword in the title and first 100 words, buyer-question H2s, a comparison table, and an FAQ section, which helps it appear in "People also ask".
 - Video hooks say the keyword out loud and show it on screen, because TikTok and YouTube search read both.
 - On your blog, set the SEO title, meta description, and slug from the brief, and add the internal links it suggests.
+
+## Your blog
+
+A free, fast blog hosted on GitHub Pages at **https://putheamak.github.io/my-project/blog/**, next to your existing app.
+
+### Publishing a post (from your phone or computer)
+
+1. Open the day's draft in GitHub: `content-engine/posts/YYYY-MM-DD-<slug>.md`.
+2. Tap the pencil icon. Replace any `[LINK: ...]` placeholders with your real Amazon links and fix anything the compliance report flagged.
+3. Change `status: draft` to `status: published` and commit.
+4. The **Publish blog** workflow rebuilds and publishes the site within about a minute.
+
+**A post never goes live if it breaks the rules.** The build skips any published post that still has a **FIX** issue or an unfilled placeholder, and says why in the workflow log. To publish clean posts without approving them, set `"autoPublish": true` in `site.json`, but reviewing each one is safer.
+
+### One-time blog setup
+
+1. Edit `site.json` with your blog name, tagline, author name and About text.
+2. Make sure GitHub Pages is on: Settings → Pages → Source: **Deploy from a branch**, branch **gh-pages**, folder **/ (root)**. Your app already uses this.
+3. **Tell Google about the blog.** Add a "URL prefix" property for the blog address in [Google Search Console](https://search.google.com/search-console) and choose the "HTML tag" verification method. Paste the `content` value into `googleSiteVerification` in `site.json`, then submit `sitemap.xml` under Sitemaps.
+4. **Add the blog URL to Amazon Associates** (Account Settings → Website and Mobile App List).
+
+### What's built in for SEO and compliance
+
+- Clean URLs, a title tag and meta description from the SEO brief, a canonical link, and Open Graph tags
+- `BlogPosting` and `FAQPage` structured data, so posts can show FAQ answers in Google
+- `sitemap.xml`, an RSS feed (`/rss.xml`), and a 404 page
+- Affiliate links marked `rel="sponsored nofollow"`, as Google requires
+- The Amazon disclosure above every article and in the footer, plus Disclosure, Privacy and About pages
+- No external fonts or scripts, so pages load fast on phones, with light and dark mode
+
+To preview locally, run `node build-blog.mjs` and open the files in `dist-blog/`.
+
+**Later: your own domain.** Once you have sales, buy a domain (about $10–15 a year), point it at a GitHub Pages site, and change `baseUrl` in `site.json`. Google reads `robots.txt` only at the root of a domain, so that file only takes effect once you have your own domain.
 
 ## Run it on your own computer
 
