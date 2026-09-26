@@ -41,6 +41,11 @@ const rules = [
     message: "Non-Amazon link shortener. Amazon requires links that clearly go to Amazon; use amzn.to or the full link.",
   },
   {
+    level: "FIX",
+    pattern: /https?:\/\/[\w.-]*(?:media-amazon\.com|images-amazon\.com|ssl-images-amazon\.com)\/\S*/gi,
+    message: "Copied Amazon product image. Amazon only allows its images through SiteStripe or its API; use your own photo.",
+  },
+  {
     level: "CHECK",
     pattern: /\b(?:on sale|lowest price|cheapest price|\d+\s?% off|deal of the day|limited[- ]time|price drop)\b/gi,
     message: "Price or deal claim. It goes out of date quickly and Amazon doesn't allow static price info.",
@@ -104,7 +109,7 @@ export function checkCompliance(rawText, disclosure) {
 
   const placeholders = text.match(/\[LINK:[^\]]*\]/g) ?? [];
   if (placeholders.length) {
-    issues.push({ level: "CHECK", found: `${placeholders.length} placeholder(s)`, message: "Replace every [LINK: ...] with your real Amazon link before posting." });
+    issues.push({ level: "CHECK", found: `${placeholders.length} placeholder(s)`, message: "Replace every `[LINK: ...]` with your real Amazon link before posting, or delete that line." });
   }
 
   return issues;
