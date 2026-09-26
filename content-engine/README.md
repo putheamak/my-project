@@ -68,6 +68,18 @@ A free, fast blog hosted on GitHub Pages at **https://putheamak.github.io/my-pro
 3. Change `status: draft` to `status: published` and commit.
 4. The **Publish blog** workflow rebuilds and publishes the site within about a minute.
 
+### Adding photos
+
+Use **your own photos** (take them on your phone) or free stock photos from Unsplash or Pexels. **Never download pictures from Amazon product pages.** Amazon only allows its images through SiteStripe or its API, and the compliance check flags copied ones.
+
+1. In GitHub, open `content-engine/images/` → **Add file** → **Upload files**. Upload a photo with a short name and no spaces, like `garlic-press.jpg`, and commit.
+2. In the post file, add or edit the `image:` line near the top: `image: images/garlic-press.jpg`. This is the cover photo, shown at the top and used when the post is shared on Facebook or Pinterest.
+3. To put a photo inside the article, add a line like this where you want it:
+   `![Garlic press on a kitchen counter](images/garlic-press.jpg)`
+   The text in `[ ]` is the alt text. Describe the photo, since Google reads it. The SEO brief suggests some.
+
+Keep photos under about 300 KB so pages stay fast. Most phones can export a "medium" size.
+
 **A post never goes live if it breaks the rules.** The build skips any published post that still has a **FIX** issue or an unfilled placeholder, and says why in the workflow log. To publish clean posts without approving them, set `"autoPublish": true` in `site.json`, but reviewing each one is safer.
 
 ### One-time blog setup

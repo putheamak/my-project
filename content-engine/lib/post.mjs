@@ -43,7 +43,7 @@ export function postFromPack(pack, date) {
   return { title, seoTitle, description, slug, keyword, date, body };
 }
 
-const FIELDS = ["title", "seoTitle", "description", "slug", "keyword", "date", "status"];
+const FIELDS = ["title", "seoTitle", "description", "slug", "keyword", "date", "image", "status"];
 
 export function serializePost(post) {
   const header = FIELDS.map((k) => `${k}: ${String(post[k] ?? "").replace(/\n/g, " ")}`);

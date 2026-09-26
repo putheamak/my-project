@@ -12,10 +12,15 @@ export function escapeHtml(s) {
 
 const AMAZON = /^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to)\//i;
 
-function inline(text) {
+function inline(text, opts = {}) {
   let s = escapeHtml(text);
   s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
-  s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => {
+  // ![alt text](images/photo.jpg) - relative paths are relative to the blog root.
+  s = s.replace(/!\[([^\]]*)\]\(([^\s)]+)\)/g, (_, alt, src) => {
+    const url = /^https?:\/\//.test(src) ? src : `${opts.imageBase ?? ""}${src.replace(/^\.?\//, "")}`;
+    return `<img src="${url}" alt="${alt}" loading="lazy" decoding="async">`;
+  });
+  s = s.replace(/(?<!!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => {
     // Google asks for affiliate links to be marked rel="sponsored".
     const rel = AMAZON.test(href.replace(/&amp;/g, "&"))
       ? "sponsored nofollow noopener"
@@ -31,12 +36,14 @@ const splitRow = (line) =>
   line.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
 
 // headingShift: 1 turns ### into <h2>, #### into <h3>, and so on.
-export function markdownToHtml(md, { headingShift = 0 } = {}) {
+export function markdownToHtml(md, opts = {}) {
+  const { headingShift = 0 } = opts;
+  const inl = (t) => inline(t, opts);
   const lines = md.replace(/\r\n/g, "\n").split("\n");
   const out = [];
   let para = [];
   const flush = () => {
-    if (para.length) out.push(`<p>${inline(para.join(" "))}</p>`);
+    if (para.length) out.push(`<p>${inl(para.join(" "))}</p>`);
     para = [];
   };
 
@@ -49,7 +56,7 @@ export function markdownToHtml(md, { headingShift = 0 } = {}) {
     } else if (heading) {
       flush();
       const level = Math.min(6, Math.max(1, heading[1].length - headingShift));
-      out.push(`<h${level}>${inline(heading[2])}</h${level}>`);
+      out.push(`<h${level}>${inl(heading[2])}</h${level}>`);
     } else if (/^(\s*[-*_]){3,}\s*$/.test(line)) {
       flush();
       out.push("<hr>");
@@ -61,8 +68,8 @@ export function markdownToHtml(md, { headingShift = 0 } = {}) {
       while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) rows.push(splitRow(lines[i++]));
       i--;
       out.push(
-        `<div class="table-wrap"><table><thead><tr>${head.map((c) => `<th>${inline(c)}</th>`).join("")}</tr></thead>` +
-          `<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${inline(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`,
+        `<div class="table-wrap"><table><thead><tr>${head.map((c) => `<th>${inl(c)}</th>`).join("")}</tr></thead>` +
+          `<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${inl(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`,
       );
     } else if (/^\s*([-*+]|\d+[.)])\s+/.test(line)) {
       flush();
@@ -73,13 +80,13 @@ export function markdownToHtml(md, { headingShift = 0 } = {}) {
       }
       i--;
       const tag = ordered ? "ol" : "ul";
-      out.push(`<${tag}>${items.map((it) => `<li>${inline(it)}</li>`).join("")}</${tag}>`);
+      out.push(`<${tag}>${items.map((it) => `<li>${inl(it)}</li>`).join("")}</${tag}>`);
     } else if (/^\s*>/.test(line)) {
       flush();
       const quote = [];
       while (i < lines.length && /^\s*>/.test(lines[i])) quote.push(lines[i++].replace(/^\s*>\s?/, ""));
       i--;
-      out.push(`<blockquote>${markdownToHtml(quote.join("\n"))}</blockquote>`);
+      out.push(`<blockquote>${markdownToHtml(quote.join("\n"), opts)}</blockquote>`);
     } else {
       para.push(line.trim());
     }
@@ -91,6 +98,7 @@ export function markdownToHtml(md, { headingShift = 0 } = {}) {
 // Plain text for meta descriptions, JSON-LD and RSS.
 export function stripMarkdown(md) {
   return md
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/[*_`#>|]/g, "")
     .replace(/\s+/g, " ")

@@ -14,6 +14,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const postsDir = path.join(here, "posts");
+const imagesDir = path.join(here, "images");
 const dist = path.join(here, "dist-blog");
 
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
@@ -71,6 +72,8 @@ th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-ali
 th{background:var(--surface)}
 blockquote{margin:1em 0;padding:4px 16px;border-left:3px solid var(--line);color:var(--muted)}
 code{background:var(--surface);padding:1px 5px;border-radius:3px}
+img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
+.cover{margin:0 0 20px}
 .post-list{list-style:none;padding:0;margin:0}
 .post-list li{padding:18px 0;border-bottom:1px solid var(--line)}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
@@ -80,7 +83,7 @@ footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--mut
 footer.site a{color:var(--muted)}
 `;
 
-function page({ title, description, canonical, body, jsonLd = [], type = "website" }) {
+function page({ title, description, canonical, body, jsonLd = [], type = "website", image = "" }) {
   const verify = site.googleSiteVerification
     ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">`
     : "";
@@ -98,7 +101,7 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:site_name" content="${esc(site.title)}">
-<meta name="twitter:card" content="summary">
+${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${href("rss.xml")}">
 ${verify}
 <style>${css}</style>
@@ -143,6 +146,7 @@ const dateLabel = (d) =>
 // ---- Write the site ---------------------------------------------------------
 
 fs.rmSync(dist, { recursive: true, force: true });
+if (fs.existsSync(imagesDir)) fs.cpSync(imagesDir, path.join(dist, "images"), { recursive: true });
 const write = (p, content) => {
   const file = path.join(dist, p);
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -158,6 +162,11 @@ for (const post of posts) {
   const description = post.description || stripMarkdown(body).slice(0, 155);
   const canonical = url(`posts/${post.slug}/`);
   const faqs = faqFromBody(body);
+  // Cover image: "image: images/photo.jpg" in the post header (or a full https URL).
+  const isRemote = /^https?:\/\//.test(post.image ?? "");
+  const imagePath = (post.image ?? "").replace(/^\.?\//, "");
+  const cover = post.image ? (isRemote ? post.image : url(imagePath)) : "";
+  const coverSrc = post.image ? (isRemote ? post.image : href(imagePath)) : "";
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -168,6 +177,7 @@ for (const post of posts) {
       dateModified: post.date,
       author: { "@type": "Person", name: site.author },
       mainEntityOfPage: canonical,
+      ...(cover ? { image: cover } : {}),
       ...(post.keyword ? { keywords: post.keyword } : {}),
     },
   ];
@@ -185,12 +195,14 @@ for (const post of posts) {
       description,
       canonical,
       type: "article",
+      image: cover,
       jsonLd,
       body: `<article>
 <p class="meta"><time datetime="${esc(post.date)}">${dateLabel(post.date)}</time> · ${esc(site.author)}</p>
 <h1>${esc(post.title)}</h1>
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
-${markdownToHtml(body, { headingShift: 1 })}
+${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
+${markdownToHtml(body, { headingShift: 1, imageBase: href() })}
 </article>`,
     }),
   );
