@@ -41,14 +41,22 @@ export function postFromPack(pack, date) {
   const title = pack.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? `Post ${date}`;
   const brief = section(pack, "SEO brief");
   const body = section(pack, "Article");
+  const pin = section(pack, "Pinterest pin");
   const seoTitle = field(brief, "SEO title") || title;
   const description = field(brief, "Meta description");
   const slug = slugify(field(brief, "URL slug") || seoTitle) || date;
   const keyword = field(brief, "Primary keyword");
-  return { title, seoTitle, description, slug, keyword, date, body };
+  const pinTitle = field(pin, "Pin title");
+  const pinDescription = field(pin, "Pin description");
+  const pinBoard = field(pin, "Suggested board");
+  return { title, seoTitle, description, slug, keyword, pinTitle, pinDescription, pinBoard, date, body };
 }
 
-const FIELDS = ["title", "seoTitle", "description", "slug", "keyword", "date", "image", "status"];
+const FIELDS = [
+  "title", "seoTitle", "description", "slug", "keyword",
+  "pinTitle", "pinDescription", "pinBoard",
+  "date", "image", "status",
+];
 
 export function serializePost(post) {
   // Values are written as quoted strings so titles containing ":" stay valid YAML.
