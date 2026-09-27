@@ -87,6 +87,9 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
   const verify = site.googleSiteVerification
     ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">`
     : "";
+  const pinterestVerify = site.pinterestVerification
+    ? `<meta name="p:domain_verify" content="${esc(site.pinterestVerification)}">`
+    : "";
   const ld = jsonLd.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
   return `<!doctype html>
 <html lang="${esc(site.language)}">
@@ -104,6 +107,7 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
 ${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${href("rss.xml")}">
 ${verify}
+${pinterestVerify}
 <style>${css}</style>
 ${ld}
 </head>

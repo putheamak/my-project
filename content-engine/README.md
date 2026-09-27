@@ -89,6 +89,18 @@ Large photos are shrunk automatically when the blog is published, so you can upl
 3. **Tell Google about the blog.** Add a "URL prefix" property for the blog address in [Google Search Console](https://search.google.com/search-console) and choose the "HTML tag" verification method. Paste the `content` value into `googleSiteVerification` in `site.json`, then submit `sitemap.xml` under Sitemaps.
 4. **Add the blog URL to Amazon Associates** (Account Settings → Website and Mobile App List).
 
+### One-time Pinterest setup
+
+Each daily pack includes a ready-to-use **Pinterest pin** (title, description, board name). To post it and have it link back to your blog:
+
+1. **Create a Pinterest business account** (free) at https://www.pinterest.com/business/create/, or convert your existing account under Settings → Account management.
+2. **Claim your website.** In Settings → Claim → Claimed accounts, choose the HTML tag method and enter your blog's URL (the `baseUrl` in `site.json`). Pinterest gives you a `content` value - paste it into `pinterestVerification` in `site.json`, then commit and let the **Publish blog** workflow rebuild the site before you click "Submit" on Pinterest.
+3. **Check Rich Pins.** The blog already emits the Open Graph tags (`og:title`, `og:description`, `og:image`) Pinterest reads for Rich Pins, so once a post is published, validate its URL at https://developers.pinterest.com/tools/url-debugger/ - no extra markup needed.
+4. **Create a board** matching your niche (the pin's suggested board name in each pack is a starting point).
+5. **Add the blog URL to Amazon Associates** (Account Settings → Website and Mobile App List) if you haven't already, and register Pinterest itself as a channel there too (see [Amazon compliance](#amazon-compliance)).
+
+To post a pin: open the day's pack, copy the Pinterest pin's title and description, upload your own photo (never an Amazon product image), and link it to the published blog post's URL.
+
 ### What's built in for SEO and compliance
 
 - Clean URLs, a title tag and meta description from the SEO brief, a canonical link, and Open Graph tags
