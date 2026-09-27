@@ -39,6 +39,21 @@ jobs:
           node-version: 22
       - run: node build-blog.mjs
         working-directory: content-engine
+      # Phone photos are often 3-8 MB. Shrink copies to at most 1600px so pages
+      # load fast; the originals in content-engine/images are left untouched.
+      - name: Shrink large photos
+        working-directory: content-engine/dist-blog
+        run: |
+          if ! command -v mogrify >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick || true
+          fi
+          if command -v mogrify >/dev/null && [ -d images ]; then
+            find images -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) \
+              -exec mogrify -auto-orient -resize '1600x1600>' -strip -quality 82 {} +
+            du -ah images
+          else
+            echo "ImageMagick not available; publishing photos at original size"
+          fi
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

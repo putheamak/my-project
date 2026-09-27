@@ -78,7 +78,7 @@ Use **your own photos** (take them on your phone) or free stock photos from Unsp
    `![Garlic press on a kitchen counter](images/garlic-press.jpg)`
    The text in `[ ]` is the alt text. Describe the photo, since Google reads it. The SEO brief suggests some.
 
-Keep photos under about 300 KB so pages stay fast. Most phones can export a "medium" size.
+Large photos are shrunk automatically when the blog is published, so you can upload them straight from your phone. If Windows hides file extensions, a file renamed to `photo.jpg` may really be `photo.jpg.jpg`. The blog finds it anyway, and the Publish blog log says which file it used.
 
 **A post never goes live if it breaks the rules.** The build skips any published post that still has a **FIX** issue or an unfilled placeholder, and says why in the workflow log. To publish clean posts without approving them, set `"autoPublish": true` in `site.json`, but reviewing each one is safer.
 

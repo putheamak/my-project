@@ -17,7 +17,8 @@ function inline(text, opts = {}) {
   s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
   // ![alt text](images/photo.jpg) - relative paths are relative to the blog root.
   s = s.replace(/!\[([^\]]*)\]\(([^\s)]+)\)/g, (_, alt, src) => {
-    const url = /^https?:\/\//.test(src) ? src : `${opts.imageBase ?? ""}${src.replace(/^\.?\//, "")}`;
+    const local = opts.resolveImage ? opts.resolveImage(src) : src.replace(/^\.?\//, "");
+    const url = /^https?:\/\//.test(src) ? src : `${opts.imageBase ?? ""}${local}`;
     return `<img src="${url}" alt="${alt}" loading="lazy" decoding="async">`;
   });
   s = s.replace(/(?<!!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => {
