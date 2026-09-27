@@ -5,8 +5,8 @@ description: "The best kitchen gadgets under $30 for meal prep, chosen for speed
 slug: "kitchen-gadgets-under-30-meal-prep"
 keyword: "best kitchen gadgets under $30 for meal prep"
 date: "2026-09-27"
-image: ""
-status: "draft"
+image: "images/weeknight-dinner1.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -19,13 +19,13 @@ Below are the tool categories that actually earn their counter space, what each 
 
 The ones that handle volume. A gadget that saves you ten seconds once is a drawer clutterer. A gadget that saves ten seconds forty times in a row is the reason Sunday prep gets done.
 
-- **Handheld pull chopper or manual food chopper** — dice onions, peppers and carrots in seconds with no electrical cord and no blender-sized cleanup. [LINK: search Amazon for "manual pull food chopper"]
-- **Mandoline slicer with a hand guard** — uniform slices for roasted veg, cucumbers and potatoes, which also means everything cooks evenly. [LINK: search Amazon for "adjustable mandoline slicer with hand guard"]
-- **Salad spinner** — washed greens that are actually dry keep far better in the fridge than damp ones. [LINK: search Amazon for "salad spinner"]
-- **Glass meal prep containers with locking lids** — stackable, microwave-safe, and they don't stain. [LINK: search Amazon for "glass meal prep containers with lids"]
-- **Silicone freezer trays for portioning** — freeze sauce, stock, cooked grains or smoothie packs in exact servings. [LINK: search Amazon for "silicone freezer portion tray with lid"]
-- **Digital kitchen scale** — the fastest way to portion protein and grains evenly without eyeballing six containers. [LINK: search Amazon for "digital kitchen scale"]
-- **Herb stripper and quick-release garlic press** — small tools, but they remove two of the most annoying five-minute jobs. [LINK: search Amazon for "herb stripper garlic press"]
+- **Handheld pull chopper or manual food chopper** — dice onions, peppers and carrots in seconds with no electrical cord and no blender-sized cleanup. 
+- **Mandoline slicer with a hand guard** — uniform slices for roasted veg, cucumbers and potatoes, which also means everything cooks evenly.
+- **Salad spinner** — washed greens that are actually dry keep far better in the fridge than damp ones.
+- **Glass meal prep containers with locking lids** — stackable, microwave-safe, and they don't stain. 
+- **Silicone freezer trays for portioning** — freeze sauce, stock, cooked grains or smoothie packs in exact servings.
+- **Digital kitchen scale** — the fastest way to portion protein and grains evenly without eyeballing six containers.
+- **Herb stripper and quick-release garlic press** — small tools, but they remove two of the most annoying five-minute jobs.
 
 Check the current price on Amazon for anything on this list — prices move, and a few of these sit right around the thirty-dollar line depending on size and set.
 
