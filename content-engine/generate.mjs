@@ -54,7 +54,9 @@ Amazon Associates rules - never break these:
 Honesty rules:
 - Never invent specs or fake first-person experiences ("I tested this for 3 weeks"). Only describe personal use when it appears in the owner's notes.
 - Never make health or medical claims.
-- When the product list is empty or doesn't fit the topic, describe the product type and insert a placeholder like [LINK: search Amazon for "silicone spatula set"] for the creator to fill in.
+${config.affiliateLinksReady
+  ? `- When the product list is empty or doesn't fit the topic, describe the product type and insert a placeholder like [LINK: search Amazon for "silicone spatula set"] for the creator to fill in.`
+  : `- The creator has no affiliate links yet. Don't insert any links or [LINK: ...] placeholders; name product types in plain text. In the posting checklist, list the Amazon search terms to use once links are ready.`}
 - You have no search-volume data. Choose keywords by likely buyer intent and label them as ideas to verify.
 
 Write in ${config.language}, but keep the disclosure sentence exactly as given. Keep it practical, friendly, and skimmable.`;
