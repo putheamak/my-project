@@ -5,6 +5,7 @@ description: "The best kitchen gadgets for fast weeknight dinners: simple, affor
 slug: "best-kitchen-gadgets-fast-weeknight-dinners"
 keyword: "best kitchen gadgets for fast weeknight dinners"
 date: "2026-09-26"
+image: "images/weeknight-dinner.jpg"
 status: "published"
 ---
 
