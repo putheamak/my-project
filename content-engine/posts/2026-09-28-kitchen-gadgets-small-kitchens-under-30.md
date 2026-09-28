@@ -6,7 +6,7 @@ slug: "kitchen-gadgets-small-kitchens-under-30"
 keyword: "best kitchen gadgets for small kitchens under $30 *(keyword idea — verify before posting)*"
 date: "2026-09-28"
 image: ""
-status: "draft"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
