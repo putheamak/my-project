@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 import { markdownToHtml, escapeHtml, stripMarkdown } from "./lib/markdown.mjs";
 import { parsePost } from "./lib/post.mjs";
 import { checkCompliance } from "./compliance.mjs";
+import { resolveImage } from "./lib/images.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
@@ -87,6 +88,9 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
   const verify = site.googleSiteVerification
     ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">`
     : "";
+  const pinterestVerify = site.pinterestVerification
+    ? `<meta name="p:domain_verify" content="${esc(site.pinterestVerification)}">`
+    : "";
   const ld = jsonLd.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
   return `<!doctype html>
 <html lang="${esc(site.language)}">
@@ -104,6 +108,7 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
 ${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${href("rss.xml")}">
 ${verify}
+${pinterestVerify}
 <style>${css}</style>
 ${ld}
 </head>
@@ -140,29 +145,6 @@ function faqFromBody(body) {
   return faqs;
 }
 
-// Finds a local image under images/, forgiving the most common upload mistakes:
-// a doubled extension ("photo.jpg.jpg", from Windows hiding extensions),
-// .jpg vs .jpeg, and upper/lower case. Returns the path to use, or the
-// original path with a warning when nothing matches.
-function resolveImage(src, slug) {
-  const rel = src.replace(/^\.?\//, "");
-  if (!rel || !rel.startsWith("images/")) return rel;
-  if (fs.existsSync(path.join(here, rel))) return rel;
-  const wanted = path.basename(rel).toLowerCase().replace(/\.jpeg$/, ".jpg");
-  const stem = wanted.replace(/\.(jpg|png|webp|gif)$/, "");
-  const files = fs.existsSync(imagesDir) ? fs.readdirSync(imagesDir) : [];
-  const match = files.find((f) => {
-    const name = f.toLowerCase().replace(/\.jpeg/g, ".jpg");
-    return name === wanted || name.startsWith(`${wanted}.`) || name.replace(/(\.(jpg|png|webp|gif))+$/, "") === stem;
-  });
-  if (match) {
-    console.warn(`post ${slug}: using images/${match} for "${src}"`);
-    return `images/${match}`;
-  }
-  console.warn(`post ${slug}: image "${src}" not found in content-engine/images/`);
-  return rel;
-}
-
 const dateLabel = (d) =>
   new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 
@@ -187,7 +169,7 @@ for (const post of posts) {
   const faqs = faqFromBody(body);
   // Cover image: "image: images/photo.jpg" in the post header (or a full https URL).
   const isRemote = /^https?:\/\//.test(post.image ?? "");
-  const imagePath = isRemote ? "" : resolveImage(post.image ?? "", post.slug);
+  const imagePath = isRemote ? "" : resolveImage(imagesDir, post.image ?? "", post.slug);
   const cover = post.image ? (isRemote ? post.image : url(imagePath)) : "";
   const coverSrc = post.image ? (isRemote ? post.image : href(imagePath)) : "";
   const jsonLd = [
@@ -225,7 +207,7 @@ for (const post of posts) {
 <h1>${esc(post.title)}</h1>
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
-${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => resolveImage(src, post.slug) })}
+${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => resolveImage(imagesDir, src, post.slug) })}
 </article>`,
     }),
   );

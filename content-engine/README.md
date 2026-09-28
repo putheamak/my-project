@@ -89,6 +89,38 @@ Large photos are shrunk automatically when the blog is published, so you can upl
 3. **Tell Google about the blog.** Add a "URL prefix" property for the blog address in [Google Search Console](https://search.google.com/search-console) and choose the "HTML tag" verification method. Paste the `content` value into `googleSiteVerification` in `site.json`, then submit `sitemap.xml` under Sitemaps.
 4. **Add the blog URL to Amazon Associates** (Account Settings → Website and Mobile App List).
 
+### One-time Pinterest setup
+
+Each daily pack includes a ready-to-use **Pinterest pin** (title, description, board name), and it's saved onto the matching blog post too (see below). To post pins and have them link back to your blog:
+
+1. **Create a Pinterest business account** (free) at https://www.pinterest.com/business/create/, or convert your existing account under Settings → Account management.
+2. **Claim your website.** In Settings → Claim → Claimed accounts, choose the HTML tag method and enter your blog's URL (the `baseUrl` in `site.json`). Pinterest gives you a `content` value - paste it into `pinterestVerification` in `site.json`, then commit and let the **Publish blog** workflow rebuild the site before you click "Submit" on Pinterest.
+3. **Check Rich Pins.** The blog already emits the Open Graph tags (`og:title`, `og:description`, `og:image`) Pinterest reads for Rich Pins, so once a post is published, validate its URL at https://developers.pinterest.com/tools/url-debugger/ - no extra markup needed.
+4. **Create a board** matching your niche (the pin's suggested board name in each pack is a starting point) and find its **board ID**: open the board on pinterest.com and copy the number from the URL, or list your boards with the API (see below).
+5. **Add the blog URL to Amazon Associates** (Account Settings → Website and Mobile App List) if you haven't already, and register Pinterest itself as a channel there too (see [Amazon compliance](#amazon-compliance)).
+
+To post a pin by hand: open the day's pack, copy the Pinterest pin's title and description, upload your own photo (never an Amazon product image), and link it to the published blog post's URL.
+
+### Auto-posting pins with the Pinterest API
+
+`post-pinterest.mjs` can post a post's saved pin straight to a board through the [Pinterest API](https://developers.pinterest.com/docs/api/v5/) - no copy-pasting. It's off by default; nothing is posted until you turn it on.
+
+**Setup:**
+
+1. Create an app at https://developers.pinterest.com/apps/ and request the `pins:write` scope (`boards:read` too, if you want to look up board IDs through the API).
+2. Generate an access token for that app (the developer portal's own token generator is the quickest way for a single account; for longer-lived access, work through the OAuth flow to get a refresh token instead).
+3. Add secrets to the repo (Settings → Secrets and variables → Actions):
+   - `PINTEREST_ACCESS_TOKEN`, or, if you have a refresh token, `PINTEREST_REFRESH_TOKEN` + `PINTEREST_APP_ID` + `PINTEREST_APP_SECRET` (the script refreshes the token before every run when these three are set, since access tokens expire and this saves you from updating the secret by hand). Check your app's dashboard for its actual token lifetime.
+4. In `site.json`, set `pinterest.boardId` to the board's ID and `pinterest.autoPost` to `true`.
+5. Merge to your default branch. The **Publish blog** workflow runs `post-pinterest.mjs` after every publish.
+
+**What it does and doesn't do:**
+
+- It only pins posts that are `status: "published"` and have a saved `pinTitle`/`pinDescription` (packs generated from here on save these to the post automatically; older posts don't have them - add them to the post's front matter by hand if you want to pin one).
+- It re-runs the same compliance check used everywhere else on the pin's title, description and article body, and skips (never pins) anything with a **FIX**-level issue or an unfilled `[LINK: ...]` placeholder. Fix the pack or post and it's picked up on the next run.
+- Each post is pinned at most once - `output/pinterest-history.json` tracks which slugs have already gone out, and the workflow commits it back after each run.
+- `node post-pinterest.mjs --dry-run` prints what it would post without calling the API, so you can check it locally first.
+
 ### What's built in for SEO and compliance
 
 - Clean URLs, a title tag and meta description from the SEO brief, a canonical link, and Open Graph tags
