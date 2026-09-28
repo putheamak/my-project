@@ -38,6 +38,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_TVC_launch_1oct.mp4` | TVC v1, 1:14 |
 | `khmer_parcel_TVC_launch_1oct_v2.mp4` | v2, 53 s (old demo) |
 | `khmer_parcel_TVC_launch_1oct_v3.mp4` | **v3 — final, 1:09**, real A→B demo, silent track for voiceover |
+| `khmer_parcel_ad_6000riel.mp4` | 35 s animated ad "៦,០០០៛ អាចទិញអ្វីបាន?" — source `tvc-source/scenes_ad_6000riel.html` (scenes: hook, choices, journey, sellers, steps, end) |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
