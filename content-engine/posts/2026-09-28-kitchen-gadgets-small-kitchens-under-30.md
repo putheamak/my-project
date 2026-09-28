@@ -5,7 +5,7 @@ description: "The best kitchen gadgets for small kitchens under $30: compact, mu
 slug: "kitchen-gadgets-small-kitchens-under-30"
 keyword: "best kitchen gadgets for small kitchens under $30 *(keyword idea — verify before posting)*"
 date: "2026-09-28"
-image: ""
+image: "images/small-kitchen-corner.jpg"
 status: "published"
 ---
 
