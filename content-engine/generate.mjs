@@ -103,7 +103,7 @@ ${config.videoScriptsPerDay} scripts for TikTok / YouTube Shorts / Reels, 30-45 
 - Title (at most 70 characters, primary or secondary keyword included).
 - A 3-second hook that says the keyword out loud, because TikTok and YouTube search read speech and on-screen text.
 - Scene-by-scene lines with what to film (the creator's own footage) and the on-screen text.
-- Description with the disclosure and 3-5 relevant hashtags.
+- Description with the disclosure, a call to action sending viewers to the full list on the blog ("full list on my blog - link in bio"), and 3-5 relevant hashtags. Video descriptions never contain Amazon links: links in TikTok captions and YouTube Shorts descriptions aren't clickable.
 
 ## Captions
 One caption per platform (${config.platforms.join(", ")}), with the keyword in the first line, 3-5 relevant hashtags, and the disclosure.

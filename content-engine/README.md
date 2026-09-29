@@ -4,7 +4,7 @@ Every morning this generates one **posting pack** for your affiliate niche:
 
 - an **SEO brief**: target keyword, title, meta description, URL slug, image alt text, internal links
 - an SEO-structured article (blog or Facebook post) with an FAQ section
-- 3 short video scripts (TikTok / YouTube Shorts / Reels) with keyword-first hooks
+- 3 short video scripts (TikTok / YouTube Shorts / Reels) with keyword-first hooks, which you film and post yourself (see [TikTok and YouTube setup](#one-time-tiktok-and-youtube-setup))
 - a caption for each platform, and a Pinterest pin
 - an **automatic Amazon compliance report** at the top
 - a checklist of what to fill in before you post
@@ -120,6 +120,49 @@ To post a pin by hand: open the day's pack, copy the Pinterest pin's title and d
 - It re-runs the same compliance check used everywhere else on the pin's title, description and article body, and skips (never pins) anything with a **FIX**-level issue or an unfilled `[LINK: ...]` placeholder. Fix the pack or post and it's picked up on the next run.
 - Each post is pinned at most once - `output/pinterest-history.json` tracks which slugs have already gone out, and the workflow commits it back after each run.
 - `node post-pinterest.mjs --dry-run` prints what it would post without calling the API, so you can check it locally first.
+
+### One-time TikTok and YouTube setup
+
+Each daily pack has 3 short video scripts. They work on TikTok, YouTube Shorts and Instagram Reels. You film them with your own phone and post them yourself. The videos send people to your blog, and the blog has the product links.
+
+**Before you start:** decide on one handle you can use on both apps, like `smartkitchenpicks`. Use the same profile photo and the same bio on both.
+
+**Bio text you can paste (both apps):**
+> Kitchen gadgets under $30 that save time 🍳 Full lists 👇
+> As an Amazon Associate I earn from qualifying purchases.
+
+#### TikTok
+
+1. Install the TikTok app and tap **Sign up**. Use your email or phone number, not "Continue with Google", so the account doesn't depend on another login.
+2. Tap **Profile** (bottom right) → **Edit profile**. Set your name to "Smart Kitchen Picks", set your username to your handle, and paste the bio.
+3. Switch to a free Business account: **Profile** → ☰ menu (top right) → **Settings and privacy** → **Account** → **Switch to Business Account**. Pick a category such as "Home & Garden" or "Food & Beverage". A Business account gives you analytics and a website link in your bio sooner. It can only use sounds from the **Commercial Music Library**, which is fine for these videos.
+4. Add your blog as the link: **Edit profile** → **Website** → `https://putheamak.github.io/my-project/blog/`. If there's no **Website** field yet, TikTok hasn't unlocked it for your account. Keep posting and check again later. Until then, say "search Smart Kitchen Picks" in your videos instead of "link in bio".
+5. Copy your profile link (**Profile** → ☰ → **Share profile** → **Copy link**). You need it for the last two steps below.
+
+#### YouTube
+
+1. On a computer, go to https://www.youtube.com and sign in with your Google account. Click your profile picture (top right) → **Create a channel**. Set the name to "Smart Kitchen Picks" and the handle to your handle.
+2. Verify your phone number at https://www.youtube.com/verify. This unlocks custom thumbnails and longer videos.
+3. Open https://studio.youtube.com → **Customization** (left menu) → **Profile**. Paste the bio as the description. Under **Links**, click **Add link**, enter title "Blog" and your blog URL, then click **Publish**. On Shorts, this channel link is the one link viewers can click.
+4. Copy your channel link (for example `https://www.youtube.com/@smartkitchenpicks`).
+
+#### Connect everything (do this for both)
+
+1. **Amazon Associates:** go to Associates Central → your name (top right) → **Account Settings** → **Website and Mobile App List** → **Edit**, and add your TikTok and YouTube profile links. Amazon only allows links on channels listed there.
+2. **Blog:** open `site.json` in GitHub, tap the pencil, and paste the links into `social` (for example `"tiktok": "https://www.tiktok.com/@smartkitchenpicks"`). Commit. After the **Publish blog** workflow runs, the blog's footer and About page show "Follow: TikTok · YouTube".
+
+### Posting a video by hand
+
+1. Open the day's pack (`output/YYYY-MM-DD.md`) and pick one script from **Short video scripts**.
+2. Film each scene from the table **vertically**, with your own kitchen and gadgets. Never use Amazon product photos or videos.
+3. Edit the clips in the TikTok app or a free editor like CapCut. Add the **On-screen text** lines as text overlays, and say the **Hook** out loud in the first 3 seconds, because both apps search what's said and shown.
+4. **TikTok:** tap **+**, add the clips, paste the script's **Description** as the caption, and post. Links in captions aren't clickable, so the description points to "link in bio".
+5. **YouTube:** in the YouTube app, tap **+** → **Create a Short**, or upload the same video file at https://studio.youtube.com → **Create** → **Upload videos** (vertical videos up to 3 minutes become Shorts). Paste the script's **Title** and **Description**. For "Made for kids?", choose **No**.
+6. Post the same video to both apps. That's 3 videos a day at most. One a day is plenty to start with.
+
+The disclosure sentence stays in every description, even when there's no link in it, because the videos promote products you earn from.
+
+**Later: automatic posting.** Both platforms have posting APIs, like Pinterest: the TikTok Content Posting API and the YouTube Data API. Both review your app first. Until it's approved, videos posted through the API stay private. And since you still film each video yourself, only the upload step could be automated. Post by hand for a few weeks first to see which videos do well.
 
 ### What's built in for SEO and compliance
 
