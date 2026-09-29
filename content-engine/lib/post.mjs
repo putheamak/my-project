@@ -28,13 +28,25 @@ function section(text, name) {
 }
 
 function field(brief, label) {
-  const m = brief.match(new RegExp(`^\\s*[-*]?\\s*\\**${label}\\**\\s*:\\s*(.+)$`, "im"));
+  const clean = (s) =>
+    s
+      .replace(/\*\*/g, "")
+      .replace(/\s*\(\d+\s*(?:characters?|chars?)\)\s*$/i, "") // drop "(56 characters)" notes
+      .replace(/^["'`]|["'`]$/g, "")
+      .trim();
+  // Tolerate label variants the model sometimes adds a word to (e.g. "Suggested
+  // board name:" instead of "Suggested board:"), and a value placed on the next
+  // line instead of right after the colon (the closing "**" of a bold label can
+  // land on the same line as an otherwise-empty capture, so clean() runs before
+  // checking whether we actually got a value).
+  const m = brief.match(new RegExp(`^\\s*[-*]?\\s*\\**${label}[^:\\n]*\\**\\s*:\\s*(.*)$`, "im"));
   if (!m) return "";
-  return m[1]
-    .replace(/\*\*/g, "")
-    .replace(/\s*\(\d+\s*(?:characters?|chars?)\)\s*$/i, "") // drop "(56 characters)" notes
-    .replace(/^["'`]|["'`]$/g, "")
-    .trim();
+  let value = clean(m[1]);
+  if (!value) {
+    const rest = brief.slice(m.index + m[0].length).trimStart();
+    value = clean(rest.split("\n")[0]);
+  }
+  return value;
 }
 
 export function postFromPack(pack, date) {
