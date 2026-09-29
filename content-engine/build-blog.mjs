@@ -24,6 +24,12 @@ const url = (p = "") => `${baseUrl}/${p}`;
 const href = (p = "") => `${basePath}/${p}`;
 const esc = escapeHtml;
 
+// Social profiles from site.json, shown in the footer and on the About page once filled in.
+const socialNames = { tiktok: "TikTok", youtube: "YouTube", pinterest: "Pinterest" };
+const socials = Object.entries(site.social ?? {})
+  .filter(([key, link]) => socialNames[key] && /^https:\/\//.test(link ?? ""))
+  .map(([key, link]) => `<a href="${esc(link)}" rel="me noopener">${socialNames[key]}</a>`);
+
 // ---- Load and filter posts -------------------------------------------------
 
 const posts = [];
@@ -122,7 +128,7 @@ ${body}
 </div></main>
 <footer class="site"><div class="wrap">
 <p>${esc(disclosure)}</p>
-<p>&copy; ${new Date().getUTCFullYear()} ${esc(site.title)} · <a href="${href("disclosure/")}">Affiliate disclosure</a> · <a href="${href("privacy/")}">Privacy</a> · <a href="${href("rss.xml")}">RSS</a></p>
+${socials.length ? `<p>Follow: ${socials.join(" · ")}</p>\n` : ""}<p>&copy; ${new Date().getUTCFullYear()} ${esc(site.title)} · <a href="${href("disclosure/")}">Affiliate disclosure</a> · <a href="${href("privacy/")}">Privacy</a> · <a href="${href("rss.xml")}">RSS</a></p>
 </div></footer>
 </body>
 </html>
@@ -231,7 +237,7 @@ ${posts.length
 const simple = (slug, title, description, html) =>
   write(`${slug}/index.html`, page({ title: `${title} - ${site.title}`, description, canonical: url(`${slug}/`), body: `<h1>${esc(title)}</h1>\n${html}` }));
 
-simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>`);
+simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}`);
 
 simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 <p><strong>${esc(disclosure)}</strong></p>
