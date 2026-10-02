@@ -13,7 +13,7 @@ As an Amazon Associate I earn from qualifying purchases.
 
 Meal prep falls apart for one reason: the prep part takes forever. Chopping, washing, portioning, labeling — an hour of real work turns into three hours of standing at the counter, and by week two you quit. The best kitchen gadgets under $30 for meal prep don't cook for you; they delete the slow, repetitive steps so you can batch a week of lunches before your coffee gets cold.
 
-Below are the tool categories that actually earn their counter space, what each one is good at, and what to look for before you buy. If you're more interested in same-night cooking, see my earlier post on [Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)](#).
+Below are the tool categories that actually earn their counter space, what each one is good at, and what to look for before you buy. If you're more interested in same-night cooking, see my earlier post on [Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/).
 
 ### What kitchen gadgets actually speed up meal prep?
 

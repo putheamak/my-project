@@ -57,7 +57,7 @@ Each of those has a tool that costs less than a takeout order. Check the current
 
 If you only buy one thing, make it the instant-read thermometer. It changes dinner immediately and it's the tool you'll reach for most. Second, the scale — especially if you bake or portion out meal prep containers. The oven thermometer is third, and it's the cheapest "upgrade" your oven will ever get.
 
-For more tools in the same price range, see my picks for [fast weeknight dinners](#), the [prep and knife-work gadgets](#), and the [meal prep Sunday lineup](#).
+For more tools in the same price range, see my picks for [fast weeknight dinners](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/), the [prep and knife-work gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-chopping-prep/), and the [meal prep Sunday lineup](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/).
 
 ### Frequently asked questions
 
