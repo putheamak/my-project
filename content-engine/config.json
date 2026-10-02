@@ -6,7 +6,7 @@
   "targetKeywords": [],
   "audience": "Busy people who cook at home and want to save time",
   "affiliateProgram": "Amazon Associates",
-  "affiliateLinksReady": false,
+  "affiliateLinksReady": true,
   "disclosure": "As an Amazon Associate I earn from qualifying purchases.",
   "platforms": [
     "Blog / Facebook post",
@@ -17,9 +17,19 @@
   "videoScriptsPerDay": 3,
   "products": [
     {
-      "name": "EXAMPLE - replace me: Digital kitchen scale",
-      "link": "https://amzn.to/your-link-here",
-      "notes": "What you like about it, from your own experience"
+      "name": "Microwave egg poacher (2 eggs)",
+      "link": "https://amzn.to/46YdVyB",
+      "notes": "Haven't used it yet. Picked it for quick, oil-free poached eggs in the microwave, two at a time."
+    },
+    {
+      "name": "Microwave egg cooker",
+      "link": "https://amzn.to/4htE2C8",
+      "notes": "Haven't used it yet. Picked it for cooking eggs quickly in the microwave without using the stove."
+    },
+    {
+      "name": "Handheld milk frother",
+      "link": "https://amzn.to/4hs2w08",
+      "notes": "Haven't used it yet. Picked it for frothing milk for coffee at home in seconds, without a big machine."
     }
   ]
 }
