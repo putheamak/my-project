@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "content-engine/posts/**"
+      - "content-engine/images/**"
       - "content-engine/site.json"
       - "content-engine/config.json"
       - "content-engine/build-blog.mjs"
