@@ -8,7 +8,7 @@ pinTitle: "Best Kitchen Gadgets Under $30 for Chopping Vegetables Fast (8 Prep T
 pinDescription: "Chopping is the slow part of dinner. These 8 kitchen gadgets under $30 speed up prep work: hand-held pull chopper, Y-peeler set, compact mandoline with hand guard, garlic press, herb scissors, kitchen shears, bench scraper and an onion holder. Includes a comparison table of what each tool is best at, what to buy first, and when a chef's knife still wins. Available on Amazon — check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-09-30"
-image: ""
+image: "images/rolfvandewal-knives.jpg"
 status: "published"
 ---
 
