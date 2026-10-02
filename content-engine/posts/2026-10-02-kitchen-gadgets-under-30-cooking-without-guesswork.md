@@ -8,8 +8,8 @@ pinTitle: "Kitchen Gadgets Under $30 for Cooking Without Guesswork"
 pinDescription: "Stop guessing at dinner. These kitchen gadgets under $30 tell you when food is actually done — an instant-read thermometer, a digital kitchen scale, an oven thermometer that shows your oven's real temperature, a magnetic timer and two measuring upgrades. Includes a quick comparison of what each tool is best for and which one to buy first. Available on Amazon — check the current price there. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-10-02"
-image: ""
-status: "draft"
+image: "images/htb888-dumplings.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
