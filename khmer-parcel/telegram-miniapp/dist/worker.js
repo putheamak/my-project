@@ -118,7 +118,10 @@ async function handleSetup(url, env) {
   const hook = await tg(env, "setWebhook", { url: `${base}/bot`, secret_token: env.WEBHOOK_SECRET, allowed_updates: ["message"] });
   const menu = await tg(env, "setChatMenuButton", { menu_button: { type: "web_app", text: "កក់ · Book", web_app: { url: `${base}/` } } });
   const cmds = await tg(env, "setMyCommands", { commands: [{ command: "start", description: "កក់ដឹកឥវ៉ាន់ · Book a delivery" }] });
-  return json({ webhook: hook.ok, menuButton: menu.ok, commands: cmds.ok, groupChatIdSet: !!env.GROUP_CHAT_ID });
+  const result = { webhook: hook.ok, menuButton: menu.ok, commands: cmds.ok, groupChatIdSet: !!env.GROUP_CHAT_ID };
+  if (!hook.ok) result.webhookError = hook.description || "unknown";
+  if (!/^[A-Za-z0-9_-]{1,256}$/.test(env.WEBHOOK_SECRET)) result.hint = "WEBHOOK_SECRET may only contain A-Z a-z 0-9 _ -";
+  return json(result);
 }
 
 // ---------- Telegram initData verification ----------
