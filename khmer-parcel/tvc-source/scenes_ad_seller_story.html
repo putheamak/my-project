@@ -1,0 +1,208 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Khmer Parcel seller story</title>
+<style>
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-400-normal.woff2);font-weight:400;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-700-normal.woff2);font-weight:700;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-400-normal.woff2);font-weight:400;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-700-normal.woff2);font-weight:700;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:Moul;src:url(moul-khmer-400-normal.woff2)}
+:root{--blue:#1a78cf;--navy:#0d3868;--sky:#dff0fc;--orange:#f08a14;--green:#1fa65a;--red:#e53935}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--sky)}
+body{font-family:KP,sans-serif;color:var(--navy)}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.scene.on{display:block}
+.bg-gray{background:radial-gradient(circle at 50% 35%,#f1f3f6 0%,#cfd5de 70%,#a9b2bf 100%)}
+.bg-sky{background:radial-gradient(circle at 50% 40%,#f7fbff 0%,#d4ebfb 55%,#a9d5f5 100%)}
+.bg-blue{background:radial-gradient(circle at 50% 40%,#2a8de0 0%,#1669b8 60%,#0d3f78 100%)}
+.burst{position:absolute;left:50%;top:40%;width:3200px;height:3200px;margin:-1600px 0 0 -1600px;
+  background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.5) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);animation:spin 16s linear both;opacity:.7}
+.bg-blue .burst{background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.12) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);opacity:1}
+@keyframes spin{to{transform:rotate(50deg)}}
+.center{position:absolute;left:0;right:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.moul{font-family:Moul,KP;font-weight:400;line-height:1.55}
+.en{font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.pill{display:inline-flex;align-items:center;gap:18px;border-radius:999px;padding:18px 44px;font-weight:700}
+.orange{background:var(--orange);color:#fff;box-shadow:0 12px 28px rgba(240,138,20,.45)}
+.white{background:#fff;color:var(--navy);box-shadow:0 12px 30px rgba(13,56,104,.2)}
+.logo{width:170px;height:170px;border-radius:40px;background:var(--blue);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 18px 40px rgba(13,56,104,.35),inset 0 0 0 8px rgba(255,255,255,.9)}
+.logo svg{width:108px;height:108px}
+.pop{animation:pop .5s cubic-bezier(.2,1.6,.4,1) both}
+.up{animation:up .5s cubic-bezier(.2,.9,.3,1) both}
+.fade{animation:fade .4s ease both}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes up{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-14px) rotate(-1deg)}40%{transform:translateX(12px) rotate(1deg)}60%{transform:translateX(-8px)}80%{transform:translateX(6px)}}
+@keyframes stamp{0%{transform:scale(3) rotate(-14deg);opacity:0}60%{transform:scale(.92) rotate(-8deg);opacity:1}100%{transform:scale(1) rotate(-8deg);opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+/* phone chat */
+.chat{position:absolute;left:80px;right:80px;top:330px;height:1180px;border-radius:50px;background:#f5f7fa;overflow:hidden;
+  box-shadow:0 30px 70px rgba(13,56,104,.35);border:12px solid #0d1b2e}
+.chat .hd{height:130px;background:#fff;display:flex;align-items:center;gap:22px;padding:0 34px;border-bottom:2px solid #e3e8ef;position:relative}
+.chat .hd b{font-size:38px;display:block;line-height:1.3}
+.chat .hd i{font-style:normal;font-size:24px;color:#7b8ea6}
+.badge{position:absolute;right:30px;top:34px;min-width:76px;height:62px;border-radius:31px;background:var(--red);color:#fff;font-weight:700;font-size:34px;
+  display:flex;align-items:center;justify-content:center;padding:0 16px;box-shadow:0 8px 18px rgba(229,57,53,.45)}
+.msgs{position:absolute;left:0;right:0;top:130px;bottom:0;padding:30px 30px;display:flex;flex-direction:column;gap:22px}
+.b{max-width:640px;padding:20px 30px;border-radius:34px;font-size:38px;line-height:1.45;animation:up .4s cubic-bezier(.2,.9,.3,1) both}
+.in{align-self:flex-start;background:#fff;border-bottom-left-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06)}
+.me{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:10px}
+.sys{align-self:center;background:#e6f4ea;color:#17703c;font-size:30px;font-weight:700;border-radius:999px;padding:14px 30px}
+.av{width:84px;height:84px;border-radius:50%;flex:none;overflow:hidden}
+/* call overlay */
+.call{position:absolute;left:80px;right:80px;top:330px;height:1180px;border-radius:50px;background:linear-gradient(#1d2b44,#0d1b2e);border:12px solid #0d1b2e;
+  display:flex;flex-direction:column;align-items:center;padding-top:110px;color:#fff;animation:fade .3s ease both}
+.ring{animation:ring .8s ease-in-out infinite both}
+@keyframes ring{0%,100%{transform:rotate(0)}25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+.cap{background:rgba(255,255,255,.12);border-radius:30px;padding:22px 34px;font-size:40px;line-height:1.5;margin-top:26px;max-width:780px}
+/* tracking card in chat */
+.track{align-self:flex-end;width:640px;background:#fff;border-radius:34px;border-bottom-right-radius:10px;overflow:hidden;box-shadow:0 8px 20px rgba(13,56,104,.18);animation:up .4s both}
+.track .top{background:var(--blue);color:#fff;padding:18px 28px;font-size:32px;font-weight:700;display:flex;justify-content:space-between}
+.mini{position:relative;height:300px;background:#eef5fb}
+.mini .rider{position:absolute;left:0;top:0;width:110px;height:72px;margin:-44px 0 0 -55px;offset-path:path('M70 230 C 180 210, 230 120, 330 130 S 500 90, 570 70');offset-rotate:0deg;animation:ride 6s linear both}
+@keyframes ride{from{offset-distance:0%}to{offset-distance:100%}}
+.chip{display:flex;align-items:center;gap:26px;background:#fff;border-radius:36px;padding:26px 36px;box-shadow:0 16px 34px rgba(13,56,104,.2);width:900px;text-align:left}
+.chip .ic{width:110px;height:110px;border-radius:30px;flex:none;display:flex;align-items:center;justify-content:center}
+.chip .ic svg{width:76px;height:76px}
+.chip b{display:block;font-size:46px;line-height:1.4}
+.chip i{font-style:normal;font-size:30px;color:#5d7591}
+.row{display:flex;align-items:center;gap:20px;font-size:48px;font-weight:700;color:#fff}
+.row svg{width:54px;height:54px;flex:none}
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <symbol id="cube" viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/><path d="M8 19l24 13 24-13M32 32v26" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></symbol>
+ <!-- faces -->
+ <symbol id="face" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#ffd9b0"/><path d="M8 52C6 18 30 4 52 4s44 14 40 50c-6-16-14-24-26-28C54 34 30 34 8 52Z" fill="#2b1d16"/><circle cx="36" cy="56" r="5" fill="#2b1d16"/><circle cx="64" cy="56" r="5" fill="#2b1d16"/></symbol>
+ <symbol id="sad" viewBox="0 0 100 100"><use href="#face"/><path d="M36 82c8-8 20-8 28 0" fill="none" stroke="#b5482a" stroke-width="5" stroke-linecap="round"/><path d="M26 44l14 4M74 44l-14 4" stroke="#2b1d16" stroke-width="4" stroke-linecap="round"/><path d="M80 30c4 6 4 10 0 14-4-4-4-8 0-14Z" fill="#6bb6f0"/></symbol>
+ <symbol id="happy" viewBox="0 0 100 100"><use href="#face"/><path d="M32 72c10 12 26 12 36 0" fill="none" stroke="#b5482a" stroke-width="5" stroke-linecap="round"/><circle cx="26" cy="68" r="6" fill="#ff9e9e" opacity=".7"/><circle cx="74" cy="68" r="6" fill="#ff9e9e" opacity=".7"/></symbol>
+ <symbol id="cust" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#c9e3f7"/><circle cx="50" cy="40" r="18" fill="#7a95b3"/><path d="M18 90c4-22 60-22 64 0" fill="#7a95b3"/></symbol>
+ <symbol id="rider" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#ffe2bf"/><circle cx="50" cy="48" r="20" fill="#ffd9b0"/><path d="M28 44c0-16 10-24 22-24s22 8 22 24Z" fill="#f08a14"/><path d="M24 44h52" stroke="#c96400" stroke-width="5"/><path d="M20 92c4-18 56-18 60 0" fill="#1a78cf"/></symbol>
+ <symbol id="scooter" viewBox="0 0 200 130"><circle cx="45" cy="105" r="22" fill="#0d3868"/><circle cx="45" cy="105" r="9" fill="#9fb8d3"/><circle cx="160" cy="105" r="22" fill="#0d3868"/><circle cx="160" cy="105" r="9" fill="#9fb8d3"/><path d="M30 95c0-25 20-38 55-38h40l20 38Z" fill="#1a9bd8"/><path d="M125 57l15-35h14l-8 38" fill="#1a9bd8"/><rect x="138" y="16" width="26" height="8" rx="4" fill="#0d3868"/><rect x="40" y="18" width="62" height="46" rx="6" fill="#f08a14"/><circle cx="118" cy="30" r="15" fill="#0d3868"/><path d="M105 42h25l-5 18h-22Z" fill="#e8492f"/></symbol>
+ <symbol id="pin" viewBox="0 0 64 64"><path d="M32 4C20 4 11 13 11 25c0 16 21 35 21 35s21-19 21-35C53 13 44 4 32 4Z" fill="#e53935"/><circle cx="32" cy="25" r="8" fill="#fff"/></symbol>
+ <symbol id="callic" viewBox="0 0 64 64"><path d="M20 6c2 0 4 1 5 3l5 10c1 2 0 4-1 6l-4 4c3 7 9 13 16 16l4-4c2-1 4-2 6-1l10 5c2 1 3 3 3 5v7c0 3-3 6-6 6C30 63 1 34 1 6c0-3 3-6 6-6Z" transform="translate(3 2) scale(.9)" fill="#fff"/></symbol>
+ <symbol id="heart" viewBox="0 0 64 64"><path d="M32 56S6 40 6 22C6 13 13 7 21 7c5 0 9 3 11 7 2-4 6-7 11-7 8 0 15 6 15 15 0 18-26 34-26 34Z" fill="#e53935"/></symbol>
+ <symbol id="star" viewBox="0 0 64 64"><path d="M32 4l8 18 20 2-15 13 5 20-18-11-18 11 5-20L4 24l20-2Z" fill="#ffb300"/></symbol>
+ <symbol id="eye" viewBox="0 0 64 64"><path d="M4 32s10-18 28-18 28 18 28 18-10 18-28 18S4 32 4 32Z" fill="none" stroke="#fff" stroke-width="5"/><circle cx="32" cy="32" r="8" fill="#fff"/></symbol>
+ <symbol id="coin" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#fff" stroke-width="5"/><path d="M38 22c-2-3-12-4-12 3s14 4 14 11-11 7-14 3M32 15v34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></symbol>
+ <symbol id="phone" viewBox="0 0 64 64"><use href="#callic"/></symbol>
+ <symbol id="tg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#29a9eb"/><path d="M14 31l32-13c2-1 3 0 3 2l-5 25c0 2-2 2-3 1l-8-6-4 4c-1 1-2 0-2-1l1-7 14-13-18 11-8-2c-2-1-2-2 0-3Z" fill="#fff"/></symbol>
+ <symbol id="globe" viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" fill="none" stroke="#fff" stroke-width="5"/><path d="M5 32h54M32 5c-9 9-9 45 0 54M32 5c9 9 9 45 0 54" fill="none" stroke="#fff" stroke-width="4"/></symbol>
+</defs></svg>
+
+<!-- A PAIN 13.5s -->
+<section class="scene bg-gray" id="pain">
+  <div class="center" style="top:90px">
+    <div class="moul up" style="font-size:72px">អ្នកលក់អនឡាញ</div>
+    <div class="moul up" style="animation-delay:.2s;font-size:72px;color:var(--red);margin-top:-14px">ធ្លាប់ជួបទេ?</div>
+  </div>
+  <div class="chat" style="animation:shake .5s 3.3s both">
+    <div class="hd"><svg class="av"><use href="#cust"/></svg><span><b>អតិថិជន</b><i>Customer · online</i></span>
+      <div class="badge pop" id="badge" style="animation-delay:.6s">1</div></div>
+    <div class="msgs">
+      <div class="b in" style="animation-delay:.6s">បង ឥវ៉ាន់ខ្ញុំដល់ណាហើយ?</div>
+      <div class="b in" style="animation-delay:1.4s">ថ្ងៃនេះទទួលបានទេបង?</div>
+      <div class="b in" style="animation-delay:2.1s">អ្នកដឹកលេខប៉ុន្មានបង?</div>
+      <div class="b in" style="animation-delay:2.7s">ចាំយូរណាស់ហើយ...</div>
+      <div class="b in" style="animation-delay:3.2s">បង???</div>
+    </div>
+  </div>
+  <!-- rider call -->
+  <div class="call" style="animation-delay:5.2s">
+    <svg class="av ring" style="width:220px;height:220px;animation-delay:5.2s"><use href="#rider"/></svg>
+    <div style="font-size:48px;font-weight:700;margin-top:30px">អ្នកដឹក កំពុងហៅ...</div>
+    <div style="font-size:28px;color:#9fb8d3" class="en">Rider calling</div>
+    <div class="cap up" style="animation-delay:6.2s">«ផ្ទះបងនៅក្បែរវត្តមែនទេ?»</div>
+    <div class="cap up" style="animation-delay:7.4s">«តែ...វត្តណាបង?»</div>
+    <div class="cap up" style="animation-delay:8.6s;background:rgba(229,57,53,.35)">«រកផ្ទះមិនឃើញទេបង!»</div>
+  </div>
+  <!-- stressed seller + stamp -->
+  <div class="center" style="top:1180px"><svg class="pop" style="width:300px;height:300px;animation-delay:10.2s"><use href="#sad"/></svg></div>
+  <div class="center" style="top:760px"><div class="moul" style="animation:stamp .5s 10.6s both;font-size:110px;color:var(--red);border:12px solid var(--red);border-radius:30px;padding:0 50px;background:rgba(255,255,255,.9)">ឈឺក្បាលណាស់!</div></div>
+</section>
+
+<!-- B TURN 3.2s -->
+<section class="scene bg-blue" id="turn">
+  <div class="burst"></div>
+  <div class="center" style="top:520px">
+    <div class="moul up" style="font-size:66px;color:#bfe3ff">ឈប់ឈឺក្បាល!</div>
+    <div class="logo pop" style="animation-delay:.4s;margin-top:40px"><svg><use href="#cube"/></svg></div>
+    <div class="moul up" style="animation-delay:.7s;font-size:90px;color:#fff;margin-top:40px">ប្តូរមកប្រើ</div>
+    <div class="moul up" style="animation-delay:.9s;font-size:110px;color:#ffd08a;margin-top:-10px">ខ្មែរផាសែល</div>
+  </div>
+</section>
+
+<!-- C SOLUTION 13.5s -->
+<section class="scene bg-sky" id="solve">
+  <div class="burst"></div>
+  <div class="center" style="top:110px"><div class="pill orange up" style="font-size:42px">ឥឡូវ... ស្ងប់ចិត្តហើយ</div></div>
+  <div class="chat">
+    <div class="hd"><svg class="av"><use href="#cust"/></svg><span><b>អតិថិជន</b><i>Customer · online</i></span></div>
+    <div class="msgs">
+      <div class="b in" style="animation-delay:.4s">បង ឥវ៉ាន់ខ្ញុំដល់ណាហើយ?</div>
+      <div class="track" style="animation-delay:1.3s">
+        <div class="top"><span>KP6229BC</span><span>តាមដានផ្ទាល់ ●</span></div>
+        <div class="mini">
+          <svg viewBox="0 0 640 300" width="640" height="300" style="position:absolute;inset:0">
+            <g stroke="#fff" stroke-width="16" fill="none"><path d="M0 90H640M0 200H640M150 0V300M420 0V300"/></g>
+            <path d="M70 230 C 180 210, 230 120, 330 130 S 500 90, 570 70" fill="none" stroke="#1a78cf" stroke-width="8" stroke-dasharray="14 12"/>
+          </svg>
+          <svg style="position:absolute;left:540px;top:20px;width:60px;height:60px"><use href="#pin"/></svg>
+          <svg class="rider" style="animation-delay:1.6s"><use href="#scooter"/></svg>
+        </div>
+      </div>
+      <div class="b in" style="animation-delay:3.4s">ឃើញហើយ! អ្នកដឹកជិតដល់ហើយ</div>
+      <div class="b sys" style="animation-delay:6.2s">អ្នកដឹកដល់ ត្រង់ទីតាំងដែលបានដៅ</div>
+      <div class="b in" style="animation-delay:7.4s;display:flex;align-items:center;gap:14px">ទទួលបានហើយ! អរគុណបង <svg style="width:48px;height:48px"><use href="#heart"/></svg></div>
+      <div class="b in pop" style="animation-delay:8.6s;display:flex;gap:6px;padding:16px 26px">
+        <svg style="width:56px;height:56px"><use href="#star"/></svg><svg style="width:56px;height:56px"><use href="#star"/></svg><svg style="width:56px;height:56px"><use href="#star"/></svg><svg style="width:56px;height:56px"><use href="#star"/></svg><svg style="width:56px;height:56px"><use href="#star"/></svg></div>
+    </div>
+  </div>
+  <div class="center" style="top:1540px"><svg class="pop" style="width:240px;height:240px;animation:pop .5s 9.6s cubic-bezier(.2,1.6,.4,1) both,float 1.4s 10.1s ease-in-out infinite both"><use href="#happy"/></svg></div>
+</section>
+
+<!-- D BENEFITS 6.5s -->
+<section class="scene bg-sky" id="benefits">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="moul up" style="font-size:76px">ហេតុអ្វីអ្នកលក់</div>
+    <div class="moul up" style="animation-delay:.15s;font-size:76px;color:var(--blue);margin-top:-10px">ជ្រើសខ្មែរផាសែល?</div>
+  </div>
+  <div class="center" style="top:560px;gap:34px">
+    <div class="chip up" style="animation-delay:.6s"><span class="ic" style="background:#ffe3e2"><svg><use href="#pin"/></svg></span><span><b>ដៅទីតាំងលើផែនទី</b><i>អ្នកដឹករកផ្ទះត្រូវ · Exact map pin</i></span></div>
+    <div class="chip up" style="animation-delay:1.4s"><span class="ic" style="background:var(--blue)"><svg><use href="#eye"/></svg></span><span><b>តាមដានផ្ទាល់ ១០០%</b><i>អតិថិជនមើលខ្លួនឯងបាន · Live tracking</i></span></div>
+    <div class="chip up" style="animation-delay:2.2s"><span class="ic" style="background:var(--orange)"><svg><use href="#coin"/></svg></span><span><b>ត្រឹមតែ ៣,០០០៛ / ជើង</b><i>បង់ COD ឬ QR · Online seller rate</i></span></div>
+  </div>
+  <div class="center" style="top:1330px"><div class="pill white pop" style="animation-delay:3.2s;font-size:38px">ផ្ទះដល់ផ្ទះ ចាប់ពី $1.50 · Door to Door</div></div>
+</section>
+
+<!-- E CTA 6.8s -->
+<section class="scene bg-blue" id="cta">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="logo pop"><svg><use href="#cube"/></svg></div>
+    <div class="moul up" style="animation-delay:.3s;font-size:96px;color:#fff;margin-top:34px">ខ្មែរផាសែល</div>
+    <div class="pill orange pop" style="animation-delay:.7s;font-size:46px;margin-top:30px">បើកដំណើរការហើយ!</div>
+    <div class="moul up" style="animation-delay:1.1s;font-size:62px;color:#ffd08a;margin-top:40px">ផ្ញើកញ្ចប់ដំបូង ថ្ងៃនេះ</div>
+  </div>
+  <div class="center" style="top:1060px;gap:30px">
+    <div class="pill white up" style="animation-delay:1.6s;font-size:46px;padding:22px 56px;color:var(--blue)"><svg style="width:56px;height:56px"><use href="#tg"/></svg>Telegram 098 429 597</div>
+    <div class="row up" style="animation-delay:1.9s"><svg><use href="#phone"/></svg>012 429 597 · 092 678 657</div>
+    <div class="row up" style="animation-delay:2.15s"><svg><use href="#globe"/></svg>www.khmerparcel.com</div>
+  </div>
+</section>
+
+<script>
+const hooks={pain:t=>{
+  const b=document.getElementById('badge');
+  const n=t<1.4?1:t<2.1?2:t<2.7?3:t<3.2?4:t<3.6?5:Math.min(99,Math.round(5+(t-3.6)*60));
+  b.textContent=n>=99?'99+':String(n);
+}};
+let cur=null;
+window.showScene=async id=>{cur=id;document.querySelectorAll('.scene').forEach(s=>s.classList.toggle('on',s.id===id));
+  await document.fonts.ready;document.getAnimations().forEach(a=>a.pause());return true};
+window.seek=t=>{for(const a of document.getAnimations()){a.pause();a.currentTime=t*1000} if(hooks[cur])hooks[cur](t)};
+</script>
+</body></html>
