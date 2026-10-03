@@ -77,3 +77,5 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 ## Telegram mini app (online sellers)
 - Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 deliveries 2,000៛ per Telegram account (KV `KP`), optional `OFFER_END`
 - Setup steps in its README; Door to Door stays on the website
+- **Live (Oct 2026):** https://khmer-parcel-bot.putheamak.workers.dev — test booking reached the office group
+- Reuse for other projects: new bot + new Worker + new group each time; edit texts/prices/fields in `src/`, run `node build.mjs`, paste `dist/worker.js` once
