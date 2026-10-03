@@ -29,27 +29,27 @@ A gadget saves time when it replaces a slow manual step *and* cleans up fast. Us
 
 **A garlic press.** Peeling and mincing garlic is the slowest part of most quick dinners. A press turns it into a three-second step.
 
+Two worth a look: the [304 stainless steel garlic press](https://amzn.to/4xW41Zr), or the [Zulay large garlic press](https://amzn.to/4zhnyoi), which comes with a peeler and a cleaning brush. If you'd rather have thin slices for stir-fries, the [OXO Good Grips garlic slicer](https://amzn.to/3U1hRM5) does that instead.
 
 **An adjustable mandoline slicer.** Even slices of potato, cucumber or onion in a fraction of the knife time. Always use the hand guard it comes with.
 
+The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) is the compact option. If you also want to dice, the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) does both.
+
+**A box or rotary grater.** Shredded cheese, carrots and zucchini in seconds instead of buying pre-shredded. The [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) catches everything in its own container, so there's no board to clean. The [Geedel rotary cheese grater](https://amzn.to/4hDUm3j) is a hand-crank style that keeps your knuckles away from the blades.
 
 **A pair of kitchen shears.** Faster than a knife for herbs, scallions, bacon, and opening packaging. Look for a pair that comes apart for washing.
 
-
 **A salad spinner.** Washed greens that are actually dry means dressing sticks and salad becomes a five-minute side instead of a project.
 
+The [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) is the simple classic. The [SUSTEAS salad spinner](https://amzn.to/4hAJ2oF) adds slicer blades, so one bowl washes, dries and slices.
 
 **A digital instant-read thermometer.** Stops the guessing on chicken and pork, which is where most weeknight cooks lose time hovering over the pan.
 
-
 **A handheld citrus juicer.** Fresh lemon or lime finishes a dish in seconds and turns leftovers into something that tastes new.
-
 
 **Silicone-edged spatula / spoonula.** One tool for stirring, scraping and serving means one fewer dish.
 
-
-**Stackable prep bowls or glass containers.** The real weeknight hack: chop once on Sunday, cook fast all week.
-
+**Stackable prep bowls or glass containers.** The real weeknight hack: chop once on Sunday, cook fast all week. Try the [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF), or go lighter with the [Rubbermaid Brilliance plastic containers](https://amzn.to/3U7ZlSa).
 
 ### Which gadget should I buy first?
 
@@ -57,6 +57,7 @@ A gadget saves time when it replaces a slow manual step *and* cleans up fast. Us
 |---|---|---|---|
 | Garlic press | Mince garlic instantly | Anyone who cooks savory food nightly | Rinse right away; most are dishwasher safe |
 | Mandoline slicer | Fast, even slices | Gratins, stir-fry, big salads | Rinse immediately, store blade guarded |
+| Box or rotary grater | Shred cheese and veg | Tacos, pasta, salads | Rinse the blade right away |
 | Kitchen shears | Cut herbs, meat, packaging | Small kitchens, few knives | Separates for easy washing |
 | Salad spinner | Dry washed greens | Salad-heavy households | Bowl doubles as a serving bowl |
 | Instant-read thermometer | Check doneness fast | Chicken, pork, steak nights | Wipe the probe |
@@ -88,6 +89,6 @@ Only if you slice a lot. A mandoline shines for uniform slices in bulk — potat
 
 Read the product description and specifications for materials, size and whether it's dishwasher safe, and check the current price on Amazon before deciding.
 
-Ready to speed up your weeknights? Pick one gadget from the list above, fill in the link for the version you like, and see how many minutes you get back this week. All of these are available on Amazon.
+Ready to speed up your weeknights? Pick one gadget from the list above, check the current price on Amazon, and see how many minutes you get back this week.
 
 ---
