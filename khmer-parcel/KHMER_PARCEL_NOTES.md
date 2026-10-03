@@ -65,7 +65,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 
 - `khmer-parcel/tvc-source/scenes.html` — animated scenes (hook, track, services, poster, demo2, end) in HTML/CSS
 - `render.cjs` — Playwright script that captures each scene frame by frame:
-  `NODE_PATH=$(npm root -g) node render.js <scene> <seconds> <outdir>`
+  `SCENES=<file>.html NODE_PATH=$(npm root -g) node render.cjs <scene> <seconds> <outdir>`
 - Frames are joined with the source clips using ffmpeg (xfade transitions, 30 fps, 1080×1920)
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
 
