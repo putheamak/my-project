@@ -40,6 +40,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_TVC_launch_1oct_v3.mp4` | **v3 — final, 1:09**, real A→B demo, silent track for voiceover |
 | `khmer_parcel_ad_6000riel.mp4` | 35 s animated ad "៦,០០០៛ អាចទិញអ្វីបាន?" — source `tvc-source/scenes_ad_6000riel.html` (scenes: hook, choices, journey, sellers, steps, end) |
 | `khmer_parcel_ad_seller_story.mp4` | 41 s post-launch story ad "អ្នកលក់អនឡាញ ធ្លាប់ជួបទេ?" (pain → switch → calm chat → benefits → CTA) — source `tvc-source/scenes_ad_seller_story.html` (scenes: pain, turn, solve, benefits, cta) |
+| `khmer_parcel_ad_seller_story_offer2000.mp4` | 47 s seller story + offer scene (first 3 deliveries 2,000៛, online sellers only, claim via Telegram); Door to Door = self-booking on website, system price |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
@@ -65,3 +66,10 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
   `NODE_PATH=$(npm root -g) node render.js <scene> <seconds> <outdir>`
 - Frames are joined with the source clips using ffmpeg (xfade transitions, 30 fps, 1080×1920)
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
+
+## Results & decisions (Oct 2026)
+- Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44
+- Drop-off at 0:17 of the 6,000៛ ad (switch to seller scene) → made 29 s door-to-door-only cut
+- Offer: **first 3 online-seller deliveries at 2,000៛** (normal 3,000៛)
+- Door to Door: customers book themselves on khmerparcel.com; price calculated by the system
+- Riders: pay per delivery, no salary until ~30 orders/day
