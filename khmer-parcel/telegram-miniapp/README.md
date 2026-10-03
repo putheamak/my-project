@@ -36,7 +36,7 @@ and the booking is posted to your **office Telegram group**. The seller gets a b
    | Name | Type | Value |
    |---|---|---|
    | `BOT_TOKEN` | Secret | the token from BotFather |
-   | `WEBHOOK_SECRET` | Secret | any long random text, e.g. `kp-2026-x8Jq...` |
+   | `WEBHOOK_SECRET` | Secret | 30+ characters using only letters, numbers, `-` and `_` (no spaces), e.g. `kp_2026_x8Jq...` |
    | `GROUP_CHAT_ID` | Secret | fill in at step 5 |
    | `OFFER_END` | Text | optional, last day of the offer, e.g. `2026-10-31` |
 5. **Offer counter (recommended):** **Storage & Databases → KV → Create** a namespace `khmer-parcel`. Then in the Worker: **Settings → Bindings → Add → KV namespace**, variable name **`KP`**, pick `khmer-parcel`. Without this, everyone always sees the 2,000៛ price until `OFFER_END`.
@@ -49,7 +49,7 @@ https://khmer-parcel-bot.<you>.workers.dev/setup?key=<WEBHOOK_SECRET>
 You should see `"webhook":true,"menuButton":true`.
 
 ### 5. Get the group ID
-1. In your office group, send `/chatid`. The bot replies `Chat ID: -100…`.
+1. In your office group, send `/chatid@YourBotUsername` (with your bot's username — groups only pass commands addressed to the bot). The bot replies `Chat ID: -…`.
 2. Copy that number into the `GROUP_CHAT_ID` secret (step 3.4) and save.
 
 ### 6. Test
