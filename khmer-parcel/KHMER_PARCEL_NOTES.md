@@ -73,3 +73,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Offer: **first 3 online-seller deliveries at 2,000៛** (normal 3,000៛)
 - Door to Door: customers book themselves on khmerparcel.com; price calculated by the system
 - Riders: pay per delivery, no salary until ~30 orders/day
+
+## Telegram mini app (online sellers)
+- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 deliveries 2,000៛ per Telegram account (KV `KP`), optional `OFFER_END`
+- Setup steps in its README; Door to Door stays on the website
