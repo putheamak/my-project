@@ -1,0 +1,13 @@
+{
+  "html": "scenes_ad_6000riel.html",
+  "out": "../khmer_parcel_ad_6000riel.mp4",
+  "xfade": 0.35,
+  "segments": [
+    {"scene": "hook", "dur": 3.6, "next": "slideleft"},
+    {"scene": "choices", "dur": 6.6, "next": "fade"},
+    {"scene": "journey", "dur": 8.2, "next": "wipeup"},
+    {"scene": "sellers", "dur": 5.6, "next": "slideleft"},
+    {"scene": "steps", "dur": 6.2, "next": "fade"},
+    {"scene": "end", "dur": 6.5}
+  ]
+}

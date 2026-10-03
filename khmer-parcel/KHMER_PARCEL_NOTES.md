@@ -61,8 +61,10 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Website: Telegram button and Khmer SEO still to add
 
 ## How the TVC was built (to edit it again)
+> **Now superseded by the kit:** `khmer-parcel/tvc-source/README.md` (`setup.sh`, `make_tvc.py`, `specs/`). Daily plan: `khmer-parcel/TVC_IDEAS_30_DAYS.md`.
+
 - `khmer-parcel/tvc-source/scenes.html` — animated scenes (hook, track, services, poster, demo2, end) in HTML/CSS
-- `render.js` — Playwright script that captures each scene frame by frame:
+- `render.cjs` — Playwright script that captures each scene frame by frame:
   `NODE_PATH=$(npm root -g) node render.js <scene> <seconds> <outdir>`
 - Frames are joined with the source clips using ffmpeg (xfade transitions, 30 fps, 1080×1920)
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)

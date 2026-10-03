@@ -1,4 +1,4 @@
-// usage: node render.js <scene> <seconds> <outdir> [fps] | node render.js preview <scene> <t1,t2,...>
+// usage: node render.cjs <scene> <seconds> <outdir> [fps] | node render.cjs preview <scene> <t1,t2,...>
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
