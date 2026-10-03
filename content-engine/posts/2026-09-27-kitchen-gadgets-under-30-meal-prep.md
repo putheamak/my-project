@@ -19,13 +19,14 @@ Below are the tool categories that actually earn their counter space, what each 
 
 The ones that handle volume. A gadget that saves you ten seconds once is a drawer clutterer. A gadget that saves ten seconds forty times in a row is the reason Sunday prep gets done.
 
-- **Handheld pull chopper or manual food chopper** — dice onions, peppers and carrots in seconds with no electrical cord and no blender-sized cleanup. 
-- **Mandoline slicer with a hand guard** — uniform slices for roasted veg, cucumbers and potatoes, which also means everything cooks evenly.
-- **Salad spinner** — washed greens that are actually dry keep far better in the fridge than damp ones.
-- **Glass meal prep containers with locking lids** — stackable, microwave-safe, and they don't stain. 
-- **Silicone freezer trays for portioning** — freeze sauce, stock, cooked grains or smoothie packs in exact servings.
-- **Digital kitchen scale** — the fastest way to portion protein and grains evenly without eyeballing six containers.
-- **Herb stripper and quick-release garlic press** — small tools, but they remove two of the most annoying five-minute jobs.
+- **Handheld pull chopper or manual food chopper** — dice onions, peppers and carrots in seconds with no electrical cord and no blender-sized cleanup. The [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj) is the hand-powered pick; the [BLACK+DECKER 1.5-cup electric chopper](https://amzn.to/4dOMkna) does the same job at the push of a button.
+- **Mandoline slicer with a hand guard** — uniform slices for roasted veg, cucumbers and potatoes, which also means everything cooks evenly. The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) stores flat; the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) adds a dicing grid.
+- **Salad spinner** — washed greens that are actually dry keep far better in the fridge than damp ones. The [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) is a reliable, roomy pick.
+- **Glass meal prep containers with locking lids** — stackable, microwave-safe, and they don't stain. The [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) come in a 5-pack, enough for a work week.
+- **Silicone freezer trays for portioning** — freeze sauce, stock, cooked grains or smoothie packs in exact servings. A [silicone freezer tray with lid](https://amzn.to/4y4ZmED) handles soup and grain portions; [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r) are the right size for sauces, pesto and stock.
+- **Digital kitchen scale** — the fastest way to portion protein and grains evenly without eyeballing six containers. The [Etekcity rechargeable kitchen scale](https://amzn.to/4hqXAsj) charges by USB and is waterproof, so it wipes clean after raw meat; the [22 lb digital food scale](https://amzn.to/4jCDT23) is a simpler alternative.
+- **Herb stripper and quick-release garlic press** — small tools, but they remove two of the most annoying five-minute jobs. The [Zulay large garlic press](https://amzn.to/4zhnyoi) comes with its own peeler and cleaning brush.
+- **A large cutting board** — room to chop a whole week of vegetables without stopping to clear the board. The [Royal Craft Wood cutting boards](https://amzn.to/47wW5CV) are big enough to prep and serve on.
 
 Check the current price on Amazon for anything on this list — prices move, and a few of these sit right around the thirty-dollar line depending on size and set.
 
@@ -38,6 +39,7 @@ Check the current price on Amazon for anything on this list — prices move, and
 | Salad spinner | Greens and herbs | Washing + drying in one bowl | Dishwasher parts | Bulky |
 | Glass containers | Fridge lunches, reheating | Portion once, grab daily | Dishwasher | Stackable |
 | Silicone freezer tray | Sauces, stock, grains | Thaw one serving | Dishwasher | Flat in freezer |
+| Large cutting board | Batch chopping | Fewer stops to clear space | Hand wash, oil now and then | Stands on its side |
 | Kitchen scale | Even portions | No re-scooping | Wipe down | Very small |
 
 Start with the chopper and the containers. Those two cover the two hours most people waste: cutting and packing.
@@ -46,9 +48,9 @@ Start with the chopper and the containers. Those two cover the two hours most pe
 
 A food processor is great and also a chore — the bowl, lid, blade and pusher all need washing. For most weekly prep you can skip it:
 
-- Use a **manual pull chopper** for anything you'd pulse.
+- Use a **manual pull chopper** for anything you'd pulse, or a small electric one like the [BLACK+DECKER 1.5-cup electric chopper](https://amzn.to/4dOMkna) if you'd rather press a button.
 - Use a **mandoline** for anything you'd slice-disc.
-- Use a **box grater or rotary grater** for cheese and carrots.
+- Use a **box grater or rotary grater** for cheese and carrots: the [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) or the [Geedel rotary cheese grater](https://amzn.to/4hDUm3j).
 - Grate garlic and ginger on a **microplane** straight into the pan.
 
 Fewer parts, faster setup, and you can prep while the oven preheats instead of after.
@@ -70,7 +72,7 @@ No. A manual chopper plus a decent knife covers the overwhelming majority of wee
 
 #### Are glass or plastic meal prep containers better?
 
-Glass doesn't stain or hold odors and it reheats cleanly, but it's heavy for a commuter bag. Plastic is lighter and cheaper to replace. Many people keep glass for fridge meals at home and a couple of light containers for work lunches.
+Glass doesn't stain or hold odors and it reheats cleanly, but it's heavy for a commuter bag. Plastic is lighter and cheaper to replace. Many people keep glass for fridge meals at home, like the [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF), and a couple of light containers for work lunches, like the [Rubbermaid Brilliance plastic containers](https://amzn.to/3U7ZlSa).
 
 #### How long does prepped food last in the fridge?
 
