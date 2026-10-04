@@ -9,7 +9,7 @@ pinDescription: "Skip the drive-thru line. These kitchen gadgets build a full co
 pinBoard: "Fast Breakfasts & Small Kitchen Gadgets"
 date: "2026-10-04"
 image: "images/adrianhnt-coffee-shop.jpg"
-status: "draft"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -25,7 +25,7 @@ Break a café breakfast into parts and it gets much less intimidating:
 - **A protein side** — bacon, usually.
 - **Coffee with foam on top**, or a full pot if more than one person is awake.
 
-Four parts, four gadgets. None of them need a stove, and most of them fit in a drawer.
+Four parts, four gadgets. None of them need a stove, and most of them fit in a drawer. (For more stove-free cooking, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).)
 
 ### What's the fastest way to cook eggs without a pan?
 
@@ -69,6 +69,8 @@ A rough running order that keeps everything hot at the same time:
 3. Eggs in the poacher or egg cooker.
 4. Sandwich maker last, so the cheese is melted when you sit down.
 5. Froth the milk while the sandwich finishes.
+
+If you'd rather prep breakfast the night before, my [quick breakfast gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/) cover overnight oats jars, toasters and travel mugs.
 
 ### Frequently asked questions
 
