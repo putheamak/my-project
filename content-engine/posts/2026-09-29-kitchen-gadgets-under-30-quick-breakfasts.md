@@ -37,7 +37,7 @@ These are the gadget types worth having, with a pick or two for each so you can 
 - **Electric milk frother (handheld or whisk-style).** Turns regular coffee into something that feels like a treat, and doubles as a mixer for protein powder or matcha. The [Zulay handheld milk frother](https://amzn.to/3U7di2P) is the classic pick; the [YUSWKO rechargeable frother](https://amzn.to/4e7zeBx) charges by USB instead of using batteries.
 - **Two- or four-slot toaster with a bagel setting.** Unattended cooking while you pack lunches. The [Amazon Basics 2-slice toaster](https://amzn.to/4y5BOzp) has a bagel button and a removable crumb tray; the [BLACK+DECKER 2-slice toaster](https://amzn.to/4hv8Aos) has extra-wide slots too.
 - **Avocado tool or small handheld slicer.** Splits, pits and slices in one motion — fewer knives, fewer cutting boards.
-- **Silicone egg bite or muffin molds.** Bake a batch of egg cups, reheat one per morning.
+- **Silicone egg bite or muffin molds.** Bake a batch of egg cups, reheat one per morning. These [12-cup silicone egg bite molds](https://amzn.to/4z8zubB) make a full week's worth in one tray.
 - **Immersion blender (stick blender).** Smoothies straight into the cup you're drinking from, no blender jar to wash. The [KOIOS 3-in-1 immersion blender](https://amzn.to/4hrKBGK) also comes with a whisk and frother attachment.
 - **Insulated travel mug or food jar.** Not a cooking tool, but it's what makes "eat in the car" workable. The [SUNWILL 14 oz insulated mug](https://amzn.to/3U6hkbG) has a splash-proof lid; the smaller [KETIEE 12 oz spill-proof travel mug](https://amzn.to/46ZkNMe) fits a bag or cup holder.
 
