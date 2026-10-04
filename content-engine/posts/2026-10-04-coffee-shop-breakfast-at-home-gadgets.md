@@ -8,7 +8,7 @@ pinTitle: "Coffee Shop Breakfast at Home: Gadgets for Eggs, Sandwiches & Frothed
 pinDescription: "Skip the drive-thru line. These kitchen gadgets build a full coffee shop breakfast at home — poached or scrambled eggs in the microwave, bacon in a lidded grill pan, a grilled cheese or panini in a microwave sandwich maker, and frothed milk for coffee in seconds. Includes a comparison table and the cooking order that keeps everything hot at once. Available on Amazon — check the current price on each listing."
 pinBoard: "Fast Breakfasts & Small Kitchen Gadgets"
 date: "2026-10-04"
-image: ""
+image: "images/adrianhnt-coffee-shop.jpg"
 status: "draft"
 ---
 
