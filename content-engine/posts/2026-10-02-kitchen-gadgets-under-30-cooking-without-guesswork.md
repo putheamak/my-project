@@ -30,17 +30,17 @@ Each of those has a tool that costs less than a takeout order. Check the current
 
 ### Which gadgets take the guesswork out of cooking?
 
-**An instant-read digital thermometer.** The single highest-impact tool on this list. Instead of cutting into meat to peek, you read the internal temperature in seconds. It also works for bread, custards, reheated leftovers and oil temperature when you're pan-frying.
+**An instant-read digital thermometer.** The single highest-impact tool on this list. Instead of cutting into meat to peek, you read the internal temperature in seconds. It also works for bread, custards, reheated leftovers and oil temperature when you're pan-frying. The [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ) and the [Alpha Grillers instant-read thermometer](https://amzn.to/3VqGQZK) are both easy to read and quick to wipe clean.
 
-**A digital kitchen scale.** Weighing is faster than measuring cups and leaves fewer dishes. It's the difference between baking that works every time and baking that's a coin flip. Bonus: a tare button lets you add ingredients straight into one bowl.
+**A digital kitchen scale.** Weighing is faster than measuring cups and leaves fewer dishes. It's the difference between baking that works every time and baking that's a coin flip. Bonus: a tare button lets you add ingredients straight into one bowl. The [22 lb digital food scale](https://amzn.to/4jCDT23) is a simple pick for baking; the [Etekcity rechargeable scale](https://amzn.to/4hqXAsj) charges by USB and is waterproof, so it wipes clean after raw meat.
 
-**An oven thermometer.** Home ovens are frequently off from the dial. A simple hang-in-the-oven thermometer tells you whether "375°F" means 375°F in your kitchen. If it doesn't, you adjust once and every recipe improves.
+**An oven thermometer.** Home ovens are frequently off from the dial. A simple hang-in-the-oven thermometer tells you whether "375°F" means 375°F in your kitchen. If it doesn't, you adjust once and every recipe improves. The [Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme) is the compact classic; this [stainless steel oven thermometer](https://amzn.to/4j4g2s0) can hang from a rack or stand on it, and also works in a grill or smoker.
 
-**A magnetic digital timer.** Multiple timers at once, stuck to the fridge, loud enough to hear from another room. Your phone timer works until a call comes in.
+**A digital kitchen timer (or a few).** One timer per dish, loud enough to hear from another room. Your phone timer works until a call comes in. This [4-piece digital timer set](https://amzn.to/4hEGDtk) gives every pot its own countdown (batteries not included).
 
-**An angled liquid measuring cup.** You read it from above instead of crouching at counter level. Small thing, saves you leaning over the counter twenty times a week.
+**An angled liquid measuring cup.** You read it from above instead of crouching at counter level. Small thing, saves you leaning over the counter twenty times a week. For dry ingredients, a [nesting stainless steel measuring cups and spoons set](https://amzn.to/4AUrih5) covers flour and sugar.
 
-**Adjustable measuring spoons.** One sliding spoon replaces a jangling ring of six, which means less drawer chaos and less washing.
+**A good measuring spoon set.** The [Spring Chef magnetic measuring spoons](https://amzn.to/4jDsZZV) snap together, so all eight stay in one place instead of jangling around the drawer.
 
 ### How do these compare?
 
@@ -49,9 +49,9 @@ Each of those has a tool that costs less than a takeout order. Check the current
 | Instant-read thermometer | Internal food temperature in seconds | Chicken, pork, steak, reheated leftovers, bread | Drawer or magnetic on fridge |
 | Digital kitchen scale | Exact weight of ingredients | Baking, portioning, coffee, meal prep | Flat in a cabinet or drawer |
 | Oven thermometer | Real oven temperature vs. the dial | Roasting, baking, anyone with an older oven | Lives inside the oven |
-| Magnetic digital timer | Elapsed time, often multiple at once | Juggling several dishes at once | Sticks to fridge or hood |
+| Digital kitchen timer | Elapsed time, one per dish | Juggling several dishes at once | Counter or drawer |
 | Angled measuring cup | Liquid volume, readable from above | Stocks, oils, batters | Cabinet shelf |
-| Adjustable measuring spoon | Small-volume measurements | Spices, extracts, baking powder | Utensil drawer |
+| Measuring spoon set | Small-volume measurements | Spices, extracts, baking powder | Utensil drawer, snapped together |
 
 ### Which one should you buy first?
 

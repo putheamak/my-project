@@ -5,7 +5,7 @@ description: "The best kitchen gadgets under $30 for leftovers: storage, portion
 slug: "kitchen-gadgets-under-30-leftovers"
 keyword: "best kitchen gadgets under $30 for leftovers"
 pinTitle: "Best Kitchen Gadgets Under $30 for Leftovers (Store, Freeze & Reheat)"
-pinDescription: "Leftovers get wasted for three reasons: leaky containers, portions too big to defrost, and reheating that dries everything out. This under-$30 gadget list fixes all three — glass containers with locking lids, silicone stretch lids, freezer portion trays, labels, and a vented microwave cover for rice and pasta. Includes a comparison table so you know which to buy first. Available on Amazon. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Leftovers get wasted for three reasons: leaky containers, portions too big to defrost, and reheating that dries everything out. This under $30 gadget list fixes all three — glass containers with locking lids, silicone stretch lids, freezer portion trays, labels, and a vented microwave cover for rice and pasta. Includes a comparison table so you know which to buy first. Available on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-10-01"
 image: "images/ayindeabdulmajeed44-spaghetti.jpg"
@@ -22,8 +22,8 @@ Here's the stuff worth having, organised by the three places leftovers usually g
 
 The container does most of the work. If air gets in, texture goes out.
 
-- **Glass storage containers with locking lids** — stack neatly in the fridge, go straight from fridge to microwave, and don't hold onto curry smells the way old plastic does.
-- **Silicone stretch lids** — pull over a bowl, a cut melon, or a pan you can't be bothered to decant. They turn any dish you already own into a storage container.
+- **Glass storage containers with locking lids** — stack neatly in the fridge, go straight from fridge to microwave, and don't hold onto curry smells the way old plastic does. The [PrepNaturals glass containers](https://amzn.to/4rUytBF) come in a 5-pack.
+- **Silicone stretch lids** — pull over a bowl, a cut melon, or a pan you can't be bothered to decant. They turn any dish you already own into a storage container. The [Longzon 14-pack stretch lids](https://amzn.to/4hFg8Ux) cover small bowls up to big ones; [Goodful silicone suction lids](https://amzn.to/4xYJ9k4) sit flat on a pot so the whole thing can go in the fridge.
 - **Reusable silicone food bags** — good for soft things like cooked rice, shredded chicken or sauce you want to lay flat.
 - **Airtight containers with a sealing clip or clamp** — for anything you want to keep crisp-ish, like cooked bacon or roasted nuts.
 
@@ -33,19 +33,19 @@ One habit that beats any gadget: pack leftovers into the container as soon as th
 
 This is the step most people skip, and it's why frozen leftovers turn into a mystery brick nobody wants to defrost.
 
-- **Silicone freezer portion trays** — freeze soup, stew, chilli or pasta sauce in one-cup blocks, then pop them out into a bag. Defrost exactly one serving instead of a family-size slab.
-- **Ice cube trays with lids** — perfect for leftover stock, coconut milk, pesto, herbs in oil, or that half-can of tomato paste.
-- **Reusable labels or a dry-erase marker set** — write what it is and the date. Future you will not remember.
+- **Silicone freezer portion trays** — freeze soup, stew, chilli or pasta sauce in one-cup blocks, then pop them out into a bag. Defrost exactly one serving instead of a family-size slab. A [silicone freezer tray with lid](https://amzn.to/4y4ZmED) does this well.
+- **Ice cube trays with lids** — perfect for leftover stock, coconut milk, pesto, herbs in oil, or that half-can of tomato paste. Try the [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r).
+- **Reusable labels or a dry-erase marker set** — write what it is and the date. Future you will not remember. A [Phomemo D30 mini label maker](https://amzn.to/4e7DAIT) prints labels from your phone.
 - **Flat-freezing bags plus a cooling rack** — freeze bags flat so they stack like files instead of lumps.
 
-If you already read my meal prep gadget list, this is the same toolkit pointed backwards: instead of prepping ahead, you're banking what you already cooked.
+If you already read my [meal prep gadget list](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/), this is the same toolkit pointed backwards: instead of prepping ahead, you're banking what you already cooked.
 
 ### What gadgets make reheating leftovers taste better?
 
 Reheating is where most leftovers die. A few cheap things help a lot:
 
-- **Vented microwave cover** — traps steam so rice and pasta rehydrate instead of hardening, and your microwave stays clean.
-- **Microwave steamer basket** — brings tired vegetables and rice back to life with a splash of water.
+- **Vented microwave cover** — traps steam so rice and pasta rehydrate instead of hardening, and your microwave stays clean. The [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH) lives on the microwave ceiling; the [Aidacom 2-in-1 cover](https://amzn.to/4z5EU7o) doubles as a silicone mat and trivet.
+- **Microwave steamer basket** — brings tired vegetables and rice back to life with a splash of water. A [collapsible silicone microwave steamer](https://amzn.to/4dmdrG6) folds flat; the [GoodCook microwave steamer](https://amzn.to/4hopeWQ) has an adjustable steam vent.
 - **Small nonstick or cast-iron skillet** — the fix for anything that was ever crispy. Pizza, roast potatoes, breaded chicken.
 - **Oil mister / spray bottle** — a light spray before reheating in a pan or air fryer helps surfaces crisp instead of drying out.
 
@@ -67,7 +67,7 @@ Start with containers and a microwave cover. They touch every single leftover yo
 
 #### Are glass or plastic containers better for leftovers?
 
-Glass is heavier but doesn't stain, warp or hold odours, and it handles reheating well. Plastic is lighter for carrying lunches to work. Many people end up with both: glass at home, light containers in the bag. Check each product's listing on Amazon for microwave, freezer and dishwasher guidance before you buy.
+Glass is heavier but doesn't stain, warp or hold odours, and it handles reheating well. Plastic is lighter for carrying lunches to work. Many people end up with both: glass at home, light containers in the bag, such as the [Rubbermaid Brilliance containers](https://amzn.to/3U7ZlSa). Check each product's listing on Amazon for microwave, freezer and dishwasher guidance before you buy.
 
 #### How long can you keep leftovers in the fridge?
 
@@ -79,6 +79,6 @@ Not strictly — a muffin tin and a bag does the same job. But silicone trays re
 
 #### Will a microwave cover actually change the taste?
 
-It changes the texture, which is most of the problem. Trapped steam stops the surface of rice, pasta and roasted vegetables from drying into a crust. It also means you're not wiping down the inside of the microwave twice a week.
+It changes the texture, which is most of the problem. Trapped steam stops the surface of rice, pasta and roasted vegetables from drying into a crust. It also means you're not wiping down the inside of the microwave twice a week. A [Le'raze glass splatter cover](https://amzn.to/4y5EexZ) sits right over the bowl and holds the steam in.
 
-**Next step:** pick one category — storage, portioning or reheating — and fix that one first. Search for these gadget types on Amazon and check the current price on Amazon before you decide. Then have a look at my counter-space gadgets post if your cupboards are already full.
+**Next step:** pick one category — storage, portioning or reheating — and fix that one first. Search for these gadget types on Amazon and check the current price on Amazon before you decide. Then have a look at my [counter-space gadgets post](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) if your cupboards are already full.
