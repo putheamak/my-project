@@ -25,7 +25,7 @@ Break a café breakfast into parts and it gets much less intimidating:
 - **A protein side** — bacon, usually.
 - **Coffee with foam on top**, or a full pot if more than one person is awake.
 
-Four parts, four gadgets. None of them need a stove, and most of them fit in a drawer. (For more stove-free cooking, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).)
+Four parts, four gadgets. None of them need a stove, and most of them fit in a drawer. Below the microwave basics, I've added a few small countertop options if you have the space. (For more stove-free cooking, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).)
 
 ### What's the fastest way to cook eggs without a pan?
 
@@ -35,19 +35,29 @@ The [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) is built for quick
 
 A tip either way: start with the shortest cooking time listed in the instructions and add seconds. Microwave wattage varies a lot, and eggs go from perfect to rubbery fast.
 
+If you'd rather have a café-style folded omelet, the [Holstein Housewares 2-section omelet maker](https://amzn.to/3VgY63z) cooks two portions side by side on the counter, with indicator lights so you know when it's ready.
+
 ### Can you really make a grilled cheese or panini in the microwave?
 
 That's exactly what the [MAX microwave sandwich maker](https://amzn.to/46YfhcF) is for — grilled cheese and panini-style sandwiches in a few minutes, using a silicone cover, no stove and no separate countertop press. It's the piece that turns "toast and eggs" into "breakfast sandwich," which is the whole point of the drive-thru run.
 
+Want a real toasted, grill-marked crust? The [George Foreman 2-serving mini grill and panini press](https://amzn.to/4i0BsVH) is compact enough for a dorm or small kitchen and presses one or two sandwiches at a time.
+
 Pair it with the [microwave grill pan with lid](https://amzn.to/47vJjVd), a nonstick pan made for bacon and burgers in the microwave. Bacon in a lidded pan means no spitting fat across the hob and no greasy frying pan waiting for you at 7 p.m.
+
+### Want the whole drive-thru sandwich in one step?
+
+The [Hamilton Beach breakfast sandwich maker](https://amzn.to/4jEVLJz) stacks the muffin, egg and cheese in layers and cooks the egg in its own ring, so the finished sandwich slides out ready to wrap. It's the closest thing to the drive-thru version, without the line.
 
 ### What about the coffee?
 
 Two different needs, two different tools.
 
-If you want a latte-ish drink for one, the [handheld milk frother](https://amzn.to/4hs2w08) froths milk in seconds without a large machine taking up counter space. It's also handy for whisking instant coffee, matcha or protein powder into something that isn't lumpy.
+If you want a latte-ish drink for one, the [handheld milk frother](https://amzn.to/4hs2w08) froths milk in seconds without a large machine taking up counter space. It's also handy for whisking instant coffee, matcha or protein powder into something that isn't lumpy. For café-style pouring, warm the milk and froth it in a [De'Longhi 12 oz stainless steel frothing jug](https://amzn.to/3ViQJsn), then pour it over the coffee.
 
 If you need volume — a household, a weekend, a work-from-home day — the [BLACK+DECKER 12-cup coffee maker](https://amzn.to/4iVGkfV) brews a full pot and has a removable filter basket, which is the part that makes cleaning quick instead of a chore.
+
+In between, for two to four cups with no machine at all, the [Secura 34 oz insulated French press](https://amzn.to/4z52ReQ) keeps coffee hot and comes with spare screens. Serve a small, strong cup in [JoyJolt double-wall espresso glasses](https://amzn.to/4yqdclK) and it looks like it came from a café counter.
 
 ### How do these gadgets compare?
 
@@ -59,6 +69,11 @@ If you need volume — a household, a weekend, a work-from-home day — the [BLA
 | Microwave grill pan with lid | Bacon, burgers | Microwave | Nonstick, lid contains splatter |
 | Handheld milk frother | Lattes, matcha, one drink | Any mug or glass | Seconds, no big machine |
 | BLACK+DECKER 12-cup coffee maker | A full pot for the house | Countertop | Removable filter basket |
+| Holstein omelet maker | Folded omelets, two portions | Countertop | Indicator lights |
+| George Foreman mini grill | Toasted paninis with grill marks | Countertop | Compact, 1–2 servings |
+| Hamilton Beach breakfast sandwich maker | Full egg-and-muffin sandwich | Countertop | Built-in egg ring |
+| De'Longhi frothing jug | Pouring frothed milk | Any mug | Stainless steel, 12 oz |
+| Secura French press | 2–4 cups, no machine | Countertop | Insulated, spare screens |
 
 ### How do you build the whole breakfast in under 10 minutes?
 
@@ -88,7 +103,7 @@ It's designed for grilled cheese and panini-style sandwiches. Anything that fits
 
 #### Why a 12-cup coffee maker if I live alone?
 
-You don't need one. The frother route is better for single servings; the 12-cup pot earns its space when you're brewing for a household or refilling all morning.
+You don't need one. The frother route is better for single servings, and a French press covers two to four cups; the 12-cup pot earns its space when you're brewing for a household or refilling all morning.
 
 ### Ready to skip the line?
 
