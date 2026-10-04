@@ -37,17 +37,17 @@ The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) i
 
 **A box or rotary grater.** Shredded cheese, carrots and zucchini in seconds instead of buying pre-shredded. The [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) catches everything in its own container, so there's no board to clean. The [Geedel rotary cheese grater](https://amzn.to/4hDUm3j) is a hand-crank style that keeps your knuckles away from the blades.
 
-**A pair of kitchen shears.** Faster than a knife for herbs, scallions, bacon, and opening packaging. Look for a pair that comes apart for washing.
+**A pair of kitchen shears.** Faster than a knife for herbs, scallions, bacon, and opening packaging. Look for a pair that comes apart for washing. The [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) come with a protective sheath, so they can live loose in a drawer; the [kitchen shears and seafood scissors set](https://amzn.to/4dgYmph) adds a second pair for shrimp and crab nights.
 
 **A salad spinner.** Washed greens that are actually dry means dressing sticks and salad becomes a five-minute side instead of a project.
 
 The [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) is the simple classic. The [SUSTEAS salad spinner](https://amzn.to/4hAJ2oF) adds slicer blades, so one bowl washes, dries and slices.
 
-**A digital instant-read thermometer.** Stops the guessing on chicken and pork, which is where most weeknight cooks lose time hovering over the pan.
+**A digital instant-read thermometer.** Stops the guessing on chicken and pork, which is where most weeknight cooks lose time hovering over the pan. The [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) and the [Alpha Grillers instant-read thermometer](https://amzn.to/3VqGQZK) both give you a number in seconds.
 
-**A handheld citrus juicer.** Fresh lemon or lime finishes a dish in seconds and turns leftovers into something that tastes new.
+**A handheld citrus juicer.** Fresh lemon or lime finishes a dish in seconds and turns leftovers into something that tastes new. The [Y-ME handheld citrus squeezer](https://amzn.to/4yxCazV) does lemons and limes without seeds in the pan.
 
-**Silicone-edged spatula / spoonula.** One tool for stirring, scraping and serving means one fewer dish.
+**Silicone-edged spatula / spoonula.** One tool for stirring, scraping and serving means one fewer dish. The [DI ORO silicone spatula set](https://amzn.to/3Vt1pod) is heat-resistant and gives you three sizes for one drawer slot.
 
 **Stackable prep bowls or glass containers.** The real weeknight hack: chop once on Sunday, cook fast all week. Try the [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF), or go lighter with the [Rubbermaid Brilliance plastic containers](https://amzn.to/3U7ZlSa).
 

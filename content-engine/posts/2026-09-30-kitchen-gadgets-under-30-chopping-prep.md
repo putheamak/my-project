@@ -20,11 +20,11 @@ Below are the prep tools that actually earn their drawer space, what each one is
 
 ### What kitchen gadget chops vegetables the fastest?
 
-For onions, peppers and celery, a **hand-held pull chopper** (the kind with a cord you yank) is hard to beat. You drop in rough chunks, pull a few times, and you have a diced pile. No plug, no bowl assembly, no motor to store.
+For onions, peppers and celery, a **hand-held pull chopper** (the kind with a cord you yank) is hard to beat. You drop in rough chunks, pull a few times, and you have a diced pile. No plug, no bowl assembly, no motor to store. The [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj) is a good size for one onion at a time; for bigger batches, the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) dices through a grid.
 
-For long, even slices — potatoes, cucumbers, zucchini — a **compact mandoline slicer** does in thirty seconds what takes several careful minutes with a knife. Always use the hand guard it comes with, every single time.
+For long, even slices — potatoes, cucumbers, zucchini — a **compact mandoline slicer** does in thirty seconds what takes several careful minutes with a knife. Always use the hand guard it comes with, every single time. The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) stores flat in a drawer.
 
-For herbs, **herb scissors** with multiple blades turn a bunch of parsley into confetti straight over the pot, with no board to wash afterward.
+For herbs, **herb scissors** with multiple blades turn a bunch of parsley into confetti straight over the pot, with no board to wash afterward. The [OXO Good Grips multi-purpose shears and herb scissors](https://amzn.to/3VgO2Yl) cover that job.
 
 ### Do I need a food processor, or is a manual chopper enough?
 
@@ -53,11 +53,13 @@ Practical, non-medical tips: chill the onion in the fridge for fifteen minutes b
 
 If you're starting from nothing:
 
-1. **Y-peeler set** — cheapest, used most often, and they come in multi-packs so one always lives in the drawer.
-2. **Pull chopper** — the biggest single time saver on weeknights.
-3. **Kitchen shears** — quietly replaces a knife and board for a dozen small jobs.
+1. **Y-peeler set** — cheapest, used most often, and they come in multi-packs so one always lives in the drawer. The [FUHUY Y-shaped and I-shaped peeler set](https://amzn.to/4xW1s9z) gives you both styles; if you prefer one straight swivel peeler, the [Spring Chef swivel peeler](https://amzn.to/3W58ag6) has a soft grip.
+2. **Pull chopper** — the biggest single time saver on weeknights. Start with the [Brieftons pull chopper](https://amzn.to/4AOlfuj).
+3. **Kitchen shears** — quietly replaces a knife and board for a dozen small jobs. The [KitchenAid all-purpose shears](https://amzn.to/4hCWIzA) come with a protective sheath.
 4. **Mandoline with hand guard** — once you're doing gratins, slaws or roasted potato trays.
-5. **Herb scissors and bench scraper** — small upgrades that make the rest feel smoother.
+5. **Herb scissors and bench scraper** — small upgrades that make the rest feel smoother. The [Amazon Basics stainless bench scraper](https://amzn.to/4ybHxUs) has measurement marks on the blade; flexible [SURDOCA plastic bowl scrapers](https://amzn.to/3Thc4So) are handy for scooping chopped veg out of a bowl.
+
+Also worth having: a [304 stainless steel garlic press](https://amzn.to/4xW41Zr) for mincing without sticky fingers, a [Hutzler onion holder](https://amzn.to/4dPC12c) to steady onions and tomatoes while you slice, and a big board to chop on, like the [Royal Craft Wood cutting boards](https://amzn.to/47wW5CV).
 
 All of these are widely available on Amazon; check the current price on Amazon before you decide, since prices change.
 
@@ -65,7 +67,7 @@ All of these are widely available on Amazon; check the current price on Amazon b
 
 Give yourself a rule: one gadget in, one unused gadget out. Store the chopper's bowl with a smaller tool nested inside it. Keep the shears on a magnetic strip or in a knife block slot so they don't disappear under spatulas.
 
-If drawer space is your main problem, read **Kitchen Gadgets Under $30 That Save Counter Space and Cut Down on Dishes** next.
+If drawer space is your main problem, read [Kitchen Gadgets Under $30 That Save Counter Space and Cut Down on Dishes](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) next.
 
 ### Frequently asked questions
 
@@ -87,4 +89,4 @@ Most sturdy presses handle small, peeled pieces of ginger, though fibrous chunks
 
 ### Ready to cut your prep time in half?
 
-Pick one gadget from the list above — most people should start with the pull chopper — and use it every night for a week. If it doesn't earn its place, it goes. For more time-saving picks, see **Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)** and **Meal Prep Sunday Made Fast: Kitchen Gadgets Under $30 That Do the Boring Work**, and check the current price on Amazon for anything that catches your eye.
+Pick one gadget from the list above — most people should start with the pull chopper — and use it every night for a week. If it doesn't earn its place, it goes. For more time-saving picks, see [Best Kitchen Gadgets for Fast Weeknight Dinners](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [Meal Prep Sunday Made Fast](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon for anything that catches your eye.
