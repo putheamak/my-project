@@ -1,0 +1,13 @@
+{
+  "html": "scenes_ad_book30s.html",
+  "out": "../khmer_parcel_ad_book30s.mp4",
+  "xfade": 0.35,
+  "segments": [
+    {"scene": "hook", "dur": 3.6, "next": "slideup"},
+    {"scene": "old", "dur": 6.6, "next": "circleopen"},
+    {"scene": "book", "dur": 26.0, "next": "zoomin"},
+    {"scene": "benefits", "dur": 6.8, "next": "slideleft"},
+    {"scene": "offer", "dur": 6.8, "next": "fade"},
+    {"scene": "cta", "dur": 8.0}
+  ]
+}
