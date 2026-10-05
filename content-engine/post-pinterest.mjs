@@ -54,6 +54,19 @@ async function getAccessToken() {
   );
 }
 
+// Pinterest allows 500 characters. Always end with the Amazon disclosure, and
+// trim the text before it at a sentence (or word) boundary so it never gets cut.
+function fitPinDescription(text, max = 500) {
+  let body = text.replace(disclosure, "").replace(/\s+/g, " ").trim();
+  const room = max - disclosure.length - 1;
+  if (body.length > room) {
+    const cut = body.slice(0, room);
+    const sentence = cut.lastIndexOf(". ");
+    body = sentence > room * 0.6 ? cut.slice(0, sentence + 1) : cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,;:—-]+$/, "") + "…";
+  }
+  return `${body} ${disclosure}`;
+}
+
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
 const url = (p = "") => `${baseUrl}/${p}`;
 
@@ -89,10 +102,18 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort() : [
     slug: post.slug,
     board_id: pinterest.boardId,
     title: post.pinTitle.slice(0, 100),
-    description: post.pinDescription.slice(0, 500),
+    description: fitPinDescription(post.pinDescription),
     link: url(`posts/${post.slug}/`),
     media_source: { source_type: "image_url", url: imageUrl },
   });
+}
+
+// Pin a few at a time (oldest first) so a backlog doesn't land on Pinterest
+// all at once, which can look like spam. pinterest.maxPerRun in site.json.
+const maxPerRun = Number.isInteger(pinterest.maxPerRun) && pinterest.maxPerRun > 0 ? pinterest.maxPerRun : 1;
+if (candidates.length > maxPerRun) {
+  console.log(`${candidates.length} posts waiting; pinning ${maxPerRun} this run, the rest on later runs.`);
+  candidates.splice(maxPerRun);
 }
 
 if (!candidates.length) {
