@@ -23,10 +23,11 @@ function inline(text, opts = {}) {
   });
   s = s.replace(/(?<!!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => {
     // Google asks for affiliate links to be marked rel="sponsored".
-    const rel = AMAZON.test(href.replace(/&amp;/g, "&"))
-      ? "sponsored nofollow noopener"
-      : "noopener";
-    return `<a href="${href}" rel="${rel}" target="_blank">${label}</a>`;
+    const amazon = AMAZON.test(href.replace(/&amp;/g, "&"));
+    const rel = amazon ? "sponsored nofollow noopener" : "noopener";
+    // data-goatcounter-click lets GoatCounter (if enabled) count clicks on affiliate links.
+    const track = amazon ? ` data-goatcounter-click="${href}" data-goatcounter-title="${label.replace(/<[^>]+>/g, "")}"` : "";
+    return `<a href="${href}" rel="${rel}" target="_blank"${track}>${label}</a>`;
   });
   s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   s = s.replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>");

@@ -171,7 +171,8 @@ The disclosure sentence stays in every description, even when there's no link in
 - `sitemap.xml`, an RSS feed (`/rss.xml`), and a 404 page
 - Affiliate links marked `rel="sponsored nofollow"`, as Google requires
 - The Amazon disclosure above every article and in the footer, plus Disclosure, Privacy and About pages
-- No external fonts or scripts, so pages load fast on phones, with light and dark mode
+- No external fonts, and one small optional script (GoatCounter), so pages load fast on phones, with light and dark mode
+- **Visitor counts:** set `goatcounter` in `site.json` to your GoatCounter account code (for example `"smartkitchenpicks"`) and every page gets a cookie-free counter. See visits, top posts, where readers came from, and clicks on Amazon links at `https://<code>.goatcounter.com`. Leave it empty to turn it off.
 
 To preview locally, run `node build-blog.mjs` and open the files in `dist-blog/`.
 
