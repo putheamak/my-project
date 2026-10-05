@@ -15,7 +15,8 @@
   },
   "pinterest": {
     "autoPost": false,
-    "boardId": ""
+    "boardId": "",
+    "maxPerRun": 1
   },
   "about": "I share practical kitchen gadgets and tips for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy."
 }

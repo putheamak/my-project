@@ -118,6 +118,8 @@ To post a pin by hand: open the day's pack, copy the Pinterest pin's title and d
 
 - It only pins posts that are `status: "published"` and have a saved `pinTitle`/`pinDescription` (packs generated from here on save these to the post automatically; older posts don't have them - add them to the post's front matter by hand if you want to pin one).
 - It re-runs the same compliance check used everywhere else on the pin's title, description and article body, and skips (never pins) anything with a **FIX**-level issue or an unfilled `[LINK: ...]` placeholder. Fix the pack or post and it's picked up on the next run.
+- It pins **one post per run** by default, oldest first, so a backlog goes out gradually instead of all at once (which can look like spam). Change `pinterest.maxPerRun` in `site.json` to pin more per run. The Publish blog workflow runs at least once a day, after the daily pack.
+- Every pin description ends with the Amazon disclosure. If the text is longer than Pinterest's 500-character limit, the part before the disclosure is trimmed so the disclosure is never cut off.
 - Each post is pinned at most once - `output/pinterest-history.json` tracks which slugs have already gone out, and the workflow commits it back after each run.
 - `node post-pinterest.mjs --dry-run` prints what it would post without calling the API, so you can check it locally first.
 
