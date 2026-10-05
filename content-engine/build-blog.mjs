@@ -97,6 +97,11 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
   const pinterestVerify = site.pinterestVerification
     ? `<meta name="p:domain_verify" content="${esc(site.pinterestVerification)}">`
     : "";
+  // GoatCounter: cookie-free visitor counts. Only the account code goes in site.json.
+  const gc = /^[a-z0-9-]+$/.test(site.goatcounter || "") ? site.goatcounter : "";
+  const analytics = gc
+    ? `<script data-goatcounter="https://${gc}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`
+    : "";
   const ld = jsonLd.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
   return `<!doctype html>
 <html lang="${esc(site.language)}">
@@ -115,6 +120,7 @@ ${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitt
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${href("rss.xml")}">
 ${verify}
 ${pinterestVerify}
+${analytics}
 <style>${css}</style>
 ${ld}
 </head>
@@ -247,7 +253,7 @@ simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 simple("privacy", "Privacy policy", `Privacy policy for ${site.title}`, `
 <p>This site does not use its own cookies and does not collect personal information from visitors.</p>
 <p>When you click a link to Amazon or another retailer, that site may set cookies to track the referral, as described in its own privacy policy. As a participant in the Amazon Services LLC Associates Program, this site links to Amazon, and Amazon may collect information about your visit.</p>
-<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>
+${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>
 <p>Questions? Contact ${esc(site.author)} through the channels listed on the About page.</p>`);
 
 write("404.html", page({ title: `Page not found - ${site.title}`, description: "Page not found", canonical: url(), body: `<h1>Page not found</h1><p><a href="${href()}">Go to the home page</a>.</p>` }));
