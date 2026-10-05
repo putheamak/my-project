@@ -1,15 +1,16 @@
-# Khmer Parcel — working context
+# Project context
 
-This repo's real work is **Khmer Parcel** (parcel delivery, Phnom Penh, launched 1 Oct 2026). The Vite/React
-template files at the root are unrelated leftovers; don't modify them unless asked.
+This repository holds several projects. **Khmer Parcel** (parcel delivery, Phnom Penh, launched 1 Oct 2026)
+lives in `khmer-parcel/`. Other folders (`content-engine/`, the Vite app at the root) belong to other
+projects — don't change them while working on Khmer Parcel, and the notes below apply only to Khmer Parcel.
 
-Read first, in this order:
+## Khmer Parcel — read first, in this order
 1. `khmer-parcel/KHMER_PARCEL_NOTES.md` — business facts, prices, offer, ad results, decisions
 2. `khmer-parcel/TVC_IDEAS_30_DAYS.md` — daily TVC plan (owner wants ~1 TVC per day); mark ✅ when done
 3. `khmer-parcel/tvc-source/README.md` — how to build TVCs (`setup.sh`, `make_tvc.py`, specs, rules)
 4. `khmer-parcel/telegram-miniapp/README.md` — live Telegram booking mini app (Cloudflare Worker)
 
-Working rules
+## Khmer Parcel — working rules
 - Owner writes in English; videos and customer text are **Khmer first** with short English.
 - Never invent prices, offers or promises (same-day delivery, COD payout timing, free deliveries) — ask.
 - Correct contacts: 012 429 597 · 092 678 657 · Telegram 098 429 597 · www.khmerparcel.com
