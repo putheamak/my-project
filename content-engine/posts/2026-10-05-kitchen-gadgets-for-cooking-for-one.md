@@ -8,8 +8,8 @@ pinTitle: "Best Kitchen Gadgets for Cooking for One (Single-Serving, No Stove)"
 pinDescription: "Cooking for one shouldn't mean a sink full of pans. These are the best kitchen gadgets for cooking for one: a microwave egg poacher for two eggs, a microwave egg cooker, a sandwich maker for grilled cheese and paninis, a microwave grill pan for bacon and burgers, a handheld milk frother, and a 12-cup coffee maker with a removable filter basket for batch brewing. One portion, one thing to wash. As an Amazon Associate I earn from qualifying purchases. Available on Amazon — check the current price at the link."
 pinBoard: "Cooking for One — Small Kitchen Gadgets"
 date: "2026-10-05"
-image: ""
-status: "draft"
+image: "images/cooking-for-one.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -26,15 +26,15 @@ Three things, in this order:
 - **Low cleanup.** One dish beats a pan, a spatula, a plate and a cutting board. Dishwasher-safe parts matter more when you're the only one doing dishes.
 - **Small footprint.** If it lives in a drawer instead of on the counter, you'll keep using it.
 
-If counter space is your main constraint, my earlier roundup on gadgets that save counter space and cut down on dishes pairs well with this list.
+If counter space is your main constraint, my earlier roundup on [gadgets that save counter space and cut down on dishes](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) pairs well with this list.
 
 ### Which gadgets handle single-serving meals without a stove?
 
-**Eggs, two at a time.** A [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) is built for oil-free poached eggs in the microwave, two at a time — about as close to a perfect solo breakfast tool as it gets. If you want more range than poaching, a [microwave egg cooker](https://amzn.to/4htE2C8) cooks eggs quickly without turning on the stove at all.
+**Eggs, two at a time.** A [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) is built for oil-free poached eggs in the microwave, two at a time — a natural fit for a solo breakfast. If you want more range than poaching, a [microwave egg cooker](https://amzn.to/4htE2C8) cooks eggs quickly without turning on the stove at all. (More morning ideas in my [fast breakfast gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/).)
 
 **Grilled cheese and paninis.** The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) is designed to press a grilled cheese or panini in the microwave in a few minutes, with a silicone cover and no separate press to store. One sandwich, one tool.
 
-**Bacon and burgers.** A [microwave grill pan with lid](https://amzn.to/47vJjVd) is made for cooking bacon and burgers in the microwave, so you skip heating a skillet for one patty and scrubbing it after.
+**Bacon and burgers.** A [microwave grill pan with lid](https://amzn.to/47vJjVd) is made for cooking bacon and burgers in the microwave, so you skip heating a skillet for one patty and scrubbing it after. For more stove-free meals, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).
 
 **Coffee that feels intentional.** A [handheld milk frother](https://amzn.to/4hs2w08) froths milk in seconds without a big espresso machine — it turns a plain mug into something you'd pay for. And if you want a full pot to batch-brew for the week (hello, iced coffee), the [BLACK+DECKER 12-cup coffee maker](https://amzn.to/4iVGkfV) has a removable filter basket that's easy to clean.
 
