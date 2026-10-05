@@ -19,6 +19,8 @@ TVC_WORK=<scratchpad>/tvc_work python3 make_tvc.py specs/<name>.json  # full ren
 | `make_tvc.py` | Renders scenes in parallel and joins segments with xfade transitions; also accepts video clips |
 | `specs/*.json` | One spec per finished video (scene order, durations, transitions, output path) |
 | `*.woff2` | Kantumruy Pro (Khmer/Latin text) and Moul (Khmer headlines) |
+| `make_sound_*.py` | Original background music + sound effects (numpy synth, no samples), timed to a spec; writes `<name>_music.m4a` |
+| `qr_khmerparcelbot.png` | Telegram QR for @KhmerParcelBot (transparent background) — use on end cards |
 | `poster.webp` | Blue key-visual poster (its bottom bar has a wrong number — crop it, never show it) |
 
 Existing scene files to copy from:
@@ -31,13 +33,15 @@ Existing scene files to copy from:
 2. Write each scene as a `<section class="scene" id="...">`. Use `.pop/.up/.fade` + `animation-delay` for timing.
    Counters or changing text: add a function to `hooks[sceneId] = t => {...}` in the script.
 3. `python3 make_tvc.py specs/<new>.json --preview` → check every scene image.
-4. Full render → check the contact sheet → send the mp4 → commit mp4 + html + spec.
+4. Optional sound: copy `make_sound_book30s.py`, change the event times, run it, add `"audio": "<name>_music.m4a"` to the spec.
+5. Full render → check the contact sheet → send the mp4 → commit mp4 + html + spec (+ sound script and m4a).
 
 ## Rules learned the hard way
 - **No emoji in scene text** — the container has no emoji font (renders as boxes). Draw SVG icons instead.
 - Khmer needs the bundled fonts (`@font-face` with `unicode-range`); check a full-size crop for shaping.
 - Keep key content between y≈150 and y≈1450 (Reels UI covers the bottom ~25% and the right edge).
 - `render.cjs` must stay `.cjs` (the repo `package.json` is `"type": "module"`).
+- Telegram bot: **@KhmerParcelBot** (t.me/KhmerParcelBot) — end cards use `qr_khmerparcelbot.png`.
 - Facts to keep consistent: phones **012 429 597 · 092 678 657**, Telegram **098 429 597**,
   Door to Door **from $1.50 (6,000៛)**, online seller **3,000៛ / leg**, offer **first 3 at 2,000៛** (sellers only, until 2026-10-31).
 - Never claim things not confirmed by the owner (e.g. same-day delivery, same-day COD payout, free offers).

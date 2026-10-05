@@ -18,8 +18,9 @@ spec.json:
 }
 "next" is the ffmpeg xfade transition into the following segment
 (fade, slideleft, slideup, wipeup, circleopen, zoomin, ...).
-Frames go to $TVC_WORK (default /tmp/tvc_work); the output gets a silent
-AAC track so a voiceover can be added later.
+Frames go to $TVC_WORK (default /tmp/tvc_work). Optional "audio": "<file>" (relative to
+this folder) is used as the soundtrack; without it the output gets a silent AAC track
+so a voiceover can be added later.
 """
 import json, os, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
@@ -81,7 +82,11 @@ def build(spec):
         prev, acc = f"x{i}", off + durs[i]
 
     out = os.path.normpath(os.path.join(HERE, spec["out"]))
-    cmd = [ffmpeg(), "-v", "error", "-y", *inputs, "-f", "lavfi", "-t", f"{acc:.3f}", "-i", "anullsrc=r=44100:cl=stereo",
+    if spec.get("audio"):
+        audio_in = ["-i", os.path.join(HERE, spec["audio"])]  # -shortest trims it to the video
+    else:
+        audio_in = ["-f", "lavfi", "-t", f"{acc:.3f}", "-i", "anullsrc=r=44100:cl=stereo"]
+    cmd = [ffmpeg(), "-v", "error", "-y", *inputs, *audio_in,
            "-filter_complex", ";".join(filt), "-map", f"[{prev}]", "-map", f"{len(segs)}:a",
            "-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS),
            "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out]

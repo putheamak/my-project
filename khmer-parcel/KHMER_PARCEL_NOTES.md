@@ -7,7 +7,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Launch: **1 October 2026**, Phnom Penh
 - Target: ~50 requests/day (20–30 door-to-door + 20–30 online-seller parcels)
 - Phone: **012 429 597 · 092 678 657** (the blue poster wrongly shows 092 678 **8**57 — fix the poster)
-- Telegram: **098 429 597**
+- Telegram: **098 429 597** · booking bot **@KhmerParcelBot** (t.me/KhmerParcelBot, QR in `tvc-source/qr_khmerparcelbot.png`)
 
 ## Services and prices
 | Service | Price |
@@ -41,7 +41,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_6000riel.mp4` | 35 s animated ad "៦,០០០៛ អាចទិញអ្វីបាន?" — source `tvc-source/scenes_ad_6000riel.html` (scenes: hook, choices, journey, sellers, steps, end) |
 | `khmer_parcel_ad_seller_story.mp4` | 41 s post-launch story ad "អ្នកលក់អនឡាញ ធ្លាប់ជួបទេ?" (pain → switch → calm chat → benefits → CTA) — source `tvc-source/scenes_ad_seller_story.html` (scenes: pain, turn, solve, benefits, cta) |
 | `khmer_parcel_ad_seller_story_offer2000.mp4` | 47 s seller story + offer scene (first 3 deliveries 2,000៛, online sellers only, claim via Telegram); Door to Door = self-booking on website, system price |
-| `khmer_parcel_ad_book30s.mp4` | 56 s Day 2 Reel "កក់ក្នុង ៣០ វិនាទី" (sellers): hook stopwatch → old chat way → Telegram bot booking demo with live timer (2 parcels, done 0:21) → benefits → 2,000៛ offer → CTA. Cover image `khmer_parcel_ad_book30s_cover.jpg`. Source `tvc-source/scenes_ad_book30s.html` + `specs/ad_book30s.json` |
+| `khmer_parcel_ad_book30s.mp4` | 61 s Day 2 Reel (with original music + SFX) "កក់ក្នុង ៣០ វិនាទី" (sellers): hook stopwatch → old chat way → Telegram bot booking demo with live timer (2 parcels, done 0:21) → benefits → 2,000៛ offer → CTA → @KhmerParcelBot QR. Cover image `khmer_parcel_ad_book30s_cover.jpg`. Source `tvc-source/scenes_ad_book30s.html` + `specs/ad_book30s.json` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |

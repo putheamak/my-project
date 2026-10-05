@@ -8,7 +8,7 @@ Audience key: **S** = online sellers (women 20–40, 3,000៛ / 2,000៛ offer) 
 | Day | Aud | Title / hook | Idea |
 |---|---|---|---|
 | 1 | S | "ឥវ៉ាន់ខ្ញុំដល់ណាហើយ?" ×99 | ✅ Seller story + offer (`khmer_parcel_ad_seller_story_offer2000.mp4`) |
-| 2 | S | "កក់ក្នុង ៣០ វិនាទី" | ✅ 56 s bot booking demo, 2 parcels done at 0:21 (`khmer_parcel_ad_book30s.mp4`, cover `khmer_parcel_ad_book30s_cover.jpg`) |
+| 2 | S | "កក់ក្នុង ៣០ វិនាទី" | ✅ 61 s bot booking demo with music + QR end card, 2 parcels done at 0:21 (`khmer_parcel_ad_book30s.mp4`, cover `khmer_parcel_ad_book30s_cover.jpg`) |
 | 3 | D | "៦,០០០៛ អាចទិញអ្វីបាន?" | ✅ 29 s door-to-door cut (`khmer_parcel_ad_6000riel_doortodoor_29s.mp4`) |
 | 4 | S | "១ ថ្ងៃ របស់អ្នកលក់អនឡាញ" | Clock 8:00→20:00: pack, book on bot, rider picks up 3 PM, customer happy |
 | 5 | D | "ផ្ទះនៅក្បែរវត្ត… វត្តណា?" | Comedy: rider lost → map pin fixes it |
