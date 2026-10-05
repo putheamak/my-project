@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="km">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<title>Khmer Parcel · កក់ដឹកឥវ៉ាន់</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#1a78cf;--navy:#0d3868;--orange:#f08a14;--green:#1fa65a;--red:#e53935;
+  --bg:var(--tg-theme-secondary-bg-color,#eef4fa);--card:var(--tg-theme-bg-color,#fff);
+  --text:var(--tg-theme-text-color,#0d3868);--hint:var(--tg-theme-hint-color,#6a7f97);
+  --btn:var(--tg-theme-button-color,#1a78cf);--btn-text:var(--tg-theme-button-text-color,#fff);
+  --line:color-mix(in srgb,var(--hint) 30%,transparent);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Kantumruy Pro",system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.5;padding:0 0 110px}
+header{background:linear-gradient(135deg,#1a78cf,#0d3868);color:#fff;padding:18px 16px 22px}
+header .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px}
+header .brand svg{width:38px;height:38px;flex:none}
+header p{opacity:.9;font-size:14px;margin-top:4px}
+.offer{margin:-12px 12px 0;background:var(--orange);color:#fff;border-radius:16px;padding:12px 14px;font-weight:700;display:flex;gap:10px;align-items:center;box-shadow:0 6px 16px rgba(240,138,20,.35)}
+.offer small{display:block;font-weight:400;font-size:13px;opacity:.95}
+.offer[hidden]{display:none}
+section.card{background:var(--card);margin:12px;border-radius:16px;padding:14px}
+h2{font-size:17px;display:flex;align-items:center;gap:8px;margin-bottom:10px}
+h2 .n{width:26px;height:26px;border-radius:8px;background:var(--btn);color:var(--btn-text);font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+label{display:block;font-size:13px;color:var(--hint);margin:10px 0 4px}
+input,select,textarea{width:100%;font:inherit;color:var(--text);background:var(--bg);border:1.5px solid transparent;border-radius:12px;padding:11px 12px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--btn)}
+input.bad,select.bad{border-color:var(--red)}
+textarea{resize:vertical;min-height:44px}
+.row{display:flex;gap:8px}
+.row>*{flex:1;min-width:0}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{flex:1;min-width:0;font:inherit;font-size:14px;border:1.5px solid var(--line);background:var(--card);color:var(--text);border-radius:12px;padding:9px 6px;cursor:pointer;line-height:1.3}
+.seg button small{display:block;color:var(--hint);font-size:11px}
+.seg button.on{border-color:var(--btn);background:color-mix(in srgb,var(--btn) 12%,var(--card));font-weight:700}
+.ghost{font:inherit;font-size:14px;background:none;border:1.5px dashed var(--btn);color:var(--btn);border-radius:12px;padding:10px;width:100%;margin-top:10px;cursor:pointer;font-weight:600}
+.loc{font:inherit;font-size:13px;background:none;border:none;color:var(--btn);margin-top:6px;cursor:pointer;font-weight:600}
+.parcel{border:1.5px solid var(--line);border-radius:14px;padding:10px 12px 12px;margin-top:10px}
+.parcel .ph{display:flex;justify-content:space-between;align-items:center;font-weight:700}
+.parcel .ph .price{font-size:13px;color:var(--green)}
+.parcel .ph button{background:none;border:none;color:var(--red);font:inherit;font-size:13px;cursor:pointer}
+.sum{display:flex;justify-content:space-between;align-items:baseline;padding:4px 0}
+.sum b{font-size:22px}
+.note{font-size:12px;color:var(--hint);margin-top:6px}
+.err{color:var(--red);font-size:13px;margin-top:8px;display:none}
+.fallback{position:fixed;left:0;right:0;bottom:0;padding:12px;background:var(--card);box-shadow:0 -4px 16px rgba(0,0,0,.08)}
+.fallback button{width:100%;font:inherit;font-weight:700;font-size:17px;background:var(--btn);color:var(--btn-text);border:none;border-radius:14px;padding:14px;cursor:pointer}
+.fallback[hidden]{display:none}
+#done{display:none;text-align:center;padding:40px 20px}
+#done .ok{width:84px;height:84px;border-radius:50%;background:var(--green);color:#fff;font-size:46px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+#done .code{font-size:28px;font-weight:700;letter-spacing:.06em;background:var(--card);border-radius:14px;padding:12px;margin:14px 0}
+</style>
+</head>
+<body>
+<div id="form">
+<header>
+  <div class="brand">
+    <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#fff" opacity=".18"/><path d="M32 10 52 21v22L32 54 12 43V21Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><path d="M12 21l20 11 20-11M32 32v22" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/></svg>
+    ខ្មែរផាសែល · Khmer Parcel
+  </div>
+  <p>កក់ដឹកឥវ៉ាន់ សម្រាប់អ្នកលក់អនឡាញ · Online seller booking</p>
+</header>
+<div class="offer" id="offer" hidden>
+  <span style="font-size:26px">★</span>
+  <span><span id="offerText">៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង</span><small>សម្រាប់អ្នកលក់ថ្មី · First 3 deliveries for new sellers</small></span>
+</div>
+
+<section class="card">
+  <h2><span class="n">១</span>ហាង / អ្នកផ្ញើ · Shop</h2>
+  <label for="shop">ឈ្មោះហាង · Shop name</label>
+  <input id="shop" autocomplete="organization" placeholder="ឧ. ហាងសម្លៀកបំពាក់ស្រីលក្ខណ៍">
+  <label for="sphone">លេខទូរស័ព្ទ · Phone *</label>
+  <input id="sphone" type="tel" inputmode="tel" placeholder="012 345 678">
+  <label for="pkhan">ខណ្ឌមកយក · Pick-up Khan *</label>
+  <select id="pkhan"></select>
+  <label for="paddr">អាសយដ្ឋាន / ចំណាំ · Address or landmark *</label>
+  <textarea id="paddr" rows="2" placeholder="ផ្ទះលេខ ផ្លូវ ឬ ក្បែរអ្វី"></textarea>
+  <button class="loc" type="button" id="locBtn">◎ ប្រើទីតាំងបច្ចុប្បន្ន · Use my location</button>
+  <div class="note" id="locNote"></div>
+  <label>ពេលមកយក · Pick-up time</label>
+  <div class="seg" id="ptime">
+    <button type="button" data-v="asap" class="on">ឆាប់ៗ<small>ASAP</small></button>
+    <button type="button" data-v="10:00">ព្រឹក ១០:០០<small>10 AM</small></button>
+    <button type="button" data-v="15:00">រសៀល ៣:០០<small>3 PM</small></button>
+  </div>
+</section>
+
+<section class="card">
+  <h2><span class="n">២</span>កញ្ចប់ & អ្នកទទួល · Parcels</h2>
+  <div id="parcels"></div>
+  <button class="ghost" type="button" id="addBtn">＋ បន្ថែមកញ្ចប់ · Add parcel</button>
+</section>
+
+<section class="card">
+  <h2><span class="n">៣</span>ការបង់ថ្លៃដឹក · Delivery fee</h2>
+  <div class="seg" id="payer">
+    <button type="button" data-v="seller" class="on">អ្នកលក់បង់<small>Seller pays</small></button>
+    <button type="button" data-v="customer">អតិថិជនបង់<small>Customer pays</small></button>
+  </div>
+  <div class="sum" style="margin-top:12px"><span>សរុបថ្លៃដឹក · Total fee</span><b id="total">0៛</b></div>
+  <div class="note" id="sumNote">តម្លៃប៉ាន់ស្មាន · ការិយាល័យនឹងបញ្ជាក់ម្តងទៀត។ Estimate — the office confirms by Telegram.</div>
+  <div class="err" id="err"></div>
+</section>
+<div class="fallback" id="fallback" hidden><button type="button" id="fbBtn">កក់ឥឡូវ · Book now</button></div>
+</div>
+
+<div id="done">
+  <div class="ok">✓</div>
+  <h2 style="justify-content:center;font-size:20px">បានទទួលការកក់!</h2>
+  <p>Booking received. We'll confirm on Telegram shortly.</p>
+  <div class="code" id="doneCode"></div>
+  <p class="note">អ្នកដឹកនឹងហៅទូរស័ព្ទមុនមកដល់។ The rider calls before arriving.</p>
+  <button class="ghost" type="button" id="againBtn" style="margin-top:20px">កក់ម្តងទៀត · Book again</button>
+</div>
+
+<template id="parcelTpl">
+  <div class="parcel">
+    <div class="ph"><span class="t"></span><span><span class="price"></span> <button type="button" class="rm">លុប</button></span></div>
+    <label>លេខអ្នកទទួល · Receiver phone *</label>
+    <input class="rphone" type="tel" inputmode="tel" placeholder="096 123 4567">
+    <div class="row">
+      <div><label>ឈ្មោះ · Name</label><input class="rname" placeholder="ស្រេចចិត្ត"></div>
+      <div><label>ខណ្ឌ · Khan *</label><select class="rkhan"></select></div>
+    </div>
+    <label>អាសយដ្ឋាន · Address *</label>
+    <input class="raddr" placeholder="ផ្ទះលេខ ផ្លូវ ឬ ក្បែរអ្វី">
+    <label>ទំហំ · Size</label>
+    <div class="seg size">
+      <button type="button" data-v="S" class="on">ឯកសារ/តូច<small>≤ 2kg</small></button>
+      <button type="button" data-v="M">មធ្យម<small>2–8kg</small></button>
+      <button type="button" data-v="L">ធំ<small>8–15kg</small></button>
+    </div>
+    <label>ប្រាក់ COD ប្រមូលពីអតិថិជន · Cash to collect</label>
+    <div class="row">
+      <input class="cod" type="number" inputmode="decimal" min="0" step="any" placeholder="0 = គ្មាន COD" style="flex:2">
+      <select class="cur" style="flex:1"><option value="KHR">៛ រៀល</option><option value="USD">$ ដុល្លារ</option></select>
+    </div>
+  </div>
+</template>
+
+<script>
+const KHANS=[["Daun Penh","ដូនពេញ"],["Prampi Makara","ប្រាំពីរមករា"],["Chamkar Mon","ចំការមន"],["Boeng Keng Kang","បឹងកេងកង"],
+["Toul Kork","ទួលគោក"],["Russey Keo","ឫស្សីកែវ"],["Sen Sok","សែនសុខ"],["Pou Senchey","ពោធិ៍សែនជ័យ"],["Mean Chey","មានជ័យ"],
+["Chbar Ampov","ច្បារអំពៅ"],["Dangkao","ដង្កោ"],["Prek Pnov","ព្រែកព្នៅ"],["Chroy Changvar","ជ្រោយចង្វារ"],["Kamboul","កំបូល"]];
+const KH_DIGITS='០១២៣៤៥៦៧៨៩';
+const kh=s=>String(s).replace(/\d/g,d=>KH_DIGITS[d]);
+const riel=n=>kh(n.toLocaleString('en-US'))+'៛';
+const $=s=>document.querySelector(s);
+const tg=window.Telegram&&window.Telegram.WebApp;
+const inTelegram=!!(tg&&tg.initData);
+
+let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:true,used:0};
+let geo=null;
+
+function khanOptions(sel){
+  sel.innerHTML='<option value="">— ជ្រើសខណ្ឌ · Choose —</option>'+KHANS.map(([en,km])=>`<option value="${en}">${km} · ${en}</option>`).join('');
+}
+function segValue(el){return el.querySelector('button.on').dataset.v}
+function bindSeg(el,onChange){
+  el.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+    el.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));tg&&tg.HapticFeedback&&tg.HapticFeedback.selectionChanged();onChange&&onChange()});
+}
+function priceFor(i){return cfg.offerActive&&cfg.used+i<cfg.offerCount?cfg.offerPrice:cfg.normalPrice}
+
+function addParcel(){
+  const node=$('#parcelTpl').content.firstElementChild.cloneNode(true);
+  khanOptions(node.querySelector('.rkhan'));
+  bindSeg(node.querySelector('.size'));
+  node.querySelector('.rm').onclick=()=>{node.remove();renumber()};
+  $('#parcels').appendChild(node);renumber();
+}
+function renumber(){
+  const list=[...document.querySelectorAll('.parcel')];
+  list.forEach((p,i)=>{p.querySelector('.t').textContent='កញ្ចប់ទី '+kh(i+1)+' · Parcel '+(i+1);
+    p.querySelector('.price').textContent=riel(priceFor(i));
+    p.querySelector('.rm').style.display=list.length>1?'':'none'});
+  $('#total').textContent=riel(list.reduce((s,_,i)=>s+priceFor(i),0));
+  $('#addBtn').style.display=list.length>=10?'none':'';
+}
+
+function collect(){
+  const err=[];const bad=el=>{el.classList.add('bad');return el};
+  document.querySelectorAll('.bad').forEach(e=>e.classList.remove('bad'));
+  const phoneOk=v=>/^\+?[0-9 ]{8,15}$/.test(v.trim());
+  const sphone=$('#sphone'),pkhan=$('#pkhan'),paddr=$('#paddr');
+  if(!phoneOk(sphone.value))err.push(bad(sphone));
+  if(!pkhan.value)err.push(bad(pkhan));
+  if(!paddr.value.trim()&&!geo)err.push(bad(paddr));
+  const parcels=[...document.querySelectorAll('.parcel')].map(p=>{
+    const q=s=>p.querySelector(s);
+    if(!phoneOk(q('.rphone').value))err.push(bad(q('.rphone')));
+    if(!q('.rkhan').value)err.push(bad(q('.rkhan')));
+    if(!q('.raddr').value.trim())err.push(bad(q('.raddr')));
+    const cod=parseFloat(q('.cod').value)||0;
+    return{phone:q('.rphone').value.trim(),name:q('.rname').value.trim(),khan:q('.rkhan').value,address:q('.raddr').value.trim(),
+      size:segValue(q('.size')),cod:cod>0?cod:0,currency:q('.cur').value};
+  });
+  return{err,booking:{shop:$('#shop').value.trim(),phone:sphone.value.trim(),pickupKhan:pkhan.value,pickupAddress:paddr.value.trim(),
+    location:geo,pickupTime:segValue($('#ptime')),feePaidBy:segValue($('#payer')),parcels}};
+}
+
+function showError(msg){const e=$('#err');e.textContent=msg;e.style.display='block';tg&&tg.HapticFeedback&&tg.HapticFeedback.notificationOccurred('error')}
+
+let sending=false;
+async function submit(){
+  if(sending)return;
+  $('#err').style.display='none';
+  const{err,booking}=collect();
+  if(err.length){err[0].scrollIntoView({behavior:'smooth',block:'center'});showError('សូមបំពេញព័ត៌មានដែលមានសញ្ញា * · Please fill the required fields.');return}
+  sending=true;setBusy(true);
+  try{
+    const r=await fetch('api/book',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({initData:tg?tg.initData:'',booking})});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok||!j.ok)throw new Error(j.error||('HTTP '+r.status));
+    saveProfile(booking);
+    $('#form').style.display='none';$('#done').style.display='block';$('#doneCode').textContent=j.id;
+    if(tg){tg.MainButton.hide();tg.HapticFeedback&&tg.HapticFeedback.notificationOccurred('success')}
+    $('#fallback').hidden=true;
+    cfg.used+=booking.parcels.length;
+  }catch(e){showError('មិនអាចកក់បានទេ សូមព្យាយាមម្តងទៀត ឬ ទាក់ទង Telegram 098 429 597 · '+e.message)}
+  finally{sending=false;setBusy(false)}
+}
+function setBusy(on){
+  if(tg&&inTelegram){on?tg.MainButton.showProgress():tg.MainButton.hideProgress()}
+  $('#fbBtn').disabled=on;
+}
+
+const PROFILE_KEY='kp_profile';
+function saveProfile(b){
+  const p=JSON.stringify({shop:b.shop,phone:b.phone,pickupKhan:b.pickupKhan,pickupAddress:b.pickupAddress});
+  try{localStorage.setItem(PROFILE_KEY,p)}catch(e){}
+  try{tg&&tg.CloudStorage&&tg.CloudStorage.setItem(PROFILE_KEY,p)}catch(e){}
+}
+function applyProfile(raw){
+  try{const p=JSON.parse(raw);if(!p)return;
+    $('#shop').value||=p.shop||'';$('#sphone').value||=p.phone||'';
+    if(!$('#pkhan').value&&p.pickupKhan)$('#pkhan').value=p.pickupKhan;$('#paddr').value||=p.pickupAddress||''}catch(e){}
+}
+function loadProfile(){
+  try{applyProfile(localStorage.getItem(PROFILE_KEY))}catch(e){}
+  try{tg&&tg.CloudStorage&&tg.CloudStorage.getItem(PROFILE_KEY,(e,v)=>{if(!e&&v)applyProfile(v)})}catch(e){}
+}
+
+async function loadConfig(){
+  try{
+    const r=await fetch('api/config',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({initData:tg?tg.initData:''})});
+    if(r.ok)Object.assign(cfg,await r.json());
+  }catch(e){}
+  const left=Math.max(0,cfg.offerCount-cfg.used);
+  $('#offer').hidden=!(cfg.offerActive&&left>0);
+  if(left>0&&left<cfg.offerCount)$('#offerText').textContent='នៅសល់ '+kh(left)+' ដង តម្លៃ '+riel(cfg.offerPrice)+' / ជើង';
+  renumber();
+}
+
+$('#locBtn').onclick=()=>{
+  if(!navigator.geolocation){$('#locNote').textContent='ទូរស័ព្ទនេះមិនអាចផ្ញើទីតាំងបាន · Location not available';return}
+  $('#locNote').textContent='កំពុងស្វែងរក... · Locating...';
+  navigator.geolocation.getCurrentPosition(p=>{geo={lat:+p.coords.latitude.toFixed(6),lng:+p.coords.longitude.toFixed(6)};
+    $('#locNote').textContent='✓ បានភ្ជាប់ទីតាំង · Location attached ('+geo.lat+', '+geo.lng+')'},
+    ()=>{$('#locNote').textContent='មិនអាចយកទីតាំងបាន សូមសរសេរអាសយដ្ឋាន · Could not get location'},{enableHighAccuracy:true,timeout:10000});
+};
+document.addEventListener('input',e=>{e.target.classList.remove('bad');$('#err').style.display='none'});
+$('#addBtn').onclick=addParcel;
+$('#againBtn').onclick=()=>{$('#parcels').innerHTML='';addParcel();$('#done').style.display='none';$('#form').style.display='';initButtons();loadConfig()};
+$('#fbBtn').onclick=submit;
+bindSeg($('#ptime'));bindSeg($('#payer'));
+khanOptions($('#pkhan'));
+
+function initButtons(){
+  if(tg&&inTelegram){
+    tg.MainButton.setParams({text:'កក់ឥឡូវ · BOOK NOW',is_visible:true});
+  }else{$('#fallback').hidden=false}
+}
+if(tg){tg.ready();tg.expand();tg.MainButton.onClick(submit);
+  if(tg.initDataUnsafe&&tg.initDataUnsafe.user)$('#shop').placeholder=(tg.initDataUnsafe.user.first_name||'')+' shop';}
+addParcel();loadProfile();initButtons();loadConfig();
+</script>
+</body>
+</html>

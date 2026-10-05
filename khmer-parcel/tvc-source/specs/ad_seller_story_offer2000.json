@@ -1,0 +1,13 @@
+{
+  "html": "scenes_ad_seller_story.html",
+  "out": "../khmer_parcel_ad_seller_story_offer2000.mp4",
+  "xfade": 0.35,
+  "segments": [
+    {"scene": "pain", "dur": 13.5, "next": "circleopen"},
+    {"scene": "turn", "dur": 3.2, "next": "slideup"},
+    {"scene": "solve", "dur": 12.5, "next": "fade"},
+    {"scene": "benefits", "dur": 6.5, "next": "zoomin"},
+    {"scene": "offer", "dur": 6.0, "next": "slideleft"},
+    {"scene": "cta", "dur": 6.8}
+  ]
+}

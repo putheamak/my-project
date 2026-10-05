@@ -1,0 +1,209 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Khmer Parcel TVC scenes</title>
+<style>
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-400-normal.woff2);font-weight:400;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-700-normal.woff2);font-weight:700;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-400-normal.woff2);font-weight:400;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-700-normal.woff2);font-weight:700;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:Moul;src:url(moul-khmer-400-normal.woff2)}
+:root{--blue:#1a78cf;--navy:#0d3868;--sky:#dff0fc;--orange:#f08a14;--green:#1fa65a}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--sky)}
+body{font-family:KP,sans-serif;color:var(--navy)}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.scene.on{display:block}
+/* backgrounds */
+.bg-sky{background:radial-gradient(circle at 50% 42%,#f7fbff 0%,#d4ebfb 55%,#a9d5f5 100%)}
+.bg-blue{background:radial-gradient(circle at 50% 40%,#2a8de0 0%,#1669b8 60%,#0d3f78 100%)}
+.burst{position:absolute;left:50%;top:42%;width:3200px;height:3200px;margin:-1600px 0 0 -1600px;
+  background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.55) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);
+  animation:spin 12s linear both;opacity:.7}
+.bg-blue .burst{background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.10) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);opacity:1}
+@keyframes spin{to{transform:rotate(40deg)}}
+.center{position:absolute;left:0;right:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.logo{width:190px;height:190px;border-radius:44px;background:var(--blue);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 18px 40px rgba(13,56,104,.35),inset 0 0 0 8px rgba(255,255,255,.9)}
+.logo svg{width:120px;height:120px}
+.moul{font-family:Moul,KP;font-weight:400;line-height:1.55}
+.pill{display:inline-flex;align-items:center;gap:18px;border-radius:999px;padding:18px 44px;font-weight:700}
+.orange{background:var(--orange);color:#fff;box-shadow:0 12px 28px rgba(240,138,20,.45)}
+.white{background:#fff;color:var(--navy);box-shadow:0 12px 30px rgba(13,56,104,.2)}
+.en{font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+/* animation helpers: all use 'both' so state holds before/after */
+.pop{animation:pop .6s cubic-bezier(.2,1.6,.4,1) both}
+.up{animation:up .6s cubic-bezier(.2,.9,.3,1) both}
+.fromL{animation:fromL .7s cubic-bezier(.2,.9,.3,1) both}
+.fromR{animation:fromR .7s cubic-bezier(.2,.9,.3,1) both}
+.fade{animation:fade .6s ease both}
+.pulse{animation:pulse 1.2s ease-in-out infinite both}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes up{from{transform:translateY(80px);opacity:0}to{transform:none;opacity:1}}
+@keyframes fromL{from{transform:translateX(-1100px)}to{transform:none}}
+@keyframes fromR{from{transform:translateX(1100px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+/* scooter drive across */
+.drive{animation:drive 4s linear both}
+@keyframes drive{from{transform:translateX(-700px)}to{transform:translateX(1300px)}}
+/* service cards */
+.card{position:absolute;left:70px;right:70px;border-radius:40px;background:#fff;padding:44px 48px;
+  box-shadow:0 22px 50px rgba(13,56,104,.25);display:flex;gap:34px;align-items:center}
+.num{flex:none;width:118px;height:118px;border-radius:32px;display:flex;align-items:center;justify-content:center;
+  font-family:Moul;font-size:60px;color:#fff}
+.card h3{font-size:46px;font-weight:700;line-height:1.5}
+.card .tag{font-size:26px;letter-spacing:.14em;font-weight:700;color:var(--blue)}
+.card p{font-size:32px;line-height:1.55;color:#3b5878}
+.price{margin-top:14px;display:inline-block;border-radius:18px;padding:8px 26px;font-weight:700;font-size:48px;color:#fff}
+.chip{display:inline-flex;align-items:center;gap:14px;background:rgba(255,255,255,.95);border-radius:999px;padding:16px 34px;
+  font-size:32px;font-weight:700;color:var(--navy);box-shadow:0 10px 24px rgba(13,56,104,.18)}
+.dot{width:22px;height:22px;border-radius:50%;background:var(--green)}
+/* poster */
+.poster-wrap{position:absolute;left:50%;top:330px;width:960px;height:1131px;margin-left:-480px;border-radius:36px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(13,56,104,.4)}
+.poster-wrap img{width:960px;display:block;transform-origin:50% 45%;animation:zoom 5.5s linear both}
+@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.07)}}
+/* end card rows */
+.row{display:flex;align-items:center;gap:20px;font-size:50px;font-weight:700;color:#fff}
+.row svg{width:56px;height:56px;flex:none}
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <symbol id="cube" viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/><path d="M8 19l24 13 24-13M32 32v26" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></symbol>
+ <symbol id="pin" viewBox="0 0 64 64"><path d="M32 4C20 4 11 13 11 25c0 16 21 35 21 35s21-19 21-35C53 13 44 4 32 4Z" fill="#e53935"/><circle cx="32" cy="25" r="8" fill="#fff"/></symbol>
+ <symbol id="phone" viewBox="0 0 64 64"><path d="M20 6c2 0 4 1 5 3l5 10c1 2 0 4-1 6l-4 4c3 7 9 13 16 16l4-4c2-1 4-2 6-1l10 5c2 1 3 3 3 5v7c0 3-3 6-6 6C30 63 1 34 1 6c0-3 3-6 6-6Z" transform="translate(3 2) scale(.9)" fill="#fff"/></symbol>
+ <symbol id="tg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#29a9eb"/><path d="M14 31l32-13c2-1 3 0 3 2l-5 25c0 2-2 2-3 1l-8-6-4 4c-1 1-2 0-2-1l1-7 14-13-18 11-8-2c-2-1-2-2 0-3Z" fill="#fff"/></symbol>
+ <symbol id="globe" viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" fill="none" stroke="#fff" stroke-width="5"/><path d="M5 32h54M32 5c-9 9-9 45 0 54M32 5c9 9 9 45 0 54" fill="none" stroke="#fff" stroke-width="4"/></symbol>
+ <symbol id="scooter" viewBox="0 0 200 130"><circle cx="45" cy="105" r="22" fill="#0d3868"/><circle cx="45" cy="105" r="9" fill="#9fb8d3"/><circle cx="160" cy="105" r="22" fill="#0d3868"/><circle cx="160" cy="105" r="9" fill="#9fb8d3"/><path d="M30 95c0-25 20-38 55-38h40l20 38Z" fill="#1a9bd8"/><path d="M125 57l15-35h14l-8 38" fill="#1a9bd8"/><rect x="138" y="16" width="26" height="8" rx="4" fill="#0d3868"/><rect x="40" y="18" width="62" height="46" rx="6" fill="#f08a14"/><path d="M40 34h62" stroke="#fff" stroke-width="4" opacity=".7"/><circle cx="118" cy="30" r="15" fill="#0d3868"/><path d="M105 42h25l-5 18h-22Z" fill="#e8492f"/></symbol>
+</defs></svg>
+
+<!-- HOOK 4.2s -->
+<section class="scene bg-sky" id="hook">
+  <div class="burst"></div>
+  <div class="center" style="top:210px">
+    <div class="pill white en pop" style="animation-delay:2.2s;font-size:30px;padding:14px 36px;color:var(--blue)">ចាប់ពីថ្ងៃទី ១ តុលា ២០២៦ · FROM 1 OCT</div>
+  </div>
+  <div class="center" style="top:420px">
+    <div class="logo pop" style="animation-delay:.1s"><svg><use href="#cube"/></svg></div>
+    <div class="moul up" style="animation-delay:.45s;font-size:92px;margin-top:70px;color:var(--navy)">ផ្ញើឥវ៉ាន់</div>
+    <div class="moul up" style="animation-delay:.7s;font-size:92px;color:var(--blue)">ក្នុងភ្នំពេញ?</div>
+    <div class="up en" style="animation-delay:.95s;font-size:32px;margin-top:10px;color:#4a6a8c">Sending a parcel in Phnom Penh?</div>
+    <div class="pill orange pop" style="animation-delay:1.5s;font-size:48px;margin-top:70px">ខ្មែរផាសែល មកយកដល់ផ្ទះ!</div>
+  </div>
+  <svg class="drive" style="position:absolute;left:0;top:1330px;width:360px;height:234px"><use href="#scooter"/></svg>
+</section>
+
+<!-- TRACK TITLE 2.6s -->
+<section class="scene bg-blue" id="track">
+  <div class="burst"></div>
+  <div class="center" style="top:560px">
+    <svg class="pop" style="width:170px;height:170px;animation-delay:.05s"><use href="#pin"/></svg>
+    <div class="moul up" style="animation-delay:.3s;font-size:88px;color:#fff;margin-top:40px">តាមដានផ្ទាល់ ១០០%</div>
+    <div class="up en" style="animation-delay:.5s;font-size:36px;color:#bfe3ff;margin-top:6px">Real-time web tracking</div>
+    <div class="pill white up" style="animation-delay:.8s;font-size:42px;margin-top:70px">ដឹងគ្រប់ពេល ឥវ៉ាន់ដល់ណាហើយ</div>
+  </div>
+</section>
+
+<!-- SERVICES 8s -->
+<section class="scene bg-sky" id="services">
+  <div class="burst"></div>
+  <div class="center" style="top:170px">
+    <div class="moul up" style="font-size:84px;color:var(--navy)">សេវាកម្ម ២ យ៉ាង</div>
+    <div class="up en" style="animation-delay:.15s;font-size:32px;color:var(--blue)">Two services · One trusted team</div>
+  </div>
+  <div class="card fromL" style="top:480px;animation-delay:.5s">
+    <div class="num" style="background:var(--blue)">១</div>
+    <div>
+      <div class="tag">DOOR TO DOOR</div>
+      <h3>សេវាដឹកពីផ្ទះដល់ផ្ទះ</h3>
+      <p>មកយកដល់ទីតាំងអ្នកផ្ញើ ដឹកដល់ដៃអ្នកទទួល</p>
+      <div class="price pop" style="background:var(--blue);animation-delay:1.3s">ចាប់ពី $1.50</div>
+    </div>
+  </div>
+  <div class="card fromR" style="top:900px;animation-delay:2.3s">
+    <div class="num" style="background:var(--orange)">២</div>
+    <div>
+      <div class="tag" style="color:var(--orange)">ONLINE SELLER PARCEL</div>
+      <h3>សម្រាប់អ្នកលក់អនឡាញ</h3>
+      <p>ដឹកមួយជើង · One-leg delivery for online shops</p>
+      <div class="price pop" style="background:var(--orange);animation-delay:3.1s">ត្រឹមតែ ៣,០០០៛</div>
+    </div>
+  </div>
+  <div class="center" style="top:1330px;flex-direction:row;justify-content:center;gap:24px">
+    <div class="chip up" style="animation-delay:4.1s"><span class="dot"></span>បង់ពេលទទួល · COD</div>
+    <div class="chip up" style="animation-delay:4.35s"><span class="dot" style="background:var(--blue)"></span>បង់មុនតាម QR</div>
+  </div>
+</section>
+
+<!-- POSTER 5.5s -->
+<section class="scene bg-sky" id="poster">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="moul up" style="font-size:66px;color:var(--navy)">ងាយស្រួល · រហ័ស · ទុកចិត្តបាន</div>
+  </div>
+  <div class="poster-wrap fade" style="animation-duration:.5s"><img src="poster.webp" alt=""></div>
+</section>
+
+<!-- DEMO 13.9s: real phone recording is overlaid at 250,470 580x1276 -->
+<style>
+.bezel{position:absolute;left:234px;top:454px;width:612px;height:1308px;border-radius:64px;background:#0d1b2e;
+  box-shadow:0 30px 70px rgba(13,56,104,.45)}
+.step{position:absolute;left:0;right:0;top:190px;display:flex;justify-content:center;opacity:0;animation:step 1s linear both}
+.step>div{display:flex;align-items:center;gap:26px;background:#fff;border-radius:34px;padding:22px 40px 22px 24px;box-shadow:0 14px 34px rgba(13,56,104,.22)}
+.step .n{width:96px;height:96px;border-radius:26px;background:var(--blue);color:#fff;font-family:Moul;font-size:50px;display:flex;align-items:center;justify-content:center}
+.step b{display:block;font-size:48px;line-height:1.45}
+.step i{display:block;font-style:normal;font-size:26px;letter-spacing:.12em;font-weight:700;color:var(--blue);text-transform:uppercase}
+@keyframes step{0%{opacity:0;transform:translateY(40px)}6%,94%{opacity:1;transform:none}100%{opacity:0}}
+</style>
+<section class="scene bg-sky" id="demo">
+  <div class="burst"></div>
+  <div class="center" style="top:70px"><div class="pill orange pop" style="font-size:36px;padding:12px 38px">កក់ងាយៗ តាមទូរស័ព្ទ · REAL DEMO</div></div>
+  <div class="step" style="animation-delay:0s;animation-duration:2.4s"><div><span class="n">១</span><span><b>ជ្រើសទំហំកញ្ចប់</b><i>Choose the parcel size</i></span></div></div>
+  <div class="step" style="animation-delay:2.4s;animation-duration:3.4s"><div><span class="n">២</span><span><b>ថតរូប &amp; លេខទូរស័ព្ទ</b><i>Photo &amp; phone numbers</i></span></div></div>
+  <div class="step" style="animation-delay:5.8s;animation-duration:2.0s"><div><span class="n">៣</span><span><b>ជ្រើសការបង់ប្រាក់ ចុច «កក់»</b><i>Choose payment, tap Book</i></span></div></div>
+  <div class="step" style="animation-delay:7.8s;animation-duration:3.1s"><div><span class="n">៤</span><span><b>ទទួលលេខកូដកញ្ចប់ភ្លាមៗ</b><i>Get your parcel code</i></span></div></div>
+  <div class="step" style="animation-delay:10.9s;animation-duration:3.3s"><div><span class="n">៥</span><span><b>ឃើញផ្លូវ ចម្ងាយ និងពេលវេលា</b><i>See route, distance &amp; time</i></span></div></div>
+  <div class="bezel fade" style="animation-duration:.3s"></div>
+</section>
+
+<!-- DEMO2 29.3s: new real recording overlaid natively at 245,470 590x1280 -->
+<section class="scene bg-sky" id="demo2">
+  <div class="burst" style="animation-duration:30s"></div>
+  <div class="center" style="top:70px"><div class="pill orange pop" style="font-size:36px;padding:12px 38px">កក់ងាយៗ តាមទូរស័ព្ទ · REAL DEMO</div></div>
+  <div class="step" style="animation-delay:0s;animation-duration:2.5s"><div><span class="n">១</span><span><b>បើក khmerparcel.com</b><i>Open the website</i></span></div></div>
+  <div class="step" style="animation-delay:2.5s;animation-duration:5.85s"><div><span class="n">២</span><span><b>ជ្រើសកន្លែងមកយក (A)</b><i>Choose pick-up Khan · A</i></span></div></div>
+  <div class="step" style="animation-delay:8.35s;animation-duration:5.3s"><div><span class="n">៣</span><span><b>ដៅទីតាំងលើផែនទី</b><i>Pin the exact spot · optional</i></span></div></div>
+  <div class="step" style="animation-delay:13.65s;animation-duration:5.58s"><div><span class="n">៤</span><span><b>ជ្រើសកន្លែងដឹកទៅ (B)</b><i>Choose drop-off Khan · B</i></span></div></div>
+  <div class="step" style="animation-delay:19.23s;animation-duration:5.92s"><div><span class="n">៥</span><span><b>ឃើញផ្លូវ ចម្ងាយ និងតម្លៃ</b><i>Route, distance &amp; price</i></span></div></div>
+  <div class="step" style="animation-delay:25.15s;animation-duration:4.3s"><div><span class="n">៦</span><span><b>ទំហំកញ្ចប់ &amp; លេខទូរស័ព្ទ</b><i>Parcel size &amp; phone numbers</i></span></div></div>
+  <div class="bezel fade" style="animation-duration:.3s;left:229px;width:622px;height:1310px"></div>
+</section>
+
+<!-- END 7s -->
+<section class="scene bg-blue" id="end">
+  <div class="burst"></div>
+  <div class="center" style="top:170px">
+    <div class="logo pop"><svg><use href="#cube"/></svg></div>
+    <div class="moul up" style="animation-delay:.3s;font-size:100px;color:#fff;margin-top:40px">ខ្មែរផាសែល</div>
+    <div class="up en" style="animation-delay:.45s;font-size:44px;color:#bfe3ff;letter-spacing:.3em">Khmer Parcel</div>
+    <div class="pill orange pop" style="animation-delay:.9s;font-size:46px;margin-top:56px;flex-direction:column;gap:0;padding:22px 56px">
+      <span>បើកដំណើរការ ១ តុលា ២០២៦</span><span class="en" style="font-size:26px;opacity:.95">Launching 1 October 2026</span></div>
+  </div>
+  <div class="center" style="top:1040px;gap:34px">
+    <div class="pill white up pulse" style="animation:up .6s 1.5s both,pulse 1.2s 2.1s ease-in-out infinite both;font-size:50px;padding:24px 60px;color:var(--blue)">កក់ឥឡូវនេះ · BOOK NOW</div>
+    <div class="row up" style="animation-delay:1.8s"><svg><use href="#globe"/></svg>www.khmerparcel.com</div>
+    <div class="row up" style="animation-delay:2.05s"><svg><use href="#phone"/></svg>012 429 597 · 092 678 657</div>
+    <div class="row up" style="animation-delay:2.3s"><svg><use href="#tg"/></svg>Telegram 098 429 597</div>
+  </div>
+</section>
+
+<script>
+window.showScene=async id=>{
+  document.querySelectorAll('.scene').forEach(s=>s.classList.toggle('on',s.id===id));
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));
+  const anims=document.getAnimations();anims.forEach(a=>a.pause());
+  window.seek=t=>{for(const a of document.getAnimations()){a.pause();a.currentTime=t*1000}};
+  return anims.length;
+};
+</script>
+</body></html>
