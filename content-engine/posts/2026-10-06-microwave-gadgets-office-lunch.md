@@ -8,8 +8,8 @@ pinTitle: "Best Microwave Gadgets for Office Lunch (No Stove Needed)"
 pinDescription: "Your break room has a microwave and nothing else? These gadgets cook real lunch in it: a ramen cooker sized for one noodle block, a microwave sandwich press for grilled cheese and paninis, egg cookers and omelet molds, a lidded grill pan for bacon and burgers, and lidded ramekins for carrying leftovers. All small enough for a desk drawer. Comparison table and links on the blog. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Easy Work Lunches & Small Kitchen Gadgets"
 date: "2026-10-06"
-image: ""
-status: "draft"
+image: "images/daria-yakovleva-cooking.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
