@@ -1,0 +1,476 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Khmer Parcel parcel POV</title>
+<style>
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-400-normal.woff2);font-weight:400;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-khmer-700-normal.woff2);font-weight:700;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-400-normal.woff2);font-weight:400;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:KP;src:url(kantumruy-pro-latin-700-normal.woff2);font-weight:700;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:Moul;src:url(moul-khmer-400-normal.woff2)}
+:root{--blue:#1a78cf;--navy:#0d3868;--sky:#dff0fc;--orange:#f08a14;--green:#1fa65a;--red:#e53935}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--sky)}
+body{font-family:KP,sans-serif;color:var(--navy)}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.scene.on{display:block}
+.bg-gray{background:radial-gradient(circle at 50% 35%,#f1f3f6 0%,#cfd5de 70%,#a9b2bf 100%)}
+.bg-sky{background:radial-gradient(circle at 50% 40%,#f7fbff 0%,#d4ebfb 55%,#a9d5f5 100%)}
+.bg-blue{background:radial-gradient(circle at 50% 40%,#2a8de0 0%,#1669b8 60%,#0d3f78 100%)}
+.burst{position:absolute;left:50%;top:40%;width:3200px;height:3200px;margin:-1600px 0 0 -1600px;
+  background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.5) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);animation:spin 16s linear both;opacity:.7}
+.bg-blue .burst{background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.12) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);opacity:1}
+@keyframes spin{to{transform:rotate(50deg)}}
+.center{position:absolute;left:0;right:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.moul{font-family:Moul,KP;font-weight:400;line-height:1.55}
+.en{font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.pill{display:inline-flex;align-items:center;gap:18px;border-radius:999px;padding:18px 44px;font-weight:700}
+.orange{background:var(--orange);color:#fff;box-shadow:0 12px 28px rgba(240,138,20,.45)}
+.white{background:#fff;color:var(--navy);box-shadow:0 12px 30px rgba(13,56,104,.2)}
+.logo{width:170px;height:170px;border-radius:40px;background:var(--blue);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 18px 40px rgba(13,56,104,.35),inset 0 0 0 8px rgba(255,255,255,.9)}
+.logo svg{width:108px;height:108px}
+.pop{animation:pop .5s cubic-bezier(.2,1.6,.4,1) both}
+.up{animation:up .5s cubic-bezier(.2,.9,.3,1) both}
+.fade{animation:fade .4s ease both}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes up{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-14px) rotate(-1deg)}40%{transform:translateX(12px) rotate(1deg)}60%{transform:translateX(-8px)}80%{transform:translateX(6px)}}
+@keyframes stamp{0%{transform:scale(3) rotate(-14deg);opacity:0}60%{transform:scale(.92) rotate(-8deg);opacity:1}100%{transform:scale(1) rotate(-8deg);opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+/* phone chat */
+.chat{position:absolute;left:80px;right:80px;top:330px;height:1180px;border-radius:50px;background:#f5f7fa;overflow:hidden;
+  box-shadow:0 30px 70px rgba(13,56,104,.35);border:12px solid #0d1b2e}
+.chat .hd{height:130px;background:#fff;display:flex;align-items:center;gap:22px;padding:0 34px;border-bottom:2px solid #e3e8ef;position:relative}
+.chat .hd b{font-size:38px;display:block;line-height:1.3}
+.chat .hd i{font-style:normal;font-size:24px;color:#7b8ea6}
+.badge{position:absolute;right:30px;top:34px;min-width:76px;height:62px;border-radius:31px;background:var(--red);color:#fff;font-weight:700;font-size:34px;
+  display:flex;align-items:center;justify-content:center;padding:0 16px;box-shadow:0 8px 18px rgba(229,57,53,.45)}
+.msgs{position:absolute;left:0;right:0;top:130px;bottom:0;padding:30px 30px;display:flex;flex-direction:column;gap:22px}
+.b{max-width:640px;padding:20px 30px;border-radius:34px;font-size:38px;line-height:1.45;animation:up .4s cubic-bezier(.2,.9,.3,1) both}
+.in{align-self:flex-start;background:#fff;border-bottom-left-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06)}
+.me{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:10px}
+.sys{align-self:center;background:#e6f4ea;color:#17703c;font-size:30px;font-weight:700;border-radius:999px;padding:14px 30px}
+.av{width:84px;height:84px;border-radius:50%;flex:none;overflow:hidden}
+.chip{display:flex;align-items:center;gap:26px;background:#fff;border-radius:36px;padding:26px 36px;box-shadow:0 16px 34px rgba(13,56,104,.2);width:900px;text-align:left}
+.chip .ic{width:110px;height:110px;border-radius:30px;flex:none;display:flex;align-items:center;justify-content:center}
+.chip .ic svg{width:76px;height:76px}
+.chip b{display:block;font-size:46px;line-height:1.4}
+.chip i{font-style:normal;font-size:30px;color:#5d7591}
+.row{display:flex;align-items:center;gap:20px;font-size:48px;font-weight:700;color:#fff}
+.row svg{width:54px;height:54px;flex:none}
+/* parcel POV series (Day 4) */
+.clk{position:absolute;left:50%;top:150px;transform:translateX(-50%);display:flex;align-items:center;gap:16px;background:var(--navy);color:#fff;
+  border-radius:999px;padding:12px 36px 12px 18px;font-size:44px;font-weight:700;box-shadow:0 10px 24px rgba(13,56,104,.3);z-index:6}
+.clk svg{width:58px;height:58px}
+.ttl{position:absolute;left:0;right:0;top:250px;text-align:center;z-index:6}
+.say{position:absolute;background:#fff;border-radius:36px;padding:18px 34px;font-size:44px;font-weight:700;line-height:1.35;box-shadow:0 14px 30px rgba(13,56,104,.22);z-index:7;max-width:760px}
+.say small{display:block;font-size:28px;font-weight:400;color:#5d7591}
+.say:after{content:"";position:absolute;left:70px;bottom:-26px;border:16px solid transparent;border-top:20px solid #fff;border-bottom:0}
+.say.r:after{left:auto;right:70px}
+.say.up:after{display:none}
+.masc{position:absolute}
+.masc svg{width:100%;height:100%;overflow:visible}
+.bob{animation:float 1.5s ease-in-out infinite both}
+.eyes{animation:blink 3.2s infinite both;transform-box:fill-box;transform-origin:center}
+@keyframes blink{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(.1)}}
+.ground{position:absolute;left:0;right:0;top:1250px;height:670px;background:linear-gradient(#b9dcf5,#9ccbee)}
+.ph3{position:absolute;border-radius:50px;border:12px solid #0d1b2e;background:#eef4fa;overflow:hidden;box-shadow:0 30px 60px rgba(13,56,104,.35)}
+.url{height:86px;background:#fff;display:flex;align-items:center;justify-content:center;gap:12px;font-size:28px;color:#5d7591;border-bottom:2px solid #e3e8ef}
+.fld{background:#fff;border:3px solid #d5dfea;border-radius:18px;padding:12px 18px;font-size:32px;display:flex;align-items:center;gap:14px;min-height:76px;margin:12px 22px}
+.fld .bd{width:44px;height:44px;border-radius:50%;color:#fff;font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center;flex:none}
+.fld.foc{border-color:var(--blue)}
+.btn{margin:14px 22px;background:var(--blue);color:#fff;border-radius:18px;text-align:center;font-size:36px;font-weight:700;padding:18px;position:relative}
+.map2{position:absolute;left:40px;top:360px;width:1000px;height:1040px;border-radius:50px;overflow:hidden;box-shadow:0 26px 60px rgba(13,56,104,.3);background:#eef5fb}
+.lmk{position:absolute;font-size:24px;font-weight:700;color:#5d7591;text-align:center;white-space:nowrap}
+.pinl{position:absolute;display:flex;align-items:center;gap:12px;background:#fff;border-radius:999px;padding:8px 24px 8px 10px;font-size:34px;font-weight:700;box-shadow:0 8px 18px rgba(13,56,104,.2)}
+.pinl .bd{width:48px;height:48px;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px}
+.ridr{position:absolute;width:200px;height:200px;margin:-150px 0 0 -100px;z-index:4}
+.cash{position:absolute;width:150px;height:80px;border-radius:12px;background:#7cc68a;border:5px solid #4f9d5c;display:flex;align-items:center;justify-content:center;font-weight:700;color:#1f5e2b;font-size:30px}
+.heart{position:absolute;width:70px;height:70px;animation:hrt 2.2s ease-out both}
+@keyframes hrt{0%{transform:translateY(0) scale(.2);opacity:0}20%{opacity:1;transform:translateY(-20px) scale(1)}100%{transform:translateY(-260px) scale(1.1);opacity:0}}
+@keyframes slidein{from{transform:translateX(-900px)}to{transform:none}}
+@keyframes hop{0%{transform:none}50%{transform:translate(-170px,-260px) scale(.7)}100%{transform:translate(-330px,-60px) scale(.45)}}
+@keyframes drop2{from{transform:translateY(-420px) rotate(-12deg)}to{transform:translateY(0) rotate(0)}}
+@keyframes tape{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fadeout{to{opacity:0;visibility:hidden}}
+@keyframes give{from{transform:translateX(0)}to{transform:translateX(-260px)}}
+@keyframes give2{from{transform:translateX(0)}to{transform:translateX(300px)}}
+.tapc{position:absolute;width:110px;height:110px;margin:-55px 0 0 -55px;border-radius:50%;background:rgba(13,56,104,.28);border:5px solid rgba(255,255,255,.95);z-index:9;animation:tapk .6s both}
+@keyframes tapk{0%{transform:scale(1.6);opacity:0}35%{transform:scale(.8);opacity:1}100%{transform:scale(1.5);opacity:0}}
+@keyframes strike{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.okc{width:150px;height:150px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center}
+.okc svg{width:90px;height:90px}
+</style></head>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <symbol id="cube" viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/><path d="M8 19l24 13 24-13M32 32v26" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></symbol>
+ <!-- faces -->
+ <symbol id="face" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#ffd9b0"/><path d="M8 52C6 18 30 4 52 4s44 14 40 50c-6-16-14-24-26-28C54 34 30 34 8 52Z" fill="#2b1d16"/><circle cx="36" cy="56" r="5" fill="#2b1d16"/><circle cx="64" cy="56" r="5" fill="#2b1d16"/></symbol>
+ <symbol id="sad" viewBox="0 0 100 100"><use href="#face"/><path d="M36 82c8-8 20-8 28 0" fill="none" stroke="#b5482a" stroke-width="5" stroke-linecap="round"/><path d="M26 44l14 4M74 44l-14 4" stroke="#2b1d16" stroke-width="4" stroke-linecap="round"/><path d="M80 30c4 6 4 10 0 14-4-4-4-8 0-14Z" fill="#6bb6f0"/></symbol>
+ <symbol id="happy" viewBox="0 0 100 100"><use href="#face"/><path d="M32 72c10 12 26 12 36 0" fill="none" stroke="#b5482a" stroke-width="5" stroke-linecap="round"/><circle cx="26" cy="68" r="6" fill="#ff9e9e" opacity=".7"/><circle cx="74" cy="68" r="6" fill="#ff9e9e" opacity=".7"/></symbol>
+ <symbol id="cust" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#c9e3f7"/><circle cx="50" cy="40" r="18" fill="#7a95b3"/><path d="M18 90c4-22 60-22 64 0" fill="#7a95b3"/></symbol>
+ <symbol id="rider" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#ffe2bf"/><circle cx="50" cy="48" r="20" fill="#ffd9b0"/><path d="M28 44c0-16 10-24 22-24s22 8 22 24Z" fill="#f08a14"/><path d="M24 44h52" stroke="#c96400" stroke-width="5"/><path d="M20 92c4-18 56-18 60 0" fill="#1a78cf"/></symbol>
+ <symbol id="scooter" viewBox="0 0 200 130"><circle cx="45" cy="105" r="22" fill="#0d3868"/><circle cx="45" cy="105" r="9" fill="#9fb8d3"/><circle cx="160" cy="105" r="22" fill="#0d3868"/><circle cx="160" cy="105" r="9" fill="#9fb8d3"/><path d="M30 95c0-25 20-38 55-38h40l20 38Z" fill="#1a9bd8"/><path d="M125 57l15-35h14l-8 38" fill="#1a9bd8"/><rect x="138" y="16" width="26" height="8" rx="4" fill="#0d3868"/><rect x="40" y="18" width="62" height="46" rx="6" fill="#f08a14"/><circle cx="118" cy="30" r="15" fill="#0d3868"/><path d="M105 42h25l-5 18h-22Z" fill="#e8492f"/></symbol>
+ <symbol id="pin" viewBox="0 0 64 64"><path d="M32 4C20 4 11 13 11 25c0 16 21 35 21 35s21-19 21-35C53 13 44 4 32 4Z" fill="#e53935"/><circle cx="32" cy="25" r="8" fill="#fff"/></symbol>
+ <symbol id="callic" viewBox="0 0 64 64"><path d="M20 6c2 0 4 1 5 3l5 10c1 2 0 4-1 6l-4 4c3 7 9 13 16 16l4-4c2-1 4-2 6-1l10 5c2 1 3 3 3 5v7c0 3-3 6-6 6C30 63 1 34 1 6c0-3 3-6 6-6Z" transform="translate(3 2) scale(.9)" fill="#fff"/></symbol>
+ <symbol id="heart" viewBox="0 0 64 64"><path d="M32 56S6 40 6 22C6 13 13 7 21 7c5 0 9 3 11 7 2-4 6-7 11-7 8 0 15 6 15 15 0 18-26 34-26 34Z" fill="#e53935"/></symbol>
+ <symbol id="star" viewBox="0 0 64 64"><path d="M32 4l8 18 20 2-15 13 5 20-18-11-18 11 5-20L4 24l20-2Z" fill="#ffb300"/></symbol>
+ <symbol id="eye" viewBox="0 0 64 64"><path d="M4 32s10-18 28-18 28 18 28 18-10 18-28 18S4 32 4 32Z" fill="none" stroke="#fff" stroke-width="5"/><circle cx="32" cy="32" r="8" fill="#fff"/></symbol>
+ <symbol id="coin" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#fff" stroke-width="5"/><path d="M38 22c-2-3-12-4-12 3s14 4 14 11-11 7-14 3M32 15v34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></symbol>
+ <symbol id="phone" viewBox="0 0 64 64"><use href="#callic"/></symbol>
+ <symbol id="tg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#29a9eb"/><path d="M14 31l32-13c2-1 3 0 3 2l-5 25c0 2-2 2-3 1l-8-6-4 4c-1 1-2 0-2-1l1-7 14-13-18 11-8-2c-2-1-2-2 0-3Z" fill="#fff"/></symbol>
+ <symbol id="globe" viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" fill="none" stroke="#fff" stroke-width="5"/><path d="M5 32h54M32 5c-9 9-9 45 0 54M32 5c9 9 9 45 0 54" fill="none" stroke="#fff" stroke-width="4"/></symbol>
+ <symbol id="check" viewBox="0 0 64 64"><path d="M12 33l13 13 27-28" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="clock" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#fff" stroke-width="5"/><path d="M32 16v17l11 7" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></symbol>
+ <symbol id="save" viewBox="0 0 64 64"><path d="M16 6h32v52L32 46 16 58Z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/><path d="M24 24l6 6 11-12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="boxes" viewBox="0 0 64 64"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"><rect x="6" y="30" width="24" height="24" rx="3"/><rect x="34" y="30" width="24" height="24" rx="3"/><rect x="20" y="6" width="24" height="24" rx="3"/></g></symbol>
+ <symbol id="watchface" viewBox="0 0 200 200"><rect x="84" y="6" width="32" height="18" rx="6" fill="#f08a14"/><rect x="94" y="20" width="12" height="16" fill="#f08a14"/><path d="M150 40l14-14 12 12-14 14" fill="#f08a14"/>
+  <circle cx="100" cy="114" r="80" fill="#fff" stroke="#0d3868" stroke-width="12"/>
+  <g stroke="#0d3868" stroke-width="6" stroke-linecap="round"><path d="M100 46v12M100 170v12M32 114h12M156 114h12"/></g></symbol>
+ <symbol id="mom" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#ffd9b0"/><circle cx="50" cy="12" r="13" fill="#9aa3ad"/><path d="M8 54C6 22 28 10 50 10s44 12 42 44c-6-14-16-22-30-24C46 30 26 34 8 54Z" fill="#9aa3ad"/><circle cx="36" cy="58" r="4.5" fill="#2b1d16"/><circle cx="64" cy="58" r="4.5" fill="#2b1d16"/><path d="M34 74c10 10 22 10 32 0" fill="none" stroke="#b5482a" stroke-width="5" stroke-linecap="round"/><circle cx="26" cy="68" r="6" fill="#ff9e9e" opacity=".7"/><circle cx="74" cy="68" r="6" fill="#ff9e9e" opacity=".7"/></symbol>
+ <symbol id="shirt" viewBox="0 0 100 100"><path d="M30 10 12 22l8 18 10-6v56h40V34l10 6 8-18-18-12c-4 8-12 12-20 12s-16-4-20-12Z" fill="#f08a14"/><path d="M40 10c2 6 6 9 10 9s8-3 10-9" fill="none" stroke="#c96400" stroke-width="4"/></symbol>
+ <symbol id="openbox" viewBox="0 0 200 200"><path d="M40 80h120v100H40Z" fill="#d9a066"/><path d="M160 80l30-30v100l-30 30Z" fill="#c48a50"/><path d="M40 80 10 40l50 5 0 35Z" fill="#e7b57d"/><path d="M160 80l30-30-60-6-10 36Z" fill="#e7b57d"/><path d="M40 80h120" stroke="#b07a42" stroke-width="4"/></symbol>
+ <symbol id="monument" viewBox="0 0 100 120"><g fill="#d4a373"><rect x="10" y="100" width="80" height="14" rx="3"/><rect x="20" y="80" width="60" height="20"/><rect x="28" y="58" width="44" height="22"/><rect x="36" y="38" width="28" height="20"/><path d="M42 38 50 6 58 38Z"/></g><g fill="#b5825a"><rect x="24" y="84" width="8" height="12"/><rect x="68" y="84" width="8" height="12"/><rect x="46" y="62" width="8" height="14"/></g></symbol>
+ <symbol id="market" viewBox="0 0 120 90"><path d="M10 80h100v8H10Z" fill="#c9b18a"/><path d="M20 80V50h80v30Z" fill="#f2e3c6"/><path d="M20 52C20 20 100 20 100 52Z" fill="#f4d58d"/><path d="M60 22v-14" stroke="#c9b18a" stroke-width="5"/><g fill="#c9b18a"><rect x="30" y="58" width="10" height="22"/><rect x="55" y="58" width="10" height="22"/><rect x="80" y="58" width="10" height="22"/></g></symbol>
+ <symbol id="house" viewBox="0 0 400 360"><path d="M20 150 200 20 380 150Z" fill="#e8492f"/><rect x="50" y="150" width="300" height="200" fill="#fff6e8"/><rect x="160" y="210" width="90" height="140" rx="8" fill="#8d5a2b"/><circle cx="234" cy="285" r="7" fill="#ffd08a"/><rect x="70" y="190" width="70" height="60" rx="6" fill="#9fd0f0" stroke="#8d5a2b" stroke-width="6"/><rect x="270" y="190" width="60" height="60" rx="6" fill="#9fd0f0" stroke="#8d5a2b" stroke-width="6"/><rect x="290" y="300" width="40" height="40" rx="6" fill="#c96400"/><circle cx="310" cy="290" r="22" fill="#1fa65a"/></symbol>
+ <symbol id="shop" viewBox="0 0 400 360"><rect x="30" y="120" width="340" height="230" fill="#fff6e8"/><path d="M20 80h360v60H20Z" fill="#1a78cf"/><g fill="#fff"><rect x="50" y="80" width="40" height="60"/><rect x="130" y="80" width="40" height="60"/><rect x="210" y="80" width="40" height="60"/><rect x="290" y="80" width="40" height="60"/></g><rect x="60" y="20" width="280" height="60" rx="12" fill="#0d3868"/><rect x="70" y="170" width="140" height="180" rx="6" fill="#9fd0f0" stroke="#0d3868" stroke-width="6"/><rect x="240" y="180" width="110" height="80" rx="6" fill="#ffe3c0"/><path d="M250 200h90M250 225h70" stroke="#f08a14" stroke-width="8"/></symbol>
+ <symbol id="cash" viewBox="0 0 100 60"><rect x="3" y="3" width="94" height="54" rx="8" fill="#7cc68a" stroke="#4f9d5c" stroke-width="5"/><circle cx="50" cy="30" r="14" fill="none" stroke="#2f7a3d" stroke-width="5"/></symbol>
+</defs></svg>
+
+<!-- ===================== SELLER CUT ===================== -->
+<section class="scene bg-sky" id="s_hook">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="pill orange" style="font-size:40px">អ្នកលក់អនឡាញ · Online sellers</div>
+    <div class="moul" style="font-size:96px;line-height:1.5;margin-top:26px">POV៖ ខ្ញុំជាឥវ៉ាន់</div>
+    <div class="moul" style="font-size:80px;color:var(--blue);line-height:1.5">ពីហាងអនឡាញ</div>
+  </div>
+  <div class="masc bob" data-k="box" data-m="wow" style="left:270px;top:680px;width:540px;height:540px"></div>
+  <div class="say pop" style="left:300px;top:1250px;animation-delay:.6s">មកមើលដំណើរខ្ញុំ!<small>Come see my trip</small></div>
+</section>
+
+<section class="scene bg-sky" id="s_pack">
+  <div class="clk"><svg><use href="#clock"/></svg>០៩:០០ ព្រឹក</div>
+  <div class="ttl moul up" style="font-size:66px">ម្ចាស់ហាង ខ្ចប់ខ្ញុំ</div>
+  <div class="ground" style="top:1180px;background:linear-gradient(#c89868,#a8774a)"></div>
+  <div style="animation:fadeout .2s 2.2s forwards">
+    <svg style="position:absolute;left:290px;top:760px;width:500px;height:500px"><use href="#openbox"/></svg>
+    <svg style="position:absolute;left:400px;top:700px;width:230px;height:230px;animation:drop2 .7s .4s cubic-bezier(.3,1.3,.5,1) both"><use href="#shirt"/></svg>
+  </div>
+  <div class="masc pop" data-k="box" data-m="happy" style="left:290px;top:730px;width:500px;height:500px;animation-delay:2.2s"></div>
+  <div class="pop" style="position:absolute;left:330px;top:1040px;width:290px;background:#fff;border-radius:12px;padding:10px 16px;font-size:24px;line-height:1.4;box-shadow:0 6px 14px rgba(0,0,0,.2);transform:rotate(-3deg);animation-delay:3.0s;z-index:5">
+    <b style="font-size:26px">ទៅ៖ ទួលគោក</b><br>096 123 4567<br><b style="color:var(--orange)">COD ៤៥,០០០៛</b></div>
+  <div class="say r pop" style="right:60px;top:480px;animation-delay:3.6s">ខ្ចប់ស្អាត បិទស្លាកច្បាស់!<small>Packed and labelled</small></div>
+</section>
+
+<section class="scene bg-sky" id="s_book">
+  <div class="clk"><svg><use href="#clock"/></svg>០៩:៣០ ព្រឹក</div>
+  <div class="ttl moul up" style="font-size:64px">កក់តាម Telegram Bot</div>
+  <div class="ph3" style="left:120px;top:400px;width:560px;height:960px">
+    <div style="height:110px;background:#fff;display:flex;align-items:center;gap:16px;padding:0 22px;border-bottom:2px solid #e3e8ef">
+      <div style="width:66px;height:66px;border-radius:18px;background:var(--blue);display:flex;align-items:center;justify-content:center"><svg style="width:44px;height:44px"><use href="#cube"/></svg></div>
+      <b style="font-size:30px">@KhmerParcelBot</b></div>
+    <div style="position:absolute;left:0;right:0;top:110px;bottom:0;background:#cfe1ee;padding:24px">
+      <div class="b in" style="font-size:28px;animation-delay:.2s;max-width:440px">៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង</div>
+      <div style="position:relative;margin-top:16px;width:440px;background:rgba(13,56,104,.28);color:#fff;border-radius:18px;padding:16px;font-size:28px;font-weight:700;text-align:center">កក់ឥឡូវ · Book now<i class="tapc" style="left:50%;top:50%;animation-delay:.8s"></i></div>
+    </div>
+    <div style="position:absolute;inset:0;background:#eef4fa;animation:slideupin .4s 1.2s both;padding-top:20px">
+      <div class="fld">ហាងស្រីលក្ខណ៍ · សែនសុខ</div>
+      <div class="fld">096 123 4567 · ទួលគោក</div>
+      <div class="fld">COD ៤៥,០០០៛</div>
+      <div style="margin:12px 22px;display:flex;gap:10px;font-size:28px"><span style="flex:1;border:3px solid #d5dfea;border-radius:14px;padding:10px;text-align:center;background:#fff">១០:០០</span><span style="flex:1;border:3px solid var(--blue);border-radius:14px;padding:10px;text-align:center;background:#e3eefa;font-weight:700">៣:០០ រសៀល</span></div>
+      <div style="margin:18px 22px;display:flex;justify-content:space-between;font-size:32px"><span>សរុប</span><b style="font-size:42px">២,០០០៛</b></div>
+      <div class="btn" style="position:absolute;left:0;right:0;bottom:20px">កក់ឥឡូវ · BOOK NOW<i class="tapc" style="left:50%;top:50%;animation-delay:2.6s"></i></div>
+    </div>
+    <div style="position:absolute;inset:0;background:#eef4fa;display:flex;flex-direction:column;align-items:center;padding-top:200px;animation:fade .3s 3.0s both">
+      <div class="okc pop" style="animation-delay:3.1s"><svg><use href="#check"/></svg></div>
+      <div style="font-size:40px;font-weight:700;margin-top:24px">បានទទួលការកក់!</div>
+      <div style="font-size:34px;font-weight:700;background:#fff;border-radius:16px;padding:10px 26px;margin-top:20px;letter-spacing:.05em">KPN4Q8B3E1</div>
+    </div>
+  </div>
+  <div class="masc bob pop" data-k="box" data-m="happy" style="left:700px;top:930px;width:330px;height:330px;animation-delay:.3s"></div>
+  <div class="say r pop" style="right:40px;top:690px;animation-delay:3.5s">៣០ វិនាទី រួច!<small>Booked in 30 s</small></div>
+  <div class="pill orange pop" style="position:absolute;left:150px;top:1385px;font-size:38px;animation-delay:4.0s">ម៉ោងមកយក ៣:០០ រសៀល</div>
+</section>
+<style>@keyframes slideupin{from{transform:translateY(100%)}to{transform:none}}</style>
+
+<section class="scene bg-sky" id="s_pickup">
+  <div class="clk"><svg><use href="#clock"/></svg>០៣:០០ រសៀល</div>
+  <div class="ttl moul up" style="font-size:64px">អ្នកដឹកមកយកដល់ហាង</div>
+  <div class="ground"></div>
+  <svg style="position:absolute;left:520px;top:620px;width:520px;height:470px"><use href="#shop"/></svg>
+  <div style="position:absolute;left:560px;top:640px;width:420px;text-align:center;color:#fff;font-weight:700;font-size:34px;z-index:2">ហាងស្រីលក្ខណ៍</div>
+  <svg style="position:absolute;left:40px;top:930px;width:440px;height:286px;animation:slidein 1s .2s cubic-bezier(.2,.9,.3,1) both"><use href="#scooter"/></svg>
+  <div class="say pop" style="left:40px;top:430px;animation-delay:1.3s;display:flex;align-items:center;gap:16px"><span style="width:64px;height:64px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;flex:none"><svg style="width:40px;height:40px"><use href="#phone"/></svg></span><span>អ្នកដឹកហៅមុនមកដល់<small>The rider calls first</small></span></div>
+  <div class="masc" data-k="box" data-m="happy" style="left:620px;top:1030px;width:260px;height:260px;animation:hop 1s 2.6s ease-in-out both"></div>
+  <div class="say pop" style="left:380px;top:1330px;animation-delay:3.5s">ទៅហើយ! Bye!</div>
+</section>
+
+<section class="scene bg-sky" id="s_ride">
+  <div class="ttl moul up" style="top:150px;font-size:60px">ដៅទីតាំងលើផែនទី</div>
+  <div class="ttl up" style="top:265px;font-size:36px;font-weight:700;color:var(--blue);animation-delay:.2s">ទៅត្រង់ផ្ទះអតិថិជន · Exact map pin</div>
+  <div class="map2 fade" data-route="M170 250 C 250 330, 330 340, 420 380 S 560 450, 620 560">
+    <svg class="mapbg" viewBox="0 0 1000 1040" width="1000" height="1040"></svg>
+    <div class="pinl pop" style="left:60px;top:150px;animation-delay:.3s"><span class="bd" style="background:var(--blue)">A</span>ហាង · សែនសុខ</div>
+    <div class="pinl pop" style="left:520px;top:600px;animation-delay:.5s"><span class="bd" style="background:var(--green)">B</span>ទួលគោក</div>
+    <div class="ridr"><svg style="position:absolute;left:0;top:70px;width:200px;height:130px"><use href="#scooter"/></svg><div class="masc" data-k="box" data-m="wow" style="left:40px;top:-10px;width:110px;height:110px"></div></div>
+  </div>
+  <div class="say pop" style="left:90px;top:1270px;animation-delay:2.5s">វឺ...ន! ផ្លូវនេះស្គាល់ច្បាស់</div>
+</section>
+
+<section class="scene bg-sky" id="s_arrive">
+  <div class="ttl moul up" style="top:150px;font-size:66px">ដល់ដៃអតិថិជន</div>
+  <div class="ground"></div>
+  <svg style="position:absolute;left:300px;top:540px;width:740px;height:666px"><use href="#house"/></svg>
+  <svg class="pop" style="position:absolute;left:560px;top:820px;width:260px;height:260px;animation-delay:.3s;z-index:3"><use href="#happy"/></svg>
+  <svg style="position:absolute;left:-60px;top:960px;width:440px;height:286px"><use href="#scooter"/></svg>
+  <div class="masc" data-k="box" data-m="love" style="left:340px;top:1030px;width:220px;height:220px;animation:give2 .8s .8s ease-in-out both;z-index:4"></div>
+  <svg class="heart" style="left:600px;top:980px;animation-delay:1.7s;z-index:5"><use href="#heart"/></svg>
+  <svg class="heart" style="left:700px;top:1000px;animation-delay:2.1s;z-index:5"><use href="#heart"/></svg>
+  <svg style="position:absolute;left:560px;top:1120px;width:150px;height:90px;animation:give 1s 2.4s ease-in-out both;z-index:5"><use href="#cash"/></svg>
+  <div class="say pop" style="left:60px;top:340px;animation-delay:3.2s;font-size:40px">អ្នកដឹកប្រមូលប្រាក់ COD ជូនអ្នកលក់<small>COD cash collected for the seller</small></div>
+  <div class="say r pop" style="right:40px;top:620px;animation-delay:1.6s">ទទួលបានហើយ!</div>
+  <div class="center pop" style="top:1330px;animation-delay:4.2s"><div style="background:#fff;border-radius:999px;padding:12px 30px;display:flex;gap:6px;box-shadow:0 10px 24px rgba(13,56,104,.2)"><svg style="width:60px;height:60px"><use href="#star"/></svg><svg style="width:60px;height:60px"><use href="#star"/></svg><svg style="width:60px;height:60px"><use href="#star"/></svg><svg style="width:60px;height:60px"><use href="#star"/></svg><svg style="width:60px;height:60px"><use href="#star"/></svg></div></div>
+</section>
+
+<section class="scene" id="s_offer" style="background:radial-gradient(circle at 50% 40%,#ffb54d 0%,#f08a14 60%,#c96400 100%)">
+  <div class="burst" style="background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.14) 0deg 6deg,rgba(255,255,255,0) 6deg 15deg);opacity:1"></div>
+  <div class="center" style="top:160px">
+    <div class="moul up" style="font-size:72px;color:#fff">អ្នកលក់អនឡាញ?</div>
+    <div class="moul up" style="animation-delay:.2s;font-size:62px;color:#fff3de">ផ្ញើខ្ញុំ តាម Bot</div>
+  </div>
+  <div class="center" style="top:560px">
+    <div class="pop" style="animation-delay:.6s;background:#fff;border-radius:50px;padding:36px 80px 44px;box-shadow:0 26px 60px rgba(120,50,0,.35);display:flex;flex-direction:column;align-items:center">
+      <div class="moul" style="font-size:60px;color:var(--navy)">៣ ដងដំបូង</div>
+      <div style="position:relative;font-size:56px;font-weight:700;color:#9aa9ba">៣,០០០៛<div style="position:absolute;left:-10px;right:-10px;top:52%;height:8px;border-radius:4px;background:var(--red);transform-origin:left;animation:strike .35s 1.3s ease both"></div></div>
+      <div class="moul" style="font-size:140px;color:var(--orange);line-height:1.3;animation:pop .5s 1.7s cubic-bezier(.2,1.6,.4,1) both">២,០០០៛</div>
+      <div style="font-size:34px;font-weight:700;color:var(--navy)">ក្នុងមួយជើង · per delivery</div>
+    </div>
+  </div>
+  <div class="masc bob pop" data-k="box" data-m="happy" style="left:60px;top:1100px;width:260px;height:260px;animation-delay:2.2s"></div>
+  <div class="center" style="top:1240px;gap:18px;left:240px">
+    <div class="up" style="animation-delay:2.5s;font-size:32px;font-weight:700;color:#fff">* អ្នកលក់អនឡាញ ប៉ុណ្ណោះ · ដល់ ៣១ តុលា ២០២៦</div>
+    <div class="pill white up" style="animation-delay:2.8s;font-size:40px;color:var(--blue)"><svg style="width:52px;height:52px"><use href="#tg"/></svg>@KhmerParcelBot</div>
+  </div>
+</section>
+
+<section class="scene bg-blue" id="s_qr">
+  <div class="burst"></div>
+  <div class="center" style="top:120px">
+    <div class="moul up" style="font-size:84px;color:#fff">ស្កេន ហើយកក់ភ្លាម</div>
+    <div class="en up" style="animation-delay:.2s;font-size:38px;color:#bfe3ff;margin-top:4px">Scan to book on Telegram</div>
+  </div>
+  <div class="center" style="top:400px">
+    <div class="pop" style="animation-delay:.4s;width:700px;height:825px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.35))"><img src="qr_khmerparcelbot.png" style="width:100%;height:100%;display:block"></div>
+  </div>
+  <div class="masc pop" data-k="box" data-m="happy" style="left:20px;top:1000px;width:240px;height:240px;animation-delay:1s"></div>
+  <div class="center" style="top:1270px;gap:20px">
+    <div class="pill orange pop" style="animation-delay:1.2s;font-size:44px"><svg style="width:56px;height:56px"><use href="#tg"/></svg>t.me/KhmerParcelBot</div>
+    <div class="row up" style="animation-delay:1.6s;font-size:40px"><svg><use href="#phone"/></svg>012 429 597 · 092 678 657</div>
+  </div>
+</section>
+
+<!-- ===================== DOOR-TO-DOOR CUT ===================== -->
+<section class="scene bg-sky" id="d_hook">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="pill" style="font-size:40px;background:var(--red);color:#fff">ផ្ទះដល់ផ្ទះ · Door to Door</div>
+    <div class="moul" style="font-size:100px;line-height:1.5;margin-top:26px">POV៖ ខ្ញុំជាកាដូ</div>
+    <div class="moul" style="font-size:80px;color:var(--red);line-height:1.5">ពីកូន ជូនម្តាយ</div>
+  </div>
+  <div class="masc bob" data-k="gift" data-m="happy" style="left:270px;top:690px;width:540px;height:540px"></div>
+  <div class="say pop" style="left:200px;top:1250px;animation-delay:.6s">ម្តាយមិនទាន់ដឹងទេ... ស៊ឺប្រាយ!<small>Mom doesn't know yet</small></div>
+</section>
+
+<section class="scene bg-sky" id="d_book">
+  <div class="ttl moul up" style="top:140px;font-size:62px">កូនកក់ខ្ញុំ តាមវេបសាយ</div>
+  <div class="ph3" style="left:90px;top:300px;width:620px;height:1100px">
+    <div class="url"><svg style="width:34px;height:34px"><use href="#globe"/></svg><span style="color:#0d3868;font-weight:700">khmerparcel.com</span></div>
+    <div style="background:linear-gradient(135deg,#1a78cf,#0d3868);color:#fff;padding:18px 24px;font-size:34px;font-weight:700">ផ្ទះដល់ផ្ទះ · Door to Door</div>
+    <div class="fld ty2" data-v="សែនសុខ · Sen Sok" data-a=".5" data-b="1.3"><span class="bd" style="background:var(--blue)">A</span><span class="tx"></span></div>
+    <div class="fld ty2" data-v="ទួលគោក · Toul Kork" data-a="1.6" data-b="2.4"><span class="bd" style="background:var(--green)">B</span><span class="tx"></span></div>
+    <div style="position:relative;margin:12px 22px;height:380px;border-radius:20px;overflow:hidden;background:#eef5fb">
+      <svg viewBox="0 0 560 380" width="560" height="380" style="position:absolute;inset:0">
+        <g stroke="#fff" stroke-width="16" fill="none"><path d="M0 90H560M0 260H560M140 0V380M400 0V380"/></g>
+        <path class="mroute" d="M80 70 C 160 130, 240 160, 300 200 S 420 280, 470 310" fill="none" stroke="#1a78cf" stroke-width="10" stroke-linecap="round"/>
+      </svg>
+      <svg class="pop" style="position:absolute;left:52px;top:14px;width:60px;height:60px;animation-delay:1.3s"><use href="#pin"/></svg>
+      <svg class="pop" style="position:absolute;left:442px;top:254px;width:60px;height:60px;animation-delay:2.4s"><use href="#pin"/></svg>
+    </div>
+    <div style="margin:6px 22px;display:flex;gap:14px">
+      <div class="pop" style="flex:1;background:#fff;border-radius:18px;padding:12px;text-align:center;animation-delay:3.0s"><div style="font-size:24px;color:#6a7f97">ចម្ងាយ</div><b style="font-size:40px">6.8 km</b></div>
+      <div class="pop" style="flex:1;background:var(--orange);color:#fff;border-radius:18px;padding:12px;text-align:center;animation-delay:3.2s"><div style="font-size:24px">តម្លៃ</div><b style="font-size:40px">$1.50</b></div>
+    </div>
+    <div class="btn">កក់ · Book<i class="tapc" style="left:50%;top:50%;animation-delay:4.0s"></i></div>
+    <div style="position:absolute;inset:0;background:rgba(238,244,250,.97);display:flex;flex-direction:column;align-items:center;justify-content:center;animation:fade .3s 4.5s both">
+      <div class="okc pop" style="animation-delay:4.6s"><svg><use href="#check"/></svg></div>
+      <div style="font-size:42px;font-weight:700;margin-top:24px">កក់រួចរាល់!</div>
+      <div style="font-size:30px;color:#6a7f97;margin-top:8px">បង់ COD ឬ QR</div>
+    </div>
+  </div>
+  <div class="masc bob pop" data-k="gift" data-m="happy" style="left:730px;top:950px;width:300px;height:300px;animation-delay:.3s"></div>
+  <div class="say r pop" style="right:30px;top:720px;animation-delay:5.0s">ងាយស្រួលណាស់!<small>So easy</small></div>
+</section>
+
+<section class="scene bg-sky" id="d_pickup">
+  <div class="ttl moul up" style="top:150px;font-size:66px">មកយកដល់ផ្ទះ</div>
+  <div class="ground"></div>
+  <svg style="position:absolute;left:380px;top:560px;width:680px;height:612px"><use href="#house"/></svg>
+  <svg class="pop" style="position:absolute;left:620px;top:840px;width:240px;height:240px;animation-delay:.2s;z-index:3"><use href="#happy"/></svg>
+  <svg style="position:absolute;left:30px;top:940px;width:440px;height:286px;animation:slidein 1s .1s cubic-bezier(.2,.9,.3,1) both"><use href="#scooter"/></svg>
+  <div class="masc" data-k="gift" data-m="happy" style="left:640px;top:1040px;width:220px;height:220px;animation:hop 1s 1.8s ease-in-out both;z-index:4"></div>
+  <div class="say pop" style="left:60px;top:600px;animation-delay:2.9s">ថែខ្ញុំឲ្យល្អណា!<small>Take good care of me</small></div>
+</section>
+
+<section class="scene bg-sky" id="d_ride">
+  <div class="ttl moul up" style="top:150px;font-size:58px">កូនតាមដានផ្ទាល់</div>
+  <div class="ttl up" style="top:262px;font-size:36px;font-weight:700;color:var(--blue);animation-delay:.2s">លើទូរស័ព្ទ · Live tracking</div>
+  <div class="map2 fade" data-route="M170 250 C 250 330, 330 340, 420 380 S 560 450, 620 560">
+    <svg class="mapbg" viewBox="0 0 1000 1040" width="1000" height="1040"></svg>
+    <div class="pinl pop" style="left:60px;top:150px;animation-delay:.3s"><span class="bd" style="background:var(--blue)">A</span>សែនសុខ</div>
+    <div class="pinl pop" style="left:520px;top:600px;animation-delay:.5s"><span class="bd" style="background:var(--green)">B</span>ផ្ទះម្តាយ</div>
+    <div class="ridr"><svg style="position:absolute;left:0;top:70px;width:200px;height:130px"><use href="#scooter"/></svg><div class="masc" data-k="gift" data-m="wow" style="left:40px;top:-10px;width:110px;height:110px"></div></div>
+  </div>
+  <div class="ph3 pop" style="left:70px;top:960px;width:330px;height:420px;animation-delay:1.2s;z-index:8;border-width:10px">
+    <div style="background:var(--blue);color:#fff;font-size:24px;font-weight:700;padding:12px 16px;display:flex;justify-content:space-between"><span>តាមដានផ្ទាល់</span><span style="color:#7dffa8">●</span></div>
+    <div style="position:relative;height:300px"><svg viewBox="0 0 310 300" width="310" height="300" style="position:absolute;inset:0"><g stroke="#fff" stroke-width="12" fill="none"><path d="M0 90H310M0 210H310M100 0V300M230 0V300"/></g>
+      <path class="mini" d="M40 60 C 90 110, 140 120, 180 160 S 240 220, 270 250" fill="none" stroke="#1a78cf" stroke-width="7" stroke-dasharray="10 8"/><circle class="dot" r="13" fill="#f08a14" stroke="#fff" stroke-width="4"/></svg></div>
+  </div>
+</section>
+
+<section class="scene bg-sky" id="d_arrive">
+  <div class="ttl moul up" style="top:150px;font-size:66px">ដល់ដៃម្តាយ</div>
+  <div class="ground"></div>
+  <svg style="position:absolute;left:300px;top:540px;width:740px;height:666px"><use href="#house"/></svg>
+  <svg class="pop" style="position:absolute;left:560px;top:820px;width:260px;height:260px;animation-delay:.3s;z-index:3"><use href="#mom"/></svg>
+  <svg style="position:absolute;left:-60px;top:960px;width:440px;height:286px"><use href="#scooter"/></svg>
+  <div class="masc" data-k="gift" data-m="love" style="left:340px;top:1030px;width:220px;height:220px;animation:give2 .8s .8s ease-in-out both;z-index:4"></div>
+  <svg class="heart" style="left:600px;top:980px;animation-delay:1.7s;z-index:5"><use href="#heart"/></svg>
+  <svg class="heart" style="left:700px;top:1000px;animation-delay:2.0s;z-index:5"><use href="#heart"/></svg>
+  <svg class="heart" style="left:650px;top:1010px;animation-delay:2.6s;z-index:5"><use href="#heart"/></svg>
+  <div class="say r pop" style="right:40px;top:600px;animation-delay:1.8s">កូនអើយ... អរគុណ!<small>Thank you, my child!</small></div>
+  <div class="say pop" style="left:60px;top:330px;animation-delay:3.4s;display:flex;align-items:center;gap:14px;font-size:38px"><svg style="width:60px;height:60px;flex:none"><use href="#tg"/></svg><span>ម្តាយ៖ ទទួលបានហើយ កូន<small>Mom: Got it!</small></span></div>
+</section>
+
+<section class="scene bg-blue" id="d_price">
+  <div class="burst"></div>
+  <div class="center" style="top:150px">
+    <div class="pill white pop" style="font-size:40px;color:var(--blue)">ផ្ទះដល់ផ្ទះ · DOOR TO DOOR</div>
+  </div>
+  <div class="center" style="top:330px">
+    <div class="pop" style="animation-delay:.3s;background:#fff;border-radius:50px;padding:30px 80px 40px;box-shadow:0 26px 60px rgba(0,0,0,.3);display:flex;flex-direction:column;align-items:center">
+      <div class="moul" style="font-size:56px">ចាប់ពី</div>
+      <div style="font-size:170px;font-weight:700;color:var(--orange);line-height:1.1">$1.50</div>
+      <div class="moul" style="font-size:50px;color:var(--blue)">៦,០០០៛</div>
+      <div style="font-size:30px;color:#5d7591;margin-top:6px">តម្លៃគណនាដោយប្រព័ន្ធ</div>
+    </div>
+  </div>
+  <div class="center" style="top:930px;gap:22px">
+    <div class="chip up" style="animation-delay:1.0s;width:860px;padding:18px 30px"><span class="ic" style="background:#ffe3e2;width:90px;height:90px"><svg><use href="#pin"/></svg></span><span><b style="font-size:40px">ដៅទីតាំងលើផែនទី</b></span></div>
+    <div class="chip up" style="animation-delay:1.4s;width:860px;padding:18px 30px"><span class="ic" style="background:var(--blue);width:90px;height:90px"><svg><use href="#eye"/></svg></span><span><b style="font-size:40px">តាមដានផ្ទាល់</b></span></div>
+    <div class="chip up" style="animation-delay:1.8s;width:860px;padding:18px 30px"><span class="ic" style="background:var(--orange);width:90px;height:90px"><svg><use href="#coin"/></svg></span><span><b style="font-size:40px">បង់ COD ឬ QR</b></span></div>
+  </div>
+</section>
+
+<section class="scene bg-blue" id="d_end">
+  <div class="burst"></div>
+  <div class="center" style="top:120px">
+    <div class="moul up" style="font-size:78px;color:#fff">កក់ខ្លួនឯង តាមវេបសាយ</div>
+    <div class="en up" style="animation-delay:.2s;font-size:36px;color:#bfe3ff">Scan to book door to door</div>
+  </div>
+  <div class="center" style="top:390px">
+    <div class="pop" style="animation-delay:.4s;background:#fff;border-radius:44px;padding:30px;box-shadow:0 30px 60px rgba(0,0,0,.35)"><img src="qr_khmerparcel_web.png" style="width:600px;height:600px;display:block"></div>
+  </div>
+  <div class="masc pop" data-k="gift" data-m="happy" style="left:30px;top:930px;width:230px;height:230px;animation-delay:1s"></div>
+  <div class="center" style="top:1100px;gap:22px">
+    <div class="pill orange pop" style="animation-delay:1.2s;font-size:48px"><svg style="width:56px;height:56px"><use href="#globe"/></svg>www.khmerparcel.com</div>
+    <div class="row up" style="animation-delay:1.6s;font-size:42px"><svg><use href="#phone"/></svg>012 429 597 · 092 678 657</div>
+    <div class="row up" style="animation-delay:1.8s;font-size:40px"><svg><use href="#tg"/></svg>Telegram 098 429 597</div>
+  </div>
+</section>
+
+<!-- COVERS (thumbnails, not in videos) -->
+<section class="scene bg-sky" id="s_cover">
+  <div class="burst"></div>
+  <div class="center" style="top:130px">
+    <div class="pill orange" style="font-size:44px">អ្នកលក់អនឡាញ</div>
+    <div class="moul" style="font-size:110px;line-height:1.5;margin-top:20px">POV៖ ខ្ញុំជាឥវ៉ាន់</div>
+    <div class="moul" style="font-size:76px;color:var(--blue);line-height:1.5">ពីហាង ដល់ដៃអតិថិជន</div>
+  </div>
+  <div class="masc" data-k="box" data-m="wow" style="left:250px;top:720px;width:580px;height:580px"></div>
+  <div class="center" style="top:1330px"><div class="pill white" style="font-size:44px;color:var(--blue)"><svg style="width:56px;height:56px"><use href="#tg"/></svg>@KhmerParcelBot · ២,០០០៛</div></div>
+</section>
+<section class="scene bg-sky" id="d_cover">
+  <div class="burst"></div>
+  <div class="center" style="top:130px">
+    <div class="pill" style="font-size:44px;background:var(--red);color:#fff">ផ្ទះដល់ផ្ទះ</div>
+    <div class="moul" style="font-size:110px;line-height:1.5;margin-top:20px">POV៖ ខ្ញុំជាកាដូ</div>
+    <div class="moul" style="font-size:80px;color:var(--red);line-height:1.5">ពីកូន ជូនម្តាយ</div>
+  </div>
+  <div class="masc" data-k="gift" data-m="love" style="left:250px;top:720px;width:580px;height:580px"></div>
+  <div class="center" style="top:1330px"><div class="pill white" style="font-size:44px;color:var(--blue)"><svg style="width:56px;height:56px"><use href="#globe"/></svg>khmerparcel.com · ចាប់ពី $1.50</div></div>
+</section>
+
+<script>
+const KD='០១២៣៤៥៦៧៨៩',kh=s=>String(s).replace(/\d/g,d=>KD[d]);
+const seg=new Intl.Segmenter('km',{granularity:'grapheme'});
+const graphemes=s=>[...seg.segment(s)].map(x=>x.segment);
+
+// mascot: a parcel box (seller) or a gift box (door to door) with a face
+function mascot(kind,mood){
+  const c=kind==='gift'?{f:'#e53935',t:'#ff6f61',s:'#b71c1c'}:{f:'#d9a066',t:'#e7b57d',s:'#c48a50'};
+  const eyes=mood==='love'
+    ?'<g class="eyes"><path d="M66 100c-8-10-22-2-12 10l12 10 12-10c10-12-4-20-12-10Z" fill="#e53935"/><path d="M122 100c-8-10-22-2-12 10l12 10 12-10c10-12-4-20-12-10Z" fill="#e53935"/></g>'
+    :`<g class="eyes"><ellipse cx="72" cy="110" rx="15" ry="${mood==='wow'?19:16}" fill="#fff"/><ellipse cx="128" cy="110" rx="15" ry="${mood==='wow'?19:16}" fill="#fff"/><circle cx="75" cy="113" r="8" fill="#1d1d1d"/><circle cx="131" cy="113" r="8" fill="#1d1d1d"/><circle cx="78" cy="109" r="3" fill="#fff"/><circle cx="134" cy="109" r="3" fill="#fff"/></g>`;
+  const mouth=mood==='wow'?'<ellipse cx="100" cy="148" rx="12" ry="14" fill="#7a2a1a"/>'
+    :'<path d="M80 140c10 16 30 16 40 0" fill="#7a2a1a"/><path d="M88 147c6 5 18 5 24 0" fill="#ff8a80"/>';
+  const deco=kind==='gift'
+    ?`<path d="M92 70h16v112H92Z" fill="#ffd08a"/><path d="M100 40 92 70h16Z" fill="#f4b860"/><path d="M40 118h120v14H40Z" fill="#ffd08a" opacity=".0"/><path d="M100 42c-30-30-56-6-30 6 10 4 22 0 30-6Zm0 0c30-30 56-6 30 6-10 4-22 0-30-6Z" fill="#ffd08a" stroke="#e0a040" stroke-width="3"/><path d="M170 55 190 40v100l-20 20Z" fill="#ffd08a" opacity=".9"/>`
+    :`<path d="M95 70h14v26H95Z" fill="#f08a14"/><path d="M110 55l50-15 30 10-50 15Z" fill="#f08a14" opacity=".0"/><rect x="128" y="160" width="26" height="14" rx="3" fill="#fff" opacity=".85"/>`;
+  return `<svg viewBox="0 0 200 200">
+   <ellipse cx="100" cy="192" rx="70" ry="8" fill="#0d3868" opacity=".15"/>
+   <path d="M40 70 70 40h120l-30 30Z" fill="${c.t}"/><path d="M160 70l30-30v110l-30 30Z" fill="${c.s}"/>
+   <rect x="40" y="70" width="120" height="110" rx="6" fill="${c.f}"/>${deco}
+   ${kind==='gift'?'':'<path d="M85 40h14l-29 30H56Z" fill="#f08a14"/>'}
+   ${eyes}${mouth}<circle cx="56" cy="134" r="8" fill="#ff8a80" opacity=".6"/><circle cx="144" cy="134" r="8" fill="#ff8a80" opacity=".6"/></svg>`;
+}
+document.querySelectorAll('.masc').forEach(m=>m.innerHTML=mascot(m.dataset.k,m.dataset.m));
+
+// Phnom Penh-ish map with landmarks (decor; not to scale)
+const MAPBG=`<rect width="1000" height="1040" fill="#eef5fb"/>
+ <path d="M860 0 C 820 260, 900 420, 850 640 S 880 900, 940 1040 L1000 1040 L1000 0Z" fill="#9fd0f0"/>
+ <text x="925" y="520" font-size="26" fill="#5b9bd0" font-weight="700" transform="rotate(80 925 520)">ទន្លេសាប</text>
+ <g stroke="#fff" stroke-width="24" stroke-linecap="round" fill="none"><path d="M0 170 L840 130"/><path d="M0 480 L820 450"/><path d="M0 800 L860 780"/><path d="M140 0 L180 1040"/><path d="M470 0 L440 1040"/><path d="M700 0 L720 1040"/><path d="M0 340 C 300 310, 520 520, 840 610"/></g>
+ <g stroke="#d7e6f3" stroke-width="9" fill="none"><path d="M0 260 L840 230"/><path d="M0 640 L840 610"/><path d="M300 0 L290 1040"/><path d="M590 0 L580 1040"/></g>
+ <g fill="#cfe8d4"><rect x="200" y="560" width="170" height="120" rx="18"/><rect x="520" y="160" width="130" height="90" rx="18"/><rect x="40" y="880" width="160" height="110" rx="18"/></g>`;
+document.querySelectorAll('.map2').forEach(m=>{
+  m.querySelector('.mapbg').innerHTML=MAPBG+`<path class="route" d="${m.dataset.route}" fill="none" stroke="#1a78cf" stroke-width="16" stroke-linecap="round"/>`;
+  m.insertAdjacentHTML('beforeend',`<svg style="position:absolute;left:520px;top:690px;width:140px;height:105px"><use href="#market"/></svg><div class="lmk" style="left:490px;top:795px">ផ្សារធំថ្មី</div>
+    <svg style="position:absolute;left:650px;top:850px;width:100px;height:120px"><use href="#monument"/></svg><div class="lmk" style="left:610px;top:968px">វិមានឯករាជ្យ</div>`);
+});
+
+function ride(t,a,b){
+  const sc=document.querySelector('.scene.on');const r=sc.querySelector('.route');if(!r)return;
+  const L=r.getTotalLength(),p=Math.min(1,Math.max(0,(t-a)/(b-a))),e=p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2;
+  r.style.strokeDasharray=L;r.style.strokeDashoffset=L*(1-e);
+  const pt=r.getPointAtLength(L*e),rd=sc.querySelector('.ridr');rd.style.left=pt.x+'px';rd.style.top=pt.y+'px';
+  const mini=sc.querySelector('.mini');
+  if(mini){const ml=mini.getTotalLength(),q=mini.getPointAtLength(ml*e),d=sc.querySelector('.dot');d.setAttribute('cx',q.x);d.setAttribute('cy',q.y)}
+}
+const hooks={
+  s_ride:t=>ride(t,.8,5.8),
+  d_ride:t=>ride(t,.8,5.8),
+  d_book:t=>{
+    document.querySelectorAll('#d_book .ty2').forEach(el=>{
+      const g=graphemes(el.dataset.v),a=+el.dataset.a,b=+el.dataset.b,n=t<a?0:Math.min(g.length,Math.ceil((t-a)/(b-a)*g.length));
+      el.querySelector('.tx').textContent=g.slice(0,n).join('');el.classList.toggle('foc',t>=a-.1&&t<b+.3);
+    });
+    const r=document.querySelector('#d_book .mroute'),L=r.getTotalLength(),p=Math.min(1,Math.max(0,(t-2.4)/.6));
+    r.style.strokeDasharray=L;r.style.strokeDashoffset=L*(1-p);
+  }
+};
+let cur=null;
+window.showScene=async id=>{cur=id;document.querySelectorAll('.scene').forEach(s=>s.classList.toggle('on',s.id===id));
+  await document.fonts.ready;document.getAnimations().forEach(a=>a.pause());return true};
+window.seek=t=>{for(const a of document.getAnimations()){a.pause();a.currentTime=t*1000} if(hooks[cur])hooks[cur](t)};
+</script>
+</body></html>

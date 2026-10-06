@@ -19,6 +19,8 @@ TVC_WORK=<scratchpad>/tvc_work python3 make_tvc.py specs/<name>.json  # full ren
 | `make_tvc.py` | Renders scenes in parallel and joins segments with xfade transitions; also accepts video clips |
 | `specs/*.json` | One spec per finished video (scene order, durations, transitions, output path) |
 | `*.woff2` | Kantumruy Pro (Khmer/Latin text) and Moul (Khmer headlines) |
+| `soundlib.py` | Reusable synth kit (`Track`: music sections + named SFX timed to spec scenes) — use it for new sound scripts, see `make_sound_pov.py` |
+| `qr_khmerparcel_web.png` | QR for https://www.khmerparcel.com (door-to-door end cards) |
 | `make_sound_*.py` | Original background music + sound effects (numpy synth, no samples), timed to a spec; writes `<name>_music.m4a` |
 | `qr_khmerparcelbot.png` | Telegram QR for @KhmerParcelBot (transparent background) — use on end cards |
 | `poster.webp` | Blue key-visual poster (its bottom bar has a wrong number — crop it, never show it) |
@@ -26,6 +28,8 @@ TVC_WORK=<scratchpad>/tvc_work python3 make_tvc.py specs/<name>.json  # full ren
 Existing scene files to copy from:
 - `scenes_ad_seller_story.html` — chat UI, call screen, stamp, benefits chips, offer card, CTA (best template)
 - `scenes_ad_6000riel.html` — banknote hook, choice cards with strike, animated map + counters, steps, end card
+- `scenes_ad_parcel_pov.html` — parcel/gift mascot (`.masc` + `mascot()`), map ride with landmarks, house/shop scenes, phone UIs
+- `scenes_ad_book30s.html` — phone mini-app demo with typing + timer
 - `scenes_launch_tvc.html` — hook, title cards, phone-frame demo overlay (`demo2`), two-services card, poster, end
 
 ## Making a new TVC (workflow)
@@ -33,7 +37,7 @@ Existing scene files to copy from:
 2. Write each scene as a `<section class="scene" id="...">`. Use `.pop/.up/.fade` + `animation-delay` for timing.
    Counters or changing text: add a function to `hooks[sceneId] = t => {...}` in the script.
 3. `python3 make_tvc.py specs/<new>.json --preview` → check every scene image.
-4. Optional sound: copy `make_sound_book30s.py`, change the event times, run it, add `"audio": "<name>_music.m4a"` to the spec.
+4. Optional sound: copy `make_sound_pov.py` (uses `soundlib.py`), change the event times, run it, add `"audio": "<name>_music.m4a"` to the spec.
 5. Full render → check the contact sheet → send the mp4 → commit mp4 + html + spec (+ sound script and m4a).
 
 ## Rules learned the hard way

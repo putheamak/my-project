@@ -42,6 +42,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_seller_story.mp4` | 41 s post-launch story ad "អ្នកលក់អនឡាញ ធ្លាប់ជួបទេ?" (pain → switch → calm chat → benefits → CTA) — source `tvc-source/scenes_ad_seller_story.html` (scenes: pain, turn, solve, benefits, cta) |
 | `khmer_parcel_ad_seller_story_offer2000.mp4` | 47 s seller story + offer scene (first 3 deliveries 2,000៛, online sellers only, claim via Telegram); Door to Door = self-booking on website, system price |
 | `khmer_parcel_ad_book30s.mp4` | 61 s Day 2 Reel (with original music + SFX) "កក់ក្នុង ៣០ វិនាទី" (sellers): hook stopwatch → old chat way → Telegram bot booking demo with live timer (2 parcels, done 0:21) → benefits → 2,000៛ offer → CTA → @KhmerParcelBot QR. Cover image `khmer_parcel_ad_book30s_cover.jpg`. Source `tvc-source/scenes_ad_book30s.html` + `specs/ad_book30s.json` |
+| `khmer_parcel_ad_pov_seller.mp4` / `khmer_parcel_ad_pov_doortodoor.mp4` | Day 4 "POV" series with parcel mascot (box for sellers, red gift for door to door), separate cuts per audience, original music (`make_sound_pov.py` + `soundlib.py`). Source `tvc-source/scenes_ad_parcel_pov.html`, specs `ad_pov_seller.json` / `ad_pov_doortodoor.json`. Website QR `tvc-source/qr_khmerparcel_web.png` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |

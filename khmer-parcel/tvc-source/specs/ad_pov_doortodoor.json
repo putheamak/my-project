@@ -1,0 +1,15 @@
+{
+  "html": "scenes_ad_parcel_pov.html",
+  "out": "../khmer_parcel_ad_pov_doortodoor.mp4",
+  "xfade": 0.35,
+  "audio": "ad_pov_doortodoor_music.m4a",
+  "segments": [
+    {"scene": "d_hook", "dur": 3.6, "next": "slideup"},
+    {"scene": "d_book", "dur": 6.6, "next": "slideleft"},
+    {"scene": "d_pickup", "dur": 4.8, "next": "circleopen"},
+    {"scene": "d_ride", "dur": 7.0, "next": "zoomin"},
+    {"scene": "d_arrive", "dur": 6.4, "next": "slideup"},
+    {"scene": "d_price", "dur": 5.6, "next": "circleopen"},
+    {"scene": "d_end", "dur": 6.4}
+  ]
+}
