@@ -5,7 +5,7 @@ description: "The best kitchen gadgets for small kitchens under $30: compact, mu
 slug: "kitchen-gadgets-small-kitchens-under-30"
 keyword: "best kitchen gadgets for small kitchens under $30 *(keyword idea — verify before posting)*"
 pinTitle: "Best Kitchen Gadgets for Small Kitchens Under $30 (Space-Saving Picks)"
-pinDescription: "Cooking in a galley kitchen, studio, or rental? These compact kitchen gadgets under $30 fold flat, nest together, or replace two tools at once — collapsible colanders, nesting bowls with lids, flexible cutting mats, stackable measuring spoons, over-the-sink drying racks and immersion blenders. Includes a simple comparison table so you can pick the right one for your space and stop buying gadgets you don't use. Available on Amazon — check the current price. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Cooking in a galley kitchen, studio or rental? These compact kitchen gadgets under $30 fold flat, nest together or replace two tools at once: collapsible colanders, nesting bowls with lids, flexible cutting mats, stackable measuring spoons, roll-up drying racks and an immersion blender. Includes a comparison table to pick the right one for your space. As an Amazon Associate I earn from qualifying purchases. Check the current price on Amazon."
 pinBoard: "Small Kitchen Solutions & Gadgets"
 date: "2026-09-28"
 image: "images/small-kitchen-corner.jpg"
