@@ -19,6 +19,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 ## Brand
 - Colors: blue `#1a78cf`, navy `#0d3868`, sky `#dff0fc`, orange `#f08a14`
 - Fonts: Moul (Khmer headlines), Kantumruy Pro (text) — files in `khmer-parcel/tvc-source/`
+- Door to Door service name in Khmer: **"ទៅយក និងដឹកដល់ផ្ទះ"** (owner correction, Oct 2026 — not "ផ្ទះដល់ផ្ទះ")
 - Tagline used: "ងាយស្រួល · រហ័ស · ទុកចិត្តបាន"; spelling used in new text: "ឥវ៉ាន់"
 
 ## Marketing plan (summary)
