@@ -14,6 +14,8 @@ on:
       - "content-engine/build-blog.mjs"
       - "content-engine/compliance.mjs"
       - "content-engine/lib/**"
+      - "content-engine/make-pins.mjs"
+      - ".github/workflows/blog.yml"
   # Commits made by the daily workflow don't trigger "push", so also run after it.
   workflow_run:
     workflows: ["Daily content pack"]
