@@ -123,13 +123,16 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   cards.push({ post, pinTitle, pinDescription, files, link: `${baseUrl}/posts/${post.slug}/` });
 }
 
+// A read-only box with a "Copy" button, so pin text pastes into Pinterest in one tap.
+const field = (name, value, rows) => `<div class="field"><div class="row"><span>${name}</span><button type="button" class="copy">Copy</button></div><textarea rows="${rows}" readonly aria-label="${name}">${esc(value)}</textarea></div>`;
+
 const card = ({ post, pinTitle, pinDescription, files, link }) => `<section>
 <h2>${esc(post.title)}</h2>
 <div class="pins">${files.map((f) => `<a href="${esc(f)}" download><img src="${esc(f)}" alt="Pin design for ${esc(post.title)}" loading="lazy" width="200" height="300"></a>`).join("")}</div>
 <p class="hint">Tap an image to download it. Pin one design now and the others in the coming weeks.</p>
-<label>Title<textarea rows="2" readonly>${esc(pinTitle)}</textarea></label>
-<label>Description<textarea rows="5" readonly>${esc(pinDescription)}</textarea></label>
-<label>Link<textarea rows="2" readonly>${esc(link)}</textarea></label>
+${field("Title", pinTitle, 3)}
+${field("Description", pinDescription, 5)}
+${field("Link", link, 2)}
 ${post.pinBoard ? `<p class="hint">Suggested board: ${esc(post.pinBoard)}</p>` : ""}
 </section>`;
 
@@ -145,13 +148,32 @@ body{margin:0;padding:16px;background:var(--bg);color:var(--text);font:16px/1.5 
 main{max-width:720px;margin:0 auto}section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin:16px 0}
 h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:0}.pins{display:flex;gap:8px;overflow-x:auto}
 .pins img{width:150px;height:225px;object-fit:cover;border-radius:8px;display:block}
-label{display:block;font-weight:600;margin-top:12px}textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-weight:400;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
+.field{margin-top:12px}.row{display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.copy{font:inherit;font-size:.9rem;padding:6px 14px;border:0;border-radius:999px;background:#b4531f;color:#fff;cursor:pointer}.copy.done{background:#2f7d4f}
+textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-weight:400;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
 .hint{color:var(--muted);font-size:.9rem}
 </style></head><body><main>
 <h1>Pin images</h1>
 <p class="hint">Three Pinterest designs per post, newest first, with the text to paste. This page isn't linked from the blog.</p>
 ${cards.map(card).join("\n")}
-</main></body></html>
+</main>
+<script>
+document.addEventListener("click", async (e) => {
+  const btn = e.target.closest(".copy");
+  if (!btn) return;
+  const box = btn.closest(".field").querySelector("textarea");
+  try {
+    await navigator.clipboard.writeText(box.value);
+  } catch {
+    box.select();
+    document.execCommand("copy");
+  }
+  btn.textContent = "Copied!";
+  btn.classList.add("done");
+  setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("done"); }, 1500);
+});
+</script>
+</body></html>
 `);
   console.log(`Wrote ${cards.length} posts to ${outDir}`);
 }
