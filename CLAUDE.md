@@ -17,3 +17,8 @@ projects — don't change them while working on Khmer Parcel, and the notes belo
 - Send finished videos to the owner with SendUserFile, commit mp4 + scene html + spec, push to the working branch.
 - Uploaded source clips do not persist between chats; ask the owner to re-upload if a video needs them.
 - Never ask for or display the bot token or webhook secret.
+
+## Smart Kitchen Picks (`content-engine/`) — read first
+Affiliate blog (kitchen gadgets under $30, Amazon Associates). The Khmer Parcel rules above don't apply here.
+Start with `content-engine/SMART_KITCHEN_PICKS_NOTES.md` (status, daily routine, compliance rules, gotchas),
+then `content-engine/README.md`. Don't change `khmer-parcel/` while working on this project.
