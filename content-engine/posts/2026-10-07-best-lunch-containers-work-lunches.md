@@ -8,8 +8,8 @@ pinTitle: "Best Lunch Containers for Packing Work Lunches the Night Before (Unde
 pinDescription: "Pack tomorrow's lunch tonight in a few minutes. This under $30 kit covers the four jobs a work lunch needs: 2-compartment meal prep containers that keep the main and side apart, an oversized insulated lunch bag, a small insulated jar for soup or oatmeal, and reusable travel utensils that live in the bag. Comparison table and FAQ on the blog. As an Amazon Associate I earn from qualifying purchases. Check the current price on Amazon."
 pinBoard: "Work Lunch Ideas & Meal Prep Gear"
 date: "2026-10-07"
-image: ""
-status: "draft"
+image: "images/m4muli-food.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
