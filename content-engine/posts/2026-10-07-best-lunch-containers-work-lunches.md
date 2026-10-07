@@ -5,7 +5,7 @@ description: "The best lunch containers for packing work lunches the night befor
 slug: "best-lunch-containers-work-lunches"
 keyword: "best lunch containers for packing work lunches"
 pinTitle: "Best Lunch Containers for Packing Work Lunches the Night Before (Under $30)"
-pinDescription: "Pack tomorrow's lunch tonight in under five minutes. This under-$30 kit covers the four jobs a work lunch needs: 2-compartment meal prep containers so the main and side stay separate, an oversized insulated lunch bag that actually closes, a small insulated jar with a spoon for soup or oatmeal, and reusable travel utensils that live in the bag. Plus a rice cooker with a steaming basket to batch-fill containers. Comparison table and FAQ on the blog. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Pack tomorrow's lunch tonight in a few minutes. This under $30 kit covers the four jobs a work lunch needs: 2-compartment meal prep containers that keep the main and side apart, an oversized insulated lunch bag, a small insulated jar for soup or oatmeal, and reusable travel utensils that live in the bag. Comparison table and FAQ on the blog. As an Amazon Associate I earn from qualifying purchases. Check the current price on Amazon."
 pinBoard: "Work Lunch Ideas & Meal Prep Gear"
 date: "2026-10-07"
 image: ""
@@ -33,7 +33,7 @@ Everything else is optional. Start with those four and your lunch habit survives
 
 The [Rubbermaid Brilliance 2-compartment meal prep containers (2.85 cup, 5-pack)](https://amzn.to/4j7VLlo) are the backbone of this. Two compartments means a main and a side stay separate — roasted vegetables next to rice instead of on top of it — and a five-pack lines up with a five-day work week, so Sunday night or any night you can build them in a row.
 
-For smaller portions, the [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jCK2ez) do double duty: bake a single portion, put the lid on, and the baking dish becomes the storage dish. One less transfer, one less bowl in the sink.
+For smaller portions, the [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jCK2ez) do double duty: bake a single portion, put the lid on, and the baking dish becomes the storage dish. One less transfer, one less bowl in the sink. (More ideas for last night's dinner in my [leftover rescue gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-leftovers/).)
 
 Cold-lunch days are where the [S'well stainless steel salad bowl kit (64 oz)](https://amzn.to/4APG20v) earns its spot. It's big enough for a real salad rather than a sad side salad. Note that it's stainless steel, so it does not go in the microwave — this one is for cold food only.
 
@@ -76,4 +76,4 @@ Not if you pack a drink, a main and a snack. A bag that's slightly too big close
 No, but it removes a decision. Batch-cooking a grain on Sunday or on a weeknight gives every container a base, and a cooker with a steaming basket handles the vegetable at the same time.
 
 ### Ready to stop buying sad desk lunches?
-Pick one piece — the containers or the bag — and pack tomorrow's lunch tonight. All of these are available on Amazon; check the current price on Amazon before you buy. And if you want the hot-lunch half of this setup, read **Hot Lunch at Your Desk: Microwave Gadgets Under $30 for the Office Break Room** and **Meal Prep Sunday Made Fast** next.
+Pick one piece — the containers or the bag — and pack tomorrow's lunch tonight. All of these are available on Amazon; check the current price on Amazon before you buy. And if you want the hot-lunch half of this setup, read my [microwave gadgets for office lunch](https://putheamak.github.io/my-project/blog/posts/microwave-gadgets-office-lunch/) and [Meal Prep Sunday gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/) next.
