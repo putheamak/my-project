@@ -37,13 +37,19 @@ For smaller portions, the [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe
 
 Cold-lunch days are where the [S'well stainless steel salad bowl kit (64 oz)](https://amzn.to/4APG20v) earns its spot. It's big enough for a real salad rather than a sad side salad. Note that it's stainless steel, so it does not go in the microwave — this one is for cold food only.
 
+If you'd rather carry one container than several, the [Umami bento box for adults](https://amzn.to/4hAa8xD) is an all-in-one lunch box with sections for a main and sides. It's sold as leakproof; check the listing for what it's designed to hold.
+
+### What about sandwiches and snacks?
+
+Sandwiches and snacks are the easiest things to pack the night before, and the bags are where they usually go wrong. The [SPLF reusable sandwich bags (10-pack)](https://amzn.to/4zlcsyp) give you a full week of sandwich bags with spares, and the listing says they're dishwasher safe. For smaller things like nuts, crackers or cut fruit, the [Stasher reusable silicone pocket bags (4 oz, 2-pack)](https://amzn.to/4y5gMkg) are snack-sized, so the sandwich bag holds the sandwich and the pocket bag holds the snack.
+
 ### What's the easiest way to bring soup or oatmeal to work?
 
 An insulated jar. The [THERMOS FUNTAINER food jar with spoon (10 oz)](https://amzn.to/4y2D5Hq) comes with a spoon that stores with it, which is the part people forget. It's sold as a kids' jar, so treat it as a small portion — a side of soup, a serving of oatmeal, or a hot something to go alongside a sandwich rather than the whole meal.
 
 ### How do you carry it all without a grocery bag?
 
-The [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) is deliberately oversized. If you're carrying a main container, a drink, a snack and a jar, a small lunch bag turns into a game of Tetris every morning. This one is sized for a full day of food. And the [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) lives in the bag permanently — fork and spoon in a case, no plastic cutlery hunt.
+The [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) is deliberately oversized. If you're carrying a main container, a drink, a snack and a jar, a small lunch bag turns into a game of Tetris every morning. This one is sized for a full day of food. Add a couple of slim ice packs, like the [Fit & Fresh Cool Coolers XL slim ice packs (4-pack)](https://amzn.to/4zprnI5), to keep everything cold between your fridge and the office fridge; with four, two can freeze while two are in the bag. And the [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) lives in the bag permanently — fork and spoon in a case, no plastic cutlery hunt.
 
 Want a pot of rice ready to portion out? The [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) cooks a few days' worth at once and steams vegetables in the basket above it, so one appliance fills both compartments of your container. Cooking for one or two? The [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) is the smaller version of that idea.
 
@@ -57,6 +63,10 @@ Want a pot of rice ready to portion out? The [BLACK+DECKER 6-cup rice cooker wit
 | Stainless salad bowl kit (64 oz) | Big cold salads | Cold lunch days | No — stainless steel |
 | Insulated lunch bag (20L) | Carries the whole setup | People who pack a lot | n/a |
 | Travel utensil set with case | Reusable fork and spoon | Break rooms with no cutlery | n/a |
+| Umami bento box for adults | One box with sections for a main and sides | Carrying a single container | Check manufacturer guidance |
+| Slim ice packs (4-pack) | Keeps the bag cold on the commute | Long commutes, no office fridge | No — freezer only |
+| Reusable sandwich bags (10-pack) | Sandwiches packed the night before | A week of sandwich lunches | No |
+| Silicone pocket bags (4 oz, 2-pack) | Snack-sized portions | Nuts, crackers, cut fruit | Check manufacturer guidance |
 | 6-cup rice cooker with basket | Batch rice + steamed veg | Filling containers fast | n/a |
 
 Start with the containers and the bag. Those two alone change the habit.
