@@ -55,6 +55,11 @@ jobs:
           else
             echo "ImageMagick not available; publishing photos at original size"
           fi
+      # Vertical Pinterest images (3 designs per post) and a page listing them
+      # with the text to paste, at <blog>/pins/. Uses the ImageMagick above.
+      - name: Make Pinterest pin images
+        working-directory: content-engine
+        run: node make-pins.mjs
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

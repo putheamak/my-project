@@ -16,6 +16,7 @@ import { fileURLToPath } from "node:url";
 import { parsePost } from "./lib/post.mjs";
 import { checkCompliance } from "./compliance.mjs";
 import { resolveImage } from "./lib/images.mjs";
+import { fitPinDescription } from "./lib/pin-text.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const postsDir = path.join(here, "posts");
@@ -54,19 +55,6 @@ async function getAccessToken() {
   );
 }
 
-// Pinterest allows 500 characters. Always end with the Amazon disclosure, and
-// trim the text before it at a sentence (or word) boundary so it never gets cut.
-function fitPinDescription(text, max = 500) {
-  let body = text.replace(disclosure, "").replace(/\s+/g, " ").trim();
-  const room = max - disclosure.length - 1;
-  if (body.length > room) {
-    const cut = body.slice(0, room);
-    const sentence = cut.lastIndexOf(". ");
-    body = sentence > room * 0.6 ? cut.slice(0, sentence + 1) : cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,;:—-]+$/, "") + "…";
-  }
-  return `${body} ${disclosure}`;
-}
-
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
 const url = (p = "") => `${baseUrl}/${p}`;
 
@@ -102,7 +90,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort() : [
     slug: post.slug,
     board_id: pinterest.boardId,
     title: post.pinTitle.slice(0, 100),
-    description: fitPinDescription(post.pinDescription),
+    description: fitPinDescription(post.pinDescription, disclosure),
     link: url(`posts/${post.slug}/`),
     media_source: { source_type: "image_url", url: imageUrl },
   });

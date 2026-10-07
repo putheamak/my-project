@@ -101,6 +101,18 @@ Each daily pack includes a ready-to-use **Pinterest pin** (title, description, b
 
 To post a pin by hand: open the day's pack, copy the Pinterest pin's title and description, upload your own photo (never an Amazon product image), and link it to the published blog post's URL.
 
+### Pin images
+
+Every time the blog is published, `make-pins.mjs` turns each published post's cover photo into **3 vertical Pinterest images** (1000×1500, the size Pinterest favours) with the pin title on top. They're on one page, together with the pin title, description (disclosure included) and link to paste:
+
+**https://putheamak.github.io/my-project/blog/pins/**
+
+1. Open the page on your phone or computer and tap an image to download it.
+2. In Pinterest, create a pin with that image and paste the title, description and link shown under it.
+3. Pin one design now and the other two a week or two apart. Pinterest treats a new image as a new pin, so each post can be pinned several times.
+
+The page isn't linked from the blog and tells search engines not to list it. To make the images on your own computer, run `node make-pins.mjs` (needs the free ImageMagick); they're saved in `dist-blog/pins/`.
+
 ### Auto-posting pins with the Pinterest API
 
 `post-pinterest.mjs` can post a post's saved pin straight to a board through the [Pinterest API](https://developers.pinterest.com/docs/api/v5/) - no copy-pasting. It's off by default; nothing is posted until you turn it on.
