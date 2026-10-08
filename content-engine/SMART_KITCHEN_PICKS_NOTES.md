@@ -9,9 +9,9 @@ Read this first. Last updated 8 Oct 2026.
 - **Publishing:** merging to `main` triggers the "Publish blog" workflow. It builds the site, shrinks photos, makes pin images and deploys to GitHub Pages.
 
 ## Current status
-- **13 posts:** 12 live (Sep 26 to Oct 7) and 1 draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
-- **25 products** in `config.json`. Every note says "Haven't used it yet".
-- **Pinterest:** all 12 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
+- **14 posts:** 13 live (Sep 26 to Oct 8) and 1 draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
+- **29 products** in `config.json`. Every note says "Haven't used it yet".
+- **Pinterest:** all 13 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
 - **Pin images page:** https://putheamak.github.io/my-project/blog/pins/. `make-pins.mjs` makes 3 designs per post (1000×1500), and the page has Copy buttons for the title, description and link. The page is noindex.
 - **Pinterest auto-posting is OFF.** The owner chose to pin by hand. See "Pinterest API" below before suggesting it again.
 - **Analytics:** GoatCounter at https://smartkitchenpicks.goatcounter.com. Real outside traffic is close to zero so far, because most counted visits are the owner's. The owner was told to open `<blog>/#toggle-goatcounter` once on each browser to stop counting their own visits.
