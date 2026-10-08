@@ -47,6 +47,16 @@ Read this first. Last updated 8 Oct 2026.
 - For posting: run the OAuth flow logged in as Smart Kitchen Picks (redirect URI `https://putheamak.github.io/my-project/blog/`, scopes `boards:read,pins:read,pins:write`). Exchange the code with PowerShell, then save the `PINTEREST_REFRESH_TOKEN`, `PINTEREST_APP_ID` and `PINTEREST_APP_SECRET` secrets. Then set `pinterest.boardId` and `autoPost: true` in `site.json`.
 - The owner found the setup confusing. Only restart it if they ask, one step at a time. **Never ask for or display tokens or the app secret.**
 
+## Pinterest boards (suggested 8 Oct)
+The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadgets Under $30"). Board descriptions were given in chat. Put each pin on the topic board below, and save it to "Kitchen Gadgets Under $30" as well if the owner wants.
+- **Easy Weeknight Dinner Ideas:** Sep 26, Oct 2, Oct 8
+- **Meal Prep & Leftover Ideas:** Sep 27, Sep 30, Oct 1
+- **Quick Breakfast Ideas:** Sep 29, Oct 4
+- **Work Lunch Ideas:** Oct 6, Oct 7
+- **Microwave Meals & No-Stove Cooking:** Oct 3, Oct 6, Oct 8
+- **Cooking for One & Small Kitchens:** Sep 28, Oct 5
+- **Kitchen Gift Ideas Under $30:** Nov 3 gift guide
+
 ## Upcoming
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
 - **Pinning plan:** 2–3 pins a day, rotating posts and designs. Done by Oct 8: Oct 5 (design 2), Oct 3 (design 3), Oct 8 (design 1). Planned for Oct 9: Oct 4 and Oct 1 (design 2 each, with fresh titles and descriptions written in chat). After that: Oct 2 and Sep 29 (design 2), then Oct 8 design 2 around Oct 15. For extra design pins, write a fresh title and description (≤ 500 characters, disclosure at the end) rather than reusing the post's text.
