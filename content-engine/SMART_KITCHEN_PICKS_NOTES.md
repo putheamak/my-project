@@ -49,7 +49,7 @@ Read this first. Last updated 8 Oct 2026.
 
 ## Upcoming
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
-- **Pinning plan:** 2–3 pins a day, rotating posts and designs. The next ones are Oct 5 (design 2) and Oct 3 (design 3).
+- **Pinning plan:** 2–3 pins a day, rotating posts and designs. Done by Oct 8: Oct 5 (design 2), Oct 3 (design 3), Oct 8 (design 1). Planned for Oct 9: Oct 4 and Oct 1 (design 2 each, with fresh titles and descriptions written in chat). After that: Oct 2 and Sep 29 (design 2), then Oct 8 design 2 around Oct 15. For extra design pins, write a fresh title and description (≤ 500 characters, disclosure at the end) rather than reusing the post's text.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
 - **Ideas offered but not done yet:**
   - (B) extra pin titles and descriptions per post for re-pinning
