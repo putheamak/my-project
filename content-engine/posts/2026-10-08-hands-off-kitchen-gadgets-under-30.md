@@ -5,7 +5,7 @@ description: "The best hands-off kitchen gadgets under $30: rice cookers, microw
 slug: "hands-off-kitchen-gadgets-under-30"
 keyword: "best hands-off kitchen gadgets under $30"
 pinTitle: "Hands-Off Kitchen Gadgets Under $30 That Cook While You Multitask"
-pinDescription: "Hands-off kitchen gadgets under $30 for people who don't have time to stand at the stove: a mini rice cooker, a 6-cup rice cooker with a steaming basket, microwave egg cookers, a microwave sandwich maker, a grill pan with a lid, ramen and pasta bowls, oven-safe ramekins and a 12-cup coffee maker. Load it, walk away, come back to food. Full list and a comparison table on the blog. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Hands-off kitchen gadgets under $30 for people who don't have time to stand at the stove: a mini rice cooker, a 6-cup rice cooker with a steaming basket, small slow cookers, microwave egg cookers, a microwave sandwich maker, a grill pan with a lid, ramen and pasta bowls, oven-safe ramekins and a 12-cup coffee maker. Load it, walk away, come back to food. Full list and a comparison table on the blog. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Easy Kitchen Gadgets for Busy Weeknights"
 date: "2026-10-08"
 image: "images/congerdesign-pizza.jpg"
@@ -35,6 +35,13 @@ Rice is the classic "boils over the second you look away" food, which is why a d
 - [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) — I picked this for rice for one or two people without standing at the stove. The removable pot is designed to make cleanup easier.
 - [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) — I chose this one for batch-cooking rice for a few days and steaming vegetables in the basket at the same time. It's sold with a steaming basket, so rice and vegetables can cook in the same appliance.
 
+### Which small slow cookers work for one or two people?
+
+A 1.5-quart slow cooker is the most hands-off tool on this list: add the ingredients, pick a setting, and let it cook low and slow. The small size suits soups, stews, dips or oatmeal for one or two people.
+
+- [Maxi-Matic 1.5 qt electric ceramic slow cooker (MST-250XS, stainless steel)](https://amzn.to/4hBZNBj) — I picked this for small batches of soup or stew. The listing describes a ceramic pot in a stainless steel body.
+- [bella 1.5 qt manual slow cooker with 3 heat settings (Surf)](https://amzn.to/4rZWLKM) — I chose this one for the three heat settings, so you can match the setting to how long you'll be away from the kitchen.
+
 ### What can cook in the microwave while I do something else?
 
 The microwave is the most under-used hands-off appliance in most kitchens. These tools give it a shape to cook in. (For more stove-free ideas, see my [microwave gadgets that cook real food](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).)
@@ -50,18 +57,27 @@ The microwave is the most under-used hands-off appliance in most kitchens. These
 - [BLACK+DECKER 12-cup coffee maker with removable filter basket](https://amzn.to/4iVGkfV) — set it brewing and go get dressed. I picked it for the removable basket, which is the part that usually makes cleanup annoying.
 - [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jCK2ez) — load single portions, put them in the oven, set a timer. The lids mean leftovers go straight to the fridge in the same dish.
 
+### Can popcorn be hands-off too?
+
+Stovetop popcorn means shaking a pot and watching for burning. These two do the popping for you.
+
+- [Salbree collapsible silicone microwave popcorn popper (turquoise)](https://amzn.to/4zdlRI8) — I picked this for movie-night popcorn in the microwave. It's sold as a hot-air popper with no oil required, and it collapses flat for storage.
+- [Dash Fresh Pop electric hot air popcorn maker (16-cup, red)](https://amzn.to/3VBBfzH) — I chose this for bigger batches. Set a bowl under the spout and it pops into the bowl, so you can get drinks ready at the same time.
+
 ### How do these gadgets compare?
 
 | Gadget | Walk-away time | Best use case | Cleanup |
 |---|---|---|---|
 | Mini rice cooker | Full cook cycle | Rice for 1–2 | Removable nonstick pot |
 | 6-cup rice cooker + basket | Full cook cycle | Batch rice + steamed veg | Pot and basket |
+| 1.5 qt slow cookers | Hours, low and slow | Soup, stew or oatmeal for 1–2 | Removable ceramic pot |
 | Microwave egg cooker | Minutes, timed | Breakfast eggs, patties | Rinse one insert |
 | Microwave sandwich maker | Minutes, timed | Grilled cheese, panini | Wipe and rinse |
 | Microwave grill pan | Minutes, timed | Bacon, burgers | Nonstick, lid included |
 | Ramen cooker / pasta bowl | Minutes, timed | Noodles, cook and eat in one | One bowl |
 | 12-cup coffee maker | Full brew cycle | A pot for the household | Removable filter basket |
 | Oven-safe ramekins | Oven timer | Single-portion bakes | Lids for storing leftovers |
+| Popcorn poppers | Minutes | Movie-night snacks | One bowl or popper |
 
 ### Frequently asked questions
 
