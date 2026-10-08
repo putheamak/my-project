@@ -8,8 +8,8 @@ pinTitle: "Hands-Off Kitchen Gadgets Under $30 That Cook While You Multitask"
 pinDescription: "Hands-off kitchen gadgets under $30 for people who don't have time to stand at the stove: a mini rice cooker, a 6-cup rice cooker with a steaming basket, microwave egg cookers, a microwave sandwich maker, a grill pan with a lid, ramen and pasta bowls, oven-safe ramekins and a 12-cup coffee maker. Load it, walk away, come back to food. Full list and a comparison table on the blog. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Easy Kitchen Gadgets for Busy Weeknights"
 date: "2026-10-08"
-image: ""
-status: "draft"
+image: "images/m4muli-food.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
