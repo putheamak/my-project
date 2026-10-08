@@ -1,6 +1,6 @@
 # Smart Kitchen Picks: notes for the next chat
 
-Read this first. Last updated 7 Oct 2026.
+Read this first. Last updated 8 Oct 2026.
 
 ## The project
 - **Blog:** https://putheamak.github.io/my-project/blog/. The affiliate niche is kitchen gadgets under $30, and Amazon Associates is the affiliate program.
@@ -20,7 +20,7 @@ Read this first. Last updated 7 Oct 2026.
 ## Daily routine (what the owner expects)
 1. The owner says "review the <date> draft". Read the post and the `output/` pack, and run the compliance check (see Rules).
 2. Fix problems, link 2–3 related posts with full URLs (`https://putheamak.github.io/my-project/blog/posts/<slug>/`), and soften claims the owner can't back up.
-3. Optionally give 5–10 Amazon search keywords. The owner sends products as `Oct X - product name - amzn.to link`, one per message. **Wait for "go"** before editing.
+3. Optionally give 5–10 Amazon search keywords as **plain text only**. The owner asked (8 Oct): no amazon.com links or search URLs, and don't visit Amazon yourself. They search and pick products on their own. The owner sends products as `Oct X - product name - amzn.to link`, one per message. **Wait for "go"** before editing.
 4. On "go": add the products to the post (text plus comparison table) and to `config.json` (note "Haven't used it yet. Picked it for …"). Then check, commit, push and open a PR.
 5. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
 
