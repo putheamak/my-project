@@ -1,6 +1,6 @@
 # Smart Kitchen Picks: notes for the next chat
 
-Read this first. Last updated 8 Oct 2026.
+Read this first. Last updated 9 Oct 2026.
 
 ## The project
 - **Blog:** https://putheamak.github.io/my-project/blog/. The affiliate niche is kitchen gadgets under $30, and Amazon Associates is the affiliate program.
@@ -9,9 +9,9 @@ Read this first. Last updated 8 Oct 2026.
 - **Publishing:** merging to `main` triggers the "Publish blog" workflow. It builds the site, shrinks photos, makes pin images and deploys to GitHub Pages.
 
 ## Current status
-- **14 posts:** 13 live (Sep 26 to Oct 8) and 1 draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
+- **15 posts:** 14 live (Sep 26 to Oct 9) and 1 draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
 - **38 products** in `config.json`. Every note says "Haven't used it yet".
-- **Pinterest:** all 13 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
+- **Pinterest:** all 14 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
 - **Pin images page:** https://putheamak.github.io/my-project/blog/pins/. `make-pins.mjs` makes 3 designs per post (1000×1500), and the page has Copy buttons for the title, description and link. The page is noindex.
 - **Pinterest auto-posting is OFF.** The owner chose to pin by hand. See "Pinterest API" below before suggesting it again.
 - **Analytics:** GoatCounter at https://smartkitchenpicks.goatcounter.com. Real outside traffic is close to zero so far, because most counted visits are the owner's. The owner was told to open `<blog>/#toggle-goatcounter` once on each browser to stop counting their own visits.
@@ -60,7 +60,7 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 
 ## Upcoming
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
-- **Pinning plan:** 2–3 pins a day, rotating posts and designs. Done by Oct 8: Oct 5 (design 2), Oct 3 (design 3), Oct 8 (design 1). Planned for Oct 9: Oct 4 and Oct 1 (design 2 each, with fresh titles and descriptions written in chat). After that: Oct 2 and Sep 29 (design 2), then Oct 8 design 2 around Oct 15. For extra design pins, write a fresh title and description (≤ 500 characters, disclosure at the end) rather than reusing the post's text.
+- **Pinning plan:** 2–3 pins a day, rotating posts and designs. Done by Oct 9: Oct 5 (design 2), Oct 3 (design 3), Oct 8 (design 1), Oct 9 (design 1), Oct 4 and Oct 1 (design 2). Next: Oct 2 and Sep 29 (design 2) on Oct 10, then Oct 8 and Oct 9 design 2 around Oct 15–16. The Oct 9 cover photo is AI-generated, so its pins need "Mark as AI-Modified" on. For extra design pins, write a fresh title and description (≤ 500 characters, disclosure at the end) rather than reusing the post's text.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
 - **Ideas offered but not done yet:**
   - (B) extra pin titles and descriptions per post for re-pinning
