@@ -5,7 +5,7 @@ description: "The best gadgets for movie night snacks at home: popcorn without a
 slug: "movie-night-snack-gadgets"
 keyword: "best gadgets for movie night snacks at home"
 pinTitle: "Best Gadgets for Movie Night Snacks at Home (No Oven Needed)"
-pinDescription: "Movie night snacks without the oven: a collapsible silicone microwave popcorn popper for small batches, a hot air popper for a crowd, a mini waffle maker for single-serving desserts, a personal blender for milkshakes, and a handheld frother for café-style hot chocolate. Includes an air popper vs microwave popper comparison so you pick the right one. All available on Amazon — check the current price there. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Movie night snacks without the oven: collapsible silicone microwave popcorn poppers, a hot air popper for a crowd, popcorn seasonings, a mini waffle maker, a mini donut maker, a cotton candy maker, a personal blender for milkshakes and a milk frother for hot chocolate. Includes an air popper vs microwave popper comparison. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Movie Night Snack Ideas"
 date: "2026-10-09"
 image: "images/frank_rietsch-ai-generated-8848753_1920.jpg"
@@ -25,18 +25,26 @@ Two gadgets, two different movie nights.
 - **Microwave route:** the [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8) holds kernels, goes in the microwave, and collapses down flat for storage. The listing says no oil is required. Good for one or two people and a cupboard with no spare room.
 - **Hot air route:** the [Dash Fresh Pop electric hot air popcorn maker](https://amzn.to/3VBBfzH) is a 16-cup machine that pops straight into a bowl you set underneath. Better when you're feeding a group and want to refill without resetting a microwave.
 
+Other collapsible silicone poppers work the same way. The [Korcci silicone microwave popcorn popper (blue)](https://amzn.to/3UltoG9) is one, and the listing says it's dishwasher safe. The [POPCO silicone microwave popcorn popper with handles (gray)](https://amzn.to/4zsZ5fP) is another; I picked it for the handles, which are designed to make the hot bowl easier to lift out of the microwave.
+
+For flavor, the [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md) is a sampler you can shake on after popping, so everyone can pick their own.
+
 If you only ever watch alone, the silicone popper is the simpler buy. If "movie night" usually means three or more people, the air popper saves you from running batch after batch. Check the current price on Amazon for both before you decide. (Both poppers also appear in my [hands-off kitchen gadgets](https://putheamak.github.io/my-project/blog/posts/hands-off-kitchen-gadgets-under-30/) list.)
 
 ### What about a warm, sweet snack with no oven?
 
 The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one 4-inch waffle at a time. It's a dessert machine as much as a breakfast one — waffles with ice cream, brownie batter waffles, leftover cinnamon roll dough. Because it's single-serving, everyone gets theirs hot instead of eating a cold stack.
 
-If you'd rather bake ahead, the [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) are sold as oven safe and come with lids. Bake single-portion desserts earlier in the day, put the lids on, and they wait in the fridge until the film starts.
+The [Dash Express mini donut maker (7 donuts, aqua)](https://amzn.to/4hRGJxR) works the same way on the counter: batter in, lid closed, small donuts out, no oven. Add a scoop of ice cream with the [Spring Chef metal ice cream scoop (black)](https://amzn.to/3VvPdTP), which has a soft grip handle.
+
+For a fun extra on family nights, a [mini electric cotton candy maker (with 10 bamboo sticks and a sugar scoop)](https://amzn.to/4rXHZEa) spins sugar into cotton candy. It runs hot, so an adult should run it and follow the instructions in the box.
+
+If you'd rather bake ahead, the [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) are sold as oven safe and come with lids. Bake single-portion desserts earlier in the day, put the lids on, and they wait in the fridge until the film starts. The [Bellemain nonstick donut pan (6-cavity, 2-pack)](https://amzn.to/3VzeOLz) is the oven version of the donut maker: bake a tray of donuts ahead, and they're ready when the movie starts.
 
 ### How do you make shakes and frothy drinks without a big machine?
 
 - The [Magic Bullet personal blender](https://amzn.to/4AQIYKo) blends a single smoothie or milkshake in a 22 oz cup — blend it, screw the lid on, walk to the couch.
-- The [handheld milk frother](https://amzn.to/4hs2w08) is designed to froth milk quickly, so ordinary hot chocolate can look more like a café order. It stores in a drawer. (More frother ideas in my [coffee-shop breakfast at home](https://putheamak.github.io/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/) post.)
+- The [handheld milk frother](https://amzn.to/4hs2w08) is designed to froth milk quickly, so ordinary hot chocolate can look more like a café order. It stores in a drawer. Another option is the [Zulay Kitchen handheld milk frother (black)](https://amzn.to/4rXjcjE), which comes with batteries included. (More frother ideas in my [coffee-shop breakfast at home](https://putheamak.github.io/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/) post.)
 
 Want the full pot going for a long watch? The [BLACK+DECKER 12-cup coffee maker](https://amzn.to/4iVGkfV) has a removable filter basket for easy cleaning.
 
@@ -44,17 +52,28 @@ Want the full pot going for a long watch? The [BLACK+DECKER 12-cup coffee maker]
 
 The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) presses a grilled cheese or panini in the microwave — no stove, no press, no pan to scrub during the quiet scene. For more microwave-only food, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).
 
+### How do you serve all the snacks?
+
+The [PLASTICPRO 6-section round serving trays (black and gold, 2-pack)](https://amzn.to/4797UPG) hold several snacks in one tray: popcorn in the middle, candy and pretzels around it. Two trays means one for each end of the couch.
+
 ### Which movie night gadget should you pick?
 
 | Gadget | What it does | Best for | Cleanup |
 |---|---|---|---|
 | Silicone microwave popcorn popper | Pops kernels in the microwave, collapses flat | Small batches, tiny kitchens | One silicone bowl |
+| Other silicone poppers (Korcci, POPCO) | Same idea, POPCO has handles | Small batches, choice of colors | Listing says dishwasher safe |
+| Popcorn seasoning variety pack | 8 flavors to shake on | Letting everyone pick a flavor | Nothing to wash |
 | Hot air popcorn maker | Pops into a bowl you place underneath | Groups, back-to-back batches | Wipe the chute |
 | Mini waffle maker | One 4-inch waffle at a time | Warm desserts, no oven | Wipe the plates |
+| Mini donut maker | 7 small donuts at a time | Warm dessert, no oven | Wipe the plates |
+| Donut pan (2-pack) | Baked donuts in the oven | Baking ahead | Nonstick pan |
+| Cotton candy maker | Spins sugar into cotton candy | Family nights, adult runs it | Wipe the bowl |
+| Ice cream scoop | Scoops ice cream | Topping waffles and donuts | Rinse |
 | Personal blender | Single shake or smoothie in the cup | Milkshakes, one drink at a time | Cup + blade |
-| Handheld milk frother | Froths milk in seconds | Hot chocolate, coffee drinks | Rinse the whisk |
+| Handheld milk frothers | Froths milk in seconds | Hot chocolate, coffee drinks | Rinse the whisk |
 | Microwave sandwich maker | Grilled cheese or panini in the microwave | Savoury snack with no stove | One tray |
 | Ramekins with lids | Single-portion desserts, baked ahead | Dessert + storage in one dish | Lids for the fridge |
+| 6-section serving trays | Holds several snacks at once | Setting out the snack spread | Rinse |
 
 ### Frequently asked questions
 
