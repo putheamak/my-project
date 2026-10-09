@@ -1,0 +1,13 @@
+{
+  "html": "scenes_ai_work.html",
+  "out": "../ai_in_the_future_of_cambodia.mp4",
+  "xfade": 0.35,
+  "segments": [
+    {"scene": "hook", "dur": 6.0, "next": "fade"},
+    {"scene": "ngo", "dur": 8.0, "next": "slideup"},
+    {"scene": "gov", "dur": 7.5, "next": "slideleft"},
+    {"scene": "biz", "dur": 8.5, "next": "circleopen"},
+    {"scene": "solutions", "dur": 11.5, "next": "zoomin"},
+    {"scene": "close", "dur": 7.5}
+  ]
+}

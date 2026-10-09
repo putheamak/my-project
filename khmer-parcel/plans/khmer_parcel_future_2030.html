@@ -1,0 +1,420 @@
+<title>Khmer Parcel 2030 Roadmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Moul&family=Kantumruy+Pro:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a single reading column; the roadmap is drawn as a delivery route with three stops (pins on a dashed line). */
+:root {
+  --blue: #1a78cf;
+  --navy: #0d3868;
+  --sky: #dff0fc;
+  --orange: #f08a14;
+  --bg: #f6f9fc;
+  --surface: #ffffff;
+  --fg: #12243a;
+  --muted: #52657c;
+  --line: #d3e2f0;
+  --hero-bg: #0d3868;
+  --hero-fg: #ffffff;
+  --hero-muted: #b9d6f2;
+  --chip-bg: #dff0fc;
+  --chip-fg: #0d3868;
+  --warn: #b85d00;
+  --font-display-km: "Moul", "Kantumruy Pro", serif;
+  --font-body: "Kantumruy Pro", "Noto Sans Khmer", "Khmer OS", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0a1626; --surface: #112238; --fg: #e6eef8; --muted: #9db2ca; --line: #23395a;
+    --hero-bg: #071222; --hero-fg: #ffffff; --hero-muted: #9cc4ea;
+    --chip-bg: #16365c; --chip-fg: #cfe6fb; --blue: #4b9be3; --orange: #f59b33; --warn: #f5a14a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0a1626; --surface: #112238; --fg: #e6eef8; --muted: #9db2ca; --line: #23395a;
+  --hero-bg: #071222; --hero-fg: #ffffff; --hero-muted: #9cc4ea;
+  --chip-bg: #16365c; --chip-fg: #cfe6fb; --blue: #4b9be3; --orange: #f59b33; --warn: #f5a14a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.7; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; }
+
+/* language toggle */
+.lang-km .en { display: none !important; }
+.lang-en .km { display: none !important; }
+.en { display: block; color: var(--muted); font-size: .92em; line-height: 1.55; }
+.lang-en .en { color: inherit; font-size: 1em; }
+.km { display: block; }
+h2 .en, h3 .en { font-weight: 500; }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--hero-bg); border-bottom: 1px solid rgba(255,255,255,.08); }
+.bar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-block: 10px; flex-wrap: wrap; }
+.brand { color: var(--hero-fg); font-weight: 700; letter-spacing: .02em; }
+.brand b { color: var(--orange); }
+.toggle { display: flex; gap: 4px; background: rgba(255,255,255,.08); border-radius: 999px; padding: 3px; }
+.toggle button { font: inherit; font-size: 13px; border: 0; background: transparent; color: var(--hero-muted); padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--orange); color: #1b1004; font-weight: 600; }
+.toggle button:focus-visible { outline: 2px solid var(--hero-fg); outline-offset: 2px; }
+
+/* hero */
+.hero { background: var(--hero-bg); color: var(--hero-fg); padding-block: 40px 48px; overflow: hidden; }
+.hero .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--hero-muted); }
+.hero h1 { margin: 10px 0 6px; font-weight: 400; text-wrap: balance; }
+.hero h1 .km { font-family: var(--font-display-km); font-size: clamp(26px, 5vw, 40px); line-height: 1.6; }
+.hero h1 .en { color: var(--hero-muted); font-size: clamp(18px, 3vw, 22px); font-weight: 500; margin-top: 4px; }
+.lang-en .hero h1 .en { color: var(--hero-fg); font-size: clamp(26px, 5vw, 38px); font-weight: 700; }
+.hero p .en { color: var(--hero-muted); }
+.route-art { margin-top: 26px; max-width: 100%; }
+.route-art svg { width: 100%; height: auto; display: block; }
+.thesis { margin-top: 26px; border-left: 4px solid var(--orange); padding: 4px 0 4px 16px; font-size: 18px; font-weight: 600; }
+.thesis .en { color: var(--hero-muted); font-weight: 500; }
+
+/* sections */
+section.block { padding-block: 40px 8px; }
+h2 { margin: 0 0 18px; font-weight: 400; text-wrap: balance; }
+h2 .km { font-family: var(--font-display-km); font-size: clamp(19px, 3.4vw, 24px); color: var(--navy); line-height: 1.7; }
+:root[data-theme="dark"] h2 .km { color: var(--sky); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) h2 .km { color: var(--sky); } }
+h2 .en { font-size: 15px; letter-spacing: .04em; text-transform: uppercase; }
+.lang-en h2 .en { font-size: 22px; text-transform: none; letter-spacing: 0; font-weight: 700; color: var(--fg); }
+h3 { margin: 0 0 6px; font-size: 17px; }
+.note { color: var(--muted); font-size: 14px; }
+
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; min-width: 0; }
+.card ul, .list { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.card li, .list li { padding-left: 16px; position: relative; }
+.card li::before, .list li::before { content: ""; position: absolute; left: 0; top: .72em; width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
+.chip { display: inline-block; font-size: 12px; font-weight: 600; background: var(--chip-bg); color: var(--chip-fg); padding: 2px 10px; border-radius: 999px; margin-bottom: 8px; }
+.chip.likely { background: var(--orange); color: #1b1004; }
+
+.callout { margin-top: 16px; background: var(--chip-bg); color: var(--chip-fg); border-radius: 12px; padding: 16px 18px; font-weight: 600; }
+.callout .en { color: inherit; opacity: .85; font-weight: 500; }
+
+.two { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card.keep { border-top: 4px solid var(--blue); }
+.card.change { border-top: 4px solid var(--orange); }
+
+/* roadmap as a route */
+.route { position: relative; display: grid; gap: 22px; padding-left: 38px; }
+.route::before { content: ""; position: absolute; left: 13px; top: 10px; bottom: 10px; border-left: 3px dashed var(--blue); }
+.stop { position: relative; }
+.pin { position: absolute; left: -38px; top: 14px; width: 28px; height: 28px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); background: var(--blue); display: grid; place-items: center; }
+.pin span { transform: rotate(45deg); color: #fff; font-weight: 700; font-size: 13px; }
+.stop.now .pin { background: var(--orange); }
+.stop .years { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--blue); font-size: 14px; }
+.stop.now .years { color: var(--warn); }
+
+/* risks table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 520px; }
+th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+th { font-size: 13px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 600; width: 42%; }
+
+footer { margin-top: 48px; background: var(--hero-bg); color: var(--hero-fg); padding-block: 28px; }
+footer .contacts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-variant-numeric: tabular-nums; }
+footer .contacts span { user-select: all; }
+footer .small { color: var(--hero-muted); font-size: 13px; margin-top: 10px; }
+footer a { color: var(--hero-fg); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .dash { stroke-dasharray: 6 8; animation: drive 2.4s linear infinite; }
+  @keyframes drive { to { stroke-dashoffset: -28; } }
+}
+</style>
+
+<div id="root" class="lang-both">
+
+<div class="bar">
+  <div class="wrap">
+    <div class="brand">KHMER <b>PARCEL</b></div>
+    <div class="toggle" role="group" aria-label="Language">
+      <button type="button" id="lang-both" data-lang="both" aria-pressed="true">ខ្មែរ + EN</button>
+      <button type="button" id="lang-km" data-lang="km" aria-pressed="false">ខ្មែរ</button>
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">ផែនការអនាគត · Future plan · តុលា ២០២៦ / Oct 2026</div>
+    <h1>
+      <span class="km">ខ្មែរ ផាសែល ត្រៀមខ្លួនសម្រាប់យុគសម័យ AI</span>
+      <span class="en">Preparing Khmer Parcel for the AI era: to 2030 and beyond</span>
+    </h1>
+    <p>
+      <span class="km">ឯកសារនេះជាមតិ និងផែនការ មិនមែនជាការព្យាករណ៍ច្បាស់លាស់ទេ។ គ្មាននរណាដឹងច្បាស់ថា AI កម្រិតខ្ពស់ (Superintelligence) នឹងមកដល់ពេលណាទេ។</span>
+      <span class="en">This is opinion and planning, not a certain forecast. Nobody knows exactly when superintelligence will arrive.</span>
+    </p>
+
+    <div class="route-art" aria-hidden="true">
+      <svg viewBox="0 0 800 90" role="img">
+        <path class="dash" d="M30 60 C 180 10, 260 80, 400 45 S 640 15, 770 50" fill="none" stroke="#f08a14" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="30" cy="60" r="10" fill="#1a78cf"/>
+        <circle cx="400" cy="45" r="10" fill="#1a78cf"/>
+        <circle cx="770" cy="50" r="10" fill="#f08a14"/>
+        <text x="30" y="88" fill="#b9d6f2" font-size="14" text-anchor="middle" font-family="Kantumruy Pro, sans-serif">2026</text>
+        <text x="400" y="78" fill="#b9d6f2" font-size="14" text-anchor="middle" font-family="Kantumruy Pro, sans-serif">2028</text>
+        <text x="755" y="84" fill="#b9d6f2" font-size="14" text-anchor="middle" font-family="Kantumruy Pro, sans-serif">2030+</text>
+      </svg>
+    </div>
+
+    <div class="thesis">
+      <span class="km">ផ្លូវក្នុងភ្នំពេញ ការទុកចិត្ត និងទំនាក់ទំនងជាមួយអតិថិជន នៅតែត្រូវការក្រុមហ៊ុនក្នុងស្រុក ទោះ AI ឆ្លាតប៉ុណ្ណាក៏ដោយ។</span>
+      <span class="en">However smart AI becomes, Phnom Penh's streets, trust and customer relationships will still need a local company.</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="block" id="superintelligence">
+    <h2>
+      <span class="km">១. Superintelligence ជាអ្វី?</span>
+      <span class="en">1. What is superintelligence?</span>
+    </h2>
+    <p>
+      <span class="km">គឺជា AI ដែលពូកែជាងមនុស្សពូកែបំផុត ស្ទើរតែគ្រប់ការងារប្រើគំនិត៖ វិទ្យាសាស្ត្រ យុទ្ធសាស្ត្រអាជីវកម្ម វិស្វកម្ម និងការរៀបចំផែនការ។ នៅឆ្នាំ ២០២៦ AI អាចសរសេរកូដ ធ្វើវីដេអូ និងឆ្លើយតបអតិថិជនបានរួចហើយ។ អ្នកជំនាញមិនទាន់យល់ស្របគ្នាពីពេលវេលាទេ។</span>
+      <span class="en">AI that is better than the best humans at almost all thinking work: science, business strategy, engineering and planning. In 2026, AI already writes code, makes videos and answers customers. Experts disagree on the timing.</span>
+    </p>
+
+    <div class="grid" style="margin-top:18px">
+      <div class="card">
+        <span class="chip likely"><span class="km">ទំនងបំផុតសម្រាប់កម្ពុជា</span><span class="en">Most likely for Cambodia</span></span>
+        <h3><span class="km">ក. បន្តិចម្តងៗ</span><span class="en">A. Gradual</span></h3>
+        <span class="km">AI ល្អប្រសើរជាបន្តបន្ទាប់ ប៉ុន្តែការប្រើប្រាស់ពិតប្រាកដយឺត ដោយសារតម្លៃ ច្បាប់ ការទុកចិត្ត និងហេដ្ឋារចនាសម្ព័ន្ធ។</span>
+        <span class="en">AI keeps improving, but real adoption is slowed by cost, law, trust and infrastructure.</span>
+      </div>
+      <div class="card">
+        <span class="chip"><span class="km">អាចកើតមាន</span><span class="en">Possible</span></span>
+        <h3><span class="km">ខ. លឿន</span><span class="en">B. Fast</span></h3>
+        <span class="km">Superintelligence មកដល់ដើមទសវត្សរ៍ ២០៣០។ វិទ្យាសាស្ត្រ វេជ្ជសាស្ត្រ និងផលិតភាព កើនឡើងខ្លាំង។</span>
+        <span class="en">Superintelligence arrives in the early 2030s. Science, medicine and productivity jump.</span>
+      </div>
+      <div class="card">
+        <span class="chip"><span class="km">ត្រូវត្រៀមខ្លួន</span><span class="en">Be prepared</span></span>
+        <h3><span class="km">គ. មានការរំខាន</span><span class="en">C. Disrupted</span></h3>
+        <span class="km">AI លឿន រួមជាមួយវិបត្តិសេដ្ឋកិច្ច ការបាត់បង់ការងារ ជម្លោះនយោបាយ ឬការប្រើប្រាស់ខុស។</span>
+        <span class="en">Fast AI combined with economic shocks, job losses, political conflict or misuse.</span>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="km">បច្ចេកវិទ្យាមកលឿន ប៉ុន្តែមកដល់ផ្លូវក្នុងភ្នំពេញយឺត ដោយសារស្ទះចរាចរណ៍ ភ្លៀង ទម្លាប់ប្រើសាច់ប្រាក់ និងការទុកចិត្ត។ គម្លាតពេលវេលានេះ គឺជាឱកាសរបស់យើង។</span>
+      <span class="en">Technology arrives fast, but it reaches Phnom Penh's streets slowly because of traffic, rain, cash habits and trust. That gap is our opportunity.</span>
+    </div>
+  </section>
+
+  <section class="block" id="world">
+    <h2>
+      <span class="km">២. ពិភពលោករហូតដល់ឆ្នាំ ២០៣០</span>
+      <span class="en">2. The world to 2030</span>
+    </h2>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="km">ការងារ</span><span class="en">Jobs</span></h3>
+        <ul>
+          <li><span class="km">ការងារការិយាល័យដដែលៗ (បញ្ចូលទិន្នន័យ សេវាអតិថិជនមូលដ្ឋាន) រងសម្ពាធ</span><span class="en">Routine office work (data entry, basic support) is under pressure</span></li>
+          <li><span class="km">ការងារផ្លូវកាយកើនឡើង៖ ដឹកជញ្ជូន ជួសជុល សំណង់ ថែទាំសុខភាព</span><span class="en">Physical work grows: delivery, repair, construction, care</span></li>
+          <li><span class="km">អ្នកប្រើ AI ពូកែ នឹងជំនួសអ្នកមិនប្រើ</span><span class="en">People who use AI well replace those who don't</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="km">សុខុមាលភាព</span><span class="en">Wellbeing</span></h3>
+        <ul>
+          <li><span class="km">ល្អជាង៖ សុខាភិបាលថោកជាង ការរៀនឥតគិតថ្លៃជាភាសាខ្មែរ ថាមពលព្រះអាទិត្យ</span><span class="en">Better: cheaper health care, free learning in Khmer, solar energy</span></li>
+          <li><span class="km">ពិបាកជាង៖ ភាពឯកោ ការបោកប្រាស់ដោយ AI វិសមភាព</span><span class="en">Harder: loneliness, AI-made scams, inequality</span></li>
+          <li><span class="km">ការការពារល្អបំផុត៖ ជាម្ចាស់អ្វីមួយ ជំនាញ គ្រួសារ និងសុខភាព</span><span class="en">Best protection: owning something, skills, family and health</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="km">កម្ពុជា</span><span class="en">Cambodia</span></h3>
+        <ul>
+          <li><span class="km">វិនិយោគ និងរោងចក្រថ្មីៗ (China+1)</span><span class="en">More investment and factories (China+1)</span></li>
+          <li><span class="km">ការលក់អនឡាញ និងការបង់ប្រាក់ KHQR កើនឡើង</span><span class="en">Online selling and KHQR payments keep growing</span></li>
+          <li><span class="km">ប្រជាជនវ័យក្មេង ជាអត្ថប្រយោជន៍ លុះត្រាតែមានជំនាញ</span><span class="en">A young population is an advantage only with skills</span></li>
+          <li><span class="km">កំដៅ និងទឹកជំនន់ ប៉ះពាល់ការដឹកជញ្ជូនផ្ទាល់</span><span class="en">Heat and floods affect delivery directly</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="delivery">
+    <h2>
+      <span class="km">៣. អ្វីដែលនៅដដែល និងអ្វីដែលនឹងផ្លាស់ប្តូរ</span>
+      <span class="en">3. What lasts and what changes in delivery</span>
+    </h2>
+    <div class="two">
+      <div class="card keep">
+        <h3><span class="km">ចំណុចខ្លាំងរបស់យើង (AI ពិបាកជំនួស)</span><span class="en">Our strengths (hard for AI to replace)</span></h3>
+        <ul>
+          <li><span class="km">ផ្លូវតូចៗ អាសយដ្ឋាន "ជិតវត្ត" ភ្លៀង ទឹកជំនន់ និងការប្រមូលប្រាក់ COD</span><span class="en">Narrow streets, "near the pagoda" addresses, rain, floods and COD cash</span></li>
+          <li><span class="km">អ្នកលក់ទុកចិត្តយើងលើប្រាក់ COD និងអតិថិជនរបស់គេ</span><span class="en">Sellers trust us with their COD money and their customers</span></li>
+          <li><span class="km">ទំនាក់ទំនងផ្ទាល់ជាមួយក្រុមការងារតាម Telegram</span><span class="en">Personal relationships with our team on Telegram</span></li>
+          <li><span class="km">ការទទួលខុសត្រូវរបស់មនុស្ស ពេលឥវ៉ាន់មានបញ្ហា</span><span class="en">Human accountability when a parcel has a problem</span></li>
+        </ul>
+      </div>
+      <div class="card change">
+        <h3><span class="km">អ្វីដែលនឹងផ្លាស់ប្តូរ</span><span class="en">What will change</span></h3>
+        <ul>
+          <li><span class="km">ភ្នាក់ងារ AI ក្លាយជាអតិថិជន៖ ជំនួយការ AI របស់អ្នកលក់ នឹងជ្រើសរើសក្រុមហ៊ុនដឹកជញ្ជូនតាមទិន្នន័យ (តម្លៃ ល្បឿន ភាពជឿជាក់)</span><span class="en">AI agents become customers: sellers' AI assistants will pick couriers by data (price, speed, reliability)</span></li>
+          <li><span class="km">រ៉ូបូត និងដ្រូន មកដល់ ប៉ុន្តែយឺតនៅភ្នំពេញ</span><span class="en">Robots and drones come, but slowly in Phnom Penh</span></li>
+          <li><span class="km">ក្រុមហ៊ុនធំៗ កាន់តែខ្លាំង។ កុំប្រកួតប្រជែងតែលើតម្លៃ</span><span class="en">Big platforms get stronger. Don't compete on price alone</span></li>
+          <li><span class="km">ការងារការិយាល័យ (ចែកការងារ សេវាអតិថិជន ការផ្សាយ គណនេយ្យ) ស្ទើរតែធ្វើដោយ AI</span><span class="en">Back office (dispatch, support, ads, accounting) mostly run by AI</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="roadmap">
+    <h2>
+      <span class="km">៤. ផែនទីផ្លូវ ៣ ដំណាក់កាល</span>
+      <span class="en">4. Roadmap in three stages</span>
+    </h2>
+    <div class="route">
+      <div class="stop now">
+        <div class="pin"><span>1</span></div>
+        <div class="card">
+          <div class="years">២០២៦–២០២៧ · 2026–2027 · <span class="km" style="display:inline">ឥឡូវនេះ</span><span class="en" style="display:inline"> Now</span></div>
+          <h3><span class="km">រស់រាន និងពង្រឹងមូលដ្ឋាន</span><span class="en">Survive and build the base</span></h3>
+          <p class="note"><span class="km">ហានិភ័យធំបំផុតឥឡូវនេះ មិនមែន AI ទេ គឺការមិនមានអតិថិជនទៀងទាត់គ្រប់គ្រាន់។</span><span class="en">The biggest risk right now is not AI. It is not having enough regular customers.</span></p>
+          <ul>
+            <li><span class="km">គោលដៅ៖ អ្នកលក់អនឡាញទៀងទាត់ប្រហែល ២៥ នាក់</span><span class="en">Target: about 25 regular online sellers</span></li>
+            <li><span class="km">ចុះជួបអ្នកលក់តាមផ្សារ និងប្រើការផ្តល់ជូន ៣ ដងដំបូង ២,០០០៛</span><span class="en">Visit sellers at markets and use the first-3-deliveries 2,000៛ offer</span></li>
+            <li><span class="km">កត់ត្រារាល់ការដឹកជញ្ជូន៖ ម៉ោងទទួល ម៉ោងដល់ ជោគជ័យ/បរាជ័យ មូលហេតុ តំបន់ ប្រាក់ COD</span><span class="en">Record every delivery: pickup time, arrival time, success/fail, reason, area, COD amount</span></li>
+            <li><span class="km">ភាពស្មោះត្រង់លើប្រាក់ COD គឺជាកេរ្តិ៍ឈ្មោះដែល AI មិនអាចចម្លងបាន</span><span class="en">COD honesty is a reputation AI cannot copy</span></li>
+            <li><span class="km">បន្តប្រើ AI សម្រាប់វីដេអូ ការឆ្លើយតប និងការផ្សាយពាណិជ្ជកម្ម</span><span class="en">Keep using AI for videos, replies and ads</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stop">
+        <div class="pin"><span>2</span></div>
+        <div class="card">
+          <div class="years">២០២៧–២០៣០ · 2027–2030</div>
+          <h3><span class="km">ត្រៀមខ្លួនរួចរាល់សម្រាប់ AI</span><span class="en">Become AI-ready</span></h3>
+          <ul>
+            <li><span class="km">បើក Booking API ដើម្បីឱ្យប្រព័ន្ធរបស់អ្នកលក់ និងភ្នាក់ងារ AI កក់ដោយស្វ័យប្រវត្តិ</span><span class="en">Open a booking API so sellers' systems and AI agents can book automatically</span></li>
+            <li><span class="km">បង្ហាញលេខភាពជឿជាក់ពិតៗ ដែលបានវាស់វែង</span><span class="en">Publish real, measured reliability numbers</span></li>
+            <li><span class="km">AI ចែកការងារឱ្យអ្នកដឹក និងរៀបចំផ្លូវ</span><span class="en">AI dispatch and route planning</span></li>
+            <li><span class="km">សេវាអតិថិជន AI ជាភាសាខ្មែរ ២៤/៧ ហើយមនុស្សដោះស្រាយបញ្ហា</span><span class="en">24/7 Khmer AI support, with people handling problems</span></li>
+            <li><span class="km">ម៉ូតូអគ្គិសនីសម្រាប់អ្នកដឹក ពេលតម្លៃសមរម្យ</span><span class="en">Electric motorbikes for riders once affordable</span></li>
+            <li><span class="km">ផ្ទាំងព័ត៌មានសម្រាប់អ្នកលក់៖ ប្រាក់ COD ការទូទាត់ និងស្ថិតិ</span><span class="en">Seller dashboard: COD collected, payouts and stats</span></li>
+            <li><span class="km">បណ្តុះបណ្តាលអ្នកដឹកឱ្យប្រើឧបករណ៍ថ្មីៗ</span><span class="en">Train riders on new tools</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stop">
+        <div class="pin"><span>3</span></div>
+        <div class="card">
+          <div class="years">២០៣០+ · 2030+</div>
+          <h3><span class="km">ក្លាយជាដៃគូក្នុងស្រុកដែលគេទុកចិត្ត</span><span class="en">Become the trusted local partner</span></h3>
+          <ul>
+            <li><span class="km">កាន់កាប់បណ្តាញក្នុងស្រុក៖ អ្នកដឹក ចំណុចទទួលឥវ៉ាន់ ហាងដៃគូ</span><span class="en">Own the local network: riders, pickup points, partner shops</span></li>
+            <li><span class="km">ក្លាយជាដៃគូរបស់ក្រុមហ៊ុន AI និងរ៉ូបូតបរទេស ដែលចូលមកកម្ពុជា</span><span class="en">Partner with global AI and robot companies entering Cambodia</span></li>
+            <li><span class="km">សេវាថ្មី៖ ចំណុចទទួលឥវ៉ាន់ ឃ្លាំងតូចៗ ការគ្រប់គ្រងឥវ៉ាន់ត្រឡប់ និង COD ការដឹកទៅខេត្ត</span><span class="en">New services: pickup points, small warehousing, returns and COD handling, provinces</span></li>
+            <li><span class="km">មនុស្ស + រ៉ូបូត + ដ្រូន ធ្វើការជាមួយគ្នា</span><span class="en">People, robots and drones working together</span></li>
+            <li><span class="km">ប្រើ AI ច្រើនក្រុមហ៊ុន និងរក្សាបញ្ជីអតិថិជនផ្ទាល់ខ្លួន</span><span class="en">Use several AI providers and keep our own customer list</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="risks">
+    <h2>
+      <span class="km">៥. ហានិភ័យ និងការត្រៀមខ្លួន</span>
+      <span class="en">5. Risks and preparation</span>
+    </h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>ហានិភ័យ · Risk</th><th>ការត្រៀម · Preparation</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="km">ការបោកប្រាស់ដោយ AI (អ្នកលក់ក្លែងក្លាយ សំឡេងក្លែង)</span><span class="en">AI scams (fake sellers, cloned voices)</span></td>
+            <td><span class="km">ផ្ទៀងផ្ទាត់អ្នកលក់ថ្មី ថតរូបភស្តុតាង បញ្ជាក់ការទូទាត់ពីរជំហាន</span><span class="en">Verify new sellers, photo proof, two-step payout confirmation</span></td>
+          </tr>
+          <tr>
+            <td><span class="km">សង្គ្រាមតម្លៃពីក្រុមហ៊ុនធំ</span><span class="en">Price war from big platforms</span></td>
+            <td><span class="km">ប្រកួតលើសេវា ការទុកចិត្ត COD និងទំនាក់ទំនង</span><span class="en">Compete on service, COD trust and relationships</span></td>
+          </tr>
+          <tr>
+            <td><span class="km">បាត់ទិន្នន័យ ឬត្រូវគេលួចចូល</span><span class="en">Data loss or hacking</span></td>
+            <td><span class="km">បម្រុងទុកទិន្នន័យ ការពារពាក្យសម្ងាត់ កំណត់អ្នកមានសិទ្ធិចូល</span><span class="en">Back up data, protect passwords, limit access</span></td>
+          </tr>
+          <tr>
+            <td><span class="km">ពឹងផ្អែកលើ Facebook ឬ Telegram តែមួយ</span><span class="en">Depending on one platform</span></td>
+            <td><span class="km">រក្សាគេហទំព័រ លេខទូរស័ព្ទ និងបញ្ជីអតិថិជនផ្ទាល់ខ្លួន</span><span class="en">Own the website, phone numbers and customer list</span></td>
+          </tr>
+          <tr>
+            <td><span class="km">អ្នកដឹកបាត់ប្រាក់ចំណូលដោយសារស្វ័យប្រវត្តិកម្ម</span><span class="en">Riders losing income to automation</span></td>
+            <td><span class="km">បណ្តុះបណ្តាលមុន និងដំឡើងតួនាទីជាអ្នកគ្រប់គ្រង ចែកការងារ ឬមណ្ឌល</span><span class="en">Train early; move good riders into supervisor, dispatch and hub roles</span></td>
+          </tr>
+          <tr>
+            <td><span class="km">វិបត្តិសេដ្ឋកិច្ច</span><span class="en">Economic shock</span></td>
+            <td><span class="km">រក្សាប្រាក់បម្រុង និងចំណាយដែលបត់បែនបាន (បង់តាមការដឹក)</span><span class="en">Keep cash reserves and flexible costs (pay per delivery)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="block" id="people">
+    <h2>
+      <span class="km">៦. សម្រាប់ម្ចាស់ និងក្រុមការងារ</span>
+      <span class="en">6. For the owner and the team</span>
+    </h2>
+    <ul class="list">
+      <li><span class="km">រៀនគ្រប់គ្រង AI មិនមែនគ្រាន់តែប្រើទេ៖ ផ្តល់ការណែនាំច្បាស់ និងពិនិត្យលទ្ធផល</span><span class="en">Learn to manage AI, not just use it: give clear instructions and check the results</span></li>
+      <li><span class="km">វិនិយោគលើទំនាក់ទំនង។ ឈ្មោះមនុស្សដែលគេទុកចិត្ត នឹងកាន់តែមានតម្លៃ</span><span class="en">Invest in relationships. A trusted human name becomes more valuable</span></li>
+      <li><span class="km">ថែរក្សាសុខភាព និងពេលវេលាជាមួយគ្រួសារ</span><span class="en">Protect health and family time</span></li>
+      <li><span class="km">ការជាម្ចាស់អាជីវកម្ម បណ្តាញ អតិថិជន និងទិន្នន័យ គឺជាការការពារល្អបំផុតក្នុងយុគ AI</span><span class="en">Owning a business, network, customers and data is the best protection in the AI era</span></li>
+    </ul>
+
+    <div class="callout">
+      <span class="km">សង្ខេប៖ ឥឡូវនេះ ឈ្នះអ្នកលក់ទៀងទាត់ ២៥ នាក់។ ២០២៧–២០៣០ ត្រៀមខ្លួនសម្រាប់ AI។ ២០៣០+ ក្លាយជាបណ្តាញដឹកជញ្ជូនក្នុងស្រុក ដែលគេទុកចិត្ត។</span>
+      <span class="en">In short: now, win 25 regular sellers. 2027–2030, become AI-ready. 2030+, be the trusted local delivery network.</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="brand">KHMER <b>PARCEL</b> · ងាយស្រួល · រហ័ស · ទុកចិត្តបាន</div>
+    <div class="contacts" style="margin-top:10px">
+      <span>☎ 012 429 597</span>
+      <span>☎ 092 678 657</span>
+      <span>Telegram 098 429 597</span>
+      <a href="https://www.khmerparcel.com">www.khmerparcel.com</a>
+    </div>
+    <div class="small">
+      <span class="km">ឯកសារផែនការផ្ទៃក្នុង · តុលា ២០២៦</span>
+      <span class="en">Internal planning note · October 2026</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('root');
+  var buttons = root.querySelectorAll('.toggle button');
+  function setLang(lang) {
+    root.className = 'lang-' + lang;
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    try { localStorage.setItem('kp-lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+  var saved = null;
+  try { saved = localStorage.getItem('kp-lang'); } catch (e) {}
+  if (saved === 'km' || saved === 'en' || saved === 'both') setLang(saved);
+})();
+</script>

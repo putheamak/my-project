@@ -41,6 +41,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_6000riel.mp4` | 35 s animated ad "៦,០០០៛ អាចទិញអ្វីបាន?" — source `tvc-source/scenes_ad_6000riel.html` (scenes: hook, choices, journey, sellers, steps, end) |
 | `khmer_parcel_ad_seller_story.mp4` | 41 s post-launch story ad "អ្នកលក់អនឡាញ ធ្លាប់ជួបទេ?" (pain → switch → calm chat → benefits → CTA) — source `tvc-source/scenes_ad_seller_story.html` (scenes: pain, turn, solve, benefits, cta) |
 | `khmer_parcel_ad_seller_story_offer2000.mp4` | 47 s seller story + offer scene (first 3 deliveries 2,000៛, online sellers only, claim via Telegram); Door to Door = self-booking on website, system price |
+| `khmer_parcel_roadmap_2030.mp4` | 45 s brand vision "AI កាន់តែឆ្លាត" → what AI can't replace → 3-stage roadmap (plan, not promises) → CTA — source `tvc-source/scenes_roadmap_2030.html`, spec `specs/roadmap_2030.json`; page `plans/khmer_parcel_future_2030.html` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
