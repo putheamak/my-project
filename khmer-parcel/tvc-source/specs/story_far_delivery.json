@@ -1,0 +1,19 @@
+{
+  "html": "scenes_story_far.html",
+  "out": "../khmer_parcel_story_far_delivery.mp4",
+  "xfade": 0.35,
+  "audio": "story_far_delivery_music.m4a",
+  "segments": [
+    {"scene": "hook", "dur": 4.0, "next": "fade"},
+    {"scene": "order", "dur": 6.0, "next": "slideleft"},
+    {"scene": "map", "dur": 7.5, "next": "fade"},
+    {"scene": "refuse", "dur": 6.0, "next": "circleopen"},
+    {"scene": "p_ride", "dur": 5.0, "next": "fade"},
+    {"scene": "p_road", "dur": 5.0, "next": "fade"},
+    {"scene": "p_done", "dur": 5.0, "next": "slideup"},
+    {"scene": "math", "dur": 6.0, "next": "fade"},
+    {"scene": "lesson", "dur": 8.0, "next": "zoomin"},
+    {"scene": "value", "dur": 5.0, "next": "circleopen"},
+    {"scene": "end", "dur": 7.0}
+  ]
+}
