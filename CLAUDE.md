@@ -22,3 +22,7 @@ projects — don't change them while working on Khmer Parcel, and the notes belo
 Affiliate blog (kitchen gadgets under $30, Amazon Associates). The Khmer Parcel rules above don't apply here.
 Start with `content-engine/SMART_KITCHEN_PICKS_NOTES.md` (status, daily routine, compliance rules, gotchas),
 then `content-engine/README.md`. Don't change `khmer-parcel/` while working on this project.
+
+## General (`general/`)
+Standalone pieces that belong to no project, e.g. `general/ai-in-the-future-of-cambodia/` (bilingual page + video
+on AI and jobs in Cambodia). Each folder has its own README.

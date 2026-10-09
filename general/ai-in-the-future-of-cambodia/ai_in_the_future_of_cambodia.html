@@ -1,0 +1,351 @@
+<title>AI in the Future of Cambodia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Moul&family=Kantumruy+Pro:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one reading column; each sector gets a block, risks shown as coloured pills, solutions as a grid of five policy families. */
+:root {
+  --ink: #0f3f3c;
+  --teal: #16706a;
+  --saffron: #d98a12;
+  --bg: #f2f6f5;
+  --surface: #ffffff;
+  --fg: #142624;
+  --muted: #4f6663;
+  --line: #d2e0dd;
+  --tint: #e2efec;
+  --tint-fg: #0f3f3c;
+  --hero-bg: #0f3f3c;
+  --hero-fg: #ffffff;
+  --hero-muted: #a9d3cd;
+  --high: #c0392b; --high-bg: #fbe4e1;
+  --mid: #9a6200; --mid-bg: #fdf0d8;
+  --low: #1d7a45; --low-bg: #dff3e6;
+  --font-km-display: "Moul", "Kantumruy Pro", serif;
+  --font-body: "Kantumruy Pro", "Noto Sans Khmer", "Khmer OS", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #bfe6e0; --teal: #4fb8ae; --saffron: #f0a83a;
+    --bg: #0b1918; --surface: #122523; --fg: #e3efed; --muted: #9bb6b2; --line: #24403d;
+    --tint: #173431; --tint-fg: #cfeee9; --hero-bg: #071312; --hero-fg: #ffffff; --hero-muted: #8fc7bf;
+    --high: #ff8a7a; --high-bg: #3a1b18; --mid: #f3bd5c; --mid-bg: #352812; --low: #6fd49a; --low-bg: #12301f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #bfe6e0; --teal: #4fb8ae; --saffron: #f0a83a;
+  --bg: #0b1918; --surface: #122523; --fg: #e3efed; --muted: #9bb6b2; --line: #24403d;
+  --tint: #173431; --tint-fg: #cfeee9; --hero-bg: #071312; --hero-fg: #ffffff; --hero-muted: #8fc7bf;
+  --high: #ff8a7a; --high-bg: #3a1b18; --mid: #f3bd5c; --mid-bg: #352812; --low: #6fd49a; --low-bg: #12301f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.7; }
+.wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; }
+
+/* language toggle */
+.lang-km .en { display: none !important; }
+.lang-en .km { display: none !important; }
+.km { display: block; }
+.en { display: block; color: var(--muted); font-size: .92em; line-height: 1.55; }
+.lang-en .en { color: inherit; font-size: 1em; }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--hero-bg); }
+.bar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-block: 10px; flex-wrap: wrap; }
+.bar .name { color: var(--hero-fg); font-weight: 600; font-size: 14px; letter-spacing: .04em; }
+.toggle { display: flex; gap: 4px; background: rgba(255,255,255,.08); border-radius: 999px; padding: 3px; }
+.toggle button { font: inherit; font-size: 13px; border: 0; background: transparent; color: var(--hero-muted); padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--saffron); color: #1f1300; font-weight: 600; }
+.toggle button:focus-visible { outline: 2px solid var(--hero-fg); outline-offset: 2px; }
+
+.hero { background: var(--hero-bg); color: var(--hero-fg); padding-block: 36px 44px; }
+.eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--hero-muted); }
+.hero h1 { margin: 12px 0 10px; font-weight: 400; text-wrap: balance; }
+.hero h1 .km { font-family: var(--font-km-display); font-size: clamp(26px, 5vw, 40px); line-height: 1.6; }
+.hero h1 .en { color: var(--hero-muted); font-size: clamp(18px, 3vw, 22px); font-weight: 500; margin-top: 4px; }
+.lang-en .hero h1 .en { color: var(--hero-fg); font-size: clamp(26px, 5vw, 38px); font-weight: 700; }
+.hero p .en { color: var(--hero-muted); }
+.questions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.questions a { color: var(--hero-fg); text-decoration: none; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: 4px 14px; font-size: 14px; }
+.questions a:hover, .questions a:focus-visible { background: rgba(255,255,255,.1); }
+.thesis { margin-top: 26px; border-left: 4px solid var(--saffron); padding: 4px 0 4px 16px; font-size: 18px; font-weight: 600; }
+.thesis .en { color: var(--hero-muted); font-weight: 500; }
+
+section.block { padding-block: 40px 6px; scroll-margin-top: 60px; }
+h2 { margin: 0 0 18px; font-weight: 400; text-wrap: balance; }
+h2 .km { font-family: var(--font-km-display); font-size: clamp(19px, 3.4vw, 24px); color: var(--ink); line-height: 1.7; }
+h2 .en { font-size: 14px; letter-spacing: .06em; text-transform: uppercase; }
+.lang-en h2 .en { font-size: 22px; text-transform: none; letter-spacing: 0; font-weight: 700; color: var(--fg); }
+h3 { margin: 0 0 8px; font-size: 17px; line-height: 1.5; }
+.lede { margin: 0 0 16px; }
+
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; min-width: 0; }
+ul.dots { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+ul.dots li { padding-left: 16px; position: relative; }
+ul.dots li::before { content: ""; position: absolute; left: 0; top: .72em; width: 6px; height: 6px; border-radius: 50%; background: var(--teal); }
+.card.down { border-top: 4px solid var(--high); }
+.card.stay { border-top: 4px solid var(--low); }
+
+.callout { margin-top: 16px; background: var(--tint); color: var(--tint-fg); border-radius: 12px; padding: 16px 18px; font-weight: 600; }
+.callout .en { color: inherit; opacity: .85; font-weight: 500; }
+.callout.warn { background: var(--mid-bg); color: var(--fg); border-left: 4px solid var(--saffron); }
+
+.timeline { display: grid; gap: 12px; margin-top: 14px; }
+.tl { display: grid; grid-template-columns: 110px 1fr; gap: 14px; align-items: start; }
+.tl .when { font-weight: 700; color: var(--teal); font-variant-numeric: tabular-nums; }
+.tl > div { min-width: 0; }
+@media (max-width: 480px) { .tl { grid-template-columns: 1fr; gap: 2px; } }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+th { font-size: 13px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 600; width: 36%; }
+.risk { display: inline-block; white-space: nowrap; font-size: 13px; font-weight: 700; border-radius: 999px; padding: 2px 10px; }
+.risk.high { background: var(--high-bg); color: var(--high); }
+.risk.mid { background: var(--mid-bg); color: var(--mid); }
+.risk.low { background: var(--low-bg); color: var(--low); }
+
+.sol .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--saffron); text-transform: uppercase; margin-bottom: 4px; }
+.sol .ex { margin-top: 10px; font-size: 14px; color: var(--muted); }
+
+footer { margin-top: 48px; background: var(--hero-bg); color: var(--hero-muted); padding-block: 24px; font-size: 14px; }
+footer .en { color: var(--hero-muted); }
+</style>
+
+<div id="root" class="lang-both">
+
+<div class="bar">
+  <div class="wrap">
+    <div class="name">AI · ការងារ · សង្គម</div>
+    <div class="toggle" role="group" aria-label="Language">
+      <button type="button" id="lang-both" data-lang="both" aria-pressed="true">ខ្មែរ + EN</button>
+      <button type="button" id="lang-km" data-lang="km" aria-pressed="false">ខ្មែរ</button>
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">មតិ · Opinion · តុលា ២០២៦ / Oct 2026</div>
+    <h1>
+      <span class="km">ការងារ និងជីវិត ក្នុងយុគ Superintelligence</span>
+      <span class="en">Work and life in the age of superintelligence</span>
+    </h1>
+    <p>
+      <span class="km">តើអង្គការ NGO មន្ត្រីរាជការ និងបុគ្គលិកក្រុមហ៊ុន នឹងទៅជាយ៉ាងណា? ហើយបើការងារបាត់បង់ច្រើន តើដំណោះស្រាយជាអ្វី? នេះជាមតិ គ្មាននរណាដឹងច្បាស់ទេ។</span>
+      <span class="en">What happens to NGOs, civil servants and company staff? And if many jobs disappear, what are the solutions? This is opinion; nobody knows for sure.</span>
+    </p>
+    <nav class="questions" aria-label="Sections">
+      <a href="#ngo">NGO</a><a href="#gov">រាជការ · Government</a><a href="#biz">ក្រុមហ៊ុន · Business</a><a href="#solutions">ដំណោះស្រាយ · Solutions</a><a href="#advice">អនុសាសន៍ · Advice</a>
+    </nav>
+    <div class="thesis">
+      <span class="km">បច្ចេកវិទ្យាទំនងជាធ្វើឱ្យពិភពលោកមានបាន។ សំណួរធំគឺ តើនរណាទទួលបានទ្រព្យសម្បត្តិនោះ? ចម្លើយអាស្រ័យលើការសម្រេចចិត្តរបស់មនុស្ស មិនមែន AI ទេ។</span>
+      <span class="en">Technology will likely make the world richer. The big question is who shares that wealth. The answer depends on human choices, not on AI.</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="block" id="ngo">
+    <h2><span class="km">១. អង្គការ NGO៖ ផ្លាស់ប្តូរ មិនមែនបញ្ចប់ទេ</span><span class="en">1. NGOs: they change, they don't end</span></h2>
+    <div class="grid">
+      <div class="card down">
+        <h3><span class="km">ការងារការិយាល័យ នឹងតូចចុះ</span><span class="en">Office work shrinks</span></h3>
+        <ul class="dots">
+          <li><span class="km">សរសេរសំណើគម្រោង និងរបាយការណ៍ម្ចាស់ជំនួយ</span><span class="en">Proposals and donor reports</span></li>
+          <li><span class="km">ការស្ទង់មតិ សម្អាតទិន្នន័យ ការបកប្រែ</span><span class="en">Surveys, data cleaning, translation</span></li>
+          <li><span class="km">ការតាមដាន និងវាយតម្លៃ (M&amp;E)</span><span class="en">Monitoring and evaluation</span></li>
+        </ul>
+      </div>
+      <div class="card stay">
+        <h3><span class="km">ការងារមូលដ្ឋាន នៅតែជារបស់មនុស្ស</span><span class="en">Fieldwork stays human</span></h3>
+        <ul class="dots">
+          <li><span class="km">ការទុកចិត្តពីសហគមន៍ និងការចុះភូមិ</span><span class="en">Community trust and village visits</span></li>
+          <li><span class="km">បុគ្គលិកសុខាភិបាល ការការពារកុមារ និងស្ត្រី</span><span class="en">Health workers, protecting children and women</span></li>
+          <li><span class="km">ការឆ្លើយតបគ្រោះមហន្តរាយ និងការបោសសម្អាតមីន</span><span class="en">Disaster response and demining</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout warn">
+      <span class="km">ហានិភ័យធំជាង AI គឺថវិកា។ នៅឆ្នាំ ២០២៥ NGO ជាច្រើននៅកម្ពុជាបាត់បង់ថវិកា ពេលម្ចាស់ជំនួយធំៗ ជាពិសេស USAID កាត់បន្ថយជំនួយ។</span>
+      <span class="en">Funding is a bigger risk than AI. In 2025 many NGOs in Cambodia lost funding when big donors, especially USAID, cut aid.</span>
+    </div>
+    <h3 style="margin-top:22px"><span class="km">NGO ដែលនឹងរស់រាន នឹង៖</span><span class="en">NGOs that survive will:</span></h3>
+    <ul class="dots">
+      <li><span class="km">ប្រើ AI សម្រាប់ការងារការិយាល័យ ហើយយកថវិកាដែលសន្សំបាន ទៅការងារមូលដ្ឋាន</span><span class="en">Use AI for the back office and spend the savings on fieldwork</span></li>
+      <li><span class="km">ក្លាយជាស្ពានដែលគេទុកចិត្ត នាំឧបករណ៍ AI (សុខភាព កសិកម្ម ការរៀនជាភាសាខ្មែរ) ទៅដល់អ្នកក្រ និងអ្នកជនបទ</span><span class="en">Become the trusted bridge bringing AI tools (health, farming, learning in Khmer) to poor and rural people</span></li>
+      <li><span class="km">ធ្វើការលើបញ្ហាថ្មី៖ ការបោកប្រាស់តាមអនឡាញ ព័ត៌មានក្លែងក្លាយ ការបាត់បង់ការងារ ការបណ្តុះបណ្តាលឡើងវិញ សុខភាពផ្លូវចិត្ត និងការថែទាំមនុស្សចាស់</span><span class="en">Work on new problems: online scams, misinformation, job loss, retraining, mental health and elderly care</span></li>
+      <li><span class="km">រកចំណូលខ្លួនឯងខ្លះ (សហគ្រាសសង្គម) មិនពឹងតែម្ចាស់ជំនួយបរទេស</span><span class="en">Earn some of their own income (social enterprises) instead of depending only on foreign donors</span></li>
+    </ul>
+  </section>
+
+  <section class="block" id="gov">
+    <h2><span class="km">២. មន្ត្រីរាជការ៖ ផ្លាស់ប្តូរយឺត ប៉ុន្តែនឹងមកដល់</span><span class="en">2. Civil servants: slow change, but it will come</span></h2>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="km">អ្វីដែល AI អាចធ្វើបាន</span><span class="en">What AI can do</span></h3>
+        <ul class="dots">
+          <li><span class="km">ចេញឯកសារ អាជ្ញាប័ណ្ណ និងវិញ្ញាបនបត្រ</span><span class="en">Issue documents, licences and certificates</span></li>
+          <li><span class="km">ពិនិត្យពាក្យស្នើសុំ និងអនុម័តសំណើធម្មតា</span><span class="en">Check forms and approve standard requests</span></li>
+          <li><span class="km">ឆ្លើយសំណួរប្រជាពលរដ្ឋ ២៤/៧ ជាភាសាខ្មែរ</span><span class="en">Answer citizens 24/7 in Khmer</span></li>
+          <li><span class="km">ប្រមូលពន្ធ សវនកម្ម និងរកមើលការក្លែងបន្លំ</span><span class="en">Tax collection, audits, fraud detection</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="km">ហេតុអ្វីការកាត់បន្ថយយឺតជាងក្រុមហ៊ុន</span><span class="en">Why cuts are slower than in companies</span></h3>
+        <ul class="dots">
+          <li><span class="km">ការងាររដ្ឋ ក៏ជាស្ថិរភាពសង្គម និងនយោបាយ</span><span class="en">Government jobs also mean social and political stability</span></li>
+          <li><span class="km">ច្បាប់ និងនីតិវិធី ផ្លាស់ប្តូរយឺត</span><span class="en">Laws and procedures change slowly</span></li>
+          <li><span class="km">ការសម្រេចចិត្តជាច្រើន ត្រូវការមនុស្សចុះហត្ថលេខា និងទទួលខុសត្រូវ</span><span class="en">Many decisions legally need a human to sign and be responsible</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="tl"><div class="when">២០២៦–២០៣០</div><div><span class="km">សេវាឌីជីថលកើនឡើង (ដាក់ពាក្យអនឡាញ អត្តសញ្ញាណឌីជីថល បង់ប្រាក់អេឡិចត្រូនិក)។ ការជ្រើសរើសថ្មីយឺតចុះ ជាជាងការបណ្តេញចេញ។</span><span class="en">More digital services (online applications, digital ID, e-payment). Hiring slows rather than people being fired.</span></div></div>
+      <div class="tl"><div class="when">២០៣០+</div><div><span class="km">មុខតំណែងការិយាល័យថ្មីតិចជាងមុន។ ត្រូវការគ្រូបង្រៀន បុគ្គលិកសុខាភិបាល អធិការ សង្គមកិច្ច និងអ្នកពិនិត្យការសម្រេចរបស់ AI ច្រើនជាងមុន។</span><span class="en">Fewer new office positions. More need for teachers, health workers, inspectors, social workers and people who check AI decisions.</span></div></div>
+    </div>
+    <div class="callout">
+      <span class="km">អត្ថប្រយោជន៍ធំ៖ ក្រដាសស្នាមតិច អាចមានន័យថា អំពើពុករលួយតិច ព្រោះប្រព័ន្ធស្វ័យប្រវត្តិ ទុកឱកាសតិចសម្រាប់ "ថ្លៃក្រៅផ្លូវការ" ប្រសិនបើអ្នកដឹកនាំចង់បាន។</span>
+      <span class="en">Big benefit: less paperwork can mean less corruption, because automated systems leave fewer chances for "unofficial fees", if leaders want it.</span>
+    </div>
+  </section>
+
+  <section class="block" id="biz">
+    <h2><span class="km">៣. វិស័យឯកជន៖ ផ្លាស់ប្តូរលឿនបំផុត</span><span class="en">3. Commercial sector: the fastest change</span></h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>វិស័យ · Sector</th><th>ហានិភ័យ · Risk</th><th>មូលហេតុ · Why</th></tr></thead>
+        <tbody>
+          <tr><td><span class="km">ធនាគារ ធានារ៉ាប់រង មីក្រូហិរញ្ញវត្ថុ (ការិយាល័យខាងក្រោយ)</span><span class="en">Banking, insurance, microfinance back office</span></td><td><span class="risk high">ខ្ពស់ · High</span></td><td><span class="km">ពាក្យស្នើសុំ ការពិនិត្យឥណទាន និងសេវាអតិថិជន ងាយធ្វើស្វ័យប្រវត្តិ</span><span class="en">Forms, credit checks and support are easy to automate</span></td></tr>
+          <tr><td><span class="km">មជ្ឈមណ្ឌលទូរស័ព្ទ បញ្ចូលទិន្នន័យ ការបកប្រែ</span><span class="en">Call centres, data entry, translation</span></td><td><span class="risk high">ខ្ពស់ · High</span></td><td><span class="km">AI ធ្វើបានល្អរួចហើយ</span><span class="en">AI already does this well</span></td></tr>
+          <tr><td><span class="km">គណនេយ្យ ច្បាប់ និងទីផ្សារ កម្រិតដំបូង</span><span class="en">Junior accounting, legal and marketing</span></td><td><span class="risk mid">មធ្យម–ខ្ពស់ · Med–High</span></td><td><span class="km">AI ធ្វើ ៨០% ដំបូង ការជ្រើសរើសបុគ្គលិកថ្មីតិចចុះ</span><span class="en">AI does the first 80%; fewer junior hires</span></td></tr>
+          <tr><td><span class="km">រោងចក្រកាត់ដេរ</span><span class="en">Garment factories</span></td><td><span class="risk mid">មធ្យម (ក្រោយមក) · Medium, later</span></td><td><span class="km">រ៉ូបូតដេរកំពុងល្អប្រសើរ ប៉ុន្តែយឺត និងថ្លៃជាង AI កម្មវិធី</span><span class="en">Sewing robots are improving, but slower and costlier than AI software</span></td></tr>
+          <tr><td><span class="km">លក់រាយ ភោជនីយដ្ឋាន ទេសចរណ៍</span><span class="en">Retail, restaurants, tourism</span></td><td><span class="risk mid">ទាប–មធ្យម · Low–Med</span></td><td><span class="km">អតិថិជននៅតែចង់បានមនុស្ស ការបញ្ជាទិញ និងបង់ប្រាក់ក្លាយជាស្វ័យប្រវត្តិ</span><span class="en">Customers still want people; ordering and payment get automated</span></td></tr>
+          <tr><td><span class="km">សំណង់ ជួសជុល ដឹកជញ្ជូន ថែទាំ កសិកម្ម</span><span class="en">Construction, repair, delivery, care, farming</span></td><td><span class="risk low">ទាប (យូរជាង) · Low, for longer</span></td><td><span class="km">ការងារផ្លូវកាយ ស្មុគស្មាញ និងក្នុងស្រុក</span><span class="en">Physical, messy, local work</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout warn">
+      <span class="km">ហានិភ័យធ្ងន់សម្រាប់កម្ពុជា៖ ការងាររោងចក្រកាត់ដេរ គឺជាជណ្តើរដែលនាំគ្រួសារជាច្រើន ចេញពីភាពក្រីក្រ។ បើរ៉ូបូតធ្វើឱ្យរោងចក្រនៅប្រទេសអ្នកមានថោកវិញ ប្រទេសក្រីក្រអាចបាត់បង់ជណ្តើរនោះ។ កម្ពុជាត្រូវការផែនការ ខ៖ ខ្សែសង្វាក់តម្លៃកសិកម្ម ទេសចរណ៍ ភស្តុភារ សេវាឌីជីថល និងអាជីវកម្មក្នុងស្រុក។</span>
+      <span class="en">The serious risk for Cambodia: garment jobs are the ladder that lifted many families out of poverty. If robots make factories in rich countries cheap again, poorer countries could lose that ladder. Cambodia needs a plan B: agriculture value chains, tourism, logistics, digital services and local businesses.</span>
+    </div>
+  </section>
+
+  <section class="block" id="solutions">
+    <h2><span class="km">៤. បើការងារមិនគ្រប់គ្រាន់ តើដំណោះស្រាយជាអ្វី?</span><span class="en">4. If there aren't enough jobs, what are the solutions?</span></h2>
+    <p class="lede"><span class="km">មិនទាន់មានដំណោះស្រាយណាដែលបញ្ជាក់ច្បាស់ទេ ព្រោះពិភពលោកមិនធ្លាប់ជួបរឿងនេះពីមុនមក។ ប៉ុន្តែអ្នកសេដ្ឋកិច្ច និងរដ្ឋាភិបាល កំពុងពិភាក្សាគំនិតទាំងនេះ៖</span><span class="en">No solution is proven yet, because the world has never faced this. But economists and governments are discussing these ideas:</span></p>
+    <div class="grid">
+      <div class="card sol">
+        <div class="tag">Share the wealth</div>
+        <h3><span class="km">ចែករំលែកទ្រព្យដែល AI បង្កើត</span><span class="en">Share the wealth AI creates</span></h3>
+        <ul class="dots">
+          <li><span class="km">យកពន្ធលើក្រុមហ៊ុន AI និងបច្ចេកវិទ្យាធំៗ</span><span class="en">Tax AI and big tech companies</span></li>
+          <li><span class="km">ប្រាក់ចំណូលគោលជាសកល (UBI)៖ ប្រាក់ទៀងទាត់ឱ្យពលរដ្ឋគ្រប់រូប</span><span class="en">Universal basic income: regular money for every citizen</span></li>
+          <li><span class="km">មូលនិធិ AI ជាតិ ដែលចែកភាគលាភឱ្យពលរដ្ឋ</span><span class="en">A national AI fund that pays citizens a dividend</span></li>
+        </ul>
+        <div class="ex"><span class="km">ឧទាហរណ៍៖ ការសាកល្បងប្រាក់ចំណូលគោលជាសកល នៅកេនយ៉ា ហ្វាំងឡង់ អាមេរិក · ភាគលាភប្រេងរបស់អាឡាស្កា · មូលនិធិប្រេងន័រវេស</span><span class="en">Examples: UBI pilots in Kenya, Finland, US · Alaska's oil dividend · Norway's oil fund</span></div>
+      </div>
+      <div class="card sol">
+        <div class="tag">Redefine work</div>
+        <h3><span class="km">ផ្លាស់ប្តូរអត្ថន័យនៃ "ការងារ"</span><span class="en">Change what "work" means</span></h3>
+        <ul class="dots">
+          <li><span class="km">ធ្វើការ ៤ ថ្ងៃ ជំនួស ៦ ថ្ងៃ ដើម្បីចែកការងារឱ្យមនុស្សច្រើន</span><span class="en">4-day weeks instead of 6, to share work among more people</span></li>
+          <li><span class="km">បើកប្រាក់សម្រាប់ការថែទាំកុមារ មនុស្សចាស់ អ្នកជំងឺ និងការបង្រៀន</span><span class="en">Pay for caring for children, elders and the sick, and for teaching</span></li>
+          <li><span class="km">កម្មវិធីការងារសាធារណៈ៖ ផ្លូវ ប្រព័ន្ធធារាសាស្ត្រ ការការពារទឹកជំនន់ ដាំដើមឈើ ថាមពលព្រះអាទិត្យ</span><span class="en">Public works: roads, irrigation, flood defence, tree planting, solar</span></li>
+        </ul>
+      </div>
+      <div class="card sol">
+        <div class="tag">Help people move</div>
+        <h3><span class="km">ជួយមនុស្សឱ្យផ្លាស់ប្តូរ មិនត្រឹមតែរស់</span><span class="en">Help people move, not just survive</span></h3>
+        <ul class="dots">
+          <li><span class="km">ការបណ្តុះបណ្តាលឡើងវិញឥតគិតថ្លៃ ពេញមួយជីវិត ជាមួយគ្រូ AI ជាភាសាខ្មែរ</span><span class="en">Free lifelong retraining with AI tutors in Khmer</span></li>
+          <li><span class="km">គាំទ្រអាជីវកម្មខ្នាតតូច៖ ប្រាក់កម្ចីថោក ការចុះបញ្ជីងាយស្រួល ឧបករណ៍ AI</span><span class="en">Support small businesses: cheap loans, easy registration, AI tools</span></li>
+          <li><span class="km">ពង្រីកកិច្ចគាំពារសង្គម (ប័ណ្ណក្រីក្រ ប្រាក់ឧបត្ថម្ភ ប.ស.ស)</span><span class="en">Expand social protection (IDPoor, cash transfers, NSSF)</span></li>
+        </ul>
+      </div>
+      <div class="card sol">
+        <div class="tag">Broaden ownership</div>
+        <h3><span class="km">ពង្រីកភាពជាម្ចាស់</span><span class="en">Broaden ownership</span></h3>
+        <ul class="dots">
+          <li><span class="km">សហករណ៍៖ កសិករ អ្នកដឹក អ្នកលក់ ជាម្ចាស់អាជីវកម្មរួមគ្នា</span><span class="en">Cooperatives: farmers, riders, sellers owning businesses together</span></li>
+          <li><span class="km">ងាយស្រួលសម្រាប់ប្រជាជនធម្មតា ក្នុងការមានភាគហ៊ុន ដី និងអាជីវកម្ម</span><span class="en">Make it easy for ordinary people to own shares, land and businesses</span></li>
+          <li><span class="km">ថាមពលព្រះអាទិត្យ ទឹក និងអ៊ីនធឺណិត ជាកម្មសិទ្ធិសហគមន៍</span><span class="en">Community-owned solar, water and internet</span></li>
+        </ul>
+      </div>
+      <div class="card sol">
+        <div class="tag">Meaning</div>
+        <h3><span class="km">អត្ថន័យជីវិត មិនត្រឹមតែលុយ</span><span class="en">Meaning, not just money</span></h3>
+        <ul class="dots">
+          <li><span class="km">ការបាត់បង់ការងារ ប៉ះពាល់ដល់សេចក្តីថ្លៃថ្នូរ មិនត្រឹមតែកាបូបលុយ</span><span class="en">Losing a job hurts dignity, not only the wallet</span></li>
+          <li><span class="km">គ្រួសារ វត្តអារាម សហគមន៍ កីឡា សិល្បៈ ការស្ម័គ្រចិត្ត និងការរៀនសូត្រ កាន់តែសំខាន់</span><span class="en">Family, pagodas, community, sport, art, volunteering and learning matter more</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="outcomes">
+    <h2><span class="km">៥. ផ្លូវពីរ៖ បើល្អ ឬបើអាក្រក់</span><span class="en">5. Two paths: if it goes well, or badly</span></h2>
+    <div class="grid">
+      <div class="card stay">
+        <h3><span class="km">បើដំណើរការល្អ</span><span class="en">If it goes well</span></h3>
+        <ul class="dots">
+          <li><span class="km">ថ្នាំព្យាបាល អាហារ ថាមពល និងការអប់រំ ថោកសម្រាប់មនុស្សគ្រប់គ្នា</span><span class="en">Cheaper medicine, food, energy and education for everyone</span></li>
+          <li><span class="km">ការងារធ្ងន់ គ្រោះថ្នាក់ និងគួរឱ្យធុញ តិចជាងមុន</span><span class="en">Less hard, dangerous and boring work</span></li>
+          <li><span class="km">ពេលវេលាច្រើនសម្រាប់គ្រួសារ សុខភាព និងសហគមន៍</span><span class="en">More time for family, health and community</span></li>
+          <li><span class="km">ដោះស្រាយការប្រែប្រួលអាកាសធាតុ និងជំងឺ បានលឿនជាងមុន</span><span class="en">Faster solutions for climate change and disease</span></li>
+        </ul>
+      </div>
+      <div class="card down">
+        <h3><span class="km">បើដំណើរការអាក្រក់</span><span class="en">If it goes badly</span></h3>
+        <ul class="dots">
+          <li><span class="km">វិសមភាពខ្លាំង៖ ក្រុមហ៊ុន និងប្រទេសមួយចំនួនតូច ជាម្ចាស់ AI</span><span class="en">Extreme inequality: a few companies and countries own the AI</span></li>
+          <li><span class="km">ប្រទេសក្រីក្រនៅពីក្រោយ ព្រោះមានពន្ធតិច មិនអាចផ្តល់ប្រាក់ចំណូលគោលជាសកលបាន</span><span class="en">Poor countries left behind, with too little tax to fund UBI</span></li>
+          <li><span class="km">ភាពចលាចលសង្គម ពេលយុវជនជាច្រើនគ្មានការងារ និងគ្មានក្តីសង្ឃឹម</span><span class="en">Social unrest when many young people have no work and no hope</span></li>
+          <li><span class="km">បាត់បង់ការគ្រប់គ្រង បើ AI មិនត្រូវបានអភិវឌ្ឍដោយសុវត្ថិភាព</span><span class="en">Loss of control if AI is not developed safely</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="advice">
+    <h2><span class="km">៦. អនុសាសន៍</span><span class="en">6. Advice</span></h2>
+    <div class="grid">
+      <div class="card"><h3><span class="km">បុគ្គល</span><span class="en">Individuals</span></h3><span class="km">បង្កើតជំនាញដែលរួមបញ្ចូលការទុកចិត្តពីមនុស្ស និងឧបករណ៍ AI ហើយព្យាយាមជាម្ចាស់អ្វីមួយ៖ អាជីវកម្ម ដី ឬភាគហ៊ុនក្នុងសហករណ៍។</span><span class="en">Build skills that combine human trust with AI tools, and try to own something: a business, land or a share in a cooperative.</span></div>
+      <div class="card"><h3><span class="km">អង្គការ NGO</span><span class="en">NGOs</span></h3><span class="km">ប្រើ AI សម្រាប់ការិយាល័យ ពង្រឹងការងារមូលដ្ឋាន ហើយក្លាយជាស្ពានរវាង AI និងសហគមន៍ងាយរងគ្រោះ។</span><span class="en">Automate the office, strengthen the field, and become the bridge between AI and vulnerable communities.</span></div>
+      <div class="card"><h3><span class="km">រដ្ឋាភិបាល</span><span class="en">Government</span></h3><span class="km">ធ្វើសេវាឱ្យទៅជាឌីជីថល ពង្រីកកិច្ចគាំពារសង្គមឥឡូវនេះ វិនិយោគលើការអប់រំ និងរៀបចំផែនការ ខ សម្រាប់កម្មករកាត់ដេរ។</span><span class="en">Digitise services, expand social protection now, invest in education, and prepare a plan B for garment workers.</span></div>
+      <div class="card"><h3><span class="km">អាជីវកម្ម</span><span class="en">Businesses</span></h3><span class="km">នៅតែជាអាជីវកម្មផ្លូវកាយ ក្នុងស្រុក និងគួរឱ្យទុកចិត្ត។ ប្រើ AI ដើម្បីរីកចម្រើន ហើយថែរក្សាបុគ្គលិក ពេលឧបករណ៍ផ្លាស់ប្តូរ។</span><span class="en">Stay physical, local and trusted. Use AI to grow, and look after your people as the tools change.</span></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="km">ឯកសារនេះជាមតិផ្ទាល់ខ្លួន សម្រាប់ការពិភាក្សា មិនមែនជាការព្យាករណ៍ ឬគោលនយោបាយផ្លូវការទេ · តុលា ២០២៦</span>
+    <span class="en">Personal opinion for discussion, not a forecast or official policy · October 2026</span>
+  </div>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('root');
+  var buttons = root.querySelectorAll('.toggle button');
+  function setLang(lang) {
+    root.className = 'lang-' + lang;
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    try { localStorage.setItem('ai-work-lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+  var saved = null;
+  try { saved = localStorage.getItem('ai-work-lang'); } catch (e) {}
+  if (saved === 'km' || saved === 'en' || saved === 'both') setLang(saved);
+})();
+</script>
