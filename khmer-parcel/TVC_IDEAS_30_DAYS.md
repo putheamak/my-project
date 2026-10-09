@@ -38,4 +38,6 @@ Audience key: **S** = online sellers (women 20–40, 3,000៛ / 2,000៛ offer) 
 | 29 | S | "១ ខែ ជាមួយខ្មែរផាសែល" | Month recap with real numbers (bookings, Khans served) |
 | 30 | D+S | "អរគុណ!" | Thank-you + next-month offer |
 
+Extra (not in the calendar): ✅ AI-era roadmap vision video, both audiences (`khmer_parcel_roadmap_2030.mp4`)
+
 Before making any idea, check `KHMER_PARCEL_NOTES.md` for current prices/offers and ask the owner about anything not confirmed.

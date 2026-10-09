@@ -1,0 +1,13 @@
+{
+  "html": "scenes_roadmap_2030.html",
+  "out": "../khmer_parcel_roadmap_2030.mp4",
+  "xfade": 0.35,
+  "segments": [
+    {"scene": "hook", "dur": 6.0, "next": "fade"},
+    {"scene": "thesis", "dur": 7.0, "next": "slideup"},
+    {"scene": "strengths", "dur": 7.5, "next": "circleopen"},
+    {"scene": "roadmap", "dur": 14.0, "next": "zoomin"},
+    {"scene": "promise", "dur": 6.0, "next": "slideleft"},
+    {"scene": "cta", "dur": 6.8}
+  ]
+}
