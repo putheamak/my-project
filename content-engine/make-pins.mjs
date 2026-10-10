@@ -169,6 +169,21 @@ const plan = [...days.keys()].sort().map((d) => `<details class="day" data-date=
 ${days.get(d).map(planItem).join("\n")}
 </details>`).join("\n");
 
+// Short videos from make-videos.mjs (pins/videos.json), shown on each post's card.
+const videosPath = path.join(outDir, "videos.json");
+const videos = fs.existsSync(videosPath) ? JSON.parse(fs.readFileSync(videosPath, "utf8")) : {};
+const videoBlock = (post) => {
+  const v = videos[post.slug];
+  if (!v) return "";
+  const file = `${post.slug}.mp4`;
+  return `<div class="video"><h3>Short video${v.seconds ? ` (${v.seconds} s)` : ""}</h3>
+<video src="${esc(file)}" controls playsinline preload="none" width="180" height="320"></video>
+<p><a class="dl" href="${esc(file)}" download>Download video</a></p>
+<p class="hint">For TikTok, YouTube Shorts and Pinterest. The video is silent: add a sound in the app.</p>
+${field("Video caption", v.caption, 6)}
+</div>`;
+};
+
 const card = ({ post, pinTitle, pinDescription, files, link }) => `<section>
 <h2>${esc(post.title)}</h2>
 <div class="pins">${files.map((f) => `<a href="${esc(f)}" download><img src="${esc(f)}" alt="Pin design for ${esc(post.title)}" loading="lazy" width="200" height="300"></a>`).join("")}</div>
@@ -178,6 +193,7 @@ ${field("Description", pinDescription, 5)}
 ${field("Link", link, 2)}
 ${post.pinBoard ? `<p class="hint">Suggested board: ${esc(post.pinBoard)}</p>` : ""}
 ${/ai-generated/i.test(post.image) ? aiHint : ""}
+${videoBlock(post)}
 </section>`;
 
 if (cards.length) {
@@ -196,6 +212,9 @@ h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:0}.pins{display:flex;gap:8px;
 .copy{font:inherit;font-size:.9rem;padding:6px 14px;border:0;border-radius:999px;background:#b4531f;color:#fff;cursor:pointer}.copy.done{background:#2f7d4f}
 textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-weight:400;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
 .hint{color:var(--muted);font-size:.9rem}
+.video{border-top:1px solid var(--line);margin-top:16px;padding-top:4px}.video h3{font-size:1rem}
+.video video{width:180px;height:320px;border-radius:8px;background:#000;display:block}
+.dl{display:inline-block;padding:6px 14px;border-radius:999px;background:#b4531f;color:#fff;text-decoration:none;font-size:.9rem}
 .day{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}
 .day summary{font-weight:600;cursor:pointer}.day.past{opacity:.6}
 .badge{margin-left:8px;font-size:.8rem;padding:2px 8px;border-radius:999px;background:#b4531f;color:#fff}.badge:empty{display:none}

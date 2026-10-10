@@ -115,6 +115,16 @@ At the top of the page is a **Pin plan**: extra pins for posts you've already pi
 
 The page isn't linked from the blog and tells search engines not to list it. To make the images on your own computer, run `node make-pins.mjs` (needs the free ImageMagick); they're saved in `dist-blog/pins/`.
 
+### Short videos
+
+Every time the blog is published, `make-videos.mjs` makes a **20-second vertical video** (1080×1920) for each published post: the cover photo with a slow zoom, a hook with the pin title, up to 5 gadgets from the post's comparison table, and an end card ("Full list on my blog, link in bio" plus the Amazon disclosure). Each video appears on the pins page under its post, with a download button and a caption to paste.
+
+1. On the pins page, tap **Download video**.
+2. Upload it to TikTok, YouTube Shorts or Pinterest (as a video pin), paste the caption, and add a sound from the app's music library (the video is silent).
+3. If the post's cover photo is AI-generated, turn on the app's AI-generated label.
+
+Videos are only made for new or changed posts, because each takes about a minute to render. The list lives at `pins/videos.json` on the site. To make them yourself: `node make-videos.mjs` (needs ImageMagick and ffmpeg), or `node make-videos.mjs --only <slug>`.
+
 ### Topic pages
 
 `topics.json` groups posts into topic pages such as "Quick Breakfasts" and "Work Lunches" (one per Pinterest board), at `blog/topics/<name>/`. A published post appears on a topic page when its slug is listed under the topic's `posts`, or when its pin board matches the topic's `board`. Topics without published posts are hidden. The home page links to every topic, and each post ends with links to other posts on the same topic.

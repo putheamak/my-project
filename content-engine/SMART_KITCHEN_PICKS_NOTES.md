@@ -15,7 +15,7 @@ Read this first. Last updated 10 Oct 2026.
 - **Pin images page:** https://putheamak.github.io/my-project/blog/pins/. `make-pins.mjs` makes 3 designs per post (1000×1500), and the page has Copy buttons for the title, description and link. The page is noindex.
 - **Pinterest auto-posting is OFF.** The owner chose to pin by hand. See "Pinterest API" below before suggesting it again.
 - **Analytics:** GoatCounter at https://smartkitchenpicks.goatcounter.com. Real outside traffic is close to zero so far, because most counted visits are the owner's. The owner was told to open `<blog>/#toggle-goatcounter` once on each browser to stop counting their own visits.
-- **Social:** TikTok @smartkitchenpicks8 and the YouTube channel are set in `site.json`. No videos posted yet. Shot lists were written for the Oct 6 scripts 1 (ramen) and 2 (grilled cheese).
+- **Social:** TikTok @smartkitchenpicks8 and the YouTube channel are set in `site.json`. No videos posted yet (automatic slideshow videos added 10 Oct, see below). Shot lists were written for the Oct 6 scripts 1 (ramen) and 2 (grilled cheese).
 
 ## Daily routine (what the owner expects)
 1. The owner says "review the <date> draft". Read the post and the `output/` pack, and run the compliance check (see Rules).
@@ -38,10 +38,15 @@ Read this first. Last updated 10 Oct 2026.
 - `topics.json` lists the blog's topic pages (`/blog/topics/<slug>/`), one per Pinterest board. A published post joins a topic if its slug is listed or its `pinBoard` equals the topic's `board`. Empty topics (Halloween, Thanksgiving, holiday baking, gifts until Nov 3) stay hidden until a post joins.
 - Each post page ends with "More in <topic>" links, the home page shows topic chips, and topic pages are in the sitemap.
 
+## Short videos (added 10 Oct, option A)
+- `make-videos.mjs` (run by the Publish blog workflow) makes a silent 20 s 1080×1920 video per published post: cover photo + slow zoom, hook (pin title), up to 5 rows from the comparison table, end card with "link in bio" and the disclosure. They're on the pins page with a download button and caption. The owner uploads them by hand and adds a sound in the app.
+- Only new or changed posts are rendered (about 1 min each); `pins/videos.json` on the live site holds a key per post, and gh-pages `keep_files` keeps older mp4s. Bump `VERSION` in `make-videos.mjs` to remake all after a design change.
+- Option B (Pexels stock clips per gadget, needs a free Pexels API key secret) is wanted **later**; the owner said "B will be later".
+
 ## Technical gotchas
 - **Run `node compliance.mjs` on a copy in the scratchpad, never on `posts/*.md`.** It prepends a report above the front matter and breaks the post.
 - `build-blog.mjs` skips published posts with a FIX issue. Test publishing locally by temporarily setting the status to published, then restore the file.
-- The Publish blog workflow runs only for changes under `posts/`, `images/`, `site.json`, `config.json`, `topics.json`, `pin-queue.json`, `build-blog.mjs`, `compliance.mjs`, `lib/`, `make-pins.mjs`, and `.github/workflows/blog.yml`, or after the daily pack. It can also be run by hand from the Actions tab.
+- The Publish blog workflow runs only for changes under `posts/`, `images/`, `site.json`, `config.json`, `topics.json`, `pin-queue.json`, `build-blog.mjs`, `compliance.mjs`, `lib/`, `make-pins.mjs`, `make-videos.mjs`, and `.github/workflows/blog.yml`, or after the daily pack. It can also be run by hand from the Actions tab.
 - The daily-content and blog workflows push straight to `main`. **Never suggest a "require pull request" rule** for `main`. A ruleset with only "Restrict deletions" and "Block force pushes" is fine.
 - `resolveImage` tolerates `photo.jpg.jpg` uploads.
 - Branches: do the work on a Claude branch and open a PR. The owner merges. Branch from the latest `origin/main` each time, because the owner often commits on `main` directly (photos, publish status). The old branch `claude/sleepy-edison-duvvrm` has one unmerged commit of the owner's; don't force-push it.

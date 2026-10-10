@@ -15,6 +15,7 @@ on:
       - "content-engine/compliance.mjs"
       - "content-engine/lib/**"
       - "content-engine/make-pins.mjs"
+      - "content-engine/make-videos.mjs"
       - "content-engine/topics.json"
       - "content-engine/pin-queue.json"
       - ".github/workflows/blog.yml"
@@ -61,6 +62,16 @@ jobs:
           fi
       # Vertical Pinterest images (3 designs per post) and a page listing them
       # with the text to paste, at <blog>/pins/. Uses the ImageMagick above.
+      # Short vertical videos (TikTok / Shorts / Pinterest) at <blog>/pins/<slug>.mp4.
+      # Only new or changed posts are rendered (about a minute each); earlier
+      # videos stay on the site because of keep_files below.
+      - name: Make short videos
+        working-directory: content-engine
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg || true
+          fi
+          node make-videos.mjs
       - name: Make Pinterest pin images
         working-directory: content-engine
         run: node make-pins.mjs
