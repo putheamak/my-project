@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { checkCompliance, formatReport } from "./compliance.mjs";
 import { postFromPack, serializePost } from "./lib/post.mjs";
+import { loadTopics } from "./lib/topics.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const outputDir = path.join(here, "output");
@@ -37,6 +38,20 @@ const products = (config.products ?? [])
   .join("\n");
 
 const disclosure = config.disclosure;
+
+// Pinterest users plan 4-8 weeks ahead, so steer topics toward the occasions
+// whose window (month-day, may wrap past New Year) includes today.
+const md = today.slice(5);
+const inWindow = ({ from, to }) => (from <= to ? md >= from && md <= to : md >= from || md <= to);
+const seasons = (config.seasons ?? []).filter(inWindow);
+const seasonal = seasons.length
+  ? `Upcoming occasions people are planning for now (today is ${today}):
+${seasons.map((s) => `- ${s.occasion}: ${s.ideas}`).join("\n")}
+Make today's topic fit one of these occasions, choosing the one the topics already covered (below) cover least, and name the occasion in the title, the pin title and the pin description.`
+  : `Today is ${today}. No special occasion is coming up, so pick an everyday topic.`;
+
+// Board names match the blog's topic pages, so new posts land on the right topic.
+const boards = loadTopics(here).map((t) => t.board).filter(Boolean);
 
 const system = `You write daily affiliate-marketing content for a solo creator who reviews it and posts it by hand. Every pack must be findable in search (SEO) and must comply with the Amazon Associates Program Operating Agreement.
 
@@ -66,6 +81,8 @@ Audience: ${config.audience}
 Affiliate program: ${config.affiliateProgram}
 Platforms: ${config.platforms.join(", ")}
 Keyword ideas from the creator: ${(config.targetKeywords ?? []).join(", ") || "(none - suggest your own)"}
+
+${seasonal}
 
 Products the creator can link:
 ${products || "- (none yet - use placeholders)"}
@@ -109,7 +126,7 @@ ${config.videoScriptsPerDay} scripts for TikTok / YouTube Shorts / Reels, 30-45 
 One caption per platform (${config.platforms.join(", ")}), with the keyword in the first line, 3-5 relevant hashtags, and the disclosure.
 
 ## Pinterest pin
-Keyword-rich pin title (under 100 characters), description (under 500 characters, with the disclosure), and a suggested board name.
+Keyword-rich pin title (under 100 characters), description (under 500 characters, with the disclosure), and a suggested board name${boards.length ? ` - use one of these existing boards when one fits: ${boards.join("; ")}` : ""}.
 
 ## Posting checklist
 3-5 short reminders specific to today's content (for example which placeholder links to fill in).`;

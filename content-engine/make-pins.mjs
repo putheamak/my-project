@@ -4,6 +4,10 @@
 //   node make-pins.mjs                 # writes dist-blog/pins/
 //   node make-pins.mjs --out somewhere
 //
+// The page starts with a dated pin plan from pin-queue.json: fresh titles and
+// descriptions for extra pins of posts that are already pinned, with the
+// design image to use. Today's group opens first.
+//
 // Each post gets 3 vertical 1000x1500 designs made from its cover photo, with
 // the pin title on top. Pinterest favours fresh images, so pin one design now
 // and the others over the following weeks. Needs ImageMagick (free); the
@@ -123,8 +127,47 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   cards.push({ post, pinTitle, pinDescription, files, link: `${baseUrl}/posts/${post.slug}/` });
 }
 
+// ---- Pin plan from pin-queue.json --------------------------------------------
+
+const queuePath = path.join(here, "pin-queue.json");
+const queue = fs.existsSync(queuePath) ? JSON.parse(fs.readFileSync(queuePath, "utf8")).queue ?? [] : [];
+const days = new Map();
+for (const item of queue) {
+  const c = cards.find((x) => x.post.slug === item.slug);
+  const file = c && `${item.slug}-${item.design}.jpg`;
+  if (!c || !c.files.includes(file)) {
+    console.warn(`pin plan ${item.date}: skip ${item.slug} design ${item.design} (post or image not found)`);
+    continue;
+  }
+  const description = fitPinDescription(item.description, disclosure);
+  const blocking = checkCompliance(`${item.title}\n\n${description}`, disclosure).filter((i) => i.level === "FIX");
+  if (blocking.length) {
+    console.warn(`pin plan ${item.date}: skip "${item.title}": ${blocking.map((i) => i.found).join(", ")}`);
+    continue;
+  }
+  if (!days.has(item.date)) days.set(item.date, []);
+  days.get(item.date).push({ ...item, description, file, link: c.link, ai: /ai-generated/i.test(c.post.image) });
+}
+
 // A read-only box with a "Copy" button, so pin text pastes into Pinterest in one tap.
 const field = (name, value, rows) => `<div class="field"><div class="row"><span>${name}</span><button type="button" class="copy">Copy</button></div><textarea rows="${rows}" readonly aria-label="${name}">${esc(value)}</textarea></div>`;
+
+const aiHint = '<p class="hint"><strong>Turn on "Mark as AI-Modified"</strong>: this cover photo is AI-generated.</p>';
+
+const planItem = (i) => `<div class="plan-item">
+<a href="${esc(i.file)}" download><img src="${esc(i.file)}" alt="Pin design ${i.design}" loading="lazy" width="120" height="180"></a>
+<div class="plan-text">
+${field("Title", i.title, 2)}
+${field("Description", i.description, 5)}
+${field("Link", i.link, 2)}
+<p class="hint">Board: <strong>${esc(i.board)}</strong> · Design ${i.design} (tap the image to download)</p>
+${i.ai ? aiHint : ""}
+</div></div>`;
+
+const dayLabel = (d) => new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" });
+const plan = [...days.keys()].sort().map((d) => `<details class="day" data-date="${d}"><summary>${dayLabel(d)} · ${days.get(d).length} pins<span class="badge"></span></summary>
+${days.get(d).map(planItem).join("\n")}
+</details>`).join("\n");
 
 const card = ({ post, pinTitle, pinDescription, files, link }) => `<section>
 <h2>${esc(post.title)}</h2>
@@ -134,6 +177,7 @@ ${field("Title", pinTitle, 3)}
 ${field("Description", pinDescription, 5)}
 ${field("Link", link, 2)}
 ${post.pinBoard ? `<p class="hint">Suggested board: ${esc(post.pinBoard)}</p>` : ""}
+${/ai-generated/i.test(post.image) ? aiHint : ""}
 </section>`;
 
 if (cards.length) {
@@ -152,12 +196,36 @@ h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:0}.pins{display:flex;gap:8px;
 .copy{font:inherit;font-size:.9rem;padding:6px 14px;border:0;border-radius:999px;background:#b4531f;color:#fff;cursor:pointer}.copy.done{background:#2f7d4f}
 textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-weight:400;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
 .hint{color:var(--muted);font-size:.9rem}
+.day{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}
+.day summary{font-weight:600;cursor:pointer}.day.past{opacity:.6}
+.badge{margin-left:8px;font-size:.8rem;padding:2px 8px;border-radius:999px;background:#b4531f;color:#fff}.badge:empty{display:none}
+.plan-item{display:flex;gap:12px;align-items:flex-start;border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.plan-item img{width:96px;height:144px;object-fit:cover;border-radius:8px;display:block}.plan-text{flex:1;min-width:0}
+@media (max-width:480px){.plan-item{flex-direction:column}}
 </style></head><body><main>
 <h1>Pin images</h1>
-<p class="hint">Three Pinterest designs per post, newest first, with the text to paste. This page isn't linked from the blog.</p>
+<p class="hint">This page isn't linked from the blog.</p>
+${plan ? `<h2 id="plan">Pin plan</h2>
+<p class="hint">Extra pins with fresh text for posts you've already pinned. Today's pins open first; copy each field into Pinterest and pick the board shown.</p>
+${plan}
+<h2>New posts</h2>` : ""}
+<p class="hint">Three Pinterest designs per post, newest first, with the text for each post's first pin.</p>
 ${cards.map(card).join("\n")}
 </main>
 <script>
+// Open today's pins (or the next day with pins) and grey out past days.
+{
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const today = now.getFullYear() + "-" + pad(now.getMonth() + 1) + "-" + pad(now.getDate());
+  const days = [...document.querySelectorAll(".day")];
+  days.filter((d) => d.dataset.date < today).forEach((d) => d.classList.add("past"));
+  const next = days.find((d) => d.dataset.date >= today);
+  if (next) {
+    next.open = true;
+    next.querySelector(".badge").textContent = next.dataset.date === today ? "Today" : "Next";
+  }
+}
 document.addEventListener("click", async (e) => {
   const btn = e.target.closest(".copy");
   if (!btn) return;
