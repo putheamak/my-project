@@ -56,7 +56,7 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 - **Microwave Meals & No-Stove Cooking:** Oct 3, Oct 6, Oct 8
 - **Cooking for One & Small Kitchens:** Sep 28, Oct 5
 - **Kitchen Gift Ideas Under $30:** Nov 3 gift guide
-- **Movie Night Snack Ideas** (added 9 Oct): Oct 9
+- **Movie Night Snack Ideas** (added 9 Oct): Oct 9, Oct 10
 
 ## Upcoming
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
