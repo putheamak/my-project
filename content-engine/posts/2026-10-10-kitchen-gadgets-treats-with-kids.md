@@ -8,7 +8,7 @@ pinTitle: "Kitchen Gadgets Under $30 for Making Treats With Kids (No Oven Needed
 pinDescription: "Build a weekend treat station with small gadgets that each do one job: a mini donut maker, a 4-inch waffle maker, a collapsible microwave popcorn popper, a seasoning variety pack, a handheld frother for hot chocolate and a 6-section tray for toppings. Most need no oven, and kids can handle the pouring, scooping and decorating. Full comparison table on the blog. Available on Amazon — check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Movie Night Snack Ideas"
 date: "2026-10-10"
-image: ""
+image: "elykreation-cookies.jpg"
 status: "draft"
 ---
 
