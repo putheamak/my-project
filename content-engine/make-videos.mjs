@@ -139,6 +139,7 @@ function render(post, src, out) {
   const { headline, subline } = splitTitle(post.pinTitle || post.title);
   const items = tableItems(post.body);
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "skp-video-"));
+  const part = path.join(dir, "video.mp4");
   try {
     const layers = overlays(dir, { headline, subline, items });
     const times = [0, HOOK, ...items.map((_, i) => HOOK + ITEM * (i + 1))];
@@ -162,9 +163,11 @@ function render(post, src, out) {
       "-filter_complex", filters.join(";"),
       "-map", `[v${layers.length}]`, "-map", `${layers.length + 1}:a`,
       "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", "-r", String(FPS),
-      "-c:a", "aac", "-b:a", "64k", "-shortest", "-movflags", "+faststart", out,
+      "-c:a", "aac", "-b:a", "64k", "-shortest", "-movflags", "+faststart", part,
     ]);
     if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
+    // Only a finished file gets the real name, so a half-written video is never shown.
+    fs.renameSync(part, out);
     return { seconds: total, items: items.length };
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
