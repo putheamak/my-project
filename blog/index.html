@@ -48,6 +48,12 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
 .post-list p{margin:.3em 0 0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
+.chips a:hover{border-color:var(--accent);color:var(--accent)}
+.related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
+.related h2{font-size:1.2rem}
+.related ul{padding-left:20px}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 </style>
@@ -56,10 +62,11 @@ footer.site a{color:var(--muted)}
 <body>
 <header class="site"><div class="wrap">
 <a class="brand" href="/my-project/blog/">Smart Kitchen Picks</a>
-<nav><a href="/my-project/blog/">Home</a><a href="/my-project/blog/about/">About</a><a href="/my-project/blog/disclosure/">Disclosure</a></nav>
+<nav><a href="/my-project/blog/">Home</a><a href="/my-project/blog/topics/">Topics</a><a href="/my-project/blog/about/">About</a><a href="/my-project/blog/disclosure/">Disclosure</a></nav>
 </div></header>
 <main><div class="wrap">
 <h1>Simple, useful kitchen gadgets that save you time</h1>
+<ul class="chips"><li><a href="/my-project/blog/topics/weeknight-dinners/">Easy Weeknight Dinner Gadgets</a></li><li><a href="/my-project/blog/topics/meal-prep/">Meal Prep &amp; Leftovers</a></li><li><a href="/my-project/blog/topics/quick-breakfasts/">Quick Breakfasts</a></li><li><a href="/my-project/blog/topics/work-lunches/">Work Lunches</a></li><li><a href="/my-project/blog/topics/microwave-meals/">Microwave Meals &amp; No-Stove Cooking</a></li><li><a href="/my-project/blog/topics/cooking-for-one/">Cooking for One &amp; Small Kitchens</a></li><li><a href="/my-project/blog/topics/snacks-and-treats/">Movie Night Snacks &amp; Treats</a></li></ul>
 <ul class="post-list"><li><a class="title" href="/my-project/blog/posts/kitchen-gadgets-treats-with-kids/">Weekend Treat Station: Kitchen Gadgets Under $30 for Making Snacks and Desserts With Kids</a>
 <p class="meta">October 10, 2026</p><p>The best kitchen gadgets under $30 for making treats with kids — mini donuts, waffles, popcorn and hot chocolate, no oven skills required.</p></li>
 <li><a class="title" href="/my-project/blog/posts/movie-night-snack-gadgets/">Movie Night Snacks in Minutes: Popcorn, Waffles and Shakes Without the Oven</a>

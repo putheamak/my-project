@@ -49,6 +49,12 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
 .post-list p{margin:.3em 0 0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
+.chips a:hover{border-color:var(--accent);color:var(--accent)}
+.related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
+.related h2{font-size:1.2rem}
+.related ul{padding-left:20px}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 </style>
@@ -58,7 +64,7 @@ footer.site a{color:var(--muted)}
 <body>
 <header class="site"><div class="wrap">
 <a class="brand" href="/my-project/blog/">Smart Kitchen Picks</a>
-<nav><a href="/my-project/blog/">Home</a><a href="/my-project/blog/about/">About</a><a href="/my-project/blog/disclosure/">Disclosure</a></nav>
+<nav><a href="/my-project/blog/">Home</a><a href="/my-project/blog/topics/">Topics</a><a href="/my-project/blog/about/">About</a><a href="/my-project/blog/disclosure/">Disclosure</a></nav>
 </div></header>
 <main><div class="wrap">
 <article>
@@ -93,6 +99,10 @@ footer.site a{color:var(--muted)}
 <p>A mug works, but dedicated cookers are shaped to cook more evenly and are easier to lift out and rinse. If you're happy with a mug, save the money.</p>
 <hr>
 <p><strong>Your move:</strong> pick the one gadget that fixes your worst morning step, and check the current price on Amazon. Then tell me in the comments which breakfast you're trying to make faster — it shapes what I test next.</p>
+<section class="related">
+<h2>More in <a href="/my-project/blog/topics/quick-breakfasts/">Quick Breakfasts</a></h2>
+<ul><li><a href="/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/">Skip the Drive-Thru: Make Coffee-Shop Breakfasts at Home in Minutes</a></li></ul>
+</section>
 </article>
 </div></main>
 <footer class="site"><div class="wrap">
