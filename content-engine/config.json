@@ -4,6 +4,80 @@
   "language": "English",
   "niche": "Useful kitchen gadgets under $30",
   "targetKeywords": [],
+  "seasons": [
+    {
+      "from": "09-15",
+      "to": "10-28",
+      "occasion": "Halloween",
+      "ideas": "Halloween party snacks and treats, spooky desserts, a candy and snack setup for trick-or-treat night"
+    },
+    {
+      "from": "10-10",
+      "to": "11-22",
+      "occasion": "Thanksgiving (US)",
+      "ideas": "Thanksgiving prep and hosting, side dishes, leftovers, small-kitchen Thanksgiving, Friendsgiving"
+    },
+    {
+      "from": "10-25",
+      "to": "12-20",
+      "occasion": "Christmas and holiday baking",
+      "ideas": "holiday cookie baking, hosting family, hot drinks, edible gifts, holiday breakfast"
+    },
+    {
+      "from": "10-20",
+      "to": "12-15",
+      "occasion": "Holiday gift shopping",
+      "ideas": "kitchen gifts under $30 for a specific person (coffee lover, new cook, college student, host, someone who lives alone), stocking stuffers"
+    },
+    {
+      "from": "12-10",
+      "to": "01-25",
+      "occasion": "New Year",
+      "ideas": "New Year meal prep reset, budget cooking at home, packing lunch for work again"
+    },
+    {
+      "from": "01-05",
+      "to": "02-08",
+      "occasion": "Game day (Super Bowl)",
+      "ideas": "game day snacks, dips and wings for a crowd, easy party food"
+    },
+    {
+      "from": "01-15",
+      "to": "02-13",
+      "occasion": "Valentine's Day",
+      "ideas": "Valentine's breakfast or dessert at home, date night in, baking for someone"
+    },
+    {
+      "from": "02-25",
+      "to": "04-10",
+      "occasion": "Easter and spring brunch",
+      "ideas": "spring brunch, egg dishes, Easter baking"
+    },
+    {
+      "from": "03-25",
+      "to": "05-08",
+      "occasion": "Mother's Day",
+      "ideas": "Mother's Day breakfast in bed, kitchen gifts for mom"
+    },
+    {
+      "from": "05-01",
+      "to": "06-18",
+      "occasion": "Father's Day and grilling season",
+      "ideas": "grilling tools, kitchen gifts for dad, cookout prep"
+    },
+    {
+      "from": "05-15",
+      "to": "08-15",
+      "occasion": "Summer",
+      "ideas": "no-oven summer meals, iced coffee and cold drinks, picnics, frozen treats"
+    },
+    {
+      "from": "07-15",
+      "to": "09-10",
+      "occasion": "Back to school",
+      "ideas": "school lunches, dorm cooking, quick breakfasts for school mornings"
+    }
+  ],
   "audience": "Busy people who cook at home and want to save time",
   "affiliateProgram": "Amazon Associates",
   "affiliateLinksReady": true,

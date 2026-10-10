@@ -25,7 +25,7 @@ The article is also saved as a **blog draft** in `posts/`. It goes live on your 
    - `model`: `claude-opus-5` by default. `claude-sonnet-5` is cheaper, and `claude-haiku-4-5` is the cheapest.
 4. **Merge this into your default branch.** GitHub only runs scheduled workflows from the default branch.
 
-The workflow in `.github/workflows/daily-content.yml` runs every day at 06:17 Cambodia time (23:17 UTC). To run it immediately, open the Actions tab → "Daily content pack" → Run workflow.
+The workflow in `.github/workflows/daily-content.yml` runs three times a week, on Monday, Wednesday and Friday at 06:17 Cambodia time (23:17 UTC the day before). Topics lean toward the occasions people are planning for at that time of year (Halloween, Thanksgiving, holiday baking and gifts, and so on), which you can edit under `seasons` in `config.json`. To run it immediately, open the Actions tab → "Daily content pack" → Run workflow.
 
 ## Amazon compliance
 
@@ -111,7 +111,13 @@ Every time the blog is published, `make-pins.mjs` turns each published post's co
 2. In Pinterest, create a pin with that image and paste the title, description and link shown under it.
 3. Pin one design now and the other two a week or two apart. Pinterest treats a new image as a new pin, so each post can be pinned several times.
 
+At the top of the page is a **Pin plan**: extra pins for posts you've already pinned, grouped by day, each with a fresh title and description, the design image to use and the board to pick. Today's group opens first. The plan comes from `pin-queue.json`; the Amazon disclosure is added to each description automatically.
+
 The page isn't linked from the blog and tells search engines not to list it. To make the images on your own computer, run `node make-pins.mjs` (needs the free ImageMagick); they're saved in `dist-blog/pins/`.
+
+### Topic pages
+
+`topics.json` groups posts into topic pages such as "Quick Breakfasts" and "Work Lunches" (one per Pinterest board), at `blog/topics/<name>/`. A published post appears on a topic page when its slug is listed under the topic's `posts`, or when its pin board matches the topic's `board`. Topics without published posts are hidden. The home page links to every topic, and each post ends with links to other posts on the same topic.
 
 ### Auto-posting pins with the Pinterest API
 
@@ -130,7 +136,7 @@ The page isn't linked from the blog and tells search engines not to list it. To 
 
 - It only pins posts that are `status: "published"` and have a saved `pinTitle`/`pinDescription` (packs generated from here on save these to the post automatically; older posts don't have them - add them to the post's front matter by hand if you want to pin one).
 - It re-runs the same compliance check used everywhere else on the pin's title, description and article body, and skips (never pins) anything with a **FIX**-level issue or an unfilled `[LINK: ...]` placeholder. Fix the pack or post and it's picked up on the next run.
-- It pins **one post per run** by default, oldest first, so a backlog goes out gradually instead of all at once (which can look like spam). Change `pinterest.maxPerRun` in `site.json` to pin more per run. The Publish blog workflow runs at least once a day, after the daily pack.
+- It pins **one post per run** by default, oldest first, so a backlog goes out gradually instead of all at once (which can look like spam). Change `pinterest.maxPerRun` in `site.json` to pin more per run. The Publish blog workflow also runs after each daily pack.
 - Every pin description ends with the Amazon disclosure. If the text is longer than Pinterest's 500-character limit, the part before the disclosure is trimmed so the disclosure is never cut off.
 - Each post is pinned at most once - `output/pinterest-history.json` tracks which slugs have already gone out, and the workflow commits it back after each run.
 - `node post-pinterest.mjs --dry-run` prints what it would post without calling the API, so you can check it locally first.

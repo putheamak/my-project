@@ -5,7 +5,7 @@ Read this first. Last updated 10 Oct 2026.
 ## The project
 - **Blog:** https://putheamak.github.io/my-project/blog/. The affiliate niche is kitchen gadgets under $30, and Amazon Associates is the affiliate program.
 - **Owner:** a beginner, so explain each step simply. Give clickable steps for GitHub, Pinterest and Amazon.
-- **Engine:** the "Daily content pack" workflow runs at 06:17 Cambodia time (23:17 UTC). It writes `output/YYYY-MM-DD.md` (the posting pack) and `posts/YYYY-MM-DD-<slug>.md` (a blog draft, `status: "draft"`).
+- **Engine:** the "Daily content pack" workflow runs **3 times a week, Mon/Wed/Fri at 06:17 Cambodia time** (23:17 UTC Sun/Tue/Thu; changed 10 Oct, owner's choice). It steers topics toward upcoming occasions from `config.json` → `seasons` (Halloween, Thanksgiving, holiday baking, gifts …) and picks boards from `topics.json`. It writes `output/YYYY-MM-DD.md` (the posting pack) and `posts/YYYY-MM-DD-<slug>.md` (a blog draft, `status: "draft"`).
 - **Publishing:** merging to `main` triggers the "Publish blog" workflow. It builds the site, shrinks photos, makes pin images and deploys to GitHub Pages.
 
 ## Current status
@@ -22,7 +22,8 @@ Read this first. Last updated 10 Oct 2026.
 2. Fix problems, link 2–3 related posts with full URLs (`https://putheamak.github.io/my-project/blog/posts/<slug>/`), and soften claims the owner can't back up.
 3. Optionally give 5–10 Amazon search keywords as **plain text only**. The owner asked (8 Oct): no amazon.com links or search URLs, and don't visit Amazon yourself. They search and pick products on their own. The owner sends products as `Oct X - product name - amzn.to link`, one per message. **Wait for "go"** before editing.
 4. On "go": add the products to the post (text plus comparison table) and to `config.json` (note "Haven't used it yet. Picked it for …"). Then check, commit, push and open a PR.
-5. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
+5. Also add 2 fresh extra pins for the new post to `pin-queue.json` (dated about 5 and 10 days later, design 2 and 3, topic board), and if the post's `pinBoard` doesn't match a topic in `topics.json`, add its slug to the right topic.
+6. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
 
 ## Rules (Amazon compliance and honesty)
 - The disclosure "As an Amazon Associate I earn from qualifying purchases." goes before the first link and in every pin description.
@@ -33,10 +34,14 @@ Read this first. Last updated 10 Oct 2026.
 - Remind the owner to check that a product is under $30 when it might not be (brands like Stasher, S'well, Bodum, Magic Bullet).
 - Never use Amazon product images. Cover photos are the owner's own, or from Unsplash or Pexels.
 
+## Topic pages (added 10 Oct)
+- `topics.json` lists the blog's topic pages (`/blog/topics/<slug>/`), one per Pinterest board. A published post joins a topic if its slug is listed or its `pinBoard` equals the topic's `board`. Empty topics (Halloween, Thanksgiving, holiday baking, gifts until Nov 3) stay hidden until a post joins.
+- Each post page ends with "More in <topic>" links, the home page shows topic chips, and topic pages are in the sitemap.
+
 ## Technical gotchas
 - **Run `node compliance.mjs` on a copy in the scratchpad, never on `posts/*.md`.** It prepends a report above the front matter and breaks the post.
 - `build-blog.mjs` skips published posts with a FIX issue. Test publishing locally by temporarily setting the status to published, then restore the file.
-- The Publish blog workflow runs only for changes under `posts/`, `images/`, `site.json`, `config.json`, `build-blog.mjs`, `compliance.mjs`, `lib/`, `make-pins.mjs`, and `.github/workflows/blog.yml`, or after the daily pack. It can also be run by hand from the Actions tab.
+- The Publish blog workflow runs only for changes under `posts/`, `images/`, `site.json`, `config.json`, `topics.json`, `pin-queue.json`, `build-blog.mjs`, `compliance.mjs`, `lib/`, `make-pins.mjs`, and `.github/workflows/blog.yml`, or after the daily pack. It can also be run by hand from the Actions tab.
 - The daily-content and blog workflows push straight to `main`. **Never suggest a "require pull request" rule** for `main`. A ruleset with only "Restrict deletions" and "Block force pushes" is fine.
 - `resolveImage` tolerates `photo.jpg.jpg` uploads.
 - Branches: do the work on a Claude branch and open a PR. The owner merges. Branch from the latest `origin/main` each time, because the owner often commits on `main` directly (photos, publish status). The old branch `claude/sleepy-edison-duvvrm` has one unmerged commit of the owner's; don't force-push it.
@@ -60,7 +65,7 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 
 ## Upcoming
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
-- **Pinning plan:** 2–3 pins a day, rotating posts and designs. Done by Oct 10: Oct 5 (design 2), Oct 3 (design 3), Oct 8, Oct 9 and Oct 10 (design 1), and Oct 4, Oct 1, Oct 2 and Sep 29 (design 2). Next: Sep 27 and Sep 30 (design 2) on Oct 11, Sep 26 and Sep 28 (design 2) on Oct 12, then Oct 8, Oct 9 and Oct 10 design 2 around Oct 15–17. The Oct 9 cover photo is AI-generated, so its pins need "Mark as AI-Modified" on. For extra design pins, write a fresh title and description (≤ 500 characters, disclosure at the end) rather than reusing the post's text.
+- **Pinning plan:** extra pins now come from `pin-queue.json`, shown as a dated "Pin plan" at the top of the pins page (today's group opens first; 3 a day, Oct 11–20 queued on 10 Oct). Each entry has a fresh title and description, the design number and the board; the disclosure is added automatically. Extend the queue before it runs out. Already used before the queue: design 2 of Sep 29, Oct 1, Oct 2, Oct 3, Oct 4, Oct 5 and design 3 of Oct 3. Pins for Oct 9 need "Mark as AI-Modified" (the page says so). Extra pins don't go in `pinterest-history.json`.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
 - **Ideas offered but not done yet:**
   - (B) extra pin titles and descriptions per post for re-pinning

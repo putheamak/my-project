@@ -1,0 +1,108 @@
+{
+  "_comment": "Topic pages on the blog (topics/<slug>/). A published post joins a topic if its slug is listed in posts, or if its pinBoard matches the topic's board. Topics with no published posts are hidden.",
+  "topics": [
+    {
+      "slug": "weeknight-dinners",
+      "title": "Easy Weeknight Dinner Gadgets",
+      "board": "Easy Weeknight Dinner Ideas",
+      "intro": "Kitchen gadgets that take the slow parts out of weeknight cooking: faster prep, no guessing when food is done, and appliances that cook while you do something else.",
+      "posts": [
+        "best-kitchen-gadgets-fast-weeknight-dinners",
+        "kitchen-gadgets-under-30-cooking-without-guesswork",
+        "hands-off-kitchen-gadgets-under-30"
+      ]
+    },
+    {
+      "slug": "meal-prep",
+      "title": "Meal Prep & Leftovers",
+      "board": "Meal Prep & Leftover Ideas",
+      "intro": "Tools for chopping, portioning, freezing and storing food for the week, and for making leftovers easy to reheat instead of throwing them away.",
+      "posts": [
+        "kitchen-gadgets-under-30-meal-prep",
+        "kitchen-gadgets-under-30-chopping-prep",
+        "kitchen-gadgets-under-30-leftovers"
+      ]
+    },
+    {
+      "slug": "quick-breakfasts",
+      "title": "Quick Breakfasts",
+      "board": "Quick Breakfast Ideas",
+      "intro": "Gadgets for breakfast on busy mornings: make-ahead oats and egg bites, microwave eggs, breakfast sandwiches and coffee-shop drinks at home.",
+      "posts": [
+        "kitchen-gadgets-under-30-quick-breakfasts",
+        "coffee-shop-breakfast-at-home-gadgets"
+      ]
+    },
+    {
+      "slug": "work-lunches",
+      "title": "Work Lunches",
+      "board": "Work Lunch Ideas",
+      "intro": "Lunch containers, insulated bags and food jars for packing lunch the night before, plus microwave gadgets for a hot lunch at the office.",
+      "posts": [
+        "microwave-gadgets-office-lunch",
+        "best-lunch-containers-work-lunches"
+      ]
+    },
+    {
+      "slug": "microwave-meals",
+      "title": "Microwave Meals & No-Stove Cooking",
+      "board": "Microwave Meals & No-Stove Cooking",
+      "intro": "Microwave gadgets that cook real food without a stove: eggs, grilled cheese, bacon, ramen and more. Useful for dorms, offices and tiny kitchens.",
+      "posts": [
+        "cook-without-a-stove-microwave-gadgets",
+        "microwave-gadgets-office-lunch",
+        "hands-off-kitchen-gadgets-under-30"
+      ]
+    },
+    {
+      "slug": "cooking-for-one",
+      "title": "Cooking for One & Small Kitchens",
+      "board": "Cooking for One & Small Kitchens",
+      "intro": "Mini appliances and space-saving gadgets for people who cook for one, live in apartments or work with very little counter space.",
+      "posts": [
+        "kitchen-gadgets-small-kitchens-under-30",
+        "kitchen-gadgets-for-cooking-for-one"
+      ]
+    },
+    {
+      "slug": "snacks-and-treats",
+      "title": "Movie Night Snacks & Treats",
+      "board": "Movie Night Snack Ideas",
+      "intro": "Popcorn poppers, mini donut and waffle makers, hot chocolate gadgets and other snack makers for movie nights and weekend treats at home.",
+      "posts": [
+        "movie-night-snack-gadgets",
+        "kitchen-gadgets-treats-with-kids"
+      ]
+    },
+    {
+      "slug": "halloween",
+      "title": "Halloween Party Food",
+      "board": "Halloween Party Food Ideas",
+      "intro": "Kitchen gadgets for Halloween party snacks and treats at home.",
+      "posts": []
+    },
+    {
+      "slug": "thanksgiving",
+      "title": "Thanksgiving Prep & Hosting",
+      "board": "Thanksgiving Prep & Hosting",
+      "intro": "Kitchen gadgets for Thanksgiving prep, hosting and leftovers.",
+      "posts": []
+    },
+    {
+      "slug": "holiday-baking",
+      "title": "Christmas Baking & Holiday Hosting",
+      "board": "Christmas Baking & Holiday Hosting",
+      "intro": "Kitchen gadgets for holiday cookies, baking and hosting family and friends.",
+      "posts": []
+    },
+    {
+      "slug": "gift-ideas",
+      "title": "Kitchen Gift Ideas Under $30",
+      "board": "Kitchen Gift Ideas Under $30",
+      "intro": "Kitchen gifts under $30 for people who cook, grouped by who you're shopping for.",
+      "posts": [
+        "kitchen-gifts-under-30"
+      ]
+    }
+  ]
+}

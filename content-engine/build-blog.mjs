@@ -10,6 +10,7 @@ import { markdownToHtml, escapeHtml, stripMarkdown } from "./lib/markdown.mjs";
 import { parsePost } from "./lib/post.mjs";
 import { checkCompliance } from "./compliance.mjs";
 import { resolveImage } from "./lib/images.mjs";
+import { loadTopics, topicsWithPosts } from "./lib/topics.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
@@ -51,6 +52,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort() : [
   posts.push(post);
 }
 posts.sort((a, b) => b.date.localeCompare(a.date));
+const topics = topicsWithPosts(loadTopics(here), posts);
 
 // ---- Templates --------------------------------------------------------------
 
@@ -86,6 +88,12 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
 .post-list p{margin:.3em 0 0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
+.chips a:hover{border-color:var(--accent);color:var(--accent)}
+.related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
+.related h2{font-size:1.2rem}
+.related ul{padding-left:20px}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 `;
@@ -127,7 +135,7 @@ ${ld}
 <body>
 <header class="site"><div class="wrap">
 <a class="brand" href="${href()}">${esc(site.title)}</a>
-<nav><a href="${href()}">Home</a><a href="${href("about/")}">About</a><a href="${href("disclosure/")}">Disclosure</a></nav>
+<nav><a href="${href()}">Home</a>${topics.length ? `<a href="${href("topics/")}">Topics</a>` : ""}<a href="${href("about/")}">About</a><a href="${href("disclosure/")}">Disclosure</a></nav>
 </div></header>
 <main><div class="wrap">
 ${body}
@@ -159,6 +167,24 @@ function faqFromBody(body) {
 
 const dateLabel = (d) =>
   new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+
+const topicHref = (t) => href(`topics/${t.slug}/`);
+const postItems = (list) =>
+  `<ul class="post-list">${list.map((p) => `<li><a class="title" href="${href(`posts/${p.slug}/`)}">${esc(p.title)}</a>
+<p class="meta">${dateLabel(p.date)}</p>${p.description ? `<p>${esc(p.description)}</p>` : ""}</li>`).join("\n")}</ul>`;
+const topicChips = (list) =>
+  `<ul class="chips">${list.map((t) => `<li><a href="${topicHref(t)}">${esc(t.title)}</a></li>`).join("")}</ul>`;
+
+// "More in <topic>" under each post: up to 4 other posts from the post's topics.
+function related(post) {
+  const mine = topics.filter((t) => t.posts.includes(post));
+  if (!mine.length) return "";
+  const others = [...new Set(mine.flatMap((t) => t.posts))].filter((p) => p !== post).slice(0, 4);
+  return `<section class="related">
+<h2>More in ${mine.map((t) => `<a href="${topicHref(t)}">${esc(t.title)}</a>`).join(" · ")}</h2>
+${others.length ? `<ul>${others.map((p) => `<li><a href="${href(`posts/${p.slug}/`)}">${esc(p.title)}</a></li>`).join("")}</ul>` : ""}
+</section>`;
+}
 
 // ---- Write the site ---------------------------------------------------------
 
@@ -220,6 +246,7 @@ for (const post of posts) {
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
 ${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => resolveImage(imagesDir, src, post.slug) })}
+${related(post)}
 </article>`,
     }),
   );
@@ -233,12 +260,52 @@ write(
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, url: url() }],
     body: `<h1>${esc(site.tagline)}</h1>
-${posts.length
-  ? `<ul class="post-list">${posts.map((p) => `<li><a class="title" href="${href(`posts/${p.slug}/`)}">${esc(p.title)}</a>
-<p class="meta">${dateLabel(p.date)}</p>${p.description ? `<p>${esc(p.description)}</p>` : ""}</li>`).join("\n")}</ul>`
-  : "<p>New posts are coming soon.</p>"}`,
+${topics.length ? topicChips(topics) : ""}
+${posts.length ? postItems(posts) : "<p>New posts are coming soon.</p>"}`,
   }),
 );
+
+// Topic pages: one per theme, plus an index of all topics.
+for (const t of topics) {
+  const canonical = url(`topics/${t.slug}/`);
+  write(
+    `topics/${t.slug}/index.html`,
+    page({
+      title: `${t.title} - ${site.title}`,
+      description: t.intro,
+      canonical,
+      jsonLd: [{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: t.title,
+        description: t.intro,
+        url: canonical,
+        mainEntity: {
+          "@type": "ItemList",
+          itemListElement: t.posts.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: url(`posts/${p.slug}/`), name: p.title })),
+        },
+      }],
+      body: `<h1>${esc(t.title)}</h1>
+<p>${esc(t.intro)}</p>
+${postItems(t.posts)}
+<p class="meta">More topics:</p>
+${topicChips(topics.filter((o) => o !== t))}`,
+    }),
+  );
+}
+if (topics.length) {
+  write(
+    "topics/index.html",
+    page({
+      title: `Topics - ${site.title}`,
+      description: `Browse ${site.title} posts by topic.`,
+      canonical: url("topics/"),
+      body: `<h1>Topics</h1>
+<ul class="post-list">${topics.map((t) => `<li><a class="title" href="${topicHref(t)}">${esc(t.title)}</a>
+<p>${esc(t.intro)}</p><p class="meta">${t.posts.length} post${t.posts.length === 1 ? "" : "s"}</p></li>`).join("\n")}</ul>`,
+    }),
+  );
+}
 
 const simple = (slug, title, description, html) =>
   write(`${slug}/index.html`, page({ title: `${title} - ${site.title}`, description, canonical: url(`${slug}/`), body: `<h1>${esc(title)}</h1>\n${html}` }));
@@ -265,6 +332,7 @@ write(
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${[
   ...staticPages.map((p) => `<url><loc>${esc(url(p))}</loc></url>`),
+  ...(topics.length ? ["topics/", ...topics.map((t) => `topics/${t.slug}/`)] : []).map((p) => `<url><loc>${esc(url(p))}</loc></url>`),
   ...posts.map((p) => `<url><loc>${esc(url(`posts/${p.slug}/`))}</loc><lastmod>${esc(p.date)}</lastmod></url>`),
 ].join("\n")}
 </urlset>
