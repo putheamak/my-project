@@ -45,6 +45,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_book30s.mp4` | 61 s Day 2 Reel (with original music + SFX) "កក់ក្នុង ៣០ វិនាទី" (sellers): hook stopwatch → old chat way → Telegram bot booking demo with live timer (2 parcels, done 0:21) → benefits → 2,000៛ offer → CTA → @KhmerParcelBot QR. Cover image `khmer_parcel_ad_book30s_cover.jpg`. Source `tvc-source/scenes_ad_book30s.html` + `specs/ad_book30s.json` |
 | `khmer_parcel_ad_pov_seller.mp4` / `khmer_parcel_ad_pov_doortodoor.mp4` | Day 4 "POV" series with parcel mascot (box for sellers, red gift for door to door), separate cuts per audience, original music (`make_sound_pov.py` + `soundlib.py`). Source `tvc-source/scenes_ad_parcel_pov.html`, specs `ad_pov_seller.json` / `ad_pov_doortodoor.json`. Website QR `tvc-source/qr_khmerparcel_web.png` |
 | `khmer_parcel_story_far_delivery.mp4` | 61 s true-story brand video (both audiences): owner's own delivery Chbar Ampov → Choam Chao, 2 parcels, $2, ~3 h, rider refused → lesson (riders: deliver happily; sellers: fair fee values both sides) → both QRs. Uses owner's real photos (`tvc-source/photos_far/`, customer info, other brand's bag and car plate blurred). Caption in `story_far_delivery_caption.md`. Source `scenes_story_far.html`, spec `story_far_delivery.json`, sound `make_sound_story_far.py` |
+| `khmer_parcel_ad_route_quote_1.mp4` | 21 s, series "ពីណា ទៅណា? ថ្លៃប៉ុន្មាន?" video 1 (door to door): ask viewers to comment 2 places, answer with screen-recorded real website prices. Plan + caption in `route_quote_series.md`. Source `scenes_ad_route_quote.html`, spec `ad_route_quote_1.json` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
@@ -74,6 +75,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
 
 ## Results & decisions (Oct 2026)
+- 11 Oct: website bookings still very low (57 clicks → 0 bookings earlier) → shift videos to comment/lead-driven series; owner to test the website booking flow on a phone and send a screen recording
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
 - Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44
 - Drop-off at 0:17 of the 6,000៛ ad (switch to seller scene) → made 29 s door-to-door-only cut

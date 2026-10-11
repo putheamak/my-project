@@ -1,0 +1,12 @@
+{
+  "html": "scenes_ad_route_quote.html",
+  "out": "../khmer_parcel_ad_route_quote_1.mp4",
+  "xfade": 0.35,
+  "audio": "ad_route_quote_1_music.m4a",
+  "segments": [
+    {"scene": "hook", "dur": 3.8, "next": "slideup"},
+    {"scene": "example", "dur": 6.4, "next": "circleopen"},
+    {"scene": "comment", "dur": 6.4, "next": "slideleft"},
+    {"scene": "end", "dur": 5.6}
+  ]
+}
