@@ -117,7 +117,7 @@ The page isn't linked from the blog and tells search engines not to list it. To 
 
 ### Short videos
 
-Every time the blog is published, `make-videos.mjs` makes a **20-second vertical video** (1080×1920) for each published post: the cover photo with a slow zoom, a hook with the pin title, up to 5 gadgets from the post's comparison table, and an end card ("Full list on my blog, link in bio" plus the Amazon disclosure). Each video appears on the pins page under its post, with a download button and a caption to paste.
+Every time the blog is published, `make-videos.mjs` makes a **20-second vertical video** (1080×1920) for each published post: the cover photo with a slow zoom, a hook with the pin title, up to 5 gadgets from the post's comparison table, and an end card ("Full list on my blog, link in bio" plus the Amazon disclosure). Each video appears on the pins page under its post, with a download button, a caption to paste on TikTok and YouTube Shorts, and the title, description, link and board for a Pinterest video pin.
 
 1. On the pins page, tap **Download video**.
 2. Upload it to TikTok, YouTube Shorts or Pinterest (as a video pin), paste the caption, and add a sound from the app's music library (the video is silent).

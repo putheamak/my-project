@@ -22,6 +22,7 @@ import { checkCompliance } from "./compliance.mjs";
 import { resolveImage } from "./lib/images.mjs";
 import { escapeHtml as esc } from "./lib/markdown.mjs";
 import { fitPinDescription } from "./lib/pin-text.mjs";
+import { loadTopics } from "./lib/topics.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
@@ -172,15 +173,31 @@ ${days.get(d).map(planItem).join("\n")}
 // Short videos from make-videos.mjs (pins/videos.json), shown on each post's card.
 const videosPath = path.join(outDir, "videos.json");
 const videos = fs.existsSync(videosPath) ? JSON.parse(fs.readFileSync(videosPath, "utf8")) : {};
-const videoBlock = (post) => {
+// Pinterest video pin text: different from the post's image pin (Pinterest
+// prefers fresh text), on the post's topic board, linking to the post.
+const topics = loadTopics(here);
+const boardFor = (post) =>
+  topics.find((t) => (t.posts ?? []).includes(post.slug))?.board || post.pinBoard || "";
+const videoPinTitle = (post) => (post.title.length <= 100 ? post.title : post.seoTitle || post.pinTitle || post.title).slice(0, 100);
+const videoPinDescription = (post) =>
+  fitPinDescription(`${post.description || ""} Watch the short video, then see the full list and comparison table on the blog.`, disclosure);
+
+const videoBlock = (post, link) => {
   const v = videos[post.slug];
   if (!v) return "";
   const file = `${post.slug}.mp4`;
+  const board = boardFor(post);
   return `<div class="video"><h3>Short video${v.seconds ? ` (${v.seconds} s)` : ""}</h3>
 <video src="${esc(file)}" controls playsinline preload="none" width="180" height="320"></video>
 <p><a class="dl" href="${esc(file)}" download>Download video</a></p>
-<p class="hint">For TikTok, YouTube Shorts and Pinterest. The video is silent: add a sound in the app.</p>
+<p class="hint">The video is silent: add a sound in the app.</p>
+<h4>TikTok and YouTube Shorts</h4>
 ${field("Video caption", v.caption, 6)}
+<h4>Pinterest video pin</h4>
+${field("Video pin title", videoPinTitle(post), 2)}
+${field("Video pin description", videoPinDescription(post), 5)}
+${field("Video pin link", link, 2)}
+${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
 </div>`;
 };
 
@@ -193,7 +210,7 @@ ${field("Description", pinDescription, 5)}
 ${field("Link", link, 2)}
 ${post.pinBoard ? `<p class="hint">Suggested board: ${esc(post.pinBoard)}</p>` : ""}
 ${/ai-generated/i.test(post.image) ? aiHint : ""}
-${videoBlock(post)}
+${videoBlock(post, link)}
 </section>`;
 
 if (cards.length) {
@@ -212,7 +229,7 @@ h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:0}.pins{display:flex;gap:8px;
 .copy{font:inherit;font-size:.9rem;padding:6px 14px;border:0;border-radius:999px;background:#b4531f;color:#fff;cursor:pointer}.copy.done{background:#2f7d4f}
 textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-weight:400;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text)}
 .hint{color:var(--muted);font-size:.9rem}
-.video{border-top:1px solid var(--line);margin-top:16px;padding-top:4px}.video h3{font-size:1rem}
+.video{border-top:1px solid var(--line);margin-top:16px;padding-top:4px}.video h3{font-size:1rem}.video h4{font-size:.95rem;margin:16px 0 0}
 .video video{width:180px;height:320px;border-radius:8px;background:#000;display:block}
 .dl{display:inline-block;padding:6px 14px;border-radius:999px;background:#b4531f;color:#fff;text-decoration:none;font-size:.9rem}
 .day{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}

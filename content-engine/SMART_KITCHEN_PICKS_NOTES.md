@@ -39,7 +39,7 @@ Read this first. Last updated 10 Oct 2026.
 - Each post page ends with "More in <topic>" links, the home page shows topic chips, and topic pages are in the sitemap.
 
 ## Short videos (added 10 Oct, option A)
-- `make-videos.mjs` (run by the Publish blog workflow) makes a silent 20 s 1080×1920 video per published post: cover photo + slow zoom, hook (pin title), up to 5 rows from the comparison table, end card with "link in bio" and the disclosure. They're on the pins page with a download button and caption. The owner uploads them by hand and adds a sound in the app.
+- `make-videos.mjs` (run by the Publish blog workflow) makes a silent 20 s 1080×1920 video per published post: cover photo + slow zoom, hook (pin title), up to 5 rows from the comparison table, end card with "link in bio" and the disclosure. They're on the pins page with a download button, a TikTok/Shorts caption, and Pinterest video pin text (post title, meta description + disclosure, post link, topic board). The owner uploads them by hand and adds a sound in the app.
 - Only new or changed posts are rendered (about 1 min each); `pins/videos.json` on the live site holds a key per post, and gh-pages `keep_files` keeps older mp4s. Bump `VERSION` in `make-videos.mjs` to remake all after a design change.
 - Option B (Pexels stock clips per gadget, needs a free Pexels API key secret) is wanted **later**; the owner said "B will be later".
 
