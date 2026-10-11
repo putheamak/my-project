@@ -30,7 +30,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
-const VERSION = 1; // bump to remake all videos after changing the design
+const VERSION = 2; // bump to remake all videos after changing the design
 const postsDir = path.join(here, "posts");
 const imagesDir = path.join(here, "images");
 const arg = (name) => (process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : "");
@@ -154,7 +154,10 @@ function render(post, src, out) {
       const start = times[i];
       const len = i === layers.length - 1 ? total - start : times[i + 1] - start;
       inputs.push("-loop", "1", "-framerate", String(FPS), "-t", String(len), "-i", file);
-      filters.push(`[${i + 1}:v]format=rgba,fade=in:st=0:d=0.35:alpha=1,setpts=PTS+${start}/TB[o${i}]`);
+      // The hook shows from the first frame (no fade), so the default cover and
+      // the first thing viewers see is the title; later scenes fade in.
+      const fade = i === 0 ? "" : ",fade=in:st=0:d=0.35:alpha=1";
+      filters.push(`[${i + 1}:v]format=rgba${fade},setpts=PTS+${start}/TB[o${i}]`);
       filters.push(`[v${i}][o${i}]overlay=0:0:eof_action=pass:enable='between(t,${start},${(start + len).toFixed(2)})'[v${i + 1}]`);
     });
     const run = spawnSync("ffmpeg", [
