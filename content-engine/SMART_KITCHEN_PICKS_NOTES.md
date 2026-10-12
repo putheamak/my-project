@@ -9,7 +9,7 @@ Read this first. Last updated 12 Oct 2026.
 - **Publishing:** merging to `main` triggers the "Publish blog" workflow. It builds the site, shrinks photos, makes pin images and deploys to GitHub Pages.
 
 ## Current status
-- **17 posts:** 16 live (Sep 26 to Oct 12), including the **Oct 12 post (`2026-10-12-small-kitchen-thanksgiving-gadgets.md`, first seasonal post) published 12 Oct with 10 extra Thanksgiving tools (PRs #53, #55, #56); pinned 12 Oct (design 1 + a video pin, board "Thanksgiving Prep & Hosting"); its TikTok/Shorts video is not posted yet**, and the draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
+- **17 posts:** 16 live (Sep 26 to Oct 12), including the **Oct 12 post (`2026-10-12-small-kitchen-thanksgiving-gadgets.md`, first seasonal post) published 12 Oct with 10 extra Thanksgiving tools (PRs #53, #55, #56); pinned 12 Oct (design 1 + a video pin, board "Thanksgiving Prep & Hosting"); its video is on TikTok and YouTube Shorts too (12 Oct)**, and the draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
 - **48 products** in `config.json`. Every note says "Haven't used it yet".
 - **Pinterest:** all 16 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
 - **Pin images page:** https://putheamak.github.io/my-project/blog/pins/. `make-pins.mjs` makes 3 designs per post (1000×1500), and the page has Copy buttons for the title, description and link. The page is noindex.
@@ -89,7 +89,7 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
 - **Pinning plan:** extra pins now come from `pin-queue.json`, shown as a dated "Pin plan" at the top of the pins page (today's group opens first; 3 a day, Oct 11–20 queued on 10 Oct). Each entry has a fresh title and description, the design number and the board; the disclosure is added automatically. Extend the queue before it runs out. Already used before the queue: design 2 of Sep 29, Oct 1, Oct 2, Oct 3, Oct 4, Oct 5 and design 3 of Oct 3. Pins for Oct 9 need "Mark as AI-Modified" (the page says so). Extra pins don't go in `pinterest-history.json`.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
-- **Next in chat:** check that the Oct 12 Thanksgiving video went up on TikTok and YouTube Shorts, then the Oct 8 video. Oct 12 extra pins are queued for Oct 17 and Oct 22. Next draft is Oct 14 (Wed). `pin-queue.json` runs to **Nov 2** (extended 12 Oct, 3 a day, with Halloween and Thanksgiving-leftover angles); extend it again around Oct 30.
+- **Next in chat:** Oct 8 video next (TikTok, Shorts, Pinterest video pin), then Oct 7, working back. Oct 12 extra pins are queued for Oct 17 and Oct 22. Next draft is Oct 14 (Wed). `pin-queue.json` runs to **Nov 2** (extended 12 Oct, 3 a day, with Halloween and Thanksgiving-leftover angles); extend it again around Oct 30.
 - **Ideas offered but not done yet:**
   - suggested **tagged topics** on the pins page under every pin and video (offered 11 Oct, no answer yet)
   - video option **B** (Pexels stock clips; the owner said "B will be later")
