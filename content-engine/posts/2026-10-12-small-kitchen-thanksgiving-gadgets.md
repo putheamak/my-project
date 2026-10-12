@@ -8,8 +8,8 @@ pinTitle: "Small-Kitchen Thanksgiving: Gadgets Under $30 That Free Up Your Oven"
 pinDescription: "Hosting Thanksgiving in a tiny kitchen? These gadgets under $30 move side dishes off your oven rack: a 1.5 qt slow cooker for mashed potatoes or cranberry sauce, a rice cooker that steams veg above the grain, lidded ramekins that turn into leftover storage, and a cooler bag for Friendsgiving potluck runs. Comparison table and FAQs on the blog. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-12"
-image: ""
-status: "draft"
+image: "images/picturexphotobnb-kitchen.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
