@@ -38,7 +38,7 @@ These are the tools that live in a drawer the rest of the year, which is exactly
 
 ### How do you get more out of one oven?
 
-Use every sheet pan you have. The [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for roasted vegetables, rolls and cookies, and the listing says they're dishwasher safe, so there's less scrubbing at the end of the night. The [2-piece 10 x 15 in cooling racks](https://amzn.to/3Tzr4v3) are sold for cooking and baking; use them to cool pies and rolls, and they stack once the pies are off.
+Use every sheet pan you have. The [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for roasted vegetables, rolls and cookies, and the listing says they're dishwasher safe, so there's less scrubbing at the end of the night. The [2-piece 10 x 15 in cooling racks](https://amzn.to/3Tzr4v3) fit a 10 x 15 in jelly roll pan, and the listing says they're oven safe. Set one in a sheet pan to roast vegetables or a turkey breast up off the pan, then use both to cool pies and rolls.
 
 ### What's the easiest way to portion sides for a crowded table?
 
@@ -75,7 +75,7 @@ When dinner's done, the kitchen is a disaster and people want coffee. Keep that 
 | Turkey baster | Bastes and injects marinade | The turkey | Nothing |
 | Clip-on strainer + potato ricer | Drains and mashes potatoes | Smooth mashed potatoes | Drawer space |
 | Gravy separator + immersion blender | Separates fat, blends smooth | Gravy, cranberry sauce, soup | Outlet for the blender |
-| Silicone baking mats + cooling racks | Lines pans, cools pies | Rolls, roasted veg, pies | Sheet pans |
+| Silicone baking mats + cooling racks | Lines pans, roasts on a rack, cools pies | Rolls, roasted veg, pies | Sheet pans |
 | Ramekins with lids | Individual portions, then storage | Plated sides, mini desserts | Oven or fridge |
 | Microwave grill pan with lid | Bacon and burgers off the stove | Friendsgiving, bacon-topped sides | Microwave |
 | 2-compartment containers | Leftover plates | Fri–Sun lunches | Fridge space |
