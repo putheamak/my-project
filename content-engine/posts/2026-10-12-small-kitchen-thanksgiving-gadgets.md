@@ -27,11 +27,24 @@ The oven belongs to the turkey (or the roast, or the big pan of stuffing). Every
 - **Just two of you?** The [Dash Mini Rice Cooker](https://amzn.to/4hCn7gY) has a removable ceramic nonstick pot and is sized for a small-kitchen Thanksgiving for two, so there's no giant pot to wash.
 - **Microwave for the fiddly extras.** The [microwave grill pan with lid](https://amzn.to/47vJjVd) is sold for bacon and burgers — handy if bacon is going into your Brussels sprouts or your Friendsgiving burger bar.
 
+### Which small tools handle the turkey, potatoes and gravy?
+
+These are the tools that live in a drawer the rest of the year, which is exactly what a small kitchen needs.
+
+- **Is the turkey done?** The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is sold as a fast-reading digital thermometer, so you can check the thickest part of the thigh instead of cutting the bird open to look.
+- **Basting.** The [SCHVUBENR stainless steel turkey baster with cleaning brush and needle](https://amzn.to/47OkKmE) comes with a brush for cleaning the tube and a needle for injecting marinade.
+- **Mashed potatoes without a colander.** The [AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF) clips onto the edge of the pot so you can drain the potatoes straight into the sink, with no big colander taking up counter space. Then press them through the [PriorityChef 15 oz stainless steel potato ricer](https://amzn.to/4yOU3Kw) for smooth mash with no lumps to chase.
+- **Gravy.** Pour the pan drippings into the [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8). The listing says the juices drain from the bottom while the fat stays on top, and a small peeler comes in the box. For a smooth gravy, cranberry sauce or soup, the [Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ) blends right in the pot, so there's no big blender to wash.
+
+### How do you get more out of one oven?
+
+Use every sheet pan you have. The [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for roasted vegetables, rolls and cookies, and the listing says they're dishwasher safe, so there's less scrubbing at the end of the night. The [2-piece 10 x 15 in cooling racks](https://amzn.to/3Tzr4v3) are sold for cooking and baking; use them to cool pies and rolls, and they stack once the pies are off.
+
 ### What's the easiest way to portion sides for a crowded table?
 
 Small dishes travel better than big ones in a tight kitchen, and they stack.
 
-Bake or warm individual portions in the [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) — the listing says they're oven safe, and the lids mean the leftovers go straight into the fridge in the same dish. For snacks before dinner, the [PLASTICPRO 6-section round serving trays](https://amzn.to/4797UPG) are designed to hold nuts, olives, cheese and crackers in one trip instead of five bowls.
+Bake or warm individual portions in the [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) — the listing says they're oven safe, and the lids mean the leftovers go straight into the fridge in the same dish. For snacks before dinner, the [PLASTICPRO 6-section round serving trays](https://amzn.to/4797UPG) are designed to hold nuts, olives, cheese and crackers in one trip instead of five bowls. For the rolls, the [KITCHENDAO butter dish with a latching lid](https://amzn.to/4dyJmDi) is sold as airtight and, the listing says, fits on a refrigerator door shelf, so the butter goes back in the fridge without taking up a whole shelf.
 
 ### How do you bring a dish to Friendsgiving without it sliding around?
 
@@ -49,7 +62,7 @@ Leftovers are the second meal of the holiday, and a small fridge punishes mismat
 
 ### What should you set out for coffee and dessert?
 
-When dinner's done, the kitchen is a disaster and people want coffee. Keep that part dumb and simple with the [BLACK+DECKER 12-cup coffee maker with removable filter basket](https://amzn.to/4iVGkfV), or go paper-filter-free with the [Bodum 34 oz pour-over coffee maker](https://amzn.to/3TzTN2J). A [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns plain milk into something that looks like dessert for the kids, and the [Spring Chef metal ice cream scoop](https://amzn.to/3VvPdTP) gets a clean scoop onto warm pie.
+When dinner's done, the kitchen is a disaster and people want coffee. Keep that part dumb and simple with the [BLACK+DECKER 12-cup coffee maker with removable filter basket](https://amzn.to/4iVGkfV), or go paper-filter-free with the [Bodum 34 oz pour-over coffee maker](https://amzn.to/3TzTN2J). A [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns plain milk into something that looks like dessert for the kids, the [Orblue pie server](https://amzn.to/4zsGrVh) is serrated on both sides, so it works for right- and left-handed people, and the [Spring Chef metal ice cream scoop](https://amzn.to/3VvPdTP) gets a clean scoop onto warm pie.
 
 ### Which gadget should you pick?
 
@@ -58,11 +71,16 @@ When dinner's done, the kitchen is a disaster and people want coffee. Keep that 
 | 1.5 qt slow cooker (Maxi-Matic / bella) | Cooks one soft side hands-off | Mashed potatoes, cranberry sauce | Outlet, a few hours |
 | 6-cup rice cooker + steaming basket | Grain side plus steamed veg at once | Two sides, one appliance | Outlet, counter corner |
 | Dash Mini Rice Cooker | Small-batch grain side | Thanksgiving for two | Outlet, little space |
+| Instant-read meat thermometer | Checks when the turkey is done | The main dish | Nothing |
+| Turkey baster | Bastes and injects marinade | The turkey | Nothing |
+| Clip-on strainer + potato ricer | Drains and mashes potatoes | Smooth mashed potatoes | Drawer space |
+| Gravy separator + immersion blender | Separates fat, blends smooth | Gravy, cranberry sauce, soup | Outlet for the blender |
+| Silicone baking mats + cooling racks | Lines pans, cools pies | Rolls, roasted veg, pies | Sheet pans |
 | Ramekins with lids | Individual portions, then storage | Plated sides, mini desserts | Oven or fridge |
 | Microwave grill pan with lid | Bacon and burgers off the stove | Friendsgiving, bacon-topped sides | Microwave |
 | 2-compartment containers | Leftover plates | Fri–Sun lunches | Fridge space |
 | Insulated cooler bag + ice packs | Transporting your dish | Potluck Friendsgiving | Freezer for packs |
-| Coffee maker, frother, ice cream scoop | Coffee and dessert after dinner | The end of the meal | Outlet, counter space |
+| Coffee maker, frother, pie server, scoop | Coffee and dessert after dinner | The end of the meal | Outlet, counter space |
 
 ### Frequently asked questions
 
@@ -77,6 +95,10 @@ Not if your rice cooker has a steaming basket. The BLACK+DECKER 6-cup model is d
 #### What's the best way to store Thanksgiving leftovers in a small fridge?
 
 Flat, stackable, same-shape containers. Two-compartment meal prep containers stack evenly and keep the turkey separate from the sides, and ramekins with lids let you skip transferring food at all.
+
+#### Do I need a potato ricer, or is a masher enough?
+
+A masher works fine for rustic mash. A ricer presses the potatoes into small strands, which is designed to give smoother mashed potatoes with no lumps. It also stores flat in a drawer.
 
 #### Are these gadgets worth buying just for one holiday?
 
