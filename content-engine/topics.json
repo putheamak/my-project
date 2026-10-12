@@ -1,5 +1,5 @@
 {
-  "_comment": "Topic pages on the blog (topics/<slug>/). A published post joins a topic if its slug is listed in posts, or if its pinBoard matches the topic's board. Topics with no published posts are hidden.",
+  "_comment": "Topic pages on the blog (topics/<slug>/). A published post joins a topic if its slug is listed in posts, or if its pinBoard matches the topic's board. Topics with no published posts are hidden. tags: suggested Pinterest tagged topics, shown on the pins page.",
   "topics": [
     {
       "slug": "weeknight-dinners",
@@ -10,6 +10,13 @@
         "best-kitchen-gadgets-fast-weeknight-dinners",
         "kitchen-gadgets-under-30-cooking-without-guesswork",
         "hands-off-kitchen-gadgets-under-30"
+      ],
+      "tags": [
+        "easy dinner recipes",
+        "weeknight dinners",
+        "quick meals",
+        "cooking tips",
+        "kitchen gadgets"
       ]
     },
     {
@@ -21,6 +28,13 @@
         "kitchen-gadgets-under-30-meal-prep",
         "kitchen-gadgets-under-30-chopping-prep",
         "kitchen-gadgets-under-30-leftovers"
+      ],
+      "tags": [
+        "meal prep",
+        "meal prep ideas",
+        "leftovers",
+        "food storage",
+        "kitchen gadgets"
       ]
     },
     {
@@ -31,6 +45,13 @@
       "posts": [
         "kitchen-gadgets-under-30-quick-breakfasts",
         "coffee-shop-breakfast-at-home-gadgets"
+      ],
+      "tags": [
+        "breakfast ideas",
+        "quick breakfast",
+        "egg recipes",
+        "coffee at home",
+        "kitchen gadgets"
       ]
     },
     {
@@ -41,6 +62,13 @@
       "posts": [
         "microwave-gadgets-office-lunch",
         "best-lunch-containers-work-lunches"
+      ],
+      "tags": [
+        "lunch ideas for work",
+        "lunch box ideas",
+        "meal prep",
+        "bento box",
+        "kitchen gadgets"
       ]
     },
     {
@@ -52,6 +80,13 @@
         "cook-without-a-stove-microwave-gadgets",
         "microwave-gadgets-office-lunch",
         "hands-off-kitchen-gadgets-under-30"
+      ],
+      "tags": [
+        "microwave recipes",
+        "dorm room cooking",
+        "college food",
+        "easy meals",
+        "kitchen gadgets"
       ]
     },
     {
@@ -62,6 +97,13 @@
       "posts": [
         "kitchen-gadgets-small-kitchens-under-30",
         "kitchen-gadgets-for-cooking-for-one"
+      ],
+      "tags": [
+        "cooking for one",
+        "small kitchen ideas",
+        "apartment kitchen",
+        "small kitchen organization",
+        "kitchen gadgets"
       ]
     },
     {
@@ -72,6 +114,13 @@
       "posts": [
         "movie-night-snack-gadgets",
         "kitchen-gadgets-treats-with-kids"
+      ],
+      "tags": [
+        "movie night snacks",
+        "popcorn",
+        "snack ideas",
+        "treats for kids",
+        "kitchen gadgets"
       ]
     },
     {
@@ -79,21 +128,42 @@
       "title": "Halloween Party Food",
       "board": "Halloween Party Food Ideas",
       "intro": "Kitchen gadgets for Halloween party snacks and treats at home.",
-      "posts": []
+      "posts": [],
+      "tags": [
+        "halloween party food",
+        "halloween treats",
+        "halloween snacks",
+        "party food",
+        "kitchen gadgets"
+      ]
     },
     {
       "slug": "thanksgiving",
       "title": "Thanksgiving Prep & Hosting",
       "board": "Thanksgiving Prep & Hosting",
       "intro": "Kitchen gadgets for Thanksgiving prep, hosting and leftovers.",
-      "posts": []
+      "posts": [],
+      "tags": [
+        "thanksgiving",
+        "thanksgiving dinner",
+        "friendsgiving",
+        "thanksgiving recipes",
+        "kitchen gadgets"
+      ]
     },
     {
       "slug": "holiday-baking",
       "title": "Christmas Baking & Holiday Hosting",
       "board": "Christmas Baking & Holiday Hosting",
       "intro": "Kitchen gadgets for holiday cookies, baking and hosting family and friends.",
-      "posts": []
+      "posts": [],
+      "tags": [
+        "christmas baking",
+        "holiday baking",
+        "christmas cookies",
+        "holiday hosting",
+        "kitchen gadgets"
+      ]
     },
     {
       "slug": "gift-ideas",
@@ -102,6 +172,13 @@
       "intro": "Kitchen gifts under $30 for people who cook, grouped by who you're shopping for.",
       "posts": [
         "kitchen-gifts-under-30"
+      ],
+      "tags": [
+        "gift ideas",
+        "kitchen gifts",
+        "gifts for cooks",
+        "christmas gift ideas",
+        "kitchen gadgets"
       ]
     }
   ]
