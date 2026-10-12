@@ -44,6 +44,23 @@ code{background:var(--surface);padding:1px 5px;border-radius:3px}
 img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .cover{margin:0 0 20px}
 .post-list{list-style:none;padding:0;margin:0}
+.cards{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:20px}
+@media (min-width:600px){.cards{grid-template-columns:1fr 1fr}.cards.feature>li:first-child{grid-column:1/-1}}
+.cards li{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.cards li:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.cards a{display:block;color:var(--text);text-decoration:none;height:100%}
+.cards img{margin:0;border-radius:0;width:100%;aspect-ratio:16/10;object-fit:cover}
+.cards.feature>li:first-child img{aspect-ratio:2/1}
+.cards .ph{aspect-ratio:16/10;background:var(--accent-soft)}
+.cards .txt{padding:12px 16px 16px}
+.cards .title{display:block;font-size:1.1rem;font-weight:650;line-height:1.3}
+.cards.feature>li:first-child .title{font-size:1.3rem}
+.cards a:hover .title{color:var(--accent)}
+.cards .txt p{margin:.4em 0 0;color:var(--muted);font-size:.93rem;line-height:1.5}
+.tag{display:inline-block;font-size:.75rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.hero{background:var(--accent-soft);border-radius:14px;padding:22px 20px;margin:0 0 22px}
+.hero h1{margin:0 0 .3em}
+.hero p{margin:0;color:var(--muted)}
 .post-list li{padding:18px 0;border-bottom:1px solid var(--line)}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
@@ -54,6 +71,7 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
+.related ul.cards{padding-left:0}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 </style>
@@ -67,10 +85,10 @@ footer.site a{color:var(--muted)}
 <main><div class="wrap">
 <h1>Quick Breakfasts</h1>
 <p>Gadgets for breakfast on busy mornings: make-ahead oats and egg bites, microwave eggs, breakfast sandwiches and coffee-shop drinks at home.</p>
-<ul class="post-list"><li><a class="title" href="/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/">Skip the Drive-Thru: Make Coffee-Shop Breakfasts at Home in Minutes</a>
-<p class="meta">October 4, 2026</p><p>The best kitchen gadgets for making coffee shop breakfast at home — eggs, grilled sandwiches and frothed coffee in minutes, no stove needed.</p></li>
-<li><a class="title" href="/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/">Fast Breakfast Fixes: Kitchen Gadgets Under $30 That Get You Out the Door</a>
-<p class="meta">September 29, 2026</p><p>The best kitchen gadgets under $30 for quick breakfasts, picked for busy mornings — what each tool does, who it suits, and how to choose.</p></li></ul>
+<ul class="cards"><li><a href="/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/"><img src="/my-project/blog/images/adrianhnt-coffee-shop.jpg" alt="" loading="eager">
+<div class="txt"><span class="tag">Quick Breakfasts</span><span class="title">Skip the Drive-Thru: Make Coffee-Shop Breakfasts at Home in Minutes</span><p>The best kitchen gadgets for making coffee shop breakfast at home — eggs, grilled sandwiches and frothed coffee in minutes, no stove needed.</p></div></a></li>
+<li><a href="/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/"><img src="/my-project/blog/images/quick-breakfast-counter.jpg" alt="" loading="eager">
+<div class="txt"><span class="tag">Quick Breakfasts</span><span class="title">Fast Breakfast Fixes: Kitchen Gadgets Under $30 That Get You Out the Door</span><p>The best kitchen gadgets under $30 for quick breakfasts, picked for busy mornings — what each tool does, who it suits, and how to choose.</p></div></a></li></ul>
 <p class="meta">More topics:</p>
 <ul class="chips"><li><a href="/my-project/blog/topics/weeknight-dinners/">Easy Weeknight Dinner Gadgets</a></li><li><a href="/my-project/blog/topics/meal-prep/">Meal Prep &amp; Leftovers</a></li><li><a href="/my-project/blog/topics/work-lunches/">Work Lunches</a></li><li><a href="/my-project/blog/topics/microwave-meals/">Microwave Meals &amp; No-Stove Cooking</a></li><li><a href="/my-project/blog/topics/cooking-for-one/">Cooking for One &amp; Small Kitchens</a></li><li><a href="/my-project/blog/topics/snacks-and-treats/">Movie Night Snacks &amp; Treats</a></li></ul>
 </div></main>

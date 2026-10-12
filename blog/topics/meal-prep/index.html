@@ -44,6 +44,23 @@ code{background:var(--surface);padding:1px 5px;border-radius:3px}
 img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .cover{margin:0 0 20px}
 .post-list{list-style:none;padding:0;margin:0}
+.cards{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:20px}
+@media (min-width:600px){.cards{grid-template-columns:1fr 1fr}.cards.feature>li:first-child{grid-column:1/-1}}
+.cards li{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.cards li:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.cards a{display:block;color:var(--text);text-decoration:none;height:100%}
+.cards img{margin:0;border-radius:0;width:100%;aspect-ratio:16/10;object-fit:cover}
+.cards.feature>li:first-child img{aspect-ratio:2/1}
+.cards .ph{aspect-ratio:16/10;background:var(--accent-soft)}
+.cards .txt{padding:12px 16px 16px}
+.cards .title{display:block;font-size:1.1rem;font-weight:650;line-height:1.3}
+.cards.feature>li:first-child .title{font-size:1.3rem}
+.cards a:hover .title{color:var(--accent)}
+.cards .txt p{margin:.4em 0 0;color:var(--muted);font-size:.93rem;line-height:1.5}
+.tag{display:inline-block;font-size:.75rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.hero{background:var(--accent-soft);border-radius:14px;padding:22px 20px;margin:0 0 22px}
+.hero h1{margin:0 0 .3em}
+.hero p{margin:0;color:var(--muted)}
 .post-list li{padding:18px 0;border-bottom:1px solid var(--line)}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
@@ -54,6 +71,7 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
+.related ul.cards{padding-left:0}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 </style>
@@ -67,12 +85,12 @@ footer.site a{color:var(--muted)}
 <main><div class="wrap">
 <h1>Meal Prep &amp; Leftovers</h1>
 <p>Tools for chopping, portioning, freezing and storing food for the week, and for making leftovers easy to reheat instead of throwing them away.</p>
-<ul class="post-list"><li><a class="title" href="/my-project/blog/posts/kitchen-gadgets-under-30-leftovers/">Leftover Rescue: Kitchen Gadgets Under $30 That Save Last Night's Dinner</a>
-<p class="meta">October 1, 2026</p><p>The best kitchen gadgets under $30 for leftovers: storage, portioning and reheating tools that make last night's dinner worth eating again.</p></li>
-<li><a class="title" href="/my-project/blog/posts/kitchen-gadgets-under-30-chopping-prep/">Chop, Peel, Prep Faster: Kitchen Gadgets Under $30 That Speed Up the Knife Work</a>
-<p class="meta">September 30, 2026</p><p>The best kitchen gadgets under $30 for chopping vegetables fast — choppers, peelers, shears and scrapers that cut prep time on busy weeknights.</p></li>
-<li><a class="title" href="/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/">Meal Prep Sunday Made Fast: Kitchen Gadgets Under $30 That Do the Boring Work</a>
-<p class="meta">September 27, 2026</p><p>The best kitchen gadgets under $30 for meal prep, chosen for speed, easy cleanup and small kitchens — so Sunday prep takes an hour, not three.</p></li></ul>
+<ul class="cards"><li><a href="/my-project/blog/posts/kitchen-gadgets-under-30-leftovers/"><img src="/my-project/blog/images/ayindeabdulmajeed44-spaghetti.jpg" alt="" loading="eager">
+<div class="txt"><span class="tag">Meal Prep &amp; Leftovers</span><span class="title">Leftover Rescue: Kitchen Gadgets Under $30 That Save Last Night's Dinner</span><p>The best kitchen gadgets under $30 for leftovers: storage, portioning and reheating tools that make last night's dinner worth eating again.</p></div></a></li>
+<li><a href="/my-project/blog/posts/kitchen-gadgets-under-30-chopping-prep/"><img src="/my-project/blog/images/rolfvandewal-knives.jpg" alt="" loading="eager">
+<div class="txt"><span class="tag">Meal Prep &amp; Leftovers</span><span class="title">Chop, Peel, Prep Faster: Kitchen Gadgets Under $30 That Speed Up the Knife Work</span><p>The best kitchen gadgets under $30 for chopping vegetables fast — choppers, peelers, shears and scrapers that cut prep time on busy weeknights.</p></div></a></li>
+<li><a href="/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/"><img src="/my-project/blog/images/weeknight-dinner1.jpg.jpg" alt="" loading="eager">
+<div class="txt"><span class="tag">Meal Prep &amp; Leftovers</span><span class="title">Meal Prep Sunday Made Fast: Kitchen Gadgets Under $30 That Do the Boring Work</span><p>The best kitchen gadgets under $30 for meal prep, chosen for speed, easy cleanup and small kitchens — so Sunday prep takes an hour, not three.</p></div></a></li></ul>
 <p class="meta">More topics:</p>
 <ul class="chips"><li><a href="/my-project/blog/topics/weeknight-dinners/">Easy Weeknight Dinner Gadgets</a></li><li><a href="/my-project/blog/topics/quick-breakfasts/">Quick Breakfasts</a></li><li><a href="/my-project/blog/topics/work-lunches/">Work Lunches</a></li><li><a href="/my-project/blog/topics/microwave-meals/">Microwave Meals &amp; No-Stove Cooking</a></li><li><a href="/my-project/blog/topics/cooking-for-one/">Cooking for One &amp; Small Kitchens</a></li><li><a href="/my-project/blog/topics/snacks-and-treats/">Movie Night Snacks &amp; Treats</a></li></ul>
 </div></main>
