@@ -1,6 +1,6 @@
 # Smart Kitchen Picks: notes for the next chat
 
-Read this first. Last updated 10 Oct 2026.
+Read this first. Last updated 12 Oct 2026.
 
 ## The project
 - **Blog:** https://putheamak.github.io/my-project/blog/. The affiliate niche is kitchen gadgets under $30, and Amazon Associates is the affiliate program.
@@ -9,13 +9,13 @@ Read this first. Last updated 10 Oct 2026.
 - **Publishing:** merging to `main` triggers the "Publish blog" workflow. It builds the site, shrinks photos, makes pin images and deploys to GitHub Pages.
 
 ## Current status
-- **16 posts:** 15 live (Sep 26 to Oct 10) and 1 draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
+- **17 posts:** 15 live (Sep 26 to Oct 10), the **Oct 12 draft (`2026-10-12-small-kitchen-thanksgiving-gadgets.md`, first seasonal post) not reviewed yet**, and the draft gift guide (`2026-11-03-kitchen-gifts-under-30.md`). Every live post has a cover photo.
 - **38 products** in `config.json`. Every note says "Haven't used it yet".
 - **Pinterest:** all 15 live posts are pinned by hand and listed in `output/pinterest-history.json` (`pinId: "manual"`). Extra design pins of an already-pinned post don't need recording.
 - **Pin images page:** https://putheamak.github.io/my-project/blog/pins/. `make-pins.mjs` makes 3 designs per post (1000×1500), and the page has Copy buttons for the title, description and link. The page is noindex.
 - **Pinterest auto-posting is OFF.** The owner chose to pin by hand. See "Pinterest API" below before suggesting it again.
-- **Analytics:** GoatCounter at https://smartkitchenpicks.goatcounter.com. Real outside traffic is close to zero so far, because most counted visits are the owner's. The owner was told to open `<blog>/#toggle-goatcounter` once on each browser to stop counting their own visits.
-- **Social:** TikTok @smartkitchenpicks8 and the YouTube channel are set in `site.json`. No videos posted yet (automatic slideshow videos added 10 Oct, see below). Shot lists were written for the Oct 6 scripts 1 (ramen) and 2 (grilled cheese).
+- **Analytics:** GoatCounter at https://smartkitchenpicks.goatcounter.com. Up to Oct 10 there were 20 visits, almost all the owner's (Cambodia, Windows desktop); real outside traffic is about zero. On 10 Oct the owner added their IP (Ezecom, Phnom Penh) to GoatCounter → Settings → Ignore IPs, so visits from then on are real. Signs of progress to watch: phone visits and pinterest.com/tiktok.com referrers. Ask for a GoatCounter and Pinterest Analytics screenshot each Monday. Expectation set with the owner: Pinterest takes weeks to months, Google 3–6 months.
+- **Social:** TikTok @smartkitchenpicks8 and the YouTube channel are set in `site.json`. Videos posted so far: **Oct 10 video** on TikTok (10 Oct, https://www.tiktok.com/@smartkitchenpicks8/video/7695070012733705492) and as a Pinterest video pin; **Oct 9 video** as a Pinterest video pin (11 Oct; TikTok/Shorts for it may or may not be done, ask). Plan: one video a day on TikTok, YouTube Shorts and Pinterest, working back from newest (Oct 8 next). TikTok bio has no clickable link (personal account, no Website field); the owner was told to put `putheamak.github.io/my-project/blog` in the bio text and to try switching to a Business account to unlock the Website field. Shot lists were written for the Oct 6 scripts 1 (ramen) and 2 (grilled cheese).
 
 ## Daily routine (what the owner expects)
 1. The owner says "review the <date> draft". Read the post and the `output/` pack, and run the compliance check (see Rules).
@@ -42,6 +42,12 @@ Read this first. Last updated 10 Oct 2026.
 - `make-videos.mjs` (run by the Publish blog workflow) makes a silent 20 s 1080×1920 video per published post: cover photo + slow zoom, hook (pin title), up to 5 rows from the comparison table, end card with "link in bio" and the disclosure. They're on the pins page with a download button, a TikTok/Shorts caption, and Pinterest video pin text (post title, meta description + disclosure, post link, topic board). The owner uploads them by hand and adds a sound in the app.
 - Only new or changed posts are rendered (about 1 min each); `pins/videos.json` on the live site holds a key per post, and gh-pages `keep_files` keeps older mp4s. Bump `VERSION` in `make-videos.mjs` to remake all after a design change.
 - Option B (Pexels stock clips per gadget, needs a free Pexels API key secret) is wanted **later**; the owner said "B will be later".
+
+## How the owner posts (settings agreed in chat)
+- **Pinterest pins:** Add products empty, Publish later off, AI-Modified on only for AI-generated covers (Oct 9), 4–5 tagged topics (hidden keywords; give suggestions with each pin). Board from the topic list below.
+- **TikTok:** paste the video caption from the pins page; Location empty (a location only reaches people near it; the audience is US/English-speaking); Schedule 7:00–9:00 am Cambodia time (US evening); add a royalty-free sound; Show more → Disclose post content ON → Branded content; AI-generated content ON only for the Oct 9 video. Cover: since 11 Oct the first frame shows the title.
+- **YouTube Shorts:** title = first caption line, description = caption, "not made for kids", altered/synthetic content = Yes only for the Oct 9 video.
+- **Pinterest video pin:** title/description/link/board from the "Pinterest video pin" box under each video on the pins page.
 
 ## Technical gotchas
 - **Run `node compliance.mjs` on a copy in the scratchpad, never on `posts/*.md`.** It prepends a report above the front matter and breaks the post.
@@ -72,8 +78,9 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
 - **Pinning plan:** extra pins now come from `pin-queue.json`, shown as a dated "Pin plan" at the top of the pins page (today's group opens first; 3 a day, Oct 11–20 queued on 10 Oct). Each entry has a fresh title and description, the design number and the board; the disclosure is added automatically. Extend the queue before it runs out. Already used before the queue: design 2 of Sep 29, Oct 1, Oct 2, Oct 3, Oct 4, Oct 5 and design 3 of Oct 3. Pins for Oct 9 need "Mark as AI-Modified" (the page says so). Extra pins don't go in `pinterest-history.json`.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
+- **Next in chat:** review the Oct 12 draft (Thanksgiving, small kitchens), then pin it (new board "Thanksgiving Prep & Hosting" is in `topics.json`). Draft days are Mon/Wed/Fri. Extend `pin-queue.json` past Oct 20.
 - **Ideas offered but not done yet:**
-  - (B) extra pin titles and descriptions per post for re-pinning
-  - (C) topic pages on the blog
+  - suggested **tagged topics** on the pins page under every pin and video (offered 11 Oct, no answer yet)
+  - video option **B** (Pexels stock clips; the owner said "B will be later")
   - a shot list for Oct 6 video script 3
   - buying 1–2 cheap gadgets to write real hands-on posts, which is the biggest long-term traffic lever
