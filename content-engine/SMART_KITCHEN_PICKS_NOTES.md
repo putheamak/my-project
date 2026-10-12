@@ -34,6 +34,11 @@ Read this first. Last updated 12 Oct 2026.
 - Remind the owner to check that a product is under $30 when it might not be (brands like Stasher, S'well, Bodum, Magic Bullet).
 - Never use Amazon product images. Cover photos are the owner's own, or from Unsplash or Pexels.
 
+## Design refresh (12 Oct)
+- Home, topic pages and the "More in" section show **photo cards** (cover photo, topic label, title). The home page has a short intro box, and the newest post is shown full width.
+- Pins have a round **"N PICKS" badge**. N is the number of different Amazon links in the post. All pin images were regenerated, so they count as fresh images for Pinterest.
+- Traffic on 12 Oct (GoatCounter week Oct 5–12): 22 visits. Cambodia 18 (mostly the owner, before the IP filter), Canada 2, Portugal 2. All were Windows desktop with no referrer, and there were 0 phone visits, so nothing has come from Pinterest or TikTok yet.
+
 ## Topic pages (added 10 Oct)
 - `topics.json` lists the blog's topic pages (`/blog/topics/<slug>/`), one per Pinterest board. A published post joins a topic if its slug is listed or its `pinBoard` equals the topic's `board`. Empty topics (Halloween, Thanksgiving, holiday baking, gifts until Nov 3) stay hidden until a post joins.
 - Each post page ends with "More in <topic>" links, the home page shows topic chips, and topic pages are in the sitemap.
@@ -78,7 +83,7 @@ The owner has used one board, "Kitchen Gadgets" (suggested rename: "Kitchen Gadg
 - **Pin drafts in Pinterest:** 2 for Oct 7 and 2 for Oct 6. Publish one per post around Oct 14 and the rest around Oct 21. Drafts expire after 30 days.
 - **Pinning plan:** extra pins now come from `pin-queue.json`, shown as a dated "Pin plan" at the top of the pins page (today's group opens first; 3 a day, Oct 11–20 queued on 10 Oct). Each entry has a fresh title and description, the design number and the board; the disclosure is added automatically. Extend the queue before it runs out. Already used before the queue: design 2 of Sep 29, Oct 1, Oct 2, Oct 3, Oct 4, Oct 5 and design 3 of Oct 3. Pins for Oct 9 need "Mark as AI-Modified" (the page says so). Extra pins don't go in `pinterest-history.json`.
 - **About Nov 1:** "refresh the gift guide". Re-check products and prices, add new products if wanted, and publish Nov 3 with a cover photo. Pin weekly to a new board, "Kitchen Gift Ideas Under $30", before Black Friday (Nov 27) and Cyber Monday.
-- **Next in chat:** after the owner publishes the Oct 12 post, they pin it to the new board "Thanksgiving Prep & Hosting" (2 extra pins for it are queued for Oct 17 and Oct 22). Next draft is Oct 14 (Wed). Extend `pin-queue.json` past Oct 20 (only the Oct 22 Thanksgiving pin is queued after Oct 20).
+- **Next in chat:** after the owner publishes the Oct 12 post, they pin it to the new board "Thanksgiving Prep & Hosting" (2 extra pins for it are queued for Oct 17 and Oct 22). Next draft is Oct 14 (Wed). `pin-queue.json` runs to **Nov 2** (extended 12 Oct, 3 a day, with Halloween and Thanksgiving-leftover angles); extend it again around Oct 30.
 - **Ideas offered but not done yet:**
   - suggested **tagged topics** on the pins page under every pin and video (offered 11 Oct, no answer yet)
   - video option **B** (Pexels stock clips; the owner said "B will be later")

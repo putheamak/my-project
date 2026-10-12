@@ -65,19 +65,29 @@ const photo = (src, w, h, extra = []) => [
   "(", src, "-auto-orient", "-resize", `${w}x${h}^`, "-gravity", "center", "-extent", `${w}x${h}`, ...extra, ")",
 ];
 const place = (gravity, x, y) => ["-gravity", gravity, "-geometry", `+${x}+${y}`, "-composite"];
+// Round "12 PICKS" badge: list-style pins with a number stand out in the Pinterest feed.
+const badge = (count, gravity, x, y) => count < 2 ? [] : [
+  "(", "-size", "210x210", "xc:none", "-fill", "white", "-draw", "circle 105,105 105,2",
+  "-fill", "#b4531f", "-draw", "circle 105,105 105,12",
+  ...text(150, 96, "white", String(count)), "-gravity", "center", "-geometry", "+0-20", "-composite",
+  ...text(160, 48, "#fde7d6", "PICKS"), "-gravity", "center", "-geometry", "+0+46", "-composite", ")",
+  ...place(gravity, x, y),
+];
 
 const designs = [
   // 1. Photo on top, title on a solid band below.
-  ({ src, headline, subline }) => [
+  ({ src, headline, subline, count }) => [
     ...photo(src, W, 880),
+    ...badge(count, "northeast", 36, 36),
     "(", "-size", `${W}x${H - 880}`, "xc:#b4531f", ")", "-append",
     ...text(880, 400, "white", headline), ...place("north", 0, 920),
     ...(subline ? [...text(880, 70, "#fde7d6", subline), ...place("north", 0, 1335)] : []),
     ...text(600, 36, "#fde7d6", brand), ...place("south", 0, 20),
   ],
   // 2. Full photo, darkened, with the title across the middle.
-  ({ src, headline, subline }) => [
+  ({ src, headline, subline, count }) => [
     ...photo(src, W, H, ["-fill", "black", "-colorize", "45%"]),
+    ...badge(count, "north", 0, 90),
     ...text(860, 640, "white", headline), ...place("center", 0, -60),
     ...(subline ? [
       "(", "-size", "640x90", "xc:#b4531f", ...text(600, 66, "white", subline), "-gravity", "center", "-composite", ")",
@@ -86,12 +96,13 @@ const designs = [
     ...text(600, 40, "white", brand), ...place("south", 0, 40),
   ],
   // 3. Title on a light panel on top, photo below.
-  ({ src, headline, subline }) => [
+  ({ src, headline, subline, count }) => [
     "(", "-size", `${W}x560`, "xc:#fbfaf7", ")",
     ...photo(src, W, H - 560), "-append",
     ...text(880, 360, "#1d1f21", headline), ...place("north", 0, 50),
     ...(subline ? [...text(880, 70, "#b4531f", subline), ...place("north", 0, 425)] : []),
     ...text(600, 32, "#5d6166", brand), ...place("north", 0, 505),
+    ...badge(count, "northeast", 36, 596),
   ],
 ];
 
@@ -116,10 +127,12 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   }
   fs.mkdirSync(outDir, { recursive: true });
   const { headline, subline } = splitTitle(pinTitle);
+  // Number of different products the post links to.
+  const count = new Set(post.body.match(/https?:\/\/(?:amzn\.to|(?:www\.)?amazon\.com)\/[^\s)"]+/g) ?? []).size;
   const files = [];
   designs.forEach((design, i) => {
     const name = `${post.slug}-${i + 1}.jpg`;
-    const run = spawnSync(convert, [...design({ src, headline, subline }), "-strip", "-quality", "85", path.join(outDir, name)]);
+    const run = spawnSync(convert, [...design({ src, headline, subline, count }), "-strip", "-quality", "85", path.join(outDir, name)]);
     if (run.status === 0) files.push(name);
     else console.warn(`pin ${name} failed: ${run.stderr.toString().trim().split("\n")[0]}`);
   });
