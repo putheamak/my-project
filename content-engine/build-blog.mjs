@@ -84,6 +84,23 @@ code{background:var(--surface);padding:1px 5px;border-radius:3px}
 img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .cover{margin:0 0 20px}
 .post-list{list-style:none;padding:0;margin:0}
+.cards{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:20px}
+@media (min-width:600px){.cards{grid-template-columns:1fr 1fr}.cards.feature>li:first-child{grid-column:1/-1}}
+.cards li{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.cards li:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.cards a{display:block;color:var(--text);text-decoration:none;height:100%}
+.cards img{margin:0;border-radius:0;width:100%;aspect-ratio:16/10;object-fit:cover}
+.cards.feature>li:first-child img{aspect-ratio:2/1}
+.cards .ph{aspect-ratio:16/10;background:var(--accent-soft)}
+.cards .txt{padding:12px 16px 16px}
+.cards .title{display:block;font-size:1.1rem;font-weight:650;line-height:1.3}
+.cards.feature>li:first-child .title{font-size:1.3rem}
+.cards a:hover .title{color:var(--accent)}
+.cards .txt p{margin:.4em 0 0;color:var(--muted);font-size:.93rem;line-height:1.5}
+.tag{display:inline-block;font-size:.75rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.hero{background:var(--accent-soft);border-radius:14px;padding:22px 20px;margin:0 0 22px}
+.hero h1{margin:0 0 .3em}
+.hero p{margin:0;color:var(--muted)}
 .post-list li{padding:18px 0;border-bottom:1px solid var(--line)}
 .post-list a.title{font-size:1.2rem;font-weight:650;color:var(--text);text-decoration:none}
 .post-list a.title:hover{color:var(--accent)}
@@ -94,6 +111,7 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
+.related ul.cards{padding-left:0}
 footer.site{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:.85rem}
 footer.site a{color:var(--muted)}
 `;
@@ -169,9 +187,18 @@ const dateLabel = (d) =>
   new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 
 const topicHref = (t) => href(`topics/${t.slug}/`);
-const postItems = (list) =>
-  `<ul class="post-list">${list.map((p) => `<li><a class="title" href="${href(`posts/${p.slug}/`)}">${esc(p.title)}</a>
-<p class="meta">${dateLabel(p.date)}</p>${p.description ? `<p>${esc(p.description)}</p>` : ""}</li>`).join("\n")}</ul>`;
+// Cover photo path for a post (site-relative), or "" when it has none.
+const coverOf = (p) =>
+  !p.image ? "" : /^https?:\/\//.test(p.image) ? p.image : href(resolveImage(imagesDir, p.image, p.slug));
+const topicOf = (p) => topics.find((t) => t.posts.includes(p));
+// Post cards with the cover photo. "feature" makes the first card full width.
+const postItems = (list, { feature = false, short = false } = {}) =>
+  `<ul class="cards${feature ? " feature" : ""}">${list.map((p, i) => {
+    const img = coverOf(p);
+    const tag = topicOf(p);
+    return `<li><a href="${href(`posts/${p.slug}/`)}">${img ? `<img src="${esc(img)}" alt="" loading="${i < 3 ? "eager" : "lazy"}">` : '<div class="ph"></div>'}
+<div class="txt">${tag ? `<span class="tag">${esc(tag.title)}</span>` : ""}<span class="title">${esc(p.title)}</span>${!short && p.description ? `<p>${esc(p.description)}</p>` : ""}</div></a></li>`;
+  }).join("\n")}</ul>`;
 const topicChips = (list) =>
   `<ul class="chips">${list.map((t) => `<li><a href="${topicHref(t)}">${esc(t.title)}</a></li>`).join("")}</ul>`;
 
@@ -182,7 +209,7 @@ function related(post) {
   const others = [...new Set(mine.flatMap((t) => t.posts))].filter((p) => p !== post).slice(0, 4);
   return `<section class="related">
 <h2>More in ${mine.map((t) => `<a href="${topicHref(t)}">${esc(t.title)}</a>`).join(" · ")}</h2>
-${others.length ? `<ul>${others.map((p) => `<li><a href="${href(`posts/${p.slug}/`)}">${esc(p.title)}</a></li>`).join("")}</ul>` : ""}
+${others.length ? postItems(others, { short: true }) : ""}
 </section>`;
 }
 
@@ -259,9 +286,10 @@ write(
     description: site.tagline,
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, url: url() }],
-    body: `<h1>${esc(site.tagline)}</h1>
+    body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
+<p>Kitchen gadgets under $30 for busy home cooks, grouped by the job they do and compared side by side.</p></section>
 ${topics.length ? topicChips(topics) : ""}
-${posts.length ? postItems(posts) : "<p>New posts are coming soon.</p>"}`,
+${posts.length ? postItems(posts, { feature: true }) : "<p>New posts are coming soon.</p>"}`,
   }),
 );
 

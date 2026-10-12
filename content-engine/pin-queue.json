@@ -250,12 +250,316 @@
       "description": "Moving into a small apartment kitchen? Start with gadgets under $30 that save space: nesting bowls with lids, flexible cutting mats, an over-sink colander, an under-sink organizer and mat, and a collapsible splatter cover. See the full list and how each one saves counter or cupboard space on the blog."
     },
     {
+      "date": "2026-10-21",
+      "slug": "movie-night-snack-gadgets",
+      "design": 1,
+      "board": "Movie Night Snack Ideas",
+      "title": "Halloween Movie Night Snacks Without the Oven",
+      "description": "Planning a scary movie night? Pop popcorn in a collapsible silicone microwave popper or a hot air popper, shake on seasoning from a variety pack, make mini waffles on a small waffle maker, and set everything out in 6-section serving trays. Snack gadgets for movie night are listed and compared on the blog."
+    },
+    {
+      "date": "2026-10-21",
+      "slug": "kitchen-gadgets-under-30-leftovers",
+      "design": 2,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "Thanksgiving Leftovers: Storage Tools for a Small Fridge",
+      "description": "Get ready for the leftovers before the holiday: glass containers with locking lids, silicone stretch lids for bowls, freezer portion trays for gravy and soup, and a vented microwave cover for reheating. A simple leftover system with tools under $30, explained on the blog."
+    },
+    {
+      "date": "2026-10-21",
+      "slug": "kitchen-gadgets-under-30-cooking-without-guesswork",
+      "design": 2,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Stop Guessing When Food Is Done: 6 Simple Tools",
+      "description": "An instant-read thermometer for chicken and roasts, an oven thermometer to check your oven's real temperature, a digital kitchen scale, a timer, an angled measuring cup and a measuring spoon set. Small tools under $30 that take the guesswork out of cooking, compared on the blog."
+    },
+    {
       "date": "2026-10-22",
       "slug": "small-kitchen-thanksgiving-gadgets",
       "design": 3,
       "board": "Thanksgiving Prep & Hosting",
       "title": "Friendsgiving Potluck Kit: Carry Your Dish Without the Mess",
       "description": "Bringing a dish to Friendsgiving? Pack it in a 20L insulated cooler bag with slim ice packs, portion sides into lidded ramekins that stack, bring your own utensils in a case, and plan the leftovers with two-compartment containers. The full small-kitchen Thanksgiving list is on the blog."
+    },
+    {
+      "date": "2026-10-22",
+      "slug": "kitchen-gadgets-under-30-quick-breakfasts",
+      "design": 2,
+      "board": "Quick Breakfast Ideas",
+      "title": "5-Minute Breakfast Ideas With a Microwave Egg Cooker",
+      "description": "Busy mornings need fast breakfasts: a microwave egg cooker, silicone egg molds for make-ahead egg bites, wide-mouth jars for overnight oats, and a handheld milk frother for a quick latte. Breakfast gadgets under $30 and which one to buy first, on the blog."
+    },
+    {
+      "date": "2026-10-22",
+      "slug": "kitchen-gadgets-under-30-chopping-prep",
+      "design": 3,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "Chop Onions Faster: Prep Tools Under $30",
+      "description": "Make chopping faster with a hand-held pull chopper, a compact mandoline, a garlic press, herb scissors, a bench scraper and an onion holder for even slices. Prep gadgets under $30 compared, plus the order to buy them in, on the blog."
+    },
+    {
+      "date": "2026-10-23",
+      "slug": "cook-without-a-stove-microwave-gadgets",
+      "design": 3,
+      "board": "Microwave Meals & No-Stove Cooking",
+      "title": "Eggs, Bacon and Grilled Cheese Without a Stove",
+      "description": "No stove? A microwave egg poacher, an egg cooker, a microwave grill pan with lid for bacon and burgers, and a microwave sandwich maker for grilled cheese. Stove-free gadgets for dorms, offices and tiny kitchens, explained on the blog."
+    },
+    {
+      "date": "2026-10-23",
+      "slug": "kitchen-gadgets-for-cooking-for-one",
+      "design": 2,
+      "board": "Cooking for One & Small Kitchens",
+      "title": "Cooking for One Made Easy: Mini Gadgets That Fit Small Spaces",
+      "description": "Cooking for one? Try a mini rice cooker, a mini waffle maker, a personal blender, a microwave ramen cooker and lidded ramekins for single portions. Small gadgets sized for one person and a small kitchen, compared on the blog."
+    },
+    {
+      "date": "2026-10-23",
+      "slug": "best-kitchen-gadgets-fast-weeknight-dinners",
+      "design": 3,
+      "board": "Easy Weeknight Dinner Ideas",
+      "title": "Weeknight Dinner Hacks: Prep Tools Under $30",
+      "description": "Weeknight dinners go faster with the right small tools: a garlic press, a mandoline slicer, kitchen shears, a salad spinner, an instant-read thermometer and a silicone spoonula. Which one to buy first and how to keep them from cluttering your drawers, on the blog."
+    },
+    {
+      "date": "2026-10-24",
+      "slug": "kitchen-gadgets-treats-with-kids",
+      "design": 1,
+      "board": "Movie Night Snack Ideas",
+      "title": "Halloween Treat Station for Kids: Donuts, Popcorn and Waffles",
+      "description": "Make Halloween treats at home with the kids: a mini donut maker, a mini waffle maker, a hot air popcorn maker and a cotton candy maker, with toppings in a serving tray. Kid-friendly treat gadgets under $30, with no oven skills required, on the blog."
+    },
+    {
+      "date": "2026-10-24",
+      "slug": "kitchen-gadgets-under-30-meal-prep",
+      "design": 2,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "Meal Prep Without a Food Processor: Simple Tools",
+      "description": "No food processor? A manual pull chopper, a mandoline slicer, a salad spinner, a large cutting board and a kitchen scale handle most Sunday prep. Glass containers and silicone freezer trays store it for the week. Meal prep tools compared on the blog."
+    },
+    {
+      "date": "2026-10-24",
+      "slug": "microwave-gadgets-office-lunch",
+      "design": 3,
+      "board": "Work Lunch Ideas",
+      "title": "Hot Lunch at Work: Microwave Gadgets for the Break Room",
+      "description": "Turn the office microwave into a lunch station: a microwave ramen cooker, a sandwich maker, an egg cooker and a grill pan with lid. Pack it in an insulated lunch bag with 2-compartment containers. Break room gadgets under $30 on the blog."
+    },
+    {
+      "date": "2026-10-25",
+      "slug": "kitchen-gadgets-small-kitchens-under-30",
+      "design": 2,
+      "board": "Cooking for One & Small Kitchens",
+      "title": "Tiny Kitchen? Space-Saving Gadgets That Fold, Nest and Stack",
+      "description": "Save counter and cupboard space with a collapsible colander, nesting bowls with lids, flexible cutting mats, stackable measuring spoons, an over-the-sink rack and under-shelf racks. Small kitchen gadgets under $30 that also cut down on dishes, on the blog."
+    },
+    {
+      "date": "2026-10-25",
+      "slug": "hands-off-kitchen-gadgets-under-30",
+      "design": 1,
+      "board": "Easy Weeknight Dinner Ideas",
+      "title": "Cook While You Do Something Else: Hands-Off Gadgets",
+      "description": "Let the gadget do the watching: a mini rice cooker, a 1.5 qt slow cooker, a microwave egg cooker, a 12-cup coffee maker and a popcorn popper. Hands-off kitchen gadgets under $30 for busy days, compared on the blog."
+    },
+    {
+      "date": "2026-10-25",
+      "slug": "coffee-shop-breakfast-at-home-gadgets",
+      "design": 2,
+      "board": "Quick Breakfast Ideas",
+      "title": "Drive-Thru Breakfast Sandwich at Home",
+      "description": "Make a breakfast sandwich at home: eggs in a microwave egg poacher or egg cooker, a breakfast sandwich maker or microwave sandwich maker, and coffee from a French press or 12-cup coffee maker. How to build the whole breakfast in about 10 minutes, on the blog."
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "best-lunch-containers-work-lunches",
+      "design": 2,
+      "board": "Work Lunch Ideas",
+      "title": "Pack Lunch the Night Before: Containers That Travel Well",
+      "description": "Pack work lunches ahead with 2-compartment meal prep containers, an insulated food jar for soup or oatmeal, a bento box, reusable sandwich bags, slim ice packs and a 20L insulated lunch bag. Lunch gear under $30 and which piece to buy first, on the blog."
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "movie-night-snack-gadgets",
+      "design": 2,
+      "board": "Movie Night Snack Ideas",
+      "title": "Popcorn Bar for Movie Night: Poppers and Seasonings",
+      "description": "Build a popcorn bar: a hot air popper for a crowd or a collapsible silicone microwave popper for one or two, a popcorn seasoning variety pack, and serving trays for toppings. More movie night snack gadgets, from mini waffles to shakes, on the blog."
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "kitchen-gadgets-under-30-cooking-without-guesswork",
+      "design": 3,
+      "board": "Easy Weeknight Dinner Ideas",
+      "title": "Is the Chicken Done? Check With a Thermometer",
+      "description": "An instant-read thermometer tells you when meat is done instead of cutting it open to check. Add an oven thermometer, a digital scale and a kitchen timer for fewer cooking mistakes. Simple tools under $30 explained on the blog."
+    },
+    {
+      "date": "2026-10-27",
+      "slug": "kitchen-gadgets-under-30-quick-breakfasts",
+      "design": 3,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Breakfast Gadgets Under $30 for Busy Mornings",
+      "description": "Get out the door faster: a microwave egg cooker, silicone egg molds, wide-mouth glass jars for overnight oats, a toaster with a bagel setting, an immersion blender for smoothies and an insulated travel mug. Compared side by side on the blog."
+    },
+    {
+      "date": "2026-10-27",
+      "slug": "kitchen-gadgets-under-30-leftovers",
+      "design": 3,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "How to Freeze Leftovers in Single Portions",
+      "description": "Freeze soups, sauces and rice in single portions with silicone freezer trays and ice cube trays with lids, label them with a marker set, and reheat under a vented microwave cover or in a microwave steamer basket. Leftover tools under $30 on the blog."
+    },
+    {
+      "date": "2026-10-27",
+      "slug": "kitchen-gadgets-for-cooking-for-one",
+      "design": 3,
+      "board": "Microwave Meals & No-Stove Cooking",
+      "title": "Single-Serving Meals in the Microwave",
+      "description": "Cooking for one without a stove: an egg poacher, an omelet and egg patty maker, a ramen cooker, a sandwich maker and a microwave grill pan. Small gadgets for one-person meals, compared on the blog."
+    },
+    {
+      "date": "2026-10-28",
+      "slug": "kitchen-gadgets-under-30-chopping-prep",
+      "design": 1,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Kitchen Prep Tools Worth Buying Under $30",
+      "description": "Speed up the knife work with a pull chopper, a Y-peeler, a garlic press, herb scissors, kitchen shears and a bench scraper. Do you need a food processor, or is a manual chopper enough? The answer and a comparison table are on the blog."
+    },
+    {
+      "date": "2026-10-28",
+      "slug": "cook-without-a-stove-microwave-gadgets",
+      "design": 1,
+      "board": "Microwave Meals & No-Stove Cooking",
+      "title": "Dorm Room Cooking: No-Stove Gadgets",
+      "description": "Cook in a dorm or office with only a microwave: a microwave egg cooker, an egg poacher, a grill pan with lid for bacon and a sandwich maker for grilled cheese. Which stove-free gadget to get first, on the blog."
+    },
+    {
+      "date": "2026-10-28",
+      "slug": "kitchen-gadgets-treats-with-kids",
+      "design": 2,
+      "board": "Movie Night Snack Ideas",
+      "title": "Saturday Treats With Kids: Mini Donuts and Waffles",
+      "description": "Turn snack time into an activity: mini donuts from a donut maker or donut pan, mini waffles, popcorn with seasonings, and ice cream scooped onto warm waffles. Treat gadgets under $30 with no oven skills required, on the blog."
+    },
+    {
+      "date": "2026-10-29",
+      "slug": "best-kitchen-gadgets-fast-weeknight-dinners",
+      "design": 2,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Kitchen Gadgets That Save Time on Weeknights",
+      "description": "What makes a gadget actually save time? A garlic press, a mandoline, a grater, a salad spinner, an instant-read thermometer and prep containers. Which one to buy first and how to keep them from becoming clutter, on the blog."
+    },
+    {
+      "date": "2026-10-29",
+      "slug": "microwave-gadgets-office-lunch",
+      "design": 1,
+      "board": "Work Lunch Ideas",
+      "title": "Ramen, Sandwiches and Eggs at Your Desk",
+      "description": "Make a hot lunch at work with a microwave ramen cooker, a microwave sandwich maker and an egg cooker. Carry it in an insulated lunch bag with a food jar and travel utensils. Office lunch gadgets under $30 on the blog."
+    },
+    {
+      "date": "2026-10-29",
+      "slug": "kitchen-gadgets-small-kitchens-under-30",
+      "design": 3,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Apartment Kitchen Gadgets That Cut Down on Dishes",
+      "description": "Fewer dishes, more space: an immersion blender that blends in the pot, a collapsible colander, flexible cutting mats you can fold to pour, nesting bowls with lids and a microwave splatter cover. Small kitchen gadgets under $30 on the blog."
+    },
+    {
+      "date": "2026-10-30",
+      "slug": "kitchen-gadgets-under-30-meal-prep",
+      "design": 3,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Sunday Meal Prep Toolkit Under $30",
+      "description": "A meal prep toolkit: a pull chopper, a mandoline, a salad spinner, a kitchen scale for portions, glass containers and silicone freezer trays for soups. How to keep prepped food from going soggy, plus a comparison table, on the blog."
+    },
+    {
+      "date": "2026-10-30",
+      "slug": "coffee-shop-breakfast-at-home-gadgets",
+      "design": 3,
+      "board": "Quick Breakfast Ideas",
+      "title": "Coffee-Shop Drinks at Home: Frother and French Press",
+      "description": "Make coffee-shop drinks at home: a handheld milk frother or frothing jug for foam, a French press or a 12-cup coffee maker, plus microwave egg gadgets for a quick breakfast sandwich. Compared side by side on the blog."
+    },
+    {
+      "date": "2026-10-30",
+      "slug": "hands-off-kitchen-gadgets-under-30",
+      "design": 2,
+      "board": "Microwave Meals & No-Stove Cooking",
+      "title": "Set It and Forget It: Microwave and Countertop Gadgets",
+      "description": "Cook hands-off with a rice cooker with steaming basket, a small slow cooker, a microwave egg cooker, a microwave sandwich maker and a ramen cooker. Gadgets under $30 that cook while you get on with your day, on the blog."
+    },
+    {
+      "date": "2026-10-31",
+      "slug": "movie-night-snack-gadgets",
+      "design": 3,
+      "board": "Movie Night Snack Ideas",
+      "title": "Halloween Night In: Popcorn, Shakes and Sweet Snacks",
+      "description": "Staying in for Halloween? Make popcorn in a hot air popper, mini waffles or donuts, shakes in a personal blender and frothy hot chocolate with a milk frother. Movie night snack gadgets with no oven needed, on the blog."
+    },
+    {
+      "date": "2026-10-31",
+      "slug": "best-lunch-containers-work-lunches",
+      "design": 3,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "Leftovers to Lunch: Containers for Grab-and-Go Lunches",
+      "description": "Turn last night's dinner into tomorrow's lunch: 2-compartment containers, ramekins with lids for sauces, an insulated food jar and reusable sandwich bags. Pack it the night before and grab it in the morning. Lunch gear under $30 on the blog."
+    },
+    {
+      "date": "2026-10-31",
+      "slug": "kitchen-gadgets-under-30-cooking-without-guesswork",
+      "design": 1,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Baking Without Guesswork: Scale, Timer and Oven Thermometer",
+      "description": "Better baking starts with measuring: a digital kitchen scale, an oven thermometer to check the real temperature, a digital timer and a measuring spoon set. Small tools under $30 compared on the blog."
+    },
+    {
+      "date": "2026-11-01",
+      "slug": "kitchen-gadgets-under-30-quick-breakfasts",
+      "design": 1,
+      "board": "Quick Breakfast Ideas",
+      "title": "Make-Ahead Breakfasts: Egg Bites and Overnight Oats",
+      "description": "Prep breakfast ahead: silicone egg molds for egg bites, wide-mouth glass jars for overnight oats and an immersion blender for smoothies. On busy mornings, a microwave egg cooker and a travel mug finish the job. Breakfast gadgets on the blog."
+    },
+    {
+      "date": "2026-11-01",
+      "slug": "kitchen-gadgets-for-cooking-for-one",
+      "design": 1,
+      "board": "Cooking for One & Small Kitchens",
+      "title": "Small Kitchen, One Cook: Gadgets Sized for One",
+      "description": "Gadgets sized for one: a 2-cup mini rice cooker, an 8-inch nonstick pan, a personal blender, a mini waffle maker and a ramen bowl. Fewer leftovers and fewer dishes in a small kitchen, compared on the blog."
+    },
+    {
+      "date": "2026-11-01",
+      "slug": "kitchen-gadgets-treats-with-kids",
+      "design": 3,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Kids' Snack Station: Treat Gadgets Under $30",
+      "description": "Set up a snack station with a mini donut maker, a mini waffle maker, a popcorn maker with a seasoning pack, a cotton candy maker and serving trays for toppings. Treat gadgets under $30 for weekends with kids, on the blog."
+    },
+    {
+      "date": "2026-11-02",
+      "slug": "hands-off-kitchen-gadgets-under-30",
+      "design": 3,
+      "board": "Cooking for One & Small Kitchens",
+      "title": "Rice, Eggs and Coffee on Autopilot for One or Two",
+      "description": "For one or two people: a mini rice cooker, a 1.5 qt slow cooker, a microwave egg cooker and a 12-cup coffee maker. Hands-off gadgets under $30 that cook while you do something else, compared on the blog."
+    },
+    {
+      "date": "2026-11-02",
+      "slug": "cook-without-a-stove-microwave-gadgets",
+      "design": 2,
+      "board": "Kitchen Gadgets Under $30",
+      "title": "Microwave Cooking Gadgets Under $30",
+      "description": "Cook real food in the microwave: eggs in an egg poacher or egg cooker, bacon and burgers in a grill pan with lid, and grilled cheese in a sandwich maker. Stove-free gadgets under $30 and which one to get first, on the blog."
+    },
+    {
+      "date": "2026-11-02",
+      "slug": "kitchen-gadgets-under-30-leftovers",
+      "design": 1,
+      "board": "Meal Prep & Leftover Ideas",
+      "title": "Leftovers That Don't Dry Out: Storage and Reheating Tools",
+      "description": "Keep leftovers fresh with glass containers with locking lids and silicone stretch lids, then reheat them under a vented microwave cover or in a steamer basket. Leftover tools under $30 and which one to buy first, on the blog."
     }
   ]
 }
