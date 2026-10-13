@@ -16,7 +16,8 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | ② Online seller parcel (one leg) | **3,000៛** |
 - Payment: COD (បង់ពេលទទួល) or prepay by QR (បង់មុនតាម QR)
 - **COD money is returned to sellers the same day** (owner confirmed 13 Oct 2026) — OK to use in ads.
-- **Delivery within 24 hours of pick-up** (owner confirmed 13 Oct 2026) — OK to use. Same-day delivery is NOT promised.
+- **Delivery within 24 hours of pick-up** (owner confirmed 13 Oct 2026) — Khmer wording: "ដឹកជញ្ជូនដល់ដៃ ក្នុងរយៈពេល២៤ម៉ោង". Same-day delivery is NOT promised.
+- **Online sellers: minimum 5 parcels per booking** (owner, 13 Oct 2026) — Khmer wording: "កក់ចាប់ពី៥កញ្ចប់ឡើង". Note: the Telegram bot still accepts 1–10 parcels.
 
 ## Brand
 - Colors: blue `#1a78cf`, navy `#0d3868`, sky `#dff0fc`, orange `#f08a14`
