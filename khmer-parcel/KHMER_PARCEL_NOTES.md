@@ -90,7 +90,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Riders: pay per delivery, no salary until ~30 orders/day
 
 ## Telegram mini app (online sellers)
-- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 parcels at 2,000៛ per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Owner must paste the new `dist/worker.js` into Cloudflare (13 Oct changes)**
+- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 parcels at 2,000៛ per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Live Cloudflare bot is still the 1 Oct version** (1–10 parcels, "៣ ដងដំបូង" wording); owner chose not to redeploy (13 Oct). `dist/worker.js` in the repo is newer (min 5 parcels, "៣ កញ្ចប់ដំបូង") — paste it only if the owner asks
 - Setup steps in its README; Door to Door stays on the website
 - **Live (Oct 2026):** https://khmer-parcel-bot.putheamak.workers.dev — test booking reached the office group
 - Reuse for other projects: new bot + new Worker + new group each time; edit texts/prices/fields in `src/`, run `node build.mjs`, paste `dist/worker.js` once
