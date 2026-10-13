@@ -10,8 +10,8 @@ Files to send / print:
 
 Facts only (do not promise anything else): 3,000៛ per leg · first 3 deliveries 2,000៛ for online sellers until 31 Oct ·
 book in Telegram bot · up to 10 parcels per booking · pick-up ASAP / 10:00 / 15:00 · rider calls before arriving ·
-rider collects COD from the customer · **COD money returned to the seller the same day** (owner confirmed 13 Oct).
-**Do not promise a delivery time / same-day delivery** until the owner decides.
+rider collects COD from the customer · **COD money returned to the seller the same day** · **delivered within 24 hours of pick-up**
+(both confirmed by the owner, 13 Oct). Do not promise *same-day* delivery.
 
 ---
 
@@ -21,7 +21,7 @@ rider collects COD from the customer · **COD money returned to the seller the s
 > សួស្តីបង 🙏 ខ្ញុំមកពី **ខ្មែរផាសែល** សេវាដឹកឥវ៉ាន់ក្នុងភ្នំពេញ សម្រាប់អ្នកលក់អនឡាញ។
 > ឃើញហាងបងលក់ល្អណាស់ 👍 ខ្ញុំចង់ណែនាំ៖
 > 📦 កក់តាម Telegram ក្នុង ៣០ វិនាទី · ដល់ ១០ កញ្ចប់ ក្នុង ១ ដងកក់
-> 🛵 អ្នកដឹកមកយកដល់ហាង (ឆាប់ៗ / ១០:០០ / ៣:០០ រសៀល)
+> 🛵 អ្នកដឹកមកយកដល់ហាង (ឆាប់ៗ / ១០:០០ / ៣:០០ រសៀល) · **ដឹកដល់ក្នុង ២៤ ម៉ោង**
 > 💵 ប្រមូល COD ជូន · **ប្រគល់ប្រាក់ COD ក្នុងថ្ងៃដដែល**
 > 🎁 ៣ ដងដំបូង ត្រឹម **២,០០០៛ / ជើង** (ធម្មតា ៣,០០០៛) ដល់ ៣១ តុលា
 > សាកល្បងបាន៖ t.me/KhmerParcelBot
@@ -29,7 +29,7 @@ rider collects COD from the customer · **COD money returned to the seller the s
 
 **English (for the owner)**
 > Hello 🙏 I'm from Khmer Parcel, a Phnom Penh delivery service for online sellers. Book in Telegram in 30 seconds,
-> up to 10 parcels per booking; the rider picks up at your shop (ASAP / 10 AM / 3 PM) and collects COD — COD money is returned the same day.
+> up to 10 parcels per booking; the rider picks up at your shop (ASAP / 10 AM / 3 PM), delivers within 24 hours and collects COD — COD money is returned the same day.
 > First 3 deliveries 2,000៛ per leg (normally 3,000៛) until 31 Oct. Try it: t.me/KhmerParcelBot
 
 Attach: the 11 s video **or** the flyer image.
@@ -45,11 +45,11 @@ Attach: the 11 s video **or** the flyer image.
 | កក់យ៉ាងម៉េច? (How to book?) | ចូល t.me/KhmerParcelBot → ចុច «កក់ឥឡូវ» → បំពេញលេខ និងអាសយដ្ឋានអ្នកទទួល → ចុចកក់។ ការិយាល័យនឹងបញ្ជាក់តាម Telegram។ |
 | មកយកម៉ោងប៉ុន្មាន? (Pick-up time?) | ជ្រើសបាន៖ ឆាប់ៗ · ១០:០០ ព្រឹក · ៣:០០ រសៀល។ អ្នកដឹកហៅទូរស័ព្ទមុនមកដល់។ |
 | មាន COD ទេ? (COD?) | មាន។ អ្នកដឹកប្រមូលប្រាក់ពីអតិថិជនជូនបង ហើយប្រគល់ប្រាក់ COD ជូនបង **ក្នុងថ្ងៃដដែល**។ |
-| ដឹកដល់ពេលណា? (When delivered?) | *(Owner to answer — no delivery-time promise in writing yet.)* |
+| ដឹកដល់ពេលណា? (When delivered?) | ដឹកដល់ដៃអតិថិជន **ក្នុង ២៤ ម៉ោង** ក្រោយមកយក។ |
 | ផ្ញើច្រើនកញ្ចប់បានទេ? (Many parcels?) | បាន ដល់ ១០ កញ្ចប់ ក្នុង ១ ដងកក់ មកយកតែម្តង។ |
 
 ## 4. Market visit (say in person, ~20 seconds)
-> សួស្តីបង ខ្ញុំមកពីខ្មែរផាសែល។ បងលក់អនឡាញដែរទេ? យើងដឹកឥវ៉ាន់ក្នុងភ្នំពេញ ៣,០០០៛ មួយជើង
+> សួស្តីបង ខ្ញុំមកពីខ្មែរផាសែល។ បងលក់អនឡាញដែរទេ? យើងដឹកឥវ៉ាន់ក្នុងភ្នំពេញ ក្នុង ២៤ ម៉ោង ៣,០០០៛ មួយជើង
 > តែអ្នកលក់ថ្មី ៣ ដងដំបូង ២,០០០៛ ដល់ចុងខែនេះ។ ប្រាក់ COD ប្រគល់ជូនក្នុងថ្ងៃដដែល។ កក់តាម Telegram ងាយៗ — ស្កេន QR នេះបាន។
 > ខ្ញុំទុកក្រដាសនេះជូនបង 🙏
 
