@@ -85,7 +85,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
 - Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44
 - Drop-off at 0:17 of the 6,000៛ ad (switch to seller scene) → made 29 s door-to-door-only cut
-- Offer (changed 13 Oct 2026): **online seller's first booking — every parcel 2,000៛** (normal 3,000៛), until 31 Oct; Khmer "ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់"; 5 parcels = 10,000៛. Earlier videos still say "៣ ដងដំបូង" (first 3 deliveries).
+- Offer (changed 13 Oct 2026): **online seller's first booking — every parcel 2,000៛** (normal 3,000៛), until 31 Oct; Khmer "ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់"; 5 parcels = 10,000៛. Seller story offer cut, Day 2 book30s and Day 4 seller POV were re-rendered with the new offer + 5-parcel minimum (13 Oct).
 - Door to Door: customers book themselves on khmerparcel.com; price calculated by the system
 - Riders: pay per delivery, no salary until ~30 orders/day
 
