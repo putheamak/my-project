@@ -46,6 +46,8 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_pov_seller.mp4` / `khmer_parcel_ad_pov_doortodoor.mp4` | Day 4 "POV" series with parcel mascot (box for sellers, red gift for door to door), separate cuts per audience, original music (`make_sound_pov.py` + `soundlib.py`). Source `tvc-source/scenes_ad_parcel_pov.html`, specs `ad_pov_seller.json` / `ad_pov_doortodoor.json`. Website QR `tvc-source/qr_khmerparcel_web.png` |
 | `khmer_parcel_story_far_delivery.mp4` | 61 s true-story brand video (both audiences): owner's own delivery Chbar Ampov → Choam Chao, 2 parcels, $2, ~3 h, rider refused → lesson (riders: deliver happily; sellers: fair fee values both sides) → both QRs. Uses owner's real photos (`tvc-source/photos_far/`, customer info, other brand's bag and car plate blurred). Caption in `story_far_delivery_caption.md`. Source `scenes_story_far.html`, spec `story_far_delivery.json`, sound `make_sound_story_far.py` |
 | `khmer_parcel_ad_route_quote_1.mp4` | 21 s, series "ពីណា ទៅណា? ថ្លៃប៉ុន្មាន?" video 1 (door to door): ask viewers to comment 2 places, answer with screen-recorded real website prices. Plan + caption in `route_quote_series.md`. Source `scenes_ad_route_quote.html`, spec `ad_route_quote_1.json` |
+| `khmer_parcel_ad_route_quote_1_v2.mp4` | 12.6 s re-cut: real motorbike photo + question + comment ask from 0:00, 4 s website example, ask again + website QR (fixes the 0:04 drop and 0 comments of v1) |
+| `khmer_parcel_pitch_seller_10s.mp4` | 10 s seller pitch to send in chat (real photo hook "២,០០០៛", 4 benefits, bot QR). Use with `seller_outreach_kit.md` and `print/khmer_parcel_flyer_seller_A5.pdf` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
@@ -75,6 +77,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
 
 ## Results & decisions (Oct 2026)
+- 13 Oct: 1 booking (2 parcels) since 1 Oct. Insights: true story 356 views / 27 s avg watch / 24.5% non-followers vs route quote 191 views / 5 s avg / 0 comments; both drop at 0:04–0:05 when real hook switches to animation → real footage first, ask in first 2 s. Plan: direct seller outreach (kit + A5 flyer + 10 s pitch) to get 10 sellers trying the offer before 31 Oct; owner collects 2–3 photos per delivery; owner to screen-record a website booking
 - 11 Oct: website bookings still very low (57 clicks → 0 bookings earlier) → shift videos to comment/lead-driven series; owner to test the website booking flow on a phone and send a screen recording
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
 - Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44

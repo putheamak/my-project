@@ -1,0 +1,11 @@
+{
+  "html": "scenes_ad_route_quote.html",
+  "out": "../khmer_parcel_pitch_seller_10s.mp4",
+  "xfade": 0.3,
+  "audio": "pitch_seller_10s_music.m4a",
+  "segments": [
+    {"scene": "sp_hook", "dur": 3.2, "next": "slideup"},
+    {"scene": "sp_why", "dur": 3.8, "next": "circleopen"},
+    {"scene": "sp_qr", "dur": 4.0}
+  ]
+}
