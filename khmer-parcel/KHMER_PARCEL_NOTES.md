@@ -17,7 +17,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Payment: COD (បង់ពេលទទួល) or prepay by QR (បង់មុនតាម QR)
 - **COD money is returned to sellers the same day** (owner confirmed 13 Oct 2026) — OK to use in ads.
 - **Delivery within 24 hours of pick-up** (owner confirmed 13 Oct 2026) — Khmer wording: "ដឹកជញ្ជូនដល់ដៃ ក្នុងរយៈពេល២៤ម៉ោង". Same-day delivery is NOT promised.
-- **Online sellers: minimum 5 parcels per booking** (owner, 13 Oct 2026) — Khmer wording: "កក់ចាប់ពី៥កញ្ចប់ឡើង". The Telegram bot enforces 5–10 parcels (`MIN_PARCELS`, 13 Oct) — owner must paste the new `dist/worker.js` into Cloudflare for it to go live. Offer still counts per parcel: a new seller's first 5-parcel booking = 3×2,000 + 2×3,000 = 12,000៛.
+- **Online sellers: minimum 5 parcels per booking** (owner, 13 Oct 2026) — Khmer wording: "កក់ចាប់ពី៥កញ្ចប់ឡើង". The Telegram bot enforces 5–10 parcels (`MIN_PARCELS`).
 
 ## Brand
 - Colors: blue `#1a78cf`, navy `#0d3868`, sky `#dff0fc`, orange `#f08a14`
@@ -85,12 +85,12 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
 - Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44
 - Drop-off at 0:17 of the 6,000៛ ad (switch to seller scene) → made 29 s door-to-door-only cut
-- Offer: **first 3 online-seller deliveries at 2,000៛** (normal 3,000៛)
+- Offer (changed 13 Oct 2026): **online seller's first booking — every parcel 2,000៛** (normal 3,000៛), until 31 Oct; Khmer "ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់"; 5 parcels = 10,000៛. Earlier videos still say "៣ ដងដំបូង" (first 3 deliveries).
 - Door to Door: customers book themselves on khmerparcel.com; price calculated by the system
 - Riders: pay per delivery, no salary until ~30 orders/day
 
 ## Telegram mini app (online sellers)
-- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 deliveries 2,000៛ per Telegram account (KV `KP`), optional `OFFER_END`
+- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first booking at 2,000៛ per parcel per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Owner must paste the new `dist/worker.js` into Cloudflare (13 Oct changes)**
 - Setup steps in its README; Door to Door stays on the website
 - **Live (Oct 2026):** https://khmer-parcel-bot.putheamak.workers.dev — test booking reached the office group
 - Reuse for other projects: new bot + new Worker + new group each time; edit texts/prices/fields in `src/`, run `node build.mjs`, paste `dist/worker.js` once

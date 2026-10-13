@@ -67,7 +67,7 @@ textarea{resize:vertical;min-height:44px}
 </header>
 <div class="offer" id="offer" hidden>
   <span style="font-size:26px">★</span>
-  <span><span id="offerText">៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង</span><small>សម្រាប់អ្នកលក់ថ្មី · First 3 deliveries for new sellers</small></span>
+  <span><span id="offerText">ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់</span><small>សម្រាប់អ្នកលក់ថ្មី · First booking 2,000៛ per parcel</small></span>
 </div>
 
 <section class="card">
@@ -155,7 +155,7 @@ const $=s=>document.querySelector(s);
 const tg=window.Telegram&&window.Telegram.WebApp;
 const inTelegram=!!(tg&&tg.initData);
 
-let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:true,used:0,minParcels:5,maxParcels:10};
+let cfg={normalPrice:3000,offerPrice:2000,offerActive:true,used:0,minParcels:5,maxParcels:10};
 let geo=null;
 
 function khanOptions(sel){
@@ -166,7 +166,7 @@ function bindSeg(el,onChange){
   el.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
     el.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));tg&&tg.HapticFeedback&&tg.HapticFeedback.selectionChanged();onChange&&onChange()});
 }
-function priceFor(i){return cfg.offerActive&&cfg.used+i<cfg.offerCount?cfg.offerPrice:cfg.normalPrice}
+function priceFor(i){return cfg.offerActive&&cfg.used===0?cfg.offerPrice:cfg.normalPrice}
 
 function addParcel(){
   const node=$('#parcelTpl').content.firstElementChild.cloneNode(true);
@@ -255,9 +255,7 @@ async function loadConfig(){
     const r=await fetch('api/config',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({initData:tg?tg.initData:''})});
     if(r.ok)Object.assign(cfg,await r.json());
   }catch(e){}
-  const left=Math.max(0,cfg.offerCount-cfg.used);
-  $('#offer').hidden=!(cfg.offerActive&&left>0);
-  if(left>0&&left<cfg.offerCount)$('#offerText').textContent='នៅសល់ '+kh(left)+' ដង តម្លៃ '+riel(cfg.offerPrice)+' / ជើង';
+  $('#offer').hidden=!(cfg.offerActive&&cfg.used===0);
   $('#minNote').textContent='កក់ចាប់ពី'+kh(cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+cfg.minParcels+' parcels per booking';
   ensureMinParcels();
 }

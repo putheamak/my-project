@@ -3,7 +3,7 @@
 Sellers open your bot, tap **📦 កក់ឥឡូវ**, fill a short Khmer form (**5–10 parcels per pick-up**),
 and the booking is posted to your **office Telegram group**. The seller gets a booking code.
 
-- First 3 deliveries per seller at **2,000៛**, then **3,000៛** (counted per Telegram account)
+- **First booking: every parcel 2,000៛**, later bookings **3,000៛** per parcel (counted per Telegram account)
 - Shop details are remembered for next time
 - Bookings are signed by Telegram and checked by the server, so nobody can post fake bookings into your group
 - Runs on **Cloudflare Workers** (free plan) — no server to maintain
@@ -61,7 +61,7 @@ You should see `"webhook":true,"menuButton":true`.
 - In the bot's **BotFather → /mybots → Bot Settings → Configure Mini App**, you can also set the Worker address as the main Mini App, so it opens from the bot's profile.
 
 ## Changing things
-- Prices / offer size / parcels per booking: top of `src/worker.src.js` (`NORMAL_PRICE`, `OFFER_PRICE`, `OFFER_COUNT`, `MIN_PARCELS` = 5, `MAX_PARCELS` = 10). The app reads them from the server; the server refuses bookings below the minimum.
+- Prices / offer size / parcels per booking: top of `src/worker.src.js` (`NORMAL_PRICE`, `OFFER_PRICE` — applies to the whole first booking, `MIN_PARCELS` = 5, `MAX_PARCELS` = 10). The app reads them from the server; the server refuses bookings below the minimum.
 - Text on the screen: `src/app.html`.
 - After editing: `node build.mjs`, then paste `dist/worker.js` into Cloudflare again.
 

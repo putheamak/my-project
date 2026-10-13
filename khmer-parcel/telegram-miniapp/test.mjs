@@ -50,7 +50,7 @@ assert.equal((await post("/api/book", { initData: "", booking: booking(1) })).st
 
 // config before any booking
 let cfg = await (await post("/api/config", { initData: makeInitData(user) })).json();
-assert.deepEqual([cfg.used, cfg.offerPrice, cfg.offerActive], [0, 2000, true]);
+assert.deepEqual([cfg.used, cfg.offerPrice, cfg.offerActive, cfg.firstBooking], [0, 2000, true, true]);
 
 // minimum 5 parcels per booking
 assert.equal(cfg.minParcels, 5);
@@ -59,10 +59,11 @@ assert.equal(res.status, 400, "4 parcels refused");
 assert.equal((await res.json()).error, "min_parcels");
 assert.equal(sent.length, 0, "nothing posted for a refused booking");
 
-// first booking: 5 parcels, first 3 at offer price
+// first booking: every parcel at offer price
 let r = await (await post("/api/book", { initData: makeInitData(user), booking: booking(5) })).json();
 assert.ok(r.ok, JSON.stringify(r));
-assert.deepEqual(r.prices, [2000, 2000, 2000, 3000, 3000]);
+assert.deepEqual(r.prices, [2000, 2000, 2000, 2000, 2000]);
+assert.equal(r.total, 10000);
 const groupMsg = sent.find((m) => m.body.chat_id === "-1001");
 assert.ok(groupMsg, "posted to group");
 assert.match(groupMsg.body.text, /Srey &lt;Shop&gt;/, "HTML escaped");
@@ -74,6 +75,7 @@ r = await (await post("/api/book", { initData: makeInitData(user), booking: book
 assert.deepEqual(r.prices, [3000, 3000, 3000, 3000, 3000]);
 cfg = await (await post("/api/config", { initData: makeInitData(user) })).json();
 assert.equal(cfg.used, 10);
+assert.equal(cfg.firstBooking, false);
 
 // offer ended
 r = await (await worker.fetch(new Request("https://kp.example.workers.dev/api/book", { method: "POST", body: JSON.stringify({ initData: makeInitData({ id: 7, first_name: "N" }), booking: booking(5) }) }), { ...env, OFFER_END: "2020-01-01" })).json();

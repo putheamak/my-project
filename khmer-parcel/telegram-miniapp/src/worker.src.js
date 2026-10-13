@@ -2,7 +2,7 @@
 //
 // Routes
 //   GET  /                      the mini app page
-//   POST /api/config            prices + how many offer deliveries this seller has used
+//   POST /api/config            prices + whether this seller's next booking is their first (offer)
 //   POST /api/book              validate Telegram initData, post booking to the office group
 //   POST /bot                   Telegram webhook (/start, /chatid)
 //   GET  /setup?key=SECRET      one-time: registers the webhook and the chat menu button
@@ -18,7 +18,7 @@ const APP_HTML = __APP_HTML__;
 
 const NORMAL_PRICE = 3000;
 const OFFER_PRICE = 2000;
-const OFFER_COUNT = 3;
+// Offer: every parcel in a seller's FIRST booking costs OFFER_PRICE (owner decision, 13 Oct 2026).
 const MIN_PARCELS = 5; // online sellers book at least 5 parcels per pick-up (owner decision, Oct 2026)
 const MAX_PARCELS = 10;
 const INIT_DATA_MAX_AGE_S = 24 * 3600;
@@ -55,7 +55,7 @@ async function handleConfig(request, env) {
   const body = await request.json().catch(() => ({}));
   const user = await verifyInitData(body.initData, env.BOT_TOKEN);
   const used = user ? await getUsed(env, user.id) : 0;
-  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerCount: OFFER_COUNT, offerActive: offerActive(env), used, minParcels: MIN_PARCELS, maxParcels: MAX_PARCELS });
+  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerActive: offerActive(env), used, firstBooking: used === 0, minParcels: MIN_PARCELS, maxParcels: MAX_PARCELS });
 }
 
 async function handleBook(request, env) {
@@ -71,7 +71,7 @@ async function handleBook(request, env) {
 
   const used = await getUsed(env, user.id);
   const active = offerActive(env);
-  const prices = b.parcels.map((_, i) => (active && used + i < OFFER_COUNT ? OFFER_PRICE : NORMAL_PRICE));
+  const prices = b.parcels.map(() => (active && used === 0 ? OFFER_PRICE : NORMAL_PRICE));
   const total = prices.reduce((a, c) => a + c, 0);
   const id = bookingId();
 
@@ -108,7 +108,7 @@ async function handleBot(request, env) {
   } else if (cmd === "/start" && msg.chat.type === "private") {
     await tg(env, "sendMessage", {
       chat_id: msg.chat.id,
-      text: "សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n📦 កក់ចាប់ពី៥កញ្ចប់ឡើង\n🎁 ៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇",
+      text: "សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n📦 កក់ចាប់ពី៥កញ្ចប់ឡើង\n🎁 ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇",
       reply_markup: { inline_keyboard: [[{ text: "📦 កក់ឥឡូវ · Book now", web_app: { url: appUrl } }]] },
     });
   }
@@ -219,7 +219,7 @@ export function groupMessage(id, user, b, prices, total) {
     lines.push(`<b>${i + 1}.</b> ${e(p.name || "អ្នកទទួល")} · ${e(p.phone)}\n    ${KHAN_KM[p.khan]} — ${e(p.address)}\n    ${SIZE_KM[p.size]}${cod} · ថ្លៃដឹក ${fmtRiel(prices[i])}`);
   });
   lines.push("", `💰 សរុបថ្លៃដឹក: <b>${fmtRiel(total)}</b> · ${b.feePaidBy === "customer" ? "អតិថិជនបង់" : "អ្នកលក់បង់"}`);
-  if (prices.some((p) => p === OFFER_PRICE)) lines.push("🎁 តម្លៃពិសេស ៣ ដងដំបូង");
+  if (prices.some((p) => p === OFFER_PRICE)) lines.push("🎁 តម្លៃពិសេស ការកក់លើកដំបូង");
   return lines.join("\n");
 }
 
