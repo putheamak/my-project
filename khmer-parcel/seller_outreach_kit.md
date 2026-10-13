@@ -8,7 +8,7 @@ Files to send / print:
 - `print/khmer_parcel_flyer_seller_A5.pdf` (print) · `print/khmer_parcel_flyer_seller_A5.png` (send as image)
 - Bot link: **t.me/KhmerParcelBot**
 
-Facts only (do not promise anything else): 3,000៛ per parcel · **first booking: every parcel 2,000៛** for online sellers until 31 Oct (5 parcels = 10,000៛) ·
+Facts only (do not promise anything else): 3,000៛ per parcel · **first 3 parcels 2,000៛**, then 3,000៛ — for online sellers until 31 Oct (first 5-parcel booking = 12,000៛) ·
 book in Telegram bot · **minimum 5 parcels per booking** (owner, 13 Oct) · pick-up ASAP / 10:00 / 15:00 · rider calls before arriving ·
 rider collects COD from the customer · **COD money returned to the seller the same day** · **delivered within 24 hours of pick-up**
 (both confirmed by the owner, 13 Oct). Do not promise *same-day* delivery.
@@ -23,25 +23,25 @@ rider collects COD from the customer · **COD money returned to the seller the s
 > 📦 កក់តាម Telegram ក្នុង ៣០ វិនាទី · កក់ចាប់ពី៥កញ្ចប់ឡើង
 > 🛵 អ្នកដឹកមកយកដល់ហាង (ឆាប់ៗ / ១០:០០ / ៣:០០ រសៀល) · **ដឹកជញ្ជូនដល់ដៃ ក្នុងរយៈពេល២៤ម៉ោង**
 > 💵 ប្រមូល COD ជូន · **ប្រគល់ប្រាក់ COD ក្នុងថ្ងៃដដែល**
-> 🎁 ការកក់លើកដំបូង ត្រឹម **២,០០០៛ / កញ្ចប់** (ធម្មតា ៣,០០០៛) ដល់ ៣១ តុលា
+> 🎁 ៣ កញ្ចប់ដំបូង ត្រឹម **២,០០០៛ / កញ្ចប់** (ធម្មតា ៣,០០០៛) ដល់ ៣១ តុលា
 > សាកល្បងបាន៖ t.me/KhmerParcelBot
 > មានសំណួរ ឆាតមកខ្ញុំបាន ឬ 012 429 597 🙏
 
 **English (for the owner)**
 > Hello 🙏 I'm from Khmer Parcel, a Phnom Penh delivery service for online sellers. Book in Telegram in 30 seconds,
 > minimum 5 parcels per booking; the rider picks up at your shop (ASAP / 10 AM / 3 PM), delivers within 24 hours and collects COD — COD money is returned the same day.
-> First booking: 2,000៛ per parcel (normally 3,000៛) until 31 Oct. Try it: t.me/KhmerParcelBot
+> First 3 parcels 2,000៛ each (normally 3,000៛) until 31 Oct. Try it: t.me/KhmerParcelBot
 
 Attach: the 11 s video **or** the flyer image.
 
 ## 2. Follow-up (2–3 days later, if no reply)
-> សួស្តីបង 🙏 រំលឹកបន្តិច៖ តម្លៃ ២,០០០៛ / កញ្ចប់ សម្រាប់ការកក់លើកដំបូង នៅសល់ដល់ ៣១ តុលាប៉ុណ្ណោះ។
+> សួស្តីបង 🙏 រំលឹកបន្តិច៖ តម្លៃ ២,០០០៛ / កញ្ចប់ សម្រាប់ ៣ កញ្ចប់ដំបូង នៅសល់ដល់ ៣១ តុលាប៉ុណ្ណោះ។
 > បើបងចង់សាក ថ្ងៃនេះ ឬស្អែក ខ្ញុំអាចជួយកក់ជូនតាម Telegram បាន 📦
 
 ## 3. Short replies to common questions
 | Question | Answer |
 |---|---|
-| ថ្លៃប៉ុន្មាន? (How much?) | ៣,០០០៛ ក្នុងមួយកញ្ចប់។ អ្នកលក់ថ្មី ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់ ដល់ ៣១ តុលា (៥ កញ្ចប់ = ១០,០០០៛)។ |
+| ថ្លៃប៉ុន្មាន? (How much?) | ៣,០០០៛ ក្នុងមួយកញ្ចប់។ អ្នកលក់ថ្មី ៣ កញ្ចប់ដំបូង ២,០០០៛ / កញ្ចប់ ដល់ ៣១ តុលា (ការកក់ដំបូង ៥ កញ្ចប់ = ១២,០០០៛)។ |
 | កក់យ៉ាងម៉េច? (How to book?) | ចូល t.me/KhmerParcelBot → ចុច «កក់ឥឡូវ» → បំពេញលេខ និងអាសយដ្ឋានអ្នកទទួល → ចុចកក់។ ការិយាល័យនឹងបញ្ជាក់តាម Telegram។ |
 | មកយកម៉ោងប៉ុន្មាន? (Pick-up time?) | ជ្រើសបាន៖ ឆាប់ៗ · ១០:០០ ព្រឹក · ៣:០០ រសៀល។ អ្នកដឹកហៅទូរស័ព្ទមុនមកដល់។ |
 | មាន COD ទេ? (COD?) | មាន។ អ្នកដឹកប្រមូលប្រាក់ពីអតិថិជនជូនបង ហើយប្រគល់ប្រាក់ COD ជូនបង **ក្នុងថ្ងៃដដែល**។ |
@@ -50,7 +50,7 @@ Attach: the 11 s video **or** the flyer image.
 
 ## 4. Market visit (say in person, ~20 seconds)
 > សួស្តីបង ខ្ញុំមកពីខ្មែរផាសែល។ បងលក់អនឡាញដែរទេ? យើងដឹកឥវ៉ាន់ក្នុងភ្នំពេញ ដល់ដៃក្នុងរយៈពេល២៤ម៉ោង ៣,០០០៛ មួយកញ្ចប់ (កក់ចាប់ពី៥កញ្ចប់ឡើង)
-> តែអ្នកលក់ថ្មី ការកក់លើកដំបូង ២,០០០៛ មួយកញ្ចប់ ដល់ចុងខែនេះ។ ប្រាក់ COD ប្រគល់ជូនក្នុងថ្ងៃដដែល។ កក់តាម Telegram ងាយៗ — ស្កេន QR នេះបាន។
+> តែអ្នកលក់ថ្មី ៣ កញ្ចប់ដំបូង ២,០០០៛ មួយកញ្ចប់ ដល់ចុងខែនេះ។ ប្រាក់ COD ប្រគល់ជូនក្នុងថ្ងៃដដែល។ កក់តាម Telegram ងាយៗ — ស្កេន QR នេះបាន។
 > ខ្ញុំទុកក្រដាសនេះជូនបង 🙏
 
 Leave the A5 flyer. Write down: shop name, phone/Telegram, what they sell, parcels per day, follow-up date.

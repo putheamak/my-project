@@ -85,12 +85,12 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
 - Ads 30 Sep–1 Oct, $5/day: 2,546 views, 605 3-sec views, avg watch 4 s, 57 link clicks, **0 bookings, 4 rider applicants**; audience mostly men 25–44
 - Drop-off at 0:17 of the 6,000៛ ad (switch to seller scene) → made 29 s door-to-door-only cut
-- Offer (changed 13 Oct 2026): **online seller's first booking — every parcel 2,000៛** (normal 3,000៛), until 31 Oct; Khmer "ការកក់លើកដំបូង ២,០០០៛ / កញ្ចប់"; 5 parcels = 10,000៛. Seller story offer cut, Day 2 book30s and Day 4 seller POV were re-rendered with the new offer + 5-parcel minimum (13 Oct).
+- Offer: **online sellers' first 3 parcels at 2,000៛**, then 3,000៛ per parcel, until 31 Oct (owner kept this on 13 Oct after briefly trying "first booking 2,000៛"). Khmer: "៣ កញ្ចប់ដំបូង ២,០០០៛ / កញ្ចប់"; first 5-parcel booking = 12,000៛. The Day 1 offer cut, Day 2 book30s and Day 4 seller POV mp4s still show the dropped "ការកក់លើកដំបូង" wording — do not post them until re-rendered.
 - Door to Door: customers book themselves on khmerparcel.com; price calculated by the system
 - Riders: pay per delivery, no salary until ~30 orders/day
 
 ## Telegram mini app (online sellers)
-- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first booking at 2,000៛ per parcel per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Owner must paste the new `dist/worker.js` into Cloudflare (13 Oct changes)**
+- Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 parcels at 2,000៛ per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Owner must paste the new `dist/worker.js` into Cloudflare (13 Oct changes)**
 - Setup steps in its README; Door to Door stays on the website
 - **Live (Oct 2026):** https://khmer-parcel-bot.putheamak.workers.dev — test booking reached the office group
 - Reuse for other projects: new bot + new Worker + new group each time; edit texts/prices/fields in `src/`, run `node build.mjs`, paste `dist/worker.js` once
