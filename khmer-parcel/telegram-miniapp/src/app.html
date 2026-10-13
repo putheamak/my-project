@@ -92,6 +92,7 @@ textarea{resize:vertical;min-height:44px}
 
 <section class="card">
   <h2><span class="n">២</span>កញ្ចប់ & អ្នកទទួល · Parcels</h2>
+  <div class="note" id="minNote" style="margin:-4px 0 4px;font-weight:600;color:var(--blue)">កក់ចាប់ពី៥កញ្ចប់ឡើង · Minimum 5 parcels per booking</div>
   <div id="parcels"></div>
   <button class="ghost" type="button" id="addBtn">＋ បន្ថែមកញ្ចប់ · Add parcel</button>
 </section>
@@ -154,7 +155,7 @@ const $=s=>document.querySelector(s);
 const tg=window.Telegram&&window.Telegram.WebApp;
 const inTelegram=!!(tg&&tg.initData);
 
-let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:true,used:0};
+let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:true,used:0,minParcels:5,maxParcels:10};
 let geo=null;
 
 function khanOptions(sel){
@@ -178,10 +179,11 @@ function renumber(){
   const list=[...document.querySelectorAll('.parcel')];
   list.forEach((p,i)=>{p.querySelector('.t').textContent='កញ្ចប់ទី '+kh(i+1)+' · Parcel '+(i+1);
     p.querySelector('.price').textContent=riel(priceFor(i));
-    p.querySelector('.rm').style.display=list.length>1?'':'none'});
+    p.querySelector('.rm').style.display=list.length>cfg.minParcels?'':'none'});
   $('#total').textContent=riel(list.reduce((s,_,i)=>s+priceFor(i),0));
-  $('#addBtn').style.display=list.length>=10?'none':'';
+  $('#addBtn').style.display=list.length>=cfg.maxParcels?'none':'';
 }
+function ensureMinParcels(){while(document.querySelectorAll('.parcel').length<cfg.minParcels)addParcel();renumber()}
 
 function collect(){
   const err=[];const bad=el=>{el.classList.add('bad');return el};
@@ -211,11 +213,13 @@ async function submit(){
   if(sending)return;
   $('#err').style.display='none';
   const{err,booking}=collect();
+  if(booking.parcels.length<cfg.minParcels){showError('កក់ចាប់ពី'+kh(cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+cfg.minParcels+' parcels per booking.');return}
   if(err.length){err[0].scrollIntoView({behavior:'smooth',block:'center'});showError('សូមបំពេញព័ត៌មានដែលមានសញ្ញា * · Please fill the required fields.');return}
   sending=true;setBusy(true);
   try{
     const r=await fetch('api/book',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({initData:tg?tg.initData:'',booking})});
     const j=await r.json().catch(()=>({}));
+    if(j.error==='min_parcels'){showError('កក់ចាប់ពី'+kh(j.minParcels||cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+(j.minParcels||cfg.minParcels)+' parcels per booking.');return}
     if(!r.ok||!j.ok)throw new Error(j.error||('HTTP '+r.status));
     saveProfile(booking);
     $('#form').style.display='none';$('#done').style.display='block';$('#doneCode').textContent=j.id;
@@ -254,7 +258,8 @@ async function loadConfig(){
   const left=Math.max(0,cfg.offerCount-cfg.used);
   $('#offer').hidden=!(cfg.offerActive&&left>0);
   if(left>0&&left<cfg.offerCount)$('#offerText').textContent='នៅសល់ '+kh(left)+' ដង តម្លៃ '+riel(cfg.offerPrice)+' / ជើង';
-  renumber();
+  $('#minNote').textContent='កក់ចាប់ពី'+kh(cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+cfg.minParcels+' parcels per booking';
+  ensureMinParcels();
 }
 
 $('#locBtn').onclick=()=>{
@@ -266,7 +271,7 @@ $('#locBtn').onclick=()=>{
 };
 document.addEventListener('input',e=>{e.target.classList.remove('bad');$('#err').style.display='none'});
 $('#addBtn').onclick=addParcel;
-$('#againBtn').onclick=()=>{$('#parcels').innerHTML='';addParcel();$('#done').style.display='none';$('#form').style.display='';initButtons();loadConfig()};
+$('#againBtn').onclick=()=>{$('#parcels').innerHTML='';ensureMinParcels();$('#done').style.display='none';$('#form').style.display='';initButtons();loadConfig()};
 $('#fbBtn').onclick=submit;
 bindSeg($('#ptime'));bindSeg($('#payer'));
 khanOptions($('#pkhan'));
@@ -278,7 +283,7 @@ function initButtons(){
 }
 if(tg){tg.ready();tg.expand();tg.MainButton.onClick(submit);
   if(tg.initDataUnsafe&&tg.initDataUnsafe.user)$('#shop').placeholder=(tg.initDataUnsafe.user.first_name||'')+' shop';}
-addParcel();loadProfile();initButtons();loadConfig();
+ensureMinParcels();loadProfile();initButtons();loadConfig();
 </script>
 </body>
 </html>

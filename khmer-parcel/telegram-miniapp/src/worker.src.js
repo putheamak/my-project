@@ -19,6 +19,7 @@ const APP_HTML = __APP_HTML__;
 const NORMAL_PRICE = 3000;
 const OFFER_PRICE = 2000;
 const OFFER_COUNT = 3;
+const MIN_PARCELS = 5; // online sellers book at least 5 parcels per pick-up (owner decision, Oct 2026)
 const MAX_PARCELS = 10;
 const INIT_DATA_MAX_AGE_S = 24 * 3600;
 
@@ -54,7 +55,7 @@ async function handleConfig(request, env) {
   const body = await request.json().catch(() => ({}));
   const user = await verifyInitData(body.initData, env.BOT_TOKEN);
   const used = user ? await getUsed(env, user.id) : 0;
-  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerCount: OFFER_COUNT, offerActive: offerActive(env), used });
+  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerCount: OFFER_COUNT, offerActive: offerActive(env), used, minParcels: MIN_PARCELS, maxParcels: MAX_PARCELS });
 }
 
 async function handleBook(request, env) {
@@ -63,6 +64,8 @@ async function handleBook(request, env) {
   const user = await verifyInitData(body.initData, env.BOT_TOKEN);
   if (!user) return json({ ok: false, error: "open_in_telegram" }, 401);
 
+  const n = body.booking && Array.isArray(body.booking.parcels) ? body.booking.parcels.length : 0;
+  if (n < MIN_PARCELS) return json({ ok: false, error: "min_parcels", minParcels: MIN_PARCELS }, 400);
   const b = sanitize(body.booking);
   if (!b) return json({ ok: false, error: "invalid_booking" }, 400);
 
@@ -105,7 +108,7 @@ async function handleBot(request, env) {
   } else if (cmd === "/start" && msg.chat.type === "private") {
     await tg(env, "sendMessage", {
       chat_id: msg.chat.id,
-      text: "សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n🎁 ៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇",
+      text: "សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n📦 កក់ចាប់ពី៥កញ្ចប់ឡើង\n🎁 ៣ ដងដំបូង ត្រឹម ២,០០០៛ / ជើង\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇",
       reply_markup: { inline_keyboard: [[{ text: "📦 កក់ឥឡូវ · Book now", web_app: { url: appUrl } }]] },
     });
   }
@@ -181,7 +184,7 @@ export function sanitize(raw) {
     b.location = { lat: loc.lat, lng: loc.lng };
   }
   if (!b.phone || !b.pickupKhan || (!b.pickupAddress && !b.location)) return null;
-  if (!Array.isArray(raw.parcels) || raw.parcels.length < 1 || raw.parcels.length > MAX_PARCELS) return null;
+  if (!Array.isArray(raw.parcels) || raw.parcels.length < MIN_PARCELS || raw.parcels.length > MAX_PARCELS) return null;
   for (const p of raw.parcels) {
     const cod = Number(p && p.cod);
     const item = {

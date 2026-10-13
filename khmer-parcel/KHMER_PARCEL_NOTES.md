@@ -17,7 +17,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Payment: COD (បង់ពេលទទួល) or prepay by QR (បង់មុនតាម QR)
 - **COD money is returned to sellers the same day** (owner confirmed 13 Oct 2026) — OK to use in ads.
 - **Delivery within 24 hours of pick-up** (owner confirmed 13 Oct 2026) — Khmer wording: "ដឹកជញ្ជូនដល់ដៃ ក្នុងរយៈពេល២៤ម៉ោង". Same-day delivery is NOT promised.
-- **Online sellers: minimum 5 parcels per booking** (owner, 13 Oct 2026) — Khmer wording: "កក់ចាប់ពី៥កញ្ចប់ឡើង". Note: the Telegram bot still accepts 1–10 parcels.
+- **Online sellers: minimum 5 parcels per booking** (owner, 13 Oct 2026) — Khmer wording: "កក់ចាប់ពី៥កញ្ចប់ឡើង". The Telegram bot enforces 5–10 parcels (`MIN_PARCELS`, 13 Oct) — owner must paste the new `dist/worker.js` into Cloudflare for it to go live. Offer still counts per parcel: a new seller's first 5-parcel booking = 3×2,000 + 2×3,000 = 12,000៛.
 
 ## Brand
 - Colors: blue `#1a78cf`, navy `#0d3868`, sky `#dff0fc`, orange `#f08a14`

@@ -1,6 +1,6 @@
 # Khmer Parcel — Telegram Mini App (online seller booking)
 
-Sellers open your bot, tap **📦 កក់ឥឡូវ**, fill a short Khmer form (several parcels per pick-up),
+Sellers open your bot, tap **📦 កក់ឥឡូវ**, fill a short Khmer form (**5–10 parcels per pick-up**),
 and the booking is posted to your **office Telegram group**. The seller gets a booking code.
 
 - First 3 deliveries per seller at **2,000៛**, then **3,000៛** (counted per Telegram account)
@@ -61,7 +61,7 @@ You should see `"webhook":true,"menuButton":true`.
 - In the bot's **BotFather → /mybots → Bot Settings → Configure Mini App**, you can also set the Worker address as the main Mini App, so it opens from the bot's profile.
 
 ## Changing things
-- Prices / offer size: top of `src/worker.src.js` (`NORMAL_PRICE`, `OFFER_PRICE`, `OFFER_COUNT`). The app reads them from the server.
+- Prices / offer size / parcels per booking: top of `src/worker.src.js` (`NORMAL_PRICE`, `OFFER_PRICE`, `OFFER_COUNT`, `MIN_PARCELS` = 5, `MAX_PARCELS` = 10). The app reads them from the server; the server refuses bookings below the minimum.
 - Text on the screen: `src/app.html`.
 - After editing: `node build.mjs`, then paste `dist/worker.js` into Cloudflare again.
 
