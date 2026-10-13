@@ -32,6 +32,19 @@ const imagesDir = path.join(here, "images");
 const outArg = process.argv.indexOf("--out");
 const outDir = path.resolve(outArg > -1 ? process.argv[outArg + 1] : path.join(here, "dist-blog", "pins"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
+const topics = loadTopics(here);
+
+// Suggested Pinterest "tagged topics": the board's topic first, then the post's
+// topic, then general ones. A pin-queue entry can set its own "tags".
+const generalTags = ["kitchen gadgets", "kitchen tools", "kitchen must haves", "small kitchen ideas", "cooking tips"];
+function tagsFor(slug, board, own) {
+  if (own?.length) return own.slice(0, 5);
+  const byBoard = topics.find((t) => t.board === board);
+  const byPost = topics.find((t) => (t.posts ?? []).includes(slug));
+  return [...new Set([...(byBoard?.tags ?? []), ...(byPost?.tags ?? []), ...generalTags])].slice(0, 5);
+}
+const tagsHint = (tags) =>
+  `<p class="hint">Tagged topics: <strong>${tags.map(esc).join(" · ")}</strong><br>Type each one into "Tagged topics" and pick the closest match.</p>`;
 
 const convert = ["magick", "convert"].find((cmd) => spawnSync(cmd, ["-version"]).status === 0);
 if (!convert) {
@@ -175,6 +188,7 @@ ${field("Title", i.title, 2)}
 ${field("Description", i.description, 5)}
 ${field("Link", i.link, 2)}
 <p class="hint">Board: <strong>${esc(i.board)}</strong> · Design ${i.design} (tap the image to download)</p>
+${tagsHint(tagsFor(i.slug, i.board, i.tags))}
 ${i.ai ? aiHint : ""}
 </div></div>`;
 
@@ -188,7 +202,6 @@ const videosPath = path.join(outDir, "videos.json");
 const videos = fs.existsSync(videosPath) ? JSON.parse(fs.readFileSync(videosPath, "utf8")) : {};
 // Pinterest video pin text: different from the post's image pin (Pinterest
 // prefers fresh text), on the post's topic board, linking to the post.
-const topics = loadTopics(here);
 const boardFor = (post) =>
   topics.find((t) => (t.posts ?? []).includes(post.slug))?.board || post.pinBoard || "";
 const videoPinTitle = (post) => (post.title.length <= 100 ? post.title : post.seoTitle || post.pinTitle || post.title).slice(0, 100);
@@ -211,6 +224,7 @@ ${field("Video pin title", videoPinTitle(post), 2)}
 ${field("Video pin description", videoPinDescription(post), 5)}
 ${field("Video pin link", link, 2)}
 ${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
+${tagsHint(tagsFor(post.slug, board))}
 </div>`;
 };
 
@@ -222,6 +236,7 @@ ${field("Title", pinTitle, 3)}
 ${field("Description", pinDescription, 5)}
 ${field("Link", link, 2)}
 ${post.pinBoard ? `<p class="hint">Suggested board: ${esc(post.pinBoard)}</p>` : ""}
+${tagsHint(tagsFor(post.slug, post.pinBoard))}
 ${/ai-generated/i.test(post.image) ? aiHint : ""}
 ${videoBlock(post, link)}
 </section>`;
