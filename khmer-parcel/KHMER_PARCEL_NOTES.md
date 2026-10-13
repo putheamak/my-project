@@ -15,6 +15,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | ① Door to Door (pickup & drop-off) | **from $1.50** (6,000៛) |
 | ② Online seller parcel (one leg) | **3,000៛** |
 - Payment: COD (បង់ពេលទទួល) or prepay by QR (បង់មុនតាម QR)
+- **COD money is returned to sellers the same day** (owner confirmed 13 Oct 2026) — OK to use in ads. Delivery time is still NOT confirmed.
 
 ## Brand
 - Colors: blue `#1a78cf`, navy `#0d3868`, sky `#dff0fc`, orange `#f08a14`

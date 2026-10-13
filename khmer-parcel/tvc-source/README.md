@@ -48,6 +48,6 @@ Existing scene files to copy from:
 - Telegram bot: **@KhmerParcelBot** (t.me/KhmerParcelBot) — end cards use `qr_khmerparcelbot.png`.
 - Facts to keep consistent: phones **012 429 597 · 092 678 657**, Telegram **098 429 597**,
   Door to Door **from $1.50 (6,000៛)**, online seller **3,000៛ / leg**, offer **first 3 at 2,000៛** (sellers only, until 2026-10-31).
-- Never claim things not confirmed by the owner (e.g. same-day delivery, same-day COD payout, free offers).
+- Never claim things not confirmed by the owner (e.g. same-day delivery, free offers). Same-day **COD payout** is confirmed (13 Oct).
 - One audience per ad: door-to-door customers and online sellers in separate videos.
 - First frame must already show the hook (no empty first second).
