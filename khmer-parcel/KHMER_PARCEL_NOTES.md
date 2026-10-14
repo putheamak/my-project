@@ -80,6 +80,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
 
 ## Results & decisions (Oct 2026)
+- 14 Oct: **first Telegram-bot booking delivered** — KP7SMU3144, 2 parcels, pick-up Chbar Ampov (ASAP) → Prampi Makara + Boeng Keng Kang, COD $11 + $11 = $22 collected, fee shown 4,000៛ per parcel (8,000៛, customer pays). Note: the repo bot code charges 2,000/3,000៛ — the live bot shows 4,000៛, so its price was changed outside the repo; ask the owner before quoting prices
 - 13 Oct: 1 booking (2 parcels) since 1 Oct. Insights: true story 356 views / 27 s avg watch / 24.5% non-followers vs route quote 191 views / 5 s avg / 0 comments; both drop at 0:04–0:05 when real hook switches to animation → real footage first, ask in first 2 s. Plan: direct seller outreach (kit + A5 flyer + 10 s pitch) to get 10 sellers trying the offer before 31 Oct; owner collects 2–3 photos per delivery; owner to screen-record a website booking
 - 11 Oct: website bookings still very low (57 clicks → 0 bookings earlier) → shift videos to comment/lead-driven series; owner to test the website booking flow on a phone and send a screen recording
 - 8 Oct: far order Chbar Ampov → Choam Chao (2 parcels, $2) took the owner ~3 h after a rider refused — lesson: far trips at flat low fees lose money; pricing for far/outskirt trips to be decided by the owner
