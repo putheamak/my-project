@@ -1,0 +1,12 @@
+{
+  "html": "scenes_cod_real.html",
+  "out": "../khmer_parcel_cod_real_booking.mp4",
+  "xfade": 0.3,
+  "audio": "cod_real_booking_music.m4a",
+  "segments": [
+    {"scene": "hook", "dur": 3.4, "next": "slideup"},
+    {"scene": "proof", "dur": 4.4, "next": "circleopen"},
+    {"scene": "sameday", "dur": 4.0, "next": "slideleft"},
+    {"scene": "end", "dur": 4.6}
+  ]
+}
