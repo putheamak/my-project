@@ -8,8 +8,8 @@ pinTitle: "Halloween Party Snacks Under $30: No-Oven Gadgets for Trick-or-Treat 
 pinDescription: "Hosting on Halloween? These kitchen gadgets for Halloween party snacks under $30 keep the oven free on trick-or-treat night: a microwave popcorn popper, a seasoning flavor bar, a handheld frother for hot chocolate, a mini donut maker for decorating with kids, and a sectioned serving tray so the candy table refills in one move. Includes a comparison table and prep-ahead tips. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Halloween Party Food Ideas"
 date: "2026-10-14"
-image: ""
-status: "draft"
+image: "images/jillwellington-halloween.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
