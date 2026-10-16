@@ -71,7 +71,9 @@ Read this first. Last updated 12 Oct 2026.
 ## Own domain (16 Oct)
 - The owner bought **homepicksunder30.com** at Namecheap on 16 Oct (domain privacy and auto-renew were recommended). DNS: 4 A records `@` → 185.199.108.153 / .109.153 / .110.153 / .111.153 and CNAME `www` → `putheamak.github.io.` (parking records deleted).
 - The custom domain is set for the whole GitHub Pages site of `putheamak/my-project`. The blog stays at **/blog/**, so old `putheamak.github.io/my-project/blog/...` links forward automatically. The site root (`content-engine/site-root/`, deployed with a `CNAME` file by the Publish blog workflow) redirects to /blog/ and replaces the old Vite app's page (owner chose this, option A). Don't run the root app's `npm run deploy` any more: it would overwrite the root page.
-- Still to do: Enforce HTTPS in repo Settings → Pages once the certificate is ready; claim the domain in Pinterest and add a Google Search Console property for it (new verification tags go in `site.json`); update the TikTok bio and Pinterest profile website.
+- Done 16 Oct: HTTPS enforced; Google Search Console **Domain property** `homepicksunder30.com` verified by a TXT record in Namecheap, sitemap `https://homepicksunder30.com/blog/sitemap.xml` submitted (Success, 32 pages; the old github.io property's sitemap stays "Couldn't fetch", ignore it); YouTube channel link and the Oct 10 video description updated; the old github.io website unclaimed on Pinterest.
+- Pinterest claim of `https://homepicksunder30.com`: the TXT record is in Namecheap, and the same code (`4d2599ae...`, also `pinterestVerification` in `site.json`) is in `site-root/index.html` as a `p:domain_verify` meta tag so the "Add HTML tag" method works on the root page.
+- Still to do: Pinterest About text and website claim, TikTok bio.
 
 ## Strategy agreed 16 Oct
 - Pinterest is the main traffic channel; TikTok/Shorts are extras until TikTok gives a clickable bio link.
