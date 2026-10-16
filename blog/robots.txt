@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://putheamak.github.io/my-project/blog/sitemap.xml
+Sitemap: https://homepicksunder30.com/blog/sitemap.xml
