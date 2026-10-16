@@ -287,7 +287,7 @@ write(
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, url: url() }],
     body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
-<p>Kitchen gadgets under $30 for busy home cooks, grouped by the job they do and compared side by side.</p></section>
+<p>Kitchen and home gadgets under $30 for busy people, grouped by the job they do and compared side by side.</p></section>
 ${topics.length ? topicChips(topics) : ""}
 ${posts.length ? postItems(posts, { feature: true }) : "<p>New posts are coming soon.</p>"}`,
   }),

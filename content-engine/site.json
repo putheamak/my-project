@@ -1,6 +1,6 @@
 {
-  "title": "Smart Kitchen Picks",
-  "tagline": "Simple, useful kitchen gadgets that save you time",
+  "title": "Home Picks Under $30",
+  "tagline": "Simple, useful kitchen and home gadgets that save you time",
   "author": "Mak",
   "language": "en",
   "baseUrl": "https://homepicksunder30.com/blog",
@@ -18,5 +18,5 @@
     "boardId": "",
     "maxPerRun": 1
   },
-  "about": "I share practical kitchen gadgets and tips for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy."
+  "about": "I share practical kitchen and home gadgets under $30 for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy."
 }
