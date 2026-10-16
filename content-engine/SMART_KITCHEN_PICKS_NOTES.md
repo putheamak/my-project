@@ -25,6 +25,11 @@ Read this first. Last updated 12 Oct 2026.
 5. Also add 2 fresh extra pins for the new post to `pin-queue.json` (dated about 5 and 10 days later, design 2 and 3, topic board), and if the post's `pinBoard` doesn't match a topic in `topics.json`, add its slug to the right topic.
 6. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
 
+## Amazon Associates account
+- Joined **1 Oct 2026** (welcome email). Needs **3 qualifying sales by 30 Mar 2027** (180 days), then Amazon reviews the site; otherwise the account closes (re-applying is possible, but every link would need replacing).
+- Told the owner on 16 Oct to: add `https://homepicksunder30.com`, the Pinterest, TikTok and YouTube profiles to Account Settings → Website and Mobile App List (keep the old github.io address); fill in payment and tax info (W-8BEN, not a US person). Never ask for passwords, bank or tax details. Never suggest self-purchases or asking friends to buy.
+- Best sales window: Thanksgiving to Christmas 2026 (gift guide and Thanksgiving posts).
+
 ## Rules (Amazon compliance and honesty)
 - The disclosure "As an Amazon Associate I earn from qualifying purchases." goes before the first link and in every pin description.
 - No prices, star ratings, review counts, badges or "% off". "Under $30" is allowed, but **"under-$30" with a hyphen is flagged as FIX** (the checker's exclude rule needs a space).
@@ -80,7 +85,7 @@ Read this first. Last updated 12 Oct 2026.
 ## Strategy agreed 16 Oct
 - Pinterest is the main traffic channel; TikTok/Shorts are extras until TikTok gives a clickable bio link.
 - Publish seasonal content 45–90 days ahead of the holiday (gift guide now, Christmas baking next).
-- Suggested, not decided yet: own domain (smartkitchenpicks.com suggested), buying 1–2 cheap gadgets for a hands-on post, and the Amazon Associates 180-day / 3-sales deadline (ask the owner's sign-up date).
+- Suggested, not decided yet: own domain (smartkitchenpicks.com suggested), buying 1–2 cheap gadgets for a hands-on post, and the domain (since bought, see below).
 
 ## Pinterest account fix (12 Oct)
 - **Why pins had 0 views:** the main board "Kitchen Gadgets" (20 pins, almost all pins) was **private**. The Reports and violations center shows no violations.
