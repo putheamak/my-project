@@ -67,7 +67,7 @@ All of these are widely available on Amazon; check the current price on Amazon b
 
 Give yourself a rule: one gadget in, one unused gadget out. Store the chopper's bowl with a smaller tool nested inside it. Keep the shears on a magnetic strip or in a knife block slot so they don't disappear under spatulas.
 
-If drawer space is your main problem, read [Kitchen Gadgets Under $30 That Save Counter Space and Cut Down on Dishes](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) next.
+If drawer space is your main problem, read [Kitchen Gadgets Under $30 That Save Counter Space and Cut Down on Dishes](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) next.
 
 ### Frequently asked questions
 
@@ -89,4 +89,4 @@ Most sturdy presses handle small, peeled pieces of ginger, though fibrous chunks
 
 ### Ready to cut your prep time in half?
 
-Pick one gadget from the list above — most people should start with the pull chopper — and use it every night for a week. If it doesn't earn its place, it goes. For more time-saving picks, see [Best Kitchen Gadgets for Fast Weeknight Dinners](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [Meal Prep Sunday Made Fast](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon for anything that catches your eye.
+Pick one gadget from the list above — most people should start with the pull chopper — and use it every night for a week. If it doesn't earn its place, it goes. For more time-saving picks, see [Best Kitchen Gadgets for Fast Weeknight Dinners](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [Meal Prep Sunday Made Fast](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon for anything that catches your eye.

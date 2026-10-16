@@ -53,7 +53,7 @@ The two that matter most are a thermometer so the bird isn't a guessing game, an
 - [RSVP Endurance stainless steel turkey and roast lifters (set of 2)](https://amzn.to/4scofwO) — sold for lifting a turkey or ham from the roasting pan to the carving board, so the drippings stay in the pan for the gravy.
 - [Astercook 13-piece knife set with blade guards](https://amzn.to/3WcugNQ) — a chef's knife for the potatoes and a longer blade for carving; check the current price on Amazon to make sure it's still under $30.
 
-If timing is your weak spot, my post on [tools that tell you when food is actually done](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-cooking-without-guesswork/) pairs well with this one.
+If timing is your weak spot, my post on [tools that tell you when food is actually done](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-cooking-without-guesswork/) pairs well with this one.
 
 ### What makes the sides and the table run smoother?
 
@@ -98,7 +98,7 @@ You can skim with a spoon, and plenty of people do. A separator is designed to b
 Check the listing for the shaft length and compare it to the depth of your pot. Keep the blade fully submerged while it's running so hot gravy doesn't splash, and start on the lower speed.
 
 #### What should I buy if I'm hosting Friendsgiving in a small apartment?
-Prioritize tools that don't need oven space: the slow cooker, the ramekins and the clip-on strainer. My [small-kitchen Thanksgiving post](https://putheamak.github.io/my-project/blog/posts/small-kitchen-thanksgiving-gadgets/) covers that angle in more detail, and my [leftover rescue gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-leftovers/) help with the days after.
+Prioritize tools that don't need oven space: the slow cooker, the ramekins and the clip-on strainer. My [small-kitchen Thanksgiving post](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) covers that angle in more detail, and my [leftover rescue gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-leftovers/) help with the days after.
 
 ### Ready to prep?
 

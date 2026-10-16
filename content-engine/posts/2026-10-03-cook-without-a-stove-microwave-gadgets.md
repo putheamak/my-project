@@ -27,7 +27,7 @@ Eggs are the easiest win, and there are two different tools depending on what yo
 
 If you eat eggs on toast most mornings, the poacher is the specialist. If you want flexibility, the egg cooker is the generalist. Either way, start with less time than you think and add in short bursts — microwaves vary a lot in power, and eggs go from soft to rubbery fast.
 
-For more ways to speed up mornings, see my [fast breakfast gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/).
+For more ways to speed up mornings, see my [fast breakfast gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/).
 
 ### What about bacon and burgers without a frying pan?
 
@@ -55,7 +55,7 @@ Not microwave, but same spirit of keeping the stove free: the [BLACK+DECKER 12-c
 | Microwave sandwich maker | Grilled cheese, panini | Fast desk lunches | Silicone cover presses the sandwich |
 | 12-cup coffee maker | Full pot of coffee | Households, all-morning refills | Removable filter basket for easy cleaning |
 
-Short on space too? My [counter-saving small kitchen picks](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) pair well with these, and the [fast weeknight dinner gadgets](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) cover the nights you do use the stove.
+Short on space too? My [counter-saving small kitchen picks](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) pair well with these, and the [fast weeknight dinner gadgets](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) cover the nights you do use the stove.
 
 ### Frequently asked questions
 

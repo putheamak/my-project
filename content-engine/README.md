@@ -59,7 +59,7 @@ The checker is a safety net, not legal advice. These rules are also your respons
 
 ## Your blog
 
-A free, fast blog hosted on GitHub Pages at **https://putheamak.github.io/my-project/blog/**, next to your existing app.
+A free, fast blog hosted on GitHub Pages at **https://homepicksunder30.com/blog/**, next to your existing app.
 
 ### Publishing a post (from your phone or computer)
 
@@ -105,7 +105,7 @@ To post a pin by hand: open the day's pack, copy the Pinterest pin's title and d
 
 Every time the blog is published, `make-pins.mjs` turns each published post's cover photo into **3 vertical Pinterest images** (1000×1500, the size Pinterest favours) with the pin title on top. They're on one page, together with the pin title, description (disclosure included) and link to paste:
 
-**https://putheamak.github.io/my-project/blog/pins/**
+**https://homepicksunder30.com/blog/pins/**
 
 1. Open the page on your phone or computer and tap an image to download it.
 2. In Pinterest, create a pin with that image and paste the title, description and link shown under it.
@@ -166,7 +166,7 @@ Each daily pack has 3 short video scripts. They work on TikTok, YouTube Shorts a
 1. Install the TikTok app and tap **Sign up**. Use your email or phone number, not "Continue with Google", so the account doesn't depend on another login.
 2. Tap **Profile** (bottom right) → **Edit profile**. Set your name to "Smart Kitchen Picks", set your username to your handle, and paste the bio.
 3. Switch to a free Business account: **Profile** → ☰ menu (top right) → **Settings and privacy** → **Account** → **Switch to Business Account**. Pick a category such as "Home & Garden" or "Food & Beverage". A Business account gives you analytics and a website link in your bio sooner. It can only use sounds from the **Commercial Music Library**, which is fine for these videos.
-4. Add your blog as the link: **Edit profile** → **Website** → `https://putheamak.github.io/my-project/blog/`. If there's no **Website** field yet, TikTok hasn't unlocked it for your account. Keep posting and check again later. Until then, say "search Smart Kitchen Picks" in your videos instead of "link in bio".
+4. Add your blog as the link: **Edit profile** → **Website** → `https://homepicksunder30.com/blog/`. If there's no **Website** field yet, TikTok hasn't unlocked it for your account. Keep posting and check again later. Until then, say "search Smart Kitchen Picks" in your videos instead of "link in bio".
 5. Copy your profile link (**Profile** → ☰ → **Share profile** → **Copy link**). You need it for the last two steps below.
 
 #### YouTube

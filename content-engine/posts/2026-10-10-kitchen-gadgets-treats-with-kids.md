@@ -32,7 +32,7 @@ Three things, in my opinion:
 
 **Waffles on demand.** The [Dash Mini Waffle Maker (4-inch)](https://amzn.to/46Xe9pI) makes one small waffle at a time, which is perfect when everyone wants a different topping.
 
-**Popcorn, two ways.** The [Dash Fresh Pop electric hot air popcorn maker (16-cup)](https://amzn.to/3VBBfzH) pops straight into a bowl for a crowd. For a smaller batch, the [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8) folds flat in a drawer — the listing says no oil is required. (Both poppers are also in my [hands-off kitchen gadgets](https://putheamak.github.io/my-project/blog/posts/hands-off-kitchen-gadgets-under-30/) list.) Then let the kids pick flavors from the [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md).
+**Popcorn, two ways.** The [Dash Fresh Pop electric hot air popcorn maker (16-cup)](https://amzn.to/3VBBfzH) pops straight into a bowl for a crowd. For a smaller batch, the [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8) folds flat in a drawer — the listing says no oil is required. (Both poppers are also in my [hands-off kitchen gadgets](https://homepicksunder30.com/blog/posts/hands-off-kitchen-gadgets-under-30/) list.) Then let the kids pick flavors from the [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md).
 
 **The showstopper.** A [mini electric cotton candy maker](https://amzn.to/4rXHZEa) comes with bamboo sticks and a sugar scoop. This one is adult-operated — it spins hot sugar — and the kids can watch from a safe distance and hold the sticks.
 
@@ -72,8 +72,8 @@ Treat all heating appliances as adult-run, and follow the age guidance in each p
 
 #### How do I store all of this in a small kitchen?
 
-Pick the collapsible and small options first — the silicone popper folds flat, the ramekins come as a set of four, and the mini makers are small countertop machines. My [small kitchen gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) post has more space-saving ideas.
+Pick the collapsible and small options first — the silicone popper folds flat, the ramekins come as a set of four, and the mini makers are small countertop machines. My [small kitchen gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) post has more space-saving ideas.
 
 ### Ready to build your treat station?
 
-Pick one gadget, one topping tray and one Saturday. That's the whole plan. Check the current price on Amazon for anything that looks useful, and if you want more no-oven ideas, read my [movie night snacks without the oven](https://putheamak.github.io/my-project/blog/posts/movie-night-snack-gadgets/) post.
+Pick one gadget, one topping tray and one Saturday. That's the whole plan. Check the current price on Amazon for anything that looks useful, and if you want more no-oven ideas, read my [movie night snacks without the oven](https://homepicksunder30.com/blog/posts/movie-night-snack-gadgets/) post.

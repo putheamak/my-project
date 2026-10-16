@@ -38,7 +38,7 @@ Cooking for one usually means recipes that are too big and pans that are too big
 - The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one 4-inch waffle at a time, which is a fun weekend-breakfast gift.
 - The [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8) cooks a block of ramen in the microwave with no pot, a good fit for students and anyone in a dorm or small apartment.
 
-More ideas in my [cooking for one gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-for-cooking-for-one/).
+More ideas in my [cooking for one gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/).
 
 ### Gifts for people who pack lunch for work
 
@@ -46,7 +46,7 @@ More ideas in my [cooking for one gadgets](https://putheamak.github.io/my-projec
 - The [Lifewit insulated lunch bag](https://amzn.to/4zfg0lN) is a large insulated bag with room for a full day of food and drinks.
 - The [Quatish travel utensil set](https://amzn.to/4y2fgiI) is a fork and spoon in a case, so they can skip the plastic cutlery at work.
 
-For the full lunch setup, see my guide to [packing work lunches the night before](https://putheamak.github.io/my-project/blog/posts/best-lunch-containers-work-lunches/).
+For the full lunch setup, see my guide to [packing work lunches the night before](https://homepicksunder30.com/blog/posts/best-lunch-containers-work-lunches/).
 
 ### Gifts for breakfast people
 
@@ -64,7 +64,7 @@ For the person who hosts Thanksgiving or bakes all December:
 - [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for cookies and rolls, with no parchment to buy.
 - The [Orblue stainless steel pie server](https://amzn.to/4zsGrVh) is serrated on both sides, so it works for right- and left-handed people.
 
-More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https://putheamak.github.io/my-project/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) and [small-kitchen Thanksgiving](https://putheamak.github.io/my-project/blog/posts/small-kitchen-thanksgiving-gadgets/) posts.
+More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) and [small-kitchen Thanksgiving](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) posts.
 
 ### Small gifts and stocking stuffers
 

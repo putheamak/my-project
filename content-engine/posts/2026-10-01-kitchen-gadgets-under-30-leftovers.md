@@ -38,7 +38,7 @@ This is the step most people skip, and it's why frozen leftovers turn into a mys
 - **Reusable labels or a dry-erase marker set** — write what it is and the date. Future you will not remember. A [Phomemo D30 mini label maker](https://amzn.to/4e7DAIT) prints labels from your phone.
 - **Flat-freezing bags plus a cooling rack** — freeze bags flat so they stack like files instead of lumps.
 
-If you already read my [meal prep gadget list](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/), this is the same toolkit pointed backwards: instead of prepping ahead, you're banking what you already cooked.
+If you already read my [meal prep gadget list](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), this is the same toolkit pointed backwards: instead of prepping ahead, you're banking what you already cooked.
 
 ### What gadgets make reheating leftovers taste better?
 
@@ -81,4 +81,4 @@ Not strictly — a muffin tin and a bag does the same job. But silicone trays re
 
 It changes the texture, which is most of the problem. Trapped steam stops the surface of rice, pasta and roasted vegetables from drying into a crust. It also means you're not wiping down the inside of the microwave twice a week. A [Le'raze glass splatter cover](https://amzn.to/4y5EexZ) sits right over the bowl and holds the steam in.
 
-**Next step:** pick one category — storage, portioning or reheating — and fix that one first. Search for these gadget types on Amazon and check the current price on Amazon before you decide. Then have a look at my [counter-space gadgets post](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) if your cupboards are already full.
+**Next step:** pick one category — storage, portioning or reheating — and fix that one first. Search for these gadget types on Amazon and check the current price on Amazon before you decide. Then have a look at my [counter-space gadgets post](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) if your cupboards are already full.

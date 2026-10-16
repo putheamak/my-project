@@ -181,13 +181,20 @@ function render(post, src, out) {
 const videoCaption = (post) =>
   `${post.pinTitle || post.title}\n\nFull list on my blog - link in bio.\n${disclosure}\n\n#kitchengadgets #kitchenhacks #cookingtips #homecooking`;
 
+// The live site first, then the same file on the gh-pages branch, so a domain
+// that isn't reachable yet doesn't make every video render again.
 async function liveManifest() {
-  try {
-    const res = await fetch(`${baseUrl}/pins/videos.json`, { signal: AbortSignal.timeout(15000) });
-    return res.ok ? await res.json() : {};
-  } catch {
-    return {};
+  const sources = [
+    `${baseUrl}/pins/videos.json`,
+    "https://raw.githubusercontent.com/putheamak/my-project/gh-pages/blog/pins/videos.json",
+  ];
+  for (const src of sources) {
+    try {
+      const res = await fetch(src, { signal: AbortSignal.timeout(15000) });
+      if (res.ok) return await res.json();
+    } catch {}
   }
+  return {};
 }
 
 fs.mkdirSync(outDir, { recursive: true });

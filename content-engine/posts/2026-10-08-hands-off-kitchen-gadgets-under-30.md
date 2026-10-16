@@ -44,7 +44,7 @@ A 1.5-quart slow cooker is the most hands-off tool on this list: add the ingredi
 
 ### What can cook in the microwave while I do something else?
 
-The microwave is the most under-used hands-off appliance in most kitchens. These tools give it a shape to cook in. (For more stove-free ideas, see my [microwave gadgets that cook real food](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).)
+The microwave is the most under-used hands-off appliance in most kitchens. These tools give it a shape to cook in. (For more stove-free ideas, see my [microwave gadgets that cook real food](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/).)
 
 - [Microwave egg cooker](https://amzn.to/4htE2C8) and the [microwave egg poacher for 2 eggs](https://amzn.to/46YdVyB) — eggs without the stove, and without oil in the poacher's case.
 - [Microwave egg cooker, 2 sets (omelet and egg patty maker)](https://amzn.to/4zeosSc) — I picked this for round egg patties for breakfast sandwiches.
@@ -87,7 +87,7 @@ Not really — you set the time and the microwave stops itself. The thing to wat
 
 #### Is a rice cooker worth it if I only make rice sometimes?
 
-If "sometimes" means once a week or more, probably — mostly because it removes the need to watch the pot. If you'd like to batch rice for the week, my [Meal Prep Sunday gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/) post has more ideas.
+If "sometimes" means once a week or more, probably — mostly because it removes the need to watch the pot. If you'd like to batch rice for the week, my [Meal Prep Sunday gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/) post has more ideas.
 
 #### Can one gadget cover more than one meal?
 
@@ -99,4 +99,4 @@ Prices change, so check the current price on Amazon on each product page. All of
 
 ### Start with one
 
-Pick the meal you most often skip because it needs attention, and buy the gadget for that one. Links are above — check the current price on Amazon and grab the single one for your busiest weeknight. Cooking for just yourself? Read my [kitchen gadgets for cooking for one](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-for-cooking-for-one/) next.
+Pick the meal you most often skip because it needs attention, and buy the gadget for that one. Links are above — check the current price on Amazon and grab the single one for your busiest weeknight. Cooking for just yourself? Read my [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) next.

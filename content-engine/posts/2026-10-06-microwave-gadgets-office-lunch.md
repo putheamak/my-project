@@ -62,7 +62,7 @@ The [Microwave grill pan with lid (nonstick, for bacon and burgers)](https://amz
 
 **Leftovers you'd actually eat**
 
-The [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jCK2ez) let you portion last night's dinner into a dish you can carry, reheat and eat from. Pair this with the ideas in my [leftover rescue gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-leftovers/).
+The [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jCK2ez) let you portion last night's dinner into a dish you can carry, reheat and eat from. Pair this with the ideas in my [leftover rescue gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-leftovers/).
 
 **Coffee and drinks**
 
@@ -90,7 +90,7 @@ A [handheld milk frother](https://amzn.to/4hs2w08) is small enough to live in a 
 
 Then you can go one step further. The [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) cooks rice without you watching it, and the [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) does a few days' worth plus steamed vegetables in the basket - better suited to cooking at home on Sunday and carrying portions in.
 
-For a home-base setup, see my [cooking for one gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-for-cooking-for-one/).
+For a home-base setup, see my [cooking for one gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/).
 
 ### Frequently asked questions
 
@@ -104,7 +104,7 @@ Covered gadgets help a lot. Lids and silicone covers keep steam and splatter con
 
 #### Can I use these at home too?
 
-Yes. Most of these are just as useful on a weeknight when you don't want to heat a pan. See my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/) for that angle.
+Yes. Most of these are just as useful on a weeknight when you don't want to heat a pan. See my [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/) for that angle.
 
 #### How do I know what these cost?
 
