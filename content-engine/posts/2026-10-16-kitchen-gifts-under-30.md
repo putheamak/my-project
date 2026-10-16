@@ -8,8 +8,8 @@ pinTitle: "Best Kitchen Gifts Under $30 (2026 Gift Guide)"
 pinDescription: "Kitchen gifts under $30, grouped by who you're shopping for: a milk frother and pour-over coffee maker for coffee lovers, a mini rice cooker and mini waffle maker for solo cooks, a bento box and insulated lunch bag for lunch packers, and a personal blender for smoothie people. Plus small stocking stuffers. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-16"
-image: ""
-status: "draft"
+image: "images/gift-guide.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
