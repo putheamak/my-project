@@ -8,8 +8,8 @@ pinTitle: "Thanksgiving Mashed Potatoes & Gravy Gadgets Under $30"
 pinDescription: "Hosting Thanksgiving? The best gadgets for Thanksgiving mashed potatoes and gravy, all under $30: a potato ricer for smooth mash, a bottom-release fat separator for the drippings, an immersion blender to smooth gravy in the pot, a clip-on strainer for draining, and an instant-read thermometer for the turkey. Plus baking mats, cooling racks and a pie server for dessert. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-16"
-image: "47313974-turkey.jpg"
-status: "draft"
+image: "images/47313974-turkey.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
