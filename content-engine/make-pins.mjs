@@ -69,7 +69,7 @@ function splitTitle(title) {
 
 const W = 1000;
 const H = 1500;
-const brand = "SMART KITCHEN PICKS";
+const brand = site.title.toUpperCase();
 const text = (w, h, color, value, extra = []) => [
   "(", "-size", `${w}x${h}`, "-background", "none", "-fill", color, ...fontArgs, ...extra,
   "-gravity", "center", `caption:${literal(value)}`, ")",

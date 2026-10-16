@@ -30,7 +30,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
-const VERSION = 2; // bump to remake all videos after changing the design
+const VERSION = 3; // bump to remake all videos after changing the design
 const postsDir = path.join(here, "posts");
 const imagesDir = path.join(here, "images");
 const arg = (name) => (process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : "");
@@ -93,7 +93,7 @@ const caption = (w, h, size, color, text, extra = []) => [
 ];
 const panel = (w, h, color, alpha) => ["(", "-size", `${w}x${h}`, "xc:none", "-fill", color, "-draw", `roundrectangle 0,0,${w - 1},${h - 1},36,36`, "-channel", "A", "-evaluate", "multiply", String(alpha), "+channel", ")"];
 const at = (gravity, x, y) => ["-gravity", gravity, "-geometry", `+${x}+${y}`, "-composite"];
-const brand = [...caption(900, 50, 34, "white", "SMART KITCHEN PICKS"), ...at("south", 0, 110)];
+const brand = [...caption(900, 50, 34, "white", site.title.toUpperCase()), ...at("south", 0, 110)];
 
 // Transparent 1080x1920 overlays, one per scene.
 function overlays(dir, { headline, subline, items }) {
@@ -128,7 +128,7 @@ function overlays(dir, { headline, subline, items }) {
     ...caption(860, 300, 0, "white", "Full list on my blog"), ...at("center", 0, -230),
     ...panel(620, 110, ACCENT, 1), ...at("center", 0, 0),
     ...caption(580, 80, 0, "white", "Link in bio"), ...at("center", 0, 0),
-    ...caption(860, 120, 0, "#fde7d6", "Smart Kitchen Picks"), ...at("center", 0, 190),
+    ...caption(860, 120, 0, "#fde7d6", site.title), ...at("center", 0, 190),
     ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 330),
   ], end);
   files.push(end);
