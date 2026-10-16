@@ -26,7 +26,7 @@ Three things, in this order:
 - **Low cleanup.** One dish beats a pan, a spatula, a plate and a cutting board. Dishwasher-safe parts matter more when you're the only one doing dishes.
 - **Small footprint.** If it lives in a drawer instead of on the counter, you'll keep using it.
 
-If counter space is your main constraint, my earlier roundup on [gadgets that save counter space and cut down on dishes](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) pairs well with this list.
+If counter space is your main constraint, my earlier roundup on [gadgets that save counter space and cut down on dishes](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) pairs well with this list.
 
 ### Which gadgets make a one-person breakfast easy?
 
@@ -36,7 +36,7 @@ If counter space is your main constraint, my earlier roundup on [gadgets that sa
 
 **One waffle, not a stack.** The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) has a 4-inch cooking surface, so it makes one small waffle at a time — no leftover batter for a family of four.
 
-**A smoothie for one.** The [Magic Bullet personal blender](https://amzn.to/4AQIYKo) blends in a 22 oz cup, which is one smoothie or shake. (More morning ideas in my [fast breakfast gadgets](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/).)
+**A smoothie for one.** The [Magic Bullet personal blender](https://amzn.to/4AQIYKo) blends in a 22 oz cup, which is one smoothie or shake. (More morning ideas in my [fast breakfast gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-quick-breakfasts/).)
 
 ### What's the easiest way to cook rice for one?
 
@@ -50,7 +50,7 @@ Yes, with the right container. The [Rapid Ramen Cooker (2-pack)](https://amzn.to
 
 **Grilled cheese and paninis.** The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) is designed to press a grilled cheese or panini in the microwave in a few minutes, with a silicone cover and no separate press to store. One sandwich, one tool.
 
-**Bacon and burgers.** A [microwave grill pan with lid](https://amzn.to/47vJjVd) is made for cooking bacon and burgers in the microwave, so you skip heating a skillet for one patty and scrubbing it after. For more stove-free meals, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).
+**Bacon and burgers.** A [microwave grill pan with lid](https://amzn.to/47vJjVd) is made for cooking bacon and burgers in the microwave, so you skip heating a skillet for one patty and scrubbing it after. For more stove-free meals, see my [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/).
 
 ### How do you bake or store a single portion?
 

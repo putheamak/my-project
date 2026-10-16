@@ -29,7 +29,7 @@ Other collapsible silicone poppers work the same way. The [Korcci silicone micro
 
 For flavor, the [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md) is a sampler you can shake on after popping, so everyone can pick their own.
 
-If you only ever watch alone, the silicone popper is the simpler buy. If "movie night" usually means three or more people, the air popper saves you from running batch after batch. Check the current price on Amazon for both before you decide. (Both poppers also appear in my [hands-off kitchen gadgets](https://putheamak.github.io/my-project/blog/posts/hands-off-kitchen-gadgets-under-30/) list.)
+If you only ever watch alone, the silicone popper is the simpler buy. If "movie night" usually means three or more people, the air popper saves you from running batch after batch. Check the current price on Amazon for both before you decide. (Both poppers also appear in my [hands-off kitchen gadgets](https://homepicksunder30.com/blog/posts/hands-off-kitchen-gadgets-under-30/) list.)
 
 ### What about a warm, sweet snack with no oven?
 
@@ -44,13 +44,13 @@ If you'd rather bake ahead, the [LE TAUCI 6 oz ramekins with lids](https://amzn.
 ### How do you make shakes and frothy drinks without a big machine?
 
 - The [Magic Bullet personal blender](https://amzn.to/4AQIYKo) blends a single smoothie or milkshake in a 22 oz cup — blend it, screw the lid on, walk to the couch.
-- The [handheld milk frother](https://amzn.to/4hs2w08) is designed to froth milk quickly, so ordinary hot chocolate can look more like a café order. It stores in a drawer. Another option is the [Zulay Kitchen handheld milk frother (black)](https://amzn.to/4rXjcjE), which comes with batteries included. (More frother ideas in my [coffee-shop breakfast at home](https://putheamak.github.io/my-project/blog/posts/coffee-shop-breakfast-at-home-gadgets/) post.)
+- The [handheld milk frother](https://amzn.to/4hs2w08) is designed to froth milk quickly, so ordinary hot chocolate can look more like a café order. It stores in a drawer. Another option is the [Zulay Kitchen handheld milk frother (black)](https://amzn.to/4rXjcjE), which comes with batteries included. (More frother ideas in my [coffee-shop breakfast at home](https://homepicksunder30.com/blog/posts/coffee-shop-breakfast-at-home-gadgets/) post.)
 
 Want the full pot going for a long watch? The [BLACK+DECKER 12-cup coffee maker](https://amzn.to/4iVGkfV) has a removable filter basket for easy cleaning.
 
 ### What if you want a hot savoury snack mid-film?
 
-The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) presses a grilled cheese or panini in the microwave — no stove, no press, no pan to scrub during the quiet scene. For more microwave-only food, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).
+The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) presses a grilled cheese or panini in the microwave — no stove, no press, no pan to scrub during the quiet scene. For more microwave-only food, see my [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/).
 
 ### How do you serve all the snacks?
 

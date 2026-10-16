@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-Mornings are where good intentions go to die. You mean to eat something real, then you hit snooze twice and end up with a granola bar in the car. That's exactly the gap the best kitchen gadgets under $30 for quick breakfasts are meant to fill: small, single-job tools that shave two or three minutes off a task and clean up in seconds. If you already read my post on [fast weeknight dinners](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/), think of this as the other bookend of the day.
+Mornings are where good intentions go to die. You mean to eat something real, then you hit snooze twice and end up with a granola bar in the car. That's exactly the gap the best kitchen gadgets under $30 for quick breakfasts are meant to fill: small, single-job tools that shave two or three minutes off a task and clean up in seconds. If you already read my post on [fast weeknight dinners](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/), think of this as the other bookend of the day.
 
 A quick note on how I write these: I don't list prices, because Amazon prices move constantly. When something looks right for you, check the current price on Amazon before you buy. The "under $30" in the title is the category I shop in, not a promise about any specific listing.
 
@@ -26,7 +26,7 @@ I use three filters:
 - **It cleans up in under a minute.** Anything that needs disassembly at 7am will quietly stop getting used.
 - **It works while you do something else.** The best morning tools run unattended while you get dressed or pack a bag.
 
-If your counters are already full, pair this list with my post on [gadgets that save counter space and cut down on dishes](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-small-kitchens-under-30/) — a lot of breakfast tools store inside a mug or drawer.
+If your counters are already full, pair this list with my post on [gadgets that save counter space and cut down on dishes](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) — a lot of breakfast tools store inside a mug or drawer.
 
 ### Which gadgets speed up breakfast the most?
 
@@ -63,7 +63,7 @@ Skip the pan entirely. A microwave egg cooker handles eggs, a toaster handles th
 
 That's the whole system. No new recipes to learn, no stove to scrub.
 
-**Weekend upgrade:** on slower mornings, egg rings give you round fried eggs for homemade breakfast sandwiches. Try the [silicone egg rings 4-pack](https://amzn.to/4e7Brgj) or the [3.5-inch egg rings with handles](https://amzn.to/4iYMkVd). For more stove-free ideas, see my [no-stove microwave gadgets](https://putheamak.github.io/my-project/blog/posts/cook-without-a-stove-microwave-gadgets/).
+**Weekend upgrade:** on slower mornings, egg rings give you round fried eggs for homemade breakfast sandwiches. Try the [silicone egg rings 4-pack](https://amzn.to/4e7Brgj) or the [3.5-inch egg rings with handles](https://amzn.to/4iYMkVd). For more stove-free ideas, see my [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/).
 
 ### Frequently asked questions
 

@@ -85,4 +85,4 @@ Most compact kitchen tools sit in that range, but prices move constantly. Check 
 
 ### Ready to reclaim your counter?
 
-Pick one category from the list — the one that matches the mess you complain about most — and start there. If you want more time-saving picks, read my guides to [fast weeknight dinner gadgets](https://putheamak.github.io/my-project/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [meal prep Sunday](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-meal-prep/). Leave a comment with your kitchen's worst bottleneck and I'll suggest a fix.
+Pick one category from the list — the one that matches the mess you complain about most — and start there. If you want more time-saving picks, read my guides to [fast weeknight dinner gadgets](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [meal prep Sunday](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/). Leave a comment with your kitchen's worst bottleneck and I'll suggest a fix.

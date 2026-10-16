@@ -1,8 +1,9 @@
 name: Publish blog
 
 # Builds content-engine/posts into a static site and publishes it to the
-# gh-pages branch under /blog, next to the existing app (keep_files leaves the
-# app's files alone). Live at https://putheamak.github.io/my-project/blog/
+# gh-pages branch under /blog (keep_files leaves other files alone), plus the
+# site root from content-engine/site-root and the CNAME file for the custom
+# domain. Live at https://homepicksunder30.com/blog/
 on:
   push:
     branches: [main]
@@ -18,6 +19,7 @@ on:
       - "content-engine/make-videos.mjs"
       - "content-engine/topics.json"
       - "content-engine/pin-queue.json"
+      - "content-engine/site-root/**"
       - ".github/workflows/blog.yml"
   # Commits made by the daily workflow don't trigger "push", so also run after it.
   workflow_run:
@@ -82,6 +84,15 @@ jobs:
           destination_dir: blog
           keep_files: true
           commit_message: "Publish blog"
+      # Site root: a redirect to /blog/, the site-wide 404 page and the CNAME
+      # file that points GitHub Pages at the custom domain.
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: content-engine/site-root
+          keep_files: true
+          cname: homepicksunder30.com
+          commit_message: "Publish site root"
       # Pinterest needs to fetch the post page and cover image, so give GitHub
       # Pages a moment to catch up before pinning. Only runs when
       # pinterest.autoPost is true in site.json (see content-engine/README.md).
