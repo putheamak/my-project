@@ -27,7 +27,8 @@ Read this first. Last updated 12 Oct 2026.
 
 ## Amazon Associates account
 - Joined **1 Oct 2026** (welcome email). Needs **3 qualifying sales by 30 Mar 2027** (180 days), then Amazon reviews the site; otherwise the account closes (re-applying is possible, but every link would need replacing).
-- Told the owner on 16 Oct to: add `https://homepicksunder30.com`, the Pinterest, TikTok and YouTube profiles to Account Settings → Website and Mobile App List (keep the old github.io address); fill in payment and tax info (W-8BEN, not a US person). Never ask for passwords, bank or tax details. Never suggest self-purchases or asking friends to buy.
+- Setup done 16 Oct: tax status Completed (US and Canada); payment = **Amazon Gift Card** (Cambodia isn't in Amazon's bank-country list; the owner's Payoneer account is frozen and under review, add its US receiving details as a bank account once it works; Amazon doesn't pay to PayPal); website list = homepicksunder30.com, pinterest.com/makputhea, tiktok.com/@homepicksunder30, youtube.com/@homepicksunder30, the old github.io blog; "directed at children under 13" = No.
+- Associates dashboard on 16 Oct: 69 clicks in 30 days (about 50 on Oct 2, probably the owner testing links; a few on Oct 13–15), 0 orders. Never ask for passwords, bank or tax details. Never suggest self-purchases or asking friends to buy.
 - Best sales window: Thanksgiving to Christmas 2026 (gift guide and Thanksgiving posts).
 
 ## Rules (Amazon compliance and honesty)
