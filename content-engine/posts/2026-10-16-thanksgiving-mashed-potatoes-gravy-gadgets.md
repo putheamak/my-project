@@ -24,6 +24,8 @@ A ricer. A hand masher leaves texture, and a mixer or food processor can overwor
 
 - [PriorityChef 15 oz stainless steel potato ricer](https://amzn.to/4yOU3Kw) — a simple press-style ricer sized for a batch of Thanksgiving potatoes.
 - [AUOON clip-on silicone strainer for pots](https://amzn.to/4zrIUPF) — clips onto the pot rim so you can drain the potatoes without digging out a full-size colander or needing a second set of hands.
+- [2-piece stainless steel potato masher set](https://amzn.to/4sg5zME) — if your family likes rustic, chunkier mash, a hand masher is the simpler choice, and it's used for avocado and ground beef the rest of the year.
+- [ChefAide 5-piece silicone spatula set](https://amzn.to/3U0lba7) — sold as heat resistant; fold the warm butter and milk into the riced potatoes and scrape every bit of gravy out of the pan.
 
 Practical tip: drain the potatoes well and let them steam dry in the hot pot for a minute before ricing. Wet potatoes make loose mash no matter what tool you use.
 
@@ -37,13 +39,19 @@ Lumps: instead of straining and whisking and swearing, blend the gravy right in 
 
 - [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8) — includes a 3-in-1 peeler, which is handy during potato and squash prep.
 - [Turelar 2-speed corded immersion blender (400W)](https://amzn.to/4jSQnCJ) — blends gravy, cranberry sauce or soup in the pot, so there's no blender jar to wash.
+- [3-pack stainless steel whisk set](https://amzn.to/3VPQrcB) — whisk the flour into the drippings before they simmer, the classic way to keep gravy from going lumpy if you'd rather not use the blender.
+- [Cuisinart stainless steel mesh strainers (3-count)](https://amzn.to/3VOHj8b) — strain the pan drippings into the separator to catch the browned bits; the small one also dusts powdered sugar over pie. The listing says dishwasher safe.
+- [Qlans 17 oz ceramic gravy boat with ladle and saucer](https://amzn.to/4zBhd6X) — the finished gravy goes to the table in the boat, and the saucer catches the drips.
 
 ### Which tools help with the turkey itself?
 
-You only need two, honestly. A thermometer so the bird isn't a guessing game, and a baster so the breast doesn't dry out while you're busy with sides.
+The two that matter most are a thermometer so the bird isn't a guessing game, and a baster for while you're busy with sides. Twine, lifters and a decent knife make the before and after easier.
 
 - [TempPro TempSwift instant-read digital meat thermometer](https://amzn.to/4zyfuQ5) — check the thickest part of the thigh, away from bone, and pull the turkey at the temperature your recipe calls for.
 - [SCHVUBENR stainless steel turkey baster with cleaning brush and needle](https://amzn.to/47OkKmE) — basting plus a marinade injector needle, with a brush for cleaning the tube.
+- [TJ.MOREE cotton butcher's twine (476 ft)](https://amzn.to/4ypkTrw) — tie the turkey legs before roasting; one roll lasts for years of roasts.
+- [RSVP Endurance stainless steel turkey and roast lifters (set of 2)](https://amzn.to/4scofwO) — sold for lifting a turkey or ham from the roasting pan to the carving board, so the drippings stay in the pan for the gravy.
+- [Astercook 13-piece knife set with blade guards](https://amzn.to/3WcugNQ) — a chef's knife for the potatoes and a longer blade for carving; check the current price on Amazon to make sure it's still under $30.
 
 If timing is your weak spot, my post on [tools that tell you when food is actually done](https://putheamak.github.io/my-project/blog/posts/kitchen-gadgets-under-30-cooking-without-guesswork/) pairs well with this one.
 
@@ -67,10 +75,18 @@ If timing is your weak spot, my post on [tools that tell you when food is actual
 | Clip-on strainer | Draining in the pot | Potatoes, pasta, vegetables | Saves a colander wash |
 | Baking mats | Nonstick sheet pan liner | Rolls, roasted veg, cookies | Reusable |
 | Pie server | Clean dessert slices | Pies and cakes | Serrated both sides |
+| Potato masher | Rustic, chunkier mash | Families who like texture | Hand-powered, used all year |
+| Whisk set + mesh strainers | Lump-free gravy the classic way | Cooks without a stick blender | Strain drippings, then whisk |
+| Gravy boat | Serving | The table | Ceramic, with ladle and saucer |
+| Twine + turkey lifters | Tying and moving the bird | Whole turkey or roast | Drippings stay in the pan |
+| Knife set | Prep and carving | Kitchens without good knives | Check it's under $30 |
 
 Start with the ricer and the separator if you're making potatoes and gravy from scratch. Add the thermometer if you're cooking a whole turkey for the first time.
 
 ### Frequently asked questions
+
+#### Ricer or masher: which one should I get?
+A ricer is designed for smooth, fluffy mash with no lumps; a masher leaves some texture, which a lot of families prefer. If you only want one tool for the whole year, the masher is more flexible; if smooth mash is the goal, get the ricer.
 
 #### Can I use a ricer for anything besides potatoes?
 Yes — it works for cooked cauliflower, sweet potatoes and squash, and some people use it to press excess water out of cooked greens. It's a Thanksgiving buy that doesn't sit in a drawer for eleven months.
