@@ -30,6 +30,16 @@ A [handheld milk frother](https://amzn.to/4hs2w08) is made for frothing milk wit
 
 For someone who likes a slower morning, the [Bodum 34 oz pour-over coffee maker](https://amzn.to/3TzTN2J) is a glass pour-over with a reusable stainless steel filter, so there are no paper filters to keep buying.
 
+For the commute, the [Contigo Byron 16 oz vacuum-insulated travel mug](https://amzn.to/4yUoaAn) is sold as vacuum-insulated stainless steel, from a brand most people already know.
+
+**For tea lovers:** a pair of [stainless steel loose-leaf tea infusers (2-pack)](https://amzn.to/4yUOquv) with a chain hook is a small, easy gift that fits in a card or stocking.
+
+### Gifts for everyday home cooks
+
+- The [electric salt and pepper grinder set](https://amzn.to/4i0yiQS) is battery-powered with adjustable coarseness and a small LED light, a fun gift that also works for a White Elephant swap.
+- The [Cole & Mason herb keeper](https://amzn.to/4Bfvbxe) is designed to help fresh herbs last longer in the fridge, the kind of useful thing people rarely buy for themselves.
+- A [cookbook stand](https://amzn.to/4s73AKp) holds a cookbook or tablet open and off the messy counter while they follow a recipe.
+
 ### Gifts for people who cook for one
 
 Cooking for one usually means recipes that are too big and pans that are too big. These are sized for one or two portions:
@@ -62,6 +72,7 @@ For the person who hosts Thanksgiving or bakes all December:
 - The [124-piece piping bags and tips set](https://amzn.to/4dBeBO5) has 16 tips and 100 bags for decorating cookies, cupcakes and cakes.
 - The [NutriChef electric chocolate melting pot (8.8 oz)](https://amzn.to/3UliEHT) is a small warmer sold for melting chocolate for dipping strawberries, pretzels or cookies.
 - [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for cookies and rolls, with no parchment to buy.
+- An apron and oven mitts make an easy starter set: the [Syntus adjustable apron with 2 pockets](https://amzn.to/3THBWah) fits most people, and the listing says the [GORILLA GRIP silicone oven mitts](https://amzn.to/47p2NLi) are heat resistant to 550°F.
 - The [Orblue stainless steel pie server](https://amzn.to/4zsGrVh) is serrated on both sides, so it works for right- and left-handed people.
 
 More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) and [small-kitchen Thanksgiving](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) posts.
@@ -70,6 +81,7 @@ More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https:
 
 - [LE TAUCI 6 oz ramekins with lids (set of 4)](https://amzn.to/4jCK2ez) for baking single portions and storing leftovers in the same dish.
 - [Stasher silicone pocket bags (4 oz, 2-pack)](https://amzn.to/4y5gMkg) for snacks on the go.
+- [Stainless steel tea infusers (2-pack)](https://amzn.to/4yUOquv) for tea drinkers.
 - A [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) for anyone who makes their own breakfast sandwiches.
 
 ### Which gift fits which person?
@@ -95,6 +107,12 @@ More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https:
 | Chocolate melting pot | Dessert makers | Melted chocolate for dipping |
 | Silicone baking mats | Bakers | Reusable sheet pan liners |
 | Pie server | Pie bakers | Serrated both sides |
+| Contigo travel mug | Commuters | Insulated, well-known brand |
+| Tea infusers | Tea lovers | Small, fits in a stocking |
+| Electric salt and pepper grinders | Home cooks, White Elephant | Battery-powered, adjustable |
+| Herb keeper | Fresh-herb cooks | Keeps herbs upright in the fridge |
+| Cookbook stand | Recipe followers | Holds a book or tablet open |
+| Apron + oven mitts | Bakers and hosts | Easy starter set |
 
 ### Frequently asked questions
 
