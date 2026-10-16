@@ -7,7 +7,7 @@ keyword: "best kitchen gifts under $30"
 pinTitle: "Best Kitchen Gifts Under $30 (2026 Gift Guide)"
 pinDescription: "Kitchen gifts under $30, grouped by who you're shopping for: a milk frother and pour-over coffee maker for coffee lovers, a mini rice cooker and mini waffle maker for solo cooks, a bento box and insulated lunch bag for lunch packers, and a personal blender for smoothie people. Plus small stocking stuffers. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gift Ideas Under $30"
-date: "2026-11-03"
+date: "2026-10-16"
 image: ""
 status: "draft"
 ---
@@ -26,7 +26,7 @@ I haven't personally used these yet. I picked each one for a specific job, and I
 
 ### Gifts for coffee lovers
 
-A [handheld milk frother](https://amzn.to/4hs2w08) froths milk in seconds without an espresso machine, so a plain mug of coffee feels more like a café drink. It's small enough to tuck into a stocking.
+A [handheld milk frother](https://amzn.to/4hs2w08) is made for frothing milk without an espresso machine, so a plain mug of coffee feels more like a café drink. It's small enough to tuck into a stocking.
 
 For someone who likes a slower morning, the [Bodum 34 oz pour-over coffee maker](https://amzn.to/3TzTN2J) is a glass pour-over with a reusable stainless steel filter, so there are no paper filters to keep buying.
 
@@ -54,6 +54,18 @@ For the full lunch setup, see my guide to [packing work lunches the night before
 - A [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) makes poached eggs in the microwave, two at a time, with no pan.
 - The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) presses a grilled cheese or panini in the microwave in a few minutes.
 
+### Gifts for bakers and holiday hosts
+
+For the person who hosts Thanksgiving or bakes all December:
+
+- The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is sold as a fast-reading digital thermometer, so they can check the turkey or a roast without cutting into it.
+- The [124-piece piping bags and tips set](https://amzn.to/4dBeBO5) has 16 tips and 100 bags for decorating cookies, cupcakes and cakes.
+- The [NutriChef electric chocolate melting pot (8.8 oz)](https://amzn.to/3UliEHT) is a small warmer sold for melting chocolate for dipping strawberries, pretzels or cookies.
+- [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for cookies and rolls, with no parchment to buy.
+- The [Orblue stainless steel pie server](https://amzn.to/4zsGrVh) is serrated on both sides, so it works for right- and left-handed people.
+
+More hosting ideas in my [Thanksgiving mashed potatoes and gravy gadgets](https://putheamak.github.io/my-project/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) and [small-kitchen Thanksgiving](https://putheamak.github.io/my-project/blog/posts/small-kitchen-thanksgiving-gadgets/) posts.
+
 ### Small gifts and stocking stuffers
 
 - [LE TAUCI 6 oz ramekins with lids (set of 4)](https://amzn.to/4jCK2ez) for baking single portions and storing leftovers in the same dish.
@@ -78,12 +90,17 @@ For the full lunch setup, see my guide to [packing work lunches the night before
 | LE TAUCI ramekins | Bakers and hosts | Bake and store in the same dish |
 | Stasher pocket bags | Snackers | Small reusable snack bags |
 | Omelet and egg patty maker | Breakfast-sandwich makers | Round egg patties in the microwave |
+| Instant-read thermometer | Holiday hosts | Checks the turkey without cutting it |
+| Piping bags and tips set | Bakers | Decorating cookies and cakes |
+| Chocolate melting pot | Dessert makers | Melted chocolate for dipping |
+| Silicone baking mats | Bakers | Reusable sheet pan liners |
+| Pie server | Pie bakers | Serrated both sides |
 
 ### Frequently asked questions
 
 #### What's a good kitchen gift for someone who has everything?
 
-Pick something that does one small job better than what they use now: a milk frother, a mini waffle maker, or ramekins with lids. Small, specific gifts are less likely to duplicate what's already in their kitchen.
+Pick something that does one small job better than what they use now: a milk frother, a mini waffle maker, an instant-read thermometer, or ramekins with lids. Small, specific gifts are less likely to duplicate what's already in their kitchen.
 
 #### What's a good kitchen gift for a college student?
 
