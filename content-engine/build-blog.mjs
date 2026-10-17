@@ -143,6 +143,9 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:site_name" content="${esc(site.title)}">
 ${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.title)}" href="${href("rss.xml")}">
 ${verify}
 ${pinterestVerify}
@@ -285,7 +288,7 @@ write(
     title: `${site.title} - ${site.tagline}`,
     description: site.tagline,
     canonical: url(),
-    jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, url: url() }],
+    jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, alternateName: ["Home Picks Under 30", "homepicksunder30.com"], url: url() }],
     body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
 <p>Kitchen and home gadgets under $30 for busy people, grouped by the job they do and compared side by side.</p></section>
 ${topics.length ? topicChips(topics) : ""}
