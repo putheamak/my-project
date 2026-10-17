@@ -24,6 +24,7 @@ Read this first. Last updated 12 Oct 2026.
 4. On "go": add the products to the post (text plus comparison table) and to `config.json` (note "Haven't used it yet. Picked it for …"). Then check, commit, push and open a PR.
 5. Also add 2 fresh extra pins for the new post to `pin-queue.json` (dated about 5 and 10 days later, design 2 and 3, topic board), and if the post's `pinBoard` doesn't match a topic in `topics.json`, add its slug to the right topic.
 6. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
+7. **Weekly Reddit/Quora answers (owner agreed 17 Oct):** about 2 a week, on the Monday check-in. Find real, recent questions that a live post answers (small kitchens, cooking for one, gifts for cooks, Thanksgiving sides, dorm cooking). Draft a helpful answer that stands on its own, for the owner to post in their own words. Link only to the **blog post** (never Amazon), at most one link, only where the subreddit allows it, and mention that it's their own blog. No spam, no bought backlinks.
 
 ## Amazon Associates account
 - Joined **1 Oct 2026** (welcome email). Needs **3 qualifying sales by 30 Mar 2027** (180 days), then Amazon reviews the site; otherwise the account closes (re-applying is possible, but every link would need replacing).
