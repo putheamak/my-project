@@ -25,6 +25,12 @@ Read this first. Last updated 12 Oct 2026.
 5. Also add 2 fresh extra pins for the new post to `pin-queue.json` (dated about 5 and 10 days later, design 2 and 3, topic board), and if the post's `pinBoard` doesn't match a topic in `topics.json`, add its slug to the right topic.
 6. The owner merges, uploads a cover photo to `content-engine/images/`, sets `image:` and `status: "published"` on `main` themselves, and pins by hand from the pins page. When they say "pinned", add the slug to `output/pinterest-history.json` if it isn't there yet (in a PR).
 7. **Weekly Reddit/Quora answers (owner agreed 17 Oct):** about 2 a week, on the Monday check-in. Find real, recent questions that a live post answers (small kitchens, cooking for one, gifts for cooks, Thanksgiving sides, dorm cooking). Draft a helpful answer that stands on its own, for the owner to post in their own words. Link only to the **blog post** (never Amazon), at most one link, only where the subreddit allows it, and mention that it's their own blog. No spam, no bought backlinks.
+8. **Section photos (owner agreed 17 Oct):** on each new draft review, give 2–3 Pexels/Unsplash search terms with file names (e.g. `images/<slug>-1.jpg`) for photos of the *type* of gadget or the dish. The owner downloads and uploads them like cover photos, and Claude inserts `![alt](images/…)` into the post. Never Amazon product images. Real product photos and prices only through the Amazon Product Advertising API, which needs qualifying sales first (set it up after the first 3 sales).
+
+## Blog feedback plan (owner agreed 17 Oct)
+- Week of 17 Oct: the owner posts a feedback request (5 questions: what the site is about in 5 seconds, trust, anything confusing on a phone, which post they'd click first, one change) in the pinned weekly feedback thread on r/Blogging (not a standalone post), and sends it to 3–5 friends. Opinions on design and writing only. Friends must not buy through the links, no rewards for feedback, no fake reviews or testimonials.
+- Next week: the owner pastes the answers into chat, and Claude makes the top changes.
+- Microsoft Clarity (free heatmaps and recordings; uses cookies, so it needs a privacy-notice update): add it once the blog gets 50+ visitors a week in GoatCounter.
 
 ## Amazon Associates account
 - Joined **1 Oct 2026** (welcome email). Needs **3 qualifying sales by 30 Mar 2027** (180 days), then Amazon reviews the site; otherwise the account closes (re-applying is possible, but every link would need replacing).
