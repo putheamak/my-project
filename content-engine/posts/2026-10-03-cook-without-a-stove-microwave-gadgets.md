@@ -18,6 +18,12 @@ If you've ever wondered how to cook without a stove using the microwave — beca
 
 I haven't cooked with every one of these yet; I picked them for specific jobs I keep running into. Here's what each one is for, so you can decide what's actually worth a spot in your cabinet.
 
+:::picks
+- For eggs without a stove: [Microwave egg cooker](https://amzn.to/4htE2C8)
+- For bacon and burgers: [Microwave grill pan with lid](https://amzn.to/47vJjVd)
+- For grilled cheese: [MAX microwave sandwich maker](https://amzn.to/46YfhcF)
+:::
+
 ### Can you really cook eggs in the microwave?
 
 Eggs are the easiest win, and there are two different tools depending on what you want.

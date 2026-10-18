@@ -18,6 +18,12 @@ Cooking for one person is a weirdly annoying problem. Recipes serve four. Pans a
 
 Below are the gadget types I'd build a solo-cooking kit around, what each one actually solves, and links so you can check the current price on Amazon.
 
+:::picks
+- For rice for one: [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY)
+- For one-person breakfasts: [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI)
+- For quick ramen: [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8)
+:::
+
 ### What makes a kitchen gadget good for cooking for one?
 
 Three things, in this order:

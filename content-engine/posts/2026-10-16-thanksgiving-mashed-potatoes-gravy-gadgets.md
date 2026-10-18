@@ -18,6 +18,12 @@ The last 45 minutes before Thanksgiving dinner is where most hosts lose their co
 
 Below are the picks I'd set out on the counter the night before, all kitchen gear under $30. Check the current price on Amazon for each, since prices change.
 
+:::picks
+- For lump-free mashed potatoes: [PriorityChef potato ricer](https://amzn.to/4yOU3Kw)
+- For grease-free gravy: [4-cup fat and gravy separator](https://amzn.to/4dyIMW8)
+- For a juicy turkey: [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
+:::
+
 ### What's the fastest way to get lump-free mashed potatoes?
 
 A ricer. A hand masher leaves texture, and a mixer or food processor can overwork potatoes into glue. A ricer presses cooked potatoes through small holes so they come out fine and even, and you fold in warm butter and milk after.

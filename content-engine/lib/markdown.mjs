@@ -12,6 +12,16 @@ export function escapeHtml(s) {
 
 const AMAZON = /^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to)\//i;
 
+// Affiliate link attributes shared by inline links and Quick picks buttons.
+function linkAttrs(href, label) {
+  // Google asks for affiliate links to be marked rel="sponsored".
+  const amazon = AMAZON.test(href.replace(/&amp;/g, "&"));
+  const rel = amazon ? "sponsored nofollow noopener" : "noopener";
+  // data-goatcounter-click lets GoatCounter (if enabled) count clicks on affiliate links.
+  const track = amazon ? ` data-goatcounter-click="${href}" data-goatcounter-title="${label.replace(/<[^>]+>/g, "")}"` : "";
+  return { amazon, attrs: `href="${href}" rel="${rel}" target="_blank"${track}` };
+}
+
 function inline(text, opts = {}) {
   let s = escapeHtml(text);
   s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
@@ -21,14 +31,7 @@ function inline(text, opts = {}) {
     const url = /^https?:\/\//.test(src) ? src : `${opts.imageBase ?? ""}${local}`;
     return `<img src="${url}" alt="${alt}" loading="lazy" decoding="async">`;
   });
-  s = s.replace(/(?<!!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => {
-    // Google asks for affiliate links to be marked rel="sponsored".
-    const amazon = AMAZON.test(href.replace(/&amp;/g, "&"));
-    const rel = amazon ? "sponsored nofollow noopener" : "noopener";
-    // data-goatcounter-click lets GoatCounter (if enabled) count clicks on affiliate links.
-    const track = amazon ? ` data-goatcounter-click="${href}" data-goatcounter-title="${label.replace(/<[^>]+>/g, "")}"` : "";
-    return `<a href="${href}" rel="${rel}" target="_blank"${track}>${label}</a>`;
-  });
+  s = s.replace(/(?<!!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, href) => `<a ${linkAttrs(href, label).attrs}>${label}</a>`);
   s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   s = s.replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>");
   return s;
@@ -55,6 +58,24 @@ export function markdownToHtml(md, opts = {}) {
 
     if (!line.trim()) {
       flush();
+    } else if (/^:::picks\s*$/.test(line.trim())) {
+      // Quick picks box: lines like "- Best for coffee lovers: [Milk frother](https://amzn.to/...)"
+      // up to a closing ":::". Each product gets a "Check price on Amazon" button.
+      flush();
+      const items = [];
+      while (++i < lines.length && lines[i].trim() !== ":::") {
+        const m = lines[i].match(/^\s*[-*]\s*(.+?):\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)\s*(.*)$/);
+        if (!m) continue;
+        const [, label, name, rawHref, note] = m;
+        const href = escapeHtml(rawHref);
+        const { amazon, attrs } = linkAttrs(href, escapeHtml(name));
+        items.push(
+          `<li><span class="pk-label">${inl(label)}</span><span class="pk-name">${inl(name)}</span>` +
+            (note ? `<span class="pk-note">${inl(note)}</span>` : "") +
+            `<a class="pk-btn" ${attrs}>${amazon ? "Check price on Amazon" : "See it"}</a></li>`,
+        );
+      }
+      if (items.length) out.push(`<div class="picks"><p class="picks-title">Quick picks</p><ul>${items.join("")}</ul></div>`);
     } else if (heading) {
       flush();
       const level = Math.min(6, Math.max(1, heading[1].length - headingShift));
@@ -100,6 +121,7 @@ export function markdownToHtml(md, opts = {}) {
 // Plain text for meta descriptions, JSON-LD and RSS.
 export function stripMarkdown(md) {
   return md
+    .replace(/^:::(?:picks)?\s*$/gm, "")
     .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/[*_`#>|]/g, "")

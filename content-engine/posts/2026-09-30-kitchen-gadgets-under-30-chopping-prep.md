@@ -18,6 +18,12 @@ If dinner feels slow, it's usually not the cooking — it's the chopping. Ten mi
 
 Below are the prep tools that actually earn their drawer space, what each one is good at, and when a plain knife is still the better answer.
 
+:::picks
+- For fast chopping: [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj)
+- For dicing a pile of veggies: [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M)
+- For quick peeling: [Spring Chef swivel peeler](https://amzn.to/3W58ag6)
+:::
+
 ### What kitchen gadget chops vegetables the fastest?
 
 For onions, peppers and celery, a **hand-held pull chopper** (the kind with a cord you yank) is hard to beat. You drop in rough chunks, pull a few times, and you have a diced pile. No plug, no bowl assembly, no motor to store. The [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj) is a good size for one onion at a time; for bigger batches, the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) dices through a grid.

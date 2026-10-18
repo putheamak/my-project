@@ -18,6 +18,12 @@ Most weeknight cooking disasters aren't skill problems — they're information p
 
 If you're short on time, guessing is expensive. You either overcook things "to be safe" or you stand at the stove babysitting. A few cheap tools let you walk away, come back, and get a straight answer.
 
+:::picks
+- For knowing when meat is done: [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ)
+- For measuring by weight: [22 lb digital food scale](https://amzn.to/4jCDT23)
+- For checking your oven's real heat: [Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme)
+:::
+
 ### What does "cooking without guesswork" actually mean?
 
 It means replacing your senses with a number in three places where people most often get it wrong:

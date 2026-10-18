@@ -43,7 +43,9 @@ const disclosure = config.disclosure;
 // whose window (month-day, may wrap past New Year) includes today.
 const md = today.slice(5);
 const inWindow = ({ from, to }) => (from <= to ? md >= from && md <= to : md >= from || md <= to);
-const seasons = (config.seasons ?? []).filter(inWindow);
+const inSeason = (config.seasons ?? []).filter(inWindow);
+// A season marked "priority" (e.g. holiday gift shopping, when people buy) gets every post while it runs.
+const seasons = inSeason.some((s) => s.priority) ? inSeason.filter((s) => s.priority) : inSeason;
 const seasonal = seasons.length
   ? `Upcoming occasions people are planning for now (today is ${today}):
 ${seasons.map((s) => `- ${s.occasion}: ${s.ideas}`).join("\n")}
