@@ -39,6 +39,18 @@ h2{font-size:1.4rem;line-height:1.3;margin:1.8em 0 .5em}
 h3{font-size:1.15rem;margin:1.4em 0 .4em}
 .meta{color:var(--muted);font-size:.9rem}
 .disclosure{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;font-size:.9rem;border-radius:4px;margin:16px 0 24px}
+.picks{background:var(--surface);border:2px solid var(--accent);border-radius:12px;padding:14px 16px;margin:1.2em 0}
+.picks-title{margin:0 0 8px;font-weight:700;font-size:1.05rem}
+.picks ul{list-style:none;margin:0;padding:0}
+.picks li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.picks li:first-child{border-top:0}
+.pk-label{grid-column:1;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--accent)}
+.pk-name{grid-column:1;font-weight:600}
+.pk-note{grid-column:1;font-size:.9rem;color:var(--muted)}
+.pk-btn{grid-column:2;grid-row:1/span 3;background:var(--accent);color:#fff!important;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 14px;border-radius:8px;white-space:nowrap;text-align:center}
+.pk-btn:hover{filter:brightness(1.1)}
+@media (max-width:520px){.picks li{grid-template-columns:1fr}.pk-btn{grid-column:1;grid-row:auto;margin-top:6px}}
+article a[rel~="sponsored"]{font-weight:600}
 .table-wrap{overflow-x:auto;margin:1em 0}
 table{border-collapse:collapse;width:100%;font-size:.95rem}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -95,6 +107,7 @@ footer.site a{color:var(--muted)}
 <img class="cover" src="/blog/images/htb888-dumplings.jpg" alt="Guesswork-Free Cooking: Kitchen Gadgets Under $30 That Tell You When Food Is Actually Done">
 <p>Most weeknight cooking disasters aren't skill problems — they're information problems. You poke the chicken, cut it open, poke it again, and by the time you're sure it's cooked it's dry. That's why the best kitchen gadgets under $30 for cooking without guesswork aren't fancy appliances. They're small measuring tools that answer one question fast: <em>is this done yet?</em></p>
 <p>If you're short on time, guessing is expensive. You either overcook things &quot;to be safe&quot; or you stand at the stove babysitting. A few cheap tools let you walk away, come back, and get a straight answer.</p>
+<div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For knowing when meat is done</span><span class="pk-name">TempSwift instant-read thermometer</span><a class="pk-btn" href="https://amzn.to/3TlGWkJ" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3TlGWkJ" data-goatcounter-title="TempSwift instant-read thermometer">Check price on Amazon</a></li><li><span class="pk-label">For measuring by weight</span><span class="pk-name">22 lb digital food scale</span><a class="pk-btn" href="https://amzn.to/4jCDT23" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4jCDT23" data-goatcounter-title="22 lb digital food scale">Check price on Amazon</a></li><li><span class="pk-label">For checking your oven's real heat</span><span class="pk-name">Taylor 3-inch oven thermometer</span><a class="pk-btn" href="https://amzn.to/4rJ4Yme" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4rJ4Yme" data-goatcounter-title="Taylor 3-inch oven thermometer">Check price on Amazon</a></li></ul></div>
 <h2>What does &quot;cooking without guesswork&quot; actually mean?</h2>
 <p>It means replacing your senses with a number in three places where people most often get it wrong:</p>
 <ul><li><strong>Temperature</strong> — how hot the food is inside, and how hot your oven really is.</li><li><strong>Weight and volume</strong> — how much of something you added, especially in baking.</li><li><strong>Time</strong> — how long it's actually been, not how long it feels like it's been.</li></ul>
@@ -132,7 +145,7 @@ footer.site a{color:var(--muted)}
 </div></main>
 <footer class="site"><div class="wrap">
 <p>As an Amazon Associate I earn from qualifying purchases.</p>
-<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a></p>
+<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a> · <a href="https://www.pinterest.com/makputhea/" rel="me noopener">Pinterest</a></p>
 <p>&copy; 2026 Home Picks Under $30 · <a href="/blog/disclosure/">Affiliate disclosure</a> · <a href="/blog/privacy/">Privacy</a> · <a href="/blog/rss.xml">RSS</a></p>
 </div></footer>
 </body>

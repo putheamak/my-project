@@ -39,6 +39,18 @@ h2{font-size:1.4rem;line-height:1.3;margin:1.8em 0 .5em}
 h3{font-size:1.15rem;margin:1.4em 0 .4em}
 .meta{color:var(--muted);font-size:.9rem}
 .disclosure{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;font-size:.9rem;border-radius:4px;margin:16px 0 24px}
+.picks{background:var(--surface);border:2px solid var(--accent);border-radius:12px;padding:14px 16px;margin:1.2em 0}
+.picks-title{margin:0 0 8px;font-weight:700;font-size:1.05rem}
+.picks ul{list-style:none;margin:0;padding:0}
+.picks li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.picks li:first-child{border-top:0}
+.pk-label{grid-column:1;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--accent)}
+.pk-name{grid-column:1;font-weight:600}
+.pk-note{grid-column:1;font-size:.9rem;color:var(--muted)}
+.pk-btn{grid-column:2;grid-row:1/span 3;background:var(--accent);color:#fff!important;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 14px;border-radius:8px;white-space:nowrap;text-align:center}
+.pk-btn:hover{filter:brightness(1.1)}
+@media (max-width:520px){.picks li{grid-template-columns:1fr}.pk-btn{grid-column:1;grid-row:auto;margin-top:6px}}
+article a[rel~="sponsored"]{font-weight:600}
 .table-wrap{overflow-x:auto;margin:1em 0}
 table{border-collapse:collapse;width:100%;font-size:.95rem}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -95,6 +107,7 @@ footer.site a{color:var(--muted)}
 <img class="cover" src="/blog/images/congerdesign-pizza.jpg" alt="Set It and Forget It: Kitchen Gadgets Under $30 That Cook While You Do Something Else">
 <p>The best hands-off kitchen gadgets under $30 all share one trait: you load them, walk away, and come back to food. That's the difference between &quot;cooking takes 25 minutes&quot; and &quot;cooking takes 25 minutes of my attention.&quot; If your evenings disappear into standing over a pot, stirring something so it doesn't scorch, the fix usually isn't a better recipe — it's a gadget that babysits itself.</p>
 <p>I haven't used these yet. I picked each one for a specific job, and I explain why below. Check the current price on Amazon for anything you're considering.</p>
+<div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For rice without watching</span><span class="pk-name">Dash Mini Rice Cooker (2-cup)</span><a class="pk-btn" href="https://amzn.to/4hCn7gY" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4hCn7gY" data-goatcounter-title="Dash Mini Rice Cooker (2-cup)">Check price on Amazon</a></li><li><span class="pk-label">For a small slow cooker</span><span class="pk-name">Maxi-Matic 1.5 qt slow cooker</span><a class="pk-btn" href="https://amzn.to/4hBZNBj" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4hBZNBj" data-goatcounter-title="Maxi-Matic 1.5 qt slow cooker">Check price on Amazon</a></li><li><span class="pk-label">For eggs while you get ready</span><span class="pk-name">Microwave egg cooker</span><a class="pk-btn" href="https://amzn.to/4htE2C8" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4htE2C8" data-goatcounter-title="Microwave egg cooker">Check price on Amazon</a></li></ul></div>
 <h2>What makes a kitchen gadget actually &quot;hands-off&quot;?</h2>
 <p>Three things:</p>
 <ul><li><strong>It stops or signals on its own</strong>, or it runs on a timer you set once (microwave, cooker switch).</li><li><strong>It contains the mess</strong>, so there's no splatter to watch and no pan to scrub mid-cook.</li><li><strong>It doesn't need stirring.</strong> Anything that requires a stir every two minutes isn't hands-off, it's just a different kind of chore.</li></ul>
@@ -141,7 +154,7 @@ footer.site a{color:var(--muted)}
 </div></main>
 <footer class="site"><div class="wrap">
 <p>As an Amazon Associate I earn from qualifying purchases.</p>
-<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a></p>
+<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a> · <a href="https://www.pinterest.com/makputhea/" rel="me noopener">Pinterest</a></p>
 <p>&copy; 2026 Home Picks Under $30 · <a href="/blog/disclosure/">Affiliate disclosure</a> · <a href="/blog/privacy/">Privacy</a> · <a href="/blog/rss.xml">RSS</a></p>
 </div></footer>
 </body>

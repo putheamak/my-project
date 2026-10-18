@@ -39,6 +39,18 @@ h2{font-size:1.4rem;line-height:1.3;margin:1.8em 0 .5em}
 h3{font-size:1.15rem;margin:1.4em 0 .4em}
 .meta{color:var(--muted);font-size:.9rem}
 .disclosure{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;font-size:.9rem;border-radius:4px;margin:16px 0 24px}
+.picks{background:var(--surface);border:2px solid var(--accent);border-radius:12px;padding:14px 16px;margin:1.2em 0}
+.picks-title{margin:0 0 8px;font-weight:700;font-size:1.05rem}
+.picks ul{list-style:none;margin:0;padding:0}
+.picks li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.picks li:first-child{border-top:0}
+.pk-label{grid-column:1;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--accent)}
+.pk-name{grid-column:1;font-weight:600}
+.pk-note{grid-column:1;font-size:.9rem;color:var(--muted)}
+.pk-btn{grid-column:2;grid-row:1/span 3;background:var(--accent);color:#fff!important;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 14px;border-radius:8px;white-space:nowrap;text-align:center}
+.pk-btn:hover{filter:brightness(1.1)}
+@media (max-width:520px){.picks li{grid-template-columns:1fr}.pk-btn{grid-column:1;grid-row:auto;margin-top:6px}}
+article a[rel~="sponsored"]{font-weight:600}
 .table-wrap{overflow-x:auto;margin:1em 0}
 table{border-collapse:collapse;width:100%;font-size:.95rem}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -95,6 +107,7 @@ footer.site a{color:var(--muted)}
 <img class="cover" src="/blog/images/weeknight-dinner.jpg.jpg" alt="Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)">
 <p>If you get home at 6pm and want food on the table by 6:40, the best kitchen gadgets for fast weeknight dinners aren't the fancy ones — they're the small, boring tools that delete a step. A gadget earns its drawer space when it saves you two minutes, every single night, without adding a pile of parts to wash.</p>
 <p>Below are the categories worth owning, what each one actually does for you, and how to tell a useful tool from clutter. All of the picks below are common, widely available kitchen tools — check the current price on Amazon for each one, since prices change.</p>
+<div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For faster garlic</span><span class="pk-name">Zulay large garlic press</span><a class="pk-btn" href="https://amzn.to/4zhnyoi" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4zhnyoi" data-goatcounter-title="Zulay large garlic press">Check price on Amazon</a></li><li><span class="pk-label">For slicing veggies quickly</span><span class="pk-name">Fullstar handheld mandoline and julienne cutter</span><a class="pk-btn" href="https://amzn.to/3TnKSkW" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3TnKSkW" data-goatcounter-title="Fullstar handheld mandoline and julienne cutter">Check price on Amazon</a></li><li><span class="pk-label">For checking meat is done</span><span class="pk-name">TempSwift instant-read thermometer</span><a class="pk-btn" href="https://amzn.to/3TK8QH9" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3TK8QH9" data-goatcounter-title="TempSwift instant-read thermometer">Check price on Amazon</a></li></ul></div>
 <h2>What makes a kitchen gadget actually save time?</h2>
 <p>A gadget saves time when it replaces a slow manual step <em>and</em> cleans up fast. Use this filter before you buy anything:</p>
 <ul><li><strong>Does it save time every week, or only on holidays?</strong> Weekly wins are worth it.</li><li><strong>How many pieces does it have?</strong> More pieces, more washing, less time saved.</li><li><strong>Is it dishwasher safe?</strong> Hand-washing a gadget can erase the minutes it saved.</li><li><strong>Where will it live?</strong> If it doesn't fit your drawer, you won't reach for it.</li><li><strong>Does it replace two tools?</strong> Combo tools free up space in a small kitchen.</li></ul>
@@ -138,7 +151,7 @@ footer.site a{color:var(--muted)}
 </div></main>
 <footer class="site"><div class="wrap">
 <p>As an Amazon Associate I earn from qualifying purchases.</p>
-<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a></p>
+<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a> · <a href="https://www.pinterest.com/makputhea/" rel="me noopener">Pinterest</a></p>
 <p>&copy; 2026 Home Picks Under $30 · <a href="/blog/disclosure/">Affiliate disclosure</a> · <a href="/blog/privacy/">Privacy</a> · <a href="/blog/rss.xml">RSS</a></p>
 </div></footer>
 </body>

@@ -39,6 +39,18 @@ h2{font-size:1.4rem;line-height:1.3;margin:1.8em 0 .5em}
 h3{font-size:1.15rem;margin:1.4em 0 .4em}
 .meta{color:var(--muted);font-size:.9rem}
 .disclosure{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;font-size:.9rem;border-radius:4px;margin:16px 0 24px}
+.picks{background:var(--surface);border:2px solid var(--accent);border-radius:12px;padding:14px 16px;margin:1.2em 0}
+.picks-title{margin:0 0 8px;font-weight:700;font-size:1.05rem}
+.picks ul{list-style:none;margin:0;padding:0}
+.picks li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.picks li:first-child{border-top:0}
+.pk-label{grid-column:1;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--accent)}
+.pk-name{grid-column:1;font-weight:600}
+.pk-note{grid-column:1;font-size:.9rem;color:var(--muted)}
+.pk-btn{grid-column:2;grid-row:1/span 3;background:var(--accent);color:#fff!important;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 14px;border-radius:8px;white-space:nowrap;text-align:center}
+.pk-btn:hover{filter:brightness(1.1)}
+@media (max-width:520px){.picks li{grid-template-columns:1fr}.pk-btn{grid-column:1;grid-row:auto;margin-top:6px}}
+article a[rel~="sponsored"]{font-weight:600}
 .table-wrap{overflow-x:auto;margin:1em 0}
 table{border-collapse:collapse;width:100%;font-size:.95rem}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -95,6 +107,7 @@ footer.site a{color:var(--muted)}
 <img class="cover" src="/blog/images/small-kitchen-corner.jpg" alt="Kitchen Gadgets Under $30 That Save Counter Space and Cut Down on Dishes">
 <p>If you cook in a galley kitchen, a rental with three drawers, or a corner of a studio apartment, the problem usually isn't skill — it's square footage. The best kitchen gadgets for small kitchens under $30 aren't the flashy ones. They're the flat, foldable, nesting, multi-use tools that disappear into a drawer and leave you with two things to wash instead of nine.</p>
 <p>Here's how to choose them, plus the categories worth your limited space.</p>
+<div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For draining in a tiny sink</span><span class="pk-name">Comfify collapsible over-sink colander</span><a class="pk-btn" href="https://amzn.to/4j8PjdT" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4j8PjdT" data-goatcounter-title="Comfify collapsible over-sink colander">Check price on Amazon</a></li><li><span class="pk-label">For drying dishes without a rack</span><span class="pk-name">Roll-up dish drying rack</span><a class="pk-btn" href="https://amzn.to/4zdWGFw" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4zdWGFw" data-goatcounter-title="Roll-up dish drying rack">Check price on Amazon</a></li><li><span class="pk-label">For one-gadget blending</span><span class="pk-name">KOIOS 3-in-1 immersion blender</span><a class="pk-btn" href="https://amzn.to/4hrKBGK" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4hrKBGK" data-goatcounter-title="KOIOS 3-in-1 immersion blender">Check price on Amazon</a></li></ul></div>
 <h2>What makes a gadget worth space in a small kitchen?</h2>
 <p>Before you buy anything, run it through four questions:</p>
 <ul><li><strong>Does it nest, fold, or hang?</strong> Collapsible and stackable designs are the difference between a full drawer and a half-empty one.</li><li><strong>Does it do more than one job?</strong> A tool with two real uses earns its spot; a tool with one novelty use doesn't.</li><li><strong>Does it create dishes or remove them?</strong> Anything that lets you prep and serve in the same vessel is a win.</li><li><strong>Can you clean it in a small sink?</strong> Wide, rigid, awkward items are miserable in an apartment sink.</li></ul>
@@ -127,7 +140,7 @@ footer.site a{color:var(--muted)}
 </div></main>
 <footer class="site"><div class="wrap">
 <p>As an Amazon Associate I earn from qualifying purchases.</p>
-<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a></p>
+<p>Follow: <a href="https://www.tiktok.com/@homepicksunder30" rel="me noopener">TikTok</a> · <a href="https://www.youtube.com/@homepicksunder30" rel="me noopener">YouTube</a> · <a href="https://www.pinterest.com/makputhea/" rel="me noopener">Pinterest</a></p>
 <p>&copy; 2026 Home Picks Under $30 · <a href="/blog/disclosure/">Affiliate disclosure</a> · <a href="/blog/privacy/">Privacy</a> · <a href="/blog/rss.xml">RSS</a></p>
 </div></footer>
 </body>
