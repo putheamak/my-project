@@ -18,6 +18,12 @@ The best hands-off kitchen gadgets under $30 all share one trait: you load them,
 
 I haven't used these yet. I picked each one for a specific job, and I explain why below. Check the current price on Amazon for anything you're considering.
 
+:::picks
+- For rice without watching: [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY)
+- For a small slow cooker: [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj)
+- For eggs while you get ready: [Microwave egg cooker](https://amzn.to/4htE2C8)
+:::
+
 ### What makes a kitchen gadget actually "hands-off"?
 
 Three things:

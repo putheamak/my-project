@@ -18,6 +18,12 @@ If you cook in a galley kitchen, a rental with three drawers, or a corner of a s
 
 Here's how to choose them, plus the categories worth your limited space.
 
+:::picks
+- For draining in a tiny sink: [Comfify collapsible over-sink colander](https://amzn.to/4j8PjdT)
+- For drying dishes without a rack: [Roll-up dish drying rack](https://amzn.to/4zdWGFw)
+- For one-gadget blending: [KOIOS 3-in-1 immersion blender](https://amzn.to/4hrKBGK)
+:::
+
 ### What makes a gadget worth space in a small kitchen?
 
 Before you buy anything, run it through four questions:

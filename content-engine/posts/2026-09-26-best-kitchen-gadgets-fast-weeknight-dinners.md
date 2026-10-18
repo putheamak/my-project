@@ -18,6 +18,12 @@ If you get home at 6pm and want food on the table by 6:40, the best kitchen gadg
 
 Below are the categories worth owning, what each one actually does for you, and how to tell a useful tool from clutter. All of the picks below are common, widely available kitchen tools — check the current price on Amazon for each one, since prices change.
 
+:::picks
+- For faster garlic: [Zulay large garlic press](https://amzn.to/4zhnyoi)
+- For slicing veggies quickly: [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW)
+- For checking meat is done: [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9)
+:::
+
 ### What makes a kitchen gadget actually save time?
 
 A gadget saves time when it replaces a slow manual step *and* cleans up fast. Use this filter before you buy anything:

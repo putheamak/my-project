@@ -16,6 +16,12 @@ As an Amazon Associate I earn from qualifying purchases.
 
 The drive-thru line is rarely about the food. It's about the fact that at 7:12 a.m., someone else is willing to cook. But the gap between a paper-wrapped sandwich and the same thing at your own counter is smaller than it looks — mostly it's a few small tools. Below are the best kitchen gadgets for making coffee shop breakfast at home: eggs, a hot pressed sandwich, and coffee that doesn't taste like an afterthought. For each one, check the current price on Amazon.
 
+:::picks
+- For breakfast sandwiches: [Hamilton Beach breakfast sandwich maker](https://amzn.to/4jEVLJz)
+- For poached eggs: [Microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB)
+- For café-style foam: [Handheld milk frother](https://amzn.to/4hs2w08)
+:::
+
 ### What does a "coffee shop breakfast" actually need?
 
 Break a café breakfast into parts and it gets much less intimidating:

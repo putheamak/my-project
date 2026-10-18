@@ -18,6 +18,12 @@ Mornings are where good intentions go to die. You mean to eat something real, th
 
 A quick note on how I write these: I don't list prices, because Amazon prices move constantly. When something looks right for you, check the current price on Amazon before you buy. The "under $30" in the title is the category I shop in, not a promise about any specific listing.
 
+:::picks
+- For eggs in minutes: [Microwave egg cooker](https://amzn.to/4htE2C8)
+- For grab-and-go oats: [16 oz overnight oats mason jars](https://amzn.to/4dlE3XO)
+- For café-style coffee: [Zulay handheld milk frother](https://amzn.to/3U7di2P)
+:::
+
 ### What makes a breakfast gadget actually worth the counter space?
 
 I use three filters:

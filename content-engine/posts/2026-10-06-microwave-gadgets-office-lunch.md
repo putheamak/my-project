@@ -18,6 +18,12 @@ If your workplace kitchen is a microwave, a sink and a mystery sponge, the best 
 
 This list is built for people who leave the house in a hurry and don't want to spend their lunch break in a sandwich line. Prices change constantly, so check the current price on Amazon for anything that looks useful.
 
+:::picks
+- For carrying lunch: [Lifewit insulated lunch bag (20L)](https://amzn.to/4zfg0lN)
+- For ramen at your desk: [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT)
+- For hot soup without a microwave: [THERMOS FUNTAINER food jar (10 oz)](https://amzn.to/4y2D5Hq)
+:::
+
 ### What makes a gadget good for a break room?
 
 Three things:

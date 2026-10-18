@@ -24,10 +24,11 @@
       "ideas": "holiday cookie baking, hosting family, hot drinks, edible gifts, holiday breakfast"
     },
     {
-      "from": "10-20",
+      "from": "10-19",
       "to": "12-15",
       "occasion": "Holiday gift shopping",
-      "ideas": "kitchen gifts under $30 for a specific person (coffee lover, new cook, college student, host, someone who lives alone), stocking stuffers"
+      "ideas": "one gift post per day for a specific shopper and budget, e.g. stocking stuffers for people who cook (under $15), White Elephant or Secret Santa kitchen gifts (under $25), gifts for mom who loves to cook, gifts for a coffee lover, gifts for a new cook or college student, hostess gifts, gifts for someone who lives alone, gifts for bakers",
+      "priority": true
     },
     {
       "from": "12-10",

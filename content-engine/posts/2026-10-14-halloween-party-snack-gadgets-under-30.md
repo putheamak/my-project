@@ -18,6 +18,12 @@ The hard part of Halloween night isn't the costumes — it's feeding people in w
 
 Below are the gadget *types* worth having on trick-or-treat night, what each one actually does, and how to set up a snack table that refills itself.
 
+:::picks
+- For party popcorn: [Salbree collapsible microwave popcorn popper](https://amzn.to/4zdlRI8)
+- For mini donuts to decorate: [Dash Express mini donut maker](https://amzn.to/4hRGJxR)
+- For a party treat kids remember: [Mini electric cotton candy maker](https://amzn.to/4rXHZEa)
+:::
+
 ### What snacks can you make for a Halloween party without using the oven?
 
 More than you'd think. The goal is batch-friendly food that holds well at room temperature or reheats fast.

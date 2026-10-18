@@ -18,6 +18,12 @@ Meal prep falls apart for one reason: the prep part takes forever. Chopping, was
 
 Below are the tool categories that actually earn their counter space, what each one is good at, and what to look for before you buy. If you're more interested in same-night cooking, see my earlier post on [Best Kitchen Gadgets for Fast Weeknight Dinners (Under $30 Picks)](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/).
 
+:::picks
+- For chopping without a food processor: [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj)
+- For storing the week's meals: [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF)
+- For freezing single portions: [Silicone freezer tray with lid](https://amzn.to/4y4ZmED)
+:::
+
 ### What kitchen gadgets actually speed up meal prep?
 
 The ones that handle volume. A gadget that saves you ten seconds once is a drawer clutterer. A gadget that saves ten seconds forty times in a row is the reason Sunday prep gets done.

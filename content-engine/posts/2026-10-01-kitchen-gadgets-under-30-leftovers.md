@@ -18,6 +18,12 @@ Most of us don't waste food on purpose. We waste it because the container leaked
 
 Here's the stuff worth having, organised by the three places leftovers usually go wrong: storing, portioning, and reheating.
 
+:::picks
+- For storing leftovers: [PrepNaturals glass containers](https://amzn.to/4rUytBF)
+- For freezing single portions: [Silicone freezer tray with lid](https://amzn.to/4y4ZmED)
+- For splatter-free reheating: [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH)
+:::
+
 ### What's the best way to store leftovers so they don't dry out?
 
 The container does most of the work. If air gets in, texture goes out.

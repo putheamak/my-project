@@ -18,6 +18,13 @@ The best kitchen gifts under $30 are small, useful tools the person would actual
 
 I haven't personally used these yet. I picked each one for a specific job, and I'll say what that job is so you can match it to the person on your list. Prices change often around Black Friday and Cyber Monday, so check the current price on Amazon before you buy.
 
+:::picks
+- For coffee lovers: [Handheld milk frother](https://amzn.to/4hs2w08)
+- For people who cook for one: [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY)
+- For White Elephant swaps: [Electric salt and pepper grinder set](https://amzn.to/4i0yiQS)
+- For lunch packers: [Umami bento box for adults](https://amzn.to/4hAa8xD)
+:::
+
 ### What makes a good kitchen gift under $30?
 
 - **It solves one daily annoyance.** A gift they use every morning beats a fancy one they use once.

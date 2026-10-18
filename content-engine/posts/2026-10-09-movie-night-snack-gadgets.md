@@ -18,6 +18,12 @@ The film is cued up, everyone's on the couch, and nobody wants to stand over a h
 
 I haven't used these yet. Below are the picks, what each one is for, and how to choose between the two popcorn routes.
 
+:::picks
+- For popcorn without a pot: [Salbree collapsible microwave popcorn popper](https://amzn.to/4zdlRI8)
+- For warm mini donuts: [Dash Express mini donut maker](https://amzn.to/4hRGJxR)
+- For flavoring popcorn: [Kernel Season's popcorn seasoning variety pack](https://amzn.to/4y6l5Md)
+:::
+
 ### What's the fastest way to make popcorn without a pot?
 
 Two gadgets, two different movie nights.

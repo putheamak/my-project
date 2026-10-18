@@ -18,6 +18,12 @@ If you've ever promised the kids you'd "bake something this weekend" and then ru
 
 A quick note on how I picked: I haven't used any of these yet. I chose each one for what it's designed to do, and I'll tell you exactly what each one is for.
 
+:::picks
+- For a fun weekend treat: [Dash Express mini donut maker](https://amzn.to/4hRGJxR)
+- For mini waffles: [Dash Mini Waffle Maker (4-inch)](https://amzn.to/46Xe9pI)
+- For popcorn night: [Dash Fresh Pop hot air popcorn maker](https://amzn.to/3VBBfzH)
+:::
+
 ### What makes a treat gadget actually worth the counter space?
 
 Three things, in my opinion:

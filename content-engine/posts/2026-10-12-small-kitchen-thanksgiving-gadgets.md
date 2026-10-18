@@ -18,6 +18,12 @@ If you're hunting for kitchen gadgets for a small kitchen Thanksgiving, the prob
 
 Here's how I'd map out the day, plus the inexpensive gear that does the moving.
 
+:::picks
+- For sides without the oven: [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj)
+- For checking the turkey: [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
+- For smooth mashed potatoes: [PriorityChef potato ricer](https://amzn.to/4yOU3Kw)
+:::
+
 ### How do you cook Thanksgiving sides without an oven?
 
 The oven belongs to the turkey (or the roast, or the big pan of stuffing). Everything else can go somewhere else.

@@ -18,6 +18,12 @@ Morning you is not a planner. Morning you is a person looking for car keys. So t
 
 I haven't personally tested these yet — these are the picks I chose for my own night-before routine, and I'll tell you exactly why each one made the list.
 
+:::picks
+- For meal-prep lunches: [Rubbermaid Brilliance 2-compartment containers (5-pack)](https://amzn.to/4j7VLlo)
+- For lunches with sections: [Umami bento box for adults](https://amzn.to/4hAa8xD)
+- For keeping it all cold: [Lifewit insulated lunch bag (20L)](https://amzn.to/4zfg0lN)
+:::
+
 ### What do you actually need to pack lunch the night before?
 
 Fewer things than you'd guess. A night-before lunch needs four jobs covered:
