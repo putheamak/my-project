@@ -30,7 +30,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
-const VERSION = 3; // bump to remake all videos after changing the design
+const VERSION = 4; // bump to remake all videos after changing the design
 const postsDir = path.join(here, "posts");
 const imagesDir = path.join(here, "images");
 const arg = (name) => (process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : "");
@@ -93,7 +93,9 @@ const caption = (w, h, size, color, text, extra = []) => [
 ];
 const panel = (w, h, color, alpha) => ["(", "-size", `${w}x${h}`, "xc:none", "-fill", color, "-draw", `roundrectangle 0,0,${w - 1},${h - 1},36,36`, "-channel", "A", "-evaluate", "multiply", String(alpha), "+channel", ")"];
 const at = (gravity, x, y) => ["-gravity", gravity, "-geometry", `+${x}+${y}`, "-composite"];
-const brand = [...caption(900, 50, 34, "white", site.title.toUpperCase()), ...at("south", 0, 110)];
+// TikTok and Shorts captions have no clickable link, so every frame shows the domain to type in.
+const domain = new URL(baseUrl).hostname.replace(/^www\./, "");
+const brand = [...caption(900, 50, 36, "white", domain.toUpperCase()), ...at("south", 0, 110)];
 
 // Transparent 1080x1920 overlays, one per scene.
 function overlays(dir, { headline, subline, items }) {
@@ -125,10 +127,11 @@ function overlays(dir, { headline, subline, items }) {
   magick([
     ...base,
     ...panel(960, 900, "black", 0.65), ...at("center", 0, 0),
-    ...caption(860, 300, 0, "white", "Full list on my blog"), ...at("center", 0, -230),
-    ...panel(620, 110, ACCENT, 1), ...at("center", 0, 0),
-    ...caption(580, 80, 0, "white", "Link in bio"), ...at("center", 0, 0),
-    ...caption(860, 120, 0, "#fde7d6", site.title), ...at("center", 0, 190),
+    ...caption(860, 240, 0, "white", "Full list with links:"), ...at("center", 0, -250),
+    ...panel(920, 140, ACCENT, 1), ...at("center", 0, -20),
+    ...caption(860, 100, 0, "white", domain), ...at("center", 0, -20),
+    ...caption(860, 90, 44, "#fde7d6", "Type it in your browser"), ...at("center", 0, 130),
+    ...caption(860, 70, 34, "#fde7d6", site.title), ...at("center", 0, 225),
     ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 330),
   ], end);
   files.push(end);
@@ -179,7 +182,7 @@ function render(post, src, out) {
 
 // Text to paste under the video on TikTok, YouTube Shorts or Pinterest.
 const videoCaption = (post) =>
-  `${post.pinTitle || post.title}\n\nFull list on my blog - link in bio.\n${disclosure}\n\n#kitchengadgets #kitchenhacks #cookingtips #homecooking`;
+  `${post.pinTitle || post.title}\n\nFull list with links: ${domain}\n${disclosure}\n\n#kitchengadgets #kitchenhacks #cookingtips #homecooking`;
 
 // The live site first, then the same file on the gh-pages branch, so a domain
 // that isn't reachable yet doesn't make every video render again.
