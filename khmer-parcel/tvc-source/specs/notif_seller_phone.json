@@ -1,0 +1,11 @@
+{
+  "html": "scenes_notif.html",
+  "out": "../khmer_parcel_notif_seller_phone.mp4",
+  "xfade": 0.3,
+  "audio": "notif_seller_phone_music.m4a",
+  "segments": [
+    {"scene": "phone", "dur": 6.6, "next": "zoomin"},
+    {"scene": "facts", "dur": 3.4, "next": "slideup"},
+    {"scene": "end", "dur": 4.4}
+  ]
+}

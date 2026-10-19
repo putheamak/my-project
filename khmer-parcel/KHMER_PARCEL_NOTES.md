@@ -52,6 +52,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 | `khmer_parcel_ad_route_quote_1_v2.mp4` | 12.6 s re-cut: real motorbike photo + question + comment ask from 0:00, 4 s website example, ask again + website QR (fixes the 0:04 drop and 0 comments of v1) |
 | `khmer_parcel_pitch_seller_10s.mp4` | 10 s seller pitch to send in chat (real photo hook "២,០០០៛", 4 benefits, bot QR). Use with `seller_outreach_kit.md` and `print/khmer_parcel_flyer_seller_A5.pdf` |
 | `khmer_parcel_cod_real_booking.mp4` | 15.5 s, real bot booking KP7SMU3144 (name + phones blurred, `tvc-source/photos_cod/`): hook "ចាំប្រាក់ COD យូរប៉ុន្មានថ្ងៃ?" → "ដឹកដល់ហើយ!" COD $11+$11=$22 → "$22 ប្រគល់ជូនអ្នកលក់ ក្នុងថ្ងៃដដែល" → bot QR + comment ask. Cover `khmer_parcel_cod_real_booking_cover.jpg` |
+| `khmer_parcel_notif_seller_phone.mp4` | 13.8 s "ទូរស័ព្ទអ្នកលក់អនឡាញ ថ្ងៃនេះ..." — lock-screen notifications retell the real 14 Oct booking (bot confirmation → rider call → delivered COD $22 → +$22 same day), 3 facts, end asks Comment «ចង់» + bot QR. Made to fix the 0:01 drop of the COD video. Source `scenes_notif.html` |
 
 ### TVC v3 timecodes (for voiceover)
 | Time | Scene |
@@ -81,6 +82,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Source clips needed again: Launch Video 1, TVC 1, and the live-app demo recording (re-upload them)
 
 ## Results & decisions (Oct 2026)
+- 19 Oct insights: Page follows ~0/day since launch spike (367 in 28 days, mostly 21–22 Sep). COD real-booking Reel: 196 views, 37 3-s views, 6 s avg (40%), biggest drop at 0:01, 0 comments, 20.9% non-followers → next Reels must win the first second (full-screen motion, big text), and use one-word comment asks
 - 14 Oct: **first Telegram-bot booking delivered** — KP7SMU3144, 2 parcels, pick-up Chbar Ampov (ASAP) → Prampi Makara + Boeng Keng Kang, COD $11 + $11 = $22 collected, fee shown 4,000៛ per parcel (8,000៛, customer pays). Owner confirmed (14 Oct): **4,000៛ per parcel is the correct online-seller price now** and the $22 COD was returned to the seller the same day. Flyer, outreach kit, 10 s pitch and repo bot code still say 3,000៛ (+ first 3 at 2,000៛) — offer status to confirm with the owner before updating them
 - 13 Oct: 1 booking (2 parcels) since 1 Oct. Insights: true story 356 views / 27 s avg watch / 24.5% non-followers vs route quote 191 views / 5 s avg / 0 comments; both drop at 0:04–0:05 when real hook switches to animation → real footage first, ask in first 2 s. Plan: direct seller outreach (kit + A5 flyer + 10 s pitch) to get 10 sellers trying the offer before 31 Oct; owner collects 2–3 photos per delivery; owner to screen-record a website booking
 - 11 Oct: website bookings still very low (57 clicks → 0 bookings earlier) → shift videos to comment/lead-driven series; owner to test the website booking flow on a phone and send a screen recording
