@@ -8,8 +8,8 @@ pinTitle: "Stocking Stuffers for People Who Cook (Small Gifts Under $30)"
 pinDescription: "Holiday gift shopping for a home cook? These stocking stuffers for people who cook are small, useful gifts under $30 - silicone spatulas, mesh strainers, a clip-on pot strainer, a handheld milk frother, tea infusers, a meat thermometer, a collapsible popcorn popper and more. Nothing novelty, nothing that dies in a drawer. Tap for the full list plus a comparison table of what each one is best for. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-19"
-image: ""
-status: "draft"
+image: "images/congerdesign-potatoes.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
