@@ -5,7 +5,7 @@ description: "Stocking stuffers for people who cook: small kitchen gadgets under
 slug: "stocking-stuffers-for-people-who-cook"
 keyword: "stocking stuffers for people who cook"
 pinTitle: "Stocking Stuffers for People Who Cook (Small Gifts Under $30)"
-pinDescription: "Holiday gift shopping for a home cook? These stocking stuffers for people who cook are small, useful gifts under $30 - silicone spatulas, mesh strainers, a clip-on pot strainer, a handheld milk frother, tea infusers, a meat thermometer, a collapsible popcorn popper and more. Nothing novelty, nothing that dies in a drawer. Tap for the full list plus a comparison table of what each one is best for. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
+pinDescription: "Holiday gift shopping for a home cook? These stocking stuffers for people who cook are small, useful gifts under $30 - a Microplane zester, a jar opener, silicone spatulas, mesh strainers, a handheld milk frother, tea infusers, a meat thermometer, a collapsible popcorn popper and more. Nothing novelty, nothing that dies in a drawer. Tap for the full list plus a comparison table of what each one is best for. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-19"
 image: "images/congerdesign-potatoes.jpg"
@@ -20,9 +20,9 @@ Below are small, useful kitchen tools under $30, grouped by the kind of cook you
 
 :::picks
 - For coffee and cocoa drinkers: [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE)
-- For the person who cooks every day: [ChefAide 5-piece silicone spatula set](https://amzn.to/3U0lba7)
+- For the person who cooks every day: [Microplane Premium Classic zester](https://amzn.to/4scC2Df)
 - For the holiday roast or turkey: [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
-- For movie-night families: [Salbree collapsible microwave popcorn popper](https://amzn.to/4zdlRI8)
+- For parents and grandparents: [Otstar jar opener](https://amzn.to/4k2Gx1c)
 :::
 
 ### What makes a good kitchen stocking stuffer?
@@ -42,6 +42,8 @@ Three things, in order:
 
 Replace their worn-out basics. Most people cook for years on one sad, stained spatula.
 
+- [Microplane Premium Classic zester](https://amzn.to/4scC2Df) - the classic long, thin grater for lemon zest, parmesan, garlic, ginger and nutmeg. If you'd like a sturdier option, the [Deiss PRO zester and grater](https://amzn.to/3UA16b5) does the same job.
+- [Norpro silicone mini pinch bowls (set of 4)](https://amzn.to/47xBjTR) - tiny bowls for measured spices, chopped garlic or dipping sauces, so everything is ready before the pan is hot.
 - [ChefAide 5-piece silicone spatula set](https://amzn.to/3U0lba7) - for scraping pans, folding batters and getting the last of the sauce out of the pot.
 - [3-pack stainless steel whisk set](https://amzn.to/3VPQrcB) - three sizes covers gravy, salad dressing and pancake batter.
 - [Cuisinart stainless steel mesh strainers (3-count)](https://amzn.to/3VOHj8b) - for rinsing grains, straining sauces and dusting powdered sugar.
@@ -53,6 +55,11 @@ Replace their worn-out basics. Most people cook for years on one sad, stained sp
 
 - [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) - a reusable fork and spoon in a case, so no more break-room plastic cutlery.
 - [Stasher reusable silicone pocket bags (4 oz, 2-pack)](https://amzn.to/4y5gMkg) - snack-sized for nuts, crackers or cut fruit.
+- [unwasted reusable silicone stretch lids (7-pack)](https://amzn.to/4zDoF1v) - stretch over bowls and containers of leftovers instead of plastic wrap.
+
+### What's a thoughtful stocking stuffer for parents or grandparents?
+
+- [Otstar jar opener](https://amzn.to/4k2Gx1c) - made for people with weak hands or arthritis, so stubborn jar and bottle lids aren't a daily struggle. A small gift that shows you noticed.
 
 More ideas in my post on [packing lunch the night before](https://homepicksunder30.com/blog/posts/best-lunch-containers-work-lunches/).
 
@@ -69,6 +76,8 @@ More ideas in my post on [packing lunch the night before](https://homepicksunder
 |---|---|---|
 | Handheld milk frother | Coffee and cocoa drinkers | Wand-sized, fits easily |
 | Tea infusers (2-pack) | Loose-leaf tea drinkers | Tiny, and splits into two gifts |
+| Microplane or Deiss zester | Everyday cooks and bakers | Zest, parmesan and garlic in seconds |
+| Mini pinch bowls (set of 4) | Organized cooks | Tiny, stackable, easy to wrap |
 | Silicone spatula set | Everyday cooks and bakers | Replaces worn-out basics |
 | Whisk set (3-pack) | Gravy and sauce makers | Three sizes, one small gift |
 | Mesh strainers (3-count) | Bakers, grain cooks | Three sizes that nest together |
@@ -77,6 +86,8 @@ More ideas in my post on [packing lunch the night before](https://homepicksunder
 | Instant-read meat thermometer | Holiday hosts, meat cooks | No more guessing if it's done |
 | Travel utensil set | Desk-lunch commuters | Fits in a bag or a stocking |
 | Silicone pocket bags | Snack packers | Flat and light to wrap |
+| Silicone stretch lids (7-pack) | Leftover savers | Swaps out plastic wrap |
+| Jar opener | Parents, grandparents, weak hands | Makes tight lids easy |
 | Collapsible popcorn popper | Movie-night households | Folds down to almost nothing |
 | Popcorn seasoning pack | Anyone who snacks | Eight jars to divide up |
 | Ice cream scoop | Dessert people | Sturdy upgrade over a spoon |
