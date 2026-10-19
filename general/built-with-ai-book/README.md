@@ -6,6 +6,7 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 ## Files
 | File | What it is |
 |---|---|
+| `part-1-draft.md` | Part 1 draft (chapters 1–3), from the owner's notes of 19 Oct 2026. Owner must check ⭐ and [CHECK] marks. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
 ## How we write it
