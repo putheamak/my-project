@@ -3,12 +3,15 @@
 The QR holds a **vCard**: scanning it with a phone camera shows **"Save contact"** (name, Khmer Parcel,
 3 phone numbers, website, Telegram bot). It works offline — no website or server needed.
 
-## Edit
-1. Change the fields in `card_info.json` (name, title, phones, email, address…). Leave `email` empty to hide it.
-2. Run `python3 make_card.py` (needs `pip install "qrcode[pil]" opencv-python-headless` and Playwright/Chromium, as in `../tvc-source/setup.sh`).
-3. It rebuilds everything and checks that the QR decodes.
+## People
+One folder per person: `people/puthea/` (Mak Puthea, Founder), `people/rotana/` (Prak Rotana, Admin and Finance).
 
-## Files
+## Edit or add a person
+1. Edit `people/<name>/card_info.json` — or copy a folder to add a new person. Leave `email` or `telegram_phone` empty to hide that line.
+2. Run `python3 make_card.py people/<name>/card_info.json` (no argument = rebuild everyone). Needs `pip install "qrcode[pil]" opencv-python-headless` and Playwright/Chromium, as in `../tvc-source/setup.sh`.
+3. It rebuilds that person's files in their folder and checks that the QR decodes.
+
+## Files (in each person's folder)
 | File | Use |
 |---|---|
 | `khmer_parcel_card_print.pdf` | Send to the print shop — 2 pages (front, back), 90 × 54 mm, no bleed |

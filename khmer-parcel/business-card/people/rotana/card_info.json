@@ -1,0 +1,20 @@
+{
+  "_help": "Edit these fields, then run: python3 make_card.py people/<name>/card_info.json  (leave a field empty to hide it)",
+  "name_km": "ប្រាក់ រតនា",
+  "name_en": "Prak Rotana",
+  "title_km": "រដ្ឋបាល និងហិរញ្ញវត្ថុ",
+  "title_en": "Admin and Finance",
+  "company_km": "ខ្មែរផាសែល",
+  "company_en": "Khmer Parcel",
+  "tagline_km": "ដឹកដោយយកចិត្តទុកដាក់ · ប្រាក់ COD ចូលដៃថ្ងៃដដែល",
+  "phones": [
+    "012 678 657",
+    "092 678 657"
+  ],
+  "telegram_phone": "",
+  "telegram_bot": "t.me/KhmerParcelBot",
+  "website": "www.khmerparcel.com",
+  "email": "",
+  "address_km": "ភ្នំពេញ",
+  "address_en": "Phnom Penh, Cambodia"
+}

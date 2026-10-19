@@ -64,7 +64,7 @@ body{font-family:KP,sans-serif;color:var(--navy);background:#fff}
     <div class="ti"><span data-f="title_km"></span> · <span data-f="title_en"></span></div>
     <div class="bar"></div>
     <div class="ct" style="color:var(--blue)"><svg><use href="#ph"/></svg><span data-f="phones"></span></div>
-    <div class="ct"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
+    <div class="ct tgrow"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
     <div class="ct" style="color:var(--blue)"><svg><use href="#web"/></svg><span data-f="website"></span></div>
     <div class="ct email"><svg style="color:var(--blue)"><use href="#mail"/></svg><span data-f="email"></span></div>
     <div class="ct"><svg><use href="#pin"/></svg><span data-f="address_km"></span> · <span data-f="address_en"></span></div>
@@ -75,7 +75,7 @@ body{font-family:KP,sans-serif;color:var(--navy);background:#fff}
 </div></template>
 
 <template id="tBack"><div class="card back">
-  <div class="qr"><img src="qr_card_vcard.png"></div>
+  <div class="qr"><img class="qrimg"></div>
   <div><div class="moul">ស្កេនដើម្បី<br>រក្សាទុកលេខ</div><div class="en">Scan to save contact</div>
     <div class="tg" data-f="telegram_bot"></div></div>
 </div></template>
@@ -85,10 +85,10 @@ body{font-family:KP,sans-serif;color:var(--navy);background:#fff}
   <div class="moul co" data-f="company_km"></div>
   <div class="nm" data-f="name_km"></div><div class="ne" data-f="name_en"></div>
   <div class="ti"><span data-f="title_km"></span> · <span data-f="title_en"></span></div>
-  <div class="qr"><img src="qr_card_vcard.png"></div>
+  <div class="qr"><img class="qrimg"></div>
   <div class="scan">ស្កេនដើម្បីរក្សាទុកលេខ</div>
   <div class="ct"><svg><use href="#ph"/></svg><span data-f="phones"></span></div>
-  <div class="ct"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
+  <div class="ct tgrow"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
   <div class="ct"><svg><use href="#web"/></svg><span data-f="website"></span></div>
 </div></template>
 
@@ -103,6 +103,8 @@ window.fill=d=>{
   document.getElementById(view).style.display='block';
   document.querySelectorAll('[data-f]').forEach(e=>{const v=d[e.dataset.f];e.textContent=Array.isArray(v)?v.join(' · '):(v||'')});
   if(!d.email)document.querySelectorAll('.email').forEach(e=>e.remove());
+  if(!d.telegram_phone)document.querySelectorAll('.tgrow').forEach(e=>e.remove());
+  document.querySelectorAll('img.qrimg').forEach(e=>e.src=d._qr);
   return true;
 };
 </script>

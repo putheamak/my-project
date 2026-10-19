@@ -1,5 +1,5 @@
 {
-  "_help": "Edit these fields, then run: python3 make_card.py  (lines starting with _ are notes)",
+  "_help": "Edit these fields, then run: python3 make_card.py people/<name>/card_info.json  (leave a field empty to hide it)",
   "name_km": "ម៉ក់ ពុទ្ធា",
   "name_en": "Mak Puthea",
   "title_km": "ស្ថាបនិក",

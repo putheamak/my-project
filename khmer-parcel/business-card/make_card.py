@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Khmer Parcel digital business card.
 
-Edit card_info.json, then run:  python3 make_card.py
-Makes (in this folder):
+One folder per person in people/<name>/ with a card_info.json. Edit it, then run:
+    python3 make_card.py people/<name>/card_info.json      (no argument = every person)
+Makes (in that person's folder):
   khmer_parcel_card.vcf            contact file (what the QR contains)
   qr_card_vcard.png                QR — scan with a phone camera → "Save contact"
   khmer_parcel_card_front.png      print card front (90×54 mm, 300 dpi)
@@ -17,7 +18,7 @@ from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
 from qrcode.image.styles.colormasks import SolidFillColorMask
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-info = json.load(open(os.path.join(HERE, "card_info.json"), encoding="utf-8"))
+info = {}
 tel = lambda p: "+855" + p.replace(" ", "").lstrip("0")
 esc = lambda s: s.replace("\\", "\\\\").replace(",", "\\,").replace(";", "\;")
 
@@ -55,16 +56,27 @@ def check_qr(path, expect):
     return got.strip() == expect.strip()
 
 
-if __name__ == "__main__":
+def build(info_path):
+    global info
+    info = json.load(open(info_path, encoding="utf-8"))
+    out = os.path.dirname(os.path.abspath(info_path))
     v = vcard()
-    open(os.path.join(HERE, "khmer_parcel_card.vcf"), "w", encoding="utf-8", newline="").write(v)
-    qr = os.path.join(HERE, "qr_card_vcard.png")
+    open(os.path.join(out, "khmer_parcel_card.vcf"), "w", encoding="utf-8", newline="").write(v)
+    qr = os.path.join(out, "qr_card_vcard.png")
     make_qr(v, qr)
     try:
-        print("QR check:", "OK — decodes to the vCard" if check_qr(qr, v) else "WARNING — could not verify")
+        print(os.path.basename(out), "QR check:", "OK — decodes to the vCard" if check_qr(qr, v) else "WARNING — could not verify")
     except Exception as e:
         print("QR check skipped:", e)
-    json.dump(info, open(os.path.join(HERE, "card_data.js.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    data = dict(info, _qr=os.path.relpath(qr, HERE), _out=out)
+    json.dump(data, open(os.path.join(HERE, "card_data.js.json"), "w", encoding="utf-8"), ensure_ascii=False)
     env = dict(os.environ, NODE_PATH=subprocess.check_output(["npm", "root", "-g"], text=True).strip())
     subprocess.run(["node", os.path.join(HERE, "render_card.cjs"), HERE], check=True, env=env)
     os.remove(os.path.join(HERE, "card_data.js.json"))
+
+
+if __name__ == "__main__":
+    import glob
+    paths = sys.argv[1:] or sorted(glob.glob(os.path.join(HERE, "people", "*", "card_info.json")))
+    for p in paths:
+        build(p)
