@@ -1,0 +1,109 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Khmer Parcel business card</title>
+<style>
+@font-face{font-family:KP;src:url(../tvc-source/kantumruy-pro-khmer-400-normal.woff2);font-weight:400;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(../tvc-source/kantumruy-pro-khmer-700-normal.woff2);font-weight:700;unicode-range:U+1780-17FF,U+19E0-19FF,U+200C-200D,U+25CC}
+@font-face{font-family:KP;src:url(../tvc-source/kantumruy-pro-latin-400-normal.woff2);font-weight:400;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:KP;src:url(../tvc-source/kantumruy-pro-latin-700-normal.woff2);font-weight:700;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:Moul;src:url(../tvc-source/moul-khmer-400-normal.woff2)}
+:root{--blue:#1a78cf;--navy:#0d3868;--sky:#dff0fc;--orange:#f08a14}
+@page{size:90mm 54mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:KP,sans-serif;color:var(--navy);background:#fff}
+.v{display:none}
+.moul{font-family:Moul,KP;font-weight:400}
+.card{width:1063px;height:638px;position:relative;overflow:hidden}
+.logo{border-radius:28%;background:var(--blue);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 6px rgba(255,255,255,.9)}
+/* front */
+.front{background:#fff}
+.front .panel{position:absolute;right:0;top:0;bottom:0;width:400px;background:linear-gradient(150deg,#2a8de0,#0d3868);clip-path:polygon(18% 0,100% 0,100% 100%,0 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;padding-left:60px;text-align:center}
+.front .panel .moul{font-size:48px;line-height:1.6;margin-top:18px}
+.front .panel .en{font-weight:700;font-size:26px;letter-spacing:.18em;text-transform:uppercase;opacity:.9}
+.front .who{position:absolute;left:70px;top:62px;right:420px}
+.front .who .moul{font-size:50px;line-height:1.55}
+.front .who .ne{font-size:34px;font-weight:700;margin-top:-2px}
+.front .who .ti{font-size:26px;font-weight:700;color:var(--orange);margin-top:6px}
+.front .bar{width:90px;height:8px;border-radius:4px;background:var(--orange);margin:22px 0 18px}
+.ct{display:flex;align-items:center;gap:16px;font-size:27px;font-weight:700;margin-top:10px;white-space:nowrap}
+.ct svg{width:36px;height:36px;flex:none}
+.front .tag{position:absolute;left:70px;bottom:30px;font-size:21px;color:#5d7591}
+/* back */
+.back{background:linear-gradient(150deg,#2a8de0,#0d3868);color:#fff;display:flex;align-items:center;gap:56px;padding:0 70px}
+.back .qr{width:440px;height:440px;background:#fff;border-radius:34px;padding:20px;flex:none;box-shadow:0 14px 34px rgba(0,0,0,.3)}
+.back .qr img,.phone .qr img{width:100%;height:100%;display:block}
+.back .moul{font-size:44px;line-height:1.6}
+.back .en{font-size:28px;font-weight:700;opacity:.9;margin-top:4px}
+.back .tg{display:inline-block;margin-top:28px;background:var(--orange);border-radius:999px;padding:10px 26px;font-size:28px;font-weight:700}
+/* phone screen */
+.phone{width:1080px;height:1920px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 30%,#2a8de0,#1669b8 55%,#0d3868);color:#fff;
+  display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:150px}
+.phone .moul.co{font-size:72px;line-height:1.6;margin-top:26px}
+.phone .nm{font-family:Moul,KP;font-size:58px;line-height:1.6;color:#ffd08a;margin-top:30px}
+.phone .ne{font-size:40px;font-weight:700}
+.phone .ti{font-size:32px;opacity:.9;margin-top:4px}
+.phone .qr{width:700px;height:700px;background:#fff;border-radius:50px;padding:34px;margin-top:50px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+.phone .scan{font-family:Moul,KP;font-size:48px;line-height:1.6;margin-top:40px}
+.phone .ct{justify-content:center;font-size:38px;color:#fff}
+.phone .ct svg{width:46px;height:46px}
+/* print: two 90x54 mm pages */
+.print .page{width:90mm;height:54mm;overflow:hidden;page-break-after:always}
+.print .card{zoom:.32}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <symbol id="cube" viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z M8 19l24 13 24-13M32 32v26" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></symbol>
+ <symbol id="ph" viewBox="0 0 64 64"><path d="M20 6c2 0 4 1 5 3l5 10c1 2 0 4-1 6l-4 4c3 7 9 13 16 16l4-4c2-1 4-2 6-1l10 5c2 1 3 3 3 5v7c0 3-3 6-6 6C30 63 1 34 1 6c0-3 3-6 6-6Z" transform="translate(3 2) scale(.9)" fill="currentColor"/></symbol>
+ <symbol id="tg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#29a9eb"/><path d="M14 31l32-13c2-1 3 0 3 2l-5 25c0 2-2 2-3 1l-8-6-4 4c-1 1-2 0-2-1l1-7 14-13-18 11-8-2c-2-1-2-2 0-3Z" fill="#fff"/></symbol>
+ <symbol id="web" viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" fill="none" stroke="currentColor" stroke-width="5"/><path d="M5 32h54M32 5c-9 9-9 45 0 54M32 5c9 9 9 45 0 54" fill="none" stroke="currentColor" stroke-width="4"/></symbol>
+ <symbol id="pin" viewBox="0 0 64 64"><path d="M32 4C20 4 11 13 11 25c0 16 21 35 21 35s21-19 21-35C53 13 44 4 32 4Z" fill="#e53935"/><circle cx="32" cy="25" r="8" fill="#fff"/></symbol>
+ <symbol id="mail" viewBox="0 0 64 64"><rect x="6" y="14" width="52" height="36" rx="5" fill="none" stroke="currentColor" stroke-width="5"/><path d="M8 17l24 18 24-18" fill="none" stroke="currentColor" stroke-width="5"/></symbol>
+</defs></svg>
+
+<template id="tFront"><div class="card front">
+  <div class="who">
+    <div class="moul" data-f="name_km"></div><div class="ne" data-f="name_en"></div>
+    <div class="ti"><span data-f="title_km"></span> · <span data-f="title_en"></span></div>
+    <div class="bar"></div>
+    <div class="ct" style="color:var(--blue)"><svg><use href="#ph"/></svg><span data-f="phones"></span></div>
+    <div class="ct"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
+    <div class="ct" style="color:var(--blue)"><svg><use href="#web"/></svg><span data-f="website"></span></div>
+    <div class="ct email"><svg style="color:var(--blue)"><use href="#mail"/></svg><span data-f="email"></span></div>
+    <div class="ct"><svg><use href="#pin"/></svg><span data-f="address_km"></span> · <span data-f="address_en"></span></div>
+  </div>
+  <div class="panel"><div class="logo" style="width:150px;height:150px"><svg style="width:96px;height:96px"><use href="#cube"/></svg></div>
+    <div class="moul" data-f="company_km"></div><div class="en" data-f="company_en"></div></div>
+  <div class="tag" data-f="tagline_km"></div>
+</div></template>
+
+<template id="tBack"><div class="card back">
+  <div class="qr"><img src="qr_card_vcard.png"></div>
+  <div><div class="moul">ស្កេនដើម្បី<br>រក្សាទុកលេខ</div><div class="en">Scan to save contact</div>
+    <div class="tg" data-f="telegram_bot"></div></div>
+</div></template>
+
+<template id="tPhone"><div class="phone">
+  <div class="logo" style="width:170px;height:170px"><svg style="width:108px;height:108px"><use href="#cube"/></svg></div>
+  <div class="moul co" data-f="company_km"></div>
+  <div class="nm" data-f="name_km"></div><div class="ne" data-f="name_en"></div>
+  <div class="ti"><span data-f="title_km"></span> · <span data-f="title_en"></span></div>
+  <div class="qr"><img src="qr_card_vcard.png"></div>
+  <div class="scan">ស្កេនដើម្បីរក្សាទុកលេខ</div>
+  <div class="ct"><svg><use href="#ph"/></svg><span data-f="phones"></span></div>
+  <div class="ct"><svg><use href="#tg"/></svg>Telegram <span data-f="telegram_phone"></span></div>
+  <div class="ct"><svg><use href="#web"/></svg><span data-f="website"></span></div>
+</div></template>
+
+<div class="v" id="front"></div><div class="v" id="back"></div><div class="v" id="phone"></div>
+<div class="v print" id="print"><div class="page" id="p1"></div><div class="page" id="p2"></div></div>
+<script>
+const put=(el,tpl)=>el.appendChild(document.getElementById(tpl).content.cloneNode(true));
+window.fill=d=>{
+  const view=location.hash.slice(1)||'front';
+  if(view==='print'){put(document.getElementById('p1'),'tFront');put(document.getElementById('p2'),'tBack')}
+  else put(document.getElementById(view),{front:'tFront',back:'tBack',phone:'tPhone'}[view]);
+  document.getElementById(view).style.display='block';
+  document.querySelectorAll('[data-f]').forEach(e=>{const v=d[e.dataset.f];e.textContent=Array.isArray(v)?v.join(' · '):(v||'')});
+  if(!d.email)document.querySelectorAll('.email').forEach(e=>e.remove());
+  return true;
+};
+</script>
+</body></html>

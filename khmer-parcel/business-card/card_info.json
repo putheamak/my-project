@@ -1,0 +1,17 @@
+{
+  "_help": "Edit these fields, then run: python3 make_card.py  (lines starting with _ are notes)",
+  "name_km": "ឈ្មោះរបស់អ្នក",
+  "name_en": "Your Name",
+  "title_km": "ស្ថាបនិក",
+  "title_en": "Founder",
+  "company_km": "ខ្មែរផាសែល",
+  "company_en": "Khmer Parcel",
+  "tagline_km": "ដឹកដោយយកចិត្តទុកដាក់ · ប្រាក់ COD ចូលដៃថ្ងៃដដែល",
+  "phones": ["012 429 597", "092 678 657"],
+  "telegram_phone": "098 429 597",
+  "telegram_bot": "t.me/KhmerParcelBot",
+  "website": "www.khmerparcel.com",
+  "email": "",
+  "address_km": "ភ្នំពេញ",
+  "address_en": "Phnom Penh, Cambodia"
+}
