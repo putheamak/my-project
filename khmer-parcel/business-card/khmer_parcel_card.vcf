@@ -1,11 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-N;CHARSET=UTF-8:Your Name;;;;
-FN;CHARSET=UTF-8:Your Name (ឈ្មោះរបស់អ្នក)
+N;CHARSET=UTF-8:Mak Puthea;;;;
+FN;CHARSET=UTF-8:Mak Puthea (ម៉ក់ ពុទ្ធា)
 ORG;CHARSET=UTF-8:Khmer Parcel (ខ្មែរផាសែល)
 TITLE;CHARSET=UTF-8:Founder
 TEL;TYPE=CELL,PREF:+85512429597
-TEL;TYPE=CELL:+85592678657
 TEL;TYPE=CELL:+85598429597
 URL:https://www.khmerparcel.com
 URL;TYPE=Telegram:https://t.me/KhmerParcelBot
