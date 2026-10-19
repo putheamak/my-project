@@ -107,7 +107,7 @@ class Track:
             self.add(self.mus, end, self.bell(hz(m + 12), 1.2), .08)
         pump = np.ones(self.n)
         for kk in np.arange(0, self.total, self.beat):
-            i = int(kk * SR); a = self.tt(.22)
+            i = int(kk * SR); a = self.tt(.22)[: max(0, self.n - int(kk * SR))]  # beat near the end: clip
             pump[i:i + len(a)] = np.minimum(pump[i:i + len(a)], 1 - .25 * np.exp(-a * 14))
         self.mus *= pump[:, None]
 
