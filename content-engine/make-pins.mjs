@@ -14,6 +14,7 @@
 // and the others over the following weeks. Needs ImageMagick (free); the
 // Publish blog workflow installs it. Posts without a cover photo are skipped.
 
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -239,13 +240,18 @@ for (const item of queue) {
   days.get(item.date).push({ ...item, description, file, link: c.link, ai: /ai-generated/i.test(c.post.image) });
 }
 
+// Pin images keep the same file name when a post changes, so add a content hash
+// to the URL; otherwise browsers keep showing (and downloading) the old picture.
+const ver = (f) => crypto.createHash("md5").update(fs.readFileSync(path.join(outDir, f))).digest("hex").slice(0, 8);
+const imgUrl = (f) => `${esc(f)}?v=${ver(f)}`;
+
 // A read-only box with a "Copy" button, so pin text pastes into Pinterest in one tap.
 const field = (name, value, rows) => `<div class="field"><div class="row"><span>${name}</span><button type="button" class="copy">Copy</button></div><textarea rows="${rows}" readonly aria-label="${name}">${esc(value)}</textarea></div>`;
 
 const aiHint = '<p class="hint"><strong>Turn on "Mark as AI-Modified"</strong>: this cover photo is AI-generated.</p>';
 
 const planItem = (i) => `<div class="plan-item">
-<a href="${esc(i.file)}" download><img src="${esc(i.file)}" alt="Pin design ${i.design}" loading="lazy" width="120" height="180"></a>
+<a href="${imgUrl(i.file)}" download="${esc(i.file)}"><img src="${imgUrl(i.file)}" alt="Pin design ${i.design}" loading="lazy" width="120" height="180"></a>
 <div class="plan-text">
 ${field("Title", i.title, 2)}
 ${field("Description", i.description, 5)}
@@ -293,7 +299,7 @@ ${tagsHint(tagsFor(post.slug, board))}
 
 const card = ({ post, pinTitle, pinDescription, files, link }) => `<section>
 <h2>${esc(post.title)}</h2>
-<div class="pins">${files.map((f) => `<a href="${esc(f)}" download><img src="${esc(f)}" alt="Pin design for ${esc(post.title)}" loading="lazy" width="200" height="300"></a>`).join("")}</div>
+<div class="pins">${files.map((f) => `<a href="${imgUrl(f)}" download="${esc(f)}"><img src="${imgUrl(f)}" alt="Pin design for ${esc(post.title)}" loading="lazy" width="200" height="300"></a>`).join("")}</div>
 <p class="hint">Tap an image to download it. Pin one design now and the others in the coming weeks.</p>
 ${field("Title", pinTitle, 3)}
 ${field("Description", pinDescription, 5)}
