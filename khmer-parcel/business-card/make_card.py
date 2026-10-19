@@ -23,22 +23,21 @@ esc = lambda s: s.replace("\\", "\\\\").replace(",", "\\,").replace(";", "\;")
 
 
 def vcard():
+    # Plain vCard 3.0 (UTF-8 is the default, so no CHARSET params): read by iPhone Camera, Google Lens,
+    # Samsung/Vivo/Xiaomi camera scanners. Kept short so the QR stays easy to scan on a printed card.
+    first, _, last = info["name_en"].partition(" ")
     L = ["BEGIN:VCARD", "VERSION:3.0",
-         f"N;CHARSET=UTF-8:{esc(info['name_en'])};;;;",
-         f"FN;CHARSET=UTF-8:{esc(info['name_en'])} ({esc(info['name_km'])})",
-         f"ORG;CHARSET=UTF-8:{esc(info['company_en'])} ({esc(info['company_km'])})",
-         f"TITLE;CHARSET=UTF-8:{esc(info['title_en'])}"]
+         f"N:{esc(first)};{esc(last)};;;" if last else f"N:{esc(first)};;;;",
+         f"FN:{esc(info['name_en'])} ({esc(info['name_km'])})",
+         f"ORG:{esc(info['company_en'])} ({esc(info['company_km'])})",
+         f"TITLE:{esc(info['title_en'])}"]
     for i, p in enumerate(info["phones"]):
-        L.append(f"TEL;TYPE={'CELL,PREF' if i == 0 else 'CELL'}:{tel(p)}")
+        L.append(f"TEL;TYPE=CELL{',PREF' if i == 0 else ''}:{tel(p)}")
     if info.get("telegram_phone"):
         L.append(f"TEL;TYPE=CELL:{tel(info['telegram_phone'])}")
     if info.get("email"):
-        L.append(f"EMAIL;TYPE=WORK:{info['email']}")
+        L.append(f"EMAIL:{info['email']}")
     L.append(f"URL:https://{info['website']}")
-    if info.get("telegram_bot"):
-        L.append(f"URL;TYPE=Telegram:https://{info['telegram_bot']}")
-    L.append(f"ADR;TYPE=WORK;CHARSET=UTF-8:;;;{esc(info['address_en'])};;;")
-    L.append(f"NOTE;CHARSET=UTF-8:Telegram {info.get('telegram_phone','')} · {info.get('telegram_bot','')}")
     L.append("END:VCARD")
     return "\r\n".join(L) + "\r\n"
 

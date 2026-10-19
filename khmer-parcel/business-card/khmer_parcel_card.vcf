@@ -1,13 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-N;CHARSET=UTF-8:Mak Puthea;;;;
-FN;CHARSET=UTF-8:Mak Puthea (ម៉ក់ ពុទ្ធា)
-ORG;CHARSET=UTF-8:Khmer Parcel (ខ្មែរផាសែល)
-TITLE;CHARSET=UTF-8:Founder
+N:Mak;Puthea;;;
+FN:Mak Puthea (ម៉ក់ ពុទ្ធា)
+ORG:Khmer Parcel (ខ្មែរផាសែល)
+TITLE:Founder
 TEL;TYPE=CELL,PREF:+85512429597
 TEL;TYPE=CELL:+85598429597
 URL:https://www.khmerparcel.com
-URL;TYPE=Telegram:https://t.me/KhmerParcelBot
-ADR;TYPE=WORK;CHARSET=UTF-8:;;;Phnom Penh\, Cambodia;;;
-NOTE;CHARSET=UTF-8:Telegram 098 429 597 · t.me/KhmerParcelBot
 END:VCARD
