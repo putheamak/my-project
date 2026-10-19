@@ -4,12 +4,39 @@
   "xfade": 0.3,
   "audio": "brand_intro_music.m4a",
   "segments": [
-    {"scene": "hook", "dur": 3.0, "next": "zoomin"},
-    {"scene": "who", "dur": 4.4, "next": "slideup"},
-    {"scene": "services", "dur": 5.4, "next": "fade"},
-    {"scene": "care", "dur": 4.2, "next": "fade"},
-    {"scene": "cod", "dur": 3.8, "next": "circleopen"},
-    {"scene": "promise", "dur": 3.6, "next": "slideup"},
-    {"scene": "end", "dur": 5.4}
+    {
+      "scene": "hook",
+      "dur": 3.0,
+      "next": "zoomin"
+    },
+    {
+      "scene": "who",
+      "dur": 4.4,
+      "next": "slideup"
+    },
+    {
+      "scene": "services",
+      "dur": 5.4,
+      "next": "fade"
+    },
+    {
+      "scene": "care",
+      "dur": 4.2,
+      "next": "fade"
+    },
+    {
+      "scene": "fast",
+      "dur": 4.4,
+      "next": "circleopen"
+    },
+    {
+      "scene": "promise",
+      "dur": 3.6,
+      "next": "slideup"
+    },
+    {
+      "scene": "end",
+      "dur": 5.4
+    }
   ]
 }

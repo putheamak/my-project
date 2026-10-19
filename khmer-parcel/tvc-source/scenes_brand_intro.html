@@ -132,6 +132,21 @@ body{font-family:KP,sans-serif;color:var(--navy)}
 .cap2 b{display:block;font-size:54px;line-height:1.4}
 .cap2 i{font-style:normal;font-size:32px;color:#bfe3ff}
 .real{position:absolute;left:40px;top:150px;background:var(--red);color:#fff;font-weight:700;font-size:30px;border-radius:12px;padding:8px 20px;letter-spacing:.05em}
+.city{position:absolute;inset:0;background:linear-gradient(#7cc4f5 0%,#bfe3ff 55%,#eaf6ff 70%)}
+.road{position:absolute;left:0;right:0;top:1330px;height:600px;background:#5b6b7f}
+.road:before{content:"";position:absolute;left:0;right:0;top:120px;height:14px;background:repeating-linear-gradient(90deg,#fff 0 90px,transparent 90px 170px);animation:dash 1s linear infinite}
+@keyframes dash{to{background-position:-170px 0}}
+.rider2{position:absolute;left:0;top:1060px;width:460px;height:330px;animation:ride2 3.2s linear both}
+@keyframes ride2{from{transform:translateX(-120px)}to{transform:translateX(700px)}}
+.ph4{position:absolute;left:150px;top:330px;width:560px;height:1000px;border-radius:56px;border:12px solid #0d1b2e;background:#eef4fa;overflow:hidden;box-shadow:0 30px 70px rgba(13,56,104,.35)}
+.ph4 .hd{height:110px;background:#fff;display:flex;align-items:center;gap:16px;padding:0 22px;border-bottom:2px solid #e3e8ef;font-size:30px;font-weight:700}
+.ph4 .lg{width:66px;height:66px;border-radius:18px;background:var(--blue);display:flex;align-items:center;justify-content:center}
+.ph4 .lg svg{width:44px;height:44px}
+.st{position:absolute;left:24px;right:24px;background:#fff;border-radius:22px;padding:18px 22px;font-size:32px;font-weight:700;display:flex;align-items:center;gap:16px;box-shadow:0 6px 16px rgba(13,56,104,.12);animation:up .4s both}
+.st .n{width:52px;height:52px;border-radius:14px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;flex:none;font-size:30px}
+.watch2{position:absolute;right:50px;top:560px;width:300px;text-align:center}
+.watch2 svg{width:300px;height:300px}
+.watch2 b{display:block;font-size:84px;color:var(--navy);line-height:1}
 </style></head>
 <svg width="0" height="0" style="position:absolute"><defs>
  <symbol id="cube" viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/><path d="M8 19l24 13 24-13M32 32v26" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></symbol>
@@ -168,13 +183,22 @@ body{font-family:KP,sans-serif;color:var(--navy)}
  <symbol id="cash" viewBox="0 0 100 60"><rect x="3" y="3" width="94" height="54" rx="8" fill="#7cc68a" stroke="#4f9d5c" stroke-width="5"/><circle cx="50" cy="30" r="14" fill="none" stroke="#2f7a3d" stroke-width="5"/></symbol>
 </defs></svg>
 
-<!-- 1 HOOK: real photo, question in frame 0 -->
-<section class="scene" id="hook" style="background:#000">
-  <div class="photo" style="background-image:url(photos_far/ride.jpg)"></div><div class="shade"></div>
-  <div class="center" style="top:250px">
-    <div class="moul ts" style="font-size:104px;color:#fff;line-height:1.5">មិនទាន់ស្គាល់</div>
-    <div class="moul ts" style="font-size:124px;color:#ffd08a;line-height:1.45">ខ្មែរផាសែល?</div>
-    <div class="pill white pop" style="font-size:46px;color:var(--navy);margin-top:40px;animation-delay:.5s">ស្គាល់យើងក្នុង ៣០ វិនាទី</div>
+<!-- 1 HOOK: animated city, mascot rides through; question in frame 0 -->
+<section class="scene" id="hook">
+  <div class="city"></div>
+  <svg style="position:absolute;left:0;top:820px;width:1080px;height:520px" viewBox="0 0 1080 520">
+    <g fill="#9cc9ea"><rect x="20" y="160" width="140" height="360"/><rect x="180" y="80" width="110" height="440"/><rect x="760" y="120" width="150" height="400"/><rect x="930" y="40" width="130" height="480"/></g>
+    <g fill="#d4ecfb" opacity=".8"><g transform="translate(40 190)"><rect width="24" height="30"/><rect x="50" width="24" height="30"/><rect y="60" width="24" height="30"/><rect x="50" y="60" width="24" height="30"/></g>
+      <g transform="translate(950 80)"><rect width="24" height="30"/><rect x="50" width="24" height="30"/><rect y="60" width="24" height="30"/><rect x="50" y="60" width="24" height="30"/><rect y="120" width="24" height="30"/><rect x="50" y="120" width="24" height="30"/></g></g>
+  </svg>
+  <svg style="position:absolute;left:400px;top:900px;width:280px;height:430px"><use href="#monument"/></svg>
+  <div class="road"></div>
+  <div class="rider2"><svg style="position:absolute;left:0;top:110px;width:460px;height:300px"><use href="#scooter"/></svg>
+    <div class="masc" data-k="box" data-m="happy" style="left:100px;top:0;width:220px;height:220px"></div></div>
+  <div class="center" style="top:170px">
+    <div class="moul" style="font-size:104px;color:var(--navy);line-height:1.5">មិនទាន់ស្គាល់</div>
+    <div class="moul" style="font-size:124px;color:var(--blue);line-height:1.45">ខ្មែរផាសែល?</div>
+    <div class="pill orange pop" style="font-size:52px;margin-top:30px;animation-delay:.4s">កក់ត្រឹម៣០វិនាទី</div>
   </div>
 </section>
 
@@ -211,12 +235,25 @@ body{font-family:KP,sans-serif;color:var(--navy)}
   <div class="cap2 up" style="animation-delay:.3s"><b>ផ្លូវឆ្ងាយ ២ កញ្ចប់ $2</b><b style="color:#ffd08a">យើងនៅតែដឹកដល់ដៃ</b><i>Far or near, we still deliver</i></div>
 </section>
 
-<!-- 5 PROOF 2: the real bot booking -->
-<section class="scene bg-sky" id="cod">
+<!-- 5 BOOK IN 30 SECONDS (Telegram bot) -->
+<section class="scene bg-sky" id="fast">
   <div class="burst"></div>
-  <div class="center" style="top:130px"><div class="tag">ការកក់ពិត · REAL BOOKING</div></div>
-  <div class="center" style="top:250px"><img class="shot" src="photos_cod/booking_blurred.png" style="width:860px;transform:rotate(-2deg)"></div>
-  <div class="center" style="top:1060px;z-index:5"><div class="pill pop" style="animation-delay:.6s;font-size:58px;background:var(--green);color:#fff">COD $22 ចូលដៃថ្ងៃដដែល</div></div>
+  <div class="center" style="top:130px"><div class="moul up" style="font-size:76px">កក់ត្រឹម៣០វិនាទី</div>
+    <div class="up" style="font-size:36px;font-weight:700;color:var(--blue);animation-delay:.15s">តាម Telegram Bot · Book in 30 seconds</div></div>
+  <div class="ph4" style="left:70px;width:600px">
+    <div class="hd"><span class="lg"><svg><use href="#cube"/></svg></span>@KhmerParcelBot</div>
+    <div class="st" style="top:150px;animation-delay:.3s"><span class="n">១</span>ចុច «កក់ឥឡូវ»</div>
+    <div class="st" style="top:260px;animation-delay:1.0s"><span class="n">២</span>លេខ និងអាសយដ្ឋានអ្នកទទួល</div>
+    <div class="st" style="top:370px;animation-delay:1.7s"><span class="n">៣</span>ជ្រើសម៉ោងមកយក</div>
+    <div class="pop" style="position:absolute;left:24px;right:24px;top:520px;background:var(--green);color:#fff;border-radius:26px;padding:30px;text-align:center;animation-delay:2.5s">
+      <div style="width:110px;height:110px;margin:0 auto;border-radius:50%;background:rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center"><svg style="width:70px;height:70px"><use href="#check"/></svg></div>
+      <div style="font-size:40px;font-weight:700;margin-top:14px">បានទទួលការកក់!</div></div>
+    <div class="up" style="position:absolute;left:24px;right:24px;top:800px;font-size:30px;font-weight:700;color:var(--navy);text-align:center;animation-delay:3.0s">អ្នកដឹកមកយកដល់ហាង</div>
+  </div>
+  <div class="watch2" style="right:40px;top:520px"><svg viewBox="0 0 200 200"><use href="#watchface"/>
+      <circle class="ring30" cx="100" cy="114" r="64" fill="none" stroke="#f08a14" stroke-width="18" stroke-dasharray="402" stroke-dashoffset="402" transform="rotate(-90 100 114)"/>
+      <g class="hand"><path d="M100 114V58" stroke="#e53935" stroke-width="7" stroke-linecap="round"/></g><circle cx="100" cy="114" r="9" fill="#0d3868"/></svg>
+    <b id="sec">០:០០</b></div>
 </section>
 
 <!-- 6 PROMISE -->
@@ -248,12 +285,16 @@ body{font-family:KP,sans-serif;color:var(--navy)}
 </section>
 
 <!-- COVER -->
-<section class="scene" id="cover" style="background:#000">
-  <div class="photo" style="background-image:url(photos_far/ride.jpg);animation:none;transform:scale(1.08)"></div><div class="shade"></div>
-  <div class="center" style="top:260px">
-    <div class="moul ts" style="font-size:104px;color:#fff;line-height:1.5">មិនទាន់ស្គាល់</div>
-    <div class="moul ts" style="font-size:124px;color:#ffd08a;line-height:1.45">ខ្មែរផាសែល?</div>
-    <div class="pill white" style="font-size:46px;color:var(--navy);margin-top:40px">ស្គាល់យើងក្នុង ៣០ វិនាទី</div>
+<section class="scene" id="cover">
+  <div class="city"></div>
+  <svg style="position:absolute;left:400px;top:900px;width:280px;height:430px"><use href="#monument"/></svg>
+  <div class="road"></div>
+  <div style="position:absolute;left:300px;top:1060px;width:460px;height:330px"><svg style="position:absolute;left:0;top:110px;width:460px;height:300px"><use href="#scooter"/></svg>
+    <div class="masc" data-k="box" data-m="happy" style="left:100px;top:0;width:220px;height:220px"></div></div>
+  <div class="center" style="top:170px">
+    <div class="moul" style="font-size:104px;color:var(--navy);line-height:1.5">មិនទាន់ស្គាល់</div>
+    <div class="moul" style="font-size:124px;color:var(--blue);line-height:1.45">ខ្មែរផាសែល?</div>
+    <div class="pill orange" style="font-size:52px;margin-top:30px">កក់ត្រឹម៣០វិនាទី</div>
   </div>
 </section>
 
@@ -278,7 +319,12 @@ function mascot(kind,mood){
 }
 document.querySelectorAll('.masc').forEach(m=>m.innerHTML=mascot(m.dataset.k,m.dataset.m));
 
-const hooks={};
+const KD='០១២៣៤៥៦៧៨៩',kh=x=>String(x).replace(/\d/g,d=>KD[d]);
+const hooks={fast:t=>{const sec=Math.min(28,Math.floor(t/2.5*28));
+  document.getElementById('sec').textContent=kh('0:'+String(sec).padStart(2,'0'));
+  document.querySelectorAll('#fast .hand').forEach(h=>h.setAttribute('transform',`rotate(${sec/30*360} 100 114)`));
+  document.querySelectorAll('#fast .ring30').forEach(r=>r.setAttribute('stroke-dashoffset',402*(1-sec/30)));
+  document.getElementById('sec').style.color=t>=2.5?'var(--green)':''}};
 let cur=null;
 window.showScene=async id=>{cur=id;document.querySelectorAll('.scene').forEach(s=>s.classList.toggle('on',s.id===id));
   await document.fonts.ready;document.getAnimations().forEach(a=>a.pause());return true};
