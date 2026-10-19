@@ -4,7 +4,7 @@ The QR holds a **vCard**: scanning it with a phone camera shows **"Save contact"
 3 phone numbers, website, Telegram bot). It works offline — no website or server needed.
 
 ## People
-One folder per person: `people/puthea/` (Mak Puthea, Founder), `people/rotana/` (Prak Rotana, Admin and Finance).
+One folder per person: `people/puthea/` (Mak Puthea, Founder/Manager), `people/rotana/` (Prak Rotana, Admin and Finance).
 
 ## Edit or add a person
 1. Edit `people/<name>/card_info.json` — or copy a folder to add a new person. Leave `email` or `telegram_phone` empty to hide that line.

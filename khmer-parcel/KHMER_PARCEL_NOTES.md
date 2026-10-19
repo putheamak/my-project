@@ -95,7 +95,7 @@ Read this first in a new chat. It holds the facts and decisions from the earlier
 - Riders: pay per delivery, no salary until ~30 orders/day
 
 ## Digital business card
-- Folder `khmer-parcel/business-card/` — QR holds a vCard (scan with the phone Camera / Google Lens → Add contact; the Wi-Fi scanner only shows text). One folder per person in `people/`: **puthea** (ម៉ក់ ពុទ្ធា · Mak Puthea, Founder, 012 429 597 + Telegram 098 429 597), **rotana** (ប្រាក់ រតនា · Prak Rotana, Admin and Finance / រដ្ឋបាល និងហិរញ្ញវត្ថុ, 012 678 657 · 092 678 657). Run `make_card.py [people/<name>/card_info.json]`
+- Folder `khmer-parcel/business-card/` — QR holds a vCard (scan with the phone Camera / Google Lens → Add contact; the Wi-Fi scanner only shows text). One folder per person in `people/`: **puthea** (ម៉ក់ ពុទ្ធា · Mak Puthea, Founder/Manager · ស្ថាបនិក / អ្នកគ្រប់គ្រង, 012 429 597 + Telegram 098 429 597), **rotana** (ប្រាក់ រតនា · Prak Rotana, Admin and Finance / រដ្ឋបាល និងហិរញ្ញវត្ថុ, 012 678 657 · 092 678 657). Run `make_card.py [people/<name>/card_info.json]`
 
 ## Telegram mini app (online sellers)
 - Folder `khmer-parcel/telegram-miniapp/` — Cloudflare Worker; bookings posted to the office Telegram group; first 3 parcels at 2,000៛ per Telegram account (KV `KP`), min 5 parcels, optional `OFFER_END`. **Live Cloudflare bot is still the 1 Oct version** (1–10 parcels, "៣ ដងដំបូង" wording); owner chose not to redeploy (13 Oct). `dist/worker.js` in the repo is newer (min 5 parcels, "៣ កញ្ចប់ដំបូង") — paste it only if the owner asks
