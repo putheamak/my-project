@@ -9,7 +9,8 @@
 // design image to use. Today's group opens first.
 //
 // Each post gets 3 vertical 1000x1500 designs made from its cover photo, with
-// the pin title on top. Pinterest favours fresh images, so pin one design now
+// the pin title on top, plus a 4th numbered-list design when the post has at
+// least 3 product names (Quick picks or comparison table). Pinterest favours fresh images, so pin one design now
 // and the others over the following weeks. Needs ImageMagick (free); the
 // Publish blog workflow installs it. Posts without a cover photo are skipped.
 
@@ -119,6 +120,65 @@ const designs = [
   ],
 ];
 
+// Short product names for the list pin: the Quick picks first, then the first
+// column of the comparison table(s), without duplicates.
+function listItems(body, max = 5) {
+  const names = [];
+  const lines = body.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    if (!/^\s*\|/.test(lines[i]) || !/^\s*\|?\s*:?-{2,}/.test(lines[i + 1] ?? "")) continue;
+    for (i += 2; i < lines.length && /^\s*\|/.test(lines[i]); i++) {
+      names.push(lines[i].trim().replace(/^\|/, "").split("|")[0].replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/\*/g, "").trim());
+    }
+  }
+  const picks = body.match(/^:::picks\s*\n([\s\S]*?)\n:::\s*$/m);
+  for (const line of (picks?.[1] ?? "").split("\n")) {
+    const m = line.match(/\[([^\]]+)\]\(/);
+    if (m) names.push(m[1]);
+  }
+  // Short table names first; skip a name that repeats one already listed ("Potato ricer" / "PriorityChef potato ricer").
+  const kept = [];
+  for (let n of names) {
+    n = n.replace(/\s*\([^)]*\)\s*$/, "").trim();
+    if (n.length > 28) n = `${n.slice(0, 27).replace(/\s+\S*$/, "").replace(/[\s+&,-]+$/, "")}…`;
+    const low = n.toLowerCase().replace(/…$/, "");
+    if (!low || kept.some((k) => { const kl = k.toLowerCase().replace(/…$/, ""); return kl.includes(low) || low.includes(kl); })) continue;
+    kept.push(n);
+  }
+  return kept.slice(0, max);
+}
+
+// 4. Numbered list on a light background with a photo strip: people save lists to read later.
+function listDesign({ src, headline, subline, items }) {
+  if (items.length < 3) return null;
+  const rowH = 112;
+  const top = 470;
+  const rows = items.flatMap((name, i) => [
+    "(", "-size", "84x84", "xc:none", "-fill", "#b4531f", "-draw", "circle 42,42 42,2",
+    ...text(70, 60, "white", String(i + 1)), "-gravity", "center", "-composite", ")",
+    ...place("northwest", 70, top + i * rowH),
+    "(", "-size", "780x84", "-background", "none", "-fill", "#1d1f21", ...fontArgs, "-pointsize", name.length > 24 ? "40" : "46", "-gravity", "west",
+    `caption:${literal(name)}`, "+pointsize", ")",
+    ...place("northwest", 180, top + i * rowH),
+  ]);
+  const photoH = H - (top + items.length * rowH + 40);
+  return [
+    "-respect-parentheses",
+    "(", "-size", `${W}x${H - photoH}`, "xc:#fff8f1", ")",
+    ...photo(src, W, photoH), "-append",
+    ...(subline ? [
+      "(", "-size", "520x76", "xc:#b4531f", ...text(480, 54, "white", subline.toUpperCase()), "-gravity", "center", "-composite", ")",
+      ...place("north", 0, 50),
+    ] : []),
+    // ImageMagick's caption autosize picks a tiny font for some long titles, so size it from the length.
+    ...text(900, 300, "#1d1f21", headline, ["-pointsize", String(Math.min(96, Math.floor(Math.sqrt((900 * 300) / (headline.length * 1.15)))))]),
+    ...place("north", 0, subline ? 145 : 80),
+    ...rows,
+    "(", "-size", `${W}x64`, "xc:#1d1f21", ...text(900, 38, "white", `${brand} · HOMEPICKSUNDER30.COM`), "-gravity", "center", "-composite", ")",
+    ...place("south", 0, 0),
+  ];
+}
+
 const cards = [];
 for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().reverse() : []) {
   if (!file.endsWith(".md")) continue;
@@ -142,10 +202,13 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   const { headline, subline } = splitTitle(pinTitle);
   // Number of different products the post links to.
   const count = new Set(post.body.match(/https?:\/\/(?:amzn\.to|(?:www\.)?amazon\.com)\/[^\s)"]+/g) ?? []).size;
+  const items = listItems(post.body);
   const files = [];
-  designs.forEach((design, i) => {
+  [...designs, listDesign].forEach((design, i) => {
     const name = `${post.slug}-${i + 1}.jpg`;
-    const run = spawnSync(convert, [...design({ src, headline, subline, count }), "-strip", "-quality", "85", path.join(outDir, name)]);
+    const args = design({ src, headline, subline, count, items });
+    if (!args) return;
+    const run = spawnSync(convert, [...args, "-strip", "-quality", "85", path.join(outDir, name)]);
     if (run.status === 0) files.push(name);
     else console.warn(`pin ${name} failed: ${run.stderr.toString().trim().split("\n")[0]}`);
   });
@@ -273,7 +336,7 @@ ${plan ? `<h2 id="plan">Pin plan</h2>
 <p class="hint">Extra pins with fresh text for posts you've already pinned. Today's pins open first; copy each field into Pinterest and pick the board shown.</p>
 ${plan}
 <h2>New posts</h2>` : ""}
-<p class="hint">Three Pinterest designs per post, newest first, with the text for each post's first pin.</p>
+<p class="hint">Three or four Pinterest designs per post (design 4 is the numbered list), newest first, with the text for each post's first pin.</p>
 ${cards.map(card).join("\n")}
 </main>
 <script>
