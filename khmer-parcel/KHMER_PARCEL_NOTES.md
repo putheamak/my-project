@@ -2,6 +2,16 @@
 
 Read this first in a new chat. It holds the facts and decisions from the earlier session.
 
+## Handover — status on 20 Oct 2026 (read this first in a new chat)
+- **Bookings:** 1 website booking (owner rode it, Chbar Ampov → Choam Chao) + 1 Telegram-bot booking (14 Oct, KP7SMU3144, COD $22 returned same day). Website: 57 clicks → 0 bookings earlier; owner still to screen-record a website booking.
+- **Confirmed facts:** online-seller price **4,000៛ per parcel** (live bot); COD money back **same day**; delivery **within 24 h** ("ដឹកជញ្ជូនដល់ដៃ ក្នុងរយៈពេល២៤ម៉ោង"); Door to Door Khmer name "ទៅយក និងដឹកដល់ផ្ទះ"; min 5 parcels ("កក់ចាប់ពី៥កញ្ចប់ឡើង") is on the flyer but the **live bot still accepts 1–10** (owner chose not to redeploy).
+- **Open question:** which seller offer applies with the 4,000៛ price? Flyer `print/`, `seller_outreach_kit.md` and `khmer_parcel_pitch_seller_10s.mp4` still say 3,000៛ / first 3 parcels 2,000៛ → **do not print/send them until the owner decides**, then update.
+- **Do not repost** (show the dropped "ការកក់លើកដំបូង" offer): Day 1 seller story offer cut, Day 2 `khmer_parcel_ad_book30s.mp4`, Day 4 `khmer_parcel_ad_pov_seller.mp4`.
+- **Ready to post (no price shown):** `khmer_parcel_brand_intro.mp4` (pin to Page), `khmer_parcel_reel_14khans.mp4` + `posts/reel_14khans_caption.md`, `posts/khmer_parcel_post_14khans.png`, `posts/khmer_parcel_post_3steps_telegram.png`, `posts/khmer_parcel_post_cod_sameday.png` (captions next to each in `posts/`), `khmer_parcel_notif_seller_phone.mp4`, `khmer_parcel_cod_real_booking.mp4`, `khmer_parcel_story_far_delivery.mp4`.
+- **Business cards:** `business-card/people/puthea` (Mak Puthea, Founder/Manager) and `people/rotana` (Prak Rotana, Admin and Finance) — QR = vCard; scan with Camera/Google Lens.
+- **What the data says:** Reels lose most viewers at 0:01 and reach ~80–90% existing followers (mostly men 25–44). Real footage works best (true story: 27 s avg watch). Recommended next: small boost ($3–5/day, goal "More messages", women 20–40 Phnom Penh), daily seller outreach (10/day), collect 2–3 real photos per delivery.
+- **Network:** `tile.openstreetmap.org` / `overpass-api.de` were blocked in the 20 Oct session; owner allowed them — works only in a new session. Real map currently comes from the owner's screenshot `tvc-source/photos_map/pp_osm.png`.
+
 ## Business facts
 - Website: https://www.khmerparcel.com — Facebook page "ខ្មែរ ផាសែល-Khmer Parcel" (~13K followers)
 - Launch: **1 October 2026**, Phnom Penh
