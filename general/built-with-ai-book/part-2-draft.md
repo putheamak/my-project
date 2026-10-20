@@ -1,9 +1,7 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v1, 20 Oct 2026
-1. Domain: what do you pay per year? (Fill in the table: [DOMAIN $/YEAR].)
-2. Claude API: the blog engine uses the Claude API (pay as you go), which is separate from Claude Pro.
-   How much credit have you added / spent so far? The project notes estimate $0.10–0.30 per post pack.
-3. Anything else you pay for (phone data, Canva, a laptop you bought for this)? Add it or say "nothing".
+OWNER CHECKLIST (delete before publishing) — Part Two draft v2, 20 Oct 2026
+1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
+   console.anthropic.com → Billing once you have one or two months of bills.
 -->
 
 # Part Two: Building
@@ -26,7 +24,7 @@ Everything in this book was built with just four main tools.
 
 **3. Cloudflare, the free server.** Cloudflare runs my Telegram booking app. Normally, an app needs a server, a computer that is always switched on, which you rent every month and must maintain. Cloudflare Workers runs small apps like mine on its own network instead, and its free plan is more than enough for a small business. Cost: **nothing**.
 
-**4. A domain name, my address on the internet.** A domain is the name people type to find you, such as *homepicksunder30.com*. It is the only part of my setup with a yearly bill. Cost: **[DOMAIN $/YEAR] per year**.
+**4. A domain name, my address on the internet.** A domain is the name people type to find you, such as *homepicksunder30.com*. It is the only part of my setup with a yearly bill. Cost: **$12 a year**, about $1 a month.
 
 ### The free helpers
 
@@ -42,7 +40,7 @@ Around those four tools, I use a handful of free services. None of them asked fo
 
 There is one more cost, and it surprised me at first.
 
-My blog engine does not use the Claude Pro chat. It talks to Claude automatically through the **Claude API**, a separate service for software, which is paid for by use rather than by month. You add credit, and each request uses a little of it. According to my project notes, one complete post pack, with an article, captions, video scripts and a compliance check, costs roughly **$0.10 to $0.30**. At three packs a week, that comes to only a few dollars a month. [⭐ Replace with your real API spending.]
+My blog engine does not use the Claude Pro chat. It talks to Claude automatically through the **Claude API**, a separate service for software, which is paid for by use rather than by month. You add credit, and each request uses a little of it. According to my project notes, one complete post pack, with an article, captions, video scripts and a compliance check, costs roughly **$0.10 to $0.30**. With testing, mistakes and re-runs included, I budget **about $10 a month** for the API.
 
 The lesson: **a subscription and an API are not the same thing.** If you build something that runs by itself, check how it pays for its AI.
 
@@ -51,14 +49,14 @@ The lesson: **a subscription and an API are not the same thing.** If you build s
 | Tool | What it does | Cost |
 |---|---|---|
 | Claude Pro (with Claude Code) | AI assistant and AI builder | $20 / month |
-| Claude API | Powers the automatic blog engine | ⭐ about $[X] / month |
+| Claude API | Powers the automatic blog engine | about $10 / month (my estimate) |
 | GitHub | Stores projects, runs scheduled jobs, hosts the blog | Free |
 | Cloudflare Workers | Runs the Telegram booking app | Free |
-| Domain name | The blog's web address | [DOMAIN $/YEAR] / year |
+| Domain name | The blog's web address | $12 / year (about $1 / month) |
 | Telegram, GoatCounter, social media, Amazon Associates, KDP | Customers, analytics, marketing, publishing | Free |
-| **Total** | | **about $[TOTAL] / month** |
+| **Total** | | **about $31 / month** |
 
-For the price of a few coffees a month, one person with no programming background can run a booking system, a content engine, a video ad factory and a publishing pipeline.
+For about $31 a month, roughly the price of a few coffees a week, one person with no programming background can run a booking system, a content engine, a video ad factory and a publishing pipeline.
 
 ### What I don't pay for, yet
 
