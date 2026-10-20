@@ -7,6 +7,7 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 | File | What it is |
 |---|---|
 | `part-1-draft.md` | Part One (chapters 1–4) as book narrative, v3 polished 20 Oct 2026. Open points are in the checklist comment at the top. |
+| `part-2-draft.md` | Part Two drafts. v1: Chapter 5 (toolkit and real costs). Open points in the checklist comment at the top. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
 ## How we write it
