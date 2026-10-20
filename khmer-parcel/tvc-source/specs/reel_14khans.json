@@ -1,0 +1,12 @@
+{
+  "html": "scenes_14khans.html",
+  "out": "../khmer_parcel_reel_14khans.mp4",
+  "xfade": 0.3,
+  "audio": "reel_14khans_music.m4a",
+  "segments": [
+    {"scene": "hook", "dur": 2.6, "next": "fade"},
+    {"scene": "map", "dur": 7.6, "next": "zoomin"},
+    {"scene": "promise", "dur": 3.6, "next": "slideup"},
+    {"scene": "end", "dur": 4.6}
+  ]
+}
