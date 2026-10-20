@@ -110,6 +110,11 @@ img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 .cards a:hover .title{color:var(--accent)}
 .cards .txt p{margin:.4em 0 0;color:var(--muted);font-size:.93rem;line-height:1.5}
 .tag{display:inline-block;font-size:.75rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.sec{font-size:1.25rem;margin:28px 0 10px}
+.shop{margin:0 0 8px}.shop .sec{margin-top:0}
+.shop-intro{margin:0 0 12px;color:var(--muted)}
+.disclosure.small{margin:16px 0 0}
+.seen .chips{margin-bottom:8px}
 .hero{background:var(--accent-soft);border-radius:14px;padding:22px 20px;margin:0 0 22px}
 .hero h1{margin:0 0 .3em}
 .hero p{margin:0;color:var(--muted)}
@@ -228,6 +233,30 @@ ${others.length ? postItems(others, { short: true }) : ""}
 </section>`;
 }
 
+// Home page shop (site.json "home"): most visitors type the domain from a video
+// and land here, so put the season's posts, a few picks with Amazon buttons and
+// the posts behind recent videos above the full list.
+function homeShop() {
+  const home = site.home ?? {};
+  const bySlug = (slug) => posts.find((p) => p.slug === slug);
+  const featured = (home.posts ?? []).map(bySlug).filter(Boolean);
+  const picks = (home.picks ?? []).filter((x) => /^https:\/\//.test(x.url ?? ""));
+  const videos = (home.videoPosts ?? []).map((v) => ({ ...v, post: bySlug(v.slug) })).filter((v) => v.post);
+  const shop = featured.length || picks.length
+    ? `<section class="shop">
+${home.title ? `<h2 class="sec">${esc(home.title)}</h2>` : ""}${home.intro ? `<p class="shop-intro">${esc(home.intro)}</p>` : ""}
+${featured.length ? postItems(featured, { short: true }) : ""}
+${picks.length ? `<p class="disclosure small">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
+${markdownToHtml(`:::picks\n${picks.map((x) => `- ${x.label}: [${x.name}](${x.url})`).join("\n")}\n:::`)}` : ""}
+</section>`
+    : "";
+  const seen = videos.length
+    ? `<section class="seen"><h2 class="sec">Seen one of my videos? Find the post here</h2>
+<ul class="chips">${videos.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul></section>`
+    : "";
+  return shop + seen;
+}
+
 // ---- Write the site ---------------------------------------------------------
 
 fs.rmSync(dist, { recursive: true, force: true });
@@ -303,8 +332,9 @@ write(
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, alternateName: ["Home Picks Under 30", "homepicksunder30.com"], url: url() }],
     body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
 <p>Kitchen and home gadgets under $30 for busy people, grouped by the job they do and compared side by side.</p></section>
-${topics.length ? topicChips(topics) : ""}
-${posts.length ? postItems(posts, { feature: true }) : "<p>New posts are coming soon.</p>"}`,
+${homeShop()}
+${topics.length ? `<h2 class="sec">Browse by topic</h2>\n${topicChips(topics)}` : ""}
+${posts.length ? `<h2 class="sec">All posts</h2>\n${postItems(posts, { feature: true })}` : "<p>New posts are coming soon.</p>"}`,
   }),
 );
 

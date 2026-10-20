@@ -18,5 +18,87 @@
     "boardId": "",
     "maxPerRun": 1
   },
-  "about": "I share practical kitchen and home gadgets under $30 for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy."
+  "about": "I share practical kitchen and home gadgets under $30 for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy.",
+  "home": {
+    "title": "Christmas Gifts Under $30",
+    "intro": "Small, useful kitchen gifts for the cooks on your list. Start with the gift guide or the stocking stuffers, or go straight to a few favourite picks.",
+    "posts": [
+      "kitchen-gifts-under-30",
+      "stocking-stuffers-for-people-who-cook"
+    ],
+    "picks": [
+      {
+        "label": "For coffee lovers",
+        "name": "Handheld milk frother",
+        "url": "https://amzn.to/4hs2w08"
+      },
+      {
+        "label": "For people who cook for one",
+        "name": "Dash Mini Rice Cooker (2-cup)",
+        "url": "https://amzn.to/4hCn7gY"
+      },
+      {
+        "label": "For everyday cooks",
+        "name": "Microplane Premium Classic zester",
+        "url": "https://amzn.to/4scC2Df"
+      },
+      {
+        "label": "For the holiday roast",
+        "name": "TempSwift instant-read meat thermometer",
+        "url": "https://amzn.to/4zyfuQ5"
+      },
+      {
+        "label": "For parents and grandparents",
+        "name": "Otstar jar opener",
+        "url": "https://amzn.to/4k2Gx1c"
+      },
+      {
+        "label": "For White Elephant swaps",
+        "name": "Electric salt and pepper grinder set",
+        "url": "https://amzn.to/4i0yiQS"
+      }
+    ],
+    "videoPosts": [
+      {
+        "slug": "stocking-stuffers-for-people-who-cook",
+        "label": "Stocking stuffers"
+      },
+      {
+        "slug": "kitchen-gifts-under-30",
+        "label": "Kitchen gifts under $30"
+      },
+      {
+        "slug": "coffee-shop-breakfast-at-home-gadgets",
+        "label": "Coffee shop breakfast"
+      },
+      {
+        "slug": "kitchen-gadgets-for-cooking-for-one",
+        "label": "Cooking for one"
+      },
+      {
+        "slug": "microwave-gadgets-office-lunch",
+        "label": "Office lunch"
+      },
+      {
+        "slug": "best-lunch-containers-work-lunches",
+        "label": "Lunch containers"
+      },
+      {
+        "slug": "hands-off-kitchen-gadgets-under-30",
+        "label": "Hands-off gadgets"
+      },
+      {
+        "slug": "movie-night-snack-gadgets",
+        "label": "Movie night snacks"
+      },
+      {
+        "slug": "kitchen-gadgets-treats-with-kids",
+        "label": "Treats with kids"
+      },
+      {
+        "slug": "small-kitchen-thanksgiving-gadgets",
+        "label": "Small-kitchen Thanksgiving"
+      }
+    ]
+  }
 }
