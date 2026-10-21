@@ -1,11 +1,11 @@
 ---
-title: "Thanksgiving Mashed Potatoes and Gravy: 8 Small Tools Under $30"
+title: "Thanksgiving Mashed Potatoes and Gravy: 6 Small Tools Under $30"
 seoTitle: "Thanksgiving Mashed Potatoes and Gravy Tools Under $30"
-description: "A potato ricer, a bottom-release gravy separator, a stick blender and five more small tools under $30 for smooth mash and gravy that isn't greasy or lumpy."
+description: "A potato ricer, a bottom-release gravy separator, a stick blender and three more small tools under $30 for smooth mash and gravy that isn't greasy or lumpy."
 slug: "thanksgiving-mashed-potatoes-gravy-gadgets"
 keyword: "Thanksgiving mashed potatoes and gravy tools"
 pinTitle: "Smooth Mash and Lump-Free Gravy: Thanksgiving Tools Under $30"
-pinDescription: "In charge of potatoes and gravy this Thanksgiving? Eight small tools under $30: a potato ricer for smooth mash, a masher if your family likes it chunky, a clip-on pot strainer, a bottom-release gravy separator, a stick blender for lumps, a whisk set, mesh strainers and a gravy boat. Plus the steam-dry trick for fluffier potatoes. Check the current price on Amazon."
+pinDescription: "In charge of potatoes and gravy this Thanksgiving? Six small tools under $30: a potato ricer for smooth mash, a masher if your family likes it chunky, a clip-on pot strainer, a bottom-release gravy separator, a whisk set and a stick blender for lumps. Plus the steam-dry trick for fluffier potatoes. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-16"
 image: "images/47313974-turkey.jpg"
@@ -14,11 +14,11 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-It's 4:40 on Thanksgiving afternoon. The turkey is resting, the potatoes are boiling over, and someone just asked, "Is there gravy?" Those last 30 minutes go better with a few small tools that each do one job well.
+It's 4:40 on Thanksgiving afternoon. The turkey is resting, the potatoes are boiling over, and someone just asked, "Is there gravy?" A few small tools, each made for one job, make those last 30 minutes easier.
 
-I haven't used these myself; I picked each one for a specific potato or gravy job and say who it suits.
+I haven't used these myself. I picked them from the listings for one clear potato or gravy job each, stainless steel or silicone build and whether they need an outlet, and say who each one suits.
 
-**Start here:** most people should get the [PriorityChef potato ricer](https://amzn.to/4yOU3Kw) and the [bottom-release gravy separator](https://amzn.to/4dyIMW8). Pick the [potato masher set](https://amzn.to/4sg5zME) instead of the ricer if your family likes chunky, rustic mash.
+**Start here:** most people should get the [PriorityChef potato ricer](https://amzn.to/4yOU3Kw). Pick the [potato masher set](https://amzn.to/4sg5zME) instead of the ricer if your family likes chunky, rustic mash.
 
 :::picks
 - For smooth, lump-free mash: [PriorityChef potato ricer](https://amzn.to/4yOU3Kw)
@@ -48,18 +48,17 @@ Grease and lumps are separate problems with separate fixes.
 For grease, pour the pan drippings into a separator and wait a couple of minutes while the fat floats up. A bottom-release model drains the flavorful juices from underneath, so you stop before the fat reaches the valve.
 
 - [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8): a 4-cup size for holiday drippings, and the listing includes a 3-in-1 peeler for potato prep. Skip it if you make gravy from a jar or a packet.
-- [Cuisinart stainless steel mesh strainers (3-count)](https://amzn.to/3VOHj8b): catch the browned bits before the drippings go into the separator. The smallest one dusts powdered sugar on pie later.
 
 For lumps, either whisk as you go or blend the finished gravy in the saucepan.
 
 - [3-pack stainless steel whisk set](https://amzn.to/3VPQrcB): keep the flour moving as the liquid goes in, the classic no-outlet way to stop lumps.
 - [Turelar 2-speed corded immersion blender (400W)](https://amzn.to/4jSQnCJ): the rescue tool once lumps happen. Blend right in the pot, then use it for cranberry sauce or soup. Skip it if you have no free outlet near the stove.
 
-### What do I need to get the gravy to the table?
+### What about serving and the turkey?
 
 ![Gravy boat on a Thanksgiving table](images/thanksgiving-mashed-potatoes-gravy-gadgets-2.jpg)
 
-- [Qlans 17 oz ceramic gravy boat with ladle and saucer](https://amzn.to/4zBhd6X): the saucer catches drips so the tablecloth survives. Skip it if you already own one and just pour from a measuring cup.
+No special server needed: a gravy boat you already own or a measuring cup with a spout does the job.
 
 Cooking the turkey too? The USDA says poultry is safe at 165°F, checked with a food thermometer in the thickest part of the breast, the innermost thigh and the wing. My [small-kitchen Thanksgiving post](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) covers the turkey side.
 
@@ -67,13 +66,12 @@ Cooking the turkey too? The USDA says poultry is safe at 165°F, checked with a 
 
 | Product | Best for | Skip it if |
 |---|---|---|
-| Potato ricer | Smooth, fluffy mash | You like chunky mash |
-| Potato masher set | Rustic mash, year-round use | You want zero lumps |
-| Clip-on strainer | Draining potatoes in the pot | Your pot rims are thick or flared |
-| Gravy separator | Fat-free pan-drippings gravy | You use jarred gravy |
-| Whisk set | Preventing lumps as you go | You'd rather blend at the end |
-| Immersion blender | Fixing lumps in the pot | No outlet near the stove |
-| Mesh strainers | Catching bits before separating | You like bits in your gravy |
+| [PriorityChef potato ricer](https://amzn.to/4yOU3Kw) | Smooth, fluffy mash | You like chunky mash |
+| [Potato masher set](https://amzn.to/4sg5zME) | Rustic mash, year-round use | You want zero lumps |
+| [AUOON clip-on strainer](https://amzn.to/4zrIUPF) | Draining potatoes in the pot | Your pot rims are thick or flared |
+| [Gravy separator](https://amzn.to/4dyIMW8) | Less greasy pan-drippings gravy | You use jarred gravy |
+| [Whisk set](https://amzn.to/3VPQrcB) | Preventing lumps as you go | You'd rather blend at the end |
+| [Turelar immersion blender](https://amzn.to/4jSQnCJ) | Fixing lumps in the pot | No outlet near the stove |
 
 ### Frequently asked questions
 
