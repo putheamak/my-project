@@ -188,61 +188,59 @@ In the next chapter, you will put them to work on your first small project, and 
 
 ## Chapter 7: Your First Thirty-Minute Win
 
-Reading about AI will only take you so far. Confidence comes from building something, however small, and watching it work. So before we look at my four projects in detail, I would like you to build one of your own.
+Reading about AI can take you only so far. Real confidence comes from building something yourself, however modest, and watching it work. So before we examine my four projects in detail, I would like you to build one of your own.
 
-In this chapter, you will create a **price calculator**: a simple web page where a customer enters a few details and instantly sees a price. It is small enough to finish in about thirty minutes, yet useful enough to share with real customers. Almost every business can use one, whether it is a delivery service charging by distance, a tailor charging by garment, a tutor charging by the hour, or a caterer charging by the guest.
+In this chapter, you will create a **price calculator**: a simple web page on which a customer enters a few details and immediately sees a price. It is small enough to complete in about thirty minutes, yet useful enough to share with real customers. Almost any business can benefit from one, whether it is a delivery service charging by distance, a tailor charging by garment, a tutor charging by the hour, or a caterer charging by the guest.
 
-You will not write a single line of code yourself.
+You will not write a single line of code.
 
-### What you need
+### What you will need
 
-- A computer with a web browser
-- Your Claude account
-- Your own pricing, written down in plain words
+You need only three things: a computer with a web browser, your Claude account, and your own pricing, written down in plain words.
 
-That last item matters most. Before you open Claude, take five minutes to write down how you actually calculate a price. For example: *"A delivery costs a base fee of 4,000 riel, plus 1,000 riel for every kilometre after the first three. Large parcels cost 2,000 riel extra."* Use your real numbers. If your pricing is not yet decided, invent simple example figures and label them clearly as examples. As we saw in Chapter 6, the AI will not know your prices unless you tell it, and it must never guess them.
+The third is the most important. Before you open Claude, spend five minutes writing down exactly how you calculate a price. For example: *"A delivery costs a base fee of 4,000 riel, plus 1,000 riel for every kilometre beyond the first three. Large parcels cost an additional 2,000 riel."* Use your real figures. If your prices are not yet settled, invent simple example figures and label them clearly as examples. As we saw in Chapter 6, the AI cannot know your prices unless you provide them, and it must never be left to guess.
 
-### Step 1: Describe the problem (about 5 minutes)
+### Step 1: Describe the problem (about five minutes)
 
-Open a new chat with Claude and describe what you need, as you would to a capable assistant. Here is a message you can adapt:
+Open a new conversation with Claude and describe what you need, just as you would brief a capable assistant. The following message can be adapted to almost any business:
 
-> I run a small [type of business] and customers often ask me how much something will cost. I'd like a simple one-page price calculator they can open on their phone.
+> I run a small [type of business], and customers often ask how much something will cost. I would like a simple one-page price calculator that they can open on their phone.
 >
-> Here is how I calculate prices: [your pricing rules, in plain words].
+> This is how I calculate prices: [your pricing rules, in plain words].
 >
-> The page should ask for [the details you need, such as distance and parcel size], then show the total price clearly. Please write everything in [your language], with short English underneath. I am a beginner, so please make it a single HTML file I can open in my browser, and explain each step simply.
+> The page should ask for [the details you need, such as distance and parcel size] and then display the total price clearly. Please write everything in [your language], with short English underneath. I am a beginner, so please make it a single HTML file that I can open in my browser, and explain each step simply.
 
-Notice what this message does. It describes the **problem** before the solution, states the **rules** explicitly, says **how you want to work**, and asks for the result in the simplest possible form: a single file.
+Notice what this message achieves. It describes the **problem** before any solution, states the **rules** explicitly, explains **how you prefer to work**, and requests the result in the simplest possible form: a single file.
 
-### Step 2: Look at the result (about 5 minutes)
+### Step 2: Examine the result (about five minutes)
 
-Claude will reply with the code for your page and, in many cases, a live preview you can try directly in the chat. If a preview appears, test it straight away. If not, copy the code into a plain text file, save it as `calculator.html`, and double-click it. It will open in your web browser like any other website.
+Claude will respond with the code for your page and, in many cases, a live preview that you can try directly in the conversation. If a preview appears, test it at once. If not, copy the code into a plain text file, save it as `calculator.html`, and double-click it; it will open in your web browser like any other website.
 
-Now test it the way a customer would. Enter a short distance, then a long one. Choose a large parcel. **Check every result against your own calculation on paper.** This is the habit from Chapter 6 in action: trust the AI to do the work, but check the work yourself.
+Now test it as a customer would. Enter a short distance, then a long one. Select a large parcel. **Compare every result with your own calculation on paper.** This is the principle from Chapter 6 in practice: trust the AI to do the work, but always check the work yourself.
 
-### Step 3: Improve it in conversation (about 15 minutes)
+### Step 3: Improve it through conversation (about fifteen minutes)
 
-Your first version will rarely be perfect, and that is exactly the point. Improving it is where you learn to direct an AI. Ask for one change at a time:
+Your first version will rarely be perfect, and that is precisely the point. Refining it is how you learn to direct an AI. Request one change at a time, for example:
 
-- *"The total is hard to see on a phone. Make it much larger and put it at the top."*
+- *"The total is difficult to see on a phone. Please make it much larger and place it at the top."*
 - *"Show the price in both riel and US dollars."*
-- *"Add a button that opens my Telegram so customers can book straight away."*
-- *"Use my brand colours: [your colours]."*
-- *"When I enter 0 kilometres, the price looks wrong. Please check the calculation and explain it to me."*
+- *"Add a button that opens my Telegram, so customers can book straight away."*
+- *"Please use my brand colours: [your colours]."*
+- *"When I enter zero kilometres, the price looks wrong. Please check the calculation and explain it to me."*
 
-After each change, test again. If something breaks, describe what you see in plain words, or paste the error message, and ask Claude to explain it and fix it. You do not need to understand the code; you need to describe the problem clearly.
+Test again after every change. If something stops working, describe what you see in plain words, or paste the error message, and ask Claude to explain and correct it. You do not need to understand the code. You need only describe the problem clearly.
 
-### Step 4: Decide what's next (about 5 minutes)
+### Step 4: Decide what comes next (about five minutes)
 
-You now have a working tool, built in conversation, in about half an hour. From here, you have three options:
+In roughly half an hour, you have built a working tool through conversation alone. From here, there are three paths open to you:
 
-1. **Keep it for yourself**, as a quick way to quote prices accurately.
-2. **Share it with customers.** Ask Claude: *"How can I put this page online for free?"* It will guide you through a free hosting service step by step.
-3. **Build on it.** A calculator is the first step towards a booking form, which is exactly how my next project began.
+1. **Keep it for yourself**, as a quick and accurate way to quote prices.
+2. **Share it with your customers.** Ask Claude, *"How can I put this page online for free?"*, and it will guide you through a free hosting service step by step.
+3. **Build on it.** A calculator is the natural first step towards a booking form, which is exactly how my own next project began.
 
 ### What you have really learned
 
-The calculator is not the real achievement. The real achievement is that you have now completed the full cycle that every project in this book follows: **describe, build, test, improve.** Every project you take on from here, however large, is simply that cycle repeated.
+The calculator itself is not the real achievement. The real achievement is that you have completed, from start to finish, the cycle that every project in this book follows: **describe, build, test, improve.** Every project you undertake from now on, however ambitious, is simply that cycle repeated.
 
 ---
 
@@ -250,58 +248,58 @@ The calculator is not the real achievement. The real achievement is that you hav
 
 ### The problem
 
-Khmer Parcel launched in Phnom Penh on the 1st of October, 2026. From the beginning, I knew that our most valuable customers would be **online sellers**, people selling clothes, cosmetics and food through Facebook and Telegram. One regular seller can send five, ten or twenty parcels a day.
+Khmer Parcel opened for business in Phnom Penh on the 1st of October, 2026. From the outset, I knew that our most valuable customers would be **online sellers**: people selling clothing, cosmetics and food through Facebook and Telegram. A single regular seller may send five, ten or even twenty parcels a day.
 
-Online sellers live in Telegram. So, naturally, they wanted to book by sending us a message. But bookings arriving as chat messages are difficult to manage. Each seller writes differently. Addresses are incomplete, phone numbers are missing, and parcels are listed in a single long paragraph. Someone in the office has to read every message, ask follow-up questions, and type the details out again. As the number of sellers grows, so does the chance of a mistake. ⭐ [Add a real example: a booking that went wrong, or how long it took to handle one by chat.]
+Online sellers live in Telegram, so it was natural for them to want to book by sending us a message. Yet bookings that arrive as chat messages are difficult to manage. Every seller writes differently. Addresses arrive incomplete, phone numbers go missing, and several parcels are described in one long paragraph. Someone in the office must read each message, ask follow-up questions and type the details out again. As the number of sellers grows, so does the likelihood of mistakes. ⭐ [Add a real example: a booking that went wrong, or how long one booking took to handle by chat.]
 
-I wanted sellers to book in seconds, without leaving Telegram, and I wanted every booking to arrive in the same clear format.
+My goal was clear: sellers should be able to book in seconds, without leaving Telegram, and every booking should reach us in the same clear format.
 
 ### The solution
 
-I described this problem to Claude, and together we arrived at a **Telegram mini app**: a small app that opens inside Telegram itself.
+I described the problem to Claude, and together we arrived at a **Telegram mini app**: a small application that opens inside Telegram itself.
 
-Here is how it works for a seller. They open our bot and tap the **Book now** button. A short form opens, in Khmer, asking for the shop name, phone number, pickup address and details of each parcel; several parcels can be booked in one pickup. When the seller presses the button to confirm, the booking appears in our office Telegram group within seconds, neatly formatted, with a booking code. The seller receives the same code as confirmation. The next time they book, the app already remembers their shop's details.
+For a seller, the experience is simple. They open our bot and tap the **Book now** button. A short form appears in Khmer, asking for the shop's name, phone number and pickup address, together with the details of each parcel; several parcels can be booked for a single pickup. When the seller confirms, the booking appears in our office Telegram group within seconds, neatly formatted and labelled with a booking code. The seller receives the same code as confirmation, and the next time they book, the app already remembers their shop's details.
 
-The app also handles our launch offer automatically. Each seller's first three deliveries cost 2,000 riel instead of the usual 3,000, and the app counts them for every Telegram account.
+The app also manages our launch offer automatically. Each seller's first three deliveries cost 2,000 riel rather than the standard 3,000, and the app keeps count for every Telegram account.
 
 ### How it runs, and what it costs
 
-The app runs on **Cloudflare Workers**, using the free plan. There is no server to rent, no computer to keep switched on, and nothing to maintain. The entire app is built into **one file**, which I copy and paste into Cloudflare whenever something changes.
+The app runs on **Cloudflare Workers**, on the free plan. There is no server to rent, no computer to keep switched on, and nothing to maintain. The entire application is packaged as **a single file**, which I copy and paste into Cloudflare whenever something changes.
 
-That single-file design was deliberate. As a non-programmer, I did not want a complicated installation process. I asked for something I could update by copying and pasting, and the AI organised the project around that requirement: the parts it works on are kept separately, and a small build step combines them into the one file I need.
+That single-file design was a deliberate choice. As a non-programmer, I did not want a complicated installation process, so I asked for something I could update by copying and pasting. The AI organised the whole project around that requirement: it works on the individual parts separately, and a small build step combines them into the one file I need.
 
-Monthly cost of running the booking app: **nothing**.
+The monthly cost of running the booking app is **nothing**.
 
 ### Setting it up
 
-The setup took about twenty minutes, following a step-by-step guide the AI wrote for me in plain language:
+Setting up the app took about twenty minutes, following a step-by-step guide that the AI wrote for me in plain language:
 
-1. **Create the bot** by talking to Telegram's official @BotFather account, which issues a secret key, called a *token*, for the bot.
-2. **Create the office group** and add the bot and the staff to it.
-3. **Create the app on Cloudflare**, paste in the single file, and store the secret values in Cloudflare's settings.
-4. **Connect the bot to the app** by opening a special setup address once in the browser.
-5. **Find the group's ID**, a number Telegram uses to identify the office group, so the app knows where to send bookings.
-6. **Test it** by making a booking myself.
+1. **Create the bot** through Telegram's official @BotFather account, which issues a secret key, known as a *token*, for the new bot.
+2. **Create the office group**, and add both the bot and the staff.
+3. **Create the app on Cloudflare**, paste in the single file, and store the secret values in Cloudflare's protected settings.
+4. **Connect the bot to the app** by visiting a special setup address once in the browser.
+5. **Find the group's ID**, the number Telegram uses to identify the office group, so that the app knows where to deliver bookings.
+6. **Test everything** by making a booking yourself.
 
 The first test booking arrived in our office group within seconds. ⭐ [Add how you felt at that moment, and who you showed it to.]
 
 ### Challenges and lessons learned
 
-The finished app looks simple. The path to it taught me several lessons that apply far beyond this project. ⭐ [Please mark which of these you personally ran into, and add any others.]
+The finished app appears simple. The road to it, however, taught me lessons that apply well beyond this single project. ⭐ [Please mark which of these you encountered personally, and add any others.]
 
-**Lesson 1: Guard your secrets.** The bot's token is like the key to your shop. Anyone who has it can control your bot. The rule I follow now: never paste a token into a chat, a group, or a message to anyone, including an AI. Secrets belong only in the secure settings of the service that uses them, in my case Cloudflare.
+**Lesson 1: Guard your secrets.** A bot's token is like the key to your shop: whoever holds it controls the bot. My rule is now absolute. I never paste a token into a chat, a group or a message to anyone, AI included. Secrets belong only in the secure settings of the service that uses them, which in my case is Cloudflare.
 
-**Lesson 2: Assume someone will try to cheat.** A booking form on the internet can, in principle, be filled in by anyone, including someone trying to post fake orders into the office group. The AI built in a safeguard I would never have thought to request: every booking carries a digital signature from Telegram, and the app checks that signature before accepting anything. A booking that does not come from a genuine Telegram user is simply rejected. The app also cleans up anything a user types before it reaches the office group. The lesson: when you build something public, ask the AI directly, *"How could someone misuse this, and how do we prevent it?"*
+**Lesson 2: Assume someone will try to cheat.** In principle, anyone can fill in a form on the internet, including someone who wants to post fake orders into the office group. The AI built in a safeguard I would never have thought to request. Every booking carries a digital signature from Telegram, and the app verifies that signature before accepting anything; a booking that does not come from a genuine Telegram user is simply rejected. The app also cleans everything a user types before it reaches the office group. The broader lesson: whenever you build something public, ask the AI directly, *"How could someone misuse this, and how do we prevent it?"*
 
-**Lesson 3: Small details can stop everything.** Some steps failed for reasons that had nothing to do with the app itself. In a Telegram group, for example, a bot only receives commands that are addressed to it by name, so the command to find the group's ID has to include the bot's username. The secret password used to connect Telegram to the app may only contain letters, numbers, dashes and underscores; a single space breaks it. Neither problem is difficult once you know, but either can waste an hour if you don't. Each one now has its own line in the setup guide, written so I never face it twice.
+**Lesson 3: Small details can halt everything.** Some steps failed for reasons entirely unrelated to the app. In a Telegram group, for instance, a bot receives only those commands addressed to it by name, so the command that reveals the group's ID must include the bot's username. Likewise, the secret password linking Telegram to the app may contain only letters, numbers, dashes and underscores; a single space is enough to break it. Neither problem is difficult once understood, but either can easily cost an hour. Each now has its own line in the setup guide, so that I never face it twice.
 
-**Lesson 4: An offer needs a memory.** To count each seller's first three discounted deliveries, the app has to remember who has already booked. That requires a small storage space, which Cloudflare also provides free of charge. Without it, every customer would see the discounted price forever. The lesson: whenever a feature depends on *what happened before*, ask where that history will be kept.
+**Lesson 4: An offer needs a memory.** To count each seller's first three discounted deliveries, the app must remember who has already booked. That requires a small storage space, which Cloudflare also provides free of charge. Without it, every customer would see the discounted price indefinitely. The lesson: whenever a feature depends on *what happened before*, ask where that history will be kept.
 
-**Lesson 5: Test before every change.** The AI wrote a set of automatic tests that pretend to be Telegram and check the important behaviour: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. Before any updated version goes live, the tests run first. I cannot read most of the code, but I can read a test result that says everything passed.
+**Lesson 5: Test before every change.** The AI wrote a set of automatic tests that imitate Telegram and verify the behaviour that matters most: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. Before any new version goes live, the tests run first. I cannot read most of the code, but I can read a result that says every test has passed.
 
-**Lesson 6: Be clear about what it does not do yet.** The first version is deliberately limited. Our office still confirms each booking by hand, because the app is not yet connected to the website's delivery system, so automatic tracking codes will come later. Because the offer is counted per Telegram account, staff still check phone numbers for repeated use. And door-to-door customers continue to book on our website, a decision we made on purpose to keep the app focused on online sellers. Writing these limits down protected me from promising more than the app could deliver.
+**Lesson 6: Be clear about what it does not yet do.** The first version is intentionally limited. Our office still confirms each booking by hand, because the app is not yet connected to the delivery system on our website, so automatic tracking codes will come later. Because the offer is counted per Telegram account, staff still check phone numbers for repeated use. And door-to-door customers continue to book through our website, a deliberate decision to keep the app focused on online sellers. Writing these limits down protected me from promising more than the app could deliver.
 
-**Lesson 7: Build once, reuse many times.** Because the app is a single file with its text, prices and fields kept in one place, it can be reused. A salon could turn it into an appointment form, a café into an order form, a tutor into a class booking form. Each needs only a new bot, a new Cloudflare app and a new group.
+**Lesson 7: Build once, reuse many times.** Because the app is a single file, with its text, prices and form fields kept in one place, it can be adapted easily. A salon could turn it into an appointment form, a café into an order form, a tutor into a class-booking form. Each needs only a new bot, a new Cloudflare app and a new group.
 
 ### The first ninety days
 
@@ -309,8 +307,8 @@ The finished app looks simple. The path to it taught me several lessons that app
 
 ### Build your own version
 
-If your customers already talk to you on Telegram, a booking mini app may be the most valuable tool you ever build. Start with the conversation pattern from Chapter 6:
+If your customers already contact you on Telegram, a booking mini app may be the most valuable tool you ever build. Begin with the conversation pattern from Chapter 6:
 
-> My customers book [your service] by sending Telegram messages, and the details are often incomplete. I'd like a Telegram mini app with a short form in [your language] that asks for [the details you need] and sends each booking to my staff group with a booking code. It should be free to run, easy for a beginner to update, and protected against fake bookings. Please explain each step simply, and write me a setup guide.
+> My customers book [your service] by sending Telegram messages, and the details are often incomplete. I would like a Telegram mini app with a short form in [your language] that asks for [the details you need] and sends each booking to my staff group with a booking code. It should be free to run, easy for a beginner to update, and protected against fake bookings. Please explain each step simply, and write me a setup guide.
 
 Then follow the cycle you practised in Chapter 7: describe, build, test, improve.
