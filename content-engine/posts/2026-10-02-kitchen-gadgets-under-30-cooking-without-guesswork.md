@@ -1,5 +1,5 @@
 ---
-title: "Cooking Without Guesswork: 6 Kitchen Gadgets Under $30 That Tell You When Food Is Done"
+title: "Cooking Without Guesswork: 4 Kitchen Gadgets Under $30 That Tell You When Food Is Done"
 seoTitle: "Kitchen Gadgets Under $30 for Cooking Without Guesswork"
 description: "An instant-read thermometer, a kitchen scale and an oven thermometer, all under $30, plus a USDA safe-temperature cheat sheet so you stop cutting into dinner to check."
 slug: "kitchen-gadgets-under-30-cooking-without-guesswork"
@@ -16,13 +16,13 @@ As an Amazon Associate I earn from qualifying purchases.
 
 It's 7 p.m., the chicken looks golden, and you're slicing into the thickest piece to check the middle. It's pink, so it goes back in. Ten minutes later it's done and dry.
 
-That's not a skill problem. It's a missing number. I haven't used these myself; I picked each one for a specific job and say who it suits.
+That's not a skill problem. It's a missing number. I haven't used these myself. I picked them from the listings for a clear readout (temperature, weight or time), one job per tool and easy storage, and say who each one suits.
 
-**Start here:** most people should get the [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ). Pick the [22 lb digital food scale](https://amzn.to/4jCDT23) instead if baking is where your results go sideways.
+**Start here:** most people should get the [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ). Pick the [digital food scale with a 22 lb capacity](https://amzn.to/4jCDT23) instead if baking is where your results go sideways.
 
 :::picks
 - For knowing when meat is done: [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ)
-- For bakers who want repeatable results: [22 lb digital food scale](https://amzn.to/4jCDT23)
+- For bakers who want repeatable results: [digital food scale with a 22 lb capacity](https://amzn.to/4jCDT23)
 - For an oven that never quite matches the recipe: [Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme)
 :::
 
@@ -32,7 +32,7 @@ That's not a skill problem. It's a missing number. I haven't used these myself; 
 
 Color and juices are unreliable. A probe in the thickest part, away from bone, gives you the answer in seconds without cutting anything open.
 
-**[TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ).** This is the tool that changes dinner first. Use it on chicken, pork chops, burgers, reheated leftovers and even bread. It suits anyone who cooks meat more than once a week. Skip it if you're mostly vegetarian and don't bake bread.
+**[TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ).** It is designed for quick checks on chicken, pork chops, burgers, reheated leftovers and even bread. It suits anyone who cooks meat more than once a week. Skip it if you're mostly vegetarian and don't bake bread.
 
 Here's a cheat sheet to keep on the fridge.
 
@@ -51,11 +51,7 @@ These are minimums for safety, not doneness preferences. Check the USDA's food s
 
 Often it's the measuring. A cup of flour scooped straight from the bag can weigh much more than one spooned in, and that's enough to turn cookies cakey.
 
-**[22 lb digital food scale](https://amzn.to/4jCDT23).** Weigh flour, sugar and butter into one bowl and use the tare button between each. It's for bakers, meal preppers and anyone following recipes written in grams. Skip it if you mostly cook by feel and rarely bake.
-
-**[Nesting stainless steel measuring cups and spoons set](https://amzn.to/4AUrih5).** For recipes that only list cups, a sturdy set that nests saves drawer space. Good for a first kitchen or replacing a mismatched plastic set.
-
-**[Spring Chef magnetic measuring spoons](https://amzn.to/4jDsZZV).** The spoons snap together, so you're not digging for the teaspoon while the pan heats. Handy for spices, extracts and baking powder. Skip it if you already have one set and the spoons from the nesting set above are enough.
+**[Digital food scale with a 22 lb capacity](https://amzn.to/4jCDT23).** Weigh flour, sugar and butter into one bowl and use the tare button between each. It's for bakers, meal preppers and anyone following recipes written in grams. Skip it if you mostly cook by feel and rarely bake.
 
 ### Is my oven lying to me?
 
@@ -65,18 +61,16 @@ Quite possibly. Oven thermostats drift, and many run hot or cold. If roasting ti
 
 **[Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme).** It sits on the middle rack and shows the real heat, so you can adjust the dial once and stop second-guessing. It suits anyone with an older oven or uneven baking. Skip it if your oven already has a reliable built-in probe display.
 
-**[4-piece digital timer set](https://amzn.to/4hEGDtk).** One countdown per dish, so a phone call doesn't wipe out your only timer. Useful on holidays or nights with three things going at once. Batteries aren't included, so grab some first.
+**[4-piece digital timer set](https://amzn.to/4hEGDtk).** One countdown per dish, so a phone call doesn't wipe out your only timer. Useful on holidays or nights with three things going at once.
 
 ### How do these compare?
 
 | Product | Best for | Skip it if |
 |---|---|---|
 | [TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ) | Chicken, pork, burgers, leftovers | You rarely cook meat or bread |
-| [22 lb digital food scale](https://amzn.to/4jCDT23) | Baking, meal prep, gram recipes | You cook by feel and don't bake |
+| [Digital food scale, 22 lb capacity](https://amzn.to/4jCDT23) | Baking, meal prep, gram recipes | You cook by feel and don't bake |
 | [Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme) | Older or uneven ovens | Your oven has a trusted probe readout |
 | [4-piece digital timer set](https://amzn.to/4hEGDtk) | Juggling several dishes | One phone timer is plenty for you |
-| [Nesting measuring cups and spoons set](https://amzn.to/4AUrih5) | Cup-based recipes, first kitchens | You already have a sturdy set |
-| [Spring Chef magnetic measuring spoons](https://amzn.to/4jDsZZV) | Spices and small amounts | Your current spoons stay together |
 
 ### Frequently asked questions
 
@@ -94,4 +88,4 @@ Wipe the thermometer probe with hot soapy water or a sanitizing wipe after raw m
 
 ### Ready to stop guessing?
 
-Get the thermometer first; it pays off the same night. For more tools in the same range, see the picks for [fast weeknight dinners](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [meal prep Sunday](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order.
+Get the thermometer first; it answers the question you ask most often at dinner. For more tools in the same range, see the picks for [fast weeknight dinners](https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/) and [meal prep Sunday](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order.

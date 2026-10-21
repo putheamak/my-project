@@ -16,7 +16,7 @@ As an Amazon Associate I earn from qualifying purchases.
 
 It's noon, you open the fridge, and last night's pasta is sitting in a container with a cracked lid, dry on top and smelling faintly of yesterday's curry. You eat a granola bar instead, and the pasta goes in the trash on Friday. Most leftovers fail at one of three steps: storing, freezing or reheating.
 
-I haven't used these myself; I picked each one for a specific job and say who it suits.
+I haven't used these myself. I picked them from the listings for locking or stretch lids, single-portion freezing and microwave reheating, and say who each one suits.
 
 **Start here:** most people should get the [PrepNaturals glass containers](https://amzn.to/4rUytBF). Pick the [Rubbermaid Brilliance containers](https://amzn.to/3U7ZlSa) instead if you carry lunch to work and want something lighter.
 
@@ -24,7 +24,6 @@ I haven't used these myself; I picked each one for a specific job and say who it
 - For storing leftovers in the fridge: [PrepNaturals glass containers](https://amzn.to/4rUytBF)
 - For freezing single portions: [Silicone freezer tray with lid](https://amzn.to/4y4ZmED)
 - For reheating rice and pasta without splatter: [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH)
-- For knowing what's in the freezer: [Phomemo D30 mini label maker](https://amzn.to/4e7DAIT)
 :::
 
 ### How do I store leftovers so they don't dry out?
@@ -47,7 +46,7 @@ This is the step most people skip, and it's why frozen leftovers become a myster
 
 [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r) handle the small stuff: leftover stock, coconut milk, pesto or half a can of tomato paste. Get these instead of the big tray if your leftovers are mostly sauces and odds and ends.
 
-The [Phomemo D30 mini label maker](https://amzn.to/4e7DAIT) prints labels from your phone, so every block says what it is and when you froze it. Skip it if a roll of masking tape and a marker already works for you.
+Label every block with what it is and the date; a strip of masking tape and a marker is enough.
 
 If you've read my [meal prep gadget list](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), this is the same toolkit pointed backward: instead of prepping ahead, you're banking what you already cooked.
 
@@ -57,9 +56,9 @@ If you've read my [meal prep gadget list](https://homepicksunder30.com/blog/post
 
 Reheating is where most leftovers die: rice hardens and pasta goes rubbery.
 
-**The pick:** the [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH). It sticks to the microwave ceiling when you're not using it, then drops over the bowl to trap steam so rice and pasta soften instead of drying into a crust. Skip it if you'd rather not store a cover on the microwave ceiling.
+**The pick:** the [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH). It sticks to the microwave ceiling when you're not using it, then drops over the bowl. It is designed to trap steam, which helps keep rice and pasta from drying into a crust. Skip it if you'd rather not store a cover on the microwave ceiling.
 
-The [GoodCook microwave steamer](https://amzn.to/4hopeWQ) is the add-on for tired vegetables, grains and dumplings. A splash of water and a few minutes of steam bring them back. Skip it if you mostly reheat saucy dishes, where the cover alone does the job.
+The [GoodCook microwave steamer](https://amzn.to/4hopeWQ) is the add-on for vegetables, grains and dumplings. It is designed to reheat them with a splash of water and steam instead of dry heat. Skip it if you mostly reheat saucy dishes, where the cover alone does the job.
 
 ### Which leftover gadget should you buy first?
 
@@ -81,9 +80,9 @@ Containers and a microwave cover touch every leftover you'll ever have, so buy t
 
 Not at first. Start with glass if you eat leftovers at home; add the plastic set only if you carry lunch out. Check each listing for microwave, freezer and dishwasher guidance before you buy.
 
-#### Will a microwave cover really change the texture?
+#### Does a microwave cover help with texture?
 
-Yes, for rice, pasta and roasted vegetables. Trapped steam keeps the surface from drying out, and you stop wiping sauce off the microwave ceiling.
+That's what it's designed for. A cover traps steam, which generally helps keep the surface of rice, pasta and roasted vegetables from drying out, and it keeps sauce from splattering the microwave.
 
 #### How long can I keep leftovers in the fridge?
 
