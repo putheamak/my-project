@@ -47,7 +47,7 @@ Grease and lumps are separate problems with separate fixes.
 
 For grease, pour the pan drippings into a separator and wait a couple of minutes while the fat floats up. A bottom-release model drains the flavorful juices from underneath, so you stop before the fat reaches the valve.
 
-- [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8): a 4-cup size for holiday drippings, and the listing includes a 3-in-1 peeler for potato prep. Skip it if you make gravy from a jar or a packet.
+- [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8): a 4-cup size for holiday drippings, with a bottom release so the fat stays behind. Skip it if you make gravy from a jar or a packet.
 
 For lumps, either whisk as you go or blend the finished gravy in the saucepan.
 
