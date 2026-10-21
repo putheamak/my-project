@@ -1,11 +1,11 @@
 ---
-title: "Make-Ahead Halloween Party Treats: 8 Kitchen Gadgets Under $30"
+title: "Make-Ahead Halloween Party Treats: 6 Kitchen Gadgets Under $30"
 seoTitle: "Kitchen Gadgets for Halloween Party Snacks Under $30"
 description: "Halloween molds, cookie cutters, a chocolate melting pot and candy apple supplies under $30, plus a simple day-before party plan for trick-or-treat night."
 slug: "halloween-party-snack-gadgets-under-30"
 keyword: "kitchen gadgets for Halloween party snacks under $30"
-pinTitle: "Make-Ahead Halloween Party Treats: 8 Gadgets Under $30"
-pinDescription: "Halloween is Saturday, Oct 31. Make the spooky treats the day before: skull and pumpkin chocolates from silicone molds, cut-out cookies, piped mummy stripes and wrapped candy apples, plus one popcorn popper for the night itself. Includes a day-before and one-hour-before party plan. Check the current price on Amazon."
+pinTitle: "Make-Ahead Halloween Party Treats: 6 Gadgets Under $30"
+pinDescription: "Halloween is Saturday, Oct 31. Make the spooky treats the day before: skull and pumpkin chocolates from silicone molds, cut-out cookies, piped mummy stripes and wrapped candy apples. Includes a day-before and one-hour-before party plan. Check the current price on Amazon."
 pinBoard: "Halloween Party Food Ideas"
 date: "2026-10-14"
 image: "images/jillwellington-halloween.jpg"
@@ -16,11 +16,11 @@ As an Amazon Associate I earn from qualifying purchases.
 
 It's 6:15 on Halloween, the doorbell has rung four times, and the cookies you meant to decorate are still plain. The fix is doing the fun part the day before, so the night itself is just setting out trays.
 
-I haven't used these myself; I picked each one for a specific Halloween job and say who it suits.
+I haven't used these myself. I picked them from the listings for treats that can be made the day before, bite-size Halloween shapes and steps kids can help with, and say who each one suits.
 
 **Halloween is Saturday, Oct 31.** If you want these for this year, order soon and check the delivery date Amazon shows before you order.
 
-**Start here:** most people should get the [mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH) and the [NutriChef 8.8 oz electric chocolate melting pot](https://amzn.to/3UliEHT). Pick the [Ann Clark Halloween cookie cutters (set of 7)](https://amzn.to/4ikh1TV) instead if your crowd would rather eat cookies than chocolate.
+**Start here:** most people should get the [mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH). Pick the [Ann Clark Halloween cookie cutters (set of 7)](https://amzn.to/4ikh1TV) instead if your crowd would rather eat cookies than chocolate.
 
 :::picks
 - For bite-size skull chocolates: [Mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH)
@@ -35,7 +35,7 @@ I haven't used these myself; I picked each one for a specific Halloween job and 
 
 Chocolates, cookies and candy apples all hold well overnight.
 
-- [Mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH): fill them with melted chocolate or gummy mix for a tray of tiny skulls. They also make spooky ice cubes.
+- [Mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH): fill them with melted chocolate or gummy mix for a tray of tiny skulls. Silicone molds like these can also make spooky ice cubes.
 - [Pumpkin silicone candy mold (15 cavities)](https://amzn.to/4B4Z0At): small pumpkin candies to sit next to the skulls, and the listing says it's oven safe.
 - [Ann Clark Halloween cookie cutters (set of 7)](https://amzn.to/4ikh1TV): the classic shapes for cut-out sugar cookies. Bake them the day before and decorate once cool.
 
@@ -45,16 +45,9 @@ Chocolates, cookies and candy apples all hold well overnight.
 
 Melting is the step that trips people up, so a small tool for just that job helps.
 
-- [NutriChef 8.8 oz electric chocolate melting pot](https://amzn.to/3UliEHT): a small warmer sold for melting chocolate and keeping it warm for dipping. That's enough to fill both molds and dip some pretzels. It gets hot, so an adult should run it.
+- [NutriChef 8.8 oz electric chocolate melting pot](https://amzn.to/3UliEHT): a small warmer sold for melting chocolate and keeping it warm for dipping. It gets hot, so an adult should run it.
 - [Candy apple sticks and clear bags (24-pack)](https://amzn.to/4i073G7): dip apples in the melted chocolate or caramel, let them set, then bag them as take-home treats.
 - [124-piece piping bags and tips set](https://amzn.to/4dBeBO5): 16 tips and 100 bags, sold as anti-burst. Pipe mummy stripes or spiderwebs on cookies; kids can do this part.
-
-### What do I need on the night itself?
-
-Keep the live cooking to one quick, repeatable thing.
-
-- [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8): bowl after bowl of popcorn in the microwave, and it folds flat for storage.
-- [8-inch black cauldron candy bowl](https://amzn.to/4yUzHzK): turns the front-door candy bowl into a witch's kettle. It's sold as decor, so use it for wrapped candy.
 
 ### A simple Halloween party plan
 
@@ -64,26 +57,24 @@ Keep the live cooking to one quick, repeatable thing.
 - Dip and bag the candy apples.
 
 **One hour before**
-- Fill the cauldron with wrapped candy and set it by the door.
 - Plate the chocolates and cookies.
-- Pop the first bowl of popcorn, then do another round whenever it runs low.
+- Set the bagged candy apples by the door as take-home treats.
 
 ### Which Halloween gadget should you pick?
 
 | Product | Best for | Skip it if |
 |---|---|---|
-| Mini skull silicone molds | Bite-size chocolates, gummies, ice cubes | Nobody likes chocolate or gummies |
-| Pumpkin silicone candy mold | A second shape on the treat tray | One mold is plenty for you |
-| Ann Clark cookie cutters | Cut-out cookies made ahead | You're skipping the oven this week |
-| NutriChef melting pot | Filling molds and dipping | You're happy melting on the stovetop |
-| Candy apple sticks and bags | Wrapped take-home apples | You don't need party favors |
-| Piping bags and tips set | Decorating with kids | You buy pre-made icing tubes |
-| Salbree popcorn popper | Popcorn in rounds on the night | You already own a popper |
+| [Mini skull silicone molds](https://amzn.to/4jVkIAH) | Bite-size chocolates, gummies, ice cubes | Nobody likes chocolate or gummies |
+| [Pumpkin silicone candy mold](https://amzn.to/4B4Z0At) | A second shape on the treat tray | One mold is plenty for you |
+| [Ann Clark cookie cutters](https://amzn.to/4ikh1TV) | Cut-out cookies made ahead | You're skipping the oven this week |
+| [NutriChef melting pot](https://amzn.to/3UliEHT) | Filling molds and dipping | You're happy melting on the stovetop |
+| [Candy apple sticks and bags](https://amzn.to/4i073G7) | Wrapped take-home apples | You don't need party favors |
+| [Piping bags and tips set](https://amzn.to/4dBeBO5) | Decorating with kids | You buy pre-made icing tubes |
 
 ### Frequently asked questions
 
 #### Do I need the melting pot, or can I use the microwave?
-A microwave-safe bowl works in short bursts with stirring. The pot keeps chocolate warm while you fill molds and dip, so it doesn't thicken halfway through.
+A microwave-safe bowl works in short bursts with stirring. The pot is designed to keep chocolate warm while you fill molds and dip, so it's less likely to thicken halfway through.
 
 #### How do I get chocolate out of silicone molds cleanly?
 Chill until fully set, then press from the back and peel the silicone away.

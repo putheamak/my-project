@@ -1,11 +1,11 @@
 ---
 title: "One Oven on Thanksgiving? Gadgets Under $30 for Oven-Free Sides"
 seoTitle: "Small Kitchen Thanksgiving: Oven-Free Side Dish Gadgets Under $30"
-description: "One small oven and a turkey that fills it? Plan Thanksgiving sides in small slow cookers and a rice cooker with a steamer, check the turkey with a thermometer, and follow a simple day-of timeline."
+description: "One small oven and a turkey that fills it? Move one or two sides to a steamer basket and a small slow cooker, check the turkey with a thermometer, and follow a simple day-of timeline."
 slug: "small-kitchen-thanksgiving-gadgets"
 keyword: "kitchen gadgets for a small kitchen Thanksgiving"
-pinTitle: "One Oven, Whole Thanksgiving: Oven-Free Side Dish Plan"
-pinDescription: "Turkey taking up your only oven? Move the sides out: two small 1.5 qt slow cookers, a rice cooker that steams veggies above the rice, and an instant-read thermometer so you know when the turkey is done. Includes a day-of timeline for Thanksgiving, Nov 26. All gadgets under $30. Check the current price on Amazon."
+pinTitle: "One Oven on Thanksgiving: Move 1 or 2 Sides to the Counter"
+pinDescription: "Turkey taking up your only oven? Move one or two sides out: steam green beans or carrots in a rice cooker's steaming basket, keep one saucy side in a small 1.5 qt slow cooker, and use an instant-read thermometer to know when the turkey is done. Includes a day-of timeline for Thanksgiving, Nov 26. All gadgets under $30. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-12"
 image: "images/picturexphotobnb-kitchen.jpg"
@@ -14,15 +14,15 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-It's 2 p.m. on Thanksgiving, the turkey fills your only oven, and the sweet potatoes, green beans and stuffing are still lined up on the counter waiting for a turn. The fix is to give the oven to the turkey and cook every side somewhere else.
+It's 2 p.m. on Thanksgiving, the turkey fills your only oven, and the sweet potatoes, green beans and stuffing are still lined up on the counter waiting for a turn. The fix is to move one or two sides off the oven schedule so the rest have room.
 
-I haven't used these myself; I picked each one for a specific job in an oven-free side-dish plan and say who it suits.
+I haven't used these myself. I picked them from the listings for small countertop size, cooking on one plug instead of the oven, and freeing up a stovetop burner, and say who each one suits.
 
-**Start here:** most people should get the [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk), because it makes two sides on one plug. Pick the [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) instead if your sides are soft, saucy dishes like creamed corn or cranberry sauce.
+**Start here:** most people should get the [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) and use it as a vegetable steamer, so green beans or carrots cook on the counter. Pick the [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) instead if your extra side is a soft, saucy dish like creamed corn or cranberry sauce.
 
 :::picks
-- For two sides on one plug: [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk)
-- For one hands-off side: [Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj)
+- For steamed vegetables on one plug: [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk)
+- For one small saucy side: [Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj)
 - For knowing the turkey is done: [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
 - For a free burner: [Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ)
 :::
@@ -31,11 +31,10 @@ I haven't used these myself; I picked each one for a specific job in an oven-fre
 
 ![Side dish in a slow cooker for Thanksgiving](images/small-kitchen-thanksgiving-gadgets-1.jpg)
 
-Two small slow cookers and a rice cooker can carry most of the sides from a corner of counter.
+Be realistic: these are small appliances for one or two extra sides alongside the oven, not the whole meal.
 
-- **[Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj).** A small-batch size for one soft side: creamed corn, cranberry sauce, or a pot of soup for early arrivals. Skip it if you're feeding twelve and want one big pot of anything.
-- **[bella 1.5 qt manual slow cooker with 3 heat settings](https://amzn.to/4rZWLKM).** The second slow cooker, so two sides cook at once.
-- **[BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk).** Rice or another grain cooks below while green beans, carrots or broccoli steam in the basket above.
+- **[BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk).** Put water in the pot and green beans, carrots or broccoli in the steaming basket, and a vegetable side cooks without a burner or the oven. Skip it if all your vegetables are roasted.
+- **[Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj).** A 1.5 qt crock holds one side for a few people: creamed corn, cranberry sauce, or a small pot of soup for early arrivals. For a bigger table, use it for one dish and keep the larger pots for the rest. Two of these would cover two small sides.
 
 Mashing potatoes and making gravy? My [mashed potatoes and gravy gadgets post](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) covers the ricer and the gravy separator, so they're not repeated here.
 
@@ -43,7 +42,7 @@ Mashing potatoes and making gravy? My [mashed potatoes and gravy gadgets post](h
 
 ![Roast turkey with a meat thermometer](images/small-kitchen-thanksgiving-gadgets-2.jpg)
 
-The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is a fast-reading digital model you slip into the bird for a few seconds.
+The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is a digital instant-read model you slip into the bird for a few seconds.
 
 USDA guidance says poultry is safe at 165°F, measured in the thickest part. On a turkey, check the thickest part of the thigh and the breast, and keep the tip off the bone. Skip it only if you already own a thermometer you trust.
 
@@ -51,13 +50,12 @@ USDA guidance says poultry is safe at 165°F, measured in the thickest part. On 
 
 - **[Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ).** Blend soup or cranberry sauce right in the pot or slow cooker crock, with no countertop blender to find room for or wash. Skip it if every side you make is chunky.
 - **[AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF).** It clips to the edge of a pot so you can drain vegetables straight into the sink, and the big colander stays in the cabinet.
-- **[2-piece 10 x 15 in cooling racks](https://amzn.to/3Tzr4v3).** The listing says they're oven safe; set one in a sheet pan to roast the turkey up off the pan, then cool pies on both.
 
 ### What does the day-of timeline look like?
 
-- **Morning:** Turkey into the oven. Start the first slow cooker with a side that holds well, like cranberry sauce or soup.
-- **2 hours before dinner:** Start the second slow cooker. Measure rice and water into the rice cooker and prep the vegetables for the basket.
-- **30 minutes before:** Check the turkey with the thermometer; once it reads 165°F, let it rest. Start the rice cooker with the vegetables in the basket, blend the soup, and switch the slow cookers to warm.
+- **Morning:** Turkey into the oven. Start the slow cooker with a side that holds well, like cranberry sauce or soup.
+- **1 hour before dinner:** Trim the green beans or peel the carrots and load the steaming basket.
+- **30 minutes before:** Check the turkey with the thermometer; once it reads 165°F, let it rest. Start the rice cooker to steam the vegetables, blend the soup, and switch the slow cooker to warm.
 
 Thanksgiving is Thursday, Nov 26, 2026. Order early and check the delivery date Amazon shows before you order.
 
@@ -65,23 +63,21 @@ Thanksgiving is Thursday, Nov 26, 2026. Order early and check the delivery date 
 
 | Product | Best for | Skip it if |
 |---|---|---|
-| BLACK+DECKER 6-cup rice cooker with steaming basket | A grain plus steamed veg at once | You never serve rice or grains |
-| Maxi-Matic 1.5 qt slow cooker | One soft, saucy side | You need one big pot for a crowd |
-| bella 1.5 qt slow cooker | A second side, or holding one warm | One slow cooker covers your menu |
-| TempPro TempSwift thermometer | Checking the turkey reached 165°F | You own a thermometer you trust |
-| Turelar immersion blender | Smooth soup or sauce in the pot | All your sides are chunky |
-| AUOON clip-on strainer | Draining without a colander | You have room for a colander |
-| 10 x 15 in cooling racks | Roasting up off the pan, cooling pies | Your sheet pans are a different size |
+| [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) | A steamed vegetable side, no burner | Your vegetables are all roasted |
+| [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) | One soft, saucy side for a few people | You need one big pot for a crowd |
+| [TempPro TempSwift thermometer](https://amzn.to/4zyfuQ5) | Checking the turkey reached 165°F | You own a thermometer you trust |
+| [Turelar immersion blender](https://amzn.to/4jSQnCJ) | Smooth soup or sauce in the pot | All your sides are chunky |
+| [AUOON clip-on strainer](https://amzn.to/4zrIUPF) | Draining without a colander | You have room for a colander |
 
 ### Frequently asked questions
 
 #### Is a 1.5 qt slow cooker big enough for Thanksgiving?
 
-It's a small-batch size, so plan on one side per cooker for a smaller table. For a big crowd, use it for one dish and keep the larger pots for the rest.
+Not for the whole meal. It holds one side for a few people, so treat it as one or two extra sides alongside the oven, and keep larger pots for anything that has to feed a crowd.
 
 #### Do I need both a slow cooker and a rice cooker?
 
-Not always. If your sides are mostly soft dishes, two slow cookers are enough; if you want rice and steamed vegetables, the rice cooker does both in one.
+Not always. The rice cooker's basket handles a steamed vegetable side; the slow cooker suits soft, saucy dishes. Pick the one that matches the side you're short on space for.
 
 #### Will all these appliances trip a breaker?
 
