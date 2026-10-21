@@ -8,8 +8,8 @@ pinTitle: "Gifts for a Coffee Lover Under $30 | Home Barista Gift Ideas"
 pinDescription: "Shopping for gifts for a coffee lover under $30? These home barista gadgets fit a small kitchen and get used every day: a handheld milk frother for lattes and hot chocolate, a pour-over with a reusable steel filter, an insulated French press, an insulated travel mug for commuters and loose-leaf tea infusers that split into two small gifts. Great for Secret Santa, coworkers and stockings. Check the current price on Amazon. As an Amazon Associate I earn from qualifying purchases."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-21"
-image: ""
-status: "draft"
+image: "images/kaboompics-cookies.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
