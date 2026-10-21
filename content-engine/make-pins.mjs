@@ -218,6 +218,30 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   cards.push({ post, pinTitle, pinDescription, files, link: `${baseUrl}/posts/${post.slug}/` });
 }
 
+// ---- Photos to upload ---------------------------------------------------------
+// Photo spots inside published posts (![alt](images/<file>)) whose file isn't in
+// images/ yet. The build hides them until uploaded; this list tells the owner what
+// to download (alt text = Pexels search) and the exact file name to use.
+const missingPhotos = [];
+for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().reverse() : []) {
+  if (!file.endsWith(".md")) continue;
+  const post = parsePost(fs.readFileSync(path.join(postsDir, file), "utf8"));
+  if (!post || post.status !== "published") continue;
+  for (const [, alt, src] of post.body.matchAll(/!\[([^\]]*)\]\((images\/[^\s)]+)\)/g)) {
+    if (!fs.existsSync(path.join(here, src))) missingPhotos.push({ title: post.title, alt, name: path.basename(src) });
+  }
+}
+// Short Pexels search from the alt text: drop small words, keep 4 words.
+const searchWords = (alt) =>
+  alt.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/)
+    .filter((w) => w && !["a", "an", "the", "of", "on", "in", "into", "for", "with", "next", "to", "being", "and", "at", "your", "my"].includes(w))
+    .slice(0, 4).join(" ");
+const photoList = missingPhotos.length
+  ? `<h2 id="photos">Photos to upload (${missingPhotos.length})</h2>
+<p class="hint">Tap a search, download a photo you like, rename it to the file name shown, and upload it to content-engine/images/. It appears in the post automatically and drops off this list.</p>
+<ul class="photos">${missingPhotos.map((m) => `<li><strong>${esc(m.name)}</strong><br>${esc(m.title)}<br><a href="https://www.pexels.com/search/${encodeURIComponent(searchWords(m.alt))}/" target="_blank" rel="noopener">Search Pexels: ${esc(searchWords(m.alt))}</a></li>`).join("")}</ul>`
+  : "";
+
 // ---- Pin plan from pin-queue.json --------------------------------------------
 
 const queuePath = path.join(here, "pin-queue.json");
@@ -332,18 +356,20 @@ textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inhe
 .day{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}
 .day summary{font-weight:600;cursor:pointer}.day.past{opacity:.6}
 .badge{margin-left:8px;font-size:.8rem;padding:2px 8px;border-radius:999px;background:#b4531f;color:#fff}.badge:empty{display:none}
+.photos{padding-left:18px}.photos li{margin:0 0 12px;word-break:break-word}
 .plan-item{display:flex;gap:12px;align-items:flex-start;border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
 .plan-item img{width:96px;height:144px;object-fit:cover;border-radius:8px;display:block}.plan-text{flex:1;min-width:0}
 @media (max-width:480px){.plan-item{flex-direction:column}}
 </style></head><body><main>
 <h1>Pin images</h1>
-<p class="hint">This page isn't linked from the blog.</p>
+<p class="hint">This page isn't linked from the blog.${missingPhotos.length ? ` <a href="#photos">${missingPhotos.length} photos to upload</a>.` : ""}</p>
 ${plan ? `<h2 id="plan">Pin plan</h2>
 <p class="hint">Extra pins with fresh text for posts you've already pinned. Today's pins open first; copy each field into Pinterest and pick the board shown.</p>
 ${plan}
 <h2>New posts</h2>` : ""}
 <p class="hint">Three or four Pinterest designs per post (design 4 is the numbered list), newest first, with the text for each post's first pin.</p>
 ${cards.map(card).join("\n")}
+${photoList}
 </main>
 <script>
 // Open today's pins (or the next day with pins) and grey out past days.
