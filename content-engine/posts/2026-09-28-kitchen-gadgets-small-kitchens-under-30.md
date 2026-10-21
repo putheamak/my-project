@@ -16,7 +16,7 @@ As an Amazon Associate I earn from qualifying purchases.
 
 You drain pasta, and the only place to set the colander is on top of the cutting board, which is on top of the dish rack. Small apartment kitchens punish every bulky tool you own. The fix is gear that folds, nests or hangs out of the way once you're done.
 
-I haven't used these myself; I picked each one for a specific space problem and say who it suits.
+I haven't used these myself. I picked them from the listings for folding, nesting or hanging designs, drawer-friendly storage and replacing bulkier gear, and say who each one suits.
 
 **Start here:** most people should get the [Comfify collapsible over-sink colander](https://amzn.to/4j8PjdT). Pick the [KOIOS 3-in-1 immersion blender](https://amzn.to/4hrKBGK) instead if you make soups or smoothies and your full-size blender lives at the back of a cabinet.
 
@@ -31,17 +31,15 @@ I haven't used these myself; I picked each one for a specific space problem and 
 
 ![Collapsible colander and nesting bowls in a small kitchen](images/kitchen-gadgets-small-kitchens-under-30-1.jpg)
 
-The [Comfify collapsible over-sink colander](https://amzn.to/4j8PjdT) stretches across the sink, so it needs zero counter space while you drain, then squashes flat for a drawer. It suits anyone who cooks pasta or rinses produce weekly. Skip it if your sink is an unusual shape; measure the width first.
+The [Comfify collapsible over-sink colander](https://amzn.to/4j8PjdT) is designed to stretch across the sink, so it needs no counter space while you drain, then collapse flat for a drawer. It suits anyone who cooks pasta or rinses produce weekly. Skip it if you already have a colander that stores flat.
 
 A [6-piece stainless steel nesting bowl set with lids](https://amzn.to/3Ub9f5z) stacks into the footprint of its largest bowl. Mix in one, snap on the lid and it goes straight into the fridge, so you need fewer storage containers. Skip it if you already own a stack of bowls you like.
-
-The [nesting stainless steel measuring cups and spoons set](https://amzn.to/4AUrih5) keeps every size in one tidy stack instead of loose spoons rattling around a drawer. Good for bakers and anyone who follows recipes closely. Skip it if you mostly cook by eye.
 
 ### How do you prep food without a cutting board hogging the counter?
 
 [Flexible cutting mats with food icons](https://amzn.to/4iXIRWW) are thin enough to slide behind a toaster or into a drawer. Bend one into a chute and chopped vegetables go straight into the pan with no prep bowl. The icons make it easy to keep one mat for raw meat and another for produce.
 
-The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) handles slicing and julienne jobs from one compact tool. It suits salad and stir-fry cooks who want even cuts fast. Skip it if sharp blades make you nervous, and always use the hand guard.
+The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) covers slicing and julienne jobs in one compact tool. It suits salad and stir-fry cooks who want even cuts fast. Skip it if sharp blades make you nervous, and always use the hand guard.
 
 ### What can replace a bulky appliance or dish rack?
 
@@ -49,7 +47,7 @@ The [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) h
 
 The [KOIOS 3-in-1 immersion blender](https://amzn.to/4hrKBGK) blends soup right in the pot, so there's no blender base, jar and lid to store or wash. It fits in a drawer. Skip it if you crush a lot of ice; a countertop blender handles that better.
 
-A [roll-up dish drying rack](https://amzn.to/4zdWGFw) lies over the sink to dry dishes, then rolls up and tucks away. It also gives you an extra spot to rinse and drain produce. Skip it if your sink is wider than the rack; check the listed size.
+A [roll-up dish drying rack](https://amzn.to/4zdWGFw) lies over the sink to dry dishes, then rolls up and tucks away. It also gives you an extra spot to rinse and drain produce. Skip it if you have a dishwasher and rarely hand-wash.
 
 The [HOVER COVER magnetic splatter cover](https://amzn.to/4dnPuye) sticks to the inside top of the microwave between uses, so it never takes up a drawer or a cabinet shelf. It suits anyone who reheats saucy leftovers. Skip it if your microwave interior isn't magnetic.
 
@@ -57,19 +55,19 @@ The [HOVER COVER magnetic splatter cover](https://amzn.to/4dnPuye) sticks to the
 
 | Product | Best for | Skip it if |
 |---|---|---|
-| Comfify over-sink colander | Draining pasta with no counter space | Your sink is an odd shape |
-| Nesting bowls with lids | Mixing and storing in one bowl | You already have bowls you like |
-| Flexible cutting mats | Prepping in a cramped corner | You want one heavy board |
-| Fullstar handheld mandoline | Fast, even slices | Sharp blades make you uneasy |
-| KOIOS immersion blender | Soups and smoothies without a jar | You crush ice often |
-| Roll-up drying rack | Drying dishes without a counter rack | Your sink is wider than the rack |
-| HOVER COVER splatter cover | Reheating saucy food | Your microwave isn't magnetic |
+| [Comfify over-sink colander](https://amzn.to/4j8PjdT) | Draining pasta with no counter space | You have a colander that stores flat |
+| [Nesting bowls with lids](https://amzn.to/3Ub9f5z) | Mixing and storing in one bowl | You already have bowls you like |
+| [Flexible cutting mats](https://amzn.to/4iXIRWW) | Prepping in a cramped corner | You want one heavy board |
+| [Fullstar handheld mandoline](https://amzn.to/3TnKSkW) | Fast, even slices | Sharp blades make you uneasy |
+| [KOIOS immersion blender](https://amzn.to/4hrKBGK) | Soups and smoothies without a jar | You crush ice often |
+| [Roll-up drying rack](https://amzn.to/4zdWGFw) | Drying dishes without a counter rack | You rarely hand-wash |
+| [HOVER COVER splatter cover](https://amzn.to/4dnPuye) | Reheating saucy food | Your microwave isn't magnetic |
 
 ### Frequently asked questions
 
 #### Will an over-sink colander or roll-up rack fit my sink?
 
-Measure the inside width of your sink and compare it to the size shown in the listing. Rental sinks vary a lot, so a minute with a tape measure saves a return.
+Measure the inside width of your sink and compare it to the size shown in the listing. Rental sinks vary a lot, so check before you order.
 
 #### Are flexible cutting mats safe for knives and raw meat?
 

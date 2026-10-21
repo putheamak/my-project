@@ -16,7 +16,7 @@ As an Amazon Associate I earn from qualifying purchases.
 
 It's 6:15 pm. Someone is asking what's for dinner, the chicken is still in its packaging, and you have about 20 minutes before hungry turns into cranky. Those minutes don't vanish at the stove. They go to mincing garlic, slicing an onion, and wondering if the chicken is cooked through.
 
-I haven't used these myself; I picked one tool for each slow weeknight job and say who it suits.
+I haven't used these myself. I picked them from the listings for the weeknight job each one speeds up, how much space it takes and whether it adds extra dishes, and say who each one suits.
 
 **Start here:** most people should get the [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9). Pick the [Zulay large garlic press](https://amzn.to/4zhnyoi) instead if you already cook chicken by feel and garlic is what slows you down.
 
@@ -29,13 +29,11 @@ I haven't used these myself; I picked one tool for each slow weeknight job and s
 
 ### Which tools save the most time while I chop?
 
-Prep is where a quick dinner gets slow. These three take the fiddliest knife work off your board.
+Prep is where a quick dinner gets slow. These three are meant to take the fiddliest knife work off your board.
 
 **Garlic:** the [Zulay large garlic press](https://amzn.to/4zhnyoi) turns a clove into minced garlic in one squeeze, so you skip the peel-smash-mince routine. It comes with a peeler and a cleaning brush, which matters because a press that's hard to clean ends up in the back of the drawer. Skip it if you mostly cook with jarred garlic.
 
-**Slicing:** the [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) gives you even slices of cucumber, potato or onion in a fraction of the knife time, and it's small enough for a crowded drawer. Always use the hand guard.
-
-Pick the other one if you dice more than you slice. The [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) adds dicing, so a whole onion for tacos or chili takes one press instead of a minute of chopping. It's bulkier, so skip it if drawer space is tight.
+**Slicing:** the [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) is designed for even slices and julienne strips of cucumber, potato or onion with less knife work, and it's small enough for a crowded drawer. Always use the hand guard.
 
 **Grating:** the [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) shreds cheese, carrots or zucchini straight into its own container. No cutting board to wash, and leftovers go in the fridge as is.
 
@@ -47,9 +45,9 @@ For more ways to speed up the knife work, see our [chopping and prep gadgets und
 
 **Cutting:** the [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) snip scallions, herbs and bacon right over the pan, and they open stubborn packaging too. They come with a protective sheath, so they can sit loose in a drawer. Skip them if you already own a sharp pair you trust.
 
-**Salad:** the [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) gets washed greens dry, so dressing actually sticks and a side salad takes five minutes. The bowl can go straight to the table. Skip it if your household eats bagged salad greens.
+**Salad:** the [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) spins washed greens dry, and dry leaves hold dressing better than wet ones. The bowl can go straight to the table. Skip it if your household eats bagged salad greens.
 
-**Doneness:** the [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) gives you a number in seconds. No cutting into the chicken, no extra five minutes "just to be safe," no dry pork chops. If you only buy one tool from this list, make it this one.
+**Doneness:** the [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) is designed to give a reading in seconds, so you don't have to cut into the chicken or add five minutes "just to be safe." If you only buy one tool from this list, make it this one.
 
 ### How do I make Tuesday faster on Sunday?
 
@@ -63,19 +61,15 @@ Our [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitche
 
 | Product | Best for | Skip it if |
 |---|---|---|
-| TempSwift instant-read thermometer | Chicken, pork and steak nights | You mostly cook vegetarian |
-| Zulay large garlic press | Garlic in most dinners | You use jarred garlic |
-| Fullstar handheld mandoline | Quick, even slices | You slice a few veggies a week |
-| Fullstar Pro chopper and mandoline | Dicing onions and peppers | Your drawers are already full |
-| KitchenAid box grater with container | Cheese and veggie shreds | You buy pre-shredded cheese |
-| KitchenAid all-purpose shears | Herbs, scallions, bacon, packaging | You have shears you like |
-| OXO Good Grips salad spinner | Salad as a nightly side | You eat bagged greens |
+| [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) | Chicken, pork and steak nights | You mostly cook vegetarian |
+| [Zulay large garlic press](https://amzn.to/4zhnyoi) | Garlic in most dinners | You use jarred garlic |
+| [Fullstar handheld mandoline](https://amzn.to/3TnKSkW) | Quick, even slices | You slice a few veggies a week |
+| [KitchenAid box grater with container](https://amzn.to/3THo5AC) | Cheese and veggie shreds | You buy pre-shredded cheese |
+| [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) | Herbs, scallions, bacon, packaging | You have shears you like |
+| [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) | Salad as a nightly side | You eat bagged greens |
+| [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) | Cooking from Sunday prep | You never cook ahead |
 
 ### Frequently asked questions
-
-#### Do I need both the handheld mandoline and the Pro chopper?
-
-No. Get the handheld one if you mostly slice, and the Pro if you dice onions and peppers often. The Pro does both jobs but takes up more room.
 
 #### Is a mandoline safe for a beginner?
 
