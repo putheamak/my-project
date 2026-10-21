@@ -29,6 +29,8 @@ I haven't used these myself; I picked each one because you can start it and leav
 
 ### What does a load-and-leave morning look like?
 
+![Coffee maker brewing in a morning kitchen](images/hands-off-kitchen-gadgets-under-30-1.jpg)
+
 Here's one way to run three gadgets before work without babysitting any of them:
 
 - **6:45** Add stew ingredients to the slow cooker, set it to low, put the lid on.
@@ -53,6 +55,8 @@ The [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBV
 The [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) is the small option for one or two people. The pot comes out for washing at the sink. Skip it if you batch-cook for the week; it's sized for a meal, not a meal plan.
 
 ### Which small slow cooker is right for one or two people?
+
+![Stew in a small slow cooker](images/hands-off-kitchen-gadgets-under-30-2.jpg)
 
 A 1.5-quart slow cooker is the most hands-off tool here. Add ingredients in the morning, pick a setting, and come back to soup, stew, chili or a dip.
 
