@@ -1,11 +1,11 @@
 ---
-title: "Small-Kitchen Thanksgiving: Gadgets Under $30 That Free Up Your Oven"
-seoTitle: "Small-Kitchen Thanksgiving Gadgets Under $30 to Free the Oven"
-description: "Kitchen gadgets for a small kitchen Thanksgiving: free up your oven, cook sides off to the side, and pack leftovers without a bigger kitchen."
+title: "One Oven on Thanksgiving? Gadgets Under $30 for Oven-Free Sides"
+seoTitle: "Small Kitchen Thanksgiving: Oven-Free Side Dish Gadgets Under $30"
+description: "One small oven and a turkey that fills it? Move one or two sides to a steamer basket and a small slow cooker, check the turkey with a thermometer, and follow a simple day-of timeline."
 slug: "small-kitchen-thanksgiving-gadgets"
 keyword: "kitchen gadgets for a small kitchen Thanksgiving"
-pinTitle: "Small-Kitchen Thanksgiving: Gadgets Under $30 That Free Up Your Oven"
-pinDescription: "Hosting Thanksgiving in a tiny kitchen? These gadgets under $30 move side dishes off your oven rack: a 1.5 qt slow cooker for mashed potatoes or cranberry sauce, a rice cooker that steams veg above the grain, lidded ramekins that turn into leftover storage, and a cooler bag for Friendsgiving potluck runs. Comparison table and FAQs on the blog. As an Amazon Associate I earn from qualifying purchases."
+pinTitle: "One Oven on Thanksgiving: Move 1 or 2 Sides to the Counter"
+pinDescription: "Turkey taking up your only oven? Move one or two sides out: steam green beans or carrots in a rice cooker's steaming basket, keep one saucy side in a small 1.5 qt slow cooker, and use an instant-read thermometer to know when the turkey is done. Includes a day-of timeline for Thanksgiving, Nov 26. All gadgets under $30. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-12"
 image: "images/picturexphotobnb-kitchen.jpg"
@@ -14,100 +14,73 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-If you're hunting for kitchen gadgets for a small kitchen Thanksgiving, the problem usually isn't your cooking — it's real estate. One oven, two or three burners, and a counter that's already holding the mixer, the bread, and somebody's coat. The fix isn't a bigger kitchen. It's moving two or three dishes *off* the oven and onto something that cooks quietly in a corner.
+It's 2 p.m. on Thanksgiving, the turkey fills your only oven, and the sweet potatoes, green beans and stuffing are still lined up on the counter waiting for a turn. The fix is to move one or two sides off the oven schedule so the rest have room.
 
-Here's how I'd map out the day, plus the inexpensive gear that does the moving.
+I haven't used these myself. I picked them from the listings for small countertop size, cooking on one plug instead of the oven, and freeing up a stovetop burner, and say who each one suits.
+
+**Start here:** most people should get the [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) and use it as a vegetable steamer, so green beans or carrots cook on the counter. Pick the [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) instead if your extra side is a soft, saucy dish like creamed corn or cranberry sauce.
 
 :::picks
-- For sides without the oven: [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj)
-- For checking the turkey: [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
-- For smooth mashed potatoes: [PriorityChef potato ricer](https://amzn.to/4yOU3Kw)
+- For steamed vegetables on one plug: [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk)
+- For one small saucy side: [Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj)
+- For knowing the turkey is done: [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
+- For a free burner: [Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ)
 :::
 
-### How do you cook Thanksgiving sides without an oven?
+### How do I cook Thanksgiving sides without the oven?
 
-The oven belongs to the turkey (or the roast, or the big pan of stuffing). Everything else can go somewhere else.
+![Side dish in a slow cooker for Thanksgiving](images/small-kitchen-thanksgiving-gadgets-1.jpg)
 
-- **Slow cooker for one soft side.** Mashed potatoes, creamed corn, cranberry sauce, or a small pot of soup for early arrivals. The [Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj) and the [bella 1.5 qt manual slow cooker with 3 heat settings](https://amzn.to/4rZWLKM) are both small-batch sizes — good for a table of two to four, or for one dish at a bigger table.
-- **Rice cooker that also steams.** The [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) cooks a grain side underneath while green beans or carrots steam in the basket above. Two sides, one plug, zero burners.
-- **Just two of you?** The [Dash Mini Rice Cooker](https://amzn.to/4hCn7gY) has a removable ceramic nonstick pot and is sized for a small-kitchen Thanksgiving for two, so there's no giant pot to wash.
-- **Microwave for the fiddly extras.** The [microwave grill pan with lid](https://amzn.to/47vJjVd) is sold for bacon and burgers — handy if bacon is going into your Brussels sprouts or your Friendsgiving burger bar.
+Be realistic: these are small appliances for one or two extra sides alongside the oven, not the whole meal.
 
-### Which small tools handle the turkey, potatoes and gravy?
+- **[BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk).** Put water in the pot and green beans, carrots or broccoli in the steaming basket, and a vegetable side cooks without a burner or the oven. Skip it if all your vegetables are roasted.
+- **[Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj).** A 1.5 qt crock holds one side for a few people: creamed corn, cranberry sauce, or a small pot of soup for early arrivals. For a bigger table, use it for one dish and keep the larger pots for the rest. Two of these would cover two small sides.
 
-These are the tools that live in a drawer the rest of the year, which is exactly what a small kitchen needs.
+Mashing potatoes and making gravy? My [mashed potatoes and gravy gadgets post](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) covers the ricer and the gravy separator, so they're not repeated here.
 
-- **Is the turkey done?** The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is sold as a fast-reading digital thermometer, so you can check the thickest part of the thigh instead of cutting the bird open to look.
-- **Basting.** The [SCHVUBENR stainless steel turkey baster with cleaning brush and needle](https://amzn.to/47OkKmE) comes with a brush for cleaning the tube and a needle for injecting marinade.
-- **Mashed potatoes without a colander.** The [AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF) clips onto the edge of the pot so you can drain the potatoes straight into the sink, with no big colander taking up counter space. Then press them through the [PriorityChef 15 oz stainless steel potato ricer](https://amzn.to/4yOU3Kw) for smooth mash with no lumps to chase.
-- **Gravy.** Pour the pan drippings into the [4-cup fat and gravy separator with bottom release](https://amzn.to/4dyIMW8). The listing says the juices drain from the bottom while the fat stays on top, and a small peeler comes in the box. For a smooth gravy, cranberry sauce or soup, the [Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ) blends right in the pot, so there's no big blender to wash.
+### How do I know the turkey is done without cutting into it?
 
-### How do you get more out of one oven?
+![Roast turkey with a meat thermometer](images/small-kitchen-thanksgiving-gadgets-2.jpg)
 
-Use every sheet pan you have. The [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) line sheet pans for roasted vegetables, rolls and cookies, and the listing says they're dishwasher safe, so there's less scrubbing at the end of the night. The [2-piece 10 x 15 in cooling racks](https://amzn.to/3Tzr4v3) fit a 10 x 15 in jelly roll pan, and the listing says they're oven safe. Set one in a sheet pan to roast vegetables or a turkey breast up off the pan, then use both to cool pies and rolls.
+The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is a digital instant-read model you slip into the bird for a few seconds.
 
-### What's the easiest way to portion sides for a crowded table?
+USDA guidance says poultry is safe at 165°F, measured in the thickest part. On a turkey, check the thickest part of the thigh and the breast, and keep the tip off the bone. Skip it only if you already own a thermometer you trust.
 
-Small dishes travel better than big ones in a tight kitchen, and they stack.
+### Which tools free up the stovetop and counter?
 
-Bake or warm individual portions in the [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) — the listing says they're oven safe, and the lids mean the leftovers go straight into the fridge in the same dish. For snacks before dinner, the [PLASTICPRO 6-section round serving trays](https://amzn.to/4797UPG) are designed to hold nuts, olives, cheese and crackers in one trip instead of five bowls. For the rolls, the [KITCHENDAO butter dish with a latching lid](https://amzn.to/4dyJmDi) is sold as airtight and, the listing says, fits on a refrigerator door shelf, so the butter goes back in the fridge without taking up a whole shelf.
+- **[Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ).** Blend soup or cranberry sauce right in the pot or slow cooker crock, with no countertop blender to find room for or wash. Skip it if every side you make is chunky.
+- **[AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF).** It clips to the edge of a pot so you can drain vegetables straight into the sink, and the big colander stays in the cabinet.
 
-### How do you bring a dish to Friendsgiving without it sliding around?
+### What does the day-of timeline look like?
 
-- [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) — sold as a 32-can, 20L bag, so there's room to fit a side dish and drinks in one carry.
-- [Fit & Fresh Cool Coolers XL slim ice packs](https://amzn.to/4zprnI5) — for anything cold that has to survive a drive.
-- [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) — your own fork and spoon in a case, so you don't leave them behind at someone else's apartment.
+- **Morning:** Turkey into the oven. Start the slow cooker with a side that holds well, like cranberry sauce or soup.
+- **1 hour before dinner:** Trim the green beans or peel the carrots and load the steaming basket.
+- **30 minutes before:** Check the turkey with the thermometer; once it reads 165°F, let it rest. Start the rice cooker to steam the vegetables, blend the soup, and switch the slow cooker to warm.
 
-### Which gadgets handle the leftovers?
+Thanksgiving is Thursday, Nov 26, 2026. Order early and check the delivery date Amazon shows before you order.
 
-Leftovers are the second meal of the holiday, and a small fridge punishes mismatched containers.
+### Quick comparison
 
-- [Rubbermaid Brilliance 2-compartment meal prep containers (5-pack)](https://amzn.to/4j7VLlo) — turkey on one side, sides on the other, five plates of Thanksgiving dinner ready to grab.
-- [SPLF reusable sandwich bags (10-pack)](https://amzn.to/4zlcsyp) — for rolls, turkey sandwiches and pie slices; the listing says dishwasher safe.
-- [THERMOS FUNTAINER food jar with spoon (10 oz)](https://amzn.to/4y2D5Hq) — a small insulated jar for soup or a hot side on the Friday after.
-
-### What should you set out for coffee and dessert?
-
-When dinner's done, the kitchen is a disaster and people want coffee. Keep that part dumb and simple with the [BLACK+DECKER 12-cup coffee maker with removable filter basket](https://amzn.to/4iVGkfV), or go paper-filter-free with the [Bodum 34 oz pour-over coffee maker](https://amzn.to/3TzTN2J). A [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns plain milk into something that looks like dessert for the kids, the [Orblue pie server](https://amzn.to/4zsGrVh) is serrated on both sides, so it works for right- and left-handed people, and the [Spring Chef metal ice cream scoop](https://amzn.to/3VvPdTP) gets a clean scoop onto warm pie.
-
-### Which gadget should you pick?
-
-| Gadget | What it does on Thanksgiving | Best for | Needs |
-|---|---|---|---|
-| 1.5 qt slow cooker (Maxi-Matic / bella) | Cooks one soft side hands-off | Mashed potatoes, cranberry sauce | Outlet, a few hours |
-| 6-cup rice cooker + steaming basket | Grain side plus steamed veg at once | Two sides, one appliance | Outlet, counter corner |
-| Dash Mini Rice Cooker | Small-batch grain side | Thanksgiving for two | Outlet, little space |
-| Instant-read meat thermometer | Checks when the turkey is done | The main dish | Nothing |
-| Turkey baster | Bastes and injects marinade | The turkey | Nothing |
-| Clip-on strainer + potato ricer | Drains and mashes potatoes | Smooth mashed potatoes | Drawer space |
-| Gravy separator + immersion blender | Separates fat, blends smooth | Gravy, cranberry sauce, soup | Outlet for the blender |
-| Silicone baking mats + cooling racks | Lines pans, roasts on a rack, cools pies | Rolls, roasted veg, pies | Sheet pans |
-| Ramekins with lids | Individual portions, then storage | Plated sides, mini desserts | Oven or fridge |
-| Microwave grill pan with lid | Bacon and burgers off the stove | Friendsgiving, bacon-topped sides | Microwave |
-| 2-compartment containers | Leftover plates | Fri–Sun lunches | Fridge space |
-| Insulated cooler bag + ice packs | Transporting your dish | Potluck Friendsgiving | Freezer for packs |
-| Coffee maker, frother, pie server, scoop | Coffee and dessert after dinner | The end of the meal | Outlet, counter space |
+| Product | Best for | Skip it if |
+|---|---|---|
+| [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) | A steamed vegetable side, no burner | Your vegetables are all roasted |
+| [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) | One soft, saucy side for a few people | You need one big pot for a crowd |
+| [TempPro TempSwift thermometer](https://amzn.to/4zyfuQ5) | Checking the turkey reached 165°F | You own a thermometer you trust |
+| [Turelar immersion blender](https://amzn.to/4jSQnCJ) | Smooth soup or sauce in the pot | All your sides are chunky |
+| [AUOON clip-on strainer](https://amzn.to/4zrIUPF) | Draining without a colander | You have room for a colander |
 
 ### Frequently asked questions
 
-#### Can a 1.5 qt slow cooker really hold a Thanksgiving side?
+#### Is a 1.5 qt slow cooker big enough for Thanksgiving?
 
-It's a small-batch size, so think two to four servings — a dish of mashed potatoes, cranberry sauce, or gravy kept warm. For a table of ten, use it for one dish and keep the big pots for the rest.
+Not for the whole meal. It holds one side for a few people, so treat it as one or two extra sides alongside the oven, and keep larger pots for anything that has to feed a crowd.
 
-#### Do I need a separate steamer for vegetables?
+#### Do I need both a slow cooker and a rice cooker?
 
-Not if your rice cooker has a steaming basket. The BLACK+DECKER 6-cup model is designed to steam above the grain, which means one appliance and one cleanup instead of a pot plus a colander.
+Not always. The rice cooker's basket handles a steamed vegetable side; the slow cooker suits soft, saucy dishes. Pick the one that matches the side you're short on space for.
 
-#### What's the best way to store Thanksgiving leftovers in a small fridge?
+#### Will all these appliances trip a breaker?
 
-Flat, stackable, same-shape containers. Two-compartment meal prep containers stack evenly and keep the turkey separate from the sides, and ramekins with lids let you skip transferring food at all.
+Use outlets on different walls when you can and stagger start times like the timeline above. Test them a few days ahead if you're unsure.
 
-#### Do I need a potato ricer, or is a masher enough?
-
-A masher works fine for rustic mash. A ricer presses the potatoes into small strands, which is designed to give smoother mashed potatoes with no lumps. It also stores flat in a drawer.
-
-#### Are these gadgets worth buying just for one holiday?
-
-Only if they'll earn their shelf space in January too. A mini rice cooker, a small slow cooker and reusable containers all pull weekday duty — the single-use novelty stuff is what clutters a small kitchen.
-
-Pick one or two things that take a dish off your oven rack, not ten. Check the current price on Amazon for whichever of these fits your kitchen. For more ideas, read my [hands-off kitchen gadgets](https://homepicksunder30.com/blog/posts/hands-off-kitchen-gadgets-under-30/) post, my [leftover rescue gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-leftovers/) and my [small kitchen gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) list.
+Give the oven to the turkey and move one or two sides onto the counter. Check the current price on Amazon for the pieces that fit your menu, and see my [hands-off kitchen gadgets](https://homepicksunder30.com/blog/posts/hands-off-kitchen-gadgets-under-30/) for more set-and-forget ideas.
