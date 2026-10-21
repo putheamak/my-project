@@ -4,6 +4,7 @@
 //   node build-blog.mjs
 
 import fs from "node:fs";
+import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { markdownToHtml, escapeHtml, stripMarkdown } from "./lib/markdown.mjs";
@@ -265,10 +266,24 @@ function inlinePhoto(src, slug) {
   return rel.startsWith("images/") && !fs.existsSync(path.join(here, rel)) ? null : rel;
 }
 
+// Pexels originals can be several MB, which is slow on phones. Shrink the copies
+// in dist (the uploaded originals stay as they are) to at most 1600 px wide.
+// Skipped quietly when ImageMagick isn't installed.
+function shrinkPhotos(dir) {
+  const convert = ["magick", "convert"].find((cmd) => spawnSync(cmd, ["-version"]).status === 0);
+  if (!convert || !fs.existsSync(dir)) return;
+  for (const f of fs.readdirSync(dir)) {
+    const file = path.join(dir, f);
+    if (!/\.(jpe?g|png|webp)$/i.test(f) || fs.statSync(file).size < 400 * 1024) continue;
+    spawnSync(convert, [file, "-auto-orient", "-resize", "1600x1600>", "-strip", "-quality", "80", file]);
+  }
+}
+
 // ---- Write the site ---------------------------------------------------------
 
 fs.rmSync(dist, { recursive: true, force: true });
 if (fs.existsSync(imagesDir)) fs.cpSync(imagesDir, path.join(dist, "images"), { recursive: true });
+shrinkPhotos(path.join(dist, "images"));
 const write = (p, content) => {
   const file = path.join(dist, p);
   fs.mkdirSync(path.dirname(file), { recursive: true });
