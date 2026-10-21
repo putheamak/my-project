@@ -20,7 +20,7 @@ If you're hunting for the best gifts for a coffee lover under $30, the good news
 - For the latte lover: [Handheld milk frother](https://amzn.to/4hs2w08)
 - For the commuter: [Contigo Byron 16 oz travel mug](https://amzn.to/4yUoaAn)
 - For weekend brewing: [Secura 34 oz insulated French press](https://amzn.to/4z52ReQ)
-- For a café look at home: [JoyJolt double-wall espresso glasses](https://amzn.to/4yqdclK)
+- For the desk worker: [Coffee mug warmer with 12-hour timer](https://amzn.to/4dKxLRO)
 :::
 
 ### What makes a good coffee gift under $30?
@@ -51,6 +51,20 @@ Skip anything that assumes they drink a specific roast or bean. Gear is safer th
 
 **For a café look at home:** [JoyJolt double-wall espresso glasses](https://amzn.to/4yqdclK). The double walls make the coffee look like it's floating, and they're a pretty, giftable set.
 
+**For the pour-over fan:** a [28 oz stovetop gooseneck pour-over kettle](https://amzn.to/4yxqBaY). The thin spout lets them pour slowly and evenly, which is the whole point of pour-over. It pairs perfectly with the Bodum above.
+
+**For fresh-ground coffee:** the [CEVING 60g manual coffee grinder](https://amzn.to/4BoFcIC). Grinding beans right before brewing is the easiest upgrade a coffee lover can make, and a hand grinder needs no outlet.
+
+**For the desk worker:** a [coffee mug warmer with a 12-hour timer](https://amzn.to/4dKxLRO). It keeps a mug warm through long meetings, so no more cold coffee by 10 am.
+
+**For the Keurig owner:** [Perfect Pod Café Save reusable coffee pods (4-pack)](https://amzn.to/3VWKvi4). They can use their own coffee in the machine instead of buying pods.
+
+### Small coffee extras for stockings
+
+- [Coffee Gator 16 oz airtight coffee canister](https://amzn.to/3U4cLyM) - keeps beans or grounds sealed and fresh on the counter.
+- [Stainless steel coffee scoops (set of 2)](https://amzn.to/4BhX87l) - one for home and one for the office.
+- [Jarware coffee scoop for wide-mouth mason jars](https://amzn.to/4BhYsHl) - a fun pick for anyone who keeps coffee in a mason jar.
+
 ### How do these coffee gifts compare?
 
 | Gift | Best for | Needs counter space? | Gift-bag friendly? |
@@ -65,6 +79,12 @@ Skip anything that assumes they drink a specific roast or bean. Gear is safer th
 | Contigo travel mug | Commuters, desk coffee | No | Yes |
 | Tea infusers (2-pack) | Tea-and-coffee drinkers | No | Yes, splits in two |
 | Microplane zester | Toppings, plus everyday cooking | No | Yes |
+| Gooseneck pour-over kettle | Pour-over fans | Stovetop | Boxed gift |
+| CEVING manual grinder | Fresh-ground coffee | No | Yes |
+| Mug warmer with timer | Desk workers | Small desk spot | Boxed gift |
+| Reusable coffee pods (4-pack) | Keurig owners | No | Yes |
+| Coffee Gator canister | Keeping beans fresh | Small footprint | Yes |
+| Coffee scoops | Everyone who brews | No | Yes, stocking size |
 
 ### How do you turn one gadget into a nicer gift?
 
