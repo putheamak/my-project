@@ -94,6 +94,7 @@ th{background:var(--surface)}
 blockquote{margin:1em 0;padding:4px 16px;border-left:3px solid var(--line);color:var(--muted)}
 code{background:var(--surface);padding:1px 5px;border-radius:3px}
 img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
+article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .cover{margin:0 0 20px}
 .post-list{list-style:none;padding:0;margin:0}
 .cards{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:20px}
@@ -257,6 +258,13 @@ ${markdownToHtml(`:::picks\n${picks.map((x) => `- ${x.label}: [${x.name}](${x.ur
   return shop + seen;
 }
 
+// Photos inside a post: a missing file is skipped quietly, so photo spots can be
+// written into posts before the owner uploads the pictures.
+function inlinePhoto(src, slug) {
+  const rel = resolveImage(imagesDir, src, slug);
+  return rel.startsWith("images/") && !fs.existsSync(path.join(here, rel)) ? null : rel;
+}
+
 // ---- Write the site ---------------------------------------------------------
 
 fs.rmSync(dist, { recursive: true, force: true });
@@ -316,7 +324,7 @@ for (const post of posts) {
 <h1>${esc(post.title)}</h1>
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
-${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => resolveImage(imagesDir, src, post.slug) })}
+${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => inlinePhoto(src, post.slug) })}
 ${related(post)}
 </article>`,
     }),

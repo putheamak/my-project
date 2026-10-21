@@ -28,6 +28,8 @@ function inline(text, opts = {}) {
   // ![alt text](images/photo.jpg) - relative paths are relative to the blog root.
   s = s.replace(/!\[([^\]]*)\]\(([^\s)]+)\)/g, (_, alt, src) => {
     const local = opts.resolveImage ? opts.resolveImage(src) : src.replace(/^\.?\//, "");
+    // A resolver returns null for a photo that isn't uploaded yet: leave it out instead of a broken image.
+    if (local === null) return "";
     const url = /^https?:\/\//.test(src) ? src : `${opts.imageBase ?? ""}${local}`;
     return `<img src="${url}" alt="${alt}" loading="lazy" decoding="async">`;
   });
@@ -48,7 +50,8 @@ export function markdownToHtml(md, opts = {}) {
   const out = [];
   let para = [];
   const flush = () => {
-    if (para.length) out.push(`<p>${inl(para.join(" "))}</p>`);
+    const html = para.length ? inl(para.join(" ")) : "";
+    if (html.trim()) out.push(`<p>${html}</p>`);
     para = [];
   };
 
