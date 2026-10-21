@@ -8,7 +8,7 @@ pinTitle: "Mini Donuts and Waffles With Kids: Gadgets Under $30 + Age-by-Age Job
 pinDescription: "A Saturday-morning treat plan for families: a mini donut maker, an oven donut pan and a 4-inch mini waffle maker, plus what kids aged 3 to 5, 6 to 8 and 9+ can help with. Kids stir, spoon and decorate; an adult runs anything hot. Includes a comparison table and an easy step-by-step morning plan. Check the current price on Amazon."
 pinBoard: "Movie Night Snack Ideas"
 date: "2026-10-10"
-image: "images/elykreation-cookies.jpg"
+image: "images/kitchen-gadgets-treats-with-kids-cover.jpg"
 status: "published"
 ---
 

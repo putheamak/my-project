@@ -8,7 +8,7 @@ pinTitle: "Meal Prep Sunday Gadgets Under $30 That Do the Boring Work"
 pinDescription: "Sunday meal prep stalls at the cutting board. These kitchen gadgets under $30 cover the slow steps: a manual pull chopper for onions and peppers, glass containers with locking lids, a kitchen scale for even portions, silicone freezer trays for sauce and soup, and a big cutting board. Includes which one to buy first and a quick comparison table. Check the current price on Amazon."
 pinBoard: "Meal Prep Tools & Kitchen Gadgets"
 date: "2026-09-27"
-image: "images/weeknight-dinner1.jpg"
+image: "images/kitchen-gadgets-under-30-meal-prep-cover.jpg"
 status: "published"
 ---
 

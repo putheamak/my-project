@@ -8,7 +8,7 @@ pinTitle: "Load It and Walk Away: Hands-Off Kitchen Gadgets Under $30"
 pinDescription: "Kitchen gadgets under $30 you load and leave: a 12-cup coffee maker that brews while you shower, a rice cooker with a steaming basket, a mini rice cooker for one, a 1.5 qt slow cooker with 3 heat settings, and a microwave pasta bowl. Plus a simple load-and-leave morning timeline. Check the current price on Amazon."
 pinBoard: "Easy Kitchen Gadgets for Busy Weeknights"
 date: "2026-10-08"
-image: "images/congerdesign-pizza.jpg"
+image: "images/hands-off-kitchen-gadgets-under-30-cover.jpg"
 status: "published"
 ---
 
