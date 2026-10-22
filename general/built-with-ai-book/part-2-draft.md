@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v6, 22 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v7, 22 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -7,11 +7,9 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v6, 22 Oct 2026
 3. Chapter 6 is built from the project notes and this chat. Check every example happened as written,
    especially: (a) AI suggesting promises you had not confirmed (same-day COD payout), (b) the ad results
    (2,546 views, 57 clicks, 0 bookings) — OK to publish these real numbers? (c) your quoted chat messages.
-4. Chapter 6: colleague story updated (engineer = "she", for gender balance; the experienced colleague = you).
-   Chapter 7: first win (SPSS vs Python, test data) and the data-privacy story added. Chapter 8: still open ⭐:
-   a real chat-booking problem from before the app, and the 90-day results.
-5. Quotes used: Buffett 1991 (Salomon; wording varies slightly between sources), Kettering ("often credited"),
-   Steve Jobs 1997 WWDC ("focusing is about saying no"), "trust, but verify" (a well-known saying).
+4. Chapter 6: engineer = "he"; "expert" replaced. Chapter 8: voice-message double work and the habit-change
+   challenge added; "first ninety days" section removed for now (add results in a later edition).
+5. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997.
 -->
 
 # Part Two: Building
@@ -93,17 +91,17 @@ That is all. In the next chapter, we turn to the most important skill of all, on
 
 ## Chapter 6: How to Talk to AI So It Builds What You Need
 
-### The engineer and the expert
+### Two halves of one solution
 
 Long before I built anything with AI on my own, I worked alongside a young colleague on a problem that taught me more than I understood at the time.
 
-She was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. She wrote code with confidence, particularly in Python and JavaScript, and she worked comfortably alongside AI tools. When the AI made a mistake, she could usually trace the faulty line and correct it herself, saving the hours a beginner would have spent going round in circles. On paper, she was precisely the kind of person every company wants in the age of AI.
+He was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. He wrote code with confidence, particularly in Python and JavaScript, and he worked comfortably alongside AI tools. When the AI made a mistake, he could usually trace the faulty line and correct it himself, saving the hours a beginner would have spent going round in circles. On paper, he was precisely the kind of person every company wants in the age of AI.
 
-Yet when she was asked to build an automated call plan for the sales team, a system to decide which customers each salesperson should call and when, she struggled. The difficulty was not the code; it was the work itself. She had never been a salesperson. She did not know how plans were made in practice, which customers mattered most, or why a schedule that looked perfect on a screen would collapse on a real Monday morning.
+Yet when he was asked to build an automated call plan for the sales team, a system to decide which customers each salesperson should call and when, he struggled. The difficulty was not the code; it was the work itself. He had never been a salesperson. He did not know how plans were made in practice, which customers mattered most, or why a schedule that looked perfect on a screen would collapse on a real Monday morning.
 
-I was her opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were actually made. But I could not write the code myself, and at that time my experience with AI was still limited.
+I was his opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were actually made. But I could not write the code myself, and at that time my experience with AI was still limited.
 
-Neither of us could have solved the problem alone. Together, we could. I explained what really happened on the ground: where plans broke down, what salespeople needed, which exceptions mattered. She translated those explanations into instructions that she and the AI could act upon. Over several weeks, as we exchanged knowledge, frustrations and lessons, the system began to work.
+Neither of us could have solved the problem alone. Together, we could. I explained what really happened on the ground: where plans broke down, what salespeople needed, which exceptions mattered. He translated those explanations into instructions that he and the AI could act upon. Over several weeks, as we exchanged knowledge, frustrations and lessons, the system began to work.
 
 Only later, when I started building with AI on my own, did I recognise what we had been doing. Large AI models are trained on vast quantities of human experience, gathered and processed in data centres around the world. My colleague and I had been doing the same thing on a human scale: translating one person's practical experience into a form that a machine could use.
 
@@ -111,11 +109,11 @@ That is the central lesson of this chapter, and perhaps of this entire book:
 
 **Once you understand a problem through real experience, and can explain it in a way the AI understands, the solution is usually within reach.**
 
-Today, I no longer need an engineer at my side for projects like those in this book. I can be the expert, and let the AI take the engineer's role. But first, I had to learn how to explain. The lessons that follow show how I learned, through mistakes and small discoveries in my own projects.
+Today, I no longer need an engineer at my side for projects like those in this book. I can be the one who understands the problem, and let the AI take the engineer's role. But first, I had to learn how to explain. The lessons that follow show how I learned, through mistakes and small discoveries in my own projects.
 
 ### Lesson 1: Describe the problem, not the solution
 
-The American inventor Charles Kettering is often credited with the observation that "a problem well stated is a problem half solved." My very first project proved him right.
+The American inventor Charles Kettering is often credited with the observation that "a problem well stated is a problem half solved."¹ My very first project proved how true it is.
 
 When I began work on a booking system for Khmer Parcel, I had never heard of a "Telegram mini app", and I did not need to. Rather than naming a solution, I described the problem exactly as I experienced it: online sellers were sending bookings in long chat messages, details were going missing, prices were being confused, and someone in the office had to type everything out a second time.
 
@@ -185,7 +183,7 @@ When I planned a small advertising test on Pinterest, we discovered that its adv
 
 When people ask me which skill matters most for working with AI, they usually expect a technical answer. My experience with that young engineer taught me otherwise.
 
-She brought the technical skill. I brought the understanding. What made our project succeed was the conversation between us. With today's AI, you can hold that conversation yourself: **explain your real problems clearly, examine what you receive honestly, and remain in charge of the decisions.** Managers, teachers, shop owners and researchers practise these skills every day. With AI, they become the skills that allow you to build.
+He brought the technical skill. I brought the understanding. What made our project succeed was the conversation between us. With today's AI, you can hold that conversation yourself: **explain your real problems clearly, examine what you receive honestly, and remain in charge of the decisions.** Managers, teachers, shop owners and researchers practise these skills every day. With AI, they become the skills that allow you to build.
 
 > **Builder's Notes: Your prompt toolkit**
 >
@@ -232,7 +230,7 @@ This matters particularly in countries like mine. In Cambodia, digital literacy 
 
 That discipline does not come naturally. Human beings, quite understandably, seek comfort and convenience, and wherever the rules are unclear, convenience tends to win. That is precisely why the rules must be settled before the work begins.
 
-The investor Warren Buffett expressed the underlying principle memorably. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."¹
+The investor Warren Buffett expressed the underlying principle memorably. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."²
 
 Buffett understood that money can be earned back, but trust, once lost, may never return. The same is true of data. A slow week of manual work costs you a little time. Leaking the private answers of people who trusted you can cost your organisation its reputation, and the people themselves a great deal more.
 
@@ -300,9 +298,9 @@ Every project in the rest of this book, the booking app, the blog, the video adv
 
 Khmer Parcel opened in Phnom Penh on the 1st of October, 2026. From the very beginning, I knew that our most important customers would be **online sellers**: people selling clothing, cosmetics and food through Facebook, TikTok and Telegram. A single regular seller may send five, ten or even twenty parcels a day. For a young delivery business, ten loyal sellers can mean the difference between merely surviving and genuinely growing.
 
-Online sellers spend their entire day on their phones, answering customers in chat. So when they need a delivery, the natural instinct is to send us a message as well. That is where the difficulties begin.
+Online sellers spend their entire day on their phones, answering customers in chat. So when they need a delivery, the natural instinct is to send a quick message to the delivery company as well, very often a short voice message on Telegram or Facebook Messenger.
 
-Every seller writes differently. One sends the address but forgets the phone number. Another describes five parcels in a single long paragraph. A third records a voice message in a noisy market. Someone in our office must read each message, ask follow-up questions and type the details out again. On a quiet day, this is manageable. On a busy day, it is where mistakes occur: a wrong address, a missed parcel, a disappointed customer. ⭐ [Add a real example: a booking that went wrong, or how long one booking took to handle by chat.]
+This is how most delivery bookings in Phnom Penh still work today, and it creates double work. The seller has already described the parcel once, by voice. Then someone at the delivery company has to listen to each message, ask follow-up questions, and enter every booking into the company's system by hand, one at a time. At Khmer Parcel, we do exactly the same today. Every booking is handled twice, and every time a detail is typed again, there is a new chance for a wrong address or a missing phone number.
 
 I wanted two things. Sellers should be able to book in seconds without leaving the app they already use, and every booking should reach our office in the same clear, complete format.
 
@@ -330,7 +328,7 @@ In Chapter 5, I described my rule: pay for growth only once the free version has
 
 I also made one request that shaped the entire project: *I am not a programmer, so I must be able to update this myself.* The AI organised everything around that sentence. The finished app is a single file. When I need to change a price or a word, I make the change and paste that one file into Cloudflare. No installation, no technical team, no waiting.
 
-**The principle:** build something you can maintain yourself. A tool that only an expert can update will, sooner or later, stop being updated.
+**The principle:** build something you can maintain yourself. A tool that only a specialist can update will, sooner or later, stop being updated.
 
 ### Why it checks every booking
 
@@ -342,7 +340,7 @@ Anything placed on the internet can, in principle, be misused. Someone could try
 
 ### Why it does less than it could
 
-In 1997, Steve Jobs told a conference of software developers that "focusing is about saying no." I thought of those words often while building this app.
+In May 1997, answering questions from software developers at Apple's Worldwide Developers Conference, Steve Jobs said that "focusing is about saying no."³ I thought of those words often while building this app.
 
 We could have added many more features, and we deliberately chose not to. Door-to-door customers continue to book through our website, so that the app can remain focused on online sellers. Our office still confirms each booking by hand, because the app is not yet connected to our website's delivery system. And because the offer is counted per Telegram account, our staff still check phone numbers for repeated use.
 
@@ -356,7 +354,7 @@ A few seconds later, the booking appeared in our office group: complete, clear a
 
 ### What the journey has taught me
 
-The finished app looks simple, and that is precisely the point. It has only just been launched, and real customers will undoubtedly reveal challenges I have not yet imagined; I will report them honestly in the section that follows. But building it has already taught me lessons that reach far beyond this one project.
+The finished app looks simple, and that is precisely the point. It has only just been launched, and real customers will undoubtedly reveal challenges I have not yet imagined; I will share them honestly in a future edition of this book. But building it has already taught me lessons that reach far beyond this one project.
 
 **Small details can halt everything.** Some setup steps failed for reasons that had nothing to do with the app itself, such as a single space in a password where spaces were not allowed. None of these problems was difficult once understood, but each could easily cost an hour. Every one of them now has its own line in the setup guide, so that it never happens twice.
 
@@ -364,11 +362,9 @@ The finished app looks simple, and that is precisely the point. It has only just
 
 **Test before you trust.** The AI wrote automatic tests that verify the most important behaviour every time something changes: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. I cannot read most of the code, but I can read a result confirming that every test has passed.
 
+**Technology is the easy part; habits are the hard part.** A booking through the mini app takes far less time than a booking by chat, for the seller and for our office. Yet speed alone does not change behaviour. Sellers have sent voice messages for years, and a habit that has served them well will not disappear because a better tool exists. Persuading them to try the app, and to keep using it, will take patience, explanation and time. This is the first real challenge of the project, and it is a human one.
+
 **Build once, use many times.** Because the app keeps its wording, prices and form fields in one place, it can be adapted for other businesses. A salon could use it for appointments, a café for orders, a tutor for class bookings.
-
-### The first ninety days
-
-The app has only just been launched, so its real test still lies ahead. ⭐ [To be completed from the weekly tracker: bookings per week, number of sellers using the app, the challenges that appeared, and time saved in the office.]
 
 > **Builder's Notes: Build your own booking mini app**
 >
@@ -395,4 +391,6 @@ The app has only just been launched, so its real test still lies ahead. ⭐ [To 
 
 ## Notes
 
-1. Warren Buffett, speaking to Salomon Brothers staff and in testimony to the US Congress, 1991. The wording varies slightly between sources.
+1. Widely attributed to Charles F. Kettering (1876–1958), American inventor and head of research at General Motors; no original source has been confirmed, and the line is sometimes also attributed to the philosopher John Dewey. See, for example, https://wist.info/kettering-charles/31082/
+2. Warren Buffett, speaking to Salomon Brothers staff and in testimony to the US Congress, 1991. The wording varies slightly between sources.
+3. Steve Jobs, question-and-answer session with developers at Apple's Worldwide Developers Conference, San Jose, 16 May 1997, when he was serving as an adviser to Apple. See TIME, https://techland.time.com/?p=135666, and Kottke, "Focus means saying no", https://also.kottke.org/15/10/focus-means-saying-no
