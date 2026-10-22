@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v4, 21 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v5, 22 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -7,11 +7,11 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v4, 21 Oct 2026
 3. Chapter 6 is built from the project notes and this chat. Check every example happened as written,
    especially: (a) AI suggesting promises you had not confirmed (same-day COD payout), (b) the ad results
    (2,546 views, 57 clicks, 0 bookings) — OK to publish these real numbers? (c) your quoted chat messages.
-4. Chapter 6: check the colleague story (⭐ marks: the engineer's languages; the second colleague's gender, and
-   whether it was you). Chapter 7: add your first small Python win (⭐). Chapter 8: add the ⭐ parts
-   (a real chat-booking problem, your feelings at the first test booking, which challenges you hit).
-5. Quotes used: Kettering ("a problem well stated...", marked as "often credited"), Steve Jobs 1997 WWDC
-   ("focusing is about saying no"), "trust, but verify" (a well-known saying).
+4. Chapter 6: colleague story updated (engineer = "she", for gender balance; the experienced colleague = you).
+   Chapter 7: first win (SPSS vs Python, test data) and the data-privacy story added. Chapter 8: still open ⭐:
+   a real chat-booking problem from before the app, and the 90-day results.
+5. Quotes used: Buffett 1991 (Salomon; wording varies slightly between sources), Kettering ("often credited"),
+   Steve Jobs 1997 WWDC ("focusing is about saying no"), "trust, but verify" (a well-known saying).
 -->
 
 # Part Two: Building
@@ -95,23 +95,23 @@ That is all. In the next chapter, we turn to the most important skill of all, on
 
 ### The engineer and the expert
 
-Before I ever built anything of my own, I watched two former colleagues solve a problem together, and I did not fully understand what I was seeing until much later.
+Before I ever built anything with AI on my own, I worked alongside a young colleague on a problem that taught me more than I realised at the time.
 
-The first was a young engineer, freshly graduated in data and artificial intelligence from one of the leading private universities in Phnom Penh. He could write code, particularly in Python, and he worked side by side with AI tools. When the AI made a mistake, he could often find the broken line and repair it himself, which saved time and money that a beginner would have spent going around in circles. On paper, he was exactly the person a company needs for the age of AI. ⭐ [Check: Python and JavaScript, or Python and Java?]
+She was a young engineer, freshly graduated in data and artificial intelligence from one of the leading private universities in Phnom Penh. She wrote code with confidence, particularly in Python and JavaScript, and she worked side by side with AI tools. When the AI made a mistake, she could usually find the broken line and repair it herself, saving the time and money that a beginner would have spent going around in circles. On paper, she was exactly the kind of person a company needs for the age of AI.
 
-Yet when he was asked to build an automated call plan for the sales team, a system to organise which customers each salesperson should call and when, he struggled. Not with the code, but with the work itself. He had never been a salesperson. He did not know how routes were planned in practice, which customers mattered most, or why a plan that looked perfect on a screen would fail on a real Monday morning.
+Yet when she was asked to build an automated call plan for the sales team, a system to organise which customers each salesperson should call and when, she struggled. Not with the code, but with the work itself. She had never been a salesperson. She did not know how plans were made in practice, which customers mattered most, or why a plan that looked perfect on a screen would fail on a real Monday morning.
 
-The second colleague was the opposite. She had years of hands-on experience and understood the sales operation in every detail, but she had no coding skills and had never worked with AI. ⭐ [Check: was the second colleague a man or a woman, and was it perhaps you?]
+I was the opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were really made. But I could not write the code myself, and at that time my experience with AI was still limited.
 
-Neither of them could solve the problem alone. Together, they could. The experienced colleague explained the real problems from the ground: what happens in the field, where plans break down, what the salespeople actually need. The engineer turned those explanations into instructions that he and the AI could act on. Over several weeks, as they shared their knowledge, their challenges and their lessons, the system began to work.
+Neither of us could have solved the problem alone. Together, we could. I explained the real problems from the ground: what happens in the field, where plans break down, what salespeople actually need. She turned those explanations into instructions that she and the AI could act on. Over several weeks, as we shared our knowledge, our challenges and our lessons, the system began to work.
 
-When I later began building with AI myself, I realised that I had been watching a small version of how AI itself learns. Large AI models are trained on enormous amounts of human experience, gathered and processed in data centres around the world. My colleagues were doing the same thing on a human scale: one person's experience was being translated into a form a machine could use.
+Only later, when I began building with AI by myself, did I understand what we had been doing. Large AI models are trained on enormous amounts of human experience, gathered and processed in data centres around the world. My colleague and I had been doing the same thing on a human scale: one person's practical experience was being translated into a form that a machine could use.
 
 That is the central lesson of this chapter, and perhaps of this book:
 
 **Once you understand a problem from real experience, and can explain it in a way the AI understands, the solution is usually within reach.**
 
-You do not need to be the engineer. With today's AI, you can be the expert, and let the AI play the engineer's role. But you must learn to explain. The rest of this chapter shows how I learned to do that, through mistakes and small discoveries in my own projects.
+Today, I no longer need an engineer beside me for projects like the ones in this book. I can be the expert, and let the AI play the engineer's role. But I had to learn to explain. The rest of this chapter shows how I learned to do that, through mistakes and small discoveries in my own projects.
 
 ### Lesson 1: Describe the problem, not the solution
 
@@ -208,11 +208,35 @@ The engineer had the technical skills. The experienced colleague had the underst
 
 ### Why small comes first
 
-When I was teaching myself data tools in my old job, I did not begin by automating the whole research process. I began with something tiny: a short piece of Python code, written by an AI, that did one small task I used to do by hand. ⭐ [Add: what was that first small script, and how did you feel when it worked?]
+My first real win with AI was not a business, an app or a website. It was a short piece of Python code that ran on my own computer.
 
-It was not impressive. Nobody in the company noticed. But it changed how I saw myself. For the first time, I had *built* something, and it worked. Every larger project I have attempted since grew from that moment of quiet confidence.
+At my old job, I regularly analysed customer satisfaction surveys in SPSS: calculating averages and standard deviations, and the **Net Promoter Score**, a widely used measure of how likely customers are to recommend a brand. It was careful, manual work, and I wanted to know whether it could be automated.
 
-I believe this is how most people should begin with AI. Not with a grand plan, but with a small, useful win that you can finish in an afternoon, see working with your own eyes, and show to someone the same day.
+So I asked an AI to write a Python program that would perform the same analysis. I ran it offline, in the Command Prompt on my own computer, and compared its results with the ones I had produced by hand in SPSS. When the two sets of numbers matched, something changed in me. The work I had always done step by step could now be done in seconds, and I had built the tool to do it.
+
+It was not impressive to anyone else. Nobody in the company noticed. But every larger project I have attempted since grew from that moment of quiet confidence.
+
+I believe this is how most people should begin with AI. Not with a grand plan, but with a small, useful win that you can finish in an afternoon, check with your own eyes, and trust because you have tested it.
+
+### The line I would not cross
+
+There is one detail of that first win that matters more than the code itself: **I never gave the AI our real data.**
+
+The customer data belonged to the company and to the customers who had trusted us with their answers, and our market was highly competitive. I also understood that an AI shown real data can recognise the patterns in it, and those patterns describe a business. So I did something simple. I created a **test dataset** of my own, with made-up responses in the same format as the real survey. The AI wrote the code using only that test data. Then I ran the finished program on the real data offline, on my own computer, where it never left the company.
+
+I share this because the question will come to you sooner than you think. Some time later, I was invited to speak at an event at the Cambodiana Hotel in Phnom Penh about automating monitoring and evaluation systems for civil society organisations. After my talk, a man who introduced himself as a monitoring and evaluation expert with many years of experience in the sector asked me a question: *Are there AI tools that can clean the data, analyse it and produce a preliminary report for a research project?*
+
+The honest answer is: yes, many. But the more important question is the one each of us must ask ourselves: **how much of our real data are we willing to expose for the sake of convenience?** Survey answers, health information, family circumstances, business figures: these are entrusted to us. Uploading them to a tool simply because it saves us a few hours is not a technical decision. It is an ethical one, and it is a test of our professionalism.
+
+This matters especially in countries like mine. In Cambodia, digital literacy is still developing, and many of us use the internet every day without fully understanding its risks to our security and safety. At the same time, AI is quickly becoming as ordinary as electricity, the internet and the smartphone. We cannot avoid it, and we should not try. But we can learn to use it with discipline.
+
+That discipline is not natural. Human beings, quite reasonably, seek comfort and convenience, and when the rules are unclear, convenience usually wins. That is exactly why the rules must be clear before you begin.
+
+The investor Warren Buffett expressed the principle well. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."¹
+
+Buffett understood that money can be earned back, but trust, once lost, may never return. The same is true of data. A slow week of manual work costs you a little time. Leaking the private answers of the people who trusted you can cost your organisation its reputation, and the people themselves far more.
+
+So my rule is this: **work with AI on almost everything, but never hand it what is not yours to give.** Use test data to build the tool, and keep real data under your own control. If you understand how to use AI, what to do yourself and what to let the AI do, and where the limits of exposure lie, you can work with AI fully: productively, safely, and with your integrity intact.
 
 ### Why a price calculator
 
@@ -328,11 +352,11 @@ Writing down these limits protected me from promising more than the app could de
 
 Setting up the app took about twenty minutes, following a step-by-step guide the AI wrote for me in plain language. Then came the test. I opened our bot, tapped the button, filled in a booking, and pressed confirm.
 
-A few seconds later, the booking appeared in our office group: complete, clear, with its own booking code. ⭐ [Add how you felt at that moment, and who you showed it to first.]
+A few seconds later, the booking appeared in our office group: complete, clear, with its own booking code. I was genuinely surprised. Something I had described in plain words only days before was now working in front of me, inside the app our customers use every day.
 
 ### What the journey taught me
 
-The finished app looks simple, and that is the point. But the path to it taught me lessons that go far beyond this one project. ⭐ [Please mark which of these you experienced personally, and add any others.]
+The finished app looks simple, and that is the point. It has only just been rolled out, and real customers will surely reveal challenges I have not yet imagined; I will report them honestly in the next section. But building it has already taught me lessons that go far beyond this one project.
 
 **Small details can stop everything.** Some of the setup steps failed for reasons that had nothing to do with the app itself, such as a single space in a password where spaces were not allowed. None of these problems was difficult once understood, but each could easily cost an hour. Every one of them now has its own line in the setup guide, so it can never happen twice.
 
@@ -344,7 +368,7 @@ The finished app looks simple, and that is the point. But the path to it taught 
 
 ### The first ninety days
 
-⭐ [To be completed from the weekly tracker: bookings per week, number of sellers using the app, problems reported, and time saved in the office.]
+The app has only just been rolled out, so its real test is still ahead. ⭐ [To be completed from the weekly tracker: bookings per week, number of sellers using the app, the challenges that appeared, and time saved in the office.]
 
 > **Builder's Notes: Build your own booking mini app**
 >
@@ -366,3 +390,9 @@ The finished app looks simple, and that is the point. But the path to it taught 
 > - The secret password linking Telegram to your app may contain only letters, numbers, dashes and underscores. No spaces.
 > - Any feature that must remember the past, such as "first three orders discounted", needs a small storage space. Cloudflare offers one free (called *KV*); ask the AI to set it up.
 > - Ask the AI for automatic tests, and run them before every update.
+
+---
+
+## Notes
+
+1. Warren Buffett, speaking to Salomon Brothers staff and in testimony to the US Congress, 1991. The wording varies slightly between sources.
