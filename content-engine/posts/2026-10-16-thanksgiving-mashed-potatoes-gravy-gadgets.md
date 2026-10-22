@@ -33,13 +33,17 @@ Thanksgiving is Thursday, November 26, 2026. Order a week or two early and check
 
 ![Riced potatoes in a pot](images/thanksgiving-mashed-potatoes-gravy-gadgets-1.jpg)
 
-Use a ricer, not a mixer, which can overwork potatoes into paste. A ricer presses them through small holes so they come out fine and even; fold in warm butter and milk after.
+Put the mixer away; it can overwork potatoes into paste. Rice them, then fold in warm butter and milk.
 
-- [PriorityChef 15 oz stainless steel potato ricer](https://amzn.to/4yOU3Kw): a press-style ricer that also handles sweet potatoes and cooked cauliflower. Skip it if you want texture in your mash.
+- [PriorityChef 15 oz stainless steel potato ricer](https://amzn.to/4yOU3Kw): a press-style ricer that also handles sweet potatoes and cooked cauliflower. **Already have one?** Most kitchens have a masher, but a ricer pushes the potatoes through small holes, so there are no lumps and far less chance of gluey mash. Skip it if you want texture in your mash.
 - [2-piece stainless steel potato masher set](https://amzn.to/4sg5zME): the simpler tool for chunky mash, used all year for avocado and ground beef. Skip it if lumps are a dealbreaker at your table.
-- [AUOON clip-on silicone strainer for pots](https://amzn.to/4zrIUPF): clips onto the pot rim so you can tip out the water without hauling out a colander or needing a second pair of hands. Skip it if your pots have unusually thick or flared rims.
+- [AUOON clip-on silicone strainer for pots](https://amzn.to/4zrIUPF): many people don't know these exist. It clips onto the pot rim so you can tip out the water without hauling out a colander or needing a second pair of hands. Skip it if your pots have unusually thick or flared rims.
 
-**Steam-dry tip:** drain the potatoes, then let them sit in the hot, empty pot for a minute or two so the surface water steams off. Wet potatoes make loose, watery mash whichever tool you use.
+### Try this tonight: fluffier mashed potatoes
+
+1. Cut the potatoes into even chunks and start them in cold, salted water. Starting cold lets the centers cook through before the outsides fall apart.
+2. Simmer until a knife slides in with no push, then drain.
+3. Put them back in the hot, empty pot for a minute or two so the surface water steams off. Wet potatoes make loose, watery mash whichever tool you use.
 
 ### How do I keep gravy from turning greasy or lumpy?
 

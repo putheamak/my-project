@@ -18,9 +18,9 @@ You're standing in a store aisle with a name on your list, holding a gadget and 
 
 I haven't used these myself. I picked them from the listings for everyday use, small size and a clear job in one kind of kitchen, and say who each one suits.
 
-**Start here:** most people should get the [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5), a fast-reading digital thermometer for checking a roast, chicken or turkey without cutting into it. Pick the [GORILLA GRIP oven mitts](https://amzn.to/47p2NLi) instead if they bake more than they roast.
+**Start here:** most people should get the [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5), a fast-reading digital thermometer for checking a roast, chicken or turkey without cutting into it. Pick the [GORILLA GRIP oven mitts](https://amzn.to/47p2NLi) instead if they bake more than they roast. **Already have one?** Lots of cooks still have an old dial thermometer, the kind that's slow to settle. An instant-read one shows a number fast, so they can check a couple of spots and shut the oven door, which makes it a real upgrade, not a duplicate.
 
-If you don't know much about how the person cooks, the three safest gifts are below. Almost every cook uses them, and few people think to replace their own.
+Not sure how they cook? Almost every cook uses the three below, and few people think to replace their own.
 
 :::picks
 - The safest gift for almost any cook: [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5)
@@ -28,11 +28,17 @@ If you don't know much about how the person cooks, the three safest gifts are be
 - For lining sheet pans without buying parchment: [Amazon Basics silicone baking mats (4-pack)](https://amzn.to/4sjyVd7)
 :::
 
+### Try this tonight: wrap a small gift in a tea towel
+
+1. Lay a tea towel flat and set the gift in the middle at an angle, so a corner points at you.
+2. Fold that corner over the gift, tuck in the two sides, then roll it up toward the far corner.
+3. Tie it with kitchen twine and slide a sprig of rosemary under the knot. The thermometer or a rolled-up baking mat fits this way easily, and the towel is a second gift.
+
 ### What do you get a home cook who already has the basics?
 
 Skip the tools they already own and look for small fixes to everyday annoyances.
 
-The [Cole & Mason herb keeper](https://amzn.to/4Bfvbxe) is designed to help fresh herbs last longer in the fridge. It suits anyone who buys a bunch of cilantro or parsley and throws half of it out a week later. Skip it if they grow herbs on the windowsill or mostly cook with dried ones.
+Plenty of people don't know there's a container made just for herbs. The [Cole & Mason herb keeper](https://amzn.to/4Bfvbxe) is designed to help fresh herbs last longer in the fridge. It suits anyone who buys a bunch of cilantro or parsley and throws half of it out a week later. Skip it if they grow herbs on the windowsill or mostly cook with dried ones.
 
 ### What's a good gift for someone who bakes all December?
 
@@ -55,8 +61,6 @@ For more single-portion ideas, see these [kitchen gadgets for cooking for one](h
 ### What helps someone who packs lunch for work?
 
 ![Packed lunch in a bento box on a desk](images/kitchen-gifts-under-30-2.jpg)
-
-A lunch setup is a gift made for every workday.
 
 The [Umami bento box for adults](https://amzn.to/4hAa8xD) is an all-in-one lunch box with sections for a main and sides, so one container replaces a stack of small ones. Skip it if they mostly bring soup or leftovers that need a deep container.
 
