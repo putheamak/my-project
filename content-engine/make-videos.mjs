@@ -30,7 +30,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
-const VERSION = 4; // bump to remake all videos after changing the design
+const VERSION = 5; // bump to remake all videos after changing the design
 const postsDir = path.join(here, "posts");
 const imagesDir = path.join(here, "images");
 const arg = (name) => (process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : "");
@@ -62,9 +62,17 @@ const ACCENT = "#b4531f";
 // Gadget rows from the post's first Markdown table: first column is the name,
 // the description comes from a "best for / use" column when there is one.
 export function tableItems(body, max = 5) {
-  const rows = body.split("\n").filter((l) => /^\s*\|/.test(l));
-  if (rows.length < 3) return [];
-  const cells = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.replace(/\*\*/g, "").trim());
+  // Split into separate tables; use the first one whose names are product links
+  // (a reference table such as safe temperatures has no links).
+  const tables = [];
+  let cur = null;
+  for (const l of body.split("\n")) {
+    if (/^\s*\|/.test(l)) (cur ??= tables[tables.push([]) - 1]).push(l);
+    else cur = null;
+  }
+  const rows = tables.find((t) => t.length >= 3 && t.slice(2).some((l) => /\]\(/.test(l.split("|")[1] ?? ""))) ?? tables.find((t) => t.length >= 3);
+  if (!rows) return [];
+  const cells = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/\*\*/g, "").trim());
   const head = cells(rows[0]);
   let col = head.findIndex((h, i) => i > 0 && /^(best (for|use)|use it for)/i.test(h));
   if (col < 0) col = head.findIndex((h, i) => i > 0 && /^(what it|main job)/i.test(h));
@@ -117,7 +125,7 @@ function overlays(dir, { headline, subline, items }) {
       ...panel(960, 640, "black", 0.6), ...at("south", 0, 330),
       ...panel(170, 90, ACCENT, 1), ...at("south", 0, 900),
       ...caption(150, 70, 44, "white", `${i + 1}/${items.length}`), ...at("south", 0, 910),
-      ...caption(860, 260, 76, "white", item.name), ...at("south", 0, 640),
+      ...caption(860, 260, item.name.length > 44 ? 60 : item.name.length > 32 ? 68 : 76, "white", item.name), ...at("south", 0, 640),
       ...caption(860, 220, 54, "#fde7d6", item.text), ...at("south", 0, 390),
       ...brand,
     ], f);
