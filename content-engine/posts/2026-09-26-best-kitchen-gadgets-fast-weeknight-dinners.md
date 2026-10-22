@@ -27,15 +27,21 @@ I haven't used these myself. I picked them from the listings for the weeknight j
 - For cooking from Sunday prep: [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF)
 :::
 
+### Try this tonight: let the chicken rest
+
+1. Take the chicken off the heat once the thickest part hits 165°F, or shows no pink when you cut into it (a thermometer saves you that cut).
+2. Move it to a plate, cover it loosely with foil and leave it alone for 5 minutes while you finish the sides.
+3. Then slice. The juices stay in the meat instead of running across the board.
+
 ### Which tools save the most time while I chop?
 
-Prep is where a quick dinner gets slow. These three are meant to take the fiddliest knife work off your board.
+Prep is where a quick dinner gets slow.
 
-**Garlic:** the [Zulay large garlic press](https://amzn.to/4zhnyoi) turns a clove into minced garlic in one squeeze, so you skip the peel-smash-mince routine. It comes with a peeler and a cleaning brush, which matters because a press that's hard to clean ends up in the back of the drawer. Skip it if you mostly cook with jarred garlic.
+**Garlic:** the [Zulay large garlic press](https://amzn.to/4zhnyoi) turns a clove into minced garlic in one squeeze, so you skip the peel-smash-mince routine. It comes with a peeler and a cleaning brush, and a press that's easy to clean is one you'll actually reach for. Skip it if you mostly cook with jarred garlic.
 
-**Slicing:** the [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) is designed for even slices and julienne strips of cucumber, potato or onion with less knife work, and it's small enough for a crowded drawer. Always use the hand guard.
+**Slicing:** the [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW) is designed for even slices and julienne strips of cucumber, potato or onion with less knife work, and it fits a crowded drawer. Always use the hand guard.
 
-**Grating:** the [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) shreds cheese, carrots or zucchini straight into its own container. No cutting board to wash, and leftovers go in the fridge as is.
+**Grating:** the [KitchenAid 4-sided box grater with storage container](https://amzn.to/3THo5AC) shreds cheese, carrots or zucchini straight into its own container. **Already have one?** A plain box grater scatters shreds across the counter. Lots of people don't know some come with a container that catches everything and goes straight in the fridge.
 
 ![Hands slicing vegetables for a quick weeknight dinner](images/best-kitchen-gadgets-fast-weeknight-dinners-1.jpg)
 
@@ -43,15 +49,15 @@ For more ways to speed up the knife work, see our [chopping and prep gadgets und
 
 ### What helps me get dinner on the table without hovering?
 
-**Cutting:** the [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) snip scallions, herbs and bacon right over the pan, and they open stubborn packaging too. They come with a protective sheath, so they can sit loose in a drawer. Skip them if you already own a sharp pair you trust.
+**Cutting:** the [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) snip scallions, herbs and bacon right over the pan, and they open stubborn packaging too. They come with a protective sheath for the drawer.
 
-**Salad:** the [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) spins washed greens dry, and dry leaves hold dressing better than wet ones. The bowl can go straight to the table. Skip it if your household eats bagged salad greens.
+**Salad:** the [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) spins washed greens dry, and dry leaves hold dressing better than wet ones.
 
-**Doneness:** the [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) is designed to give a reading in seconds, so you don't have to cut into the chicken or add five minutes "just to be safe." If you only buy one tool from this list, make it this one.
+**Doneness:** the [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9) is designed to give a reading in seconds, so you don't have to cut into the chicken or add five minutes "just to be safe." **Already have one?** An old dial thermometer is built to sit in a roast; an instant-read one is made for quick checks in thin cuts like chicken breasts, then it comes right back out. If you only buy one tool from this list, make it this one.
 
 ### How do I make Tuesday faster on Sunday?
 
-The [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) let you chop onions, peppers and cooked rice once, then cook fast all week. Glass doesn't hold onto tomato sauce stains the way many plastic containers do. Skip them if you never cook ahead; the chopping tools above will help you more.
+The [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) let you chop onions, peppers and cooked rice once, then cook fast all week. Glass doesn't hold onto tomato sauce stains like a lot of plastic does. Skip them if you never cook ahead; the chopping tools above will help you more.
 
 ![Glass meal prep containers filled with chopped vegetables](images/best-kitchen-gadgets-fast-weeknight-dinners-2.jpg)
 

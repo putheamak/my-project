@@ -26,39 +26,43 @@ I haven't used these myself. I picked them from the listings for locking or stre
 - For reheating rice and pasta without splatter: [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH)
 :::
 
+### Try this tonight: reheat rice so it's soft again
+
+1. Put the cold rice in a microwave-safe bowl and sprinkle about a tablespoon of water over each cup. Break up any hard clumps with a fork.
+2. Cover the bowl loosely so the steam stays in. An upside-down plate works; a microwave cover is easier.
+3. Heat in short bursts, stirring between them, until it's steaming hot all the way through.
+
 ### How do I store leftovers so they don't dry out?
 
 ![Leftovers in glass containers in the fridge](images/kitchen-gadgets-under-30-leftovers-1.jpg)
 
 The container does most of the work. If air gets in, texture goes out.
 
-**The pick:** [PrepNaturals glass containers](https://amzn.to/4rUytBF). Glass with locking lids stacks neatly, goes from fridge to microwave, and doesn't hold onto curry or garlic odors the way old plastic does. Skip it if you need to carry lunch on a bike or train, since glass is heavy.
+**The pick:** [PrepNaturals glass containers](https://amzn.to/4rUytBF). Glass with locking lids stacks neatly and goes from fridge to microwave. **Already have one?** Most kitchens run on a pile of takeout tubs; glass doesn't stain orange or hold onto curry and garlic smells, and a locking lid seals all the way around instead of just snapping on at the corners. Skip it if you carry lunch on a bike or train, since glass is heavy.
 
 [Rubbermaid Brilliance containers](https://amzn.to/3U7ZlSa) are the lighter option for the work bag.
 
-[Longzon 14-pack stretch lids](https://amzn.to/4hFg8Ux) pull over a bowl, a cut melon or a pot you don't want to transfer. They turn dishes you already own into storage. Skip them if your cabinet is already full of matching containers.
+A lot of people don't know stretch lids exist. The [Longzon 14-pack stretch lids](https://amzn.to/4hFg8Ux) are silicone covers that pull over a bowl, half a melon or a pot you don't want to transfer, so the dishes you already own become storage. Skip them if your cabinet is already full of matching containers.
 
 ### How do I freeze leftovers in single portions?
 
 This is the step most people skip, and it's why frozen leftovers become a mystery brick nobody wants to defrost.
 
-**The pick:** a [silicone freezer tray with lid](https://amzn.to/4y4ZmED). Freeze soup, stew, chili or pasta sauce in blocks, pop them out into a bag, and thaw exactly one serving. Skip it if you rarely cook big batches.
+**The pick:** a [silicone freezer tray with lid](https://amzn.to/4y4ZmED). Freeze soup, stew, chili or pasta sauce in blocks, pop them out into a bag, and thaw exactly one serving. **Already have one?** An ice cube tray makes cubes; this makes portions, and the silicone flexes so a frozen block slides out instead of needing a hot-water rinse. Skip it if you rarely cook big batches.
 
 [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r) handle the small stuff: leftover stock, coconut milk, pesto or half a can of tomato paste. Get these instead of the big tray if your leftovers are mostly sauces and odds and ends.
 
 Label every block with what it is and the date; a strip of masking tape and a marker is enough.
 
-If you've read my [meal prep gadget list](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), this is the same toolkit pointed backward: instead of prepping ahead, you're banking what you already cooked.
+It's the [meal prep toolkit](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/) pointed backward: you're banking what you already cooked.
 
 ### What helps leftovers taste better when reheated?
 
 ![Bowl of rice reheating in the microwave under a cover](images/kitchen-gadgets-under-30-leftovers-2.jpg)
 
-Reheating is where most leftovers die: rice hardens and pasta goes rubbery.
+**The pick:** the [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH). It sticks to the microwave ceiling when you're not using it, then drops over the bowl. It's designed to trap steam, which is the step from the rice trick above that most people skip. Skip it if you'd rather not store a cover on the microwave ceiling.
 
-**The pick:** the [HOVER COVER magnetic splatter cover](https://amzn.to/4rIj2fH). It sticks to the microwave ceiling when you're not using it, then drops over the bowl. It is designed to trap steam, which helps keep rice and pasta from drying into a crust. Skip it if you'd rather not store a cover on the microwave ceiling.
-
-The [GoodCook microwave steamer](https://amzn.to/4hopeWQ) is the add-on for vegetables, grains and dumplings. It is designed to reheat them with a splash of water and steam instead of dry heat. Skip it if you mostly reheat saucy dishes, where the cover alone does the job.
+The [GoodCook microwave steamer](https://amzn.to/4hopeWQ) is the add-on for vegetables, grains and dumplings. It reheats them with a splash of water and steam instead of dry heat. Skip it if you mostly reheat saucy dishes, where the cover alone does the job.
 
 ### Which leftover gadget should you buy first?
 

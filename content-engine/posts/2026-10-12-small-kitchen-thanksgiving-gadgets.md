@@ -27,14 +27,22 @@ I haven't used these myself. I picked them from the listings for small counterto
 - For a free burner: [Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ)
 :::
 
+### Try this tonight: rest the meat before you carve
+
+1. Take a roast chicken, pork loin or steak off the heat once the thermometer reads the safe temperature for that meat (165°F for poultry).
+2. Move it to a board, tent it loosely with foil and leave it alone, about 5 to 10 minutes for a steak or chicken pieces and longer for a whole bird.
+3. Carve afterward. The juices settle back into the meat instead of running all over the board.
+
+Practice it on a weeknight chicken and you'll have the turkey routine down by Thursday. It starts with knowing the temperature, which is the thermometer's job.
+
 ### How do I cook Thanksgiving sides without the oven?
 
 ![Side dish in a slow cooker for Thanksgiving](images/small-kitchen-thanksgiving-gadgets-1.jpg)
 
-Be realistic: these are small appliances for one or two extra sides alongside the oven, not the whole meal.
+These are small appliances for one or two extra sides alongside the oven, not the whole meal.
 
 - **[BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk).** Put water in the pot and green beans, carrots or broccoli in the steaming basket, and a vegetable side cooks without a burner or the oven. Skip it if all your vegetables are roasted.
-- **[Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj).** A 1.5 qt crock holds one side for a few people: creamed corn, cranberry sauce, or a small pot of soup for early arrivals. For a bigger table, use it for one dish and keep the larger pots for the rest. Two of these would cover two small sides.
+- **[Maxi-Matic 1.5 qt electric ceramic slow cooker](https://amzn.to/4hBZNBj).** A 1.5 qt crock holds one side for a few people: creamed corn, cranberry sauce, or a small pot of soup for early arrivals. For a bigger table, use it for one dish and keep the larger pots for the rest.
 
 Mashing potatoes and making gravy? My [mashed potatoes and gravy gadgets post](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/) covers the ricer and the gravy separator, so they're not repeated here.
 
@@ -44,12 +52,14 @@ Mashing potatoes and making gravy? My [mashed potatoes and gravy gadgets post](h
 
 The [TempPro TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5) is a digital instant-read model you slip into the bird for a few seconds.
 
-USDA guidance says poultry is safe at 165°F, measured in the thickest part. On a turkey, check the thickest part of the thigh and the breast, and keep the tip off the bone. Skip it only if you already own a thermometer you trust.
+**Already have one?** If all you have is the pop-up timer that came in the turkey or an old dial thermometer, the difference is speed: an instant-read model gives a number quickly, so you can check the thigh and the breast in different spots before you decide it's done.
+
+USDA guidance says poultry is safe at 165°F, measured in the thickest part. Keep the tip off the bone. Skip it only if you already own a thermometer you trust.
 
 ### Which tools free up the stovetop and counter?
 
 - **[Turelar 2-speed immersion blender](https://amzn.to/4jSQnCJ).** Blend soup or cranberry sauce right in the pot or slow cooker crock, with no countertop blender to find room for or wash. Skip it if every side you make is chunky.
-- **[AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF).** It clips to the edge of a pot so you can drain vegetables straight into the sink, and the big colander stays in the cabinet.
+- **[AUOON clip-on silicone strainer](https://amzn.to/4zrIUPF).** Most people don't know a strainer that clips onto the pot exists. It holds on to the rim while you tip the water into the sink, and the big colander stays in the cabinet.
 
 ### What does the day-of timeline look like?
 

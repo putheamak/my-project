@@ -32,7 +32,7 @@ That's not a skill problem. It's a missing number. I haven't used these myself. 
 
 Color and juices are unreliable. A probe in the thickest part, away from bone, gives you the answer in seconds without cutting anything open.
 
-**[TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ).** It is designed for quick checks on chicken, pork chops, burgers, reheated leftovers and even bread. It suits anyone who cooks meat more than once a week. Skip it if you're mostly vegetarian and don't bake bread.
+**[TempSwift instant-read thermometer](https://amzn.to/3TlGWkJ).** It's built for quick checks on chicken, pork chops, burgers, reheated leftovers and even bread. **Already have one?** The dial thermometer in a lot of drawers is the leave-in kind for big roasts; an instant-read is made for spot checks, so you can test a thin chop or a burger in two or three places and move on. Skip it if you're mostly vegetarian and don't bake bread.
 
 Here's a cheat sheet to keep on the fridge.
 
@@ -47,21 +47,27 @@ Here's a cheat sheet to keep on the fridge.
 
 These are minimums for safety, not doneness preferences. Check the USDA's food safety site for the full list.
 
+### Try this tonight: let the meat rest
+
+1. Take the meat off the heat once the thermometer reads the target in the thickest part.
+2. Move it to a plate or board, cover it loosely with foil and leave it alone for about 5 minutes (at least 3 for whole cuts of beef or pork).
+3. Slice across the grain. The juices stay in the meat instead of running all over the board.
+
 ### Why do my recipes turn out different every time?
 
 Often it's the measuring. A cup of flour scooped straight from the bag can weigh much more than one spooned in, and that's enough to turn cookies cakey.
 
-**[Digital food scale with a 22 lb capacity](https://amzn.to/4jCDT23).** Weigh flour, sugar and butter into one bowl and use the tare button between each. It's for bakers, meal preppers and anyone following recipes written in grams. Skip it if you mostly cook by feel and rarely bake.
+**[Digital food scale with a 22 lb capacity](https://amzn.to/4jCDT23).** Weigh flour, sugar and butter into one bowl and hit the tare button between each. **Already have one?** Measuring cups measure space, and flour packs down; a scale measures weight, so 120 grams is 120 grams however you scoop it, and there are fewer cups to wash. Skip it if you mostly cook by feel and rarely bake.
 
 ### Is my oven lying to me?
 
 ![Oven thermometer hanging on an oven rack](images/kitchen-gadgets-under-30-cooking-without-guesswork-2.jpg)
 
-Quite possibly. Oven thermostats drift, and many run hot or cold. If roasting times never match the recipe, the dial may be the problem.
+Quite possibly. Oven thermostats drift, and many run hot or cold. Lots of people don't realize you can buy a small thermometer that simply lives inside the oven and tells you what the dial won't.
 
-**[Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme).** It sits on the middle rack and shows the real heat, so you can adjust the dial once and stop second-guessing. It suits anyone with an older oven or uneven baking. Skip it if your oven already has a reliable built-in probe display.
+**[Taylor 3-inch oven thermometer](https://amzn.to/4rJ4Yme).** It sits on the middle rack and shows the real heat, so you can adjust the dial once and stop second-guessing. Skip it if your oven already has a reliable built-in probe display.
 
-**[4-piece digital timer set](https://amzn.to/4hEGDtk).** One countdown per dish, so a phone call doesn't wipe out your only timer. Useful on holidays or nights with three things going at once.
+**[4-piece digital timer set](https://amzn.to/4hEGDtk).** One countdown per dish, so a phone call doesn't wipe out your only timer when three things are going at once.
 
 ### How do these compare?
 

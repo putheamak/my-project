@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-Picture the coworker who reheats the same mug three times before lunch, or the friend who won't talk until the pour-over is done. Coffee people already have a ritual. A good gift makes one step of it better, so start with how they drink it.
+Picture the coworker who reheats the same mug three times before lunch, or the friend who won't talk until the pour-over is done. Coffee people already have a ritual, so a good gift makes one step of it better.
 
 I haven't used these myself. I picked them from the listings for how they brew, whether they need an outlet and how much coffee they make at once, and say who each one suits.
 
@@ -28,6 +28,12 @@ I haven't used these myself. I picked them from the listings for how they brew, 
 - For the Keurig owner: [Perfect Pod Café Save reusable pods](https://amzn.to/3VWKvi4)
 :::
 
+### Try this tonight: froth milk with a jar
+
+1. Pour milk into a clean jar with a tight lid, filling it no more than a third of the way.
+2. Shake it hard for about 30 seconds, until the milk roughly doubles in volume.
+3. Take the lid off and microwave it for about 30 seconds so the foam sets, then spoon it over your coffee. If you like the result, a handheld frother does the same job in the mug, with no jar to wash.
+
 ### What do you get someone who loves lattes?
 
 ![Frothed milk being poured into a latte](images/gifts-coffee-lover-under-30-1.jpg)
@@ -38,7 +44,7 @@ I haven't used these myself. I picked them from the listings for how they brew, 
 
 ### What do you get a pour-over or French press fan?
 
-**Main pick:** the [28 oz stovetop gooseneck pour-over kettle](https://amzn.to/4yxqBaY). The thin spout lets them pour slowly and evenly, which is what pour-over needs. Skip it if their only cooktop is induction and the listing doesn't say the kettle works on induction.
+**Main pick:** the [28 oz stovetop gooseneck pour-over kettle](https://amzn.to/4yxqBaY). Most kitchens have a kettle, but a regular spout gushes. A gooseneck's thin, curved spout lets them pour slowly and evenly, which is what pour-over needs. Skip it if their only cooktop is induction and the listing doesn't say the kettle works on induction.
 
 **Fresh grounds:** the [CEVING 60g manual coffee grinder](https://amzn.to/4BoFcIC). Grinding right before brewing is a common coffee tip, and a hand grinder needs no outlet. It suits one or two cups at a time, not a whole pot.
 
@@ -50,9 +56,9 @@ I haven't used these myself. I picked them from the listings for how they brew, 
 
 ![Insulated travel mug on a desk next to a laptop](images/gifts-coffee-lover-under-30-2.jpg)
 
-**Main pick:** the [Contigo Byron 16 oz vacuum-insulated travel mug](https://amzn.to/4yUoaAn). Vacuum insulation is designed to keep coffee hot on the drive. It's the safest pick when you don't know their brewing method.
+**Main pick:** the [Contigo Byron 16 oz vacuum-insulated travel mug](https://amzn.to/4yUoaAn). It's the safest pick when you don't know their brewing method. **Already have one?** Lots of people own a plastic or single-wall travel cup. A vacuum-insulated mug has a double wall with the air pulled out between the layers, which is why it holds heat much longer, so it's an upgrade rather than a duplicate.
 
-**For the desk:** a [coffee mug warmer with a 12-hour timer](https://amzn.to/4dKxLRO). It keeps a regular mug warm at their desk, and the timer means it switches itself off. Skip it if they drink from an insulated travel mug all day.
+**For the desk:** a [coffee mug warmer with a 12-hour timer](https://amzn.to/4dKxLRO). Plenty of people don't know these exist: it's a small heated pad that keeps a regular mug warm at their desk, and the timer means it switches itself off. Skip it if they drink from an insulated travel mug all day.
 
 ### What do you get a Keurig owner?
 

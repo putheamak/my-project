@@ -26,15 +26,25 @@ I haven't used these myself. I picked them from the listings for small batch siz
 - For kids who want to fill the pan themselves: [Bellemain nonstick donut pan (6-cavity, 2-pack)](https://amzn.to/3VzeOLz)
 :::
 
-One rule before anything else: an adult handles every hot appliance and the oven, at every age. The plates on these mini makers get hot enough to burn small fingers, so kids do the mixing and decorating while you do the cooking.
+One rule before anything else: an adult handles every hot appliance and the oven, at every age. Kids do the mixing and decorating while you do the cooking.
+
+### Try this tonight: the zip-top piping bag
+
+1. Stand a zip-top bag in a tall glass and fold the top over the rim, so it stays open while a kid spoons batter in.
+2. Squeeze out the air, seal it and snip a small corner. Start small; you can always cut a bigger hole.
+3. Pipe into a cold pan or a mold, filling only as far as your recipe says. Little hands get far less batter on the counter than with a spoon.
+
+It works for donut batter, pancake batter and frosting, and it's the easiest way to let a kid fill a donut pan.
 
 ### Donut maker or donut pan: which one fits your family?
 
 ![Child decorating mini donuts with sprinkles](images/kitchen-gadgets-treats-with-kids-1.jpg)
 
-The [Dash Express mini donut maker](https://amzn.to/4hRGJxR) cooks a batch of mini donuts on the counter, no oven needed. Countertop batches suit short attention spans. Skip it if you want kids to fill the cavities themselves, since the plates are hot when batter goes in.
+The [Dash Express mini donut maker](https://amzn.to/4hRGJxR) cooks a batch of mini donuts on the counter, no oven needed. Countertop batches suit short attention spans.
 
-The [Bellemain nonstick donut pan (6-cavity, 2-pack)](https://amzn.to/3VzeOLz) goes in the oven and gives you twelve cavities across the two pans. Because the pan starts cold, kids can spoon or pipe batter into it before you slide it in. Skip it if you don't want to turn the oven on.
+**Already have one?** A muffin tin can't make a ring, and a regular waffle iron makes one big waffle; this maker turns the same kind of batter into small donut rings. Skip it if you want kids to fill the cavities themselves, since the plates are hot when batter goes in.
+
+Many people don't know you can bake donuts in a regular oven with a pan made for it. The [Bellemain nonstick donut pan (6-cavity, 2-pack)](https://amzn.to/3VzeOLz) gives you twelve cavities across the two pans. Because the pan starts cold, kids can spoon or pipe batter into it before you slide it in. Skip it if you don't want to turn the oven on.
 
 ### What else turns breakfast into a project?
 
@@ -46,9 +56,9 @@ The [LE TAUCI 6 oz ramekins with lids (set of 4, oven safe)](https://amzn.to/4jC
 
 ![Parent and child mixing waffle batter at the kitchen counter](images/kitchen-gadgets-treats-with-kids-2.jpg)
 
-Every child is different, so use these as starting points and follow each product's manual.
+Use these as starting points and follow each product's manual.
 
-**Ages 3 to 5:** dump in pre-measured ingredients, stir, pick toppings and add sprinkles to cooled donuts. Short jobs work best.
+**Ages 3 to 5:** dump in pre-measured ingredients, stir, pick toppings and add sprinkles to cooled donuts.
 
 **Ages 6 to 8:** measure with cups and spoons, crack eggs into a separate bowl, spoon batter into the cold donut pan and assemble ramekin desserts.
 
@@ -56,7 +66,7 @@ Every child is different, so use these as starting points and follow each produc
 
 ### A sample Saturday-morning plan
 
-1. **Set up (10 minutes):** lay out bowls, spoons and toppings. Kids help choose and pour toppings into small bowls.
+1. **Set up (10 minutes):** lay out bowls, spoons and toppings. Kids pour toppings into small bowls.
 2. **Mix:** kids stir the batter while you preheat the donut maker or waffle maker out of reach.
 3. **Cook:** you fill the hot plates and close the lid. Kids wait at the table and plan their decorations.
 4. **Decorate:** once everything has cooled for a few minutes, kids glaze, sprinkle and stack.

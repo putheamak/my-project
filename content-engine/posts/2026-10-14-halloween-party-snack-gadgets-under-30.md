@@ -29,13 +29,19 @@ I haven't used these myself. I picked them from the listings for treats that can
 - For take-home candy apples: [Candy apple sticks and clear bags (24-pack)](https://amzn.to/4i073G7)
 :::
 
+### Try this tonight: melt chocolate that sets shiny
+
+1. Wipe the bowl and spatula completely dry. Even a drop of water can make melted chocolate seize into a grainy clump.
+2. Melt about two-thirds of the chopped chocolate gently, in short microwave bursts, stirring between each one.
+3. Take it off the heat and stir in the last third until smooth. The unmelted pieces cool it down, so it sets glossy instead of dull and streaky, ready to pour into molds.
+
 ### What Halloween treats can I make the day before?
 
 ![Chocolate skull candies for a Halloween party](images/halloween-party-snack-gadgets-under-30-1.jpg)
 
 Chocolates, cookies and candy apples all hold well overnight.
 
-- [Mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH): fill them with melted chocolate or gummy mix for a tray of tiny skulls. Silicone molds like these can also make spooky ice cubes.
+- [Mini skull silicone molds (2-pack)](https://amzn.to/4jVkIAH): fill them with melted chocolate or gummy mix for a tray of tiny skulls, or water for spooky ice cubes. **Already have one?** An ice cube tray or muffin tin is rigid, so you end up prying; silicone bends, so you push each skull out from the back and the little eye sockets stay sharp.
 - [Pumpkin silicone candy mold (15 cavities)](https://amzn.to/4B4Z0At): small pumpkin candies to sit next to the skulls, and the listing says it's oven safe.
 - [Ann Clark Halloween cookie cutters (set of 7)](https://amzn.to/4ikh1TV): the classic shapes for cut-out sugar cookies. Bake them the day before and decorate once cool.
 
@@ -43,7 +49,7 @@ Chocolates, cookies and candy apples all hold well overnight.
 
 ![Caramel candy apples for Halloween](images/halloween-party-snack-gadgets-under-30-2.jpg)
 
-Melting is the step that trips people up, so a small tool for just that job helps.
+Melting is where things go wrong, and a lot of people don't know there's a little plug-in pot made just for this job.
 
 - [NutriChef 8.8 oz electric chocolate melting pot](https://amzn.to/3UliEHT): a small warmer sold for melting chocolate and keeping it warm for dipping. It gets hot, so an adult should run it.
 - [Candy apple sticks and clear bags (24-pack)](https://amzn.to/4i073G7): dip apples in the melted chocolate or caramel, let them set, then bag them as take-home treats.
@@ -77,7 +83,7 @@ Melting is the step that trips people up, so a small tool for just that job help
 A microwave-safe bowl works in short bursts with stirring. The pot is designed to keep chocolate warm while you fill molds and dip, so it's less likely to thicken halfway through.
 
 #### How do I get chocolate out of silicone molds cleanly?
-Chill until fully set, then press from the back and peel the silicone away.
+Chill until fully set, then press from the back and peel the silicone away. Don't rush it; half-set chocolate leaves bits behind.
 
 #### Are these safe for kids to help with?
 Let kids pipe, decorate and bag. The melting pot and anything out of the microwave should be handled by an adult.
