@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-The opening credits are rolling, and someone is still in the kitchen shaking a bag of microwave popcorn that's half burnt. Movie night at home should be easier than that. A good popper, a few flavors and one tray of snacks get everyone on the couch before the first scene.
+The opening credits are rolling, and someone is still in the kitchen shaking a bag of microwave popcorn that's half burnt. A good popper, a few flavors and one tray of snacks get everyone on the couch before the first scene.
 
 I haven't used these myself. I picked them from the listings for batch size, storage space and whether they need oil or an extra appliance, and say who each one suits.
 
@@ -27,21 +27,29 @@ I haven't used these myself. I picked them from the listings for batch size, sto
 - For the snack spread: [PLASTICPRO 6-section round serving trays](https://amzn.to/4797UPG)
 :::
 
+### Try this tonight: make the seasoning stick
+
+1. Pop the popcorn and tip it into a bowl that's much bigger than the batch, so there's room to toss.
+2. Drizzle a little melted butter or oil over it while you toss with your other hand. Air-popped and oil-free popcorn is dry, and powder slides right off dry kernels.
+3. Sprinkle on a fine seasoning a pinch at a time, tossing between pinches, and taste before adding more.
+
+That's the whole trick behind theater-style flavor, and it works with whatever seasoning you have in the cabinet.
+
 ### Microwave popper or air popper: which one fits your movie night?
 
 ![Bowl of popcorn on the couch for movie night](images/movie-night-snack-gadgets-1.jpg)
 
 Use one rule: buy for your usual crowd size.
 
-The [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8) is the pick for a couple or a solo watcher. Kernels go in the bowl, the bowl goes in the microwave, and it folds flat in a cabinet afterward. The listing says no oil is required. Skip it if you'll be making batch after batch for a group.
+The [Salbree collapsible silicone microwave popcorn popper](https://amzn.to/4zdlRI8) is the pick for a couple or a solo watcher, and plenty of people don't know a bowl like this exists. Kernels go in, the bowl goes in the microwave, and it folds flat in a cabinet afterward. The listing says no oil is required.
 
-The [Dash Fresh Pop electric hot air popcorn maker](https://amzn.to/3VBBfzH) suits families and friends who all want a refill. It's a 16-cup machine that pops straight into a bowl you set underneath, so you can start a second round without waiting on the microwave. Skip it if counter and storage space are tight; it's a bigger appliance than a silicone bowl.
+**Already have one?** If your microwave popcorn comes in bags, the difference is that you pour in plain loose kernels, so you choose how much butter and salt go on. Skip it if you'll be making batch after batch for a group.
 
-You don't need both. Two people get the silicone popper; four people get the air popper.
+The [Dash Fresh Pop electric hot air popcorn maker](https://amzn.to/3VBBfzH) suits families and friends who all want a refill. It's a 16-cup machine that pops straight into a bowl you set underneath, so a second round can start right away. Skip it if counter and storage space are tight; it's a bigger appliance than a silicone bowl.
 
 ### How do you make plain popcorn taste like the theater (or better)?
 
-The [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md) turns one batch into several flavors. Pop one big batch, split it into smaller bowls, and let each person shake on their own flavor. It goes on after popping, so it fits either popper.
+The [Kernel Season's popcorn seasoning variety pack (8 mini jars)](https://amzn.to/4y6l5Md) turns one batch into several flavors. Split a big batch into smaller bowls and let each person shake on their own. It goes on after popping, so it fits either popper.
 
 Skip it if your household only ever wants butter and salt.
 

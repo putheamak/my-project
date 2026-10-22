@@ -29,9 +29,15 @@ I haven't used these myself. I picked them from the listings for microwave-only 
 
 ### What can replace a frying pan when you have no stove?
 
-The [microwave grill pan with a lid](https://amzn.to/47vJjVd) is a grill pan for bacon and burgers. The lid is there to keep grease off the inside of your microwave, which matters a lot in a shared dorm kitchen. Skip it if your building bans cooking raw meat in common-area microwaves.
+The [microwave grill pan with a lid](https://amzn.to/47vJjVd) is a grill pan for bacon and burgers. **Already have one?** Most people already do bacon on a plate under paper towels; a pan with a lid keeps the grease in the pan and off the microwave walls, which matters in a shared dorm kitchen, and it handles burger patties too. Skip it if your building bans cooking raw meat in common-area microwaves.
 
-The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) is designed for grilled cheese and paninis, turning bread, cheese and leftovers into a hot sandwich without a stove. Skip it if you expect a crunchy, golden crust.
+Plenty of people don't know there's a sandwich press made for the microwave. The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) turns bread, cheese and leftovers into a hot grilled cheese or panini without a stove. Skip it if you expect a crunchy, golden crust.
+
+### Try this tonight: scrambled eggs in a mug
+
+1. Grease a microwave-safe mug, crack in two eggs, add a splash of milk and whisk with a fork.
+2. Microwave for about 30 seconds, stir, then keep going in short bursts, stirring each time, until the eggs are almost set.
+3. Let the mug sit for a minute. The eggs finish cooking on their own, so they stay soft instead of rubbery.
 
 ### How do I cook eggs with only a microwave?
 
@@ -41,7 +47,7 @@ The [2-egg microwave poacher](https://amzn.to/46YdVyB) does one thing: two poach
 
 ### What can I actually cook this week?
 
-Here's a five-day menu that uses only these four gadgets plus groceries that need no cooking (bread, tortillas, cheese, bagged salad, canned beans, microwave rice cups).
+Here's a five-day menu using only these four gadgets plus groceries that need no cooking (bread, tortillas, cheese, bagged salad, canned beans, microwave rice cups).
 
 - **Monday:** Poached eggs on bread with bagged salad on the side (egg poacher).
 - **Tuesday:** Bacon, lettuce and tomato sandwiches (grill pan).
@@ -55,9 +61,9 @@ Cook raw meat until it's fully done all the way through. A food thermometer take
 
 ### What won't a microwave do?
 
-Be honest with yourself here. A microwave heats food; it doesn't brown it. Burgers come out gray rather than seared, bacon texture depends on thickness and your microwave's power, and grilled cheese gets melty but not crisp.
+A microwave heats food; it doesn't brown it. Burgers come out gray rather than seared, bacon texture depends on thickness and your microwave's power, and grilled cheese gets melty but not crisp.
 
-Batch size is the other limit. These tools cook for one or two people, so a pot of pasta for four is still a stove job.
+And these tools cook for one or two people, so pasta for four is still a stove job.
 
 ### Which no-stove gadget should I get first?
 

@@ -27,21 +27,29 @@ I haven't used these myself. I picked them from the listings for one-portion cap
 - For noodles with no pot: [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8)
 :::
 
+### Try this tonight: freeze rice in single portions
+
+1. While the rice is still warm, scoop one portion into a zip-top freezer bag.
+2. Press it flat, squeeze out the air and seal it, then freeze it lying flat once it's cooled a little, so it doesn't sit out for hours.
+3. On a busy night, open the bag a crack and microwave it with a splash of water until it's steaming hot.
+
+A small rice cooker makes this easy: cook one batch, eat half, freeze half.
+
 ### What's the easiest way to cook rice and noodles for one?
 
 ![A small bowl of rice for one person](images/kitchen-gadgets-for-cooking-for-one-1.jpg)
 
-The [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY) comes first for three reasons. It covers lunch and dinner, not just one meal. A 2-cup cooker makes one or two portions, so you get tonight's rice bowl and maybe tomorrow's lunch, not a vat that sits in the fridge. And a rice cooker is the kind of tool you switch on and leave, instead of watching a pot.
+The [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY) comes first because it covers lunch and dinner, not just one meal. A 2-cup cooker makes one or two portions, so you get tonight's rice bowl and maybe tomorrow's lunch, not a vat that sits in the fridge. **Already have one?** If you cook rice in a saucepan now, the difference is the watching: a rice cooker finishes the job on its own, so you're not lifting the lid or scraping a scorched pot while you deal with the rest of dinner.
 
-Rice also pairs with almost anything: a fried egg, leftover vegetables, canned beans. The other picks each cover one meal; this one turns whatever is in the fridge into dinner. Skip it if you rarely eat rice or grains.
+Rice also pairs with almost anything: a fried egg, leftover vegetables, canned beans. Skip it if you rarely eat rice or grains.
 
-For noodle nights, the [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8) is a slim container made for cooking one block of ramen in the microwave. You cook it, then eat from it. Skip it if you want big pasta portions; it's shaped for a single ramen block.
+For noodle nights, here's something many people don't know exists: the [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8), a slim container made for cooking one block of ramen in the microwave. You cook it, then eat from it. Skip it if you want big pasta portions; it's shaped for a single ramen block.
 
 ### How do you make breakfast for one without a pile of dishes?
 
 ![A single small waffle on a plate](images/kitchen-gadgets-for-cooking-for-one-2.jpg)
 
-The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one small waffle at a time on a 4-inch surface. Mix a small batch of batter and there's no leftover stack to freeze.
+The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one small waffle at a time on a 4-inch surface. Mix a small batch of batter and you're not freezing a leftover stack.
 
 For eggs on the stove, the [SENSARTE 8-inch ceramic nonstick frying pan](https://amzn.to/4j69CZf) is a one-person size. An 8-inch pan suits two eggs or a small omelet, and it stores easily in a small cabinet. Skip it if you already own a small nonstick pan you like.
 

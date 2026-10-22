@@ -27,18 +27,26 @@ I haven't used these myself. I picked them from the listings for one-button or d
 - For a small stew or chili: [bella 1.5 qt slow cooker with 3 heat settings](https://amzn.to/4rZWLKM)
 :::
 
+### Try this tonight: rinse and rest your rice
+
+1. Put the rice in a bowl, cover it with cold water, swirl with your hand and pour off the cloudy water. Do it two or three times until the water looks mostly clear.
+2. Drain well, then add fresh water following your cooker's measuring lines or the rice package. Rinsing washes off loose starch, which is what makes rice gummy.
+3. When it's done, leave the lid closed for about 10 minutes before fluffing with a fork. The grains firm up and stop sticking to the paddle.
+
+It works in a plain pot too, but a rice cooker lets you skip the timer-watching entirely.
+
 ### What does a load-and-leave morning look like?
 
 ![Coffee maker brewing in a morning kitchen](images/hands-off-kitchen-gadgets-under-30-1.jpg)
 
-Here's one way to run two gadgets while you get ready, without standing over either:
+Here's one way to run two gadgets while you get ready:
 
 - **6:50** Rinse rice, add water, start the rice cooker. Vegetables go in the steaming basket.
 - **6:55** Fill the coffee maker with water and grounds, press brew.
 - **7:00** Shower and get dressed.
 - **7:20** Pour coffee, pack rice and vegetables for lunch, then switch both appliances off before you leave.
 
-Neither needs stirring, but follow each manual and your recipe's times. The slow cooker fits a day at home better than a long workday: it's a manual model, so it keeps heating until you switch it off. Pick a recipe whose cook time matches how long it will run, and stay in earshot.
+Neither needs stirring, but follow each manual. The slow cooker suits a day at home better than a long workday: it's a manual model, so it keeps heating until you switch it off.
 
 ### Which coffee maker can brew while I get ready?
 
@@ -50,17 +58,17 @@ Skip it if you only ever want one cup; a 12-cup pot is built for a household or 
 
 The [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBVk) cooks rice for a few people or a few days of lunches. Vegetables steam in the basket at the same time, so one appliance covers two parts of the meal.
 
+**Already have one?** If you cook rice in a pot on the stove, the difference is that a rice cooker frees the burner and nobody has to watch for boil-overs. Most rice cookers also drop to a warm setting on their own when the rice is done.
+
 The [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) is the small option for one or two people. The pot comes out for washing at the sink. Skip it if you batch-cook for the week; it's sized for a meal, not a meal plan.
 
 ### Which small slow cooker is right for one or two people?
 
 ![Stew in a small slow cooker](images/hands-off-kitchen-gadgets-under-30-2.jpg)
 
-A 1.5-quart slow cooker needs little attention once the lid is on: add ingredients, pick a setting, and let soup, stew, chili or a dip cook for the time your recipe gives.
-
 The [bella 1.5 qt manual slow cooker with 3 heat settings (Surf)](https://amzn.to/4rZWLKM) is sized for small batches. Three heat settings let you match the cook to your recipe. It's manual, so you switch it off yourself when the time is up; skip it if you want a timer that turns itself off.
 
-For a quicker evening without the stove, the [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT) cooks a pasta portion in the microwave, which stops on its own. You set the table while it runs, then eat from the same bowl.
+Lots of people don't know there's a bowl made just for cooking pasta in the microwave. The [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT) is one, and the microwave stops on its own, so you can set the table while it runs and eat from the same bowl.
 
 ### How do these compare?
 

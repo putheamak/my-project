@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-It's 3 p.m. on Sunday, a pot of rice is going, and you're still on onion number two with four empty containers lined up behind you. That's the moment most meal prep plans quietly die. The fix is rarely a new recipe; it's taking the chopping and portioning off your hands.
+It's 3 p.m. on Sunday, a pot of rice is going, and you're still on onion number two with four empty containers lined up behind you. That's where most meal prep plans quietly die. The fix is rarely a new recipe; it's taking the chopping and portioning off your hands.
 
 I haven't used these myself. I picked them from the listings for batch size, how they store in the fridge or freezer and how much counter space they need, and say who each one suits.
 
@@ -27,27 +27,35 @@ I haven't used these myself. I picked them from the listings for batch size, how
 - For freezing soup in single servings: [Silicone freezer tray with lid](https://amzn.to/4y4ZmED)
 :::
 
+### Try this tonight: freeze soup in flat portions
+
+1. Let the soup cool a little, but get it chilled within about two hours.
+2. Ladle single servings into freezer bags, squeeze out the air and lay them flat on a sheet pan to freeze.
+3. Once they're solid, stand the bags up like files. A flat block thaws much faster than a deep tub, and you grab one serving, not the whole batch.
+
+If bags feel fiddly, the silicone freezer tray below does it in neat blocks.
+
 ### What cuts the chopping time on prep day?
 
 ![Chopped vegetables on a cutting board for meal prep](images/kitchen-gadgets-under-30-meal-prep-1.jpg)
 
-[Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj): it's designed to turn half an onion, a pepper or a handful of herbs into a dice with a few pulls, with no plug and only a bowl and blade to rinse. It suits anyone prepping a few cups of veg at a time. Skip it if you batch whole bags of carrots, since the small bowl means lots of refills.
+[Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj): it's designed to turn half an onion, a pepper or a handful of herbs into a dice with a few pulls, with no plug and only a bowl and blade to rinse. **Already have one?** A good knife is still faster for one onion, and a food processor wins for big batches. This sits in between: no outlet, no big bowl to wash, and it's ready for half a pepper in seconds. Skip it if you batch whole bags of carrots, since the small bowl means lots of refills.
 
 [BLACK+DECKER 1.5-cup electric chopper](https://amzn.to/4dOMkna): same job at the press of a button, handy for salsa bases and garlic-herb mixes. Skip it if outlet space near your counter is already taken.
 
-[Royal Craft Wood cutting boards](https://amzn.to/47wW5CV): a bigger board means you can chop a week of vegetables without stopping to scrape it clear. Good for anyone who preps on one stretch of counter. Skip it if you want boards that go in the dishwasher, because wood needs hand washing and an occasional oiling.
+[Royal Craft Wood cutting boards](https://amzn.to/47wW5CV): a bigger board means you can chop a week of vegetables without stopping to scrape it clear. Skip it if you want boards that go in the dishwasher, because wood needs hand washing and an occasional oiling.
 
 ### How do I portion meals so they actually last the week?
 
 [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF): glass with locking lids, sold as a 5-pack, so one set covers Monday to Friday. Glass doesn't hold tomato stains or curry smells the way plastic can. Skip it if you carry lunch on a long commute and every ounce counts.
 
-[Etekcity rechargeable kitchen scale](https://amzn.to/4hqXAsj): weigh out protein and grains so container five isn't half the size of container one. It charges by USB and is waterproof, so you can wipe it down after raw chicken. Skip it if you're happy eyeballing portions.
+[Etekcity rechargeable kitchen scale](https://amzn.to/4hqXAsj): weigh out protein and grains so container five isn't half the size of container one. It charges by USB and is waterproof, so you can wipe it down after raw chicken.
 
 ### What's the easiest way to freeze single servings?
 
 ![Soup portions frozen in a silicone tray](images/kitchen-gadgets-under-30-meal-prep-2.jpg)
 
-[Silicone freezer tray with lid](https://amzn.to/4y4ZmED): a silicone tray with a lid for freezing soup, chili or cooked rice in portion-size blocks, then popping one out on a busy night. Flexible silicone is meant to let frozen blocks release more easily than a rigid tray.
+[Silicone freezer tray with lid](https://amzn.to/4y4ZmED): lots of people don't know there are freezer trays made for whole portions, not just ice. You freeze soup, chili or cooked rice in serving-size blocks, then pop one out on a busy night; flexible silicone lets them release more easily than a rigid tray.
 
 [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r): smaller cubes for pesto, stock and sauces, so you thaw two tablespoons instead of a whole jar. Skip it if you only freeze full meals; the bigger tray above covers that.
 
@@ -75,7 +83,7 @@ Glass meal prep containers are generally fine for reheating, but lids are often 
 
 #### How long does prepped food keep in the fridge?
 
-Cooked grains, roasted vegetables and cooked proteins are commonly treated as a three-to-four-day window. Many people fill the fridge for the first half of the week and freeze the rest, so follow your local food safety guidance rather than guessing.
+Cooked grains, roasted vegetables and cooked proteins are commonly treated as a three-to-four-day window, so fridge the first half of the week, freeze the rest and follow your local food safety guidance.
 
 ### Ready for an easier Sunday?
 

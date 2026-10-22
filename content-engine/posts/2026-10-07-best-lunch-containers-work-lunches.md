@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-It's 7:40am, your keys are missing, and lunch is still a pile of leftovers in a pot. Packing at 9pm the night before fixes that, but only if the containers stack in the fridge and the bag is ready to grab. This list covers the gear that carries lunch from your kitchen to your desk.
+It's 7:40am, your keys are missing, and lunch is still a pile of leftovers in a pot. Packing at 9pm the night before fixes that, but only if the containers stack in the fridge and the bag is ready to grab.
 
 I haven't used these myself. I picked them from the listings for portion size, compartments that keep food apart, and how easily they carry to work, and say who each one suits.
 
@@ -27,11 +27,19 @@ I haven't used these myself. I picked them from the listings for portion size, c
 - For carrying everything cold: [Lifewit insulated lunch bag (20L)](https://amzn.to/4zfg0lN)
 :::
 
+### Try this tonight: pack a lunch that won't go soggy
+
+1. Spoon hot leftovers into the container and leave the lid off until the steam stops, then get it into the fridge; a lid on steaming food traps water that drips back down.
+2. Keep wet and dry apart: sauce or dressing on one side, rice, crackers or bread on the other.
+3. Put the ice packs in the freezer and set the bag by your keys, so the morning is just grab and go.
+
+Step two is exactly what a [2-compartment container](https://amzn.to/4j7VLlo) is built for.
+
 ### Which containers keep last night's dinner from turning into mush?
 
 ![Packed meal prep lunch containers](images/best-lunch-containers-work-lunches-1.jpg)
 
-The [Rubbermaid Brilliance 2-compartment meal prep containers (2.85 cup, 5-pack)](https://amzn.to/4j7VLlo) do most of the work here. Two compartments keep roasted vegetables next to the rice instead of on top of it. Five containers match a five-day work week, so you can fill them in a row on Sunday night.
+The [Rubbermaid Brilliance 2-compartment meal prep containers (2.85 cup, 5-pack)](https://amzn.to/4j7VLlo) do most of the work here. Two compartments keep roasted vegetables next to the rice instead of on top of it. **Already have one?** Most kitchens have a stack of single-compartment leftover boxes; the divider is what stops a saucy main from soaking into the rice before noon. Five containers match a five-day work week.
 
 The [Umami bento box for adults](https://amzn.to/4hAa8xD) suits people who want one box with sections for a main and a couple of sides. Check the listing for what it's designed to hold before you pack anything runny. Skip it if you batch-cook for the whole week; the 5-pack fits that routine better.
 
@@ -41,11 +49,11 @@ Cold-lunch people should look at the [S'well stainless steel salad bowl kit (64 
 
 ![Insulated lunch bag ready for work](images/best-lunch-containers-work-lunches-2.jpg)
 
-The [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) is roomy on purpose. It's sized for a main container, a drink and a snack together. Skip it if you only ever carry one sandwich; a smaller bag will do.
+The [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) is roomy on purpose. It fits a main container, a drink and a snack. Skip it if you only ever carry one sandwich; a smaller bag will do.
 
-Add the [Fit & Fresh Cool Coolers XL slim ice packs (4-pack)](https://amzn.to/4zprnI5) for the commute. With four, two can freeze while two ride in the bag. They matter most if your office has no fridge or your trip is long.
+Many people don't realize ice packs come in slim, flat shapes made to slide in next to a container. Add the [Fit & Fresh Cool Coolers XL slim ice packs (4-pack)](https://amzn.to/4zprnI5) for the commute. With four, two can freeze while two ride in the bag. They matter most if your office has no fridge or your trip is long.
 
-Keep the [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) in the bag for good. Fork and spoon live in a case, so there's no plastic cutlery hunt in the break room.
+Keep the [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) in the bag for good, so there's no plastic fork hunt in the break room.
 
 Planning to cook at work instead? My [microwave gadgets for office lunch](https://homepicksunder30.com/blog/posts/microwave-gadgets-office-lunch/) cover that side.
 

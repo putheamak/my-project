@@ -14,7 +14,7 @@ status: "published"
 
 As an Amazon Associate I earn from qualifying purchases.
 
-It's 7:40, your keys are in one hand, and breakfast is a granola bar you'll eat at a red light. Most rushed mornings don't need a faster recipe. They need breakfast that was mostly made on Sunday.
+It's 7:40, your keys are in one hand, and breakfast is a granola bar you'll eat at a red light. Rushed mornings don't need a faster recipe. They need breakfast that was mostly made on Sunday.
 
 I haven't used these myself. I picked them from the listings for make-ahead use, single-serving sizes and fridge storage, and say who each one suits.
 
@@ -27,19 +27,27 @@ I haven't used these myself. I picked them from the listings for make-ahead use,
 - For weekend breakfast sandwiches: [3.5-inch egg rings with handles](https://amzn.to/4iYMkVd)
 :::
 
+### Try this tonight: a basic jar of overnight oats
+
+1. In any jar or container, stir together equal parts rolled oats and milk, say half a cup of each. A spoon of yogurt or chia seeds makes it thicker.
+2. Add a pinch of salt and a little honey or maple syrup, and scrape the spoon along the bottom so no dry oats hide there.
+3. Lid on, fridge overnight. Add fruit in the morning so it doesn't go soggy.
+
+If tomorrow's jar was a keeper, the matching jars below make it a weekly habit.
+
 ### What can I prep on Sunday so weekday breakfast takes two minutes?
 
 ![Overnight oats in glass jars](images/kitchen-gadgets-under-30-quick-breakfasts-1.jpg)
 
-The idea is simple. Spend half an hour on Sunday, then each weekday morning is grab, reheat or pour.
+Spend half an hour on Sunday, and each weekday morning is grab, reheat or pour.
 
 - **Sunday:** fill three or four jars with overnight oats and bake one tray of egg cups.
 - **Weekdays:** grab a jar, or reheat two egg cups.
 - **Night before:** mix iced coffee or juice in a pitcher so the morning drink is already done.
 
-[16 oz overnight oats mason jars](https://amzn.to/4dlE3XO) are a good single-serving size for oats, yogurt parfaits or chia pudding. The lid goes on, the jar goes in the fridge, and Wednesday-you just grabs one. Skip them if you never eat cold breakfasts.
+[16 oz overnight oats mason jars](https://amzn.to/4dlE3XO) are a good single-serving size for oats, yogurt parfaits or chia pudding. Wednesday-you just grabs one. **Already have one?** A stack of mismatched tubs works, but a set of same-size jars means every serving is the same amount and every lid actually fits. Skip them if you never eat cold breakfasts.
 
-[12-cup silicone egg bite molds](https://amzn.to/4z8zubB) let you bake a full tray of egg cups at once, then reheat a couple each morning. Silicone is designed to release the eggs without scraping. Skip it if your oven is already packed on Sundays.
+Lots of people don't know [12-cup silicone egg bite molds](https://amzn.to/4z8zubB) exist; they're made for baking a full tray of egg cups at once, then reheating a couple each morning. Silicone is designed to release the eggs without scraping. Skip it if your oven is already packed on Sundays.
 
 A [64 oz mason jar pitcher](https://amzn.to/4zdQpd4) handles the drink side: cold brew, iced coffee or juice mixed the night before. It's for people who'd otherwise stop for a drink on the way in.
 
@@ -47,7 +55,7 @@ A [64 oz mason jar pitcher](https://amzn.to/4zdQpd4) handles the drink side: col
 
 ### What about slower weekend mornings?
 
-[3.5-inch egg rings with handles](https://amzn.to/4iYMkVd) shape fried eggs into neat rounds that fit an English muffin, so a homemade breakfast sandwich looks like the drive-through version. The handles let you lift the ring off the hot pan. Skip them if you're fine with free-form eggs.
+[3.5-inch egg rings with handles](https://amzn.to/4iYMkVd) shape fried eggs into neat rounds that fit an English muffin, so a homemade breakfast sandwich looks like the drive-through version. The handles let you lift the ring off the hot pan.
 
 | Product | Best for | Skip it if |
 |---|---|---|
@@ -59,7 +67,7 @@ A [64 oz mason jar pitcher](https://amzn.to/4zdQpd4) handles the drink side: col
 ### Frequently asked questions
 
 #### Do I need both the jars and the egg bite molds?
-No. Start with whichever matches what you already like to eat: sweet and cold means jars, savory and warm means molds. Add the other later if you get tired of one.
+No. Start with whichever matches what you already like to eat: sweet and cold means jars, savory and warm means molds.
 
 #### Can silicone egg bite molds go in the dishwasher?
 Silicone molds generally can, but check the care instructions on the listing first. A short soak in warm, soapy water loosens baked-on egg if you wash by hand.

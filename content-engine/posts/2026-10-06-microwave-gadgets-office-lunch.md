@@ -18,7 +18,7 @@ It's 12:40, there are three people ahead of you at the break room microwave, and
 
 I haven't used these myself. I picked them from the listings for a lid or cover that keeps a shared microwave clean, a size that fits a desk drawer or work bag, and cooking and eating from the same container, and say who each one suits.
 
-**Start here:** most people should get the [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT). It handles noodles or pasta, you eat from it at your desk, and it's one thing to rinse at the break room sink. Pick the [MAX microwave sandwich maker](https://amzn.to/46YfhcF) instead if a hot grilled cheese sounds better than noodles.
+**Start here:** most people should get the [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT). It handles noodles or pasta, you eat from it at your desk, and it's one thing to rinse at the break room sink. **Already have one?** Most people microwave noodles in a cereal bowl and wipe up the overflow; a 45 oz bowl leaves room for the water to bubble up without spilling onto the turntable. Pick the [MAX microwave sandwich maker](https://amzn.to/46YfhcF) instead if a hot grilled cheese sounds better than noodles.
 
 :::picks
 - For noodles or pasta in one bowl: [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT)
@@ -28,15 +28,23 @@ I haven't used these myself. I picked them from the listings for a lid or cover 
 - For bacon or a burger patty: [Microwave grill pan with lid](https://amzn.to/47vJjVd)
 :::
 
+### Try this tonight: reheat leftovers in a ring
+
+1. Spread tonight's leftovers in a ring around the edge of the bowl and leave the middle empty, because the center is the part that stays cold.
+2. Cover loosely and heat for half the time you'd normally use, then stir.
+3. Finish heating and let it stand for a minute before you eat, since the heat keeps spreading through the food.
+
+Practice on tonight's dinner and tomorrow's lunch line moves faster. A roomy bowl like the [Layron 45 oz bowl](https://amzn.to/3W7FOBT) gives you space to stir without spilling.
+
 ### What can I cook for lunch in an office microwave?
 
 ![Noodle lunch at an office desk](images/microwave-gadgets-office-lunch-1.jpg)
 
-Noodles and pasta are the easiest place to start. Both cook in water, so a container with the right shape does most of the work, and you can bring the dry noodles from home.
+Noodles and pasta are the easiest place to start. Both cook in water, so the right container does most of the work.
 
 The [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT) is the flexible pick. At 45 oz it has room for a bigger serving of noodles or pasta, and it doubles as the bowl you eat from, so there's no plate to borrow from the office cabinet. Skip it if your desk drawer is tight on space, since a large bowl takes more room than a ramen-sized cooker.
 
-The [Rapid Ramen Cooker (microwave ramen, 2-pack)](https://amzn.to/4AMN4D8) is shaped to hold one standard block of ramen. Add the noodles and water, microwave, then eat straight from it. Its slim shape is easier to keep in a drawer, and the 2-pack means you can leave one at work and keep one at home. Skip it if you want pasta or a bigger portion.
+The [Rapid Ramen Cooker (microwave ramen, 2-pack)](https://amzn.to/4AMN4D8) is shaped to hold one standard block of ramen. Add the noodles and water, microwave, then eat straight from it. It's slim enough for a drawer, and with the 2-pack you can leave one at work and keep one at home. Skip it if you want pasta or a bigger portion.
 
 ### Can I make a hot sandwich without a stove or press?
 
@@ -46,11 +54,11 @@ Yes. The [MAX microwave sandwich maker (grilled cheese and panini press, silicon
 
 ![Office break room microwave](images/microwave-gadgets-office-lunch-2.jpg)
 
-Eggs and bacon are what most people hesitate over in a shared microwave. A covered gadget keeps the splatter inside the container instead of on the ceiling of the microwave your coworkers use next.
+Eggs and bacon are what most people hesitate over in a shared microwave. A covered gadget keeps the splatter off the ceiling of the microwave your coworkers use next.
 
 The [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) shapes round egg patties and small omelets. If you build your own breakfast-for-lunch sandwiches, those patties are sized for an English muffin or bagel. Skip it if you rarely eat eggs at lunch.
 
-The [microwave grill pan with lid (nonstick, for bacon and burgers)](https://amzn.to/47vJjVd) is designed to cook bacon and burger patties with the lid on. That lid is the point: grease stays in the pan, not on the shared turntable. Skip it if your office has a "no cooking raw meat" rule, which some break rooms do.
+Many people don't know you can get a grill pan made just for the microwave. The [microwave grill pan with lid (nonstick, for bacon and burgers)](https://amzn.to/47vJjVd) is designed to cook bacon and burger patties with the lid on. That lid is the point: grease stays in the pan, not on the shared turntable. Skip it if your office has a "no cooking raw meat" rule, which some break rooms do.
 
 ### How do these compare?
 
@@ -66,7 +74,7 @@ The [microwave grill pan with lid (nonstick, for bacon and burgers)](https://amz
 
 #### Will these work in any office microwave?
 
-Office microwaves vary in power, so cooking times can differ from what you're used to at home. Start with a shorter time, check, and add more in short bursts. Make sure the gadget fits on the turntable before you leave it at work.
+Office microwaves vary in power, so start with a shorter time than at home and add more in short bursts. Make sure the gadget fits on the turntable before you leave it at work.
 
 #### How do I keep a shared microwave line moving?
 

@@ -27,21 +27,25 @@ I haven't used these myself. I picked them from the listings for size, no plug o
 - For cutting instead of chopping: [KitchenAid all-purpose shears](https://amzn.to/4hCWIzA)
 :::
 
+### Try this tonight: dice an onion that holds together
+
+1. Cut the onion in half through the root, peel it, and leave the root end on. That root keeps the layers attached while you cut.
+2. Lay a half flat, make lengthwise cuts toward the root without cutting through it, then slice across. The dice falls off the knife.
+3. Need three onions, not one? Quarter them roughly and let a pull chopper do the fine work.
+
 ### What chops vegetables the fastest without a food processor?
 
 ![Diced onion and peppers on a wooden cutting board](images/kitchen-gadgets-under-30-chopping-prep-1.jpg)
 
-The [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj) is the cord-pull kind: drop in rough chunks, pull a few times, and you have a diced pile. No plug, no motor, nothing to assemble, and the 2-cup size fits one onion or a couple of peppers. Skip it if you regularly cook soup for a crowd.
+The [Brieftons 2-cup manual pull chopper](https://amzn.to/4AOlfuj) is the cord-pull kind: drop in rough chunks, pull a few times, and you have a diced pile. The 2-cup size fits one onion or a couple of peppers. **Already have one?** Most kitchens have a knife or a food processor; a pull chopper sits in between, so a few pulls give a coarse chop and a few more give a fine mince, with no plug and no big bowl to wash. Skip it if you regularly cook soup for a crowd.
 
-For bigger jobs, the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) presses vegetables through a grid for even dice and also slices. It suits anyone who preps a week of lunches or makes salsa by the bowl. Skip it if you're short on cabinet space, since it has more parts to store.
-
-A food processor still wins on volume, like hummus or shredded cheese. For one to four people, though, a manual chopper is faster overall because there's no bowl, lid and base to set up and wash.
+For bigger jobs, the [Fullstar Pro vegetable chopper and mandoline](https://amzn.to/3VpUE6M) presses vegetables through a grid for even dice and also slices. It's for anyone who preps a week of lunches or makes salsa by the bowl. Pass on it if cabinet space is tight, since there are more parts to store.
 
 ### Which small prep tools save the most time?
 
-The [FUHUY Y-shaped and I-shaped peeler set](https://amzn.to/4xW1s9z) gives you both peeler styles, so you can see which grip you like. Y-peelers take wide strokes that make short work of carrots, potatoes and squash.
+The [FUHUY Y-shaped and I-shaped peeler set](https://amzn.to/4xW1s9z) gives you both peeler styles, so you can see which grip you like. **Already have one?** The swivel peeler in most drawers is the I-shape; a Y-peeler holds the blade crosswise like a little razor, so you pull long, wide strokes down a carrot or squash instead of short scrapes.
 
-[KitchenAid all-purpose shears](https://amzn.to/4hCWIzA) quietly replace a knife and board for a dozen jobs: trimming chicken, snipping bacon, cutting pizza, opening packaging. Skip them if you already own sturdy shears.
+[KitchenAid all-purpose shears](https://amzn.to/4hCWIzA) take over the knife-and-board jobs that don't need one: trimming chicken, snipping bacon, cutting pizza, opening packaging. If you already own sturdy shears, you're set.
 
 A [304 stainless steel garlic press](https://amzn.to/4xW41Zr) minces a clove without sticky fingers or a garlic-smelling board. Skip it if you prefer sliced garlic.
 
@@ -49,18 +53,16 @@ A [304 stainless steel garlic press](https://amzn.to/4xW41Zr) minces a clove wit
 
 ![Chopped vegetables being moved with a bench scraper](images/kitchen-gadgets-under-30-chopping-prep-2.jpg)
 
-The [Amazon Basics stainless bench scraper](https://amzn.to/4ybHxUs) is designed to scoop chopped piles off the board and into the pan in one move. Skip the scraper if you only chop small amounts.
+Plenty of home cooks don't know the [Amazon Basics stainless bench scraper](https://amzn.to/4ybHxUs) exists outside a bakery. It's a flat steel blade with a handle that scoops a whole chopped pile off the board and into the pan in one move, instead of chasing bits with the knife edge (which also dulls it). Not worth it if you only chop small amounts.
 
 ### What order should I buy these in?
 
-Starting from nothing, this order puts the biggest time savers first:
-
 1. **Pull chopper.** The single biggest weeknight time saver: start with the [Brieftons pull chopper](https://amzn.to/4AOlfuj).
-2. **Peeler set.** Used constantly, and a set means a spare is usually clean: the [FUHUY peeler set](https://amzn.to/4xW1s9z).
+2. **Peeler set.** You'll reach for it constantly: the [FUHUY peeler set](https://amzn.to/4xW1s9z).
 3. **Kitchen shears.** The [KitchenAid shears](https://amzn.to/4hCWIzA) take over small cutting jobs.
 4. **Garlic press.** Worth it once you cook with garlic most nights.
 5. **Big dicer with mandoline.** Add the Fullstar Pro when you start batch prepping, making slaws or roasting trays of potatoes.
-6. **Bench scraper.** A small upgrade that makes everything else smoother.
+6. **Bench scraper.** It takes almost no drawer space and speeds up every board you clear.
 
 | Product | Best for | Skip it if |
 |---|---|---|
