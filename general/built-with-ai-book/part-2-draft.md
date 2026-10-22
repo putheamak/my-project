@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v7, 22 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v8, 22 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -93,13 +93,13 @@ That is all. In the next chapter, we turn to the most important skill of all, on
 
 ### Two halves of one solution
 
-Long before I built anything with AI on my own, I worked alongside a young colleague on a problem that taught me more than I understood at the time.
+Long before I built anything with AI on my own, I worked alongside a young colleague on a problem that taught me far more than I understood at the time.
 
 He was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. He wrote code with confidence, particularly in Python and JavaScript, and he worked comfortably alongside AI tools. When the AI made a mistake, he could usually trace the faulty line and correct it himself, saving the hours a beginner would have spent going round in circles. On paper, he was precisely the kind of person every company wants in the age of AI.
 
 Yet when he was asked to build an automated call plan for the sales team, a system to decide which customers each salesperson should call and when, he struggled. The difficulty was not the code; it was the work itself. He had never been a salesperson. He did not know how plans were made in practice, which customers mattered most, or why a schedule that looked perfect on a screen would collapse on a real Monday morning.
 
-I was his opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were actually made. But I could not write the code myself, and at that time my experience with AI was still limited.
+In many ways, I was his opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were actually made. But I could not write the code myself, and at that time my experience with AI was still limited.
 
 Neither of us could have solved the problem alone. Together, we could. I explained what really happened on the ground: where plans broke down, what salespeople needed, which exceptions mattered. He translated those explanations into instructions that he and the AI could act upon. Over several weeks, as we exchanged knowledge, frustrations and lessons, the system began to work.
 
@@ -109,7 +109,7 @@ That is the central lesson of this chapter, and perhaps of this entire book:
 
 **Once you understand a problem through real experience, and can explain it in a way the AI understands, the solution is usually within reach.**
 
-Today, I no longer need an engineer at my side for projects like those in this book. I can be the one who understands the problem, and let the AI take the engineer's role. But first, I had to learn how to explain. The lessons that follow show how I learned, through mistakes and small discoveries in my own projects.
+Today, I no longer need an engineer at my side for projects like those in this book. I can be the one who understands the problem, and let the AI take the engineer's role. First, however, I had to learn how to explain. The lessons that follow show how I learned, through mistakes and small discoveries in my own projects.
 
 ### Lesson 1: Describe the problem, not the solution
 
@@ -212,7 +212,7 @@ At my former job, I regularly analysed customer satisfaction surveys in SPSS, ca
 
 So I asked an AI to write a Python program that would carry out the same analysis. I ran it offline, from the Command Prompt on my own computer, and compared its results with those I had produced by hand in SPSS. When the two sets of figures matched, something shifted in me. Work I had always done step by step could now be completed in seconds, and I had built the tool that did it.
 
-It impressed no one else. Nobody in the company even noticed. Yet every larger project I have undertaken since grew from that moment of quiet confidence.
+It impressed no one else; nobody in the company even noticed. Yet every larger project I have undertaken since grew from that moment of quiet confidence.
 
 I believe this is how most people should begin with AI: not with a grand plan, but with a small, useful win that can be finished in an afternoon, checked with your own eyes, and trusted because you have tested it yourself.
 
@@ -298,11 +298,11 @@ Every project in the rest of this book, the booking app, the blog, the video adv
 
 Khmer Parcel opened in Phnom Penh on the 1st of October, 2026. From the very beginning, I knew that our most important customers would be **online sellers**: people selling clothing, cosmetics and food through Facebook, TikTok and Telegram. A single regular seller may send five, ten or even twenty parcels a day. For a young delivery business, ten loyal sellers can mean the difference between merely surviving and genuinely growing.
 
-Online sellers spend their entire day on their phones, answering customers in chat. So when they need a delivery, the natural instinct is to send a quick message to the delivery company as well, very often a short voice message on Telegram or Facebook Messenger.
+Online sellers spend their entire day on their phones, answering customers in chat. So when they need a delivery, their natural instinct is to send a quick message to the delivery company too, most often a short voice message on Telegram or Facebook Messenger.
 
-This is how most delivery bookings in Phnom Penh still work today, and it creates double work. The seller has already described the parcel once, by voice. Then someone at the delivery company has to listen to each message, ask follow-up questions, and enter every booking into the company's system by hand, one at a time. At Khmer Parcel, we do exactly the same today. Every booking is handled twice, and every time a detail is typed again, there is a new chance for a wrong address or a missing phone number.
+That is still how most delivery bookings in Phnom Penh are made, and it creates a hidden cost: double work. The seller has already described the parcel once, by voice. Someone at the delivery company must then listen to each message, ask follow-up questions and enter every booking into the company's system by hand, one at a time. At Khmer Parcel, we work this way too. Each booking is handled twice, and every time a detail is retyped, a wrong address or a missing phone number becomes a little more likely.
 
-I wanted two things. Sellers should be able to book in seconds without leaving the app they already use, and every booking should reach our office in the same clear, complete format.
+My goal was twofold. Sellers should be able to book in seconds without leaving the app they already use, and every booking should reach our office in the same clear and complete format, ready to act on.
 
 ### Why Telegram, and not a new app
 
@@ -354,7 +354,7 @@ A few seconds later, the booking appeared in our office group: complete, clear a
 
 ### What the journey has taught me
 
-The finished app looks simple, and that is precisely the point. It has only just been launched, and real customers will undoubtedly reveal challenges I have not yet imagined; I will share them honestly in a future edition of this book. But building it has already taught me lessons that reach far beyond this one project.
+The finished app looks simple, and that is precisely the point. Building it, however, has already taught me lessons that reach well beyond this one project.
 
 **Small details can halt everything.** Some setup steps failed for reasons that had nothing to do with the app itself, such as a single space in a password where spaces were not allowed. None of these problems was difficult once understood, but each could easily cost an hour. Every one of them now has its own line in the setup guide, so that it never happens twice.
 
@@ -362,9 +362,15 @@ The finished app looks simple, and that is precisely the point. It has only just
 
 **Test before you trust.** The AI wrote automatic tests that verify the most important behaviour every time something changes: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. I cannot read most of the code, but I can read a result confirming that every test has passed.
 
-**Technology is the easy part; habits are the hard part.** A booking through the mini app takes far less time than a booking by chat, for the seller and for our office. Yet speed alone does not change behaviour. Sellers have sent voice messages for years, and a habit that has served them well will not disappear because a better tool exists. Persuading them to try the app, and to keep using it, will take patience, explanation and time. This is the first real challenge of the project, and it is a human one.
-
 **Build once, use many times.** Because the app keeps its wording, prices and form fields in one place, it can be adapted for other businesses. A salon could use it for appointments, a café for orders, a tutor for class bookings.
+
+**Technology is the easy part; habits are the hard part.** For both the seller and our office, a booking through the mini app takes far less time than a booking by chat. Yet speed alone rarely changes behaviour. Sellers have sent voice messages for years, and a habit that has served them well will not disappear simply because a better tool exists. Persuading them to try the app, and then to keep using it, will require patience, clear explanation and time. This is the first genuine challenge of the project, and it is a human one, not a technical one.
+
+### Looking ahead
+
+The booking app has only just been launched, and its real test lies ahead. Real customers will reveal challenges I have not yet imagined, and I intend to share them honestly in a future edition of this book.
+
+What I can already say is this: a small business owner with no programming background described a daily problem in plain words, and within days had a working, secure and free tool that addresses it. Whether sellers embrace it is now a question of trust and habit, the oldest questions in business, and ones no AI can answer on our behalf.
 
 > **Builder's Notes: Build your own booking mini app**
 >
