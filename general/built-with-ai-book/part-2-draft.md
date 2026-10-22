@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v5, 22 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v6, 22 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -95,97 +95,97 @@ That is all. In the next chapter, we turn to the most important skill of all, on
 
 ### The engineer and the expert
 
-Before I ever built anything with AI on my own, I worked alongside a young colleague on a problem that taught me more than I realised at the time.
+Long before I built anything with AI on my own, I worked alongside a young colleague on a problem that taught me more than I understood at the time.
 
-She was a young engineer, freshly graduated in data and artificial intelligence from one of the leading private universities in Phnom Penh. She wrote code with confidence, particularly in Python and JavaScript, and she worked side by side with AI tools. When the AI made a mistake, she could usually find the broken line and repair it herself, saving the time and money that a beginner would have spent going around in circles. On paper, she was exactly the kind of person a company needs for the age of AI.
+She was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. She wrote code with confidence, particularly in Python and JavaScript, and she worked comfortably alongside AI tools. When the AI made a mistake, she could usually trace the faulty line and correct it herself, saving the hours a beginner would have spent going round in circles. On paper, she was precisely the kind of person every company wants in the age of AI.
 
-Yet when she was asked to build an automated call plan for the sales team, a system to organise which customers each salesperson should call and when, she struggled. Not with the code, but with the work itself. She had never been a salesperson. She did not know how plans were made in practice, which customers mattered most, or why a plan that looked perfect on a screen would fail on a real Monday morning.
+Yet when she was asked to build an automated call plan for the sales team, a system to decide which customers each salesperson should call and when, she struggled. The difficulty was not the code; it was the work itself. She had never been a salesperson. She did not know how plans were made in practice, which customers mattered most, or why a schedule that looked perfect on a screen would collapse on a real Monday morning.
 
-I was the opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were really made. But I could not write the code myself, and at that time my experience with AI was still limited.
+I was her opposite. I had spent years close to the field and understood the operation in detail, from the way data was collected to the way decisions were actually made. But I could not write the code myself, and at that time my experience with AI was still limited.
 
-Neither of us could have solved the problem alone. Together, we could. I explained the real problems from the ground: what happens in the field, where plans break down, what salespeople actually need. She turned those explanations into instructions that she and the AI could act on. Over several weeks, as we shared our knowledge, our challenges and our lessons, the system began to work.
+Neither of us could have solved the problem alone. Together, we could. I explained what really happened on the ground: where plans broke down, what salespeople needed, which exceptions mattered. She translated those explanations into instructions that she and the AI could act upon. Over several weeks, as we exchanged knowledge, frustrations and lessons, the system began to work.
 
-Only later, when I began building with AI by myself, did I understand what we had been doing. Large AI models are trained on enormous amounts of human experience, gathered and processed in data centres around the world. My colleague and I had been doing the same thing on a human scale: one person's practical experience was being translated into a form that a machine could use.
+Only later, when I started building with AI on my own, did I recognise what we had been doing. Large AI models are trained on vast quantities of human experience, gathered and processed in data centres around the world. My colleague and I had been doing the same thing on a human scale: translating one person's practical experience into a form that a machine could use.
 
-That is the central lesson of this chapter, and perhaps of this book:
+That is the central lesson of this chapter, and perhaps of this entire book:
 
-**Once you understand a problem from real experience, and can explain it in a way the AI understands, the solution is usually within reach.**
+**Once you understand a problem through real experience, and can explain it in a way the AI understands, the solution is usually within reach.**
 
-Today, I no longer need an engineer beside me for projects like the ones in this book. I can be the expert, and let the AI play the engineer's role. But I had to learn to explain. The rest of this chapter shows how I learned to do that, through mistakes and small discoveries in my own projects.
+Today, I no longer need an engineer at my side for projects like those in this book. I can be the expert, and let the AI take the engineer's role. But first, I had to learn how to explain. The lessons that follow show how I learned, through mistakes and small discoveries in my own projects.
 
 ### Lesson 1: Describe the problem, not the solution
 
-The American inventor Charles Kettering is often credited with saying that "a problem well stated is a problem half solved." I learned how true that is on my very first project.
+The American inventor Charles Kettering is often credited with the observation that "a problem well stated is a problem half solved." My very first project proved him right.
 
-When I began work on a booking system for Khmer Parcel, I had never heard of a "Telegram mini app". I didn't need to. Instead of naming a solution, I described the problem as I lived it: online sellers were sending us bookings in long chat messages, details were going missing, prices were being confused, and someone in the office had to type everything out a second time.
+When I began work on a booking system for Khmer Parcel, I had never heard of a "Telegram mini app", and I did not need to. Rather than naming a solution, I described the problem exactly as I experienced it: online sellers were sending bookings in long chat messages, details were going missing, prices were being confused, and someone in the office had to type everything out a second time.
 
 From that description alone, the AI proposed a solution I would never have imagined: a button inside our Telegram bot that opens a short booking form and delivers every booking to our office in the same clear format. Had I simply asked for "a website with a form", I would have received exactly that, and it would have been the wrong tool.
 
-**Why it matters:** you know your customers; the AI knows the technology. When you describe the solution yourself, you limit the AI to what you already know. When you describe the problem, you invite it to bring everything it knows.
+**Why it matters:** you understand your customers; the AI understands the technology. When you prescribe the solution yourself, you confine the AI to what you already know. When you describe the problem, you invite it to contribute everything it knows.
 
 ### Lesson 2: Give the AI a memory
 
-In my first weeks, I kept repeating myself. Every new conversation with the AI started almost from nothing: it did not remember our prices, our phone numbers or the decisions we had made the day before. It felt like training a new employee every morning.
+In my first weeks, I found myself repeating the same information again and again. Each new conversation with the AI began almost from nothing; it did not remember our prices, our phone numbers or the decisions we had made the day before. It felt like training a new employee every morning.
 
-So I began doing what any good manager does when a new person joins the team: I wrote a **handover note**. Each project now has a simple text file that begins with the words *"Read this first in a new chat."* It records the facts that must never change, such as the launch date, the official contact numbers, the prices and the brand colours, together with what has been built and what has been decided. At the start of each session, the AI reads it, and within seconds it knows as much about the project as I do.
+So I did what any good manager does when someone new joins the team: I wrote a **handover note**. Every project now has a simple text file that opens with the words *"Read this first in a new chat."* It records the facts that must never change, including the launch date, the official contact numbers, the prices and the brand colours, together with a record of what has been built and what has been decided. At the start of each session, the AI reads it, and within seconds it knows as much about the project as I do.
 
-**Why it matters:** this is exactly what my two colleagues were doing for each other, only written down. The AI can only work with the experience you give it. A handover note is your experience, stored where the AI can always find it.
+**Why it matters:** this is exactly what my colleague and I did for each other, only now it is written down. The AI can work only with the experience you give it. A handover note is your experience, stored where the AI can always find it.
 
 ### Lesson 3: Set the rules before the work begins
 
-AI is built to be helpful, and sometimes it tries too hard. When I asked for advertising ideas for Khmer Parcel, the first drafts were full of attractive promises, such as same-day delivery and same-day cash-on-delivery payouts, that I had not yet decided to offer. They sounded wonderful. They were also promises my young business might not have been able to keep.
+AI is designed to be helpful, and at times it tries too hard. When I asked for advertising ideas for Khmer Parcel, the first drafts were filled with attractive promises, such as same-day delivery and same-day cash-on-delivery payouts, that I had not yet decided to offer. They sounded wonderful. They were also promises a young business might not be able to keep.
 
-That moment changed how I work. I wrote a short list of rules that the AI now reads in every session: never invent prices, offers or promises without asking me first; use only the official phone numbers, exactly as written; write all customer messages in Khmer first, with short English beneath; and speak to only one type of customer in each advertisement.
+That moment changed the way I work. I wrote a short set of rules that the AI now reads in every session: never invent prices, offers or promises without asking me first; use only the official phone numbers, exactly as recorded; write every customer message in Khmer first, with short English beneath; and address only one type of customer in each advertisement.
 
-**Why it matters:** a broken promise can cost a small business its reputation in a single week. Rules written once protect you every day after, even on the days you are too busy to check every word.
+**Why it matters:** a single broken promise can cost a small business its reputation within a week. Rules written once protect you every day thereafter, even on the days when you are too busy to check every word.
 
 ### Lesson 4: Work in small steps, and approve before it acts
 
-An AI agent can change dozens of files in seconds. At first, I found that exciting. Then I found it frightening, because when something went wrong, I could not tell which change had caused it.
+An AI agent can change dozens of files in a matter of seconds. At first, I found that exhilarating. Then I found it alarming, because whenever something went wrong, I could not tell which change had caused it.
 
-So I slowed the AI down. For the blog, every draft now follows the same rhythm. I ask the AI to review the draft, and it reports what needs fixing. I choose the products myself and send them, one message at a time. The AI waits. Only when I type a single word, **"go"**, does it make the changes.
+So I slowed the AI down. Every blog draft now follows the same rhythm. I ask the AI to review the draft, and it reports what needs attention. I select the products myself and send them one message at a time. The AI waits. Only when I type a single word, **"go"**, does it make any changes.
 
-**Why it matters:** in my research career, every survey passed through checkpoints before its results reached management, because a mistake caught early costs almost nothing, while a mistake caught late can cost everything. The same is true with AI. Small steps are not slow; they are how you stay in control.
+**Why it matters:** in my research career, every survey passed through checkpoints before its findings reached management, because an error caught early costs almost nothing, while an error caught late can cost everything. The same holds true with AI. Small steps are not slow; they are how you stay in control.
 
 ### Lesson 5: Show it real data, not just your opinion
 
-Our first paid video ads for Khmer Parcel ran for two days at $5 a day. Facebook reported 2,546 views and 57 link clicks. The number of bookings was zero.
+Our first paid video advertisements for Khmer Parcel ran for two days at $5 a day. Facebook reported 2,546 views and 57 link clicks. The number of bookings was zero.
 
-My first instinct was to guess: the price, the colours, the music. Instead, I did what my research training had taught me and looked at the data, this time together with the AI. It noticed that viewers were leaving at the seventeenth second, at exactly the moment the ad switched from one type of customer to another. The fix was simple: shorter ads, each speaking to one audience.
+My first instinct was to guess at the cause: the price, the colours, the music. Instead, I did what my research training had taught me and turned to the data, this time together with the AI. It noticed that viewers were leaving at the seventeenth second, precisely when the advertisement switched from one type of customer to another. The remedy was simple: shorter advertisements, each speaking to a single audience.
 
-I followed the same discipline when choosing the subject of this book. My first idea, a Phnom Penh travel guide, felt like a sure thing. The Amazon search results I shared with the AI said otherwise: almost no demand. The data led me, step by step, to the book you are reading now.
+I applied the same discipline when choosing the subject of this book. My first idea, a Phnom Penh travel guide, felt like a certainty. The Amazon search results I shared with the AI told a different story: almost no demand. Step by step, the data led me to the book you are reading now.
 
-**Why it matters:** this was the hardest lesson of my old job, and it applies just as much to AI. When leaders trust their opinions over their data, they miss the turn. AI is very good at reading data, but only if you are willing to show it, and willing to listen.
+**Why it matters:** this was the hardest lesson of my former job, and it applies just as strongly to AI. Leaders who trust their opinions over their data miss the turning points. AI is remarkably good at reading data, but only if you are willing to show it, and willing to listen to what it finds.
 
 ### Lesson 6: Tell it how you want to work
 
-English is not my first language. In the beginning, I worried that the AI would not understand my simple, imperfect sentences, sometimes mixed with Khmer. It always did.
+English is not my first language. In the beginning, I worried that the AI would not understand my simple, imperfect sentences, often mixed with Khmer. It always did.
 
-What made the biggest difference was telling the AI how *I* wanted to work. *"I am a beginner. Explain each step simply, and tell me exactly what to click."* *"Give me search ideas as plain text. I will choose the products myself."* *"Give me short points, not finished text. I will write it in my own words."*
+What made the greatest difference was telling the AI how *I* wanted to work: *"I am a beginner. Explain each step simply, and tell me exactly what to click."* *"Give me search ideas as plain text; I will choose the products myself."* *"Give me short points rather than finished text; I will write it in my own words."*
 
-**Why it matters:** a good colleague adapts to the way you work. So does a good AI, but only if you tell it. You do not need perfect words. You need clear intentions.
+**Why it matters:** a good colleague adapts to the way you work, and so does a good AI, provided you tell it how. You do not need perfect words. You need clear intentions.
 
 ### Lesson 7: Check everything it makes
 
-The old saying "trust, but verify" has never been more useful than it is with AI.
+The old saying "trust, but verify" has never been more relevant than it is with AI.
 
-In our video ads, small picture symbols called emoji appeared as empty boxes, because the computer that produced the videos had no way to display them. The AI could not see the problem. I could, because I watched every video myself. On another occasion, we found a wrong digit in one of the phone numbers on our printed poster. One wrong digit means customers who cannot reach you. Since then, the correct numbers live in the handover note, and that poster never appears in our videos uncropped.
+In our video advertisements, small picture symbols known as emoji appeared as empty boxes, because the computer producing the videos could not display them. The AI could not see the problem; I could, because I watched every video myself. On another occasion, we discovered a wrong digit in one of the phone numbers on our printed poster. A single wrong digit means customers who cannot reach you. Since then, the correct numbers have lived in the handover note, and that poster never appears uncropped in our videos.
 
-**Why it matters:** AI does the work quickly, but it does not care about your business the way you do. The final check must always be yours.
+**Why it matters:** AI works quickly, but it does not care about your business the way you do. The final check must always be yours.
 
 ### Lesson 8: Let it say no
 
-The best colleagues are not the ones who agree with everything. They are the ones who tell you the truth, even when you would rather not hear it.
+The most valuable colleagues are not those who agree with everything. They are the ones who tell you the truth, even when you would rather not hear it.
 
-When I planned a small advertising test on Pinterest, we discovered that its advertising platform did not accept businesses from Cambodia. One shortcut would have been to register under another country. The AI advised against it, and it was right: a business built on false details can be shut down overnight. And when I first saw the online videos promising that AI and Kindle publishing would work "like an ATM", the AI's first answer was a reality check, not a sales pitch.
+When I planned a small advertising test on Pinterest, we discovered that its advertising platform did not accept businesses based in Cambodia. One shortcut would have been to register under another country. The AI advised against it, and it was right: a business built on false details can be closed overnight. Likewise, when I first encountered online videos promising that AI and Kindle publishing would work "like an ATM", the AI's first response was a reality check, not a sales pitch.
 
-**Why it matters:** an AI that only flatters you is dangerous. Ask it for the risks, and value it most when it says no.
+**Why it matters:** an AI that only flatters you is dangerous. Ask it about the risks, and value it most when it says no.
 
 ### The real skill
 
-When people ask me which skill matters most for working with AI, they expect a technical answer. My two former colleagues taught me otherwise.
+When people ask me which skill matters most for working with AI, they usually expect a technical answer. My experience with that young engineer taught me otherwise.
 
-The engineer had the technical skills. The experienced colleague had the understanding. What made their project work was the conversation between them. With today's AI, you can have that conversation yourself: **explain your real problems clearly, check what you receive honestly, and stay in charge of the decisions.** Managers, teachers, shop owners and researchers practise these skills every day. With AI, they become the skills that let you build.
+She brought the technical skill. I brought the understanding. What made our project succeed was the conversation between us. With today's AI, you can hold that conversation yourself: **explain your real problems clearly, examine what you receive honestly, and remain in charge of the decisions.** Managers, teachers, shop owners and researchers practise these skills every day. With AI, they become the skills that allow you to build.
 
 > **Builder's Notes: Your prompt toolkit**
 >
@@ -206,71 +206,71 @@ The engineer had the technical skills. The experienced colleague had the underst
 
 ## Chapter 7: Your First Small Win
 
-### Why small comes first
+### A quiet beginning
 
-My first real win with AI was not a business, an app or a website. It was a short piece of Python code that ran on my own computer.
+My first real success with AI was not a business, an app or a website. It was a short piece of Python code running on my own computer.
 
-At my old job, I regularly analysed customer satisfaction surveys in SPSS: calculating averages and standard deviations, and the **Net Promoter Score**, a widely used measure of how likely customers are to recommend a brand. It was careful, manual work, and I wanted to know whether it could be automated.
+At my former job, I regularly analysed customer satisfaction surveys in SPSS, calculating averages, standard deviations and the **Net Promoter Score**, a widely used measure of how likely customers are to recommend a brand. It was careful, repetitive work, and I wanted to know whether it could be automated.
 
-So I asked an AI to write a Python program that would perform the same analysis. I ran it offline, in the Command Prompt on my own computer, and compared its results with the ones I had produced by hand in SPSS. When the two sets of numbers matched, something changed in me. The work I had always done step by step could now be done in seconds, and I had built the tool to do it.
+So I asked an AI to write a Python program that would carry out the same analysis. I ran it offline, from the Command Prompt on my own computer, and compared its results with those I had produced by hand in SPSS. When the two sets of figures matched, something shifted in me. Work I had always done step by step could now be completed in seconds, and I had built the tool that did it.
 
-It was not impressive to anyone else. Nobody in the company noticed. But every larger project I have attempted since grew from that moment of quiet confidence.
+It impressed no one else. Nobody in the company even noticed. Yet every larger project I have undertaken since grew from that moment of quiet confidence.
 
-I believe this is how most people should begin with AI. Not with a grand plan, but with a small, useful win that you can finish in an afternoon, check with your own eyes, and trust because you have tested it.
+I believe this is how most people should begin with AI: not with a grand plan, but with a small, useful win that can be finished in an afternoon, checked with your own eyes, and trusted because you have tested it yourself.
 
 ### The line I would not cross
 
-There is one detail of that first win that matters more than the code itself: **I never gave the AI our real data.**
+One detail of that first success matters more than the code itself: **I never gave the AI our real data.**
 
-The customer data belonged to the company and to the customers who had trusted us with their answers, and our market was highly competitive. I also understood that an AI shown real data can recognise the patterns in it, and those patterns describe a business. So I did something simple. I created a **test dataset** of my own, with made-up responses in the same format as the real survey. The AI wrote the code using only that test data. Then I ran the finished program on the real data offline, on my own computer, where it never left the company.
+That data belonged to the company and to the customers who had trusted us with their answers, in a highly competitive market. I also understood that an AI shown real data can recognise the patterns within it, and those patterns describe a business. So I took a simple precaution. I created a **test dataset** of my own, with invented responses in exactly the same format as the real survey. The AI wrote the program using only that test data. I then ran the finished program on the real data offline, on my own computer, where it never left the company.
 
-I share this because the question will come to you sooner than you think. Some time later, I was invited to speak at an event at the Cambodiana Hotel in Phnom Penh about automating monitoring and evaluation systems for civil society organisations. After my talk, a man who introduced himself as a monitoring and evaluation expert with many years of experience in the sector asked me a question: *Are there AI tools that can clean the data, analyse it and produce a preliminary report for a research project?*
+I share this because the same question will reach you sooner than you expect. Some time later, I was invited to speak at an event at the Cambodiana Hotel in Phnom Penh about automating monitoring and evaluation systems for civil society organisations. After my presentation, a man who introduced himself as a monitoring and evaluation specialist with many years of experience asked me: *Are there AI tools that can clean the data, analyse it and produce a preliminary report for a research project?*
 
-The honest answer is: yes, many. But the more important question is the one each of us must ask ourselves: **how much of our real data are we willing to expose for the sake of convenience?** Survey answers, health information, family circumstances, business figures: these are entrusted to us. Uploading them to a tool simply because it saves us a few hours is not a technical decision. It is an ethical one, and it is a test of our professionalism.
+The honest answer is yes, a great many. But a more important question lies behind it, one that each of us must answer for ourselves: **how much of our real data are we willing to expose for the sake of convenience?** Survey responses, health information, family circumstances and business figures are all entrusted to us. Uploading them to a tool simply because it saves a few hours is not a technical decision. It is an ethical one, and a test of our professionalism.
 
-This matters especially in countries like mine. In Cambodia, digital literacy is still developing, and many of us use the internet every day without fully understanding its risks to our security and safety. At the same time, AI is quickly becoming as ordinary as electricity, the internet and the smartphone. We cannot avoid it, and we should not try. But we can learn to use it with discipline.
+This matters particularly in countries like mine. In Cambodia, digital literacy is still developing, and many of us use the internet every day without fully understanding the risks it poses to our security and safety. At the same time, AI is fast becoming as ordinary as electricity, the internet and the smartphone. We cannot avoid it, nor should we try. But we can learn to use it with discipline.
 
-That discipline is not natural. Human beings, quite reasonably, seek comfort and convenience, and when the rules are unclear, convenience usually wins. That is exactly why the rules must be clear before you begin.
+That discipline does not come naturally. Human beings, quite understandably, seek comfort and convenience, and wherever the rules are unclear, convenience tends to win. That is precisely why the rules must be settled before the work begins.
 
-The investor Warren Buffett expressed the principle well. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."¹
+The investor Warren Buffett expressed the underlying principle memorably. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."¹
 
-Buffett understood that money can be earned back, but trust, once lost, may never return. The same is true of data. A slow week of manual work costs you a little time. Leaking the private answers of the people who trusted you can cost your organisation its reputation, and the people themselves far more.
+Buffett understood that money can be earned back, but trust, once lost, may never return. The same is true of data. A slow week of manual work costs you a little time. Leaking the private answers of people who trusted you can cost your organisation its reputation, and the people themselves a great deal more.
 
-So my rule is this: **work with AI on almost everything, but never hand it what is not yours to give.** Use test data to build the tool, and keep real data under your own control. If you understand how to use AI, what to do yourself and what to let the AI do, and where the limits of exposure lie, you can work with AI fully: productively, safely, and with your integrity intact.
+My rule, therefore, is this: **work with AI on almost everything, but never hand it what is not yours to give.** Use test data to build the tool, and keep real data under your own control. Once you understand how to use AI, what to do yourself, what to entrust to the AI, and where the limits of exposure lie, you can work with it fully: productively, safely, and with your integrity intact.
 
-### Why a price calculator
+### The question every customer asks
 
-If you run a small business, think about the question your customers ask most often. For almost every business I know, it is the same: **"How much will it cost?"**
+Now it is your turn to build. If you run a small business, consider the question your customers ask most often. For almost every business I know, it is the same: **"How much will it cost?"**
 
-At Khmer Parcel, we answer that question many times a day. A tailor, a tutor, a caterer or a printing shop answers it just as often. Each answer takes a few minutes: asking for details, doing the calculation, writing a reply. And each answer is a chance to make a small mistake.
+At Khmer Parcel, we answer that question many times a day. A tailor, a tutor, a caterer or a printing shop answers it just as often. Each reply takes a few minutes: asking for details, doing the calculation, writing the response. And each reply is an opportunity for a small mistake.
 
-A **price calculator**, a simple web page where customers enter a few details and immediately see the price, solves that problem. It is small enough to build in about thirty minutes, yet useful enough to share with real customers. That is why I recommend it as your first project: it is quick, it is genuinely useful, and it teaches you the whole process of building with AI.
+A **price calculator**, a simple web page on which customers enter a few details and immediately see the price, solves that problem. It is small enough to build in about thirty minutes, yet useful enough to share with real customers. That is why I recommend it as a first project: it is quick, genuinely useful, and it teaches the entire process of building with AI.
 
 ### The most important five minutes
 
-The most important step happens before you open the AI at all: **write down how you actually calculate your prices**, in plain words. For example: *"A delivery costs $1, plus $0.25 for every kilometre after the first three. Large parcels cost $0.50 extra."*
+The most important step happens before you open the AI at all: **write down, in plain words, exactly how you calculate your prices.** For example: *"A delivery costs $1, plus $0.25 for every kilometre after the first three. Large parcels cost an extra $0.50."*
 
-This step matters because of everything we discussed in Chapter 6. The AI does not know your business. If you do not give it your pricing rules, it will either ask you, or worse, make something up. Your experience is the raw material; the AI only shapes it.
+This step matters for every reason discussed in Chapter 6. The AI does not know your business. If you do not supply your pricing rules, it will either have to ask you or, worse, invent them. Your experience is the raw material; the AI merely gives it shape.
 
-### The four-step cycle
+### Describe, build, test, improve
 
-Building the calculator follows four steps, and they are the same four steps behind every project in this book:
+Building the calculator involves four steps, and they are the same four steps behind every project in this book.
 
-**Describe.** You tell the AI what your customers need and how your pricing works, just as you would brief a new assistant.
+**Describe.** Tell the AI what your customers need and how your pricing works, just as you would brief a new assistant.
 
-**Build.** The AI writes the page. Often it shows you a live preview straight away, so you can try it immediately.
+**Build.** The AI writes the page, and often shows a live preview immediately, so you can try it at once.
 
-**Test.** You use it the way a customer would, and compare every price with your own calculation on paper. If even one answer is wrong, you say so.
+**Test.** Use the page as a customer would, and compare every price with your own calculation on paper. If even one answer is wrong, say so.
 
-**Improve.** You ask for one change at a time: a bigger total for phone screens, prices in two currencies, a button that opens your Telegram. After each change, you test again.
+**Improve.** Request one change at a time: a larger total for phone screens, prices in two currencies, a button that opens your Telegram. After each change, test again.
 
-The first version will rarely be perfect, and that is exactly the point. Improving it is where you learn to direct an AI. When something does not work, you do not need to understand the code. You simply describe what you see, as you would to a colleague, and ask the AI to explain and fix it.
+Your first version will rarely be perfect, and that is exactly the point. Refining it is how you learn to direct an AI. When something does not work, you do not need to understand the code. Simply describe what you see, as you would to a colleague, and ask the AI to explain and correct it.
 
-### What you are really building
+### What you are really learning
 
 The calculator is not the real achievement. The real achievement is that you will have completed, from start to finish, the cycle of **describe, build, test, improve.**
 
-Every project in the rest of this book, the booking app, the blog, the video ads and the ebook machine, is that same cycle, repeated with more patience. If you can build a price calculator, you have already learned the most important part.
+Every project in the rest of this book, the booking app, the blog, the video advertisements and the ebook machine, follows that same cycle, repeated with greater patience. If you can build a price calculator, you have already mastered the most important part.
 
 > **Builder's Notes: Build your price calculator in thirty minutes**
 >
@@ -284,13 +284,13 @@ Every project in the rest of this book, the booking app, the blog, the video ads
 >
 > **2. Build (5 minutes).** If Claude shows a live preview, try it straight away. If not, copy the code into a plain text file, save it as `calculator.html`, and double-click it to open it in your browser.
 >
-> **3. Test and improve (15 minutes).** Check several prices against your own calculation. Then ask for one change at a time, for example:
+> **3. Test and improve (15 minutes).** Check several prices against your own calculation, then ask for one change at a time, for example:
 > - "The total is hard to see on a phone. Please make it larger and place it at the top."
 > - "Show the price in both my currency and US dollars."
-> - "Add a button that opens my Telegram so customers can book straight away."
+> - "Add a button that opens my Telegram, so customers can book straight away."
 > - "When I enter zero kilometres, the price looks wrong. Please check the calculation and explain it to me."
 >
-> **4. Decide what's next (5 minutes).** Keep it for yourself, or ask Claude: "How can I put this page online for free?" and follow its steps.
+> **4. Decide what comes next (5 minutes).** Keep it for yourself, or ask Claude, "How can I put this page online for free?", and follow its steps.
 
 ---
 
@@ -298,77 +298,77 @@ Every project in the rest of this book, the booking app, the blog, the video ads
 
 ### Where our customers already live
 
-Khmer Parcel opened in Phnom Penh on the 1st of October, 2026. From the very beginning, I knew that our most important customers would be **online sellers**: people selling clothes, cosmetics and food through Facebook, TikTok and Telegram. A single regular seller may send five, ten or even twenty parcels a day. For a young delivery business, ten loyal sellers can mean the difference between surviving and growing.
+Khmer Parcel opened in Phnom Penh on the 1st of October, 2026. From the very beginning, I knew that our most important customers would be **online sellers**: people selling clothing, cosmetics and food through Facebook, TikTok and Telegram. A single regular seller may send five, ten or even twenty parcels a day. For a young delivery business, ten loyal sellers can mean the difference between merely surviving and genuinely growing.
 
-Online sellers spend their whole day in their phones, answering customers in chat. So when they need a delivery, the natural thing is to send us a message too. And that is where the trouble begins.
+Online sellers spend their entire day on their phones, answering customers in chat. So when they need a delivery, the natural instinct is to send us a message as well. That is where the difficulties begin.
 
-Every seller writes differently. One sends the address but forgets the phone number. Another lists five parcels in a single long paragraph. A third sends a voice message from a noisy market. Someone in our office has to read every message, ask follow-up questions, and type the details out again. On a quiet day, that is manageable. On a busy day, it is where mistakes happen: a wrong address, a missed parcel, a disappointed customer. ⭐ [Add a real example: a booking that went wrong, or how long one booking took to handle by chat.]
+Every seller writes differently. One sends the address but forgets the phone number. Another describes five parcels in a single long paragraph. A third records a voice message in a noisy market. Someone in our office must read each message, ask follow-up questions and type the details out again. On a quiet day, this is manageable. On a busy day, it is where mistakes occur: a wrong address, a missed parcel, a disappointed customer. ⭐ [Add a real example: a booking that went wrong, or how long one booking took to handle by chat.]
 
-I wanted two things. Sellers should be able to book in seconds, without leaving the app they already use. And every booking should reach our office in the same clear, complete format.
+I wanted two things. Sellers should be able to book in seconds without leaving the app they already use, and every booking should reach our office in the same clear, complete format.
 
 ### Why Telegram, and not a new app
 
-My first thought was the obvious one: build our own app. The AI and I quickly agreed it would be the wrong choice, and the reasons are worth sharing because they apply to almost any small business.
+My first thought was the obvious one: build our own app. The AI and I quickly agreed that this would be the wrong choice, and the reasons are worth sharing, because they apply to almost any small business.
 
-A new app has to be found, downloaded, installed and trusted. Every one of those steps loses customers. Our sellers already had Telegram open all day long. So instead of asking them to come to us, we went to them. A **Telegram mini app** is a small app that opens *inside* Telegram, with one tap, with nothing to install.
+A new app must be discovered, downloaded, installed and trusted, and every one of those steps loses customers. Our sellers already had Telegram open from morning to night. So rather than asking them to come to us, we went to them. A **Telegram mini app** is a small application that opens *inside* Telegram with a single tap, with nothing to install.
 
-**The principle:** meet your customers where they already are. Every extra step you ask of them is a reason for them to say no.
+**The principle:** meet your customers where they already are. Every additional step you ask of them is another reason for them to say no.
 
 ### Why a form, and not a conversation
 
-Chat feels friendly, but it is a poor way to collect information, because nothing in a chat makes sure the details are complete. A short form does. It asks for the shop's name, phone number and pickup address, and the details of each parcel. It does not let a booking through until the important details are there. And it remembers each shop's details for the next time.
+Chat feels friendly, but it is a poor way to collect information, because nothing in a conversation ensures the details are complete. A short form does. It asks for the shop's name, phone number and pickup address, together with the details of each parcel, and it will not accept a booking until the essential details are present. It also remembers each shop's information for next time.
 
-When the seller presses the button to confirm, the booking appears in our office Telegram group within seconds, neatly formatted and labelled with a booking code. The seller receives the same code as confirmation.
+When the seller confirms, the booking appears in our office Telegram group within seconds, neatly formatted and labelled with a booking code. The seller receives the same code as confirmation.
 
-The form is written in **Khmer first**, with short English. That was not a design detail; it was a decision about respect. Most of our sellers think and work in Khmer, and a form in their own language feels like it was made for them, because it was.
+The form is written in **Khmer first**, with short English beneath. That was not a matter of design; it was a matter of respect. Most of our sellers think and work in Khmer, and a form in their own language feels as though it was made for them, because it was.
 
-The app also handles our launch offer automatically. Each seller's first three deliveries cost 2,000 riel, about $0.50, instead of the usual 3,000 riel, about $0.75, and the app keeps count for each Telegram account.
+The app also manages our launch offer automatically. Each seller's first three deliveries cost 2,000 riel, about $0.50, instead of the standard 3,000 riel, about $0.75, and the app keeps count for every Telegram account.
 
 ### Why free, and why simple
 
-In Chapter 5, I explained my rule: pay for growth only after the free version has proved itself. The booking app follows that rule completely. It runs on Cloudflare's free plan, so there is no server to rent and nothing to maintain. Its running cost is zero.
+In Chapter 5, I described my rule: pay for growth only once the free version has proved itself. The booking app follows that rule completely. It runs on Cloudflare's free plan, with no server to rent and nothing to maintain. Its running cost is zero.
 
-I also made one request that shaped the whole project: *I am not a programmer, so I must be able to update this myself.* The AI organised everything around that sentence. The finished app is a single file. When I need to change a price or a word, I make the change, and paste that one file into Cloudflare. No installation, no technical team, no waiting.
+I also made one request that shaped the entire project: *I am not a programmer, so I must be able to update this myself.* The AI organised everything around that sentence. The finished app is a single file. When I need to change a price or a word, I make the change and paste that one file into Cloudflare. No installation, no technical team, no waiting.
 
-**The principle:** build something you can maintain yourself. A tool that only an expert can update will eventually stop being updated.
+**The principle:** build something you can maintain yourself. A tool that only an expert can update will, sooner or later, stop being updated.
 
 ### Why it checks every booking
 
-There was one feature I would never have thought to ask for, and it may be the most important one.
+There was one feature I would never have thought to request, and it may be the most important of all.
 
-Anything placed on the internet can, in principle, be misused. Someone could try to send fake bookings into our office group, wasting our riders' time or damaging our reputation. The AI raised this risk itself and built a safeguard: every booking carries a digital signature from Telegram, a kind of tamper-proof stamp, and the app checks that stamp before accepting anything. A booking that does not come from a genuine Telegram user is quietly rejected.
+Anything placed on the internet can, in principle, be misused. Someone could try to send fake bookings into our office group, wasting our riders' time or damaging our reputation. The AI raised this risk on its own initiative and built a safeguard: every booking carries a digital signature from Telegram, a kind of tamper-proof seal, and the app verifies that seal before accepting anything. A booking that does not come from a genuine Telegram user is quietly rejected.
 
-**The principle:** whenever you build something public, ask the question that a careful business owner would ask, and that the AI can help you answer: *"How could someone misuse this, and how do we prevent it?"*
+**The principle:** whenever you build something public, ask the question a careful business owner would ask, and let the AI help you answer it: *"How could someone misuse this, and how do we prevent it?"*
 
 ### Why it does less than it could
 
-In 1997, Steve Jobs told a conference of software developers that "focusing is about saying no." I thought about that often while building this app.
+In 1997, Steve Jobs told a conference of software developers that "focusing is about saying no." I thought of those words often while building this app.
 
-We could have added many more features. We deliberately did not. Door-to-door customers continue to book on our website, so the app could stay focused on online sellers. Our office still confirms each booking by hand, because the app is not yet connected to our website's delivery system. And because the offer is counted per Telegram account, our staff still check phone numbers for repeated use.
+We could have added many more features, and we deliberately chose not to. Door-to-door customers continue to book through our website, so that the app can remain focused on online sellers. Our office still confirms each booking by hand, because the app is not yet connected to our website's delivery system. And because the offer is counted per Telegram account, our staff still check phone numbers for repeated use.
 
-Writing down these limits protected me from promising more than the app could deliver, to my customers and to myself.
+Writing these limits down protected me from promising more than the app could deliver, both to my customers and to myself.
 
 ### The moment it worked
 
-Setting up the app took about twenty minutes, following a step-by-step guide the AI wrote for me in plain language. Then came the test. I opened our bot, tapped the button, filled in a booking, and pressed confirm.
+Setting up the app took about twenty minutes, following a step-by-step guide the AI had written for me in plain language. Then came the test. I opened our bot, tapped the button, completed a booking and pressed confirm.
 
-A few seconds later, the booking appeared in our office group: complete, clear, with its own booking code. I was genuinely surprised. Something I had described in plain words only days before was now working in front of me, inside the app our customers use every day.
+A few seconds later, the booking appeared in our office group: complete, clear and carrying its own booking code. I was genuinely surprised. Something I had described in plain words only days earlier was now working in front of me, inside the very app our customers use every day.
 
-### What the journey taught me
+### What the journey has taught me
 
-The finished app looks simple, and that is the point. It has only just been rolled out, and real customers will surely reveal challenges I have not yet imagined; I will report them honestly in the next section. But building it has already taught me lessons that go far beyond this one project.
+The finished app looks simple, and that is precisely the point. It has only just been launched, and real customers will undoubtedly reveal challenges I have not yet imagined; I will report them honestly in the section that follows. But building it has already taught me lessons that reach far beyond this one project.
 
-**Small details can stop everything.** Some of the setup steps failed for reasons that had nothing to do with the app itself, such as a single space in a password where spaces were not allowed. None of these problems was difficult once understood, but each could easily cost an hour. Every one of them now has its own line in the setup guide, so it can never happen twice.
+**Small details can halt everything.** Some setup steps failed for reasons that had nothing to do with the app itself, such as a single space in a password where spaces were not allowed. None of these problems was difficult once understood, but each could easily cost an hour. Every one of them now has its own line in the setup guide, so that it never happens twice.
 
 **Your secrets are the keys to your shop.** The bot has a secret key, and whoever holds it controls the bot. I never share it in any chat or message, not even with an AI. It lives only in the protected settings of the service that uses it.
 
-**Test before you trust.** The AI wrote automatic tests that check the most important behaviour every time something changes: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. I cannot read most of the code. But I can read a result that says every test has passed.
+**Test before you trust.** The AI wrote automatic tests that verify the most important behaviour every time something changes: genuine bookings are accepted, fake ones are rejected, and the offer is counted correctly. I cannot read most of the code, but I can read a result confirming that every test has passed.
 
-**Build once, use many times.** Because the app keeps its words, prices and form fields in one place, it can be adapted for other businesses. A salon could use it for appointments, a café for orders, a tutor for class bookings.
+**Build once, use many times.** Because the app keeps its wording, prices and form fields in one place, it can be adapted for other businesses. A salon could use it for appointments, a café for orders, a tutor for class bookings.
 
 ### The first ninety days
 
-The app has only just been rolled out, so its real test is still ahead. ⭐ [To be completed from the weekly tracker: bookings per week, number of sellers using the app, the challenges that appeared, and time saved in the office.]
+The app has only just been launched, so its real test still lies ahead. ⭐ [To be completed from the weekly tracker: bookings per week, number of sellers using the app, the challenges that appeared, and time saved in the office.]
 
 > **Builder's Notes: Build your own booking mini app**
 >
@@ -378,18 +378,18 @@ The app has only just been rolled out, so its real test is still ahead. ⭐ [To 
 >
 > > My customers book [your service] by sending Telegram messages, and the details are often incomplete. I would like a Telegram mini app with a short form in [your language] that asks for [the details you need] and sends each booking to my staff group with a booking code. It should be free to run, easy for a beginner to update, and protected against fake bookings. Please explain each step simply, and write me a setup guide.
 >
-> **The six setup steps you can expect** (about twenty minutes):
-> 1. **Create the bot** with Telegram's official @BotFather account. It gives you a secret *token*. Never paste it into any chat.
-> 2. **Create a staff group** and add the bot and your staff.
-> 3. **Create a free Cloudflare Worker**, paste in the app's single file, and store the token and other secret values in Cloudflare's *Variables and Secrets*.
-> 4. **Connect the bot to the app** by opening the setup address the guide gives you, once, in your browser.
-> 5. **Find your group's ID.** In a group, the bot only hears commands addressed to it by name, so type the command with the bot's username, for example `/chatid@YourBotName`.
+> **The six setup steps to expect** (about twenty minutes):
+> 1. **Create the bot** with Telegram's official @BotFather account. It gives you a secret *token*; never paste it into any chat.
+> 2. **Create a staff group**, and add the bot and your staff.
+> 3. **Create a free Cloudflare Worker**, paste in the app's single file, and store the token and other secret values under Cloudflare's *Variables and Secrets*.
+> 4. **Connect the bot to the app** by opening the setup address from the guide, once, in your browser.
+> 5. **Find your group's ID.** In a group, a bot hears only commands addressed to it by name, so include the bot's username, for example `/chatid@YourBotName`.
 > 6. **Test it** by making a booking yourself.
 >
 > **Common traps:**
-> - The secret password linking Telegram to your app may contain only letters, numbers, dashes and underscores. No spaces.
-> - Any feature that must remember the past, such as "first three orders discounted", needs a small storage space. Cloudflare offers one free (called *KV*); ask the AI to set it up.
-> - Ask the AI for automatic tests, and run them before every update.
+> - The secret password linking Telegram to your app may contain only letters, numbers, dashes and underscores; no spaces.
+> - Any feature that must remember the past, such as "first three orders discounted", needs a small storage space. Cloudflare offers one free of charge (called *KV*); ask the AI to set it up.
+> - Ask the AI to write automatic tests, and run them before every update.
 
 ---
 
