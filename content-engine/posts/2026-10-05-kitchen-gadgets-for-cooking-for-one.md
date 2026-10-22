@@ -53,7 +53,7 @@ The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one small waffle at 
 
 For eggs on the stove, the [SENSARTE 8-inch ceramic nonstick frying pan](https://amzn.to/4j69CZf) is a one-person size. An 8-inch pan suits two eggs or a small omelet, and it stores easily in a small cabinet. Skip it if you already own a small nonstick pan you like.
 
-On rushed mornings, the [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) is designed to make round egg patties that fit an English muffin. No pan, no stove. Skip it if you only eat eggs on weekends, when the pan does the job.
+On rushed mornings, the [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) is designed to make round egg patties that fit an English muffin. Skip it if you only eat eggs on weekends, when the pan does the job.
 
 ### How do these gadgets compare?
 
@@ -69,14 +69,14 @@ On rushed mornings, the [microwave omelet and egg patty maker (2 sets)](https://
 
 #### Is a 2-cup rice cooker too small?
 
-For one person, it's usually the right size. It makes a portion or two at a time, which keeps rice fresh instead of piling up leftovers. If you meal prep grains for the whole week, you may want something bigger.
+For one person, it's usually the right size. If you meal prep grains for the whole week, you may want something bigger.
 
 #### Do I need both the 8-inch pan and the egg patty maker?
 
-No. The pan covers fried eggs and omelets on the stove; the patty maker is for microwave mornings when you don't want to wash a pan. Choose based on whether you'd rather use the stove or the microwave.
+No. The pan covers fried eggs and omelets on the stove; the patty maker is for microwave mornings when you don't want to wash a pan.
 
 #### Are these easy to clean?
 
-Small tools mean small cleanup, but care rules vary by product. Check the care instructions on each product page before you buy, since nonstick surfaces often last longer with hand washing.
+Small tools mean small cleanup, but check the care instructions on each product page before you buy, since nonstick surfaces often last longer with hand washing.
 
 Pick the one gadget that matches the meal you cook most, and check the current price on Amazon. For more one-dish ideas, see these [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/) and [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/).

@@ -51,7 +51,7 @@ Cold-lunch people should look at the [S'well stainless steel salad bowl kit (64 
 
 The [Lifewit insulated lunch bag / cooler (32-can, 20L)](https://amzn.to/4zfg0lN) is roomy on purpose. It fits a main container, a drink and a snack. Skip it if you only ever carry one sandwich; a smaller bag will do.
 
-Many people don't realize ice packs come in slim, flat shapes made to slide in next to a container. Add the [Fit & Fresh Cool Coolers XL slim ice packs (4-pack)](https://amzn.to/4zprnI5) for the commute. With four, two can freeze while two ride in the bag. They matter most if your office has no fridge or your trip is long.
+Many people don't realize ice packs come in slim, flat shapes made to slide in next to a container. Add the [Fit & Fresh Cool Coolers XL slim ice packs (4-pack)](https://amzn.to/4zprnI5) for the commute. With four, two can freeze while two ride in the bag.
 
 Keep the [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI) in the bag for good, so there's no plastic fork hunt in the break room.
 
@@ -81,4 +81,4 @@ No. Pick the 5-pack if you prep the whole week at once, or the bento box if you 
 
 ### Ready to pack tomorrow's lunch tonight?
 
-Start with the containers and the bag; those two cover the basics of packing the night before. For filling them, see my [Meal Prep Sunday gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you buy.
+Start with the containers and the bag. For filling them, see my [Meal Prep Sunday gadgets](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you buy.

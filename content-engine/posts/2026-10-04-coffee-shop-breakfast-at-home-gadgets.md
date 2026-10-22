@@ -18,7 +18,7 @@ It's 7:12 a.m., you're idling in the drive-thru line, and the car ahead is order
 
 I haven't used these myself. I picked them from the listings for small size, no extra countertop appliance needed and a clear one-job purpose, and say who each one suits.
 
-**Start here:** most people should get the [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB). The egg is the part of a breakfast sandwich that usually needs a pan, and this cooks it in the microwave instead. **Already have one?** Most kitchens poach eggs in a pot of simmering water and hope the whites don't scatter; a poacher's cups skip the pot and hold the egg in a round shape that sits neatly on a muffin. Pick the [handheld milk frother](https://amzn.to/4hs2w08) instead if the coffee is what sends you to the drive-thru.
+**Start here:** most people should get the [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB). It cooks the one part of the sandwich that usually needs a pan. **Already have one?** Most kitchens poach eggs in a pot of simmering water and hope the whites don't scatter; a poacher's cups skip the pot and hold the egg in a round shape that sits neatly on a muffin. Pick the [handheld milk frother](https://amzn.to/4hs2w08) instead if the coffee is what sends you to the drive-thru.
 
 :::picks
 - For a no-stove egg sandwich: [Microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB)
@@ -41,7 +41,7 @@ If you like the result but not the shaking, the [handheld milk frother](https://
 
 This kit suits dorms, office kitchens and anyone who won't wash a pan before work.
 
-**The egg:** the [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) is designed to poach two eggs at a time with no oil, so that's two sandwiches or one with a spare. Start with the shortest time in the instructions and add seconds, because microwave wattage varies and eggs turn rubbery fast.
+**The egg:** the [microwave egg poacher (2 eggs)](https://amzn.to/46YdVyB) is designed to poach two eggs at a time with no oil, so that's two sandwiches or one with a spare.
 
 **The pressed sandwich:** many people don't know a microwave sandwich maker exists. The [MAX microwave sandwich maker](https://amzn.to/46YfhcF) is made for grilled cheese and panini-style sandwiches in the microwave, using a silicone cover. Slide the egg in with the cheese. Skip it if you want real grill marks and a crunchy crust; a microwave won't brown bread the way a hot pan does.
 
@@ -69,11 +69,11 @@ This kit suits dorms, office kitchens and anyone who won't wash a pan before wor
 
 #### Do I need both kits?
 
-No. Start with whichever part sends you to the drive-thru. For most people that's the sandwich, so begin with Kit 1 and add the frother later.
+No. Start with whichever part sends you to the drive-thru, then add the other kit later.
 
 #### Will the microwave egg poacher work in my microwave?
 
-It's made for standard microwaves, but cook times depend on wattage. Expect a few practice mornings, adding time in small steps.
+It's made for standard microwaves, but wattage varies. Start with the shortest time in the instructions and add seconds, because eggs turn rubbery fast.
 
 #### Is a handheld frother enough, or do I need a machine?
 

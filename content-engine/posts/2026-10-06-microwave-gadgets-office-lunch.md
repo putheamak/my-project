@@ -34,7 +34,7 @@ I haven't used these myself. I picked them from the listings for a lid or cover 
 2. Cover loosely and heat for half the time you'd normally use, then stir.
 3. Finish heating and let it stand for a minute before you eat, since the heat keeps spreading through the food.
 
-Practice on tonight's dinner and tomorrow's lunch line moves faster. A roomy bowl like the [Layron 45 oz bowl](https://amzn.to/3W7FOBT) gives you space to stir without spilling.
+A roomy bowl like the [Layron 45 oz bowl](https://amzn.to/3W7FOBT) gives you space to stir without spilling.
 
 ### What can I cook for lunch in an office microwave?
 
@@ -48,7 +48,7 @@ The [Rapid Ramen Cooker (microwave ramen, 2-pack)](https://amzn.to/4AMN4D8) is s
 
 ### Can I make a hot sandwich without a stove or press?
 
-Yes. The [MAX microwave sandwich maker (grilled cheese and panini press, silicone cover)](https://amzn.to/46YfhcF) is made to press a grilled cheese or panini in the microwave. Build the sandwich at home, carry it in, and heat it in the press at lunch instead of eating a soggy reheated sandwich. Skip it if you mostly eat soups or noodle bowls.
+Yes. The [MAX microwave sandwich maker (grilled cheese and panini press, silicone cover)](https://amzn.to/46YfhcF) is made to press a grilled cheese or panini in the microwave. Build the sandwich at home and press it at lunch instead of eating it soggy. Skip it if you mostly eat soups or noodle bowls.
 
 ### How do I cook eggs or bacon at work without making a mess?
 
@@ -56,7 +56,7 @@ Yes. The [MAX microwave sandwich maker (grilled cheese and panini press, silicon
 
 Eggs and bacon are what most people hesitate over in a shared microwave. A covered gadget keeps the splatter off the ceiling of the microwave your coworkers use next.
 
-The [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) shapes round egg patties and small omelets. If you build your own breakfast-for-lunch sandwiches, those patties are sized for an English muffin or bagel. Skip it if you rarely eat eggs at lunch.
+The [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) shapes round egg patties and small omelets. Those patties are sized for an English muffin or bagel. Skip it if you rarely eat eggs at lunch.
 
 Many people don't know you can get a grill pan made just for the microwave. The [microwave grill pan with lid (nonstick, for bacon and burgers)](https://amzn.to/47vJjVd) is designed to cook bacon and burger patties with the lid on. That lid is the point: grease stays in the pan, not on the shared turntable. Skip it if your office has a "no cooking raw meat" rule, which some break rooms do.
 
@@ -82,7 +82,7 @@ Prep at home: measure the noodles, build the sandwich or crack the eggs into a s
 
 #### Do I need both a ramen cooker and the bigger bowl?
 
-No. Pick the ramen cooker if instant noodles are your main lunch, or the Layron bowl if you rotate between noodles and pasta. One noodle container plus one sandwich or egg gadget covers most weeks.
+No. Pick the ramen cooker if instant noodles are your main lunch, or the Layron bowl if you rotate between noodles and pasta.
 
 ### Ready for a hot lunch?
 
