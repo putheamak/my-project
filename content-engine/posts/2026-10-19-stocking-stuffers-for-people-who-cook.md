@@ -16,7 +16,7 @@ As an Amazon Associate I earn from qualifying purchases.
 
 It's mid-December, the stockings are hanging, and you're stuck on the person who cooks every night and seems to own everything. The answer is usually small: the tools they use daily and never replace for themselves.
 
-So instead of a long list, here are four ready-made bundles of small tools, each item under $30 on its own (a whole bundle can add up to more, so check each current price on Amazon). Find the person, grab the bundle, done.
+So here are four ready-made bundles of small tools, each item under $30 on its own (a whole bundle can add up to more, so check each current price on Amazon). Find the person, grab the bundle, done.
 
 I haven't used these myself. I picked them from the listings for stocking-friendly size, everyday use and a clear job for one kind of cook, and say who each one suits.
 
@@ -29,17 +29,21 @@ I haven't used these myself. I picked them from the listings for stocking-friend
 - For parents and grandparents: [Otstar jar opener](https://amzn.to/4k2Gx1c)
 :::
 
+### Try this tonight: pack a stocking that looks planned
+
+1. Put the longest pieces in first, like the spatula set or the whisks, handles up so they peek out of the top.
+2. Tuck a lemon or a few whole nutmegs next to the Microplane, so they can use it the same morning.
+3. Fill the toe with the smallest things, such as the pinch bowls, and stick a note on each one saying what it's for.
+
 ### What goes in a stocking for the everyday cook?
 
 ![Hands zesting a lemon over a cutting board](images/stocking-stuffers-for-people-who-cook-1.jpg)
 
-- [Microplane Premium Classic zester](https://amzn.to/4scC2Df): the long, thin grater for lemon zest, parmesan, garlic, ginger and nutmeg.
+- [Microplane Premium Classic zester](https://amzn.to/4scC2Df): the long, thin grater for lemon zest, parmesan, garlic, ginger and nutmeg. **Already have one?** Most kitchens have a box grater, but its small holes tend to tear zest and clog. A rasp grater shaves off just the colored peel and turns hard cheese into fluffy strands, so it's still welcome next to a box grater.
 - [Norpro silicone mini pinch bowls (set of 4)](https://amzn.to/47xBjTR): tiny bowls for measured spices, minced garlic or a little dipping sauce, so everything is ready before the pan is hot. Skip them if their counter is already full of prep bowls.
 - [ChefAide 5-piece silicone spatula set](https://amzn.to/3U0lba7): for scraping pans, folding batter and getting the last of the sauce out of the pot. A good swap for one worn, stained spatula.
 
 ### What should I put in a baker's stocking?
-
-If they don't own a rasp grater yet, the Microplane above works for orange zest in cookie dough too.
 
 - [3-pack stainless steel whisk set](https://amzn.to/3VPQrcB): three sizes cover a single egg, a bowl of batter and a pan of gravy. Skip it if they bake mostly with a stand mixer.
 - [Cuisinart stainless steel mesh strainers (3-count)](https://amzn.to/3VOHj8b): for sifting flour, dusting powdered sugar over a finished cake and rinsing berries.
@@ -48,7 +52,7 @@ If they don't own a rasp grater yet, the Microplane above works for orange zest 
 
 - [Quatish stainless steel travel utensil set with case](https://amzn.to/4y2fgiI): a reusable fork and spoon in a case, so no more flimsy break-room cutlery.
 - [Stasher reusable silicone pocket bags (4 oz, 2-pack)](https://amzn.to/4y5gMkg): snack-sized for nuts, crackers or cut fruit. Skip them if they mostly pack full meals rather than snacks.
-- [unwasted reusable silicone stretch lids (7-pack)](https://amzn.to/4zDoF1v): stretch over bowls and containers of leftovers instead of plastic wrap.
+- [unwasted reusable silicone stretch lids (7-pack)](https://amzn.to/4zDoF1v): something many people don't know exists. They stretch over bowls and containers of leftovers instead of plastic wrap.
 
 ### What can I give parents or grandparents who cook?
 
