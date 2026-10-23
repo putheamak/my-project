@@ -1,11 +1,11 @@
 ---
 title: "Gifts for Bakers Under $30: One Pick for Every Kind of Baker"
 seoTitle: "Best Gifts for Bakers Under $30 (Cookies, Decorating, Fun)"
-description: "Gifts for bakers under $30, sorted by the kind of baker: the Christmas cookie baker, the decorator, the one with scorched oven mitts, and the baker who wants a fun project."
+description: "Gifts for bakers under $30, sorted by the kind of baker: the Christmas cookie baker, the decorator, the bread baker, the one with scorched oven mitts, and the baker who wants a fun project."
 slug: "gifts-for-bakers-under-30"
 keyword: "best gifts for bakers under $30"
 pinTitle: "Gifts for Bakers Under $30 | Cookie Bakers, Decorators, Fun Projects"
-pinDescription: "Gifts for bakers under $30, matched to the kind of baker. Cookie baker: silicone baking mats and a 3-size cookie scoop set. Decorator: a 124-piece piping set. Scorched mitts: silicone oven mitts. Beginner cake decorator: a 90-piece cake decorating kit. Fun project: a mini donut maker. Plus a zester for the stocking. Check the current price on Amazon."
+pinDescription: "Gifts for bakers under $30, matched to the kind of baker. Cookie baker: silicone baking mats and a 3-size cookie scoop set. Decorator: a 124-piece piping set. Bread baker: a pair of banneton proofing baskets. Scorched mitts: silicone oven mitts. Beginner cake decorator: a 90-piece cake decorating kit. Fun project: a mini donut maker. Plus a zester for the stocking. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-23"
 image: "images/gifts-for-bakers-under-30-cover.jpg"
@@ -25,6 +25,7 @@ I haven't used these myself. I picked them from the listings for what each one d
 - For the cookie baker: [Fayomir cookie scoop set (1, 2 and 3 Tbsp)](https://link.amazon/B0bi7rFO2)
 - For the decorator: [Piping bags and tips set (124 pieces)](https://amzn.to/4dBeBO5)
 - For scorched old mitts: [GORILLA GRIP silicone oven mitts](https://amzn.to/47p2NLi)
+- For the bread baker: [Superbaking banneton proofing baskets (set of 2)](https://link.amazon/B0ggIqzzC)
 - For a fun project: [Dash Express mini donut maker](https://amzn.to/4hRGJxR)
 :::
 
@@ -46,8 +47,6 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 
 **For cut-out cookies:** a [17.6-inch beech wood rolling pin](https://link.amazon/B03zin9o7). A long pin rolls a whole sheet of dough in fewer passes, so cut-outs come out an even thickness and bake evenly. Skip it if they only make drop cookies.
 
-**For cooling:** [cooling racks, 10 x 15 in (2-pack)](https://amzn.to/3Tzr4v3). Cookies cool faster with air underneath, and the listing says the racks are oven safe, so they also work for roasting on a rack inside a sheet pan.
-
 **For handing them out:** [clear self-sealing bags, 5 x 7 in (200-pack)](https://amzn.to/47ihAYc). One batch becomes a dozen small gifts for neighbors and coworkers.
 
 ### What do you get a baker who loves decorating?
@@ -59,6 +58,10 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 **For someone who wants to try cakes:** the [RFAQK 90-piece cake decorating kit](https://link.amazon/B0i6ciZKP). It's built for beginners, and the listing says it comes with a video course, so it suits someone who has decorated cookies and wants to try a layer cake next. Skip it if they already decorate cakes; get the piping set instead.
 
 **For the stocking:** the [Microplane Premium Classic zester](https://amzn.to/4scC2Df). Citrus zest for icing, fresh nutmeg and chocolate shavings on top, all from one small tool.
+
+### What do you get someone who bakes bread?
+
+**Main pick:** the [Superbaking 9-inch round banneton proofing baskets (set of 2)](https://link.amazon/B0ggIqzzC). A banneton is a basket the shaped dough rises in before baking. It holds a round loaf's shape and leaves the floured spiral pattern you see on bakery sourdough. With two baskets they can proof two loaves at once. Skip it if they bake only sandwich bread in loaf pans.
 
 ### What do you get a baker whose oven mitts are scorched?
 
@@ -75,11 +78,11 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 | [Silicone baking mats (4-pack)](https://amzn.to/4sjyVd7) | Any baker, unsure gifts | They already use mats |
 | [Fayomir cookie scoop set](https://link.amazon/B0bi7rFO2) | Cookie bakers | They mostly bake cakes and bars |
 | [Beech wood rolling pin](https://link.amazon/B03zin9o7) | Cut-out and sugar cookies | They only make drop cookies |
-| [Cooling racks (2-pack)](https://amzn.to/3Tzr4v3) | Cookies, pies, rolls | They have racks they like |
 | [Clear self-sealing bags (200-pack)](https://amzn.to/47ihAYc) | Bakers who give cookies away | They give in tins |
 | [Piping set (124 pieces)](https://amzn.to/4dBeBO5) | Decorators | They have a full tip collection |
 | [RFAQK cake decorating kit (90 pieces)](https://link.amazon/B0i6ciZKP) | Beginner cake decorators | They already decorate cakes |
 | [Microplane zester](https://amzn.to/4scC2Df) | Stocking stuffer | They already own one |
+| [Banneton proofing baskets (2-pack)](https://link.amazon/B0ggIqzzC) | Sourdough and round loaves | They bake only in loaf pans |
 | [GORILLA GRIP oven mitts](https://amzn.to/47p2NLi) | Anyone with worn mitts | They bought new mitts this year |
 | [Dash mini donut maker](https://amzn.to/4hRGJxR) | Families, fun gifts | They're short on counter space |
 
