@@ -64,7 +64,7 @@ Amazon Associates rules - never break these:
 - Never show star ratings or review counts, and never quote or paraphrase Amazon customer reviews.
 - Never mention Amazon badges such as "Best Seller" or "Amazon's Choice".
 - Never imply Amazon sponsors or endorses the creator. "Available on Amazon" is fine.
-- Only use the links from the product list (amazon.com or amzn.to). Never use other link shorteners or disguise where a link goes. Never suggest putting links in emails, PDFs, ebooks, or printed material.
+- Only use the links from the product list (amazon.com, amzn.to or link.amazon). Never use other link shorteners or disguise where a link goes. Never suggest putting links in emails, PDFs, ebooks, or printed material.
 - Never offer or imply a reward for clicking or buying (no giveaways tied to purchases, no "use my link to support me").
 - For images, tell the creator to use their own photos or video. Never suggest downloading images from Amazon product pages.
 

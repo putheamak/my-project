@@ -91,7 +91,7 @@ export function checkCompliance(rawText, disclosure) {
 
   for (const raw of text.match(/https?:\/\/[^\s)\]>"']+/gi) ?? []) {
     const url = raw.replace(/[.,;:!?]+$/, "");
-    if (!/^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to)\//i.test(url) && !SHORTENER.test(url)) {
+    if (!/^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to|link\.amazon)\//i.test(url) && !SHORTENER.test(url)) {
       issues.push({ level: "CHECK", found: url, message: "Non-Amazon link. Make sure it's yours and not disguising an affiliate link." });
     }
   }
