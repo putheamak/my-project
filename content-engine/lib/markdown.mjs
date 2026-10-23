@@ -10,7 +10,7 @@ export function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
-const AMAZON = /^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to)\//i;
+const AMAZON = /^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to|link\.amazon)\//i;
 
 // Affiliate link attributes shared by inline links and Quick picks buttons.
 function linkAttrs(href, label) {

@@ -202,7 +202,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   fs.mkdirSync(outDir, { recursive: true });
   const { headline, subline } = splitTitle(pinTitle);
   // Number of different products the post links to.
-  const count = new Set(post.body.match(/https?:\/\/(?:amzn\.to|(?:www\.)?amazon\.com)\/[^\s)"]+/g) ?? []).size;
+  const count = new Set(post.body.match(/https?:\/\/(?:amzn\.to|link\.amazon|(?:www\.)?amazon\.com)\/[^\s)"]+/g) ?? []).size;
   const items = listItems(post.body);
   const files = [];
   [...designs, listDesign].forEach((design, i) => {
