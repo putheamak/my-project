@@ -8,8 +8,8 @@ pinTitle: "Gifts for Bakers Under $30 | Holiday Gift Shopping Ideas They'll Actu
 pinDescription: "Holiday gift shopping for a baker? These gifts for bakers under $30 are the tools they quietly run out of: silicone baking mats, cooling racks, heat-resistant oven mitts, a 124-piece piping set, spatulas, a zester, ramekins with lids, plus a mini donut maker and a chocolate melting pot for a more fun gift. Great for Secret Santa or White Elephant swaps. As an Amazon Associate I earn from qualifying purchases. Prices change — check the current price on Amazon. Full list on the blog."
 pinBoard: ""
 date: "2026-10-23"
-image: ""
-status: "draft"
+image: "images/gifts-for-bakers-under-30-cover.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
