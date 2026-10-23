@@ -5,7 +5,7 @@ description: "Gifts for bakers under $30, sorted by the kind of baker: the Chris
 slug: "gifts-for-bakers-under-30"
 keyword: "best gifts for bakers under $30"
 pinTitle: "Gifts for Bakers Under $30 | Cookie Bakers, Decorators, Fun Projects"
-pinDescription: "Gifts for bakers under $30, matched to the kind of baker. Cookie baker: silicone baking mats and a 3-size cookie scoop set. Decorator: a 124-piece piping set. Scorched mitts: silicone oven mitts. Fun project: a mini donut maker or a chocolate melting pot. Plus a zester for the stocking. Check the current price on Amazon."
+pinDescription: "Gifts for bakers under $30, matched to the kind of baker. Cookie baker: silicone baking mats and a 3-size cookie scoop set. Decorator: a 124-piece piping set. Scorched mitts: silicone oven mitts. Beginner cake decorator: a 90-piece cake decorating kit. Fun project: a mini donut maker. Plus a zester for the stocking. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-23"
 image: "images/gifts-for-bakers-under-30-cover.jpg"
@@ -56,6 +56,8 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 
 **Main pick:** the [piping bags and tips set (124 pieces, 16 tips, 100 bags)](https://amzn.to/4dBeBO5). It covers cookies, cupcakes and donuts, and it's a big box that looks generous under the tree. Skip it if they already have a full tip collection; get the scoops instead.
 
+**For someone who wants to try cakes:** the [RFAQK 90-piece cake decorating kit](https://link.amazon/B0i6ciZKP). It's built for beginners, and the listing says it comes with a video course, so it suits someone who has decorated cookies and wants to try a layer cake next. Skip it if they already decorate cakes; get the piping set instead.
+
 **For the stocking:** the [Microplane Premium Classic zester](https://amzn.to/4scC2Df). Citrus zest for icing, fresh nutmeg and chocolate shavings on top, all from one small tool.
 
 ### What do you get a baker whose oven mitts are scorched?
@@ -65,8 +67,6 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 ### What's a fun baking gift rather than a practical one?
 
 **Main pick:** the [Dash Express mini donut maker](https://amzn.to/4hRGJxR). It makes 7 small donuts at a time on the counter, no oven needed, which makes it a good family gift. For donut ideas with kids, see [weekend baking with kids](https://homepicksunder30.com/blog/posts/kitchen-gadgets-treats-with-kids/).
-
-**For candy and dipping:** the [NutriChef electric chocolate melting pot](https://amzn.to/3UliEHT). It melts chocolate for dipping strawberries, pretzels and molds and keeps it warm while they work. Skip it if they only melt chocolate once a year.
 
 ### How do these baking gifts compare?
 
@@ -78,10 +78,10 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 | [Cooling racks (2-pack)](https://amzn.to/3Tzr4v3) | Cookies, pies, rolls | They have racks they like |
 | [Clear self-sealing bags (200-pack)](https://amzn.to/47ihAYc) | Bakers who give cookies away | They give in tins |
 | [Piping set (124 pieces)](https://amzn.to/4dBeBO5) | Decorators | They have a full tip collection |
+| [RFAQK cake decorating kit (90 pieces)](https://link.amazon/B0i6ciZKP) | Beginner cake decorators | They already decorate cakes |
 | [Microplane zester](https://amzn.to/4scC2Df) | Stocking stuffer | They already own one |
 | [GORILLA GRIP oven mitts](https://amzn.to/47p2NLi) | Anyone with worn mitts | They bought new mitts this year |
 | [Dash mini donut maker](https://amzn.to/4hRGJxR) | Families, fun gifts | They're short on counter space |
-| [NutriChef melting pot](https://amzn.to/3UliEHT) | Dipping and candy molds | They rarely melt chocolate |
 
 ### Frequently asked questions
 
