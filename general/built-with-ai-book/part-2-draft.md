@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v12, 24 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v13, 25 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -16,6 +16,9 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v12, 24 Oct 2026
 7. Chapter 9 additions (24 Oct): "Why I finally tried" (Western audience, encouraging Cambodians, top marketplaces,
    robots and drones) and "Is it written for humans?" (1–10 scoring + traffic check). Check the robot/drone
    examples are current before publishing.
+8. Chapter 10 (video ads): uses the real ad results from your notes (2,546 views, 605 3-second views, 4 s average,
+   57 clicks, 0 bookings, 4 rider applicants, mostly men 25–44). Confirm OK to publish. Add (⭐) how many
+   calendar videos are made so far. Ogilvy quote added (note 6).
 -->
 
 # Part Two: Building
@@ -550,6 +553,103 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 
 ---
 
+## Chapter 10: Project Three — Video Ads Without a Video Editor
+
+### A business nobody has heard of
+
+On the day Khmer Parcel opened, almost no one knew it existed. We had a website, a Facebook page, prices, riders and a booking system. What we did not have was attention.
+
+In Cambodia, as in much of the world, attention lives in short vertical videos: Facebook Reels and TikTok. Businesses that post often are seen; businesses that do not are forgotten. But video production is expensive. A professional editor or an agency was far beyond the budget of a business in its first month, and I had never edited a video in my life.
+
+So I asked a different question: *could AI help one person produce a steady stream of short video advertisements, in Khmer, without an editor?*
+
+### Why build a video factory instead of using a video app
+
+Free video apps exist, and they are excellent. So why build something of my own?
+
+The answer lies in what a small business needs from its advertising. Every video must show the **same correct facts**: the same phone numbers, the same prices, the same offer and its end date. It must use the **same brand colours and fonts**, so that customers begin to recognise us. And it must handle the **Khmer script** properly, which many tools still struggle to display correctly.
+
+With a video app, every new video means rebuilding these details by hand, and every rebuild is a fresh chance for a mistake. So, with Claude, I built a small **video factory** instead. Each advertisement is designed like a simple web page, made of scenes with text, shapes and movement. A web browser then plays each scene and records it frame by frame, and the frames are joined into a vertical video between about thirty seconds and a minute long, ready for Reels and TikTok. Each video has a silent soundtrack, so that a voice-over or music can be added afterwards in the app where it is posted.
+
+To make a new advertisement, I copy an earlier design, change the words and images, check a quick preview of every scene, and render the final video. The facts, colours and fonts come along automatically.
+
+**The principle:** when consistency matters, build a template once, and let every future piece inherit it.
+
+### What the first numbers told us
+
+Our first paid advertisements ran for two days, at $5 a day, just as we launched. Facebook's report was humbling:
+
+- **2,546 views**, but only **605** people watched for three seconds or more
+- An average watching time of **four seconds**
+- **57 clicks** to our website
+- **Zero bookings**
+- And, unexpectedly, **four people applying to become riders**
+
+There was more. The people watching were mostly **men aged 25 to 44**, while the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, exactly when the video switched from speaking to door-to-door customers to speaking to online sellers.
+
+It would have been easy to feel discouraged. Instead, I treated the results as research findings, which is exactly what they were. Each number told us something:
+
+**An average of four seconds means the first frame is everything.** Most viewers decide almost instantly whether to keep watching. So every video now opens with its hook already visible, with no empty first second.
+
+**A drop at the seventeenth second means one message per video.** When a video tries to speak to two audiences, it loses both. We cut a shorter version of 29 seconds for door-to-door customers only, and set a firm rule: one audience per advertisement.
+
+**Four rider applications mean people were paying attention, just not the people we expected.** The advertisement reached job seekers more effectively than customers. That was not a failure; it was information about who was watching, and a reminder to target future advertisements more carefully.
+
+The advertising pioneer David Ogilvy once wrote, "The consumer isn't a moron; she is your wife."⁶ He meant that advertising works only when it respects the intelligence of the people watching. Our numbers taught the same lesson in a modern form: people give you a few seconds of their attention, and in return they expect a clear, honest message meant for them.
+
+### Rules learned the hard way
+
+Several of our most important rules came from small mistakes, each one caught by watching the finished videos with my own eyes.
+
+**Emoji appeared as empty boxes.** The computer that produced the videos had no way to display them, and the AI could not see the problem. Simple drawn icons now replace emoji in every video.
+
+**Khmer must look right, not just be present.** Khmer letters combine in complex ways, and the wrong font can break them apart. The factory now uses carefully chosen Khmer fonts, and I check every new video at full size.
+
+**The screen is not all yours.** On Reels and TikTok, the app's own buttons and captions cover the bottom of the screen and part of the right edge. Important words and prices are now kept inside a safe area in the middle.
+
+**One wrong digit can cost customers.** Our printed poster contained a wrong digit in one of our phone numbers. The poster is now always cropped, and the correct numbers live in one place, from which every video takes them.
+
+**Never promise what the business has not decided.** Early ideas for advertisements included attractive promises we had not confirmed, such as same-day payouts for cash-on-delivery orders. The rule is now written into the instructions the AI reads: if I have not confirmed it, it does not appear.
+
+**The principle:** AI makes production fast, but only a person watching carefully can catch what the machine cannot see.
+
+### A video a day
+
+Social media rewards consistency, so I set myself an ambitious goal: roughly one short advertisement every day. With the AI, I wrote a **thirty-day video calendar**, with a different idea for each day, each aimed at a single audience: a day in the life of an online seller, how cash-on-delivery works, a comedy about a rider searching for a house "near the pagoda", delivery in the rainy season, packing tips for sellers, and a countdown to the end of our launch offer.
+
+The honest truth is that the calendar is ahead of me. A plan for thirty videos is easy to write; producing, checking and posting them, while running a new business, takes real time. ⭐ [Update: how many videos from the calendar have been made and posted so far, and what you have learned from them.]
+
+### A plan, not a promise
+
+One video in our collection is different from the rest. It does not sell a delivery. It shares our vision: how AI is becoming smarter, what AI cannot replace, such as human trust, care and local knowledge, and the stages through which we hope Khmer Parcel will grow.
+
+When we made it, we chose our words carefully. The video presents a **plan, not promises**. It describes where we want to go, without claiming that we will certainly get there. That distinction runs through every part of this book: be ambitious in your plans, and honest in your claims.
+
+### Looking ahead
+
+The video factory has given a one-person business something that once required a team: the ability to produce clear, consistent, Khmer-first advertisements quickly and at almost no cost. What it cannot do is decide what to say, or guarantee that anyone will watch.
+
+Those remain human tasks: understanding the customer, choosing a single clear message, respecting the viewer's time, and learning from every number. The machine makes the videos. The thinking is still ours.
+
+> **Builder's Notes: Build your own video ad factory**
+>
+> *For readers who want to build their own version. Feel free to skip this box.*
+>
+> **Start with this message to Claude:**
+>
+> > I run a small [type of business] and want to make short vertical video ads (1080 × 1920) for Facebook Reels and TikTok, in [your language] with short English. I am not a video editor. Please build me a simple system where each ad is made from editable scenes, using my brand colours and fonts, and my correct contact details stored in one place. Give each video a silent soundtrack so I can add a voice-over in the app. Please explain each step simply.
+>
+> **Rules worth giving the AI from the start:**
+> - Show the hook in the very first frame.
+> - One audience per video.
+> - Keep important text away from the bottom quarter and the right edge, where app buttons appear.
+> - Never use emoji; draw simple icons instead.
+> - Never state a price, offer or promise that is not written in your facts file.
+>
+> **After posting:** look at the average watching time, where viewers leave, who is watching, and what they do next. Share those numbers with the AI, and ask: "What single change would you make to the next video?"
+
+---
+
 ## Notes
 
 1. Widely attributed to Charles F. Kettering (1876–1958), American inventor and head of research at General Motors; no original source has been confirmed, and the line is sometimes also attributed to the philosopher John Dewey. See, for example, https://wist.info/kettering-charles/31082/
@@ -557,3 +657,4 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 3. Steve Jobs, question-and-answer session with developers at Apple's Worldwide Developers Conference, San Jose, 16 May 1997, when he was serving as an adviser to Apple. See TIME, https://techland.time.com/?p=135666, and Kottke, "Focus means saying no", https://also.kottke.org/15/10/focus-means-saying-no
 4. Jeff Bezos, "1997 Letter to Shareholders", Amazon.com, Inc., section headed "It's All About the Long Term".
 5. Google Search Central, "Our latest update to the quality rater guidelines: E-A-T gets an extra E for Experience", December 2022; and Google's guidance on creating helpful, reliable, people-first content.
+6. David Ogilvy, *Confessions of an Advertising Man* (1963).
