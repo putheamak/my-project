@@ -181,7 +181,9 @@ function render(post, src, out) {
     ]);
     if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
     // Only a finished file gets the real name, so a half-written video is never shown.
-    fs.renameSync(part, out);
+    // Copy next to the output first: the temp dir can be on another disk, where rename fails (EXDEV).
+    fs.copyFileSync(part, `${out}.part`);
+    fs.renameSync(`${out}.part`, out);
     return { seconds: total, items: items.length };
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
