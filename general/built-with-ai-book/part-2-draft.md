@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v10, 24 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v11, 24 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -12,7 +12,10 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v10, 24 Oct 2026
 5. Chapter 9 (blog): numbers are as of mid-October 2026 (19 posts, 75 products, almost no outside visitors,
    0 sales). Update them from the tracker before publishing, and confirm you are happy to publish them.
    Also confirm: gift-card payments, Pinterest ads not available, Reddit rule, deadline 30 Mar 2027.
-6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter.
+7. Chapter 9 additions (24 Oct): "Why I finally tried" (Western audience, encouraging Cambodians, top marketplaces,
+   robots and drones) and "Is it written for humans?" (1–10 scoring + traffic check). Check the robot/drone
+   examples are current before publishing.
+6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter, Google E-E-A-T 2022.
 -->
 
 # Part Two: Building
@@ -408,6 +411,20 @@ I wanted to find out how much of that promise was true. Not by reading about it,
 
 In Chapter 4, I explained why I chose **affiliate marketing** and a blog about **kitchen gadgets under $30**: no stock, no shipping, free to join, a subject that never goes out of date, and products people buy without lengthy deliberation. The blog is called **Home Picks Under 30**. What follows is the story of how it was built, the reasoning behind each decision, and the results so far, including the uncomfortable ones.
 
+### Why I finally tried
+
+Many years ago, I first heard about people earning money online by selling on Amazon, or by becoming **affiliate marketers**: recommending products through articles or videos, and earning a small commission whenever a reader buys. The commissions are modest. But added together, month after month, small earnings like these can give a person something valuable: a source of income that does not depend on a single employer, and a measure of independence.
+
+I never tried it. The obstacles always looked too high for someone like me. I would have needed to write fluent articles in English, understand links and search engine optimisation, protect my privacy and security online, navigate the registration process, and above all, comply with Amazon's strict rules. Each of those was a separate skill, and together they kept the idea out of reach.
+
+AI changed that. Today, an AI agent can help with almost every one of those obstacles: drafting the writing, building the website, explaining search engines in plain language, guiding the registration step by step, and checking every post against the rules. The barriers that stopped me for years are now low enough for a beginner to cross.
+
+It is important to be clear about one thing. This blog is **not** aimed at customers in Cambodia. It is written in English for readers in Western countries, mainly the United States, where people shop on Amazon every day. The commission comes from those purchases. In other words, a person in Phnom Penh can now build a small online business that serves customers on the other side of the world.
+
+That is why I would encourage more Cambodians to explore affiliate marketing, with open eyes. As you will read later in this chapter, the path has real obstacles for people in our country, from receiving payments to advertising. But the opportunity is real, and AI has made it more accessible than ever before.
+
+I also believe this kind of work is a window into the future. The world's largest online marketplaces, among them **Amazon**, **Alibaba** (with its Taobao and Tmall platforms), **JD.com**, **Walmart** and **eBay**, are already changing the way goods are stored, packed and delivered. Amazon has tested humanoid robots in its warehouses and delivers some parcels by drone, while Walmart and JD.com have also run drone delivery services. As robots and AI take over more of the physical work of commerce, the human roles that remain will increasingly involve understanding customers, creating trustworthy content and directing intelligent tools. Learning those skills today, even on a small blog, is a way of preparing for that future.
+
 ### What the machine does
 
 Together with Claude, I built what I call a **content engine**. Three times a week, on Monday, Wednesday and Friday mornings, it starts on its own and performs the work of a small editorial team.
@@ -419,6 +436,28 @@ Once a post has been approved, the system goes further still. It builds the web 
 By mid-October 2026, the blog had **19 published posts** featuring **75 products**. ⭐ [Update these numbers before publishing.] Doing all of that by hand would have taken me weeks; the engine handled most of it in the background.
 
 That part of the promise is true. **AI can produce content at a pace no single person can match.** But, as I was about to learn, producing content was never the difficult part.
+
+### Is it written for humans?
+
+Speed raises an uncomfortable question: is content written by a machine truly **human-centred**? Does it reflect real experience, and does it speak to the feelings and needs of the person reading it, or does it merely sound correct?
+
+This question matters commercially as well as ethically. Google, which sends much of the world's web traffic, has said publicly that it rewards helpful content written for people, and in 2022 it added **experience** to the qualities it looks for in content, alongside expertise, authoritativeness and trustworthiness.⁵ A blog full of smooth but empty articles may be cheap to produce, but readers and search engines alike will notice.
+
+So I recommend a simple habit: **score every AI-written post before you publish it.** Read it as a reader would, and give it a mark from 1 to 10 for each of these questions:
+
+| Question | What a high score looks like |
+|---|---|
+| Does it solve a real problem for the reader? | The reader knows exactly what to buy, or not buy, and why |
+| Does it sound like a person, not a machine? | Natural, specific and warm, without empty phrases |
+| Does it reflect real experience? | Practical details a real cook would notice; honest about what has not been tested |
+| Does it respect the reader's feelings and budget? | No pressure, no exaggeration, a choice for every budget |
+| Would I trust it if I were the reader? | Clear disclosure, no claims that cannot be supported |
+
+A post that scores below 7 on any question goes back for rewriting, with my notes. Over time, these scores show where the AI is strong and where it needs more of my experience and voice.
+
+The scores are only half of the assessment. The other half is the market's verdict. A good article should attract visitors, keep them reading, and lead some of them to click through to Amazon and buy. Comparing my own scores with the real traffic between my blog and Amazon, the visits, the clicks and eventually the sales, shows whether my judgement matches what readers actually value. When the two disagree, the readers are right.
+
+**The principle:** AI can write quickly, but only humans can judge whether writing is genuinely helpful. Measure both: your own honest score, and your readers' behaviour.
 
 ### Why nothing goes live without me
 
@@ -502,6 +541,12 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 > - Never use the store's product photographs, and never copy its prices or star ratings. Use your own photographs or free stock images.
 > - Never claim to have used a product unless you genuinely have.
 > - Check your country's situation early: payment methods, advertising platforms and programme deadlines may differ where you live.
+>
+> **Scoring prompt** (use it before you publish):
+>
+> > Please act as a demanding reader. Score this draft from 1 to 10 on each question: Does it solve a real problem? Does it sound human? Does it reflect real experience? Does it respect the reader's feelings and budget? Would you trust it? Explain each score, then suggest three changes that would raise the lowest one.
+>
+> Treat the AI's scores as a second opinion, never the final word. Your own reading, and your readers' behaviour, decide.
 
 ---
 
@@ -511,3 +556,4 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 2. Warren Buffett, speaking to Salomon Brothers staff and in testimony to the US Congress, 1991. The wording varies slightly between sources.
 3. Steve Jobs, question-and-answer session with developers at Apple's Worldwide Developers Conference, San Jose, 16 May 1997, when he was serving as an adviser to Apple. See TIME, https://techland.time.com/?p=135666, and Kottke, "Focus means saying no", https://also.kottke.org/15/10/focus-means-saying-no
 4. Jeff Bezos, "1997 Letter to Shareholders", Amazon.com, Inc., section headed "It's All About the Long Term".
+5. Google Search Central, "Our latest update to the quality rater guidelines: E-A-T gets an extra E for Experience", December 2022; and Google's guidance on creating helpful, reliable, people-first content.
