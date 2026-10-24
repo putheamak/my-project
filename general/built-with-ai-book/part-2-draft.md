@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v13, 25 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v14, 25 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -557,79 +557,79 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 
 ### A business nobody has heard of
 
-On the day Khmer Parcel opened, almost no one knew it existed. We had a website, a Facebook page, prices, riders and a booking system. What we did not have was attention.
+On the day Khmer Parcel opened, almost nobody knew it existed. We had a website, a Facebook page, clear prices, riders and a booking system. What we did not have was attention.
 
-In Cambodia, as in much of the world, attention lives in short vertical videos: Facebook Reels and TikTok. Businesses that post often are seen; businesses that do not are forgotten. But video production is expensive. A professional editor or an agency was far beyond the budget of a business in its first month, and I had never edited a video in my life.
+In Cambodia, as in much of the world, attention now lives in short vertical videos on Facebook Reels and TikTok. Businesses that post regularly are seen; those that do not are soon forgotten. Yet video production is expensive. A professional editor or agency lay far beyond the budget of a business in its first month, and I had never edited a video in my life.
 
-So I asked a different question: *could AI help one person produce a steady stream of short video advertisements, in Khmer, without an editor?*
+So I asked a different question: *could AI help one person produce a steady stream of short video advertisements, in Khmer, without a video editor?*
 
-### Why build a video factory instead of using a video app
+### Why build a video factory rather than use an app
 
-Free video apps exist, and they are excellent. So why build something of my own?
+Free video-editing apps exist, and many of them are excellent. So why build something of my own?
 
-The answer lies in what a small business needs from its advertising. Every video must show the **same correct facts**: the same phone numbers, the same prices, the same offer and its end date. It must use the **same brand colours and fonts**, so that customers begin to recognise us. And it must handle the **Khmer script** properly, which many tools still struggle to display correctly.
+The answer lies in what a small business needs from its advertising. Every video must show **the same correct facts**: the same phone numbers, the same prices, the same offer and the same closing date. It must use **the same brand colours and fonts**, so that customers gradually learn to recognise us. And it must display **the Khmer script** properly, something many tools still struggle to do.
 
-With a video app, every new video means rebuilding these details by hand, and every rebuild is a fresh chance for a mistake. So, with Claude, I built a small **video factory** instead. Each advertisement is designed like a simple web page, made of scenes with text, shapes and movement. A web browser then plays each scene and records it frame by frame, and the frames are joined into a vertical video between about thirty seconds and a minute long, ready for Reels and TikTok. Each video has a silent soundtrack, so that a voice-over or music can be added afterwards in the app where it is posted.
+With an editing app, every new video means rebuilding those details by hand, and every rebuild is a fresh opportunity for error. So, together with Claude, I built a small **video factory** instead. Each advertisement is designed like a simple web page, composed of scenes containing text, shapes and movement. A web browser then plays each scene and records it frame by frame, and the frames are assembled into a vertical video of between thirty seconds and a minute, ready for Reels and TikTok. Every video carries a silent soundtrack, so that a voice-over or music can be added afterwards in the app where it is posted.
 
-To make a new advertisement, I copy an earlier design, change the words and images, check a quick preview of every scene, and render the final video. The facts, colours and fonts come along automatically.
+To create a new advertisement, I copy an earlier design, change the words and images, review a quick preview of each scene and render the final video. The facts, colours and fonts carry over automatically.
 
 **The principle:** when consistency matters, build a template once, and let every future piece inherit it.
 
 ### What the first numbers told us
 
-Our first paid advertisements ran for two days, at $5 a day, just as we launched. Facebook's report was humbling:
+Our first paid advertisements ran for two days, at $5 a day, as we launched. Facebook's report was humbling:
 
-- **2,546 views**, but only **605** people watched for three seconds or more
-- An average watching time of **four seconds**
-- **57 clicks** to our website
-- **Zero bookings**
-- And, unexpectedly, **four people applying to become riders**
+- **2,546 views**, yet only **605** viewers watched for three seconds or longer
+- An average viewing time of **four seconds**
+- **57 clicks** through to our website
+- **No bookings at all**
+- And, unexpectedly, **four applications from people wanting to become riders**
 
-There was more. The people watching were mostly **men aged 25 to 44**, while the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, exactly when the video switched from speaking to door-to-door customers to speaking to online sellers.
+There was more. Most viewers were **men aged 25 to 44**, whereas the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, precisely when the video switched from addressing door-to-door customers to addressing online sellers.
 
-It would have been easy to feel discouraged. Instead, I treated the results as research findings, which is exactly what they were. Each number told us something:
+It would have been easy to feel discouraged. Instead, I treated the results as research findings, which is exactly what they were, and each number taught us something.
 
-**An average of four seconds means the first frame is everything.** Most viewers decide almost instantly whether to keep watching. So every video now opens with its hook already visible, with no empty first second.
+**An average of four seconds means the first frame is everything.** Most viewers decide almost instantly whether to keep watching. Every video now opens with its hook already on screen, with no empty first second.
 
-**A drop at the seventeenth second means one message per video.** When a video tries to speak to two audiences, it loses both. We cut a shorter version of 29 seconds for door-to-door customers only, and set a firm rule: one audience per advertisement.
+**A drop at the seventeenth second means one message per video.** A video that tries to speak to two audiences loses both. We produced a shorter, 29-second version for door-to-door customers alone, and adopted a firm rule: one audience per advertisement.
 
-**Four rider applications mean people were paying attention, just not the people we expected.** The advertisement reached job seekers more effectively than customers. That was not a failure; it was information about who was watching, and a reminder to target future advertisements more carefully.
+**Four rider applications mean people were paying attention, just not the people we expected.** The advertisement reached job seekers more effectively than customers. That was not a failure; it was information about who was watching, and a reminder to target future advertisements with greater care.
 
-The advertising pioneer David Ogilvy once wrote, "The consumer isn't a moron; she is your wife."⁶ He meant that advertising works only when it respects the intelligence of the people watching. Our numbers taught the same lesson in a modern form: people give you a few seconds of their attention, and in return they expect a clear, honest message meant for them.
+The advertising pioneer David Ogilvy once wrote, "The consumer isn't a moron; she is your wife."⁶ His point was that advertising succeeds only when it respects the intelligence of its audience. Our numbers taught the same lesson in a modern form: people grant you a few seconds of their attention, and in return they expect a clear, honest message intended for them.
 
 ### Rules learned the hard way
 
-Several of our most important rules came from small mistakes, each one caught by watching the finished videos with my own eyes.
+Several of our most important rules grew out of small mistakes, each one caught by watching the finished videos with my own eyes.
 
-**Emoji appeared as empty boxes.** The computer that produced the videos had no way to display them, and the AI could not see the problem. Simple drawn icons now replace emoji in every video.
+**Emoji appeared as empty boxes.** The computer producing the videos had no means of displaying them, and the AI could not see the problem. Simple drawn icons now replace emoji in every video.
 
-**Khmer must look right, not just be present.** Khmer letters combine in complex ways, and the wrong font can break them apart. The factory now uses carefully chosen Khmer fonts, and I check every new video at full size.
+**Khmer must look right, not merely be present.** Khmer characters combine in complex ways, and the wrong font can break them apart. The factory now uses carefully chosen Khmer fonts, and I check every new video at full size.
 
-**The screen is not all yours.** On Reels and TikTok, the app's own buttons and captions cover the bottom of the screen and part of the right edge. Important words and prices are now kept inside a safe area in the middle.
+**The screen is not entirely yours.** On Reels and TikTok, the app's own buttons and captions cover the bottom of the screen and part of its right edge. Important words and prices are now kept within a safe area in the centre.
 
-**One wrong digit can cost customers.** Our printed poster contained a wrong digit in one of our phone numbers. The poster is now always cropped, and the correct numbers live in one place, from which every video takes them.
+**A single wrong digit can cost customers.** Our printed poster contained a wrong digit in one of our phone numbers. The poster is now always cropped, and the correct numbers are kept in one place, from which every video draws them.
 
-**Never promise what the business has not decided.** Early ideas for advertisements included attractive promises we had not confirmed, such as same-day payouts for cash-on-delivery orders. The rule is now written into the instructions the AI reads: if I have not confirmed it, it does not appear.
+**Never promise what the business has not decided.** Early ideas for advertisements included attractive promises we had not confirmed, such as same-day payouts for cash-on-delivery orders. The rule is now written into the instructions the AI follows: if I have not confirmed it, it does not appear.
 
 **The principle:** AI makes production fast, but only a person watching carefully can catch what the machine cannot see.
 
 ### A video a day
 
-Social media rewards consistency, so I set myself an ambitious goal: roughly one short advertisement every day. With the AI, I wrote a **thirty-day video calendar**, with a different idea for each day, each aimed at a single audience: a day in the life of an online seller, how cash-on-delivery works, a comedy about a rider searching for a house "near the pagoda", delivery in the rainy season, packing tips for sellers, and a countdown to the end of our launch offer.
+Social media rewards consistency, so I set an ambitious goal of roughly one short advertisement every day. With the AI, I drew up a **thirty-day video calendar**, with a different idea for each day and each aimed at a single audience: a day in the life of an online seller, an explanation of how cash-on-delivery works, a light-hearted story about a rider searching for a house "near the pagoda", deliveries in the rainy season, packing tips for sellers, and a countdown to the end of our launch offer.
 
-The honest truth is that the calendar is ahead of me. A plan for thirty videos is easy to write; producing, checking and posting them, while running a new business, takes real time. ⭐ [Update: how many videos from the calendar have been made and posted so far, and what you have learned from them.]
+The honest truth is that the calendar is ahead of me. A plan for thirty videos is easy to write; producing, checking and posting them while running a new business takes real time. ⭐ [Update: how many videos from the calendar have been made and posted so far, and what you have learned from them.]
 
 ### A plan, not a promise
 
-One video in our collection is different from the rest. It does not sell a delivery. It shares our vision: how AI is becoming smarter, what AI cannot replace, such as human trust, care and local knowledge, and the stages through which we hope Khmer Parcel will grow.
+One video in our collection differs from all the others. It sells no delivery. Instead, it shares our vision: how AI is growing more capable, what AI cannot replace, such as human trust, care and local knowledge, and the stages through which we hope Khmer Parcel will grow.
 
-When we made it, we chose our words carefully. The video presents a **plan, not promises**. It describes where we want to go, without claiming that we will certainly get there. That distinction runs through every part of this book: be ambitious in your plans, and honest in your claims.
+We chose its words with care. The video presents **a plan, not promises**: it describes where we intend to go without claiming that we will certainly arrive. That distinction runs through every part of this book. Be ambitious in your plans, and honest in your claims.
 
 ### Looking ahead
 
-The video factory has given a one-person business something that once required a team: the ability to produce clear, consistent, Khmer-first advertisements quickly and at almost no cost. What it cannot do is decide what to say, or guarantee that anyone will watch.
+The video factory has given a one-person business a capability that once required a team: producing clear, consistent, Khmer-first advertisements quickly and at almost no cost. What it cannot do is decide what to say, or guarantee that anyone will watch.
 
-Those remain human tasks: understanding the customer, choosing a single clear message, respecting the viewer's time, and learning from every number. The machine makes the videos. The thinking is still ours.
+Those remain human tasks: understanding the customer, choosing one clear message, respecting the viewer's time and learning from every number. The machine makes the videos. The thinking remains ours.
 
 > **Builder's Notes: Build your own video ad factory**
 >
@@ -637,16 +637,16 @@ Those remain human tasks: understanding the customer, choosing a single clear me
 >
 > **Start with this message to Claude:**
 >
-> > I run a small [type of business] and want to make short vertical video ads (1080 × 1920) for Facebook Reels and TikTok, in [your language] with short English. I am not a video editor. Please build me a simple system where each ad is made from editable scenes, using my brand colours and fonts, and my correct contact details stored in one place. Give each video a silent soundtrack so I can add a voice-over in the app. Please explain each step simply.
+> > I run a small [type of business] and want to make short vertical video ads (1080 × 1920) for Facebook Reels and TikTok, in [your language] with short English. I am not a video editor. Please build me a simple system in which each ad is made from editable scenes, uses my brand colours and fonts, and takes my correct contact details from one place. Give each video a silent soundtrack so that I can add a voice-over in the app. Please explain each step simply.
 >
 > **Rules worth giving the AI from the start:**
 > - Show the hook in the very first frame.
-> - One audience per video.
+> - Speak to one audience per video.
 > - Keep important text away from the bottom quarter and the right edge, where app buttons appear.
 > - Never use emoji; draw simple icons instead.
-> - Never state a price, offer or promise that is not written in your facts file.
+> - Never state a price, offer or promise that is not recorded in your facts file.
 >
-> **After posting:** look at the average watching time, where viewers leave, who is watching, and what they do next. Share those numbers with the AI, and ask: "What single change would you make to the next video?"
+> **After posting:** review the average viewing time, the point where viewers leave, who is watching and what they do next. Share those figures with the AI and ask: "What single change would you make to the next video?"
 
 ---
 
