@@ -61,6 +61,18 @@
     ],
     "videoPosts": [
       {
+        "slug": "gifts-for-bakers-under-30",
+        "label": "Gifts for bakers"
+      },
+      {
+        "slug": "kitchen-gadgets-under-30-chopping-prep",
+        "label": "Faster chopping"
+      },
+      {
+        "slug": "kitchen-gadgets-under-30-leftovers",
+        "label": "Leftovers"
+      },
+      {
         "slug": "gifts-coffee-lover-under-30",
         "label": "Coffee lover gifts"
       },
