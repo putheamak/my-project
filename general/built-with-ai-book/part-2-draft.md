@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v11, 24 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v12, 24 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -12,10 +12,10 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v11, 24 Oct 2026
 5. Chapter 9 (blog): numbers are as of mid-October 2026 (19 posts, 75 products, almost no outside visitors,
    0 sales). Update them from the tracker before publishing, and confirm you are happy to publish them.
    Also confirm: gift-card payments, Pinterest ads not available, Reddit rule, deadline 30 Mar 2027.
+6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter, Google E-E-A-T 2022.
 7. Chapter 9 additions (24 Oct): "Why I finally tried" (Western audience, encouraging Cambodians, top marketplaces,
    robots and drones) and "Is it written for humans?" (1–10 scoring + traffic check). Check the robot/drone
    examples are current before publishing.
-6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter, Google E-E-A-T 2022.
 -->
 
 # Part Two: Building
@@ -413,17 +413,17 @@ In Chapter 4, I explained why I chose **affiliate marketing** and a blog about *
 
 ### Why I finally tried
 
-Many years ago, I first heard about people earning money online by selling on Amazon, or by becoming **affiliate marketers**: recommending products through articles or videos, and earning a small commission whenever a reader buys. The commissions are modest. But added together, month after month, small earnings like these can give a person something valuable: a source of income that does not depend on a single employer, and a measure of independence.
+Many years ago, I first heard of people earning money online by selling on Amazon, or by becoming **affiliate marketers**: recommending products through articles or videos, and earning a small commission whenever a reader makes a purchase. Each commission is modest. Yet added together, month after month, such earnings can offer something genuinely valuable: an income that does not depend on a single employer, and with it a degree of independence.
 
-I never tried it. The obstacles always looked too high for someone like me. I would have needed to write fluent articles in English, understand links and search engine optimisation, protect my privacy and security online, navigate the registration process, and above all, comply with Amazon's strict rules. Each of those was a separate skill, and together they kept the idea out of reach.
+For years, I never tried. The obstacles seemed too high for someone like me. I would have needed to write fluent articles in English, understand links and search engine optimisation, protect my privacy and security online, navigate the registration process and, above all, comply with Amazon's demanding rules. Each was a separate skill, and together they kept the idea permanently out of reach.
 
-AI changed that. Today, an AI agent can help with almost every one of those obstacles: drafting the writing, building the website, explaining search engines in plain language, guiding the registration step by step, and checking every post against the rules. The barriers that stopped me for years are now low enough for a beginner to cross.
+AI changed that. An AI agent can now help with almost every one of those obstacles: drafting the articles, building the website, explaining search engines in plain language, guiding the registration step by step, and checking every post against the rules. Barriers that stopped me for years are now low enough for a beginner to cross.
 
-It is important to be clear about one thing. This blog is **not** aimed at customers in Cambodia. It is written in English for readers in Western countries, mainly the United States, where people shop on Amazon every day. The commission comes from those purchases. In other words, a person in Phnom Penh can now build a small online business that serves customers on the other side of the world.
+One point deserves to be made clearly. This blog is **not** aimed at customers in Cambodia. It is written in English for readers in Western countries, chiefly the United States, where millions of people shop on Amazon every day, and the commissions come from their purchases. In other words, a person in Phnom Penh can now build a small online business that serves customers on the other side of the world.
 
-That is why I would encourage more Cambodians to explore affiliate marketing, with open eyes. As you will read later in this chapter, the path has real obstacles for people in our country, from receiving payments to advertising. But the opportunity is real, and AI has made it more accessible than ever before.
+That is why I encourage more Cambodians to explore affiliate marketing, with their eyes open. As this chapter will show, the path holds real obstacles for people in our country, from receiving payments to advertising. But the opportunity is real, and AI has made it more accessible than ever before.
 
-I also believe this kind of work is a window into the future. The world's largest online marketplaces, among them **Amazon**, **Alibaba** (with its Taobao and Tmall platforms), **JD.com**, **Walmart** and **eBay**, are already changing the way goods are stored, packed and delivered. Amazon has tested humanoid robots in its warehouses and delivers some parcels by drone, while Walmart and JD.com have also run drone delivery services. As robots and AI take over more of the physical work of commerce, the human roles that remain will increasingly involve understanding customers, creating trustworthy content and directing intelligent tools. Learning those skills today, even on a small blog, is a way of preparing for that future.
+I also see this work as a window into the future. The world's largest online marketplaces, among them **Amazon**, **Alibaba** (through its Taobao and Tmall platforms), **JD.com**, **Walmart** and **eBay**, are already transforming the way goods are stored, packed and delivered. Amazon has tested humanoid robots in its warehouses and delivers some parcels by drone, while Walmart and JD.com have also operated drone delivery services. As robots and AI take on more of the physical work of commerce, the human roles that remain will increasingly involve understanding customers, creating trustworthy content and directing intelligent tools. Learning those skills today, even through a small blog, is one way of preparing for that future.
 
 ### What the machine does
 
@@ -439,25 +439,25 @@ That part of the promise is true. **AI can produce content at a pace no single p
 
 ### Is it written for humans?
 
-Speed raises an uncomfortable question: is content written by a machine truly **human-centred**? Does it reflect real experience, and does it speak to the feelings and needs of the person reading it, or does it merely sound correct?
+Speed, however, raises an uncomfortable question: is content written by a machine genuinely **human-centred**? Does it reflect real experience and speak to the feelings and needs of the person reading it, or does it merely sound correct?
 
-This question matters commercially as well as ethically. Google, which sends much of the world's web traffic, has said publicly that it rewards helpful content written for people, and in 2022 it added **experience** to the qualities it looks for in content, alongside expertise, authoritativeness and trustworthiness.⁵ A blog full of smooth but empty articles may be cheap to produce, but readers and search engines alike will notice.
+The question matters commercially as much as ethically. Google, which directs a large share of the world's web traffic, has stated publicly that it rewards helpful content written for people, and in 2022 it added **experience** to the qualities it looks for, alongside expertise, authoritativeness and trustworthiness.⁵ A blog filled with smooth but empty articles may be cheap to produce, but readers and search engines alike will eventually notice.
 
-So I recommend a simple habit: **score every AI-written post before you publish it.** Read it as a reader would, and give it a mark from 1 to 10 for each of these questions:
+I therefore recommend a simple discipline: **score every AI-written post before publishing it.** Read it as your reader would, and award a mark from 1 to 10 for each of the following questions:
 
 | Question | What a high score looks like |
 |---|---|
-| Does it solve a real problem for the reader? | The reader knows exactly what to buy, or not buy, and why |
-| Does it sound like a person, not a machine? | Natural, specific and warm, without empty phrases |
-| Does it reflect real experience? | Practical details a real cook would notice; honest about what has not been tested |
-| Does it respect the reader's feelings and budget? | No pressure, no exaggeration, a choice for every budget |
-| Would I trust it if I were the reader? | Clear disclosure, no claims that cannot be supported |
+| Does it solve a real problem for the reader? | The reader knows exactly what to buy, or not to buy, and why |
+| Does it sound like a person rather than a machine? | Natural, specific and warm, free of empty phrases |
+| Does it reflect real experience? | Practical details a real cook would notice, and honesty about what has not been tested |
+| Does it respect the reader's feelings and budget? | No pressure, no exaggeration, and a choice for every budget |
+| Would I trust it if I were the reader? | Clear disclosure, and no claims that cannot be supported |
 
-A post that scores below 7 on any question goes back for rewriting, with my notes. Over time, these scores show where the AI is strong and where it needs more of my experience and voice.
+Any post that scores below 7 on any question goes back for rewriting, together with my notes. Over time, these scores reveal where the AI is strong and where it needs more of my own experience and voice.
 
-The scores are only half of the assessment. The other half is the market's verdict. A good article should attract visitors, keep them reading, and lead some of them to click through to Amazon and buy. Comparing my own scores with the real traffic between my blog and Amazon, the visits, the clicks and eventually the sales, shows whether my judgement matches what readers actually value. When the two disagree, the readers are right.
+Yet the scores are only half of the assessment. The other half is the market's verdict. A good article should attract visitors, hold their attention and lead some of them to click through to Amazon and buy. Comparing my own scores with the real traffic between the blog and Amazon, from visits and clicks to, eventually, sales, shows whether my judgement matches what readers actually value. When the two disagree, the readers are right.
 
-**The principle:** AI can write quickly, but only humans can judge whether writing is genuinely helpful. Measure both: your own honest score, and your readers' behaviour.
+**The principle:** AI can write quickly, but only people can judge whether writing is genuinely helpful. Measure both your own honest assessment and your readers' behaviour.
 
 ### Why nothing goes live without me
 
@@ -546,7 +546,7 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 >
 > > Please act as a demanding reader. Score this draft from 1 to 10 on each question: Does it solve a real problem? Does it sound human? Does it reflect real experience? Does it respect the reader's feelings and budget? Would you trust it? Explain each score, then suggest three changes that would raise the lowest one.
 >
-> Treat the AI's scores as a second opinion, never the final word. Your own reading, and your readers' behaviour, decide.
+> Treat the AI's scores as a second opinion, never the final verdict. Your own reading, and your readers' behaviour, decide.
 
 ---
 
