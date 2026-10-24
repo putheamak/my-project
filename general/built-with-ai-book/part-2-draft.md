@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v9, 23 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v10, 24 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -402,82 +402,85 @@ What I can already say is this: a small business owner with no programming backg
 
 ### The promise everyone is selling
 
-Scroll through social media for a few minutes and you will meet the same promise again and again: let AI write your content, add a few affiliate links, and money will arrive while you sleep. The videos show laptops on beaches and screenshots of earnings. The message is always the same: *passive income*.
+Spend a few minutes on social media and you will encounter the same promise again and again: let AI write your content, add a few affiliate links, and money will arrive while you sleep. The videos feature laptops on beaches and screenshots of earnings, and the message never changes: *passive income*.
 
-I wanted to know how much of that promise was true. Not by reading about it, but by testing it myself, honestly, with my own time and money, and then reporting exactly what happened. This chapter is that report.
+I wanted to find out how much of that promise was true. Not by reading about it, but by testing it myself, honestly, with my own time and money, and then reporting exactly what happened. This chapter is that report.
 
-In Chapter 4, I explained why I chose **affiliate marketing** and a blog about **kitchen gadgets under $30**: no stock, no shipping, free to join, a topic that never goes out of date, and products that people buy without long hesitation. The blog is called **Home Picks Under 30**. What follows is the story of how it was built, the decisions behind it, and the results so far, including the uncomfortable ones.
+In Chapter 4, I explained why I chose **affiliate marketing** and a blog about **kitchen gadgets under $30**: no stock, no shipping, free to join, a subject that never goes out of date, and products people buy without lengthy deliberation. The blog is called **Home Picks Under 30**. What follows is the story of how it was built, the reasoning behind each decision, and the results so far, including the uncomfortable ones.
 
 ### What the machine does
 
-With Claude, I built what I call a **content engine**. Three times a week, on Monday, Wednesday and Friday mornings, it wakes up on its own and does the work of a small editorial team.
+Together with Claude, I built what I call a **content engine**. Three times a week, on Monday, Wednesday and Friday mornings, it starts on its own and performs the work of a small editorial team.
 
-It chooses a topic, guided by the calendar: Halloween snacks in October, Thanksgiving cooking in November, gift ideas before Christmas. It writes a full draft article in clear, helpful English. It prepares a "posting pack" for the same topic: captions for social media, short video scripts and a Pinterest description. And before I ever see the draft, it checks the text against Amazon's rules and lists anything that must be fixed.
+It selects a topic guided by the calendar: Halloween snacks in October, Thanksgiving cooking in November, gift ideas before Christmas. It writes a complete draft article in clear, helpful English. It prepares a "posting pack" on the same topic, with social media captions, short video scripts and a Pinterest description. And before I see a single word, it checks the draft against Amazon's rules and lists everything that needs correcting.
 
-When a post is approved and published, the system does even more. It builds the page, shrinks the photos so the site loads quickly on a phone, creates three different Pinterest images and produces a short vertical video, ready for TikTok, YouTube Shorts and Pinterest.
+Once a post has been approved, the system goes further still. It builds the web page, compresses the photographs so that the site loads quickly on a phone, designs three different Pinterest images, and produces a short vertical video ready for TikTok, YouTube Shorts and Pinterest.
 
-By mid-October 2026, the blog had **19 published posts** featuring **75 products**. ⭐ [Update these numbers before publishing.] Doing all of that by hand would have taken me weeks. The engine did most of it in the background.
+By mid-October 2026, the blog had **19 published posts** featuring **75 products**. ⭐ [Update these numbers before publishing.] Doing all of that by hand would have taken me weeks; the engine handled most of it in the background.
 
-That part of the promise is true. **AI can produce content at a speed no single person can match.** But as you will see, producing content was never the hard part.
+That part of the promise is true. **AI can produce content at a pace no single person can match.** But, as I was about to learn, producing content was never the difficult part.
 
 ### Why nothing goes live without me
 
-The most important decision in this project was not technical. It was this: **the engine writes drafts, but only I can publish them.**
+The most important decision in this project was not technical at all. It was this: **the engine writes drafts, but only I can publish them.**
 
-Every draft waits for my review. I read it, I choose the products myself on Amazon, and I send them to the AI one at a time. Only when I type "go" does it update the post. Then I add a cover photo and approve the publication.
+Every draft waits for my review. I read it, choose the products myself on Amazon, and send them to the AI one at a time. Only when I type "go" does it update the post. I then add a cover photograph and approve publication.
 
-Why not let it publish automatically? Because a blog that recommends products is making a promise to its readers, and I am the one responsible for that promise. An AI can write a convincing paragraph about a garlic press it has never touched. I can stop it from pretending otherwise.
+Why not allow it to publish automatically? Because a blog that recommends products is making a promise to its readers, and I am the one accountable for that promise. An AI can write a persuasive paragraph about a garlic press it has never touched. I can prevent it from pretending otherwise.
 
-That is why every product note in my system says the same thing: *"Haven't used it yet."* The articles never claim that I tested a product, or that it changed my life. They say what the product is designed for and what the listing says. It is less exciting to read, and far more honest.
+That is why every product note in my system says the same thing: *"Haven't used it yet."* The articles never claim that I have tested a product or that it has transformed my kitchen. They describe what the product is designed to do and what its listing states. It makes for less exciting reading, and far more honest reading.
 
 **The principle:** automation can do the work, but responsibility cannot be automated.
 
-### Why the rules are written into the machine
+### Why the rules are built into the machine
 
-Amazon's affiliate programme has strict rules, and breaking them can close your account. You must disclose that you earn from purchases. You must not show prices that may change, or copy star ratings and review counts. You must not use Amazon's product images.
+Amazon's affiliate programme has strict rules, and breaking them can cost you your account. You must disclose that you earn from qualifying purchases. You must not display prices that may change, nor copy star ratings and review counts. And you must not use Amazon's product images.
 
-I could have tried to remember all of this every time. Instead, I asked the AI to build the rules into the engine itself. Every draft is checked automatically, and the report at the top of the posting pack tells me exactly what to fix: a missing disclosure, a price that slipped into the text, a word like "best" that I cannot support.
+I could have tried to remember every rule each time. Instead, I asked the AI to build the rules into the engine itself. Every draft is checked automatically, and the report at the top of each posting pack tells me precisely what to correct: a missing disclosure, a price that has crept into the text, or a word such as "best" that I cannot substantiate.
 
-The checker is not perfect. For a while, it accepted "under $30" but flagged "under-$30", written with a hyphen, as an error. But it catches far more than I would on a tired evening, and it never forgets a rule.
+The checker is not flawless. For a time, it accepted "under $30" yet flagged "under-$30", written with a hyphen, as an error. Even so, it catches far more than I would on a tired evening, and it never forgets a rule.
 
-**The principle:** when the rules matter, do not rely on memory. Turn them into a checklist the machine applies every single time.
+**The principle:** when the rules matter, do not rely on memory. Turn them into a checklist that the machine applies every single time.
 
 ### Why the calendar matters
 
-One of the most useful ideas in the project came from studying how people use Pinterest. Many users plan ahead, saving gift ideas and holiday recipes weeks or even months before the event. So the engine does not write about Halloween on Halloween. It writes about it in early October, and about Christmas gifts from mid-October onwards.
+One of the most valuable ideas in the project came from understanding how people use Pinterest. Many users plan well ahead, saving gift ideas and holiday recipes weeks or even months before the occasion. The engine therefore does not write about Halloween on Halloween. It writes about it in early October, and about Christmas gifts from mid-October onwards.
 
-When I learned this, I moved our gift guide forward by more than two weeks. The AI adjusted the publishing plan so that every new draft until mid-December would focus on gifts.
+When I understood this, I brought our gift guide forward by more than two weeks, and the AI adjusted the publishing plan so that every new draft until mid-December would focus on gifts.
 
-**The principle:** publish for the moment when your reader is searching, not for the moment the event arrives.
+**The principle:** publish for the moment your reader begins searching, not for the moment the occasion arrives.
 
 ### The honest results
 
-Here is the part that the videos about passive income never show.
+This is the part the videos about passive income never show.
 
-By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were mostly my own, until I set the visitor counter to ignore my connection. The Amazon dashboard recorded a few dozen clicks on product links in the first month, many of them from my own testing. **The number of sales was zero.** ⭐ [Update with the latest numbers from the weekly tracker before publishing.]
+By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were largely my own, until I set the visitor counter to ignore my connection. Amazon's dashboard recorded a few dozen clicks on product links during the first month, many of them from my own testing. **The number of sales was zero.** ⭐ [Update with the latest figures from the weekly tracker before publishing.]
 
-The project also ran into obstacles that no AI could solve, because they had nothing to do with technology:
+The project also encountered obstacles that no AI could solve, because they had nothing to do with technology.
 
-- **Getting paid.** Cambodia is not on Amazon's list of countries for bank payments to affiliates, so my earnings can only be paid as Amazon gift cards until I have a working international payment account.
-- **Advertising.** I planned a small paid test on Pinterest to bring the first visitors to the gift guide. Pinterest's advertising platform does not accept advertisers from Cambodia. Registering under another country would have been dishonest, so we dropped the idea.
-- **Community rules.** Some of the online communities where people ask cooking questions, such as Reddit's large cooking forum, ban AI-written posts. So the AI gives me short ideas, and I write any answers myself, in my own words.
-- **A deadline.** Amazon requires new affiliates to make three qualifying sales within 180 days, or the account is closed. My deadline is the 30th of March, 2027.
+**Getting paid.** Cambodia is not on Amazon's list of countries eligible for bank payments to affiliates, so any earnings can be paid only as Amazon gift cards until I have a working international payment account.
 
-None of this means the project has failed. It means it is young. Pinterest can take weeks or months to send steady traffic, and search engines often take three to six months to trust a new website. The best sales season of the year, from Thanksgiving to Christmas, still lies ahead.
+**Advertising.** I planned a small paid test on Pinterest to bring the first visitors to the gift guide. Pinterest's advertising platform, however, does not accept advertisers based in Cambodia. Registering under another country would have been dishonest, so we abandoned the idea.
+
+**Community rules.** Some of the online communities where people ask cooking questions, including Reddit's large cooking forum, prohibit AI-written posts. The AI therefore gives me short ideas, and I write any answers myself, in my own words.
+
+**A deadline.** Amazon requires new affiliates to make three qualifying sales within 180 days, or the account is closed. My deadline is the 30th of March, 2027.
+
+None of this means the project has failed. It means the project is young. Pinterest can take weeks or months to deliver steady traffic, and search engines often take three to six months to trust a new website. Meanwhile, the strongest shopping season of the year, from Thanksgiving to Christmas, still lies ahead.
 
 ### What "passive income" really means
 
 After two months, this is my honest conclusion.
 
-The *production* can be largely automated. The *audience* cannot. No engine, however clever, can make strangers trust a website they have never heard of. That trust is earned slowly: by publishing useful posts consistently, by sharing them where people are searching, and by never misleading the reader.
+The *production* can largely be automated. The *audience* cannot. No engine, however clever, can persuade strangers to trust a website they have never heard of. That trust is earned slowly: by publishing useful posts consistently, by sharing them where people are searching, and by never misleading the reader.
 
-So the work did not disappear; it changed. Instead of writing every article myself, I now spend my time reviewing, choosing products, pinning posts by hand and posting short videos. It is far less work than doing everything manually. But it is not passive, and anyone who tells you otherwise is usually selling something.
+The work, then, did not disappear; it changed. Instead of writing every article myself, I now spend my time reviewing drafts, choosing products, pinning posts by hand and sharing short videos. It is far less work than doing everything manually. But it is not passive, and anyone who claims otherwise is usually selling something.
 
-In his first letter to Amazon's shareholders, in 1997, Jeff Bezos placed one idea at the centre of the company's thinking, under the heading "It's All About the Long Term."⁴ It is a fitting thought for anyone building an affiliate website for Amazon. The engine gives me the ability to keep showing up, three times a week, at very low cost. Whether that consistency turns into income is a question that only time, and readers, can answer.
+In his first letter to Amazon's shareholders, in 1997, Jeff Bezos placed one idea at the heart of the company's thinking, under the heading "It's All About the Long Term."⁴ It is a fitting thought for anyone building an affiliate website for Amazon. The engine allows me to keep showing up, three times a week, at very little cost. Whether that consistency becomes income is a question only time, and readers, can answer.
 
 ### Looking ahead
 
-I will keep the engine running, keep publishing honestly, and keep recording the numbers every Monday. If the first sales arrive, I will tell you how. If they do not, I will tell you that too, and what I learned.
+I will keep the engine running, keep publishing honestly, and keep recording the numbers every Monday. If the first sales arrive, I will explain how they came. If they do not, I will say so, together with everything I learned along the way.
 
 > **Builder's Notes: Build your own content engine**
 >
@@ -485,20 +488,20 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 >
 > **Start with this message to Claude:**
 >
-> > I want to start a small affiliate blog about [your niche] for [your audience]. Please build me a system that, three times a week, suggests a topic, writes a draft article, prepares social media captions, and checks the draft against [the affiliate programme]'s rules. Nothing should be published until I approve it. I am a beginner: please use free tools where possible, explain each step simply, and write me a setup guide.
+> > I want to start a small affiliate blog about [your niche] for [your audience]. Please build me a system that, three times a week, suggests a topic, writes a draft article, prepares social media captions, and checks the draft against [the affiliate programme]'s rules. Nothing should be published until I approve it. I am a beginner, so please use free tools where possible, explain each step simply, and write me a setup guide.
 >
 > **What the setup usually involves:**
-> 1. **A free GitHub account** to store the project, run the schedule and host the blog (GitHub Pages).
-> 2. **A Claude API key**, added to GitHub as a *secret*, so the engine can call Claude. This is billed by use, separately from your Claude subscription (see Chapter 5). Never paste the key into a chat.
-> 3. **A settings file** where you write your niche, your audience, your language and your real affiliate links.
-> 4. **A free visitor counter**, such as GoatCounter, to see real traffic.
+> 1. **A free GitHub account**, to store the project, run the schedule and host the blog (through GitHub Pages).
+> 2. **A Claude API key**, added to GitHub as a *secret*, so that the engine can call Claude. It is billed by usage, separately from your Claude subscription (see Chapter 5). Never paste the key into a chat.
+> 3. **A settings file**, in which you record your niche, your audience, your language and your real affiliate links.
+> 4. **A free visitor counter**, such as GoatCounter, to measure real traffic.
 >
 > **Common traps:**
-> - Exclude your own visits from the visitor counter, or your numbers will look better than they are.
-> - Write the affiliate disclosure into every post and every social media description, before the first link.
-> - Never use the store's product photos or copy its prices and star ratings. Use your own photos or free stock photos.
-> - Never claim you have used a product unless you have.
-> - Check every country rule early: payment methods, advertising platforms and programme deadlines may be different where you live.
+> - Exclude your own visits from the visitor counter, or your figures will look better than they are.
+> - Place the affiliate disclosure in every post and every social media description, before the first link.
+> - Never use the store's product photographs, and never copy its prices or star ratings. Use your own photographs or free stock images.
+> - Never claim to have used a product unless you genuinely have.
+> - Check your country's situation early: payment methods, advertising platforms and programme deadlines may differ where you live.
 
 ---
 
