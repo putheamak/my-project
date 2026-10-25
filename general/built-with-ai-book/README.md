@@ -1,7 +1,7 @@
 # Built with AI, No Coding (book project)
 
 A planned Kindle ebook: real business tools a non-programmer built with AI (Telegram booking app,
-auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~90 days of real results.
+auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by late 2026 (aim mid-December); add fuller results in a later edition.
 
 ## Files
 | File | What it is |
@@ -36,3 +36,15 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 ## Owner review
 - 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.
 - 26 Oct 2026: owner's voice pass: fewer formal words (precisely, genuinely, therefore), "The principle:" labels cut from 13 to 3, Part One "Why it matters" labels removed, owner's own phrases restored (peaceful than ever; I am a believer; comfort and convenience; the light ahead will grow brighter).
+
+## Plan to publish by late 2026
+| Week | Dates (2026) | Task | Who |
+|---|---|---|---|
+| 1 | 27 Oct – 2 Nov | Check KDP payment from Cambodia (Account → Getting Paid); read the full review copy | Owner |
+| 2 | 3 – 9 Nov | Send review comments; screenshots of the 4 tools; final title and subtitle | Owner → Claude applies |
+| 3 | 10 – 16 Nov | Apply edits; US or British spelling decision; update tracker numbers | Claude + owner |
+| 4 | 17 – 23 Nov | Cover (Canva or a designer); Amazon description, 7 keywords, 2 categories | Owner + Claude |
+| 5 | 24 – 30 Nov | Format the ebook (EPUB), check in Kindle Previewer; 3–5 beta readers | Claude + owner |
+| 6 | 1 – 7 Dec | Final fixes from beta readers; final proofread | Claude + owner |
+| 7 | 8 – 14 Dec | Upload to KDP (AI disclosure, price, Kindle Unlimited); review takes up to 72 hours | Owner |
+| 8 | 15 – 31 Dec | Live on Amazon; share with your network; ask early readers for honest reviews | Owner |

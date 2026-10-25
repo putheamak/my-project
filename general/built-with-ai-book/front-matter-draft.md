@@ -1,8 +1,8 @@
 <!--
 OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 2026
 1. Title and subtitle are still the working version. Decide the final wording before the cover is designed.
-2. Copyright year: 2027 assumes publication in January 2027 (⭐ change if you publish in 2026).
-3. Dedication is optional (⭐). Delete it if you do not want one.
+2. Copyright year: 2026 (owner, 26 Oct: aim to publish by late 2026).
+3. Dedication page removed (owner, 26 Oct).
 4. Kindle ebooks do not need an ISBN (Amazon gives an ASIN). A paperback would need one.
 -->
 
@@ -16,7 +16,7 @@ OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 202
 
 ## Copyright
 
-Copyright © 2027 Mak Puthea ⭐
+Copyright © 2026 Mak Puthea
 
 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without the prior written permission of the author, except for brief quotations used in reviews and articles.
 
@@ -39,12 +39,6 @@ This book was written with the assistance of artificial intelligence.
 The author supplied the experiences, notes, opinions, decisions and project records on which every chapter is based. An AI assistant, Claude, developed by Anthropic, helped to organise this material into chapters, refine the language, and verify facts and the sources of quotations. Every chapter was then reviewed, corrected and approved by the author.
 
 No results, quotations or experiences in this book have been invented. Where a fact could not be verified, this is stated in the text or in the notes. Chapter 11 describes the writing process in full.
-
----
-
-## Dedication
-
-⭐ [Optional: for example, "To my family, and to everyone in Cambodia who is ready to learn." Write your own, or delete this page.]
 
 ---
 
