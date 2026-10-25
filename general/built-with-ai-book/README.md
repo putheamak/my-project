@@ -9,6 +9,7 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 | `part-1-draft.md` | Part One (chapters 1–4) as book narrative, v3 polished 20 Oct 2026. Open points are in the checklist comment at the top. |
 | `part-2-draft.md` | Part Two drafts. Chapter 5 (toolkit and costs, polished) and Chapter 6 (how to talk to AI), Chapter 7 (first 30-minute win), Chapter 8 (Project 1: Telegram booking app), Chapter 9 (Project 2: the blog), Chapter 10 (Project 3: video ads), Chapter 11 (Project 4: the ebook machine). v16 (25 Oct): chapters 6–11 story-led and polished, owner's colleague, first-win and data-privacy stories added, how-to moved into "Builder's Notes" boxes. Open points in the checklist comment at the top. |
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author placeholder. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
+| `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
 ## How we write it
@@ -29,3 +30,6 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 - Throughout: owner to confirm the real numbers (ad results, blog sales) are OK to publish.
 - Ch 5: replace the Claude API estimate (~$10/month) with the real bill.
 - Ch 9: check the robot and drone examples are still current.
+
+## Owner review
+- 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.
