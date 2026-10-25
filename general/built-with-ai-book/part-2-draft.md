@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v16, 25 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v17, 25 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -21,7 +21,7 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v16, 25 Oct 2026
    calendar videos are made so far. Ogilvy quote added (note 6).
 9. Chapter 11 (ebook machine): written from this chat (the reels, the three ideas, the Amazon screenshots,
    how the book is written). Check it matches your memory. ⭐ Add launch details after publication.
-   Zinsser quote added (note 7).
+   Zinsser quote added (note 7). MLK 1968 quote and the owner's motivation paragraphs added (note 8).
 -->
 
 # Part Two: Building
@@ -701,6 +701,14 @@ One uncomfortable truth remained. My four projects had only just been built. The
 
 The answer reshaped the book. It would not be a book about income; it would be a **build journal**, recording how each tool was created, why each decision was made, what it cost, what went wrong and, honestly, what has and has not happened since. I began recording the figures every Monday in a simple tracking sheet, so that future editions can report real results rather than hopes.
 
+Results, in any case, were never my only reason for building. I began these projects because I had come to recognise where my real strength lies: in using the technology available to me to improve communication, and to make the social and commercial projects I hope to build in the future work better. And I believe that AI will change the way we live on this earth, sooner or later. I would rather learn to work with that change now than be surprised by it later.
+
+My working life has had its share of ups and downs, some of which you read about in Part One: the difficult years in a company I could not change, the decision to leave, and the uncertain months that followed. This book exists because of those experiences, not in spite of them. I want to share them truthfully, including the hard times, because I believe that anyone who keeps faith in their ability to overcome a difficult period will eventually see the way through it more clearly than before.
+
+On the 3rd of April 1968, in Memphis, Tennessee, Martin Luther King Jr. gave what would be his final speech, at one of the darkest moments of his struggle for civil rights. Facing threats against his life, he told his audience: "Only when it is dark enough can you see the stars."⁸ He was killed the following day, yet those words still give courage to people around the world. King understood that hope is not the absence of difficulty; it is what becomes visible because of it.
+
+My projects are still at an early, uncertain stage: an app that customers are only beginning to try, a blog without sales, a calendar of videos still being made. It would be easy to see that as darkness. I prefer to see it as the moment when the stars begin to appear: when the lessons are clearest, and when the decision to keep going matters most.
+
 **The principle:** if you cannot yet show results, show your process honestly. Readers forgive an absence of results far more readily than they forgive exaggeration.
 
 ### How this book is actually written
@@ -760,3 +768,4 @@ Whether the book will sell, I cannot yet say. But it has already achieved someth
 5. Google Search Central, "Our latest update to the quality rater guidelines: E-A-T gets an extra E for Experience", December 2022; and Google's guidance on creating helpful, reliable, people-first content.
 6. David Ogilvy, *Confessions of an Advertising Man* (1963).
 7. William Zinsser, *On Writing Well* (first published 1976).
+8. Martin Luther King Jr., "I've Been to the Mountaintop", Mason Temple, Memphis, Tennessee, 3 April 1968. The full sentence reads: "But I know, somehow, that only when it is dark enough can you see the stars."
