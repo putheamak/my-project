@@ -1,6 +1,6 @@
 <!--
 OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 2026
-1. Title and subtitle are still the working version. Decide the final wording before the cover is designed.
+1. Title and subtitle approved by the owner (26 Oct): option A from the launch kit.
 2. Copyright year: 2026 (owner, 26 Oct: aim to publish by late 2026).
 3. Dedication page removed (owner, 26 Oct).
 4. Kindle ebooks do not need an ISBN (Amazon gives an ASIN). A paperback would need one.
@@ -8,7 +8,7 @@ OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 202
 
 # Built with AI, No Coding
 
-## How a Small-Business Owner in Cambodia Built Real Tools with AI: A Booking App, a Self-Drafting Blog, Video Ads and an Ebook Machine
+## Real Business Tools, Real Costs and Real Mistakes from a Small-Business Owner in Cambodia
 
 ### Mak Puthea
 
