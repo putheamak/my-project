@@ -6,7 +6,7 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 ## Files
 | File | What it is |
 |---|---|
-| `introduction-draft.md` | Introduction (goes before Part One): who the book is for, what's inside, how to read it, the honesty promise and AI-use statement. v1 26 Oct 2026. |
+| `introduction-draft.md` | Introduction (goes before Part One): who the book is for, what's inside, how to read it, the honesty promise and AI-use statement. v2 polished 26 Oct 2026. |
 | `part-1-draft.md` | Part One (chapters 1–4) as book narrative, v3 polished 20 Oct 2026. Open points are in the checklist comment at the top. |
 | `part-2-draft.md` | Part Two drafts. Chapter 5 (toolkit and costs, polished) and Chapter 6 (how to talk to AI), Chapter 7 (first 30-minute win), Chapter 8 (Project 1: Telegram booking app), Chapter 9 (Project 2: the blog), Chapter 10 (Project 3: video ads), Chapter 11 (Project 4: the ebook machine). v16 (25 Oct): chapters 6–11 story-led and polished, owner's colleague, first-win and data-privacy stories added, how-to moved into "Builder's Notes" boxes. Open points in the checklist comment at the top. |
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author placeholder. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
