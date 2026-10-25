@@ -1,10 +1,12 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Three draft v2, 25 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Three draft v3, 26 Oct 2026
 1. Part Three is built only from what earlier chapters already say; no new facts were added.
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
 3. Chapter 13, "A word to readers in Cambodia": personalise it if you wish (⭐).
 4. "About the author" is a placeholder (⭐): choose real name or pen name, and add a short bio and photo.
-5. Quote used: Laozi, Tao Te Ching, chapter 64 (note 1).
+5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
+6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
+   with the free course list. ⭐ Clarify "the upcoming block's rules changes". Check the course list is current.
 -->
 
 # Part Three: What Comes Next
@@ -21,9 +23,51 @@ AI made mistakes in every one of my projects. What surprised me was not that it 
 
 It wrote attractive promises into advertisements that my business had never agreed to make. It produced videos in which small symbols turned into empty boxes, without registering that anything was amiss. Even the checker it built for my blog had a blind spot, accepting one way of writing a phrase while rejecting another. None of these mistakes announced itself. Each came to light only because a person examined the finished work with care.
 
+Writing this book together with an AI produced its own collection of mistakes, and I record them here because they are typical.
+
+**It stated facts it had not checked.** In an early plan, the AI wrote, from memory, that Khmer was not a supported language for Kindle books. It flagged the claim as unverified, which was right, but it was a reminder that an AI can sound certain about things it has never confirmed.
+
+**It contradicted the facts it already had.** An early draft of Chapter 5 claimed that none of my projects had used paid advertising. My own project notes showed that Khmer Parcel had run paid Facebook advertisements. The sentence sounded reasonable, and it was simply untrue.
+
+**It made small errors that would have caused real confusion.** When it built my weekly tracking sheet, it set the first "Monday" as the 20th of October, 2026, which was in fact a Tuesday. It caught the error itself when it checked the calendar, but only because checking had become part of the routine.
+
+**It improved quotations beyond what the record supports.** In one draft, Steve Jobs "told a conference" that focusing is about saying no. When the AI checked the sources, it found that he had said it while answering questions from developers, not in a prepared speech. In another case, it found that a famous line usually credited to the inventor Charles Kettering cannot be traced to anything he actually wrote.
+
+**It guessed at what I meant.** When I told it that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video. I may have meant the time needed to make one. It wrote its interpretation into the book, and flagged it for me to confirm. That is the right behaviour, but only because I had asked it to mark every assumption.
+
 The most reassuring moment came from the opposite direction. When I first asked an AI to write a program for my survey analysis, I did not simply accept its output. I compared its results, figure by figure, with those I had calculated by hand. Only when the two matched did I begin to rely on it.
 
 That habit underpins everything else in this book. **Let AI do the work, but never let it be the only one checking that work.** Read every draft, watch every video, test every booking, and compare every important figure with a calculation you trust.
+
+### Insecurity in the age of AI
+
+There is a saying that has travelled widely in recent years: "Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."¹ It comes from a 2016 novel by the American writer G. Michael Hopf, and it echoes a much older observation by the fourteenth-century historian Ibn Khaldun, who described how dynasties weakened over generations as hardship gave way to comfort. Historians rightly point out that real history is more complicated than any four-line cycle. Yet the warning at its heart deserves attention, and I would phrase it this way: hard times create strong people, and comfortable times can make us careless.
+
+The more comfortable we become, the weaker our foundations can grow. And AI is, above all, a technology of comfort.
+
+AI will make many things possible that once seemed impossible. It already allows one person to produce what once required a team. But that very convenience creates a new kind of insecurity, and it is worth understanding why. ⭐ [Check: your notes mention "the upcoming block's rules changes". Did you mean new laws and regulations on AI, changes in the rules between regional blocs, or something else? I have written "as the rules change" below.]
+
+**More tools mean more doors.** Every new AI tool we adopt asks for access: to our email, our files, our customers, our accounts. Each connection makes us more productive, and each one is also a door through which personal, public and private information can leave our control, often through automated systems that no person is watching.
+
+**Convenience is our default.** Human nature does not choose the difficult path when an easier one is available. When a tool offers to remember everything, upload everything and connect everything, most of us accept without reading the conditions. In that sense, AI and cybersecurity pull in opposite directions: one rewards us for sharing more, the other protects us by sharing less.
+
+**The rules are still being written.** As AI spreads, the laws and standards that govern how our data is collected, stored and used are changing quickly, and they differ from one country to another. What is acceptable today may not be tomorrow, and much of what happens to our data happens far beyond our view.
+
+None of this is a reason to avoid AI. It is a reason to **keep learning**, so that our knowledge grows as quickly as our tools. The people most at risk are not those who use AI, but those who use it without understanding what they are giving away.
+
+Fortunately, learning has never been more accessible. Several AI companies and organisations offer free courses, suitable for beginners, that explain how AI works and how to use it responsibly:²
+
+- **Anthropic Academy** (the makers of Claude): free courses including *AI Fluency: Framework & Foundations* and *Claude 101*
+- **OpenAI Academy** (the makers of ChatGPT): free online lessons and events on using AI effectively
+- **Google Cloud Skills Boost**: a free *Introduction to Generative AI* learning path
+- **Microsoft Learn**: free training modules on AI fundamentals
+- **IBM SkillsBuild**: free courses on AI and related digital skills
+- **DeepLearning.AI**: *AI for Everyone*, a non-technical introduction by Andrew Ng, free to audit
+- **Elements of AI**: a free online course created by the University of Helsinki and MinnaLearn
+
+Choose one and begin with it. An hour a week of learning is a small price for the confidence to use these tools safely.
+
+**The principle:** comfort is the hidden cost of convenience. Keep learning, keep questioning what you share, and never let an easy tool make you a careless user.
 
 ### Keeping your business, and other people, safe
 
@@ -59,7 +103,7 @@ Yet here, too, there is a boundary. Some communities rightly reject text written
 
 ### Begin with a single step
 
-The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."¹ Every project in this book began in precisely that way: with one problem, described in plain words, on an ordinary day.
+The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."³ Every project in this book began in precisely that way: with one problem, described in plain words, on an ordinary day.
 
 You do not need a grand plan, a technical team or a large budget. You need one real problem, a few hours each day and the willingness to learn from your mistakes. The plan that follows will help you take that first step within a single week.
 
@@ -109,4 +153,6 @@ The rest of the journey is yours.
 
 ## Notes
 
-1. Laozi, *Tao Te Ching*, chapter 64. The line is commonly translated as "A journey of a thousand miles begins with a single step"; a more literal rendering is "A journey of a thousand li starts beneath one's feet."
+1. G. Michael Hopf, *Those Who Remain* (2016). Ibn Khaldun described a similar cycle in the *Muqaddimah* (1377).
+2. Course names and availability as of October 2026; check each provider's website for the current offer, for example anthropic.skilljar.com and academy.openai.com.
+3. Laozi, *Tao Te Ching*, chapter 64. The line is commonly translated as "A journey of a thousand miles begins with a single step"; a more literal rendering is "A journey of a thousand li starts beneath one's feet."
