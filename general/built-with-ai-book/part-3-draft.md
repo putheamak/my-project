@@ -2,8 +2,9 @@
 OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
 1. Part Three is built only from what earlier chapters already say; no new facts were added.
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
-3. Chapter 13, "A word to readers in Cambodia": personalise it if you wish (⭐).
-4. "About the author" is a placeholder (⭐): choose real name or pen name, and add a short bio and photo.
+3. Chapter 13, "A word to readers in Cambodia": expanded with four divides and calls to action (26 Oct).
+4. About the Author written (26 Oct) from facts in the book; no online profile was found for "Mak Puthea".
+   Written without he/she; tell me your preferred pronoun if you want one. Check the facts, add photo/contact (⭐). Chapter 13 Cambodia section expanded (26 Oct).
 5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
 6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
    with the free course list. "Block's rules" = new AI laws by regional blocs (EU AI Act, ASEAN guide; note 4).
@@ -130,9 +131,29 @@ By the end of the week, you will hold something more valuable than a finished pr
 
 I wrote this book in Phnom Penh, and I would like to close with a few words for readers in my own country, and in countries like it.
 
-In Chapter 3, I described a new divide: between those who understand and use AI, and those who are left behind by it. That divide is not fixed. It is decided, person by person, by those who choose to learn. Many of us did not grow up with computers, and many still find technology intimidating. Yet the tools in this book require no degree in computer science. They require curiosity, patience and the courage to begin.
+In Chapter 3, I described a new divide: between those who understand and use AI, and those who are left behind by it. Living here, I see that divide every day, and it has several layers.
 
-If you learn these skills, share them: with your family, your colleagues, your community and the young people around you. Every person who learns to work with AI makes the divide a little narrower. ⭐ [Optional: add a personal message, hope or call to action of your own.]
+**The skills divide.** Many of us use smartphones, Facebook and Telegram every day. We pay with QR codes and sell online. Yet using an app is not the same as understanding the technology behind it. Few people have yet learned to give AI a clear task, check its work and protect their data while doing so. That gap, not access to the internet, is the new divide.
+
+**The language divide.** Most AI tools, courses and guides are written in English. That shuts out many capable people who think and work in Khmer. AI is improving in our language, and it already understands mixed Khmer and English far better than it did a few years ago. But the best learning materials still assume English, and that slows us down.
+
+**The work divide.** Many of our jobs, in garment factories, in offices and in services, are exactly the kinds of work that automation and AI may change first. Our young population can be our greatest strength in the age of AI, but only if young people gain the skills that machines cannot easily replace: understanding customers, solving real problems and directing intelligent tools.
+
+**The safety divide.** Where digital literacy is still growing, people are more exposed to scams, fake news and careless sharing of personal data. As I wrote in Chapter 7, convenience can quietly become a risk when the rules are not clear.
+
+None of these divides is fixed. Each one is decided, person by person, by those who choose to learn. Many of us did not grow up with computers, and many still find technology intimidating. Yet the tools in this book require no degree in computer science. They require curiosity, patience and the courage to begin.
+
+So here is what I would ask of you.
+
+If you are a **student**, learn to use AI as a partner for thinking, not as a shortcut for homework. The habit of checking its work will serve you for life.
+
+If you are a **worker**, look at your own job and find one repetitive task that AI could help with. Learning that one skill may protect your future more than any certificate.
+
+If you **run a business**, start with one real problem, as I did. You do not need a large budget; you need a clear explanation and the patience to test.
+
+If you are a **teacher, a trainer or a leader** in an NGO or community, share what you learn in Khmer. Every guide, workshop or conversation in our own language narrows the divide for many others.
+
+If you learn these skills, share them: with your family, your colleagues, your community and the young people around you. Every person who learns to work with AI makes the divide a little narrower, and together we can make sure that Cambodia does not watch this change from the outside, but takes part in it.
 
 ### A closing thought
 
@@ -148,7 +169,7 @@ The rest of the journey is yours.
 
 ## About the Author
 
-⭐ [To be completed: your name or pen name, a short biography (your research background, Khmer Parcel, and why you wrote this book), a photograph, and how readers can contact you or follow future editions.]
+**Mak Puthea** is a researcher and small-business founder based in Phnom Penh, Cambodia. A computer science graduate who majored in networking, Puthea began a career in qualitative research with social NGOs, then spent three years as a research supervisor at a leading consumer brand, teaching themselves to automate data collection, analysis and reporting. In October 2026, Puthea launched Khmer Parcel, a parcel delivery service in Phnom Penh, and began building real business tools with AI, the story told in this book. Puthea believes that AI will change the way we all live and work, and that people in developing countries deserve to be part of that change rather than be left behind by it. ⭐ [Add: a photo, and how readers can contact you or follow future editions.]
 
 ---
 

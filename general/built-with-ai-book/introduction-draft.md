@@ -7,7 +7,7 @@ OWNER CHECKLIST (delete before publishing) — Introduction draft v2, 26 Oct 202
 
 # Introduction
 
-I am not a programmer. I have never studied computer science. Until recently, I had never built an app, run a website or edited a video.
+I am not a programmer. I studied computer science at university, but my major was networking, not building software. Until recently, I had never built an app, run a website or edited a video.
 
 Yet within a few weeks, working from Phnom Penh, I built four working tools for my business and my writing:
 
@@ -24,7 +24,7 @@ This book tells that story honestly, from the very beginning.
 
 There is no shortage of books about AI. Most of them make a promise: easy money, a hundred clever prompts, a business that runs while you sleep. When I studied them on Amazon, I noticed something missing. Very few were written by an ordinary person sharing real projects, with real costs and real mistakes.
 
-That is what I can offer. I am a former research supervisor who left a difficult job, started a small delivery business, and chose to learn AI by using it every day. I am still learning. Some of my projects have only just begun, and I will tell you exactly where each one stands, including the parts that have not yet worked.
+That is what I can offer. I am a computer science graduate turned researcher, a former research supervisor who left a difficult job, started a small delivery business, and chose to learn AI by using it every day. I am still learning. Some of my projects have only just begun, and I will tell you exactly where each one stands, including the parts that have not yet worked.
 
 ### Who this book is for
 

@@ -72,7 +72,7 @@ The lesson is worth remembering: **a subscription and an API are not the same th
 | Telegram, GoatCounter, social media, Amazon Associates, KDP | Customers, analytics, marketing, publishing | Free |
 | **Total** | | **about $31 / month** |
 
-For about $31 a month, roughly the price of a few cups of coffee each week, one person with no programming background can run a booking system, a content engine, a video ad studio and a publishing pipeline.
+For about $31 a month, roughly the price of a few cups of coffee each week, one person who is not a programmer can run a booking system, a content engine, a video ad studio and a publishing pipeline.
 
 That figure covers the tools only. Running a real business has other costs. Khmer Parcel, for example, pays to promote some of its video ads on Facebook. But building and running the technology itself costs about $31 a month.
 
@@ -382,7 +382,7 @@ The finished app looks simple, and that is precisely the point. Building it, how
 
 The booking app has only just been launched, and its real test lies ahead. Real customers will reveal challenges I have not yet imagined, and I intend to share them honestly in a future edition of this book.
 
-What I can already say is this: a small business owner with no programming background described a daily problem in plain words, and within days had a working, secure and free tool that addresses it. Whether sellers embrace it is now a question of trust and habit, the oldest questions in business, and ones no AI can answer on our behalf.
+What I can already say is this: a small business owner who is not a programmer described a daily problem in plain words, and within days had a working, secure and free tool that addresses it. Whether sellers embrace it is now a question of trust and habit, the oldest questions in business, and ones no AI can answer on our behalf.
 
 > **Builder's Notes: Build your own booking mini app**
 >

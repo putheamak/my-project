@@ -23,7 +23,7 @@ This chapter is about that understanding. It is also where my story with AI begi
 
 ### From stories to numbers
 
-Before I entered the corporate world, I worked with social NGOs. My training was in **qualitative research**: interviews, focus groups, and long conversations with people until I understood the story behind their answers. I was good at it, and I loved it.
+I studied computer science at university, majoring in networking, but I never trained as a programmer or a data analyst. Before I entered the corporate world, I worked with social NGOs, where my work was in **qualitative research**: interviews, focus groups, and long conversations with people until I understood the story behind their answers. I was good at it, and I loved it.
 
 The commercial world asked a different kind of question. Management did not want stories; they wanted **numbers they could trust**. How large is our market share? How many people think of our brand first? Why do customers choose us, and why do some of them choose our competitors? Answering those questions requires **quantitative research and data analysis**, and I have to be honest: that was not my strongest skill.
 
@@ -80,7 +80,7 @@ I believe the decision was right for both sides. The company was not getting the
 
 I left with two things. The first was a deep understanding of how a business really works, and of how good data and good tools can make it far more productive, *if* its leaders are willing to listen. The second was a set of skills I had built on my own: data collection, analysis, dashboards, and the habit of working with AI to write code I could not write alone.
 
-I did not know that those skills were preparing me for something much bigger. Only a few years ago, building software required years of study. Today, people like us, with no computer science degree, can describe a tool in plain language and build it **together with an AI agent**.
+I did not know that those skills were preparing me for something much bigger. Only a few years ago, building software required years of study. Today, people like us, who are not professional programmers, can describe a tool in plain language and build it **together with an AI agent**.
 
 This book is about that new version of me. In the pages that follow, I will share everything I have learned since that August day: what worked, what failed, and what it cost, so that you can do the same.
 
