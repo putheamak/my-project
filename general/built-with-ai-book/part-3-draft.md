@@ -4,7 +4,8 @@ OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
 3. Chapter 13, "A word to readers in Cambodia": expanded with four divides and calls to action (26 Oct).
 4. About the Author written (26 Oct) from facts in the book; no online profile was found for "Mak Puthea".
-   Written without he/she; tell me your preferred pronoun if you want one. Check the facts, add photo/contact (⭐). Chapter 13 Cambodia section expanded (26 Oct).
+   Pronoun: he (owner, 26 Oct). Contact: email and phone/Telegram added (owner, 26 Oct). Add photo (⭐).
+7. Glossary added before About the Author (26 Oct). Chapter 13 Cambodia section expanded (26 Oct).
 5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
 6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
    with the free course list. "Block's rules" = new AI laws by regional blocs (EU AI Act, ASEAN guide; note 4).
@@ -167,9 +168,102 @@ The rest of the journey is yours.
 
 ---
 
+## Glossary
+
+Plain-language explanations of the technical terms used in this book.
+
+**Affiliate marketing.** Recommending products, usually through articles or videos, and earning a small commission when a reader buys through your special link.
+
+**AI agent.** An AI that does not only answer questions but carries out tasks, such as writing files, running programs and fixing its own mistakes. Claude Code is an AI agent.
+
+**Amazon Associates.** Amazon's affiliate programme. Members earn a commission on qualifying purchases made through their links.
+
+**API (Application Programming Interface).** A way for one piece of software to talk to another automatically. My blog engine uses the Claude API to request drafts without anyone typing in a chat window.
+
+**API key.** A secret password that allows your software to use an API. Anyone who has it can use your account, so it must never be shared or pasted into a chat.
+
+**Best Sellers Rank (BSR).** A number Amazon shows on each product page. The lower the number, the more the product is selling compared with others in its category.
+
+**Bot.** A small automated account, for example on Telegram, that can reply to messages, show buttons and open apps.
+
+**Build journal.** A record of how a project was built, what was decided, what went wrong and what happened next. This book is one.
+
+**Claude / Claude Code.** Claude is the AI assistant made by Anthropic. Claude Code is the version that works as an agent, reading and writing project files to build tools.
+
+**Cloudflare Workers.** A service that runs small apps on Cloudflare's network, so you do not need to rent or maintain your own server. Its free plan is enough for a small business.
+
+**COD (cash on delivery).** A payment method in which the customer pays the delivery rider when the parcel arrives.
+
+**Compliance check.** An automatic review of a draft against a set of rules, such as Amazon's affiliate rules, before anything is published.
+
+**Domain name.** The address people type to find a website, such as *homepicksunder30.com*.
+
+**Emoji.** Small picture symbols used in messages. Some computers cannot display them, which is why they appeared as empty boxes in my early videos.
+
+**GitHub.** An online service that stores project files, keeps a history of every change, and can run small jobs on a schedule.
+
+**GitHub Pages.** A free GitHub feature that publishes a simple website directly from your project files.
+
+**GoatCounter.** A simple, privacy-friendly service that counts how many people visit a website.
+
+**Handover note.** A short document that tells an AI, or a new colleague, the facts and rules of a project, so they can start work without asking the same questions again.
+
+**HTML.** The language web pages are written in. My calculator and my video scenes are built from HTML.
+
+**KDP (Kindle Direct Publishing).** Amazon's service for publishing ebooks and paperbacks yourself.
+
+**KHQR.** Cambodia's national QR code standard for digital payments.
+
+**Kindle Unlimited.** A subscription that lets readers borrow many Kindle books. Authors are paid according to the number of pages read.
+
+**KV (key-value storage).** A small, simple database. My booking app uses Cloudflare's free KV storage to remember which sellers have used the launch offer.
+
+**Mini app.** A small app that opens inside another app, such as Telegram, with nothing to install.
+
+**Net Promoter Score (NPS).** A common measure of how likely customers are to recommend a brand to others.
+
+**Prompt.** The message or instruction you give to an AI.
+
+**Python.** A popular programming language, often used for data analysis. My first AI-written program was in Python.
+
+**Reels.** Short vertical videos on Facebook and Instagram, similar to TikTok videos.
+
+**Render.** To produce a finished image or video from a design. My video factory renders each scene frame by frame.
+
+**SEO (search engine optimisation).** Ways of writing and organising web pages so that search engines such as Google can find and rank them.
+
+**Server.** A computer that is always switched on and connected to the internet, running an app or a website.
+
+**SPSS.** Software widely used for statistical analysis in research.
+
+**Superintelligence.** A possible future AI that is more capable than humans in almost every field.
+
+**Test data.** Invented data in the same format as real data, used to build or test a tool without exposing anyone's private information.
+
+**Token (bot token).** The secret key Telegram gives you when you create a bot. Whoever holds it controls the bot.
+
+---
+
 ## About the Author
 
-**Mak Puthea** is a researcher and small-business founder based in Phnom Penh, Cambodia. A computer science graduate who majored in networking, Puthea began a career in qualitative research with social NGOs, then spent three years as a research supervisor at a leading consumer brand, teaching themselves to automate data collection, analysis and reporting. In October 2026, Puthea launched Khmer Parcel, a parcel delivery service in Phnom Penh, and began building real business tools with AI, the story told in this book. Puthea believes that AI will change the way we all live and work, and that people in developing countries deserve to be part of that change rather than be left behind by it. ⭐ [Add: a photo, and how readers can contact you or follow future editions.]
+**Mak Puthea** is a researcher and small-business founder based in Phnom Penh, Cambodia. A computer science graduate who majored in networking, he began his career in qualitative research with social NGOs, then spent three years as a research supervisor at a leading consumer brand, where he taught himself to automate data collection, analysis and reporting. In October 2026, he launched Khmer Parcel, a parcel delivery service in Phnom Penh, and began building real business tools with AI, the story told in this book. He believes that AI will change the way we all live and work, and that people in developing countries deserve to be part of that change rather than be left behind by it.
+
+Readers are welcome to get in touch with questions, feedback or their own stories of building with AI:
+
+- **Email:** putheamak@gmail.com
+- **Phone and Telegram:** +855 12 429 597
+
+⭐ [Add a photo of the author.]
+
+---
+
+## A Request to the Reader
+
+Thank you for reading this book.
+
+If it helped you, even in a small way, I would be grateful if you could leave an honest review on Amazon. Reviews help other readers decide whether a book is right for them, and they help an independent author from Cambodia reach readers around the world. A sentence or two is enough, and critical reviews are just as welcome as kind ones. They help me improve the next edition.
+
+I would also love to hear what you build. You can reach me at putheamak@gmail.com.
 
 ---
 
