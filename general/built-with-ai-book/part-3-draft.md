@@ -4,7 +4,7 @@ OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
 3. Chapter 13, "A word to readers in Cambodia": expanded with four divides and calls to action (26 Oct).
 4. About the Author written (26 Oct) from facts in the book; no online profile was found for "Mak Puthea".
-   Pronoun: he (owner, 26 Oct). Contact: email and phone/Telegram added (owner, 26 Oct). Add photo (⭐).
+   Pronoun: he (owner, 26 Oct). Contact: email and phone/Telegram added (owner, 26 Oct). Photo added (images/author-photo.jpg).
 7. Glossary added before About the Author (26 Oct). Chapter 13 Cambodia section expanded (26 Oct).
 5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
 6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
@@ -246,14 +246,14 @@ Plain-language explanations of the technical terms used in this book.
 
 ## About the Author
 
+![Mak Puthea](images/author-photo.jpg)
+
 **Mak Puthea** is a researcher and small-business founder based in Phnom Penh, Cambodia. A computer science graduate who majored in networking, he began his career in qualitative research with social NGOs, then spent three years as a research supervisor at a leading consumer brand, where he taught himself to automate data collection, analysis and reporting. In October 2026, he launched Khmer Parcel, a parcel delivery service in Phnom Penh, and began building real business tools with AI, the story told in this book. He believes that AI will change the way we all live and work, and that people in developing countries deserve to be part of that change rather than be left behind by it.
 
 Readers are welcome to get in touch with questions, feedback or their own stories of building with AI:
 
 - **Email:** putheamak@gmail.com
 - **Phone and Telegram:** +855 12 429 597
-
-⭐ [Add a photo of the author.]
 
 ---
 

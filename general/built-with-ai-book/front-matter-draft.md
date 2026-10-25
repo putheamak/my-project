@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Front matter draft v1, 26 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 2026
 1. Title and subtitle are still the working version. Decide the final wording before the cover is designed.
 2. Copyright year: 2027 assumes publication in January 2027 (⭐ change if you publish in 2026).
 3. Dedication is optional (⭐). Delete it if you do not want one.
@@ -18,27 +18,27 @@ OWNER CHECKLIST (delete before publishing) — Front matter draft v1, 26 Oct 202
 
 Copyright © 2027 Mak Puthea ⭐
 
-All rights reserved. No part of this book may be reproduced, stored or transmitted in any form or by any means without the written permission of the author, except for brief quotations in reviews and articles.
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without the prior written permission of the author, except for brief quotations used in reviews and articles.
 
-First edition.
+First edition
 
-**Disclaimer.** This book shares the author's personal experience. It is not financial, legal, tax or professional advice. The results described are the author's own, as of the time of writing, and are not typical or guaranteed. Prices, products, services and rules mentioned in this book, including those of AI tools, online platforms and marketplaces, may have changed since publication. Always check current information before making decisions.
+**Disclaimer.** This book describes the author's personal experience and is provided for general information only. It does not constitute financial, legal, tax or other professional advice. The results described are the author's own at the time of writing; they are neither typical nor guaranteed. Prices, products, services and policies mentioned in this book, including those of AI tools, online platforms and marketplaces, may have changed since publication. Readers should verify current information before making any decision.
 
-**Trademarks.** Claude and Anthropic, ChatGPT and OpenAI, Amazon, Kindle and KDP, Telegram, Cloudflare, GitHub, Google, Facebook, Instagram, TikTok, YouTube, Pinterest and all other product and company names mentioned in this book are the property of their respective owners. Their use does not imply any affiliation with or endorsement by them. The author has no business relationship with any of these companies other than as an ordinary customer or programme member.
+**Trademarks.** Claude and Anthropic, ChatGPT and OpenAI, Amazon, Kindle and KDP, Telegram, Cloudflare, GitHub, Google, Facebook, Instagram, TikTok, YouTube, Pinterest, and all other product and company names mentioned in this book are trademarks of their respective owners. Their mention does not imply any affiliation with, or endorsement by, those companies. The author has no business relationship with any of them other than as an ordinary customer or programme member.
 
-**Affiliate disclosure.** The author runs an Amazon affiliate blog, which is described in this book. This book itself contains no affiliate links.
+**Affiliate disclosure.** The author operates an Amazon affiliate blog, which is described in this book. The book itself contains no affiliate links.
 
-**Privacy.** Customer names, contact details and other personal information have been removed or changed. The author's former employer is not named.
+**Privacy.** Customer names, contact details and other personal information have been removed or altered. The author's former employer is not named.
 
 ---
 
 ## How This Book Was Written
 
-This book was written with the help of AI.
+This book was written with the assistance of artificial intelligence.
 
-The author provided the experiences, notes, opinions, decisions and project records on which every chapter is based. An AI assistant (Claude, made by Anthropic) helped to organise those notes into chapters, to improve the language, and to check facts and the sources of quotations. Every chapter was then read, corrected and approved by the author.
+The author supplied the experiences, notes, opinions, decisions and project records on which every chapter is based. An AI assistant, Claude, developed by Anthropic, helped to organise this material into chapters, refine the language, and verify facts and the sources of quotations. Every chapter was then reviewed, corrected and approved by the author.
 
-No results, quotations or experiences in this book were invented. Where a fact could not be verified, it is marked as such in the text or in the notes. Chapter 11 describes this process in detail.
+No results, quotations or experiences in this book have been invented. Where a fact could not be verified, this is stated in the text or in the notes. Chapter 11 describes the writing process in full.
 
 ---
 
@@ -50,7 +50,7 @@ No results, quotations or experiences in this book were invented. Where a fact c
 
 ## Contents
 
-*(The table of contents is generated automatically when the book is formatted for Kindle.)*
+*(A linked table of contents will be generated automatically when the book is formatted for Kindle.)*
 
 - Introduction
 - **Part One: Why I Started**
