@@ -6,7 +6,8 @@ OWNER CHECKLIST (delete before publishing) — Part Three draft v3, 26 Oct 2026
 4. "About the author" is a placeholder (⭐): choose real name or pen name, and add a short bio and photo.
 5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
 6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
-   with the free course list. ⭐ Clarify "the upcoming block's rules changes". Check the course list is current.
+   with the free course list. "Block's rules" = new AI laws by regional blocs (EU AI Act, ASEAN guide; note 4).
+   Check the course list is current.
 -->
 
 # Part Three: What Comes Next
@@ -45,13 +46,13 @@ There is a saying that has travelled widely in recent years: "Hard times create 
 
 The more comfortable we become, the weaker our foundations can grow. And AI is, above all, a technology of comfort.
 
-AI will make many things possible that once seemed impossible. It already allows one person to produce what once required a team. But that very convenience creates a new kind of insecurity, and it is worth understanding why. ⭐ [Check: your notes mention "the upcoming block's rules changes". Did you mean new laws and regulations on AI, changes in the rules between regional blocs, or something else? I have written "as the rules change" below.]
+AI will make many things possible that once seemed impossible. It already allows one person to produce what once required a team. But that very convenience creates a new kind of insecurity, and it is worth understanding why.
 
 **More tools mean more doors.** Every new AI tool we adopt asks for access: to our email, our files, our customers, our accounts. Each connection makes us more productive, and each one is also a door through which personal, public and private information can leave our control, often through automated systems that no person is watching.
 
 **Convenience is our default.** Human nature does not choose the difficult path when an easier one is available. When a tool offers to remember everything, upload everything and connect everything, most of us accept without reading the conditions. In that sense, AI and cybersecurity pull in opposite directions: one rewards us for sharing more, the other protects us by sharing less.
 
-**The rules are still being written.** As AI spreads, the laws and standards that govern how our data is collected, stored and used are changing quickly, and they differ from one country to another. What is acceptable today may not be tomorrow, and much of what happens to our data happens far beyond our view.
+**The rules are still being written, bloc by bloc.** As AI spreads, governments and regional blocs are writing new laws to govern it, and they are not writing the same rules. The European Union has adopted its AI Act, the first comprehensive law of its kind. The United States, China and others are taking their own, different paths, and in Southeast Asia, the ASEAN member states have agreed a shared guide to AI governance and ethics.⁴ For small businesses and ordinary users in countries like Cambodia, this means that the rules protecting our data may depend on where a service is based rather than where we live. What is permitted today may not be tomorrow, and much of what happens to our data happens far beyond our view.
 
 None of this is a reason to avoid AI. It is a reason to **keep learning**, so that our knowledge grows as quickly as our tools. The people most at risk are not those who use AI, but those who use it without understanding what they are giving away.
 
@@ -156,3 +157,4 @@ The rest of the journey is yours.
 1. G. Michael Hopf, *Those Who Remain* (2016). Ibn Khaldun described a similar cycle in the *Muqaddimah* (1377).
 2. Course names and availability as of October 2026; check each provider's website for the current offer, for example anthropic.skilljar.com and academy.openai.com.
 3. Laozi, *Tao Te Ching*, chapter 64. The line is commonly translated as "A journey of a thousand miles begins with a single step"; a more literal rendering is "A journey of a thousand li starts beneath one's feet."
+4. The EU Artificial Intelligence Act (Regulation (EU) 2024/1689) entered into force on 1 August 2024. The ASEAN Guide on AI Governance and Ethics was endorsed by ASEAN digital ministers in February 2024.
