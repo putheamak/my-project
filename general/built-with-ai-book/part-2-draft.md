@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v14, 25 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Two draft v15, 25 Oct 2026
 1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
    console.anthropic.com → Billing once you have one or two months of bills.
 2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
@@ -19,6 +19,9 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v14, 25 Oct 2026
 8. Chapter 10 (video ads): uses the real ad results from your notes (2,546 views, 605 3-second views, 4 s average,
    57 clicks, 0 bookings, 4 rider applicants, mostly men 25–44). Confirm OK to publish. Add (⭐) how many
    calendar videos are made so far. Ogilvy quote added (note 6).
+9. Chapter 11 (ebook machine): written from this chat (the reels, the three ideas, the Amazon screenshots,
+   how the book is written). Check it matches your memory. ⭐ Add launch details after publication.
+   Zinsser quote added (note 7).
 -->
 
 # Part Two: Building
@@ -650,6 +653,104 @@ Those remain human tasks: understanding the customer, choosing one clear message
 
 ---
 
+## Chapter 11: Project Four — The Ebook Machine, and the Story of This Book
+
+### An advertisement on my phone
+
+This book began with an advertisement.
+
+One afternoon in October 2026, scrolling through Facebook Reels, I came across two short videos. The first showed a woman looking thoughtfully at her laptop, beneath an orange banner that read "AI + KDP = ATM". Behind her was a screenshot of royalties from Amazon's Kindle Direct Publishing, or KDP: more than $121,000 in a single month, from 232 books. The second video promoted a tool that promised to write non-fiction books for Amazon automatically: outlines, chapters, titles, descriptions, everything.
+
+The message was irresistible. Let AI write books, publish them on Amazon, and collect the money.
+
+I took screenshots and asked Claude a simple question: *how could I build an automated ebook system to earn an income?*
+
+### The first answer was a warning
+
+I expected a step-by-step plan. I received one, but it began with a reality check.
+
+The video, the AI pointed out, was an advertisement for a tool. A royalty screenshot drawn from a catalogue of 232 books says very little about what a typical book earns, and most AI-written books earn very little at all. Amazon asks authors to disclose AI-generated content, limits how many titles can be published each day, and removes low-quality books. A machine that simply produces many books is not a business; it is a risk.
+
+Then came the plan. The AI sketched a pipeline of eight stages, from choosing a topic to publishing it, and was careful to mark which stages a machine could do and which needed a person: **choosing the topic, editing every chapter, checking every fact, and designing the cover**. It estimated that the AI writing for one book would cost only a few dollars, and that a realistic monthly budget, including covers, would be between $25 and $50. And when I asked how much I could expect to earn, it gave me scenarios, not promises: a few dollars a month for weak books, perhaps a few hundred for a well-chosen, well-edited series.
+
+It was the least exciting answer I could have received, and exactly the one I needed.
+
+### Three ideas, two failures
+
+The most valuable lesson of this project came before a single chapter was written.
+
+**First idea: a Phnom Penh travel guide.** It seemed perfect. I live here, I know the city, and Cambodia welcomes many visitors each year. The AI drafted an outline of fourteen chapters. Before writing anything, however, it asked me to check the demand: search Amazon for "Phnom Penh travel guide 2026" and send a screenshot.
+
+The results were sobering. There were only eleven books, most of them years out of date, with a handful of reviews each. When I sorted them by best-sellers, it became clear that very few people buy guides to Phnom Penh on Kindle. The competition was weak, but so was the demand. As I wrote to the AI at the time: very small demand.
+
+**Second idea: a guide to living in Phnom Penh.** The same screenshot held a clue. A book about moving to Phnom Penh, published in 2013, had more reviews and a higher price than the tourist guides. Perhaps expatriates were the better audience? Perhaps. But it was still a small market, likely to earn only a little.
+
+**Third idea: a book about AI, for the whole world.** Then I asked a different question: *why not write about AI itself, for readers everywhere?*
+
+The next search told a very different story. There were dozens of books about AI for beginners and small businesses, some in series of eleven or even twenty-one titles, with hundreds of reviews and #1 Best Seller badges. The demand was undeniable. So was the competition: many of the books looked alike, promising "bibles", "secrets" and easy money.
+
+Yet in that crowded market, the AI noticed a gap. Almost every book taught general tips and prompts. Almost none was written by a real small-business owner showing **real projects, real costs and real mistakes**. I had four of them.
+
+That was how this book was born.
+
+**The principle:** never fall in love with an idea before checking whether anyone wants it. Five minutes of searching can save months of writing.
+
+### A problem with my own story
+
+There was one uncomfortable truth. My four projects had only just been built. The booking app had barely launched, the blog had no sales, and the video calendar was only beginning. How could I write a book about results I did not yet have?
+
+The answer changed the shape of the book. It would not be a book about income; it would be a **build journal**: how each tool was created, why each decision was made, what it cost, what went wrong, and, honestly, what has and has not happened since. I began recording the numbers every Monday in a simple tracking sheet, so that future editions can report real results rather than hopes.
+
+**The principle:** if you cannot yet show results, show your process honestly. Readers forgive a lack of results far more readily than they forgive exaggeration.
+
+### How this book is actually written
+
+I should explain how these chapters came to be, because it is part of the lesson.
+
+English is not my first language. So we developed a simple method. I send the AI my thoughts for a chapter as rough notes: memories, opinions, a story from my old job, sometimes in imperfect English, sometimes with a few words of Khmer. The AI turns them into clear prose. It uses only what I have told it, together with facts it can verify from my project notes and public sources. It never invents results, quotations or experiences. Wherever information is missing, it leaves a marked gap for me to fill rather than guessing.
+
+Then I read every chapter, and I correct it. Sometimes the corrections are small: a name, a date, a single word that felt wrong to me. Sometimes they are fundamental. After reading the first draft of Part Two, I told the AI that it felt too technical, too direct, and that readers would not understand *why* any of it mattered. We rebuilt those chapters around stories and the reasoning behind each decision, and moved the step-by-step instructions into the Builder's Notes boxes you have seen at the end of each chapter.
+
+The AI also protected me from my own first drafts. It kept my former employer anonymous, softened sentences that might have been unfair to real people, checked the source of every quotation, and told me when a well-known saying could not be traced to the person usually credited with it.
+
+The writer William Zinsser observed that "rewriting is the essence of writing well."⁷ This book has been rewritten many times, and each round was a conversation between my experience and the AI's skill with language.
+
+**The principle:** the AI writes the words, but the experience, the judgement and the final decision belong to the author.
+
+### The machine I planned, and the machine I needed
+
+My original plan was an automated system: a program that would generate outlines and chapters by itself, ready to publish. I never built it, and I no longer want to.
+
+The machine I actually needed turned out to be much simpler: **a conversation with an AI, supported by a few well-organised files**. One file holds the outline and the rules. Each part of the book is a draft that grows and improves with every round. A tracking sheet collects the real numbers. A short note lists everything that must be checked before publication. Everything is saved, so that nothing is lost between sessions, and every version can be recovered.
+
+Could a fully automated machine produce books faster? Certainly. But the books it produced would be the very books I described earlier in this chapter: fast, cheap and indistinguishable from hundreds of others. The value of this book lies precisely in the parts a machine cannot produce: my experience, my mistakes and my judgement.
+
+### What remains to be done
+
+At the time of writing, this book is not yet finished. Ahead lie the final chapters, a full edit, updated figures from my projects, a cover, formatting for Kindle, and the upload to Amazon, where I will declare, as Amazon requires, that AI was used to create the content. ⭐ [Update after publication: launch date, price, and early sales and reviews.]
+
+Whether the book sells, I cannot yet say. But it has already achieved something the advertisement on my phone never promised: it has turned a few weeks of real experience into something that may help others to begin.
+
+> **Builder's Notes: Write your own book with AI**
+>
+> *For readers who want to write their own book. Feel free to skip this box.*
+>
+> **1. Check demand before you write.** Search the Kindle Store for your topic. Look at the number of results, the review counts, the publication dates and the prices. Open the top books and note their *Best Sellers Rank* in the product details. Send screenshots to the AI and ask: "Is there real demand here, and is there a gap I could fill?"
+>
+> **2. Choose a topic where you have real experience.** Your experience is the one thing competitors cannot copy.
+>
+> **3. Write from notes, not from nothing.** For each chapter, send the AI your own notes and stories, and use this instruction:
+>
+> > Please turn my notes into a clear book chapter. Use only the facts and experiences I have given you. Never invent results, quotations or stories. Where something is missing, leave a marked gap for me to fill. Check the source of any quotation you suggest.
+>
+> **4. Read and correct every chapter yourself.** Then ask for a polish only after the content is right.
+>
+> **5. Keep a list of what to update before publishing**, such as figures, dates and examples, so nothing is forgotten.
+>
+> **6. Before uploading to Amazon KDP:** confirm how you will be paid in your country, prepare a professional cover, and answer KDP's question about AI-generated content honestly.
+
+---
+
 ## Notes
 
 1. Widely attributed to Charles F. Kettering (1876–1958), American inventor and head of research at General Motors; no original source has been confirmed, and the line is sometimes also attributed to the philosopher John Dewey. See, for example, https://wist.info/kettering-charles/31082/
@@ -658,3 +759,4 @@ Those remain human tasks: understanding the customer, choosing one clear message
 4. Jeff Bezos, "1997 Letter to Shareholders", Amazon.com, Inc., section headed "It's All About the Long Term".
 5. Google Search Central, "Our latest update to the quality rater guidelines: E-A-T gets an extra E for Experience", December 2022; and Google's guidance on creating helpful, reliable, people-first content.
 6. David Ogilvy, *Confessions of an Advertising Man* (1963).
+7. William Zinsser, *On Writing Well* (first published 1976).
