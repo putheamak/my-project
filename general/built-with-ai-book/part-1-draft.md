@@ -74,7 +74,7 @@ Then came the cuts. People in middle and senior management were let go. New peop
 
 I chose to leave.
 
-It was not an easy decision. Yet on that last day, I felt more peaceful than I had in a very long time.
+It was not an easy decision. Yet on that last day, I felt more peaceful than ever.
 
 I believe the decision was right for both sides. The company was not getting the best of me, and I needed space to grow beyond the box I had been working in.
 
@@ -196,7 +196,7 @@ The technology will most likely make the world richer overall. But whether ordin
 
 For months, I had been listening to people talk about AI: Steven Bartlett's *The Diary of a CEO*, the campaign group ControlAI, CBS's *60 Minutes*, CNN's *Erin Burnett OutFront*, and many others.
 
-The more I listened, the more convinced I became that great changes are coming soon. Two questions stayed with me:
+The more I listened, the more convinced I became. I am a believer: AI is coming, and sooner than many of us expect. Two questions stayed with me:
 
 1. **How will I cope with it?**
 2. **How can the people around me, here in Cambodia, prepare?**
@@ -215,7 +215,7 @@ Many of our customers are **online sellers**, people selling clothes, cosmetics 
 
 So I built a **Telegram mini app**. A seller opens our bot, taps a single button, fills in a short form in Khmer, and the booking goes straight to our office Telegram group with a booking code. The app remembers each shop's details for next time, and every booking is verified, so no one can post fake orders. It runs on Cloudflare's free plan, which means there is **no server to rent or maintain**.
 
-**Why it matters:** this is AI helping a small local business look and work like a much larger one.
+This is AI helping a small local business look and work like a much larger one.
 
 ### 2. A blog that drafts its own posts, which I always check
 
@@ -227,7 +227,7 @@ The blog is called **Home Picks Under 30**, and it focuses on kitchen gadgets un
 
 With AI, I built a system that, three times a week, chooses a topic, **writes a draft post**, prepares social media captions and video scripts, and **checks the draft against Amazon's rules**. Nothing is published until I have read and approved it.
 
-**Why it matters:** it tests the most common promise made about AI, "passive income", in an honest way. At the time of writing, the blog has not yet made its first sale. I will tell you exactly what happens, good or bad.
+It tests the most common promise made about AI, "passive income", in an honest way. At the time of writing, the blog has not yet made its first sale. I will tell you exactly what happens, good or bad.
 
 ### 3. Video ads every day, without a video editor
 
@@ -237,7 +237,7 @@ So, with AI, I built a small **video factory**. Each ad is designed like a simpl
 
 To make a new ad, I copy an earlier design, change the words and images, check a quick preview of each scene, and render the final video. There is no editing timeline and no expensive software. Most of my time now goes into deciding *what to say*, not into editing.
 
-**Why it matters:** marketing that once required a team can now be done by one person.
+Marketing that once required a team can now be done by one person.
 
 ### 4. An ebook machine, which helped make this book
 
@@ -245,7 +245,7 @@ The fourth project is the one you are reading. With AI, I built a step-by-step s
 
 In Part Two, you will see that my first two book ideas, a Phnom Penh travel guide and a guide for expatriates, failed the demand check. That failure is part of the lesson.
 
-**Why it matters:** it shows how AI can help you create and sell knowledge, as long as a human remains in charge of quality and truth.
+It shows how AI can help you create and sell knowledge, as long as a human remains in charge of quality and truth.
 
 ### What the four have in common
 

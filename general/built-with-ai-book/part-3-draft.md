@@ -86,7 +86,7 @@ And some risks concern **honesty itself**: praising products I have not used, cl
 
 In Chapter 5, I showed that the tools behind all four projects cost about $31 a month. That figure is accurate, yet it misleads if read on its own. The true investment was **time**: hours spent describing problems, reviewing drafts, testing tools, correcting mistakes and learning how each system worked. ⭐ [Add your real hours from the weekly tracker: time spent building, and time saved each week.]
 
-The return on that time is not always immediate. The booking app has only just been launched, the blog has yet to record its first sale, and several videos in the calendar are still to be made. Yet every hour has also bought something lasting: skills I did not possess a few months ago, and tools that will continue working long after the hours spent building them.
+The return on that time is not always immediate. The booking app has only just been launched, the blog has yet to record its first sale, and several videos in the calendar are still to be made. Yet every hour has also bought something lasting: skills I did not have a few months ago, and tools that will continue working long after the hours spent building them.
 
 **Count your hours as carefully as your dollars.** Then ask yourself honestly whether each project saves more time than it consumes, or teaches you something worth the investment.
 
@@ -104,7 +104,7 @@ Yet here, too, there is a boundary. Some communities rightly reject text written
 
 ### Begin with a single step
 
-The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."³ Every project in this book began in precisely that way: with one problem, described in plain words, on an ordinary day.
+The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."³ Every project in this book began in exactly that way: with one problem, described in plain words, on an ordinary day.
 
 You do not need a grand plan, a technical team or a large budget. You need one real problem, a few hours each day and the willingness to learn from your mistakes. The plan that follows will help you take that first step within a single week.
 

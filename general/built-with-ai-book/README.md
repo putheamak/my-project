@@ -34,3 +34,4 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 
 ## Owner review
 - 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.
+- 26 Oct 2026: owner's voice pass: fewer formal words (precisely, genuinely, therefore), "The principle:" labels cut from 13 to 3, Part One "Why it matters" labels removed, owner's own phrases restored (peaceful than ever; I am a believer; comfort and convenience; the light ahead will grow brighter).

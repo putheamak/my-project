@@ -107,7 +107,7 @@ That is all. In the next chapter, we turn to the most important skill of all, on
 
 Long before I built anything with AI on my own, I worked alongside a young colleague on a problem that taught me far more than I understood at the time.
 
-He was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. He wrote code with confidence, particularly in Python and JavaScript, and he worked comfortably alongside AI tools. When the AI made a mistake, he could usually trace the faulty line and correct it himself, saving the hours a beginner would have spent going round in circles. On paper, he was precisely the kind of person every company wants in the age of AI.
+He was a newly graduated engineer, trained in data and artificial intelligence at one of the leading private universities in Phnom Penh. He wrote code with confidence, particularly in Python and JavaScript, and he worked comfortably alongside AI tools. When the AI made a mistake, he could usually trace the faulty line and correct it himself, saving the hours a beginner would have spent going round in circles. On paper, he was exactly the kind of person every company wants in the age of AI.
 
 Yet when he was asked to build an automated call plan for the sales team, a system to decide which customers each salesperson should call and when, he struggled. The difficulty was not the code; it was the work itself. He had never been a salesperson. He did not know how plans were made in practice, which customers mattered most, or why a schedule that looked perfect on a screen would collapse on a real Monday morning.
 
@@ -147,7 +147,7 @@ AI is designed to be helpful, and at times it tries too hard. When I asked for a
 
 That moment changed the way I work. I wrote a short set of rules that the AI now reads in every session: never invent prices, offers or promises without asking me first; use only the official phone numbers, exactly as recorded; write every customer message in Khmer first, with short English beneath; and address only one type of customer in each advertisement.
 
-**Why it matters:** a single broken promise can cost a small business its reputation within a week. Rules written once protect you every day thereafter, even on the days when you are too busy to check every word.
+**Why it matters:** a single broken promise can cost a small business its reputation within a week. Rules written once protect you every day after that, even on the days when you are too busy to check every word.
 
 ### Lesson 4: Work in small steps, and approve before it acts
 
@@ -161,7 +161,7 @@ So I slowed the AI down. Every blog draft now follows the same rhythm. I ask the
 
 Our first paid video advertisements for Khmer Parcel ran for two days at $5 a day. Facebook reported 2,546 views and 57 link clicks. The number of bookings was zero.
 
-My first instinct was to guess at the cause: the price, the colours, the music. Instead, I did what my research training had taught me and turned to the data, this time together with the AI. It noticed that viewers were leaving at the seventeenth second, precisely when the advertisement switched from one type of customer to another. The remedy was simple: shorter advertisements, each speaking to a single audience.
+My first instinct was to guess at the cause: the price, the colours, the music. Instead, I did what my research training had taught me and turned to the data, this time together with the AI. It noticed that viewers were leaving at the seventeenth second, exactly when the advertisement switched from one type of customer to another. The remedy was simple: shorter advertisements, each speaking to a single audience.
 
 I applied the same discipline when choosing the subject of this book. My first idea, a Phnom Penh travel guide, felt like a certainty. The Amazon search results I shared with the AI told a different story: almost no demand. Step by step, the data led me to the book you are reading now.
 
@@ -224,7 +224,7 @@ At my former job, I regularly analysed customer satisfaction surveys in SPSS, ca
 
 So I asked an AI to write a Python program that would carry out the same analysis. I ran it offline, from the Command Prompt on my own computer, and compared its results with those I had produced by hand in SPSS. When the two sets of figures matched, something shifted in me. Work I had always done step by step could now be completed in seconds, and I had built the tool that did it.
 
-It impressed no one else; nobody in the company even noticed. Yet every larger project I have undertaken since grew from that moment of quiet confidence.
+It impressed no one else; nobody in the company even noticed. Yet every bigger project I have built since grew from that moment of quiet confidence.
 
 I believe this is how most people should begin with AI: not with a grand plan, but with a small, useful win that can be finished in an afternoon, checked with your own eyes, and trusted because you have tested it yourself.
 
@@ -240,13 +240,13 @@ The honest answer is yes, a great many. But a more important question lies behin
 
 This matters particularly in countries like mine. In Cambodia, digital literacy is still developing, and many of us use the internet every day without fully understanding the risks it poses to our security and safety. At the same time, AI is fast becoming as ordinary as electricity, the internet and the smartphone. We cannot avoid it, nor should we try. But we can learn to use it with discipline.
 
-That discipline does not come naturally. Human beings, quite understandably, seek comfort and convenience, and wherever the rules are unclear, convenience tends to win. That is precisely why the rules must be settled before the work begins.
+That discipline does not come naturally. Human beings, quite understandably, seek comfort and convenience, and wherever the rules are unclear, convenience tends to win. That is exactly why the rules must be settled before the work begins.
 
 The investor Warren Buffett expressed the underlying principle memorably. In 1991, after a scandal at the investment bank Salomon Brothers, he took charge of the firm and told its staff: "Lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless."²
 
 Buffett understood that money can be earned back, but trust, once lost, may never return. The same is true of data. A slow week of manual work costs you a little time. Leaking the private answers of people who trusted you can cost your organisation its reputation, and the people themselves a great deal more.
 
-My rule, therefore, is this: **work with AI on almost everything, but never hand it what is not yours to give.** Use test data to build the tool, and keep real data under your own control. Once you understand how to use AI, what to do yourself, what to entrust to the AI, and where the limits of exposure lie, you can work with it fully: productively, safely, and with your integrity intact.
+So my rule is this: **work with AI on almost everything, but never hand it what is not yours to give.** Use test data to build the tool, and keep real data under your own control. We can work with AI, but we should not ask it to do everything just for our own comfort and convenience. Once you understand how to use AI, what to do yourself, what to entrust to the AI, and where the limits of exposure lie, you can work with it fully: productively, safely, and with your integrity intact.
 
 ### The question every customer asks
 
@@ -254,7 +254,7 @@ Now it is your turn to build. If you run a small business, consider the question
 
 At Khmer Parcel, we answer that question many times a day. A tailor, a tutor, a caterer or a printing shop answers it just as often. Each reply takes a few minutes: asking for details, doing the calculation, writing the response. And each reply is an opportunity for a small mistake.
 
-A **price calculator**, a simple web page on which customers enter a few details and immediately see the price, solves that problem. It is small enough to build in about thirty minutes, yet useful enough to share with real customers. That is why I recommend it as a first project: it is quick, genuinely useful, and it teaches the entire process of building with AI.
+A **price calculator**, a simple web page on which customers enter a few details and immediately see the price, solves that problem. It is small enough to build in about thirty minutes, yet useful enough to share with real customers. That is why I recommend it as a first project: it is quick, truly useful, and it teaches the entire process of building with AI.
 
 ### The most important five minutes
 
@@ -322,7 +322,7 @@ My first thought was the obvious one: build our own app. The AI and I quickly ag
 
 A new app must be discovered, downloaded, installed and trusted, and every one of those steps loses customers. Our sellers already had Telegram open from morning to night. So rather than asking them to come to us, we went to them. A **Telegram mini app** is a small application that opens *inside* Telegram with a single tap, with nothing to install.
 
-**The principle:** meet your customers where they already are. Every additional step you ask of them is another reason for them to say no.
+**Meet your customers where they already are.** Every additional step you ask of them is another reason for them to say no.
 
 ### Why a form, and not a conversation
 
@@ -340,7 +340,7 @@ In Chapter 5, I described my rule: pay for growth only once the free version has
 
 I also made one request that shaped the entire project: *I am not a programmer, so I must be able to update this myself.* The AI organised everything around that sentence. The finished app is a single file. When I need to change a price or a word, I make the change and paste that one file into Cloudflare. No installation, no technical team, no waiting.
 
-**The principle:** build something you can maintain yourself. A tool that only a specialist can update will, sooner or later, stop being updated.
+**Build something you can maintain yourself.** A tool that only a specialist can update will, sooner or later, stop being updated.
 
 ### Why it checks every booking
 
@@ -348,7 +348,7 @@ There was one feature I would never have thought to request, and it may be the m
 
 Anything placed on the internet can, in principle, be misused. Someone could try to send fake bookings into our office group, wasting our riders' time or damaging our reputation. The AI raised this risk on its own initiative and built a safeguard: every booking carries a digital signature from Telegram, a kind of tamper-proof seal, and the app verifies that seal before accepting anything. A booking that does not come from a genuine Telegram user is quietly rejected.
 
-**The principle:** whenever you build something public, ask the question a careful business owner would ask, and let the AI help you answer it: *"How could someone misuse this, and how do we prevent it?"*
+**Whenever you build something public, ask the question a careful business owner would ask, and let the AI help you answer it: *"How could someone misuse this, and how do we prevent it?"***
 
 ### Why it does less than it could
 
@@ -362,7 +362,7 @@ Writing these limits down protected me from promising more than the app could de
 
 Setting up the app took about twenty minutes, following a step-by-step guide the AI had written for me in plain language. Then came the test. I opened our bot, tapped the button, completed a booking and pressed confirm.
 
-A few seconds later, the booking appeared in our office group: complete, clear and carrying its own booking code. I was genuinely surprised. Something I had described in plain words only days earlier was now working in front of me, inside the very app our customers use every day.
+A few seconds later, the booking appeared in our office group: complete, clear and carrying its own booking code. I was really surprised. Something I had described in plain words only days earlier was now working in front of me, inside the very app our customers use every day.
 
 ### What the journey has taught me
 
@@ -419,7 +419,7 @@ In Chapter 4, I explained why I chose **affiliate marketing** and a blog about *
 
 ### Why I finally tried
 
-Many years ago, I first heard of people earning money online by selling on Amazon, or by becoming **affiliate marketers**: recommending products through articles or videos, and earning a small commission whenever a reader makes a purchase. Each commission is modest. Yet added together, month after month, such earnings can offer something genuinely valuable: an income that does not depend on a single employer, and with it a degree of independence.
+Many years ago, I first heard of people earning money online by selling on Amazon, or by becoming **affiliate marketers**: recommending products through articles or videos, and earning a small commission whenever a reader makes a purchase. Each commission is modest. Yet added together, month after month, such earnings can offer something valuable: an income that does not depend on a single employer, and with it a degree of independence.
 
 For years, I never tried. The obstacles seemed too high for someone like me. I would have needed to write fluent articles in English, understand links and search engine optimisation, protect my privacy and security online, navigate the registration process and, above all, comply with Amazon's demanding rules. Each was a separate skill, and together they kept the idea permanently out of reach.
 
@@ -445,7 +445,7 @@ That part of the promise is true. **AI can produce content at a pace no single p
 
 ### Is it written for humans?
 
-Speed, however, raises an uncomfortable question: is content written by a machine genuinely **human-centred**? Does it reflect real experience and speak to the feelings and needs of the person reading it, or does it merely sound correct?
+Speed, however, raises an uncomfortable question: is content written by a machine truly **human-centred**? Does it reflect real experience and speak to the feelings and needs of the person reading it, or does it merely sound correct?
 
 The question matters commercially as much as ethically. Google, which directs a large share of the world's web traffic, has stated publicly that it rewards helpful content written for people, and in 2022 it added **experience** to the qualities it looks for, alongside expertise, authoritativeness and trustworthiness.⁵ A blog filled with smooth but empty articles may be cheap to produce, but readers and search engines alike will eventually notice.
 
@@ -463,7 +463,7 @@ Any post that scores below 7 on any question goes back for rewriting, together w
 
 Yet the scores are only half of the assessment. The other half is the market's verdict. A good article should attract visitors, hold their attention and lead some of them to click through to Amazon and buy. Comparing my own scores with the real traffic between the blog and Amazon, from visits and clicks to, eventually, sales, shows whether my judgement matches what readers actually value. When the two disagree, the readers are right.
 
-**The principle:** AI can write quickly, but only people can judge whether writing is genuinely helpful. Measure both your own honest assessment and your readers' behaviour.
+**AI can write quickly, but only people can judge whether writing is truly helpful.** Measure both your own honest assessment and your readers' behaviour.
 
 ### Why nothing goes live without me
 
@@ -481,19 +481,19 @@ That is why every product note in my system says the same thing: *"Haven't used 
 
 Amazon's affiliate programme has strict rules, and breaking them can cost you your account. You must disclose that you earn from qualifying purchases. You must not display prices that may change, nor copy star ratings and review counts. And you must not use Amazon's product images.
 
-I could have tried to remember every rule each time. Instead, I asked the AI to build the rules into the engine itself. Every draft is checked automatically, and the report at the top of each posting pack tells me precisely what to correct: a missing disclosure, a price that has crept into the text, or a word such as "best" that I cannot substantiate.
+I could have tried to remember every rule each time. Instead, I asked the AI to build the rules into the engine itself. Every draft is checked automatically, and the report at the top of each posting pack tells me exactly what to correct: a missing disclosure, a price that has crept into the text, or a word such as "best" that I cannot substantiate.
 
 The checker is not flawless. For a time, it accepted "under $30" yet flagged "under-$30", written with a hyphen, as an error. Even so, it catches far more than I would on a tired evening, and it never forgets a rule.
 
-**The principle:** when the rules matter, do not rely on memory. Turn them into a checklist that the machine applies every single time.
+**When the rules matter, do not rely on memory.** Turn them into a checklist that the machine applies every single time.
 
 ### Why the calendar matters
 
-One of the most valuable ideas in the project came from understanding how people use Pinterest. Many users plan well ahead, saving gift ideas and holiday recipes weeks or even months before the occasion. The engine therefore does not write about Halloween on Halloween. It writes about it in early October, and about Christmas gifts from mid-October onwards.
+One of the most valuable ideas in the project came from understanding how people use Pinterest. Many users plan well ahead, saving gift ideas and holiday recipes weeks or even months before the occasion. So the engine does not write about Halloween on Halloween. It writes about it in early October, and about Christmas gifts from mid-October onwards.
 
 When I understood this, I brought our gift guide forward by more than two weeks, and the AI adjusted the publishing plan so that every new draft until mid-December would focus on gifts.
 
-**The principle:** publish for the moment your reader begins searching, not for the moment the occasion arrives.
+**Publish for the moment your reader begins searching, not for the moment the occasion arrives.**
 
 ### The honest results
 
@@ -507,7 +507,7 @@ The project also encountered obstacles that no AI could solve, because they had 
 
 **Advertising.** I planned a small paid test on Pinterest to bring the first visitors to the gift guide. Pinterest's advertising platform, however, does not accept advertisers based in Cambodia. Registering under another country would have been dishonest, so we abandoned the idea.
 
-**Community rules.** Some of the online communities where people ask cooking questions, including Reddit's large cooking forum, prohibit AI-written posts. The AI therefore gives me short ideas, and I write any answers myself, in my own words.
+**Community rules.** Some of the online communities where people ask cooking questions, including Reddit's large cooking forum, prohibit AI-written posts. So the AI gives me short ideas, and I write any answers myself, in my own words.
 
 **A deadline.** Amazon requires new affiliates to make three qualifying sales within 180 days, or the account is closed. My deadline is the 30th of March, 2027.
 
@@ -576,7 +576,7 @@ With an editing app, every new video means rebuilding those details by hand, and
 
 To create a new advertisement, I copy an earlier design, change the words and images, review a quick preview of each scene and render the final video. The facts, colours and fonts carry over automatically.
 
-**The principle:** when consistency matters, build a template once, and let every future piece inherit it.
+**When consistency matters, build a template once, and let every future piece inherit it.**
 
 ### What the first numbers told us
 
@@ -588,7 +588,7 @@ Our first paid advertisements ran for two days, at $5 a day, as we launched. Fac
 - **No bookings at all**
 - And, unexpectedly, **four applications from people wanting to become riders**
 
-There was more. Most viewers were **men aged 25 to 44**, whereas the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, precisely when the video switched from addressing door-to-door customers to addressing online sellers.
+There was more. Most viewers were **men aged 25 to 44**, whereas the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, exactly when the video switched from addressing door-to-door customers to addressing online sellers.
 
 It would have been easy to feel discouraged. Instead, I treated the results as research findings, which is exactly what they were, and each number taught us something.
 
@@ -614,7 +614,7 @@ Several of our most important rules grew out of small mistakes, each one caught 
 
 **Never promise what the business has not decided.** Early ideas for advertisements included attractive promises we had not confirmed, such as same-day payouts for cash-on-delivery orders. The rule is now written into the instructions the AI follows: if I have not confirmed it, it does not appear.
 
-**The principle:** AI makes production fast, but only a person watching carefully can catch what the machine cannot see.
+**AI makes production fast, but only a person watching carefully can catch what the machine cannot see.**
 
 ### A video a day
 
@@ -669,7 +669,7 @@ I saved screenshots of both videos and put a simple question to Claude: *how cou
 
 I expected a step-by-step plan. I received one, but it opened with a reality check.
 
-The video, the AI pointed out, was an advertisement for a product. A royalty screenshot drawn from a catalogue of 232 books reveals very little about what a typical book earns, and most AI-written books earn very little indeed. Amazon asks authors to disclose AI-generated content, limits how many titles may be published each day, and removes books of poor quality. A machine that merely produces many books is not a business; it is a liability.
+The video, the AI pointed out, was an advertisement for a product. A royalty screenshot drawn from a catalogue of 232 books reveals very little about what a typical book earns, and most AI-written books earn very little. Amazon asks authors to disclose AI-generated content, limits how many titles may be published each day, and removes books of poor quality. A machine that only produces many books is not a business; it is a liability.
 
 Only then came the plan. The AI outlined a pipeline of eight stages, from choosing a topic to publication, and marked clearly which stages a machine could handle and which required a person: **choosing the topic, editing every chapter, checking every fact and designing the cover**. It estimated that the AI writing for a single book would cost only a few dollars, and that a realistic monthly budget, covers included, would fall between $25 and $50. And when I asked how much I might earn, it offered scenarios rather than promises: a few dollars a month for weak books, perhaps a few hundred for a well-chosen, carefully edited series.
 
@@ -693,7 +693,7 @@ Yet within that crowded market, the AI identified a gap. Almost every book taugh
 
 That was how this book was born.
 
-**The principle:** never fall in love with an idea before confirming that someone wants it. Five minutes of searching can save months of writing.
+**Never fall in love with an idea before confirming that someone wants it.** Five minutes of searching can save months of writing.
 
 ### A difficulty with my own story
 
@@ -703,13 +703,13 @@ The answer reshaped the book. It would not be a book about income; it would be a
 
 Results, however, were never my only reason for building. I began these projects because I had come to understand where my real strength lies: in using the technology within my reach to improve communication, and to give the social and commercial ventures I hope to create in the future a stronger foundation. I also believe that AI will reshape the way we live on this earth, sooner or later. I would rather learn to work alongside that change today than be overtaken by it tomorrow.
 
-My working life has known its share of highs and lows, some of which you read about in Part One: the difficult years inside an organisation I could not change, the decision to leave, and the uncertain months that followed. This book exists because of those experiences, not in spite of them. I want to share them truthfully, the hard times included, because I believe that anyone who holds on to their belief in themselves through a difficult period will, in time, see the way forward more clearly than ever before.
+My working life has known its share of highs and lows, some of which you read about in Part One: the difficult years inside an organisation I could not change, the decision to leave, and the uncertain months that followed. This book exists because of those experiences, not in spite of them. I want to share them truthfully, the hard times included, because I believe that anyone who holds on to their belief in themselves through a difficult period will, in time, see the way forward more clearly than ever before. In my own words: if your belief in overcoming hard times stays strong, the light ahead will only grow brighter.
 
 On the 3rd of April 1968, in Memphis, Tennessee, Martin Luther King Jr. delivered what would be his final speech, at one of the darkest moments of the struggle for civil rights. Aware of the threats against his life, he told his audience: "Only when it is dark enough can you see the stars."⁸ He was assassinated the following day, yet his words continue to give courage to people throughout the world. King understood that hope is not the absence of hardship; it is what hardship allows us to see.
 
 My own projects remain at an early and uncertain stage: an app that customers are only beginning to try, a blog still awaiting its first sale, a calendar of videos still in production. It would be easy to call this darkness. I prefer to see it as the moment when the first stars appear, when the lessons are clearest and the decision to keep going matters most.
 
-**The principle:** if you cannot yet show results, show your process honestly. Readers forgive an absence of results far more readily than they forgive exaggeration.
+**If you cannot yet show results, show your process honestly.** Readers forgive an absence of results far more readily than they forgive exaggeration.
 
 ### How this book is actually written
 
@@ -731,7 +731,7 @@ My original plan was an automated system: a program that would generate outlines
 
 The machine I actually needed proved far simpler: **a conversation with an AI, supported by a few well-organised files**. One file holds the outline and the rules. Each part of the book is a draft that grows and improves with every round. A tracking sheet gathers the real figures, and a short note lists everything that must be checked before publication. Everything is saved, so that nothing is lost between sessions and every earlier version can be recovered.
 
-Could a fully automated machine produce books faster? Certainly. But its books would be exactly the kind described earlier in this chapter: fast, cheap and indistinguishable from hundreds of others. The value of this book lies precisely in what a machine cannot supply: my experience, my mistakes and my judgement.
+Could a fully automated machine produce books faster? Certainly. But its books would be exactly the kind described earlier in this chapter: fast, cheap and indistinguishable from hundreds of others. The value of this book lies in what a machine cannot supply: my experience, my mistakes and my judgement.
 
 ### What remains to be done
 
