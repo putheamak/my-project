@@ -20,3 +20,11 @@ auto-blog, video ads, ebook machine). Target: publish around January 2027 with ~
 - Only real numbers from the tracker. Empty = unknown, never guessed.
 - No income claims. No customer names, phone numbers, tokens or passwords in the book or screenshots.
 - Disclose AI-generated content on KDP.
+
+## Update before publishing (owner decided 25 Oct 2026: keep as is for now, update later)
+- Ch 8: add the booking app's real results (bookings, sellers, challenges) in a later edition.
+- Ch 9: update the blog numbers (posts, products, visits, clicks, sales). Mid-October figures: 19 posts, 75 products, 0 sales.
+- Ch 10: add how many 30-day calendar videos were made and posted.
+- Throughout: owner to confirm the real numbers (ad results, blog sales) are OK to publish.
+- Ch 5: replace the Claude API estimate (~$10/month) with the real bill.
+- Ch 9: check the robot and drone examples are still current.
