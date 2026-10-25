@@ -1,5 +1,5 @@
 <!--
-OWNER CHECKLIST (delete before publishing) — Part Three draft v3, 26 Oct 2026
+OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
 1. Part Three is built only from what earlier chapters already say; no new facts were added.
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
 3. Chapter 13, "A word to readers in Cambodia": personalise it if you wish (⭐).
@@ -24,17 +24,17 @@ AI made mistakes in every one of my projects. What surprised me was not that it 
 
 It wrote attractive promises into advertisements that my business had never agreed to make. It produced videos in which small symbols turned into empty boxes, without registering that anything was amiss. Even the checker it built for my blog had a blind spot, accepting one way of writing a phrase while rejecting another. None of these mistakes announced itself. Each came to light only because a person examined the finished work with care.
 
-Writing this book together with an AI produced its own collection of mistakes, and I record them here because they are typical.
+Writing this book in partnership with an AI produced its own collection of errors. I record them here because they are typical, and because each one carries a lesson.
 
-**It stated facts it had not checked.** In an early plan, the AI wrote, from memory, that Khmer was not a supported language for Kindle books. It flagged the claim as unverified, which was right, but it was a reminder that an AI can sound certain about things it has never confirmed.
+**It stated facts it had not verified.** In an early plan, the AI asserted from memory that Khmer was not a supported language for Kindle books. To its credit, it flagged the claim as unconfirmed, but the episode was a reminder that an AI can sound entirely certain about something it has never checked.
 
-**It contradicted the facts it already had.** An early draft of Chapter 5 claimed that none of my projects had used paid advertising. My own project notes showed that Khmer Parcel had run paid Facebook advertisements. The sentence sounded reasonable, and it was simply untrue.
+**It contradicted information it already held.** An early draft of Chapter 5 stated that none of my projects had used paid advertising, although my own project notes recorded that Khmer Parcel had run paid Facebook advertisements. The sentence sounded perfectly reasonable. It was simply untrue.
 
-**It made small errors that would have caused real confusion.** When it built my weekly tracking sheet, it set the first "Monday" as the 20th of October, 2026, which was in fact a Tuesday. It caught the error itself when it checked the calendar, but only because checking had become part of the routine.
+**It made small errors that would have caused real confusion.** When building my weekly tracking sheet, it set the first "Monday" as the 20th of October, 2026, which was in fact a Tuesday. It caught the mistake itself while checking the calendar, but only because checking had become part of our routine.
 
-**It improved quotations beyond what the record supports.** In one draft, Steve Jobs "told a conference" that focusing is about saying no. When the AI checked the sources, it found that he had said it while answering questions from developers, not in a prepared speech. In another case, it found that a famous line usually credited to the inventor Charles Kettering cannot be traced to anything he actually wrote.
+**It embellished quotations beyond what the record supports.** One draft had Steve Jobs "telling a conference" that focusing is about saying no. On checking the sources, the AI found that he had said it while answering developers' questions, not in a prepared speech. In another case, it discovered that a famous line usually credited to the inventor Charles Kettering cannot be traced to anything he actually wrote.
 
-**It guessed at what I meant.** When I told it that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video. I may have meant the time needed to make one. It wrote its interpretation into the book, and flagged it for me to confirm. That is the right behaviour, but only because I had asked it to mark every assumption.
+**It guessed at my meaning.** When I said that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video, when I might have meant the time needed to make one. It wrote its interpretation into the draft and flagged it for me to confirm. That was the right behaviour, but only because I had asked it to mark every assumption.
 
 The most reassuring moment came from the opposite direction. When I first asked an AI to write a program for my survey analysis, I did not simply accept its output. I compared its results, figure by figure, with those I had calculated by hand. Only when the two matched did I begin to rely on it.
 
@@ -42,33 +42,33 @@ That habit underpins everything else in this book. **Let AI do the work, but nev
 
 ### Insecurity in the age of AI
 
-There is a saying that has travelled widely in recent years: "Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."¹ It comes from a 2016 novel by the American writer G. Michael Hopf, and it echoes a much older observation by the fourteenth-century historian Ibn Khaldun, who described how dynasties weakened over generations as hardship gave way to comfort. Historians rightly point out that real history is more complicated than any four-line cycle. Yet the warning at its heart deserves attention, and I would phrase it this way: hard times create strong people, and comfortable times can make us careless.
+One saying has travelled widely in recent years: "Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."¹ It comes from a 2016 novel by the American writer G. Michael Hopf, and it echoes a far older observation by the fourteenth-century historian Ibn Khaldun, who described how dynasties weakened over generations as hardship gave way to comfort. Historians rightly caution that real history is more complex than any four-line cycle. Yet the warning at its heart deserves attention, and I would express it this way: hard times create strong people, and comfortable times can make us careless.
 
-The more comfortable we become, the weaker our foundations can grow. And AI is, above all, a technology of comfort.
+The more comfortable we become, the weaker our foundations may grow. And AI is, above all, a technology of comfort.
 
-AI will make many things possible that once seemed impossible. It already allows one person to produce what once required a team. But that very convenience creates a new kind of insecurity, and it is worth understanding why.
+AI will make possible many things that once seemed impossible; it already allows one person to accomplish what once required a team. Yet that very convenience creates a new kind of insecurity, and it is worth understanding why.
 
-**More tools mean more doors.** Every new AI tool we adopt asks for access: to our email, our files, our customers, our accounts. Each connection makes us more productive, and each one is also a door through which personal, public and private information can leave our control, often through automated systems that no person is watching.
+**More tools mean more doors.** Every new AI tool we adopt asks for access: to our email, our files, our customers and our accounts. Each connection makes us more productive, and each is also a door through which personal, public and private information can slip beyond our control, often through automated systems that no person is watching.
 
-**Convenience is our default.** Human nature does not choose the difficult path when an easier one is available. When a tool offers to remember everything, upload everything and connect everything, most of us accept without reading the conditions. In that sense, AI and cybersecurity pull in opposite directions: one rewards us for sharing more, the other protects us by sharing less.
+**Convenience is our default.** Human nature rarely chooses the difficult path when an easier one is available. When a tool offers to remember everything, upload everything and connect everything, most of us accept without reading the conditions. In this sense, AI and cybersecurity pull in opposite directions: one rewards us for sharing more, the other protects us by sharing less.
 
-**The rules are still being written, bloc by bloc.** As AI spreads, governments and regional blocs are writing new laws to govern it, and they are not writing the same rules. The European Union has adopted its AI Act, the first comprehensive law of its kind. The United States, China and others are taking their own, different paths, and in Southeast Asia, the ASEAN member states have agreed a shared guide to AI governance and ethics.⁴ For small businesses and ordinary users in countries like Cambodia, this means that the rules protecting our data may depend on where a service is based rather than where we live. What is permitted today may not be tomorrow, and much of what happens to our data happens far beyond our view.
+**The rules are still being written, bloc by bloc.** As AI spreads, governments and regional blocs are drafting new laws to govern it, and they are not drafting the same rules. The European Union has adopted its AI Act, the first comprehensive law of its kind. The United States, China and others are following their own, different paths, and in Southeast Asia the ASEAN member states have agreed a shared guide to AI governance and ethics.⁴ For small businesses and ordinary users in countries such as Cambodia, this means that the rules protecting our data may depend on where a service is based rather than where we live. What is permitted today may not be tomorrow, and much of what happens to our data takes place far beyond our view.
 
 None of this is a reason to avoid AI. It is a reason to **keep learning**, so that our knowledge grows as quickly as our tools. The people most at risk are not those who use AI, but those who use it without understanding what they are giving away.
 
-Fortunately, learning has never been more accessible. Several AI companies and organisations offer free courses, suitable for beginners, that explain how AI works and how to use it responsibly:²
+Fortunately, learning has never been more accessible. Several AI companies and educational organisations offer free, beginner-friendly courses that explain how AI works and how to use it responsibly:²
 
-- **Anthropic Academy** (the makers of Claude): free courses including *AI Fluency: Framework & Foundations* and *Claude 101*
-- **OpenAI Academy** (the makers of ChatGPT): free online lessons and events on using AI effectively
+- **Anthropic Academy** (from the makers of Claude): free courses including *AI Fluency: Framework & Foundations* and *Claude 101*
+- **OpenAI Academy** (from the makers of ChatGPT): free online lessons and events on using AI effectively
 - **Google Cloud Skills Boost**: a free *Introduction to Generative AI* learning path
-- **Microsoft Learn**: free training modules on AI fundamentals
+- **Microsoft Learn**: free training modules on the fundamentals of AI
 - **IBM SkillsBuild**: free courses on AI and related digital skills
 - **DeepLearning.AI**: *AI for Everyone*, a non-technical introduction by Andrew Ng, free to audit
 - **Elements of AI**: a free online course created by the University of Helsinki and MinnaLearn
 
-Choose one and begin with it. An hour a week of learning is a small price for the confidence to use these tools safely.
+Choose one and begin. An hour of learning each week is a small price for the confidence to use these tools safely.
 
-**The principle:** comfort is the hidden cost of convenience. Keep learning, keep questioning what you share, and never let an easy tool make you a careless user.
+**The principle:** comfort is the hidden cost of convenience. Keep learning, keep questioning what you share, and never let an easy tool turn you into a careless user.
 
 ### Keeping your business, and other people, safe
 
