@@ -190,6 +190,78 @@ function render(post, src, out) {
   }
 }
 
+// One-tip videos (tip-videos.json): a problem hook, the post's "Try this tonight"
+// tip in 3 short steps, one product and the website, each scene on its own photo
+// (cover, then the post's section photos) so the picture changes with the text.
+const tipsPath = path.join(here, "tip-videos.json");
+const tips = fs.existsSync(tipsPath) ? JSON.parse(fs.readFileSync(tipsPath, "utf8")) : {};
+const TIP_HOOK = 2.6;
+const TIP_STEP = 3.0;
+const TIP_END = 3.6;
+
+function tipPhotos(post, cover) {
+  const extra = [1, 2].map((n) => path.join(imagesDir, `${post.slug}-${n}.jpg`)).filter((f) => fs.existsSync(f));
+  return [cover, ...extra];
+}
+
+function renderTip(spec, photos, out) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "skp-tip-"));
+  const part = path.join(dir, "tip.mp4");
+  try {
+    const step = (i, text) => [
+      ...panel(980, 640, "black", 0.62), ...at("center", 0, 0),
+      ...panel(150, 150, ACCENT, 1), ...at("center", 0, -230),
+      ...caption(130, 120, 80, "white", String(i + 1)), ...at("center", 0, -230),
+      ...caption(880, 380, 0, "white", text), ...at("center", 0, 60),
+    ];
+    const scenes = [
+      { len: TIP_HOOK, layer: [...panel(980, 620, "black", 0.6), ...at("center", 0, -60), ...caption(900, 420, 0, "white", spec.hook), ...at("center", 0, -110), ...panel(520, 110, ACCENT, 1), ...at("center", 0, 200), ...caption(480, 80, 0, "white", "Do this:"), ...at("center", 0, 200)] },
+      ...spec.steps.map((text, i) => ({ len: TIP_STEP, layer: step(i, text) })),
+      { len: TIP_STEP, layer: [...panel(980, 640, "black", 0.62), ...at("center", 0, 0), ...caption(880, 110, 64, "#fde7d6", spec.label || "Even easier:"), ...at("center", 0, -200), ...caption(880, 360, 0, "white", spec.product), ...at("center", 0, 60)] },
+      { len: TIP_END, layer: [...panel(980, 820, "black", 0.68), ...at("center", 0, 0), ...caption(880, 230, 0, "white", spec.cta), ...at("center", 0, -230), ...panel(920, 140, ACCENT, 1), ...at("center", 0, 0), ...caption(860, 100, 0, "white", domain), ...at("center", 0, 0), ...caption(860, 80, 42, "#fde7d6", "Type it in your browser"), ...at("center", 0, 140), ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 290)] },
+    ];
+    const parts = scenes.map((scene, i) => {
+      // Hook on the cover, steps on the section photos, product and end card back on the cover.
+      const photo = i === 0 || i > spec.steps.length ? photos[0] : photos[1 + ((i - 1) % Math.max(1, photos.length - 1))] ?? photos[0];
+      const bg = path.join(dir, `bg${i}.jpg`);
+      const layer = path.join(dir, `l${i}.png`);
+      const clip = path.join(dir, `c${i}.mp4`);
+      const big = `${Math.round(W * 1.15)}x${Math.round(H * 1.15)}`;
+      magick([photo, "-auto-orient", "-resize", `${big}^`, "-gravity", "center", "-extent", big, "-fill", "black", "-colorize", "25%", "-quality", "92"], bg);
+      magick(["-size", `${W}x${H}`, "xc:none", ...scene.layer, ...brand], layer);
+      const frames = Math.round(scene.len * FPS);
+      // Alternate zoom in and out so each cut feels like a new shot.
+      const z = i % 2 === 0 ? `1+0.08*on/${frames}` : `1.08-0.08*on/${frames}`;
+      const run = spawnSync("ffmpeg", [
+        "-y", "-loglevel", "error",
+        "-loop", "1", "-framerate", String(FPS), "-t", String(scene.len), "-i", bg,
+        "-loop", "1", "-framerate", String(FPS), "-t", String(scene.len), "-i", layer,
+        "-filter_complex", `[0:v]zoompan=z='${z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS}[b];[1:v]format=rgba${i ? ",fade=in:st=0:d=0.25:alpha=1" : ""}[t];[b][t]overlay=0:0,format=yuv420p`,
+        "-t", String(scene.len), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-r", String(FPS), clip,
+      ]);
+      if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
+      return clip;
+    });
+    const list = path.join(dir, "list.txt");
+    fs.writeFileSync(list, parts.map((p) => `file '${p}'`).join("\n"));
+    const total = scenes.reduce((sum, sc) => sum + sc.len, 0);
+    const run = spawnSync("ffmpeg", [
+      "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", list,
+      "-f", "lavfi", "-t", String(total), "-i", "anullsrc=r=44100:cl=stereo",
+      "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "64k", "-shortest", "-movflags", "+faststart", part,
+    ]);
+    if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
+    fs.copyFileSync(part, `${out}.part`);
+    fs.renameSync(`${out}.part`, out);
+    return { seconds: total };
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+const tipCaption = (post, spec) =>
+  `${spec.hook}\n${spec.steps.map((s, i) => `${i + 1}. ${s}`).join("\n")}\n\nMore tricks + the gadgets: ${domain}\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
+
 // Text to paste under the video on TikTok, YouTube Shorts or Pinterest.
 const videoCaption = (post) =>
   `${post.pinTitle || post.title}\n\nFull list with links: ${domain}\n${disclosure}\n\n#kitchengadgets #kitchenhacks #cookingtips #homecooking`;
@@ -239,16 +311,35 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   const entry = { key, caption: videoCaption(post) };
   if (!force && previous[post.slug]?.key === key) {
     manifest[post.slug] = { ...previous[post.slug], ...entry };
+  } else {
+    try {
+      const { seconds, items } = render(post, src, path.join(outDir, `${post.slug}.mp4`));
+      console.log(`${post.slug}.mp4: ${seconds.toFixed(1)} s, ${items} gadgets`);
+      manifest[post.slug] = { ...entry, tip: previous[post.slug]?.tip, seconds: Math.round(seconds) };
+      made++;
+    } catch (e) {
+      console.warn(`video ${post.slug} failed: ${e.message}`);
+      if (previous[post.slug]) manifest[post.slug] = previous[post.slug];
+    }
+  }
+  const spec = tips[post.slug];
+  if (!spec || !manifest[post.slug]) continue;
+  const photos = tipPhotos(post, src);
+  const tipKey = createHash("sha1")
+    .update(JSON.stringify([VERSION, spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .digest("hex")
+    .slice(0, 12);
+  if (!force && previous[post.slug]?.tip?.key === tipKey) {
+    manifest[post.slug].tip = { ...previous[post.slug].tip, caption: tipCaption(post, spec) };
     continue;
   }
   try {
-    const { seconds, items } = render(post, src, path.join(outDir, `${post.slug}.mp4`));
-    console.log(`${post.slug}.mp4: ${seconds.toFixed(1)} s, ${items} gadgets`);
-    manifest[post.slug] = { ...entry, seconds: Math.round(seconds) };
+    const { seconds } = renderTip(spec, photos, path.join(outDir, `${post.slug}-tip.mp4`));
+    console.log(`${post.slug}-tip.mp4: ${seconds.toFixed(1)} s`);
+    manifest[post.slug].tip = { key: tipKey, caption: tipCaption(post, spec), seconds: Math.round(seconds) };
     made++;
   } catch (e) {
-    console.warn(`video ${post.slug} failed: ${e.message}`);
-    if (previous[post.slug]) manifest[post.slug] = previous[post.slug];
+    console.warn(`tip video ${post.slug} failed: ${e.message}`);
   }
 }
 // Keep entries for posts skipped by --only, so their videos stay listed.
