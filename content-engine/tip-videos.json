@@ -2,139 +2,238 @@
   "_comment": "One-tip videos made by make-videos.mjs as pins/<slug>-tip.mp4: a problem hook, the post's 'Try this tonight' tip in 3 short steps, one product, then the website. Keep each step under about 10 words. label defaults to 'Even easier:'.",
   "best-kitchen-gadgets-fast-weeknight-dinners": {
     "hook": "Why is your chicken always dry?",
-    "steps": ["Take it off the heat at 165°F in the thickest part", "Cover loosely with foil for 5 minutes", "Then slice. The juices stay in the meat"],
+    "steps": [
+      "Take it off the heat at 165°F in the thickest part",
+      "Cover loosely with foil for 5 minutes",
+      "Then slice. The juices stay in the meat"
+    ],
     "product": "An instant-read thermometer tells you exactly when to stop cooking",
     "cta": "More weeknight dinner tricks + gadgets under $30:"
   },
   "kitchen-gadgets-under-30-meal-prep": {
     "hook": "Frozen soup takes forever to thaw?",
-    "steps": ["Chill the soup within about 2 hours", "Freeze single servings flat in bags", "Stand the bags up like files"],
+    "steps": [
+      "Chill the soup within about 2 hours",
+      "Freeze single servings flat in bags",
+      "Stand the bags up like files"
+    ],
     "product": "A silicone freezer tray makes neat single-serving blocks",
     "cta": "More meal prep tricks + gadgets under $30:"
   },
   "kitchen-gadgets-small-kitchens-under-30": {
     "hook": "Sauce slides right off your pasta?",
-    "steps": ["Save a mug of pasta water before draining", "Toss pasta and sauce over low heat", "Splash in the water. The sauce clings"],
+    "steps": [
+      "Save a mug of pasta water before draining",
+      "Toss pasta and sauce over low heat",
+      "Splash in the water. The sauce clings"
+    ],
     "product": "An over-sink colander drains pasta without using counter space",
     "cta": "More small-kitchen tricks + gadgets under $30:"
   },
   "kitchen-gadgets-under-30-quick-breakfasts": {
     "hook": "No time for breakfast in the morning?",
-    "steps": ["Stir equal parts oats and milk in a jar", "Add a pinch of salt and a little honey", "Fridge overnight. Add fruit in the morning"],
+    "steps": [
+      "Stir equal parts oats and milk in a jar",
+      "Add a pinch of salt and a little honey",
+      "Fridge overnight. Add fruit in the morning"
+    ],
     "product": "Matching 16 oz mason jars make it a weekly habit",
     "cta": "More 2-minute breakfasts + gadgets under $30:"
   },
   "kitchen-gadgets-under-30-chopping-prep": {
     "hook": "Onion falls apart when you dice it?",
-    "steps": ["Halve it through the root and keep the root on", "Cut lengthwise toward the root, not through it", "Slice across. The dice falls off the knife"],
+    "steps": [
+      "Halve it through the root and keep the root on",
+      "Cut lengthwise toward the root, not through it",
+      "Slice across. The dice falls off the knife"
+    ],
     "product": "A pull chopper does the fine dicing when you need three onions",
     "cta": "More prep tricks + gadgets under $30:"
   },
   "kitchen-gadgets-under-30-leftovers": {
     "hook": "Leftover rice hard as a rock?",
-    "steps": ["Sprinkle 1 tablespoon of water over each cup of rice", "Cover loosely so the steam stays in", "Heat in short bursts, stirring in between"],
+    "steps": [
+      "Sprinkle 1 tablespoon of water over each cup of rice",
+      "Cover loosely so the steam stays in",
+      "Heat in short bursts, stirring in between"
+    ],
     "product": "A magnetic microwave cover keeps the steam in, with no plate balancing",
     "cta": "More leftover tricks + gadgets under $30:"
   },
   "kitchen-gadgets-under-30-cooking-without-guesswork": {
     "hook": "You cut the meat and the juice runs out?",
-    "steps": ["Take it off the heat at the target temperature", "Cover loosely with foil for about 5 minutes", "Slice across the grain"],
+    "steps": [
+      "Take it off the heat at the target temperature",
+      "Cover loosely with foil for about 5 minutes",
+      "Slice across the grain"
+    ],
     "product": "An instant-read thermometer tells you when it's done, no cutting",
     "cta": "More no-guesswork tricks + gadgets under $30:"
   },
   "cook-without-a-stove-microwave-gadgets": {
     "hook": "Scrambled eggs with no stove?",
-    "steps": ["Whisk 2 eggs and a splash of milk in a greased mug", "Microwave in short bursts, stirring each time", "Let it sit 1 minute so the eggs stay soft"],
+    "steps": [
+      "Whisk 2 eggs and a splash of milk in a greased mug",
+      "Microwave in short bursts, stirring each time",
+      "Let it sit 1 minute so the eggs stay soft"
+    ],
     "product": "A microwave egg cooker makes it even simpler",
     "cta": "More no-stove meals + gadgets under $30:"
   },
   "coffee-shop-breakfast-at-home-gadgets": {
     "hook": "Café milk foam with no machine?",
-    "steps": ["Fill a jar no more than halfway with milk", "Shake hard for 30 to 60 seconds", "Microwave it open for about 30 seconds"],
+    "steps": [
+      "Fill a jar no more than halfway with milk",
+      "Shake hard for 30 to 60 seconds",
+      "Microwave it open for about 30 seconds"
+    ],
     "product": "A handheld milk frother foams it right in your mug",
     "cta": "More coffee-shop breakfasts + gadgets under $30:"
   },
   "kitchen-gadgets-for-cooking-for-one": {
     "hook": "Cooking rice for one every night?",
-    "steps": ["Scoop single portions of warm rice into bags", "Press flat, seal and freeze", "Reheat with a splash of water"],
+    "steps": [
+      "Scoop single portions of warm rice into bags",
+      "Press flat, seal and freeze",
+      "Reheat with a splash of water"
+    ],
     "product": "A 2-cup mini rice cooker makes one small batch: eat half, freeze half",
     "cta": "More cooking-for-one tricks + gadgets under $30:"
   },
   "microwave-gadgets-office-lunch": {
     "hook": "Leftovers still cold in the middle?",
-    "steps": ["Spread the food in a ring, middle empty", "Heat for half the time, then stir", "Finish heating and let it stand 1 minute"],
+    "steps": [
+      "Spread the food in a ring, middle empty",
+      "Heat for half the time, then stir",
+      "Finish heating and let it stand 1 minute"
+    ],
     "product": "A roomy 45 oz bowl lets you stir without spilling",
     "cta": "More office lunch tricks + gadgets under $30:"
   },
   "best-lunch-containers-work-lunches": {
     "hook": "Your work lunch always ends up soggy?",
-    "steps": ["Let food stop steaming before the lid goes on", "Keep sauce and crunchy food apart", "Set the lunch bag by your keys the night before"],
+    "steps": [
+      "Let food stop steaming before the lid goes on",
+      "Keep sauce and crunchy food apart",
+      "Set the lunch bag by your keys the night before"
+    ],
     "product": "A 2-compartment container keeps wet and dry food apart",
     "cta": "More packed-lunch tricks + containers under $30:"
   },
   "hands-off-kitchen-gadgets-under-30": {
     "hook": "Your rice always turns out gummy?",
-    "steps": ["Rinse it until the water runs mostly clear", "Cook with the right amount of water", "Keep the lid closed 10 minutes, then fluff"],
+    "steps": [
+      "Rinse it until the water runs mostly clear",
+      "Cook with the right amount of water",
+      "Keep the lid closed 10 minutes, then fluff"
+    ],
     "product": "A rice cooker does it while you do something else",
     "cta": "More hands-off cooking + gadgets under $30:"
   },
   "movie-night-snack-gadgets": {
     "hook": "Popcorn seasoning won't stick?",
-    "steps": ["Toss the popcorn with a little melted butter", "Add fine seasoning a pinch at a time", "Toss between pinches and taste"],
+    "steps": [
+      "Toss the popcorn with a little melted butter",
+      "Add fine seasoning a pinch at a time",
+      "Toss between pinches and taste"
+    ],
     "product": "A collapsible microwave popper makes the popcorn with no bag",
     "cta": "More movie night snacks + gadgets under $30:"
   },
   "kitchen-gadgets-treats-with-kids": {
     "hook": "Kids want to fill the donut pan themselves?",
-    "steps": ["Stand a zip-top bag in a tall glass", "Spoon in the batter, seal, snip a small corner", "Let them pipe it into the pan"],
+    "steps": [
+      "Stand a zip-top bag in a tall glass",
+      "Spoon in the batter, seal, snip a small corner",
+      "Let them pipe it into the pan"
+    ],
     "product": "A nonstick 6-cavity donut pan is the easiest one for little hands",
     "cta": "More baking with kids + gadgets under $30:"
   },
   "small-kitchen-thanksgiving-gadgets": {
     "hook": "Afraid of a dry Thanksgiving turkey?",
-    "steps": ["Take it out at 165°F in the thickest part", "Tent it loosely with foil and let it rest", "Carve after the juices settle"],
+    "steps": [
+      "Take it out at 165°F in the thickest part",
+      "Tent it loosely with foil and let it rest",
+      "Carve after the juices settle"
+    ],
     "product": "An instant-read thermometer takes the guessing out",
     "cta": "Small-kitchen Thanksgiving tricks + gadgets under $30:"
   },
   "halloween-party-snack-gadgets-under-30": {
     "hook": "Melted chocolate turns dull and streaky?",
-    "steps": ["Dry the bowl completely first", "Melt two-thirds of it in short bursts", "Stir in the last third off the heat"],
+    "steps": [
+      "Dry the bowl completely first",
+      "Melt two-thirds of it in short bursts",
+      "Stir in the last third off the heat"
+    ],
     "label": "Then:",
     "product": "Pour it into mini skull molds for a Halloween party tray",
     "cta": "More Halloween party ideas + gadgets under $30:"
   },
   "kitchen-gifts-under-30": {
     "hook": "Wrap a kitchen gift with no paper",
-    "steps": ["Set the gift on a tea towel, a corner toward you", "Fold the corner over, tuck the sides, roll it up", "Tie with twine and a sprig of rosemary"],
+    "steps": [
+      "Set the gift on a tea towel, a corner toward you",
+      "Fold the corner over, tuck the sides, roll it up",
+      "Tie with twine and a sprig of rosemary"
+    ],
     "label": "Gift idea:",
     "product": "A meat thermometer or rolled-up baking mats fit inside",
     "cta": "Kitchen gifts under $30, sorted by who you're buying for:"
   },
   "thanksgiving-mashed-potatoes-gravy-gadgets": {
     "hook": "Watery mashed potatoes again?",
-    "steps": ["Start the potatoes in cold, salted water", "Simmer until a knife slides in, then drain", "Steam them dry in the hot pot for a minute"],
+    "steps": [
+      "Start the potatoes in cold, salted water",
+      "Simmer until a knife slides in, then drain",
+      "Steam them dry in the hot pot for a minute"
+    ],
     "product": "A potato ricer makes smooth mash with no lumps",
     "cta": "More mashed potato and gravy tricks + tools under $30:"
   },
   "stocking-stuffers-for-people-who-cook": {
     "hook": "Filling a stocking for someone who cooks?",
-    "steps": ["Long tools first, handles peeking out the top", "Tuck a lemon next to the zester", "Smallest things in the toe, each with a note"],
+    "steps": [
+      "Long tools first, handles peeking out the top",
+      "Tuck a lemon next to the zester",
+      "Smallest things in the toe, each with a note"
+    ],
     "label": "Gift idea:",
     "product": "A zester, a whisk set and pinch bowls all fit in a stocking",
     "cta": "Stocking stuffers for cooks, all under $30:"
   },
   "gifts-coffee-lover-under-30": {
     "hook": "Latte foam with just a jar?",
-    "steps": ["Fill a jar a third of the way with milk", "Shake hard for about 30 seconds", "Microwave it open for 30 seconds, spoon it on"],
+    "steps": [
+      "Fill a jar a third of the way with milk",
+      "Shake hard for about 30 seconds",
+      "Microwave it open for 30 seconds, spoon it on"
+    ],
     "label": "Gift idea:",
     "product": "A handheld frother and a frothing jug make a complete latte gift",
     "cta": "Coffee lover gifts under $30, by how they drink it:"
   },
   "gifts-for-bakers-under-30": {
     "hook": "Your cookies spread flat in the oven?",
-    "steps": ["Scoop the dough into same-size balls", "Chill the tray for about 30 minutes", "Bake on a lined pan with space between"],
+    "steps": [
+      "Scoop the dough into same-size balls",
+      "Chill the tray for about 30 minutes",
+      "Bake on a lined pan with space between"
+    ],
     "label": "Gift idea:",
     "product": "A 3-size cookie scoop set makes same-size dough balls",
     "cta": "Gifts for bakers under $30, by the kind of baker:"
+  },
+  "white-elephant-kitchen-gifts-under-30": {
+    "hook": "Frothy hot chocolate in a mug?",
+    "steps": [
+      "Heat the milk in 30-second bursts",
+      "Stir in cocoa and a little sugar",
+      "Whisk hard with a fork for 30 seconds"
+    ],
+    "label": "Gift idea:",
+    "product": "A handheld frother plus a cocoa packet makes a white elephant gift",
+    "cta": "White elephant kitchen gifts under $30:"
   }
 }
