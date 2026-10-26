@@ -12,6 +12,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `part-2-draft.md` | Part Two drafts. Chapter 5 (toolkit and costs, polished) and Chapter 6 (how to talk to AI), Chapter 7 (first 30-minute win), Chapter 8 (Project 1: Telegram booking app), Chapter 9 (Project 2: the blog), Chapter 10 (Project 3: video ads), Chapter 11 (Project 4: the ebook machine). v16 (25 Oct): chapters 6–11 story-led and polished, owner's colleague, first-win and data-privacy stories added, how-to moved into "Builder's Notes" boxes. Open points in the checklist comment at the top. |
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author (written), glossary, A Request to the Reader. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
 | `launch-kit-draft.md` | Title options, Amazon description, 7 keywords, categories, price, cover brief. v2 26 Oct 2026, approved by the owner (title A, $4.99 launch, Kindle Unlimited). |
+| `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
