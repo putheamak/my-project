@@ -1,7 +1,7 @@
 ---
 title: "No Stove? 4 Microwave Gadgets and a Week of Real Meals"
-seoTitle: "How to Cook Without a Stove Using the Microwave (Dorm & Studio)"
-description: "No stove in your dorm, studio or rental? Four microwave gadgets under $30 for eggs, bacon, burgers and grilled cheese, plus a Monday to Friday menu."
+seoTitle: "Cheap Microwave Meals Without a Stove: 4 Gadgets Under $30"
+description: "Cheap microwave meals with no stove, for a dorm, studio or rental: four microwave gadgets under $30 for eggs, bacon, burgers and grilled cheese, plus a Monday to Friday menu."
 slug: "cook-without-a-stove-microwave-gadgets"
 keyword: "how to cook without a stove using the microwave"
 pinTitle: "No Stove? Cook a Week of Meals With 4 Microwave Gadgets"

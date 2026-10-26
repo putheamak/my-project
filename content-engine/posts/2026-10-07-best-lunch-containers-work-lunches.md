@@ -1,7 +1,7 @@
 ---
 title: "Pack It the Night Before: Lunch Containers and Bags Under $30 for Work"
-seoTitle: "Lunch Containers for Packing Work Lunches (Under $30)"
-description: "Lunch containers for packing work lunches the night before: 2-compartment boxes, a bento box, a salad kit, an insulated bag, slim ice packs and a utensil set, all under $30."
+seoTitle: "Best Work Lunch Box and Lunch Food Containers Under $30"
+description: "A good work lunch box and lunch food containers for packing the night before: 2-compartment boxes, a bento box, a salad kit, an insulated bag, slim ice packs and a utensil set, all under $30."
 slug: "best-lunch-containers-work-lunches"
 keyword: "lunch containers for packing work lunches"
 pinTitle: "Pack Work Lunches the Night Before: Containers, Bag and Ice Packs Under $30"
