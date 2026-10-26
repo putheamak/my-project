@@ -17,6 +17,7 @@ on:
       - "content-engine/lib/**"
       - "content-engine/make-pins.mjs"
       - "content-engine/make-videos.mjs"
+      - "content-engine/tip-videos.json"
       - "content-engine/topics.json"
       - "content-engine/pin-queue.json"
       - "content-engine/site-root/**"

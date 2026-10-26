@@ -306,7 +306,19 @@ const videoBlock = (post, link) => {
   if (!v) return "";
   const file = `${post.slug}.mp4`;
   const board = boardFor(post);
-  return `<div class="video"><h3>Short video${v.seconds ? ` (${v.seconds} s)` : ""}</h3>
+  const tipFile = `${post.slug}-tip.mp4`;
+  const tip = v.tip
+    ? `<div class="video"><h3>Tip video${v.tip.seconds ? ` (${v.tip.seconds} s)` : ""}: post this one first</h3>
+<video src="${esc(tipFile)}" controls playsinline preload="none" width="180" height="320"></video>
+<p><a class="dl" href="${esc(tipFile)}" download>Download tip video</a></p>
+<p class="hint">One trick in 3 steps, then the gadget and the website. Silent: add a sound in the app.</p>
+${field("Tip video caption", v.tip.caption, 8)}
+${field("Pinterest video pin title", videoPinTitle(post), 2)}
+${field("Pinterest video pin link", link, 2)}
+${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
+</div>`
+    : "";
+  return `${tip}<div class="video"><h3>List video${v.seconds ? ` (${v.seconds} s)` : ""}</h3>
 <video src="${esc(file)}" controls playsinline preload="none" width="180" height="320"></video>
 <p><a class="dl" href="${esc(file)}" download>Download video</a></p>
 <p class="hint">The video is silent: add a sound in the app.</p>
