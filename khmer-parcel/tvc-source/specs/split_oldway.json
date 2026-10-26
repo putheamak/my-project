@@ -1,0 +1,3 @@
+{"html":"scenes_split.html","out":"../khmer_parcel_split_oldway.mp4","xfade":0.3,"audio":"split_oldway_music.m4a",
+ "segments":[{"scene":"hook","dur":2.2,"next":"fade"},{"scene":"p1","dur":2.6,"next":"slideup"},{"scene":"p2","dur":2.6,"next":"slideup"},
+ {"scene":"p3","dur":2.6,"next":"slideup"},{"scene":"p4","dur":2.6,"next":"circleopen"},{"scene":"end","dur":3.6}]}
