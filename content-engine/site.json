@@ -21,9 +21,12 @@
   "about": "I share practical kitchen and home gadgets under $30 for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy.",
   "home": {
     "title": "Christmas Gifts Under $30",
-    "intro": "Small, useful kitchen gifts for the cooks on your list. Start with the gift guide or the stocking stuffers, or go straight to a few favourite picks.",
+    "intro": "Small, useful kitchen gifts for the cooks on your list. Start with the gift guide, or pick the guide for the person you're shopping for.",
+    "startHere": "best-kitchen-gadgets-under-30",
     "posts": [
       "kitchen-gifts-under-30",
+      "white-elephant-kitchen-gifts-under-30",
+      "gifts-for-bakers-under-30",
       "stocking-stuffers-for-people-who-cook",
       "gifts-coffee-lover-under-30"
     ],

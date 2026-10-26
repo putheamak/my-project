@@ -235,5 +235,15 @@
     "label": "Gift idea:",
     "product": "A handheld frother plus a cocoa packet makes an easy gift-exchange pick",
     "cta": "White elephant kitchen gifts under $30:"
+  },
+  "best-kitchen-gadgets-under-30": {
+    "hook": "Cooking feels chaotic every night?",
+    "steps": [
+      "Read the whole recipe before you start",
+      "Chop and measure everything into small bowls",
+      "Then turn on the heat and add in order"
+    ],
+    "product": "A pull chopper does the chopping in step two in a few pulls",
+    "cta": "The 10 best kitchen gadgets under $30:"
   }
 }

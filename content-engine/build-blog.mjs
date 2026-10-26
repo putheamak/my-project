@@ -256,7 +256,12 @@ ${markdownToHtml(`:::picks\n${picks.map((x) => `- ${x.label}: [${x.name}](${x.ur
     ? `<section class="seen"><h2 class="sec">Seen one of my videos? Find the post here</h2>
 <ul class="chips">${videos.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul></section>`
     : "";
-  return shop + seen;
+  // One evergreen "start here" page for first-time visitors (site.json home.startHere).
+  const start = bySlug(home.startHere ?? "");
+  const startLine = start
+    ? `<p class="shop-intro"><strong>New here?</strong> Start with <a href="${href(`posts/${start.slug}/`)}">${esc(start.title)}</a>.</p>`
+    : "";
+  return startLine + shop + seen;
 }
 
 // Photos inside a post: a missing file is skipped quietly, so photo spots can be
