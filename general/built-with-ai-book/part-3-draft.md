@@ -4,7 +4,7 @@ OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
 2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
 3. Chapter 13, "A word to readers in Cambodia": expanded with four divides and calls to action (26 Oct).
 4. About the Author written (26 Oct) from facts in the book; no online profile was found for "Mak Puthea".
-   Pronoun: he (owner, 26 Oct). Contact: email and phone/Telegram added (owner, 26 Oct). Photo added (images/author-photo.jpg).
+   Pronoun: he (owner, 26 Oct). Contact: email, phone (012, personal) and Telegram (098, business) per owner 27 Oct. Photo added (images/author-photo.jpg).
 7. Glossary added before About the Author (26 Oct). Chapter 13 Cambodia section expanded (26 Oct).
 5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
 6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
@@ -253,7 +253,8 @@ Plain-language explanations of the technical terms used in this book.
 Readers are welcome to get in touch with questions, feedback or their own stories of building with AI:
 
 - **Email:** putheamak@gmail.com
-- **Phone and Telegram:** +855 12 429 597
+- **Phone:** +855 12 429 597
+- **Telegram:** +855 98 429 597
 
 ---
 
