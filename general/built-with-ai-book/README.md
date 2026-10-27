@@ -39,6 +39,8 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 27 Oct 2026: review copy with the new cover sent (Word + EPUB). Owner will review later.
+- 27 Oct 2026: owner asked about an outside editor / another AI to check the book. Options: independent fresh-context AI review (Claude can run it), another AI (e.g. ChatGPT, Gemini), human editor (Reedsy, Fiverr/Upwork, local English teacher), 3–5 beta readers.
 - 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.
 - 26 Oct 2026: owner's voice pass: fewer formal words (precisely, genuinely, therefore), "The principle:" labels cut from 13 to 3, Part One "Why it matters" labels removed, owner's own phrases restored (peaceful than ever; I am a believer; comfort and convenience; the light ahead will grow brighter).
 
