@@ -13,7 +13,8 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author (written), glossary, A Request to the Reader. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
 | `launch-kit-draft.md` | Title options, Amazon description, 7 keywords, categories, price, cover brief. v2 26 Oct 2026, approved by the owner (title A, $4.99 launch, Kindle Unlimited). |
 | `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
-| `cover/cover-draft.jpg` | Final cover (approved by the owner 27 Oct 2026), 1600 × 2560 (from `cover/cover-draft.html`; render: `NODE_PATH=$(npm root -g) node cover/render-cover.cjs $PWD/cover/cover-draft.html $PWD/cover/cover-draft.jpg`). |
+| `cover/cover-final.jpg` | **Final cover** (owner's enhanced version, approved 27 Oct 2026). Current file is 1244 × 2000; replace with a 1600 × 2560 export before upload. If made with an AI image tool, answer "yes" to AI-generated images in KDP and check the tool allows commercial use. |
+| `cover/cover-draft.jpg` | Earlier draft cover (kept for reference), 1600 × 2560, from `cover/cover-draft.html`. |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
@@ -35,6 +36,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Throughout: owner to confirm the real numbers (ad results, blog sales) are OK to publish.
 - Ch 5: replace the Claude API estimate (~$10/month) with the real bill.
 - Ch 9: check the robot and drone examples are still current.
+- Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
 - 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.

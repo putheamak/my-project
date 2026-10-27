@@ -80,7 +80,7 @@ KDP allows up to three categories. Recommended choices (confirm the exact names 
 
 ---
 
-## 6. Cover (approved 27 Oct 2026: `cover/cover-draft.jpg`, built from the brief below)
+## 6. Cover (final: `cover/cover-final.jpg`, the owner's enhanced version of the draft, approved 27 Oct 2026; export at 1600 × 2560 before upload)
 
 ### Cover brief
 
