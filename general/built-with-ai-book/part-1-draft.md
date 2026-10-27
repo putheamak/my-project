@@ -7,6 +7,13 @@ OWNER CHECKLIST (delete this block before publishing) — draft v3, 20 Oct 2026
 3. Chapter 4, video ads: written as "each ad runs 30 to 60 seconds". If you meant it takes you
    30–60 seconds (or minutes) to MAKE one, tell me and I'll change it.
 4. Scenario table (Chapter 2) is clearly labelled as your opinion. Fine to keep.
+5. v4, 27 Oct 2026: Chapter 2 "What is coming" simplified and backed with IMF, WEF, Stanford and the
+   AI-researcher survey; Chapter 3 rewritten with six sourced gaps, Cambodia's garment ladder and
+   "If AI arrives sooner, or later". Notes renumbered 6–22.
+6. CHECK before publishing: Stanford AI Index 2026 figures ($582bn, +130%; US $286bn vs China $12.4bn)
+   come from news coverage of the report; confirm them in the report itself (hai.stanford.edu/ai-index).
+7. CHECK: the Oxford data-centre study (note 15) is cited through TechRepublic; the original report is better.
+8. Microsoft's AI-use figures are updated every few months; refresh note 12 just before publishing.
 -->
 
 # Part One: Why I Started
@@ -104,37 +111,41 @@ I read the news here in Phnom Penh, on my phone, in the middle of building the t
 
 ### What is coming
 
-No one knows the future. But many AI researchers and company leaders now speak openly about a timeline that would have sounded like science fiction only ten years ago.
+No one knows the future. But we no longer have to guess blindly. Researchers, international organisations and employers have measured where AI is heading, and their numbers point in the same direction.
 
-**Until around 2030**, most forecasts expect AI to become an ordinary part of work everywhere. AI assistants will write, translate, analyse data and answer customers. AI *agents* will go further: instead of only answering questions, they will **carry out tasks**, building software, running processes and managing simple operations. Office work, customer service, design, marketing, research and programming will all change significantly.
+**Until around 2030: AI joins almost every job.** AI assistants already write, translate, analyse data and answer customers. AI *agents* go further: they **carry out tasks**, such as building software, filling in forms and running simple operations. The numbers show how wide this reaches:
 
-**After around 2030**, some of the people closest to the technology believe we may see **superintelligence**: AI systems more capable than humans in almost every field, possibly able to improve themselves. Others believe this is much further away, or may never happen at all. Serious, honest experts disagree.
+- The **International Monetary Fund (IMF)** estimates that almost **40% of jobs worldwide** are exposed to AI, rising to about **60% in advanced economies**.⁶
+- In the **World Economic Forum's** 2025 survey of more than 1,000 large employers, companies expected **22% of today's jobs** to be disrupted by 2030: about **170 million new jobs** created and **92 million** lost. They also expected **39% of workers' core skills** to change.⁷
+- The money is moving just as fast. According to Stanford University's *AI Index 2026*, companies around the world invested about **$582 billion** in AI in 2025, up **130%** in a single year.⁸
 
-On one point, however, almost everyone agrees: the change will be **large**, and it will be **fast**.
+**After around 2030: possibly superintelligence.** Some of the people closest to the technology believe AI may become more capable than humans in almost every field, and perhaps able to improve itself. Others think this is far away, or will never happen. In the largest survey of its kind, **2,778 AI researchers** gave a **10% chance** that machines could outperform humans at every task by **2027**, and a **50% chance by 2047**. That 2047 estimate came **13 years earlier** than the same survey found just one year before.⁹
+
+So serious experts disagree about *when*. But on two points almost all of them agree: the change will be **large**, and the forecasts keep moving **closer**.
 
 ### What it could mean for daily life
 
-What follows is my own reading of what I have studied and listened to. It is a perspective, not a promise.
+What follows is my own reading of what I have studied. It is a perspective, not a promise.
 
-**Work.** Between 2026 and 2028, I expect AI agents to take over much of the routine work in offices. Small businesses may benefit most, because a single person can now handle marketing, accounting and customer support with AI. Between 2028 and 2030, many entry-level office jobs are likely to shrink, and young graduates will compete not only with one another but with AI. Demand will grow for skilled trades, care work, logistics, and anyone who can direct AI and take responsibility for the result. If superintelligence arrives after 2030, AI may be able to do most knowledge work. What remains with humans will be physical presence, accountability, relationships, local trust, and the decisions people still want a human being to make.
+**Work.** Between 2026 and 2028, AI agents will likely take over much routine office work. Small businesses may gain the most, because one person with AI can now handle marketing, accounts and customer support. By 2030, many **entry-level office jobs** may shrink, and young graduates will compete not only with each other but with AI. Demand will grow for skilled trades, care work, logistics, and people who can direct AI and take responsibility for the result. If superintelligence arrives, what stays human will be presence, accountability, relationships and trust.
 
-**Wellbeing.** Some things could become much better: cheaper medicine and diagnosis, free education, cheaper solar energy and far less paperwork. Other things could become harder: finding meaning when work changes, loneliness, AI-generated scams and fake content, and a widening gap between people who own businesses or assets and people who do not. The best protection, in my view, is to own something, whether a business, a skill or a loyal group of customers; to keep strong family and community ties; to stay healthy; and never to stop learning.
+**Wellbeing.** Some things could get much better: cheaper diagnosis and medicine, free education, cheaper solar energy, less paperwork. Others could get harder: loneliness, AI-made scams and fake videos, and a wider gap between people who own something and people who do not. My advice to myself: own something (a business, a skill or loyal customers), keep family and community close, stay healthy, and never stop learning.
 
-**Cambodia.** I expect more investment, more e-commerce and wider use of digital payments such as KHQR. Our young population will be a great advantage, but *only* if young people have the right skills; without them, it becomes a risk. And climate, from extreme heat to floods, already affects delivery, farming and health in ways AI alone will not solve.
+**Cambodia.** I expect more investment, more e-commerce and more digital payments such as KHQR. Our young population is a great advantage, but *only* if young people have the right skills. Without them, it becomes a risk. Chapter 3 looks at that risk in detail.
 
 ### Three possible futures after 2030
 
 | Scenario | What it looks like | How likely (my opinion) |
 |---|---|---|
-| **A. Gradual** | AI keeps improving, but cost, regulation, trust and infrastructure slow its adoption. It feels like the smartphone era, only faster. | Most likely for Cambodia in the 2030s |
-| **B. Fast** | Superintelligence arrives in the early 2030s. Science, medicine and productivity leap forward, and major countries and companies are transformed within a few years. | Possible |
-| **C. Disrupted** | Rapid AI progress collides with economic shocks, job losses, political conflict or misuse, leading to a period of instability. | Possible, and worth preparing for |
+| **A. Gradual** | AI keeps improving, but cost, rules, trust and infrastructure slow it down. It feels like the smartphone era, only faster. | Most likely for Cambodia in the 2030s |
+| **B. Fast** | Superintelligence arrives in the early 2030s. Science, medicine and productivity leap forward within a few years. | Possible |
+| **C. Disrupted** | Fast AI progress collides with job losses, economic shocks, conflict or misuse, and brings a period of instability. | Possible, and worth preparing for |
 
 ### The promise and the danger
 
-The potential benefits are enormous. In **health**, AI could bring faster diagnosis, new medicines, and medical advice for people who live far from a hospital. In **education**, it could give every child a personal tutor in their own language. In **business**, it allows small companies to do what only large ones could do before; this book is one small example. And in **public services**, it could make government faster, cheaper and more transparent.
+The benefits could be enormous: faster diagnosis and new medicines, a personal tutor for every child in their own language, small companies doing what only big ones could do before (this book is one small example), and faster, cheaper public services.
 
-The risks are just as real. Many tasks people do today will be done by AI, and while new **jobs** will appear, they will not always go to the same people, in the same places, at the same time. **Truth** itself is under pressure, as fake videos, voices and news become hard to tell apart from real ones. **Power** may concentrate in the hands of a few companies and countries that control the most important technology in history. And there is the question of **safety**, the danger that researchers like Jacob Coxon warn about: systems that humans can no longer control.
+The risks are just as real. New **jobs** will appear, but not always for the same people, in the same places, at the same time. **Truth** is under pressure, as fake videos, voices and news become hard to tell from real ones. **Power** may gather in the hands of a few companies and countries. And there is **safety**, the danger Jacob Coxon warned about: systems that humans can no longer control.
 
 ---
 
@@ -144,25 +155,72 @@ The risks are just as real. Many tasks people do today will be done by AI, and w
 
 What worries me most, as someone living in a developing country, is not the technology itself. It is who will be ready for it.
 
-In wealthy countries, AI is debated every day in parliaments, universities, newspapers and podcasts. People there do not know exactly what will happen either, but they are **talking about it, preparing for it and investing in it**.
+In wealthy countries, AI is debated every day in parliaments, universities, newspapers and podcasts. People there do not know exactly what will happen either, but they are **talking about it, preparing for it and investing in it**. In many developing countries, including my own, most people are not yet part of that conversation. Many workers, students and even business owners have little idea how much their jobs and lives may change.
 
-In many developing countries, including my own, most people are not yet part of that conversation. Many workers, students and even business owners have little idea how much their jobs and lives may change. Our economies depend heavily on the kinds of work that AI and automation may transform first, and we have fewer resources to retrain people.
+In the past, the "digital divide" meant who had internet access and who did not. The new divide is about who **understands and uses AI**, and who is left behind by it. This is not only my feeling. The numbers show it clearly.
 
-I have seen this with my own eyes, even inside one of the largest companies in the country. Several software systems had been purchased and set up, but they were never connected into a single automated flow. Data was collected in one place, cleaned in another and reported in a third, with people copying it between systems by hand. The work remained manual and fragmented.
+### The real gap, in numbers
 
-Now imagine the same company with just one or two people skilled in AI, connecting those systems so that data flows from the field to the dashboard on its own. The work of several positions could be done faster, at lower cost and with fewer errors, and the company would be more profitable.
+**1. Getting online.** About **2.2 billion people** are still offline, and **96%** of them live in low- and middle-income countries. Where people are online, the gap continues: a user in a high-income country uses about **eight times** more mobile data than a user in a low-income country, and basic mobile broadband is still unaffordable in about **60%** of low- and middle-income countries.¹⁰ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still means roughly **one Cambodian in three** is not online at all.¹¹ You cannot use AI without the internet.
+
+**2. Using AI.** Microsoft tracks how many working-age people use generative AI tools. In mid-2026, the figure was about **29% in the Global North** but only **16% in the Global South**, and the gap is **growing, not shrinking**.¹² The leaders are not only the richest Western countries: in the United Arab Emirates and Singapore, around **six in ten** working-age people already use AI. Countries that invest in skills can move fast.
+
+**3. Money.** In 2025, private investors put about **$286 billion** into AI in the United States alone, roughly **23 times** more than in China, the world's second-largest AI power.¹³ The United Nations' trade body, UNCTAD, found that just **100 companies**, mostly in the United States and China, account for **40%** of the world's private spending on research and development.¹⁴ The money that shapes AI is being spent in very few places.
+
+**4. Machines.** Modern AI runs on huge data centres full of specialised chips. A 2025 University of Oxford study found that only **32 countries** host these AI data centres, and more than **150 countries** have none. Most are run by American and Chinese companies.¹⁵ A country without them must rent computing power from abroad, at foreign prices and under foreign laws.
+
+**5. Rules.** UNCTAD also found that **118 countries**, mostly in the Global South, are absent from the major international discussions on how AI should be governed, and fewer than **one in three** developing countries has a national AI strategy.¹⁴ The rules for the most powerful technology in history are being written mostly without us. There is good news here too: in the Government AI Readiness Index, Cambodia rose from **145th** in 2024 to **118th** of 195 countries in 2025.¹⁶ We are moving, but from far behind.
+
+**6. Language.** AI learns from text on the internet, and most of that text is in English. Khmer is what researchers call a **low-resource language**: there is far less Khmer text available, so AI tools usually understand and write Khmer less well than English.¹⁷ For a farmer or a market seller who reads only Khmer, the best AI tools are still much harder to use.
+
+Put these six gaps together and the picture is clear. The new divide is not one gap. It is **six gaps stacked on top of each other**: access, use, money, machines, rules and language.
+
+### The strange part: less exposed today, more at risk tomorrow
+
+Here is something that surprised me. The IMF found that AI touches about **60% of jobs in advanced economies**, but only about **40% in emerging economies** and **26% in low-income countries**.⁶ At first, this sounds like good news for poorer countries: fewer of our jobs are in AI's way.
+
+But the IMF itself warned about the other side. Poorer countries also **lack the infrastructure and skilled workers to benefit from AI**, so over time AI is likely to make the **inequality between countries worse**.⁶ Rich countries will use AI to become more productive and cheaper. If we stay where we are, our main advantage, lower wages, becomes less valuable every year.
+
+I have seen a small version of this with my own eyes, inside one of the largest companies in the country. Several software systems had been bought and set up, but they were never connected. Data was collected in one place, cleaned in another and reported in a third, with people copying it between systems by hand. Now imagine the same company with just one or two people skilled in AI, connecting those systems so that data flows from the field to the dashboard on its own. The work would be faster, cheaper and more accurate.
 
 That experience shaped a belief I hold firmly:
 
 **AI will not simply wipe out jobs. It will change the way we work, and the people left behind will be those who never learned to work with it.**
 
-In the past, the "digital divide" described who had internet access and who did not. The new divide is about who **understands and uses AI**, and who is left behind by it. This gap is widest between rich and poor nations. In the rich world, many people already use AI to work faster and better. In much of the poor world, most have not yet begun.
+### Cambodia's ladder
 
-For Cambodia, the most serious risk lies in **garment and manufacturing jobs**. These jobs have been the ladder that lifted many families out of poverty. If robots and AI make manufacturing cheap again in rich countries, poorer countries could lose that ladder. Cambodia needs a Plan B: stronger agricultural value chains, tourism, logistics, digital services, and many more small local businesses.
+For Cambodia, the most serious risk lies in **garment and manufacturing jobs**. In 2025, garments, footwear and travel goods earned Cambodia about **$15.5 billion**, roughly **half of all the country's exports**. The sector employs more than **one million workers**, and about **three in four of them are women**.¹⁸
+
+These jobs have been the ladder that lifted many families out of poverty. Many of the workers send money home to their parents and children in the provinces. And this ladder is fragile. In 2016, the International Labour Organization estimated that **88%** of Cambodia's salaried garment and footwear workers were in jobs at **high risk of automation**, one of the highest rates in Southeast Asia.¹⁹ That estimate is ten years old, and the change has been slower than it predicted. But the direction has not changed, and AI and robotics have only grown stronger since.
+
+Office jobs are exposed in a different way. A 2025 ILO study found that women are about **twice as likely** as men to work in jobs highly exposed to generative AI, mainly because so many women work in clerical and administrative roles.²⁰ In Cambodia, that means the same families could be hit twice: daughters in the factory, and daughters in the office.
+
+If robots and AI make manufacturing cheap again in rich countries, or in a few highly automated ones, poorer countries could lose that ladder. Cambodia needs a Plan B: stronger agricultural value chains, tourism, logistics, digital services, and many more small local businesses.
+
+### If AI arrives sooner, or later
+
+No one knows the exact timing. But we can think through both cases.
+
+**If AI arrives sooner** (strong AI agents spread widely before 2030):
+
+- **The gap grows fastest.** Rich countries and companies, which already use AI the most, pull further ahead before most of the developing world has even started.
+- **Outsourced work disappears first.** Data entry, customer support, translation and simple design, the kinds of work many developing countries earn money from, are exactly what AI does well.
+- **Young graduates are hit hardest.** Entry-level jobs, the first step of a career, are the easiest to automate. A country with a young population, like ours, could face many educated young people without work.
+- **Factories may move.** If automated factories near rich markets become cheaper than workers here, orders may leave, and with them the ladder described above.
+- **Scams and fake content spread** faster than people learn to recognise them, and those with the least digital experience are the easiest to fool.
+- **There is no time to prepare.** Schools, laws and social protection change slowly. Technology does not wait.
+
+**If AI arrives later** (gradually, over the 2030s and beyond):
+
+- **We gain time**, the most valuable thing a developing country can have right now.
+- **That time is only useful if we use it**: to put internet in every home, AI training in every school and university, Khmer-language AI tools, and clear rules to protect people.
+- **The danger is comfort.** A slow change feels like no change. If we wait, the gap still grows every year, only more quietly, and when the big change finally arrives we will be no more ready than today.
+
+Either way, the cost of waiting is the same: **the later we start, the wider the gap we will have to close.**
 
 ### A world already under pressure
 
-All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, the truce between the Houthis and Saudi Arabia collapsed in July, followed by attacks on Saudi territory and on shipping.⁶
+All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, the truce between the Houthis and Saudi Arabia collapsed in July, followed by attacks on Saudi territory and on shipping.²¹
 
 Wars, energy prices and the race for AI are now deeply connected. Major powers see AI as a question of national strength and security. For small countries like mine, this means the rules of the future may well be written by others.
 
@@ -170,7 +228,7 @@ Wars, energy prices and the race for AI are now deeply connected. Major powers s
 
 This is the hardest question of all, and no one has a proven answer. The world has never faced anything like it. Economists and governments are, however, already discussing possible responses. Here are the main ideas, and how I believe they apply to a country like Cambodia.
 
-**1. Share the wealth AI creates.** If AI and robots make economies far more productive, there will be more wealth overall; the real question is who receives it. Governments could tax AI and large technology companies, whether on profits, on computing power or through a "robot tax", and use the revenue for their citizens. Another option is a **universal basic income**: a regular payment to every citizen, enough to cover basic needs. It has been tested in Kenya, Finland and the United States, with mixed but often encouraging results.⁷ A third option is a **national AI fund**, in which the country owns a share of automation's profits and uses them for its people. Norway built one of the world's largest national funds from its oil wealth, and the US state of Alaska pays every resident a yearly dividend from its own oil fund.
+**1. Share the wealth AI creates.** If AI and robots make economies far more productive, there will be more wealth overall; the real question is who receives it. Governments could tax AI and large technology companies, whether on profits, on computing power or through a "robot tax", and use the revenue for their citizens. Another option is a **universal basic income**: a regular payment to every citizen, enough to cover basic needs. It has been tested in Kenya, Finland and the United States, with mixed but often encouraging results.²² A third option is a **national AI fund**, in which the country owns a share of automation's profits and uses them for its people. Norway built one of the world's largest national funds from its oil wealth, and the US state of Alaska pays every resident a yearly dividend from its own oil fund.
 
 **2. Redefine what "work" means.** Shorter working weeks would share the remaining work among more people. Societies could begin paying for work that markets undervalue, such as caring for children, the elderly and the sick, teaching, environmental restoration and community service. Public works programmes, including roads, irrigation, flood defences, tree planting and solar installations, would suit Cambodia particularly well, given our climate risks.
 
@@ -264,5 +322,20 @@ In Part Two, I will show you the tools I use, what they cost, how to talk to AI 
 3. Coverage of the same episode, in which Grantham describes the AI boom in US stocks as a possible bubble: https://finance.biggo.com/news/5bdcf0d461f27ac7
 4. Jacob Coxon, post on X, 8 September 2026: https://x.com/hilbertspaess/status/2097476196791709843
 5. Deadline, "A.I. Researcher Jacob Coxon Resigns, Warns Industry 'Gambling With Our Lives'": https://deadline.com/2026/09/anthropic-jacob-coxon-resignation-artificial-intelligence-1237072134/ · TIME, 15 September 2026: https://time.com/article/2026/09/15/ai-anthropic-researcher-quits-coxon-slowdown/ · PBS NewsHour: https://www.pbs.org/newshour/science/anthropic-researchers-resignation-sends-warning-about-the-dangers-of-ai-development
-6. Al-Monitor, July 2026: https://app.al-monitor.com/originals/2026/07/analysis-yemen-teeters-towards-renewed-war-shadow-iran-conflict · Oman Observer, 25 July 2026: https://www.omanobserver.om/article/1193424/oman/fighting-spreads-on-a-new-middle-east-front
-7. Examples include GiveDirectly's long-term basic income study in Kenya, Finland's national basic income experiment (2017–2018), and city pilots in the United States such as Stockton, California.
+6. Kristalina Georgieva, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity", IMF Blog, 14 January 2024, and the IMF Staff Discussion Note *Gen-AI: Artificial Intelligence and the Future of Work* (SDN/2024/001): https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity
+7. World Economic Forum, *The Future of Jobs Report 2025* (January 2025), based on a survey of more than 1,000 employers. These are employers' expectations, not measurements: https://www.weforum.org/publications/the-future-of-jobs-report-2025/
+8. Stanford Institute for Human-Centered AI, *AI Index Report 2026* (April 2026): https://hai.stanford.edu/ai-index
+9. Katja Grace et al., "Thousands of AI Authors on the Future of AI", *Journal of Artificial Intelligence Research* (2025); survey of 2,778 researchers carried out in October 2023. The estimates assume that science continues without major disruption: https://jair.org/index.php/jair/article/view/19087
+10. International Telecommunication Union (ITU), *Facts and Figures 2025*, 17 November 2025: https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx
+11. DataReportal, *Digital 2026: Cambodia*. DataReportal notes that its methods and sources change from year to year, so figures are not always comparable: https://datareportal.com/reports/digital-2026-cambodia
+12. Microsoft AI Economy Institute, "The continued state of global AI diffusion in 2026", 21 September 2026 (28.8% in the Global North and 16.2% in the Global South, working-age population): https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/ · Country figures for the UAE and Singapore from Microsoft's earlier 2026 diffusion report.
+13. Stanford HAI, *AI Index Report 2026* (see note 8), chapter on the economy.
+14. UNCTAD, *Technology and Innovation Report 2025: Inclusive Artificial Intelligence for Development* (April 2025): https://unctad.org/press-material/ais-48-trillion-future-un-trade-and-development-alerts-divides-urges-action
+15. Vili Lehdonvirta, Zoe Jay Hawkins and Boxi Wu, University of Oxford (2025), study of the global distribution of AI compute, as reported by TechRepublic: https://www.techrepublic.com/article/news-only-32-countries-host-data-centers-2025/
+16. Oxford Insights, *Government AI Readiness Index 2025*, as announced in Cambodia: https://opendevelopmentcambodia.net/announcements/press-release-cambodias-progress-in-the-government-ai-readiness-index/
+17. See, for example, the authors of *PrahokBART*, a Khmer language model, who note that English training data is far more plentiful than Khmer: https://arxiv.org/abs/2512.13552
+18. Ministry of Commerce export figures for 2025, as reported by Vietstock, January 2026: https://en.vietstock.vn/2026/01/cambodia8217s-garment-and-footwear-exports-surge-to-155-billion-in-2025-52000-628379.htm · Share of exports, worker numbers and share of women from ILO / Better Work Cambodia research: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Assessing-the-impact-of-tariff-uncertainty/995691973002676 . The Ministry of Labour gives a lower figure of about 900,000 workers.
+19. International Labour Organization, *ASEAN in Transformation: How Technology Is Changing Jobs and Enterprises* (2016). A projection, not a measurement.
+20. ILO and NASK, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (May 2025): 4.7% of women and 2.4% of men worldwide work in jobs with the highest exposure: https://news.un.org/en/story/2025/05/1163486
+21. Al-Monitor, July 2026: https://app.al-monitor.com/originals/2026/07/analysis-yemen-teeters-towards-renewed-war-shadow-iran-conflict · Oman Observer, 25 July 2026: https://www.omanobserver.om/article/1193424/oman/fighting-spreads-on-a-new-middle-east-front
+22. Examples include GiveDirectly's long-term basic income study in Kenya, Finland's national basic income experiment (2017–2018), and city pilots in the United States such as Stockton, California.
