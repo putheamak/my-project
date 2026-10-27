@@ -40,6 +40,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 27 Oct 2026: Ch 2–3 rewritten with sourced facts (Part One v4) and sent (Word). Owner will review later. Still to check: Stanford AI Index figures, Oxford data-centre study original, refresh Microsoft AI-use figures before publishing.
 - 27 Oct 2026: independent AI editorial review done (`editorial-review-2026-10-27.md`). Owner to decide which changes to apply.
 - 27 Oct 2026: review copy with the new cover sent (Word + EPUB). Owner will review later.
 - 27 Oct 2026: owner asked about an outside editor / another AI to check the book. Options: independent fresh-context AI review (Claude can run it), another AI (e.g. ChatGPT, Gemini), human editor (Reedsy, Fiverr/Upwork, local English teacher), 3–5 beta readers.
