@@ -80,7 +80,9 @@ KDP allows up to three categories. Recommended choices (confirm the exact names 
 
 ---
 
-## 6. Cover brief
+## 6. Cover (approved 27 Oct 2026: `cover/cover-draft.jpg`, built from the brief below)
+
+### Cover brief
 
 **Format:** 1,600 × 2,560 pixels (KDP's recommended 1.6 ratio), JPG, RGB colour.
 

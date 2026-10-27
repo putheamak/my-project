@@ -13,7 +13,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author (written), glossary, A Request to the Reader. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
 | `launch-kit-draft.md` | Title options, Amazon description, 7 keywords, categories, price, cover brief. v2 26 Oct 2026, approved by the owner (title A, $4.99 launch, Kindle Unlimited). |
 | `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
-| `cover/cover-draft.jpg` | Draft cover, 1600 × 2560 (from `cover/cover-draft.html`; render: `NODE_PATH=$(npm root -g) node cover/render-cover.cjs $PWD/cover/cover-draft.html $PWD/cover/cover-draft.jpg`). |
+| `cover/cover-draft.jpg` | Final cover (approved by the owner 27 Oct 2026), 1600 × 2560 (from `cover/cover-draft.html`; render: `NODE_PATH=$(npm root -g) node cover/render-cover.cjs $PWD/cover/cover-draft.html $PWD/cover/cover-draft.jpg`). |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
