@@ -18,6 +18,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `editorial-review-2026-10-28.md` | Second independent AI editorial review (after the Ch 2–3 rewrite): 6.5/10 (about 8 with top fixes), fact-check table for Ch 2–3, top 10 issues, 30 language fixes, launch-kit advice. |
 | `editorial-review-2026-10-27.md` | Independent AI editorial review (fresh reviewer, no prior context): 6.5/10, top 10 issues, chapter notes, 40 language fixes, revised Amazon description. |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
+| `build-ebook.sh` | `bash build-ebook.sh` makes the Kindle-ready EPUB in `build/`: removes owner checklists and the typed title/Contents, adds a linked Contents, starts each chapter on a new page, and checks every link (must say 0 broken). Open the result in Kindle Previewer before uploading. |
 | `check-before-export.sh` | Run `bash check-before-export.sh` before exporting for KDP: lists any ⭐ placeholders, `<!-- -->` owner checklists, unlinked note numbers and [Update…]/[confirm] notes. Must say READY. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
@@ -42,6 +43,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 28 Oct 2026: the first EPUB failed in Kindle Previewer (E24010/E24001: Contents links not resolved — duplicate title heading and leftover checklists). Fixed with `build-ebook.sh`; new EPUB has 23 Contents entries, one file per chapter, 0 broken links. Owner to re-test in Kindle Previewer.
 - 28 Oct 2026: same simple voice applied to Part One (Ch 1–4), Part Three (Ch 12–13) and the AI-use statement in the front matter. Facts and quotes unchanged.
 - 28 Oct 2026: review fixes 6 and 8 + draft AI strategy (Word + EPUB sent; owner will review later):
   - Voice pass on the Introduction and Part Two: simpler, shorter sentences; formal words removed (whereas, precisely, genuinely, a matter of, merely…); about two thirds of bold one-line lessons turned into plain sentences; "The principle:" labels gone from Part Two; owner phrases kept (I was really surprised, very small demand, the light ahead…).
