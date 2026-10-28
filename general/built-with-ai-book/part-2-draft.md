@@ -580,7 +580,7 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 > - Exclude your own visits from the visitor counter, or your figures will look better than they are.
 > - Place the affiliate disclosure in every post and every social media description, before the first link.
 > - Never use the store's product photographs, and never copy its prices or star ratings. Use your own photographs or free stock images.
-> - Never claim to have used a product unless you genuinely have.
+> - Never claim to have used a product unless you really have.
 > - Check your country's situation early: payment methods, advertising platforms and programme deadlines may differ where you live.
 >
 > **Scoring prompt** (use it before you publish):
