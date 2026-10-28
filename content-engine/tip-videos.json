@@ -245,5 +245,16 @@
     ],
     "product": "A pull chopper does the chopping in step two in a few pulls",
     "cta": "The 10 best kitchen gadgets under $30:"
+  },
+  "kitchen-gifts-college-student-new-cook": {
+    "hook": "A drive-thru breakfast sandwich in a dorm?",
+    "steps": [
+      "Crack an egg into a greased mug, pierce the yolk",
+      "Microwave in 20-second bursts until set",
+      "Slide it onto a muffin with a slice of cheese"
+    ],
+    "label": "Gift idea:",
+    "product": "An egg patty maker makes it round, like the real thing",
+    "cta": "Kitchen gifts for college students under $30:"
   }
 }
