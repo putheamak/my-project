@@ -15,6 +15,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
 | `cover/cover-final.jpg` | **Final cover** (owner's enhanced version, approved 27 Oct 2026). Current file is 1244 × 2000; replace with a 1600 × 2560 export before upload. If made with an AI image tool, answer "yes" to AI-generated images in KDP and check the tool allows commercial use. |
 | `cover/cover-draft.jpg` | Earlier draft cover (kept for reference), 1600 × 2560, from `cover/cover-draft.html`. |
+| `editorial-review-2026-10-28.md` | Second independent AI editorial review (after the Ch 2–3 rewrite): 6.5/10 (about 8 with top fixes), fact-check table for Ch 2–3, top 10 issues, 30 language fixes, launch-kit advice. |
 | `editorial-review-2026-10-27.md` | Independent AI editorial review (fresh reviewer, no prior context): 6.5/10, top 10 issues, chapter notes, 40 language fixes, revised Amazon description. |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
@@ -40,6 +41,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 28 Oct 2026: second independent AI review done (`editorial-review-2026-10-28.md`). Owner to decide which changes to apply.
 - 27 Oct 2026: Ch 2–3 rewritten with sourced facts (Part One v4) and sent (Word). Owner will review later. Still to check: Stanford AI Index figures, Oxford data-centre study original, refresh Microsoft AI-use figures before publishing.
 - 27 Oct 2026: independent AI editorial review done (`editorial-review-2026-10-27.md`). Owner to decide which changes to apply.
 - 27 Oct 2026: review copy with the new cover sent (Word + EPUB). Owner will review later.
