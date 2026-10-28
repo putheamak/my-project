@@ -9,7 +9,7 @@ pinDescription: "Kitchen gifts for a college student or new cook under $30, matc
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-28"
 image: "images/kitchen-gifts-college-student-new-cook-cover.jpg"
-status: "draft"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -38,7 +38,7 @@ It's the cheapest drive-thru breakfast you'll ever make. The round shape is what
 
 ### What's the best gift for a dorm with only a microwave?
 
-![A student using a microwave in a small dorm kitchen](images/kitchen-gifts-college-student-new-cook-1.jpg)
+![A home kitchen with a microwave above the counter](images/kitchen-gifts-college-student-new-cook-1.jpg)
 
 **Main pick:** the [Joseph Joseph M-Cuisine microwave rice cooker](https://link.amazon/B0hRghGrh), which holds up to 8.5 cups. **New to many people:** most students don't know you can make proper rice in a microwave. It's a container with a vented lid made for cooking rice or steaming vegetables in the microwave, so a shared microwave becomes a rice cooker.
 
@@ -56,7 +56,7 @@ Check the dorm's rules before you buy anything that heats up. Many allow small a
 
 ### What should a new cook with a first apartment get?
 
-![A young person cooking in a small apartment kitchen](images/kitchen-gifts-college-student-new-cook-2.jpg)
+![A cook plating a small dish](images/kitchen-gifts-college-student-new-cook-2.jpg)
 
 **Main pick:** the [SENSARTE 8-inch nonstick frying pan](https://amzn.to/4j69CZf), omelet-size and induction compatible. **Already have one?** A lot of first kitchens run on a scratched hand-me-down pan that eggs stick to. A fresh nonstick pan is the cheapest way to make cooking feel easier.
 
