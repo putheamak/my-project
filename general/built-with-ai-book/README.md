@@ -41,6 +41,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 28 Oct 2026: applied the owner's 23 fixes from the second review (facts in Ch 2–3, Ch 6 "Why it matters" labels removed, Ch 9–12 wording); added "Where things stand: 28 Oct 2026" boxes to Ch 8–11 (⭐ = numbers the owner must add: bookings, sellers, latest blog visits, videos posted, hours); each repeated story now told once (Ch 8–11) with cross-references in Ch 4, 6 and 12; Ch 4 project descriptions cut to 2–3 sentences. Ch 12: confirm what "30 to 60 seconds" meant.
 - 28 Oct 2026: second independent AI review done (`editorial-review-2026-10-28.md`). Owner to decide which changes to apply.
 - 27 Oct 2026: Ch 2–3 rewritten with sourced facts (Part One v4) and sent (Word). Owner will review later. Still to check: Stanford AI Index figures, Oxford data-centre study original, refresh Microsoft AI-use figures before publishing.
 - 27 Oct 2026: independent AI editorial review done (`editorial-review-2026-10-27.md`). Owner to decide which changes to apply.

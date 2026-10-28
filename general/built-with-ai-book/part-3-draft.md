@@ -24,7 +24,7 @@ The four projects in this book taught me many individual lessons. Looking back, 
 
 AI made mistakes in every one of my projects. What surprised me was not that it erred, but how *quietly* it did so.
 
-It wrote attractive promises into advertisements that my business had never agreed to make. It produced videos in which small symbols turned into empty boxes, without registering that anything was amiss. Even the checker it built for my blog had a blind spot, accepting one way of writing a phrase while rejecting another. None of these mistakes announced itself. Each came to light only because a person examined the finished work with care.
+It wrote promises my business had never agreed to make, and produced videos with broken symbols without noticing (both in Chapter 10). Even the checker it built for my blog had a blind spot, accepting one way of writing a phrase while rejecting another. None of these mistakes announced itself. Each came to light only because a person examined the finished work with care.
 
 Writing this book in partnership with an AI produced its own collection of errors. I record them here because they are typical, and because each one carries a lesson.
 
@@ -36,7 +36,7 @@ Writing this book in partnership with an AI produced its own collection of error
 
 **It embellished quotations beyond what the record supports.** One draft had Steve Jobs "telling a conference" that focusing is about saying no. On checking the sources, the AI found that he had said it while answering developers' questions, not in a prepared speech. In another case, it discovered that a famous line usually credited to the inventor Charles Kettering cannot be traced to anything he actually wrote.
 
-**It guessed at my meaning.** When I said that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video, when I might have meant the time needed to make one. It wrote its interpretation into the draft and flagged it for me to confirm. That was the right behaviour, but only because I had asked it to mark every assumption.
+**It guessed at my meaning.** When I said that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video, when I actually meant [the time needed to make one / confirm]. It wrote its interpretation into the draft and flagged it for me to confirm. That was the right behaviour, but only because I had asked it to mark every assumption.
 
 The most reassuring moment came from the opposite direction. When I first asked an AI to write a program for my survey analysis, I did not simply accept its output. I compared its results, figure by figure, with those I had calculated by hand. Only when the two matched did I begin to rely on it.
 
@@ -80,7 +80,7 @@ Some risks concern **your own business**. A bot's secret key is the key to your 
 
 Other risks concern **other people**. Customers, survey respondents and entire communities entrust us with their information. As I described in Chapter 7, I built my first analysis tool using test data of my own and kept the real data offline. Convenience is never sufficient reason to expose what is not ours to give.
 
-And some risks concern **honesty itself**: praising products I have not used, claiming results I have not achieved, making promises my business cannot keep, or entering a false country to gain access to an advertising platform. Each shortcut might bring a small advantage today. Each could cost a reputation that took years to build.
+And some risks concern **honesty itself**: praising products I have not used, claiming results I have not achieved, making promises my business cannot keep, or entering a false country to gain access to an advertising platform (Chapter 9). Each shortcut might bring a small advantage today. Each could cost a reputation that took years to build.
 
 **Protect your secrets, protect other people's data, and protect your word.** In the age of AI, trust is the most valuable asset a small business possesses.
 

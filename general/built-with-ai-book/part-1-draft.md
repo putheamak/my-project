@@ -99,13 +99,13 @@ This book is about that new version of me. In the pages that follow, I will shar
 
 ### "Gambling with our lives"
 
-Less than three weeks after I left my job, on **8 September 2026**, a 27-year-old British researcher named **Jacob Coxon** resigned from Anthropic, one of the world's leading artificial intelligence companies. Over three years, he had worked as a researcher at both OpenAI and Anthropic, the companies behind ChatGPT and Claude.
+Less than three weeks after I left my job, on **8 September 2026**, a 27-year-old researcher named **Jacob Coxon** resigned from Anthropic, one of the world's leading artificial intelligence companies. Over three years, he had worked as a researcher at both OpenAI and Anthropic, the companies behind ChatGPT and Claude.
 
 He explained his decision in a post on X:
 
 > "Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives."⁴
 
-The post travelled around the world, reportedly reaching about 76 million views. In an interview with the *Wall Street Journal* the same day, Coxon warned that, under the most aggressive scenarios, events could be "out of control" by the end of 2027. TIME, PBS and many other outlets picked up the story, and almost overnight the world was talking about AI risk again.⁵ The conversation has not stopped since.
+Within a day, the post had reportedly been viewed more than 76 million times. In an interview with the *Wall Street Journal* the same day, Coxon warned that, under the most aggressive scenarios, events could be "out of control" by the end of 2027. TIME, PBS and many other outlets picked up the story, and almost overnight the world was talking about AI risk again.⁵ The conversation has not stopped since.
 
 I read the news on my phone here in Phnom Penh, in the middle of building the tools described in this book. It left me with a question I still ask myself every day:
 
@@ -113,17 +113,17 @@ I read the news on my phone here in Phnom Penh, in the middle of building the to
 
 ### What is coming
 
-No one knows the future, but we no longer have to guess blindly. Researchers, international organisations and employers have all tried to measure where AI is heading, and their findings point in the same direction.
+No one knows the future, but we no longer have to guess blindly. Researchers, international organisations and employers have all tried to measure where AI is heading, and most of their findings point the same way.
 
 **Until around 2030: AI becomes part of everyday work.** AI assistants already write, translate, analyse data and answer customers. AI *agents* go a step further: they **carry out tasks** on their own, such as building software, filling in forms and running simple operations. The numbers show how far this reaches:
 
 - The **International Monetary Fund (IMF)** estimates that almost **40% of jobs worldwide** are exposed to AI, rising to about **60% in advanced economies**.⁶
-- In the **World Economic Forum's** 2025 survey of more than 1,000 large employers, companies expected changes affecting **22% of today's jobs** by 2030: about **170 million new jobs** created and **92 million** lost, a net gain of 78 million. They also expected **39% of the core skills** workers rely on today to change.⁷
+- In the **World Economic Forum's** 2025 survey of more than 1,000 large employers, companies expected changes affecting **22% of today's jobs** by 2030, driven by technology, including AI, but also by the green transition, ageing populations and the economy: about **170 million new jobs** created and **92 million** lost, a net gain of 78 million. They also expected **39% of the core skills** workers rely on today to change.⁷
 - The money is moving just as fast. According to Stanford University's *AI Index 2026*, companies worldwide invested about **$582 billion** in AI in 2025, an increase of **130%** in a single year.⁸
 
-**After around 2030: possibly superintelligence.** Some of the people closest to the technology believe AI may become more capable than humans in almost every field, and perhaps able to improve itself. Others think this is far away, or may never happen. In the largest survey of its kind, **2,778 AI researchers** put the chance that machines could outperform humans at every task at **10% by 2027** and **50% by 2047**. That 2047 estimate was **13 years earlier** than the answer the same survey had produced only a year before.⁹
+**After around 2030: possibly superintelligence.** Some of the people closest to the technology believe AI may become more capable than humans in almost every field, and perhaps able to improve itself. Others think this is far away, or may never happen. In a large survey carried out in late 2023, **2,778 AI researchers** put the chance that machines could outperform humans at every task at **10% by 2027** and **50% by 2047**. That 2047 estimate was **13 years earlier** than the answer the same researchers' survey had given in 2022.⁹
 
-Serious experts disagree about *when*. Yet on two points most of them agree: the change will be **large**, and the expected dates keep moving **closer**.
+Serious experts disagree about *when*. Yet two things stand out: the change will be **large**, and the expected dates keep moving **closer**.
 
 ### What it could mean for daily life
 
@@ -165,11 +165,11 @@ In the past, the "digital divide" described who had internet access and who did 
 
 **1. Getting online.** About **2.2 billion people** are still offline, and **96%** of them live in low- and middle-income countries. Even among those who are online, the gap persists: a user in a high-income country consumes about **eight times** as much mobile data as a user in a low-income country, and basic mobile broadband remains unaffordable in about **60%** of low- and middle-income countries.¹⁰ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still leaves roughly **one Cambodian in three** offline.¹¹ Without the internet, there is no AI.
 
-**2. Using AI.** Microsoft tracks the share of working-age people who use generative AI tools. By mid-2026, the figure stood at about **29% in the Global North** but only **16% in the Global South**, and the gap is **widening, not narrowing**.¹² Yet the leaders are not simply the richest Western nations: in the United Arab Emirates and Singapore, around **six in ten** working-age people already use AI. Countries that invest deliberately in skills can move fast.
+**2. Using AI.** Microsoft tracks the share of working-age people who use generative AI tools. By mid-2026, the figure stood at about **29% in the Global North** but only **16% in the Global South**, and the gap is **widening, not narrowing**.¹² Yet the leaders are not simply the richest Western nations: in the United Arab Emirates about **seven in ten**, and in Singapore more than **six in ten**, working-age people already use AI. Countries that invest deliberately in skills can move fast.
 
-**3. Money.** In 2025, private investors put about **$286 billion** into AI in the United States alone, roughly **23 times** as much as in China, the world's second-largest AI power.¹³ The United Nations' trade and development body, UNCTAD, found that just **100 companies**, mostly in the United States and China, account for **40%** of the world's private spending on research and development.¹⁴ The money that shapes AI is spent in very few places.
+**3. Money.** In 2025, private investors put about **$286 billion** into AI in the United States alone, roughly **23 times** as much as in China, the world's second-largest AI power, although these private figures miss much of China's state-directed spending.¹³ The United Nations' trade and development body, UNCTAD, found that just **100 companies**, mostly in the United States and China, account for **40%** of all company spending on research and development worldwide, in every field, not only AI.¹⁴ The money that shapes AI is spent in very few places.
 
-**4. Machines.** Modern AI runs in huge data centres filled with specialised chips. A 2025 University of Oxford study found that only **32 countries** host such AI data centres, while more than **150 countries** have none. Most are operated by American and Chinese companies.¹⁵ A country without them must rent computing power from abroad, at foreign prices and under foreign laws.
+**4. Machines.** Modern AI runs in huge data centres filled with specialised chips. A 2025 University of Oxford study found that only **32 countries** host the large cloud data centres that rent out advanced AI chips, while more than **150 countries** have none. Most are operated by American and Chinese companies.¹⁵ A country without them must rent computing power from abroad, at foreign prices and under foreign laws.
 
 **5. Rules.** UNCTAD also found that **118 countries**, mostly in the Global South, are absent from the major international discussions on how AI should be governed, and fewer than **one in three** developing countries has a national AI strategy.¹⁴ The rules for perhaps the most powerful technology in history are being written largely without us. There is encouraging news, too: in the Government AI Readiness Index, Cambodia climbed from **145th** in 2024 to **118th** of 195 countries in 2025.¹⁶ We are moving forward, but from far behind.
 
@@ -179,11 +179,11 @@ Put together, these figures tell a clear story. The new divide is not a single g
 
 ### The paradox: less exposed today, more at risk tomorrow
 
-One finding surprised me. The IMF estimates that AI touches about **60% of jobs in advanced economies**, but only about **40% in emerging economies** and **26% in low-income countries**.⁶ At first glance, this sounds like good news for poorer countries: fewer of our jobs stand in AI's path.
+One finding surprised me. The IMF estimates that about **60% of jobs in advanced economies** are exposed to AI, but only about **40% in emerging economies** and **26% in low-income countries**.⁶ At first glance, this sounds like good news for poorer countries: fewer of our jobs stand in AI's path.
 
 The IMF itself warned of the other side. Poorer countries also **lack the infrastructure and skilled workforce to benefit from AI**, so over time AI is likely to **worsen inequality between countries**.⁶ Rich countries will use AI to become more productive and to lower their costs. If we stand still, our main advantage, lower wages, loses value every year.
 
-I have seen a small version of this with my own eyes, inside one of the largest companies in the country. Several software systems had been bought and set up, but they were never connected. Data was collected in one place, cleaned in another and reported in a third, with people copying it between systems by hand. Now imagine the same company with just one or two people skilled in AI, linking those systems so that data flows from the field to the dashboard on its own. The work would be faster, cheaper and more accurate.
+I have seen a small version of this with my own eyes, inside a large company where I once worked. Several software systems had been bought and set up, but they were never connected. Data was collected in one place, cleaned in another and reported in a third, with people copying it between systems by hand. Now imagine the same company with just one or two people skilled in AI, linking those systems so that data flows from the field to the dashboard on its own. The work would be faster, cheaper and more accurate.
 
 That experience shaped a belief I hold firmly:
 
@@ -193,9 +193,9 @@ That experience shaped a belief I hold firmly:
 
 For Cambodia, the most serious risk lies in **garment and manufacturing jobs**. In 2025, exports of garments, footwear and travel goods reached about **$15.5 billion**, roughly **half of everything the country sells abroad**. The sector employs more than **one million workers**, and about **three in four of them are women**.¹⁸
 
-These jobs have been the ladder that lifted many families out of poverty. Many workers send part of their wages home to parents and children in the provinces. Yet this ladder is fragile. In 2016, the International Labour Organization estimated that **88%** of Cambodia's salaried garment and footwear workers were in jobs at **high risk of automation**, one of the highest rates in Southeast Asia.¹⁹ That estimate is now ten years old, and change has come more slowly than it predicted. But the direction has not changed, and AI and robotics have only grown more capable since.
+These jobs have been the ladder that lifted many families out of poverty. Many workers send part of their wages home to parents and children in the provinces. Yet this ladder is fragile. In 2016, the International Labour Organization estimated that **88%** of Cambodia's salaried garment and footwear workers were in jobs at **high risk of automation**, one of the highest rates in Southeast Asia.¹⁹ That estimate is now ten years old, and so far the sector has kept growing. But the direction has not changed, and AI and robotics have only grown more capable since.
 
-Office jobs face a different kind of exposure. A 2025 ILO study found that women worldwide are about **twice as likely** as men to hold jobs highly exposed to generative AI, largely because so many women work in clerical and administrative roles.²⁰ In Cambodia, the same families could be hit twice: daughters in the factory, and daughters in the office.
+Office jobs face a different kind of exposure. A 2025 ILO study found that women worldwide are nearly **twice as likely** as men to work in the jobs most exposed to generative AI (4.7% of women's jobs, against 2.4% of men's), largely because so many women work in clerical and administrative roles.²⁰ In Cambodia, the same families could be hit twice: daughters in the factory, and daughters in the office.
 
 If robots and AI make manufacturing cheap again in rich countries, or in a handful of highly automated ones, poorer countries could lose that ladder. Cambodia needs a Plan B: stronger agricultural value chains, tourism, logistics, digital services, and many more small local businesses.
 
@@ -222,7 +222,7 @@ Either way, the lesson is the same: **the later we start, the wider the gap we w
 
 ### A world already under pressure
 
-All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, the truce between the Houthis and Saudi Arabia collapsed in July, followed by attacks on Saudi territory and on shipping.²¹
+All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, fighting between the Houthis and Saudi Arabia resumed in July 2026, followed by attacks on Saudi territory and on shipping.²¹
 
 Wars, energy prices and the race for AI are now deeply connected. Major powers see AI as a question of national strength and security. For small countries like mine, this means the rules of the future may well be written by others.
 
@@ -271,41 +271,19 @@ Here are the four projects, and why each one exists. In Part Two, you will learn
 
 **Khmer Parcel** is my parcel delivery service in Phnom Penh. It launched on the 1st of October, 2026.
 
-Many of our customers are **online sellers**, people selling clothes, cosmetics or food through Facebook and Telegram. They send many parcels and need to book pickups quickly. Booking through chat messages is slow and messy: details get lost, prices get confused, and someone has to type everything out again.
-
-So I built a **Telegram mini app**. A seller opens our bot, taps a single button, fills in a short form in Khmer, and the booking goes straight to our office Telegram group with a booking code. The app remembers each shop's details for next time, and every booking is verified, so no one can post fake orders. It runs on Cloudflare's free plan, which means there is **no server to rent or maintain**.
-
-This is AI helping a small local business look and work like a much larger one.
+Many of our customers are **online sellers** who need to book pickups quickly, and booking through chat messages is slow and messy. So I built a **Telegram mini app**: a short form in Khmer that sends each booking straight to our office, and costs nothing to run. Chapter 8 tells the full story.
 
 ### 2. A blog that drafts its own posts, which I always check
 
-I wanted to test a promise heard everywhere: that one person, with AI, can run an online income project on a very small budget.
-
-I chose **affiliate marketing**, because it requires no stock, no warehouse and no shipping. You recommend products, and when a reader buys through your link, the store pays you a small commission. It is free to join, which made it a fair test for someone starting with little money. I joined Amazon's program, because so many people already shop there.
-
-The blog is called **Home Picks Under 30**, and it focuses on kitchen gadgets under $30: small, useful things people buy without much hesitation. Everyone has a kitchen, the topic never goes out of date, and it is highly visual, which suits Pinterest and short videos. The price limit keeps the blog focused and easy to trust.
-
-With AI, I built a system that, three times a week, chooses a topic, **writes a draft post**, prepares social media captions and video scripts, and **checks the draft against Amazon's rules**. Nothing is published until I have read and approved it.
-
-It tests the most common promise made about AI, "passive income", in an honest way. At the time of writing, the blog has not yet made its first sale. I will tell you exactly what happens, good or bad.
+I wanted to test a promise heard everywhere: that one person with AI can earn "passive income" online on a tiny budget. So I built **Home Picks Under 30**, an Amazon affiliate blog about kitchen gadgets, where AI drafts posts three times a week and nothing goes live until I approve it. Chapter 9 shares the honest results, including the zeros.
 
 ### 3. Video ads every day, without a video editor
 
-A new business needs to be seen. Facebook and TikTok reward people who post often, but I could not afford a video editor or an agency.
-
-So, with AI, I built a small **video factory**. Each ad is designed like a simple web page. A browser plays it and records it frame by frame, and the frames are assembled into a vertical video, 30 to 60 seconds long, ready for Reels and TikTok, with Khmer text first and short English beneath it.
-
-To make a new ad, I copy an earlier design, change the words and images, check a quick preview of each scene, and render the final video. There is no editing timeline and no expensive software. Most of my time now goes into deciding *what to say*, not into editing.
-
-Marketing that once required a team can now be done by one person.
+A new business needs to be seen, but I could not afford a video editor or an agency. So, with AI, I built a small **video factory** that turns simple designs into short vertical ads, Khmer first with short English, ready for Reels and TikTok. Chapter 10 shows how it works, and what the first ads taught me.
 
 ### 4. An ebook machine, which helped make this book
 
-The fourth project is the one you are reading. With AI, I built a step-by-step system: **research a topic → check demand on Amazon → outline → draft chapters → human edit → format → publish**.
-
-In Part Two, you will see that my first two book ideas, a Phnom Penh travel guide and a guide for expatriates, failed the demand check. That failure is part of the lesson.
-
-It shows how AI can help you create and sell knowledge, as long as a human remains in charge of quality and truth.
+The fourth project is the one you are reading: a step-by-step way to **research, check demand, outline, draft, edit and publish** a book with AI, with a human in charge of quality and truth. My first two book ideas failed the demand check, and Chapter 11 explains why that failure mattered.
 
 ### What the four have in common
 
