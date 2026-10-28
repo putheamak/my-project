@@ -18,6 +18,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `editorial-review-2026-10-28.md` | Second independent AI editorial review (after the Ch 2–3 rewrite): 6.5/10 (about 8 with top fixes), fact-check table for Ch 2–3, top 10 issues, 30 language fixes, launch-kit advice. |
 | `editorial-review-2026-10-27.md` | Independent AI editorial review (fresh reviewer, no prior context): 6.5/10, top 10 issues, chapter notes, 40 language fixes, revised Amazon description. |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
+| `check-before-export.sh` | Run `bash check-before-export.sh` before exporting for KDP: lists any ⭐ placeholders, `<!-- -->` owner checklists, unlinked note numbers and [Update…]/[confirm] notes. Must say READY. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
 ## How we write it
@@ -41,6 +42,11 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 28 Oct 2026: review fixes 6 and 8 + draft AI strategy:
+  - Voice pass on the Introduction and Part Two: simpler, shorter sentences; formal words removed (whereas, precisely, genuinely, a matter of, merely…); about two thirds of bold one-line lessons turned into plain sentences; "The principle:" labels gone from Part Two; owner phrases kept (I was really surprised, very small demand, the light ahead…).
+  - Ch 3: new section "What our own draft strategy admits" from the draft National AI Strategy 2025–2030 (MPTC, June 2025, via Open Development Cambodia). Owner to check whether the final version has been adopted.
+  - Notes: one "Notes" section before the Glossary, grouped by chapter, numbering restarts per chapter, note numbers are links (tap to the note, ↩ to go back; checked in the EPUB: 75 links, 0 broken). "Notes" added to Contents.
+  - Before export: run `check-before-export.sh`. Still open: 6 ⭐ numbers (bookings, sellers, latest visits, videos posted, hours ×2), the Ch 12 "[… / confirm]" line, and deleting the 5 owner checklists.
 - 28 Oct 2026: review fix 7 applied: "Getting set up" section in Ch 5 (where Claude Code runs, repository, letting the AI install Node.js/ffmpeg/headless browser, secrets, build step, getting unstuck); beginner line in the 3 project Builder's Notes; Ch 4 softened ("see how each was built, with starter prompts"); glossary + Repository, Secret, Terminal. Owner to confirm: most projects were built in Claude Code in the browser.
 - 28 Oct 2026: applied the owner's 23 fixes from the second review (facts in Ch 2–3, Ch 6 "Why it matters" labels removed, Ch 9–12 wording); added "Where things stand: 28 Oct 2026" boxes to Ch 8–11 (⭐ = numbers the owner must add: bookings, sellers, latest blog visits, videos posted, hours); each repeated story now told once (Ch 8–11) with cross-references in Ch 4, 6 and 12; Ch 4 project descriptions cut to 2–3 sentences. Ch 12: confirm what "30 to 60 seconds" meant.
 - 28 Oct 2026: second independent AI review done (`editorial-review-2026-10-28.md`). Owner to decide which changes to apply.

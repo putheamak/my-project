@@ -63,6 +63,7 @@ No results, quotations or experiences in this book have been invented. Where a f
 - **Part Three: What Comes Next**
   - Chapter 12: What I Learned the Hard Way
   - Chapter 13: Your Turn
+- Notes
 - Glossary
 - About the Author
 - A Request to the Reader

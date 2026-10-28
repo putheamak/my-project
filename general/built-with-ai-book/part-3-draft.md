@@ -44,7 +44,7 @@ That habit underpins everything else in this book. **Let AI do the work, but nev
 
 ### Insecurity in the age of AI
 
-One saying has travelled widely in recent years: "Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."¹ It comes from a 2016 novel by the American writer G. Michael Hopf, and it echoes a far older observation by the fourteenth-century historian Ibn Khaldun, who described how dynasties weakened over generations as hardship gave way to comfort. Historians rightly caution that real history is more complex than any four-line cycle. Yet the warning at its heart deserves attention, and I would express it this way: hard times create strong people, and comfortable times can make us careless.
+One saying has travelled widely in recent years: "Hard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times."[]{#ref-12-1}^[1](#note-12-1)^ It comes from a 2016 novel by the American writer G. Michael Hopf, and it echoes a far older observation by the fourteenth-century historian Ibn Khaldun, who described how dynasties weakened over generations as hardship gave way to comfort. Historians rightly caution that real history is more complex than any four-line cycle. Yet the warning at its heart deserves attention, and I would express it this way: hard times create strong people, and comfortable times can make us careless.
 
 The more comfortable we become, the weaker our foundations may grow. And AI is, above all, a technology of comfort.
 
@@ -54,11 +54,11 @@ AI will make possible many things that once seemed impossible; it already allows
 
 **Convenience is our default.** Human nature rarely chooses the difficult path when an easier one is available. When a tool offers to remember everything, upload everything and connect everything, most of us accept without reading the conditions. In this sense, AI and cybersecurity pull in opposite directions: one rewards us for sharing more, the other protects us by sharing less.
 
-**The rules are still being written, bloc by bloc.** As AI spreads, governments and regional blocs are drafting new laws to govern it, and they are not drafting the same rules. The European Union has adopted its AI Act, the first comprehensive law of its kind. The United States, China and others are following their own, different paths, and in Southeast Asia the ASEAN member states have agreed a shared guide to AI governance and ethics.⁴ For small businesses and ordinary users in countries such as Cambodia, this means that the rules protecting our data may depend on where a service is based rather than where we live. What is permitted today may not be tomorrow, and much of what happens to our data takes place far beyond our view.
+**The rules are still being written, bloc by bloc.** As AI spreads, governments and regional blocs are drafting new laws to govern it, and they are not drafting the same rules. The European Union has adopted its AI Act, the first comprehensive law of its kind. The United States, China and others are following their own, different paths, and in Southeast Asia the ASEAN member states have agreed a shared guide to AI governance and ethics.[]{#ref-12-2}^[2](#note-12-2)^ For small businesses and ordinary users in countries such as Cambodia, this means that the rules protecting our data may depend on where a service is based rather than where we live. What is permitted today may not be tomorrow, and much of what happens to our data takes place far beyond our view.
 
 None of this is a reason to avoid AI. It is a reason to **keep learning**, so that our knowledge grows as quickly as our tools. The people most at risk are not those who use AI, but those who use it without understanding what they are giving away.
 
-Fortunately, learning has never been more accessible. Several AI companies and educational organisations offer free, beginner-friendly courses that explain how AI works and how to use it responsibly:²
+Fortunately, learning has never been more accessible. Several AI companies and educational organisations offer free, beginner-friendly courses that explain how AI works and how to use it responsibly:[]{#ref-12-3}^[3](#note-12-3)^
 
 - **Anthropic Academy** (from the makers of Claude): free courses including *AI Fluency: Framework & Foundations* and *Claude 101*
 - **OpenAI Academy** (from the makers of ChatGPT): free online lessons and events on using AI effectively
@@ -106,7 +106,7 @@ Yet here, too, there is a boundary. Some communities rightly reject text written
 
 ### Begin with a single step
 
-The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."³ Every project in this book began in exactly that way: with one problem, described in plain words, on an ordinary day.
+The Chinese philosopher Laozi wrote that "a journey of a thousand miles begins with a single step."[]{#ref-13-1}^[1](#note-13-1)^ Every project in this book began in exactly that way: with one problem, described in plain words, on an ordinary day.
 
 You do not need a grand plan, a technical team or a large budget. You need one real problem, a few hours each day and the willingness to learn from your mistakes. The plan that follows will help you take that first step within a single week.
 
@@ -165,6 +165,81 @@ I still cannot answer that question for the world. I can, however, answer it for
 That is all I hope this book has given you: not a promise of easy income, but the confidence to begin, the habits to remain safe and honest, and the knowledge that anyone with a real problem and a clear explanation can build far more than they ever imagined.
 
 The rest of the journey is yours.
+
+---
+
+## Notes
+
+*Notes are grouped by chapter. Tap a note number in the text to come here, and tap ↩ to go back.*
+
+### Chapter 1: The Job That Taught Me What I Didn't Know
+
+1. []{#note-1-1}Jeremy Grantham, interviewed on *The Diary of a CEO* with Steven Bartlett. The passage paraphrases his long-standing argument about career risk. [↩](#ref-1-1)
+2. []{#note-1-2}John Maynard Keynes, *The General Theory of Employment, Interest and Money* (1936), Chapter 12. The line "the market can stay irrational longer than you can stay solvent" is widely credited to Keynes, but there is no record that he wrote it. [↩](#ref-1-2)
+3. []{#note-1-3}Coverage of the same episode, in which Grantham describes the AI boom in US stocks as a possible bubble: https://finance.biggo.com/news/5bdcf0d461f27ac7 [↩](#ref-1-3)
+
+### Chapter 2: A Warning from Inside the Labs
+
+1. []{#note-2-1}Jacob Coxon, post on X, 8 September 2026: https://x.com/hilbertspaess/status/2097476196791709843 [↩](#ref-2-1)
+2. []{#note-2-2}Deadline, "A.I. Researcher Jacob Coxon Resigns, Warns Industry 'Gambling With Our Lives'": https://deadline.com/2026/09/anthropic-jacob-coxon-resignation-artificial-intelligence-1237072134/ · TIME, 15 September 2026: https://time.com/article/2026/09/15/ai-anthropic-researcher-quits-coxon-slowdown/ · PBS NewsHour: https://www.pbs.org/newshour/science/anthropic-researchers-resignation-sends-warning-about-the-dangers-of-ai-development [↩](#ref-2-2)
+3. []{#note-2-3}Kristalina Georgieva, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity", IMF Blog, 14 January 2024, and the IMF Staff Discussion Note *Gen-AI: Artificial Intelligence and the Future of Work* (SDN/2024/001): https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity [↩](#ref-2-3)
+4. []{#note-2-4}World Economic Forum, *The Future of Jobs Report 2025* (January 2025), based on a survey of more than 1,000 employers. These are employers' expectations, not measurements: https://www.weforum.org/publications/the-future-of-jobs-report-2025/ [↩](#ref-2-4)
+5. []{#note-2-5}Stanford Institute for Human-Centered AI, *AI Index Report 2026* (April 2026): https://hai.stanford.edu/ai-index [↩](#ref-2-5)
+6. []{#note-2-6}Katja Grace et al., "Thousands of AI Authors on the Future of AI", *Journal of Artificial Intelligence Research* (2025); survey of 2,778 researchers carried out in October 2023. The estimates assume that science continues without major disruption: https://jair.org/index.php/jair/article/view/19087 [↩](#ref-2-6)
+
+### Chapter 3: The New Divide
+
+1. []{#note-3-1}International Telecommunication Union (ITU), *Facts and Figures 2025*, 17 November 2025: https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx [↩](#ref-3-1)
+2. []{#note-3-2}DataReportal, *Digital 2026: Cambodia*. DataReportal notes that its methods and sources change from year to year, so figures are not always comparable: https://datareportal.com/reports/digital-2026-cambodia [↩](#ref-3-2)
+3. []{#note-3-3}Microsoft AI Economy Institute, "The continued state of global AI diffusion in 2026", 21 September 2026 (28.8% in the Global North and 16.2% in the Global South, working-age population): https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/ · Country figures for the UAE and Singapore from Microsoft's earlier 2026 diffusion report. [↩](#ref-3-3)
+4. []{#note-3-4}Stanford HAI, *AI Index Report 2026* (see note 8), chapter on the economy. [↩](#ref-3-4)
+5. []{#note-3-5}UNCTAD, *Technology and Innovation Report 2025: Inclusive Artificial Intelligence for Development* (April 2025): https://unctad.org/press-material/ais-48-trillion-future-un-trade-and-development-alerts-divides-urges-action [↩](#ref-3-5)
+6. []{#note-3-6}Vili Lehdonvirta, Zoe Jay Hawkins and Boxi Wu, University of Oxford (2025), study of the global distribution of AI compute, as reported by TechRepublic: https://www.techrepublic.com/article/news-only-32-countries-host-data-centers-2025/ [↩](#ref-3-6)
+7. []{#note-3-7}Oxford Insights, *Government AI Readiness Index 2025*, as announced in Cambodia: https://opendevelopmentcambodia.net/announcements/press-release-cambodias-progress-in-the-government-ai-readiness-index/ [↩](#ref-3-7)
+8. []{#note-3-8}See, for example, the authors of *PrahokBART*, a Khmer language model, who note that English training data is far more plentiful than Khmer: https://arxiv.org/abs/2512.13552 [↩](#ref-3-8)
+9. []{#note-3-9}Ministry of Post and Telecommunications, *Draft National Artificial Intelligence Strategy 2025–2030* (version 5, for consultation), June 2025, published by Open Development Cambodia: https://data.opendevelopmentcambodia.net/en/dataset/5524b0b4-bb31-4cad-abf4-a36f8e82073d/resource/a35e29b9-3dbf-4a5d-92a9-4d3558ed3c03/download/nais-v5-en-for-consultation-clean.pdf . Quotations are from pages 3, 7 and 12. At the time of writing I could not confirm whether the final version has been adopted. [↩](#ref-3-9)
+10. []{#note-3-10}Kristalina Georgieva, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity", IMF Blog, 14 January 2024, and the IMF Staff Discussion Note *Gen-AI: Artificial Intelligence and the Future of Work* (SDN/2024/001): https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity [↩](#ref-3-10)
+11. []{#note-3-11}Ministry of Commerce export figures for 2025, as reported by Vietstock, January 2026: https://en.vietstock.vn/2026/01/cambodia8217s-garment-and-footwear-exports-surge-to-155-billion-in-2025-52000-628379.htm · Share of exports, worker numbers and share of women from ILO / Better Work Cambodia research: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Assessing-the-impact-of-tariff-uncertainty/995691973002676 . The Ministry of Labour gives a lower figure of about 900,000 workers. [↩](#ref-3-11)
+12. []{#note-3-12}International Labour Organization, *ASEAN in Transformation: How Technology Is Changing Jobs and Enterprises* (2016). A projection, not a measurement. [↩](#ref-3-12)
+13. []{#note-3-13}ILO and NASK, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (May 2025): 4.7% of women and 2.4% of men worldwide work in jobs with the highest exposure: https://news.un.org/en/story/2025/05/1163486 [↩](#ref-3-13)
+14. []{#note-3-14}Al-Monitor, July 2026: https://app.al-monitor.com/originals/2026/07/analysis-yemen-teeters-towards-renewed-war-shadow-iran-conflict · Oman Observer, 25 July 2026: https://www.omanobserver.om/article/1193424/oman/fighting-spreads-on-a-new-middle-east-front [↩](#ref-3-14)
+15. []{#note-3-15}Examples include GiveDirectly's long-term basic income study in Kenya, Finland's national basic income experiment (2017–2018), and city pilots in the United States such as Stockton, California. [↩](#ref-3-15)
+
+### Chapter 6: How to Talk to AI So It Builds What You Need
+
+1. []{#note-6-1}Widely attributed to Charles F. Kettering (1876–1958), American inventor and head of research at General Motors; no original source has been confirmed, and the line is sometimes also attributed to the philosopher John Dewey. See, for example, https://wist.info/kettering-charles/31082/ [↩](#ref-6-1)
+
+### Chapter 7: Your First Small Win
+
+1. []{#note-7-1}Warren Buffett, speaking to Salomon Brothers staff and in testimony to the US Congress, 1991. The wording varies slightly between sources. [↩](#ref-7-1)
+
+### Chapter 8: Project One — A Telegram Booking App for My Delivery Business
+
+1. []{#note-8-1}Steve Jobs, question-and-answer session with developers at Apple's Worldwide Developers Conference, San Jose, 16 May 1997, when he was serving as an adviser to Apple. See TIME, https://techland.time.com/?p=135666, and Kottke, "Focus means saying no", https://also.kottke.org/15/10/focus-means-saying-no [↩](#ref-8-1)
+
+### Chapter 9: Project Two — A Blog That Drafts Itself, and the Truth About "Passive Income"
+
+1. []{#note-9-1}Google Search Central, "Our latest update to the quality rater guidelines: E-A-T gets an extra E for Experience", December 2022; and Google's guidance on creating helpful, reliable, people-first content. [↩](#ref-9-1)
+2. []{#note-9-2}Jeff Bezos, "1997 Letter to Shareholders", Amazon.com, Inc., section headed "It's All About the Long Term". [↩](#ref-9-2)
+
+### Chapter 10: Project Three — Video Ads Without a Video Editor
+
+1. []{#note-10-1}David Ogilvy, *Confessions of an Advertising Man* (1963). [↩](#ref-10-1)
+
+### Chapter 11: Project Four — The Ebook Machine, and the Story of This Book
+
+1. []{#note-11-1}Martin Luther King Jr., "I've Been to the Mountaintop", Mason Temple, Memphis, Tennessee, 3 April 1968. The full sentence reads: "But I know, somehow, that only when it is dark enough can you see the stars." [↩](#ref-11-1)
+2. []{#note-11-2}William Zinsser, *On Writing Well* (first published 1976). [↩](#ref-11-2)
+
+### Chapter 12: What I Learned the Hard Way
+
+1. []{#note-12-1}G. Michael Hopf, *Those Who Remain* (2016). Ibn Khaldun described a similar cycle in the *Muqaddimah* (1377). [↩](#ref-12-1)
+2. []{#note-12-2}The EU Artificial Intelligence Act (Regulation (EU) 2024/1689) entered into force on 1 August 2024. The ASEAN Guide on AI Governance and Ethics was endorsed by ASEAN digital ministers in February 2024. [↩](#ref-12-2)
+3. []{#note-12-3}Course names and availability as of October 2026; check each provider's website for the current offer, for example anthropic.skilljar.com and academy.openai.com. [↩](#ref-12-3)
+
+### Chapter 13: Your Turn
+
+1. []{#note-13-1}Laozi, *Tao Te Ching*, chapter 64. The line is commonly translated as "A journey of a thousand miles begins with a single step"; a more literal rendering is "A journey of a thousand li starts beneath one's feet." [↩](#ref-13-1)
 
 ---
 
@@ -272,11 +347,4 @@ If it helped you, even in a small way, I would be grateful if you could leave an
 
 I would also love to hear what you build. You can reach me at putheamak@gmail.com.
 
----
 
-## Notes
-
-1. G. Michael Hopf, *Those Who Remain* (2016). Ibn Khaldun described a similar cycle in the *Muqaddimah* (1377).
-2. Course names and availability as of October 2026; check each provider's website for the current offer, for example anthropic.skilljar.com and academy.openai.com.
-3. Laozi, *Tao Te Ching*, chapter 64. The line is commonly translated as "A journey of a thousand miles begins with a single step"; a more literal rendering is "A journey of a thousand li starts beneath one's feet."
-4. The EU Artificial Intelligence Act (Regulation (EU) 2024/1689) entered into force on 1 August 2024. The ASEAN Guide on AI Governance and Ethics was endorsed by ASEAN digital ministers in February 2024.

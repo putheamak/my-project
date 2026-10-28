@@ -14,6 +14,8 @@ OWNER CHECKLIST (delete this block before publishing) — draft v3, 20 Oct 2026
    come from news coverage of the report; confirm them in the report itself (hai.stanford.edu/ai-index).
 7. CHECK: the Oxford data-centre study (note 15) is cited through TechRepublic; the original report is better.
 8. Microsoft's AI-use figures are updated every few months; refresh note 12 just before publishing.
+10. 28 Oct 2026: Ch 3 "What our own draft strategy admits" added from the owner's PDF (draft NAIS v5, June 2025).
+    CHECK: has the final strategy been adopted since? If yes, update the section and note 18.
 9. v4.1, 28 Oct 2026: Chapters 2 and 3 polished (flow, precision, consistent dates and style). No facts changed
    except the WEF line now also gives the net gain (78 million), from the same report.
 -->
@@ -50,7 +52,7 @@ From that seat, I learned something no textbook had taught me: in many companies
 
 In my experience, a small circle of people close to the top held great influence. Decisions changed so often that many staff could not keep up. New employees seemed to be judged less on their work than on whose side they were on, and those who did not fit in found it very hard to stay.
 
-Months later, I heard an interview that put words to what I had lived through. The veteran investor **Jeremy Grantham**, co-founder of the investment firm GMO, appeared on Steven Bartlett's podcast *The Diary of a CEO*. For decades, Grantham has spoken about what he calls *career risk*. His argument, as I understood it, goes like this: large organisations almost never catch the big turning points, because the people inside them cannot afford the career risk involved. In a big institution, the most valuable political skill is simple: **never be wrong on your own.** You can be wrong together with everyone else; you can all jump off the cliff together, and nobody loses their job, because the blame is shared. But if you make a bold call alone and it fails, you will receive very little mercy.¹
+Months later, I heard an interview that put words to what I had lived through. The veteran investor **Jeremy Grantham**, co-founder of the investment firm GMO, appeared on Steven Bartlett's podcast *The Diary of a CEO*. For decades, Grantham has spoken about what he calls *career risk*. His argument, as I understood it, goes like this: large organisations almost never catch the big turning points, because the people inside them cannot afford the career risk involved. In a big institution, the most valuable political skill is simple: **never be wrong on your own.** You can be wrong together with everyone else; you can all jump off the cliff together, and nobody loses their job, because the blame is shared. But if you make a bold call alone and it fails, you will receive very little mercy.[]{#ref-1-1}^[1](#note-1-1)^
 
 I have thought about this idea many times since. There are two very different ways to be wrong:
 
@@ -59,7 +61,7 @@ I have thought about this idea many times since. There are two very different wa
 
 The rational political strategy, then, is to stay with the herd. If things go badly, the group protects you.
 
-None of this is new. Almost a century ago, the economist John Maynard Keynes wrote that "worldly wisdom teaches that it is better for reputation to fail conventionally than to succeed unconventionally."²
+None of this is new. Almost a century ago, the economist John Maynard Keynes wrote that "worldly wisdom teaches that it is better for reputation to fail conventionally than to succeed unconventionally."[]{#ref-1-2}^[2](#note-1-2)^
 
 The result, where I worked, was an environment in which neither newcomers nor experienced staff could settle. I was one of them. Gradually, I accepted that if nothing changed, I would never give the company the results I knew I was capable of.
 
@@ -73,7 +75,7 @@ These findings did not come from a model on a computer. They came straight from 
 
 This is where "never be wrong alone" becomes dangerous. Catching a turning point, whether a new technology, a shift in the market, or an unpopular decision that later proves right, almost always requires someone to break from the consensus *before* the answer is obvious, while they can still be proven wrong on their own. A political organisation punishes exactly that behaviour. So capable, careful people avoid the independent bet, the organisation stays locked inside its old assumptions, and it misses the turn. Not because nobody can see the truth, but because saying it out loud is personally dangerous.
 
-The same logic explains why bubbles last so long, inside companies and across entire markets. While the excitement grows, joining in is the safe career move: if it bursts, everyone was wrong together. Warning against it early is lonely. You look foolish while it keeps growing, and you may be pushed aside long before you are proven right. It is no coincidence that Grantham, a man who built his reputation by calling bubbles early, used that same interview to warn that today's excitement around AI stocks may itself be a bubble.³ There is a famous line, often credited to Keynes, that captures the danger: "the market can stay irrational longer than you can stay solvent."²
+The same logic explains why bubbles last so long, inside companies and across entire markets. While the excitement grows, joining in is the safe career move: if it bursts, everyone was wrong together. Warning against it early is lonely. You look foolish while it keeps growing, and you may be pushed aside long before you are proven right. It is no coincidence that Grantham, a man who built his reputation by calling bubbles early, used that same interview to warn that today's excitement around AI stocks may itself be a bubble.[]{#ref-1-3}^[3](#note-1-3)^ There is a famous line, often credited to Keynes, that captures the danger: "the market can stay irrational longer than you can stay solvent."^[2](#note-1-2)^
 
 In one sentence: **big organisations miss turning points not because nobody sees the truth, but because the people inside them are rewarded for agreeing and punished for being right alone.**
 
@@ -103,9 +105,9 @@ Less than three weeks after I left my job, on **8 September 2026**, a 27-year-ol
 
 He explained his decision in a post on X:
 
-> "Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives."⁴
+> "Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives."[]{#ref-2-1}^[1](#note-2-1)^
 
-Within a day, the post had reportedly been viewed more than 76 million times. In an interview with the *Wall Street Journal* the same day, Coxon warned that, under the most aggressive scenarios, events could be "out of control" by the end of 2027. TIME, PBS and many other outlets picked up the story, and almost overnight the world was talking about AI risk again.⁵ The conversation has not stopped since.
+Within a day, the post had reportedly been viewed more than 76 million times. In an interview with the *Wall Street Journal* the same day, Coxon warned that, under the most aggressive scenarios, events could be "out of control" by the end of 2027. TIME, PBS and many other outlets picked up the story, and almost overnight the world was talking about AI risk again.[]{#ref-2-2}^[2](#note-2-2)^ The conversation has not stopped since.
 
 I read the news on my phone here in Phnom Penh, in the middle of building the tools described in this book. It left me with a question I still ask myself every day:
 
@@ -117,11 +119,11 @@ No one knows the future, but we no longer have to guess blindly. Researchers, in
 
 **Until around 2030: AI becomes part of everyday work.** AI assistants already write, translate, analyse data and answer customers. AI *agents* go a step further: they **carry out tasks** on their own, such as building software, filling in forms and running simple operations. The numbers show how far this reaches:
 
-- The **International Monetary Fund (IMF)** estimates that almost **40% of jobs worldwide** are exposed to AI, rising to about **60% in advanced economies**.⁶
-- In the **World Economic Forum's** 2025 survey of more than 1,000 large employers, companies expected changes affecting **22% of today's jobs** by 2030, driven by technology, including AI, but also by the green transition, ageing populations and the economy: about **170 million new jobs** created and **92 million** lost, a net gain of 78 million. They also expected **39% of the core skills** workers rely on today to change.⁷
-- The money is moving just as fast. According to Stanford University's *AI Index 2026*, companies worldwide invested about **$582 billion** in AI in 2025, an increase of **130%** in a single year.⁸
+- The **International Monetary Fund (IMF)** estimates that almost **40% of jobs worldwide** are exposed to AI, rising to about **60% in advanced economies**.[]{#ref-2-3}^[3](#note-2-3)^
+- In the **World Economic Forum's** 2025 survey of more than 1,000 large employers, companies expected changes affecting **22% of today's jobs** by 2030, driven by technology, including AI, but also by the green transition, ageing populations and the economy: about **170 million new jobs** created and **92 million** lost, a net gain of 78 million. They also expected **39% of the core skills** workers rely on today to change.[]{#ref-2-4}^[4](#note-2-4)^
+- The money is moving just as fast. According to Stanford University's *AI Index 2026*, companies worldwide invested about **$582 billion** in AI in 2025, an increase of **130%** in a single year.[]{#ref-2-5}^[5](#note-2-5)^
 
-**After around 2030: possibly superintelligence.** Some of the people closest to the technology believe AI may become more capable than humans in almost every field, and perhaps able to improve itself. Others think this is far away, or may never happen. In a large survey carried out in late 2023, **2,778 AI researchers** put the chance that machines could outperform humans at every task at **10% by 2027** and **50% by 2047**. That 2047 estimate was **13 years earlier** than the answer the same researchers' survey had given in 2022.⁹
+**After around 2030: possibly superintelligence.** Some of the people closest to the technology believe AI may become more capable than humans in almost every field, and perhaps able to improve itself. Others think this is far away, or may never happen. In a large survey carried out in late 2023, **2,778 AI researchers** put the chance that machines could outperform humans at every task at **10% by 2027** and **50% by 2047**. That 2047 estimate was **13 years earlier** than the answer the same researchers' survey had given in 2022.[]{#ref-2-6}^[6](#note-2-6)^
 
 Serious experts disagree about *when*. Yet two things stand out: the change will be **large**, and the expected dates keep moving **closer**.
 
@@ -163,25 +165,38 @@ In the past, the "digital divide" described who had internet access and who did 
 
 ### The real gap, in numbers
 
-**1. Getting online.** About **2.2 billion people** are still offline, and **96%** of them live in low- and middle-income countries. Even among those who are online, the gap persists: a user in a high-income country consumes about **eight times** as much mobile data as a user in a low-income country, and basic mobile broadband remains unaffordable in about **60%** of low- and middle-income countries.¹⁰ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still leaves roughly **one Cambodian in three** offline.¹¹ Without the internet, there is no AI.
+**1. Getting online.** About **2.2 billion people** are still offline, and **96%** of them live in low- and middle-income countries. Even among those who are online, the gap persists: a user in a high-income country consumes about **eight times** as much mobile data as a user in a low-income country, and basic mobile broadband remains unaffordable in about **60%** of low- and middle-income countries.[]{#ref-3-1}^[1](#note-3-1)^ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still leaves roughly **one Cambodian in three** offline.[]{#ref-3-2}^[2](#note-3-2)^ Without the internet, there is no AI.
 
-**2. Using AI.** Microsoft tracks the share of working-age people who use generative AI tools. By mid-2026, the figure stood at about **29% in the Global North** but only **16% in the Global South**, and the gap is **widening, not narrowing**.¹² Yet the leaders are not simply the richest Western nations: in the United Arab Emirates about **seven in ten**, and in Singapore more than **six in ten**, working-age people already use AI. Countries that invest deliberately in skills can move fast.
+**2. Using AI.** Microsoft tracks the share of working-age people who use generative AI tools. By mid-2026, the figure stood at about **29% in the Global North** but only **16% in the Global South**, and the gap is **widening, not narrowing**.[]{#ref-3-3}^[3](#note-3-3)^ Yet the leaders are not simply the richest Western nations: in the United Arab Emirates about **seven in ten**, and in Singapore more than **six in ten**, working-age people already use AI. Countries that invest deliberately in skills can move fast.
 
-**3. Money.** In 2025, private investors put about **$286 billion** into AI in the United States alone, roughly **23 times** as much as in China, the world's second-largest AI power, although these private figures miss much of China's state-directed spending.¹³ The United Nations' trade and development body, UNCTAD, found that just **100 companies**, mostly in the United States and China, account for **40%** of all company spending on research and development worldwide, in every field, not only AI.¹⁴ The money that shapes AI is spent in very few places.
+**3. Money.** In 2025, private investors put about **$286 billion** into AI in the United States alone, roughly **23 times** as much as in China, the world's second-largest AI power, although these private figures miss much of China's state-directed spending.[]{#ref-3-4}^[4](#note-3-4)^ The United Nations' trade and development body, UNCTAD, found that just **100 companies**, mostly in the United States and China, account for **40%** of all company spending on research and development worldwide, in every field, not only AI.[]{#ref-3-5}^[5](#note-3-5)^ The money that shapes AI is spent in very few places.
 
-**4. Machines.** Modern AI runs in huge data centres filled with specialised chips. A 2025 University of Oxford study found that only **32 countries** host the large cloud data centres that rent out advanced AI chips, while more than **150 countries** have none. Most are operated by American and Chinese companies.¹⁵ A country without them must rent computing power from abroad, at foreign prices and under foreign laws.
+**4. Machines.** Modern AI runs in huge data centres filled with specialised chips. A 2025 University of Oxford study found that only **32 countries** host the large cloud data centres that rent out advanced AI chips, while more than **150 countries** have none. Most are operated by American and Chinese companies.[]{#ref-3-6}^[6](#note-3-6)^ A country without them must rent computing power from abroad, at foreign prices and under foreign laws.
 
-**5. Rules.** UNCTAD also found that **118 countries**, mostly in the Global South, are absent from the major international discussions on how AI should be governed, and fewer than **one in three** developing countries has a national AI strategy.¹⁴ The rules for perhaps the most powerful technology in history are being written largely without us. There is encouraging news, too: in the Government AI Readiness Index, Cambodia climbed from **145th** in 2024 to **118th** of 195 countries in 2025.¹⁶ We are moving forward, but from far behind.
+**5. Rules.** UNCTAD also found that **118 countries**, mostly in the Global South, are absent from the major international discussions on how AI should be governed, and fewer than **one in three** developing countries has a national AI strategy.^[5](#note-3-5)^ The rules for perhaps the most powerful technology in history are being written largely without us. There is encouraging news, too: in the Government AI Readiness Index, Cambodia climbed from **145th** in 2024 to **118th** of 195 countries in 2025.[]{#ref-3-7}^[7](#note-3-7)^ We are moving forward, but from far behind.
 
-**6. Language.** AI learns from text on the internet, and much of that text is in English. Khmer is what researchers call a **low-resource language**: far less Khmer text is available, so AI tools generally understand and write Khmer less well than English.¹⁷ For a farmer or market seller who reads only Khmer, the best AI tools remain much harder to use.
+**6. Language.** AI learns from text on the internet, and much of that text is in English. Khmer is what researchers call a **low-resource language**: far less Khmer text is available, so AI tools generally understand and write Khmer less well than English.[]{#ref-3-8}^[8](#note-3-8)^ For a farmer or market seller who reads only Khmer, the best AI tools remain much harder to use.
 
 Put together, these figures tell a clear story. The new divide is not a single gap but **six gaps stacked on top of one another**: access, use, money, machines, rules and language.
 
+### What our own draft strategy admits
+
+In June 2025, the Ministry of Post and Telecommunications published a draft **National Artificial Intelligence Strategy 2025–2030** and asked the public for comments.[]{#ref-3-9}^[9](#note-3-9)^ I read all of it. I was really surprised how honest it is. It is a good plan, but in its own words it shows how far we still have to go:
+
+- **We are at an early stage.** An assessment done with UNESCO, answered by 26 ministries and institutions, found that data, computing power and skilled people are "still limited". AI use is "still nascent" in government, in business and among citizens.
+- **Khmer data is missing.** The strategy says plainly that Cambodia "lacks language data" for AI in Khmer. The government has started collecting data to build a Khmer large language model.
+- **The laws are not ready.** There is no comprehensive AI law. The laws on personal data protection and cybersecurity were still drafts.
+- **The risks are not measured.** No thorough assessment of AI risks has been done yet, only "anecdotal cases" of AI used for fraud.
+- **The jobs question is still open.** A study on how AI will affect the labour market is planned for 2026. In the meantime, the same strategy lists AI robots for "assembly, packaging, and inspection" as an opportunity for our factories. These are the tasks many of our garment workers do today.
+- **The scale is small.** The target is to train **1,000** technical AI talents by 2027, in a country of about 18 million people. And the draft does not say how much money will be spent.
+
+These are not my criticisms. They are the government's own findings, and saying them openly is a good first step. But a plan on paper is only a start. What matters is whether it reaches the factory worker, the market seller and the student in the provinces, and how fast.
+
 ### The paradox: less exposed today, more at risk tomorrow
 
-One finding surprised me. The IMF estimates that about **60% of jobs in advanced economies** are exposed to AI, but only about **40% in emerging economies** and **26% in low-income countries**.⁶ At first glance, this sounds like good news for poorer countries: fewer of our jobs stand in AI's path.
+One finding surprised me. The IMF estimates that about **60% of jobs in advanced economies** are exposed to AI, but only about **40% in emerging economies** and **26% in low-income countries**.[]{#ref-3-10}^[10](#note-3-10)^ At first glance, this sounds like good news for poorer countries: fewer of our jobs stand in AI's path.
 
-The IMF itself warned of the other side. Poorer countries also **lack the infrastructure and skilled workforce to benefit from AI**, so over time AI is likely to **worsen inequality between countries**.⁶ Rich countries will use AI to become more productive and to lower their costs. If we stand still, our main advantage, lower wages, loses value every year.
+The IMF itself warned of the other side. Poorer countries also **lack the infrastructure and skilled workforce to benefit from AI**, so over time AI is likely to **worsen inequality between countries**.^[10](#note-3-10)^ Rich countries will use AI to become more productive and to lower their costs. If we stand still, our main advantage, lower wages, loses value every year.
 
 I have seen a small version of this with my own eyes, inside a large company where I once worked. Several software systems had been bought and set up, but they were never connected. Data was collected in one place, cleaned in another and reported in a third, with people copying it between systems by hand. Now imagine the same company with just one or two people skilled in AI, linking those systems so that data flows from the field to the dashboard on its own. The work would be faster, cheaper and more accurate.
 
@@ -191,11 +206,11 @@ That experience shaped a belief I hold firmly:
 
 ### Cambodia's ladder
 
-For Cambodia, the most serious risk lies in **garment and manufacturing jobs**. In 2025, exports of garments, footwear and travel goods reached about **$15.5 billion**, roughly **half of everything the country sells abroad**. The sector employs more than **one million workers**, and about **three in four of them are women**.¹⁸
+For Cambodia, the most serious risk lies in **garment and manufacturing jobs**. In 2025, exports of garments, footwear and travel goods reached about **$15.5 billion**, roughly **half of everything the country sells abroad**. The sector employs more than **one million workers**, and about **three in four of them are women**.[]{#ref-3-11}^[11](#note-3-11)^
 
-These jobs have been the ladder that lifted many families out of poverty. Many workers send part of their wages home to parents and children in the provinces. Yet this ladder is fragile. In 2016, the International Labour Organization estimated that **88%** of Cambodia's salaried garment and footwear workers were in jobs at **high risk of automation**, one of the highest rates in Southeast Asia.¹⁹ That estimate is now ten years old, and so far the sector has kept growing. But the direction has not changed, and AI and robotics have only grown more capable since.
+These jobs have been the ladder that lifted many families out of poverty. Many workers send part of their wages home to parents and children in the provinces. Yet this ladder is fragile. In 2016, the International Labour Organization estimated that **88%** of Cambodia's salaried garment and footwear workers were in jobs at **high risk of automation**, one of the highest rates in Southeast Asia.[]{#ref-3-12}^[12](#note-3-12)^ That estimate is now ten years old, and so far the sector has kept growing. But the direction has not changed, and AI and robotics have only grown more capable since.
 
-Office jobs face a different kind of exposure. A 2025 ILO study found that women worldwide are nearly **twice as likely** as men to work in the jobs most exposed to generative AI (4.7% of women's jobs, against 2.4% of men's), largely because so many women work in clerical and administrative roles.²⁰ In Cambodia, the same families could be hit twice: daughters in the factory, and daughters in the office.
+Office jobs face a different kind of exposure. A 2025 ILO study found that women worldwide are nearly **twice as likely** as men to work in the jobs most exposed to generative AI (4.7% of women's jobs, against 2.4% of men's), largely because so many women work in clerical and administrative roles.[]{#ref-3-13}^[13](#note-3-13)^ In Cambodia, the same families could be hit twice: daughters in the factory, and daughters in the office.
 
 If robots and AI make manufacturing cheap again in rich countries, or in a handful of highly automated ones, poorer countries could lose that ladder. Cambodia needs a Plan B: stronger agricultural value chains, tourism, logistics, digital services, and many more small local businesses.
 
@@ -218,11 +233,11 @@ No one knows the exact timing, but we can think through both possibilities.
 - **That time is only valuable if we use it**: to bring the internet into every home, AI training into every school and university, to build good Khmer-language AI tools, and to set clear rules that protect people.
 - **The danger is comfort.** A slow change feels like no change at all. If we wait, the gap still grows every year, only more quietly, and when the big change finally comes we will be no better prepared than we are today.
 
-Either way, the lesson is the same: **the later we start, the wider the gap we will have to close.**
+Either way, the lesson is the same: the later we start, the wider the gap we will have to close.
 
 ### A world already under pressure
 
-All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, fighting between the Houthis and Saudi Arabia resumed in July 2026, followed by attacks on Saudi territory and on shipping.²¹
+All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, fighting between the Houthis and Saudi Arabia resumed in July 2026, followed by attacks on Saudi territory and on shipping.[]{#ref-3-14}^[14](#note-3-14)^
 
 Wars, energy prices and the race for AI are now deeply connected. Major powers see AI as a question of national strength and security. For small countries like mine, this means the rules of the future may well be written by others.
 
@@ -230,7 +245,7 @@ Wars, energy prices and the race for AI are now deeply connected. Major powers s
 
 This is the hardest question of all, and no one has a proven answer; the world has never faced anything like it. Economists and governments are, however, already discussing possible responses. Here are the main ideas, and how I believe they apply to a country like Cambodia.
 
-**1. Share the wealth AI creates.** If AI and robots make economies far more productive, there will be more wealth overall; the real question is who receives it. Governments could tax AI and large technology companies, whether on profits, on computing power or through a "robot tax", and use the revenue for their citizens. Another option is a **universal basic income**: a regular payment to every citizen, enough to cover basic needs. It has been tested in Kenya, Finland and the United States, with mixed but often encouraging results.²² A third option is a **national AI fund**, in which the country owns a share of automation's profits and uses them for its people. Norway built one of the world's largest national funds from its oil wealth, and the US state of Alaska pays every resident a yearly dividend from its own oil fund.
+**1. Share the wealth AI creates.** If AI and robots make economies far more productive, there will be more wealth overall; the real question is who receives it. Governments could tax AI and large technology companies, whether on profits, on computing power or through a "robot tax", and use the revenue for their citizens. Another option is a **universal basic income**: a regular payment to every citizen, enough to cover basic needs. It has been tested in Kenya, Finland and the United States, with mixed but often encouraging results.[]{#ref-3-15}^[15](#note-3-15)^ A third option is a **national AI fund**, in which the country owns a share of automation's profits and uses them for its people. Norway built one of the world's largest national funds from its oil wealth, and the US state of Alaska pays every resident a yearly dividend from its own oil fund.
 
 **2. Redefine what "work" means.** Shorter working weeks would share the remaining work among more people. Societies could begin paying for work that markets undervalue, such as caring for children, the elderly and the sick, teaching, environmental restoration and community service. Public works programmes, including roads, irrigation, flood defences, tree planting and solar installations, would suit Cambodia particularly well, given our climate risks.
 
@@ -289,33 +304,8 @@ The fourth project is the one you are reading: a step-by-step way to **research,
 
 None of these projects required me to become a programmer. Each began with a **problem I could describe in plain words**. Each was built in conversation with an AI agent: I explained, it built, I tested, it fixed. And each one taught me where AI is brilliant, and where it makes mistakes that only a human will catch.
 
-That, I believe, is the skill everyone will need in the years ahead, in Cambodia and everywhere else. It is not about knowing how to code. It is about **knowing how to work with AI**.
+That, I believe, is the skill everyone will need in the years ahead, in Cambodia and everywhere else. It is not about knowing how to code. It is about knowing how to work with AI.
 
 In Part Two, I will show you the tools I use, what they cost, how to talk to AI so that it builds what you actually need, and then each project, step by step.
 
----
 
-## Notes
-
-1. Jeremy Grantham, interviewed on *The Diary of a CEO* with Steven Bartlett. The passage paraphrases his long-standing argument about career risk.
-2. John Maynard Keynes, *The General Theory of Employment, Interest and Money* (1936), Chapter 12. The line "the market can stay irrational longer than you can stay solvent" is widely credited to Keynes, but there is no record that he wrote it.
-3. Coverage of the same episode, in which Grantham describes the AI boom in US stocks as a possible bubble: https://finance.biggo.com/news/5bdcf0d461f27ac7
-4. Jacob Coxon, post on X, 8 September 2026: https://x.com/hilbertspaess/status/2097476196791709843
-5. Deadline, "A.I. Researcher Jacob Coxon Resigns, Warns Industry 'Gambling With Our Lives'": https://deadline.com/2026/09/anthropic-jacob-coxon-resignation-artificial-intelligence-1237072134/ · TIME, 15 September 2026: https://time.com/article/2026/09/15/ai-anthropic-researcher-quits-coxon-slowdown/ · PBS NewsHour: https://www.pbs.org/newshour/science/anthropic-researchers-resignation-sends-warning-about-the-dangers-of-ai-development
-6. Kristalina Georgieva, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity", IMF Blog, 14 January 2024, and the IMF Staff Discussion Note *Gen-AI: Artificial Intelligence and the Future of Work* (SDN/2024/001): https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity
-7. World Economic Forum, *The Future of Jobs Report 2025* (January 2025), based on a survey of more than 1,000 employers. These are employers' expectations, not measurements: https://www.weforum.org/publications/the-future-of-jobs-report-2025/
-8. Stanford Institute for Human-Centered AI, *AI Index Report 2026* (April 2026): https://hai.stanford.edu/ai-index
-9. Katja Grace et al., "Thousands of AI Authors on the Future of AI", *Journal of Artificial Intelligence Research* (2025); survey of 2,778 researchers carried out in October 2023. The estimates assume that science continues without major disruption: https://jair.org/index.php/jair/article/view/19087
-10. International Telecommunication Union (ITU), *Facts and Figures 2025*, 17 November 2025: https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx
-11. DataReportal, *Digital 2026: Cambodia*. DataReportal notes that its methods and sources change from year to year, so figures are not always comparable: https://datareportal.com/reports/digital-2026-cambodia
-12. Microsoft AI Economy Institute, "The continued state of global AI diffusion in 2026", 21 September 2026 (28.8% in the Global North and 16.2% in the Global South, working-age population): https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/ · Country figures for the UAE and Singapore from Microsoft's earlier 2026 diffusion report.
-13. Stanford HAI, *AI Index Report 2026* (see note 8), chapter on the economy.
-14. UNCTAD, *Technology and Innovation Report 2025: Inclusive Artificial Intelligence for Development* (April 2025): https://unctad.org/press-material/ais-48-trillion-future-un-trade-and-development-alerts-divides-urges-action
-15. Vili Lehdonvirta, Zoe Jay Hawkins and Boxi Wu, University of Oxford (2025), study of the global distribution of AI compute, as reported by TechRepublic: https://www.techrepublic.com/article/news-only-32-countries-host-data-centers-2025/
-16. Oxford Insights, *Government AI Readiness Index 2025*, as announced in Cambodia: https://opendevelopmentcambodia.net/announcements/press-release-cambodias-progress-in-the-government-ai-readiness-index/
-17. See, for example, the authors of *PrahokBART*, a Khmer language model, who note that English training data is far more plentiful than Khmer: https://arxiv.org/abs/2512.13552
-18. Ministry of Commerce export figures for 2025, as reported by Vietstock, January 2026: https://en.vietstock.vn/2026/01/cambodia8217s-garment-and-footwear-exports-surge-to-155-billion-in-2025-52000-628379.htm · Share of exports, worker numbers and share of women from ILO / Better Work Cambodia research: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Assessing-the-impact-of-tariff-uncertainty/995691973002676 . The Ministry of Labour gives a lower figure of about 900,000 workers.
-19. International Labour Organization, *ASEAN in Transformation: How Technology Is Changing Jobs and Enterprises* (2016). A projection, not a measurement.
-20. ILO and NASK, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (May 2025): 4.7% of women and 2.4% of men worldwide work in jobs with the highest exposure: https://news.un.org/en/story/2025/05/1163486
-21. Al-Monitor, July 2026: https://app.al-monitor.com/originals/2026/07/analysis-yemen-teeters-towards-renewed-war-shadow-iran-conflict · Oman Observer, 25 July 2026: https://www.omanobserver.om/article/1193424/oman/fighting-spreads-on-a-new-middle-east-front
-22. Examples include GiveDirectly's long-term basic income study in Kenya, Finland's national basic income experiment (2017–2018), and city pilots in the United States such as Stockton, California.
