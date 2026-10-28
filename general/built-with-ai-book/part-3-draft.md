@@ -228,15 +228,21 @@ Plain-language explanations of the technical terms used in this book.
 
 **Reels.** Short vertical videos on Facebook and Instagram, similar to TikTok videos.
 
+**Repository (repo).** A project folder stored on GitHub, together with the history of every change.
+
 **Render.** To produce a finished image or video from a design. My video factory renders each scene frame by frame.
 
 **SEO (search engine optimisation).** Ways of writing and organising web pages so that search engines such as Google can find and rank them.
+
+**Secret.** A password or key, such as a bot token or API key, stored in a protected place on GitHub or Cloudflare so a project can use it without anyone being able to read it.
 
 **Server.** A computer that is always switched on and connected to the internet, running an app or a website.
 
 **SPSS.** Software widely used for statistical analysis in research.
 
 **Superintelligence.** A possible future AI that is more capable than humans in almost every field.
+
+**Terminal.** A text window for typing commands to a computer. Programmers use it often; beginners can start with Claude Code in a web browser instead.
 
 **Test data.** Invented data in the same format as real data, used to build or test a tool without exposing anyone's private information.
 

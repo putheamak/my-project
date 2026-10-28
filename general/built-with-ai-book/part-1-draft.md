@@ -265,7 +265,7 @@ My answer was neither to be afraid nor to wait. It was to **learn by doing**: to
 
 After leaving my job, I did not want only to read about AI. I wanted to **use** it, to build something real, in a real business, with my own money and time at stake. I set myself one rule: **every project must solve a real problem; none can be a mere experiment.**
 
-Here are the four projects, and why each one exists. In Part Two, you will learn how to build your own version of each.
+Here are the four projects, and why each one exists. In Part Two, you will see how each was built, with starter prompts to build your own.
 
 ### 1. A booking app for my delivery business
 

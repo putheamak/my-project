@@ -88,6 +88,28 @@ Free plans have limits, and that is fair. If my projects succeed, some costs wil
 
 My rule is simple: **pay for growth only after the free version has proved itself.**
 
+### Getting set up
+
+The projects in Part Two were built with **Claude Code**, not the ordinary Claude chat. If you have never used it, these few pages will save you a lot of confusion. The menus and names may have changed slightly by the time you read this; the ideas will not.
+
+**Where Claude Code runs.** There are three common ways to open it:
+
+- **In a web browser** (claude.ai/code). This is how I built most of my projects. Nothing needs to be installed on your computer: Claude Code works on a computer in the cloud, connected to your project files on GitHub.
+- **In the Claude desktop app**, for Windows or Mac.
+- **In a terminal**, the black text window programmers use. This gives the most control, but it is not where a beginner needs to start.
+
+If you are new, start in the browser. Sign in with your Claude Pro account and connect your GitHub account when it asks.
+
+**What a repository is.** A **repository** (or "repo") is simply a project folder stored on GitHub, together with the full history of every change. Each of my projects lives in one. You can create an empty repository on GitHub in a minute, then tell Claude Code to work in it. You do not need to understand the files inside; you need to know that everything is saved, and that any change can be undone.
+
+**Let the AI install what it needs.** My projects needed tools I had never heard of: **Node.js** to run JavaScript programs, **ffmpeg** to join video frames together, and a **headless browser**, a web browser with no screen, to record my video ads. I did not install any of them myself. I asked Claude Code, *"Install whatever this project needs, and explain each step in one sentence."* In the browser version, it installs them on its own cloud computer. On your own computer, it will ask your permission before each command. Read the question, and say yes only when you understand what it is for.
+
+**Keep secrets out of the files.** Some projects need passwords, such as a Telegram **bot token** or a **Claude API key**. These must never be typed into a chat or saved in your project files. GitHub and Cloudflare each have a special place for them, called **secrets**, where your project can use them without anyone being able to read them. When a project needs one, ask Claude Code, *"Where exactly do I paste this secret, and what should I call it?"* and follow its steps yourself.
+
+**Build before you upload.** Some projects are written as several files and then **built**, or combined, into the final version with one command. My booking app, for example, is put together by a small build script before it goes online. If a Builder's Note says "upload the file", first ask Claude Code, *"Is there a build step before I upload?"*
+
+**When you get stuck,** copy the exact error message, paste it into Claude Code and ask, *"What does this mean, and what should I do next? I am a beginner."* That one sentence solved most of my problems.
+
 ### Everything you need to begin
 
 If you would like to follow the projects in this book, here is all you need:
@@ -392,7 +414,7 @@ What I can already say is this: a small business owner who is not a programmer d
 
 > **Builder's Notes: Build your own booking mini app**
 >
-> *For readers who want to build their own version. Feel free to skip this box.*
+> *For readers who want to build their own version. Feel free to skip this box. If you are a complete beginner, start by pasting this note into Claude Code and asking it to walk you through each step (see "Getting set up" in Chapter 5).*
 >
 > **Start with this message to Claude:**
 >
@@ -401,7 +423,7 @@ What I can already say is this: a small business owner who is not a programmer d
 > **The six setup steps to expect** (about twenty minutes):
 > 1. **Create the bot** with Telegram's official @BotFather account. It gives you a secret *token*; never paste it into any chat.
 > 2. **Create a staff group**, and add the bot and your staff.
-> 3. **Create a free Cloudflare Worker**, paste in the app's single file, and store the token and other secret values under Cloudflare's *Variables and Secrets*.
+> 3. **Create a free Cloudflare Worker**, ask Claude Code to run the build step that combines the app into a single file, paste in that file, and store the token and other secret values under Cloudflare's *Variables and Secrets*.
 > 4. **Connect the bot to the app** by opening the setup address from the guide, once, in your browser.
 > 5. **Find your group's ID.** In a group, a bot hears only commands addressed to it by name, so include the bot's username, for example `/chatid@YourBotName`.
 > 6. **Test it** by making a booking yourself.
@@ -544,7 +566,7 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 
 > **Builder's Notes: Build your own content engine**
 >
-> *For readers who want to build their own version. Feel free to skip this box.*
+> *For readers who want to build their own version. Feel free to skip this box. If you are a complete beginner, start by pasting this note into Claude Code and asking it to walk you through each step (see "Getting set up" in Chapter 5).*
 >
 > **Start with this message to Claude:**
 >
@@ -660,7 +682,7 @@ Those remain human tasks: understanding the customer, choosing one clear message
 
 > **Builder's Notes: Build your own video ad factory**
 >
-> *For readers who want to build their own version. Feel free to skip this box.*
+> *For readers who want to build their own version. Feel free to skip this box. If you are a complete beginner, start by pasting this note into Claude Code and asking it to walk you through each step (see "Getting set up" in Chapter 5).*
 >
 > **Start with this message to Claude:**
 >
