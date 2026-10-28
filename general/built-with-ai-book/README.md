@@ -42,7 +42,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
-- 28 Oct 2026: review fixes 6 and 8 + draft AI strategy:
+- 28 Oct 2026: review fixes 6 and 8 + draft AI strategy (Word + EPUB sent; owner will review later):
   - Voice pass on the Introduction and Part Two: simpler, shorter sentences; formal words removed (whereas, precisely, genuinely, a matter of, merely…); about two thirds of bold one-line lessons turned into plain sentences; "The principle:" labels gone from Part Two; owner phrases kept (I was really surprised, very small demand, the light ahead…).
   - Ch 3: new section "What our own draft strategy admits" from the draft National AI Strategy 2025–2030 (MPTC, June 2025, via Open Development Cambodia). Owner to check whether the final version has been adopted.
   - Notes: one "Notes" section before the Glossary, grouped by chapter, numbering restarts per chapter, note numbers are links (tap to the note, ↩ to go back; checked in the EPUB: 75 links, 0 broken). "Notes" added to Contents.
