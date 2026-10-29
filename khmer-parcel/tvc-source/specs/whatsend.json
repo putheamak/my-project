@@ -1,0 +1,2 @@
+{"html":"scenes_whatsend.html","out":"../khmer_parcel_whatsend.mp4","xfade":0.3,"audio":"whatsend_music.m4a",
+ "segments":[{"scene":"hook","dur":2.2,"next":"fade"},{"scene":"belt","dur":7.2,"next":"slideup"},{"scene":"sizes","dur":3.4,"next":"circleopen"},{"scene":"end","dur":3.8}]}
