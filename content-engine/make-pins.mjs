@@ -215,7 +215,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   });
   if (!files.length) continue;
   console.log(`${post.slug}: ${files.length} pins`);
-  cards.push({ post, pinTitle, pinDescription, files, link: `${baseUrl}/posts/${post.slug}/` });
+  cards.push({ post, pinTitle, pinDescription, files, link: `${baseUrl}/posts/${post.slug}/`, src, count, items });
 }
 
 // ---- Photos to upload ---------------------------------------------------------
@@ -247,10 +247,29 @@ const photoList = missingPhotos.length
 const queuePath = path.join(here, "pin-queue.json");
 const queue = fs.existsSync(queuePath) ? JSON.parse(fs.readFileSync(queuePath, "utf8")).queue ?? [] : [];
 const days = new Map();
+// Pinterest favours fresh images, so upcoming plan pins get their own image: the
+// plan title as the headline, on a photo that rotates through the post's cover
+// and section photos (images/<slug>-1.jpg, -2.jpg), unless the item sets "photo"
+// (0 = cover, 1, 2). Past days keep the post's standard design images.
+const renderFrom = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
+const photoTurn = new Map();
 for (const item of queue) {
   const c = cards.find((x) => x.post.slug === item.slug);
-  const file = c && `${item.slug}-${item.design}.jpg`;
-  if (!c || !c.files.includes(file)) {
+  let file = c && `${item.slug}-${item.design}.jpg`;
+  const turn = photoTurn.get(item.slug) ?? 0;
+  photoTurn.set(item.slug, turn + 1);
+  const design = [...designs, listDesign][item.design - 1];
+  if (c && design && item.date >= renderFrom) {
+    const photos = [c.src, ...[1, 2].map((n) => path.join(imagesDir, `${item.slug}-${n}.jpg`)).filter((f) => fs.existsSync(f))];
+    const photo = photos[item.photo ?? turn % photos.length] ?? photos[0];
+    const { headline, subline } = splitTitle(item.title);
+    const args = design({ src: photo, headline, subline, count: c.count, items: c.items });
+    const name = `${item.slug}-plan-${item.date}-${item.design}.jpg`;
+    const run = args && spawnSync(convert, [...args, "-strip", "-quality", "85", path.join(outDir, name)]);
+    if (run?.status === 0) file = name;
+    else if (run) console.warn(`pin ${name} failed: ${run.stderr.toString().trim().split("\n")[0]}`);
+  }
+  if (!c || !fs.existsSync(path.join(outDir, file))) {
     console.warn(`pin plan ${item.date}: skip ${item.slug} design ${item.design} (post or image not found)`);
     continue;
   }
