@@ -256,5 +256,16 @@
     "label": "Gift idea:",
     "product": "An egg patty maker makes it round, like the real thing",
     "cta": "Kitchen gifts for college students under $30:"
+  },
+  "hostess-gifts-under-30": {
+    "hook": "A cheese board in 10 minutes?",
+    "steps": [
+      "Pick 3 cheeses: soft, hard and strong",
+      "Add something crunchy and something sweet",
+      "Give each cheese its own knife"
+    ],
+    "label": "Gift idea:",
+    "product": "A cheese knife set the host can use that same night",
+    "cta": "Hostess gifts under $30 for the host who cooks:"
   }
 }
