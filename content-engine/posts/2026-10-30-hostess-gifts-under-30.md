@@ -9,7 +9,7 @@ pinDescription: "Hostess gifts under $30 for the person hosting holiday dinner. 
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-30"
 image: "images/hostess-gifts-under-30-cover.jpg"
-status: "draft"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -38,7 +38,7 @@ Step three is why a cheese knife set makes such a good hostess gift: it gets use
 
 ### What can the host use at the table that night?
 
-![Hostess gift idea for a holiday dinner table](images/hostess-gifts-under-30-1.jpg)
+![Friends raising a toast at a dinner table outdoors](images/hostess-gifts-under-30-1.jpg)
 
 **Main pick:** the [Lunar 6-piece stainless steel cheese knife set](https://link.amazon/B068TsUT7). Different shapes are made for soft, hard and crumbly cheeses, and a set looks generous handed over with a cheese. Skip it if they rarely put out snacks before dinner.
 
@@ -48,7 +48,7 @@ Step three is why a cheese knife set makes such a good hostess gift: it gets use
 
 ### What do you give a host who cooks every day?
 
-![Gift for a host who loves to cook](images/hostess-gifts-under-30-2.jpg)
+![Wrapped gifts tied with a pink ribbon](images/hostess-gifts-under-30-2.jpg)
 
 **Main pick:** the [Totally Bamboo salt cellar with swivel lid](https://link.amazon/B0ddR1nxB). **New to many people:** a lot of home cooks still shake salt from the shaker. Many cooks keep salt in an open cellar by the stove instead, so they can grab a pinch with their fingers and feel how much they're adding. The swivel lid keeps it covered when it's not in use.
 
