@@ -144,8 +144,12 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
     : "";
   // GoatCounter: cookie-free visitor counts. Only the account code goes in site.json.
   const gc = /^[a-z0-9-]+$/.test(site.goatcounter || "") ? site.goatcounter : "";
+  // Visits from the time zones in site.goatcounterSkipTimeZones (the owner's own
+  // country) aren't counted, on every device and in-app browser, so the numbers
+  // show real readers; the #toggle-goatcounter link only covers one browser.
+  const skipZones = JSON.stringify(site.goatcounterSkipTimeZones ?? []);
   const analytics = gc
-    ? `<script data-goatcounter="https://${gc}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`
+    ? `<script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}if(${skipZones}.indexOf(z)>-1)return;var s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";s.setAttribute("data-goatcounter","https://${gc}.goatcounter.com/count");document.head.appendChild(s)})();</script>`
     : "";
   const ld = jsonLd.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
   return `<!doctype html>

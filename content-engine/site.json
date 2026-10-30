@@ -8,6 +8,9 @@
   "googleSiteVerification": "F8rD4m2zuoKXcBiFQYOp8khalplY2Q6RBkjxVqcx3sI",
   "pinterestVerification": "4d2599ae466d5fcf04d6fb39d1b34242",
   "goatcounter": "smartkitchenpicks",
+  "goatcounterSkipTimeZones": [
+    "Asia/Phnom_Penh"
+  ],
   "social": {
     "tiktok": "https://www.tiktok.com/@homepicksunder30",
     "youtube": "https://www.youtube.com/@homepicksunder30",
