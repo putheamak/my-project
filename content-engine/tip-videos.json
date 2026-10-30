@@ -267,5 +267,16 @@
     "label": "Gift idea:",
     "product": "A cheese knife set the host can use that same night",
     "cta": "Hostess gifts under $30 for the host who cooks:"
+  },
+  "emergency-kit-essentials-under-30": {
+    "hook": "Power out tonight. Are you ready?",
+    "steps": [
+      "Gather every flashlight and test the batteries",
+      "Fill and date a few jugs of water",
+      "Write key phone numbers on paper"
+    ],
+    "label": "Then add:",
+    "product": "A hand-crank radio for news when phones are down",
+    "cta": "Emergency kit essentials under $30:"
   }
 }
