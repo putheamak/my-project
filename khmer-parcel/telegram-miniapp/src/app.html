@@ -92,7 +92,7 @@ textarea{resize:vertical;min-height:44px}
 
 <section class="card">
   <h2><span class="n">២</span>កញ្ចប់ & អ្នកទទួល · Parcels</h2>
-  <div class="note" id="minNote" style="margin:-4px 0 4px;font-weight:600;color:var(--blue)">កក់ចាប់ពី៥កញ្ចប់ឡើង · Minimum 5 parcels per booking</div>
+  <div class="note" id="minNote" style="margin:-4px 0 4px;font-weight:600;color:var(--blue)">កក់ចាប់ពី៥កញ្ចប់ឡើង · Minimum 5 parcels per booking<br>តម្លៃ $0.75 (៣,០០០៛) / កញ្ចប់ · $0.75 per parcel</div>
   <div id="parcels"></div>
   <button class="ghost" type="button" id="addBtn">＋ បន្ថែមកញ្ចប់ · Add parcel</button>
 </section>
@@ -103,7 +103,7 @@ textarea{resize:vertical;min-height:44px}
     <button type="button" data-v="seller" class="on">អ្នកលក់បង់<small>Seller pays</small></button>
     <button type="button" data-v="customer">អតិថិជនបង់<small>Customer pays</small></button>
   </div>
-  <div class="sum" style="margin-top:12px"><span>សរុបថ្លៃដឹក · Total fee</span><b id="total">0៛</b></div>
+  <div class="sum" style="margin-top:12px"><span>សរុបថ្លៃដឹក · Total fee</span><b id="total">$0.00</b></div>
   <div class="note" id="sumNote">តម្លៃប៉ាន់ស្មាន · ការិយាល័យនឹងបញ្ជាក់ម្តងទៀត។ Estimate — the office confirms by Telegram.</div>
   <div class="err" id="err"></div>
 </section>
@@ -151,11 +151,12 @@ const KHANS=[["Daun Penh","ដូនពេញ"],["Prampi Makara","ប្រា�
 const KH_DIGITS='០១២៣៤៥៦៧៨៩';
 const kh=s=>String(s).replace(/\d/g,d=>KH_DIGITS[d]);
 const riel=n=>kh(n.toLocaleString('en-US'))+'៛';
+const fee=n=>'$'+(n/(cfg.rielPerUsd||4000)).toFixed(2)+' ('+riel(n)+')';
 const $=s=>document.querySelector(s);
 const tg=window.Telegram&&window.Telegram.WebApp;
 const inTelegram=!!(tg&&tg.initData);
 
-let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:true,used:0,minParcels:5,maxParcels:10};
+let cfg={normalPrice:3000,offerPrice:2000,offerCount:3,offerActive:false,rielPerUsd:4000,used:0,minParcels:5,maxParcels:10};
 let geo=null;
 
 function khanOptions(sel){
@@ -178,9 +179,9 @@ function addParcel(){
 function renumber(){
   const list=[...document.querySelectorAll('.parcel')];
   list.forEach((p,i)=>{p.querySelector('.t').textContent='កញ្ចប់ទី '+kh(i+1)+' · Parcel '+(i+1);
-    p.querySelector('.price').textContent=riel(priceFor(i));
+    p.querySelector('.price').textContent=fee(priceFor(i));
     p.querySelector('.rm').style.display=list.length>cfg.minParcels?'':'none'});
-  $('#total').textContent=riel(list.reduce((s,_,i)=>s+priceFor(i),0));
+  $('#total').textContent=fee(list.reduce((s,_,i)=>s+priceFor(i),0));
   $('#addBtn').style.display=list.length>=cfg.maxParcels?'none':'';
 }
 function ensureMinParcels(){while(document.querySelectorAll('.parcel').length<cfg.minParcels)addParcel();renumber()}
@@ -258,7 +259,7 @@ async function loadConfig(){
   const left=Math.max(0,cfg.offerCount-cfg.used);
   $('#offer').hidden=!(cfg.offerActive&&left>0);
   if(left>0&&left<cfg.offerCount)$('#offerText').textContent='នៅសល់ '+kh(left)+' កញ្ចប់ តម្លៃ '+riel(cfg.offerPrice)+' / កញ្ចប់';
-  $('#minNote').textContent='កក់ចាប់ពី'+kh(cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+cfg.minParcels+' parcels per booking';
+  $('#minNote').innerHTML='កក់ចាប់ពី'+kh(cfg.minParcels)+'កញ្ចប់ឡើង · Minimum '+cfg.minParcels+' parcels per booking<br>តម្លៃ '+fee(cfg.normalPrice)+' / កញ្ចប់ · '+fee(cfg.normalPrice).split(' ')[0]+' per parcel';
   ensureMinParcels();
 }
 

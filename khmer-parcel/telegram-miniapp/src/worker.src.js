@@ -11,14 +11,16 @@
 //   BOT_TOKEN       secret  token from @BotFather
 //   GROUP_CHAT_ID   secret  office group id (send /chatid in the group to get it)
 //   WEBHOOK_SECRET  secret  any long random text
-//   OFFER_END       text    optional, last day of the 2,000៛ offer, e.g. 2026-10-31
+//   OFFER_END       text    optional, overrides OFFER_END_DEFAULT (last day of the 2,000៛ offer), e.g. 2026-10-31
 //   KP              KV      optional namespace binding; enables the per-seller offer counter
 
 const APP_HTML = __APP_HTML__;
 
-const NORMAL_PRICE = 3000;
+const NORMAL_PRICE = 3000; // $0.75 per parcel from 1 Nov 2026 (owner decision)
+const RIEL_PER_USD = 4000;
 const OFFER_PRICE = 2000;
 const OFFER_COUNT = 3; // a seller's first 3 parcels (per Telegram account) cost OFFER_PRICE
+const OFFER_END_DEFAULT = "2026-10-31"; // the offer ends at midnight Phnom Penh time on this day
 const MIN_PARCELS = 5; // online sellers book at least 5 parcels per pick-up (owner decision, Oct 2026)
 const MAX_PARCELS = 10;
 const INIT_DATA_MAX_AGE_S = 24 * 3600;
@@ -55,7 +57,7 @@ async function handleConfig(request, env) {
   const body = await request.json().catch(() => ({}));
   const user = await verifyInitData(body.initData, env.BOT_TOKEN);
   const used = user ? await getUsed(env, user.id) : 0;
-  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerCount: OFFER_COUNT, offerActive: offerActive(env), used, minParcels: MIN_PARCELS, maxParcels: MAX_PARCELS });
+  return json({ normalPrice: NORMAL_PRICE, offerPrice: OFFER_PRICE, offerCount: OFFER_COUNT, offerActive: offerActive(env), rielPerUsd: RIEL_PER_USD, used, minParcels: MIN_PARCELS, maxParcels: MAX_PARCELS });
 }
 
 async function handleBook(request, env) {
@@ -87,7 +89,7 @@ async function handleBook(request, env) {
   // Best effort: the seller only receives this if they have started the bot.
   await tg(env, "sendMessage", {
     chat_id: user.id,
-    text: `✅ បានទទួលការកក់ <b>${id}</b>\n${b.parcels.length} កញ្ចប់ · ថ្លៃដឹក ${fmtRiel(total)}\nការិយាល័យនឹងទាក់ទងបញ្ជាក់ឆាប់ៗ។\nBooking received — we'll confirm shortly.`,
+    text: `✅ បានទទួលការកក់ <b>${id}</b>\n${b.parcels.length} កញ្ចប់ · ថ្លៃដឹក ${fmtFee(total)}\nការិយាល័យនឹងទាក់ទងបញ្ជាក់ឆាប់ៗ។\nBooking received — we'll confirm shortly.`,
     parse_mode: "HTML",
   });
   return json({ ok: true, id, total, prices });
@@ -108,7 +110,7 @@ async function handleBot(request, env) {
   } else if (cmd === "/start" && msg.chat.type === "private") {
     await tg(env, "sendMessage", {
       chat_id: msg.chat.id,
-      text: "សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n📦 កក់ចាប់ពី៥កញ្ចប់ឡើង\n🎁 ៣ កញ្ចប់ដំបូង ត្រឹម ២,០០០៛ / កញ្ចប់ (បន្ទាប់ ៣,០០០៛)\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇",
+      text: startText(env),
       reply_markup: { inline_keyboard: [[{ text: "📦 កក់ឥឡូវ · Book now", web_app: { url: appUrl } }]] },
     });
   }
@@ -216,17 +218,22 @@ export function groupMessage(id, user, b, prices, total) {
   ];
   b.parcels.forEach((p, i) => {
     const cod = p.cod ? ` · COD ${p.currency === "USD" ? "$" + p.cod : fmtRiel(p.cod)}` : "";
-    lines.push(`<b>${i + 1}.</b> ${e(p.name || "អ្នកទទួល")} · ${e(p.phone)}\n    ${KHAN_KM[p.khan]} — ${e(p.address)}\n    ${SIZE_KM[p.size]}${cod} · ថ្លៃដឹក ${fmtRiel(prices[i])}`);
+    lines.push(`<b>${i + 1}.</b> ${e(p.name || "អ្នកទទួល")} · ${e(p.phone)}\n    ${KHAN_KM[p.khan]} — ${e(p.address)}\n    ${SIZE_KM[p.size]}${cod} · ថ្លៃដឹក ${fmtFee(prices[i])}`);
   });
-  lines.push("", `💰 សរុបថ្លៃដឹក: <b>${fmtRiel(total)}</b> · ${b.feePaidBy === "customer" ? "អតិថិជនបង់" : "អ្នកលក់បង់"}`);
+  lines.push("", `💰 សរុបថ្លៃដឹក: <b>${fmtFee(total)}</b> · ${b.feePaidBy === "customer" ? "អតិថិជនបង់" : "អ្នកលក់បង់"}`);
   if (prices.some((p) => p === OFFER_PRICE)) lines.push("🎁 តម្លៃពិសេស ៣ កញ្ចប់ដំបូង");
   return lines.join("\n");
 }
 
 function offerActive(env) {
-  if (!env.OFFER_END) return true;
-  const end = Date.parse(env.OFFER_END + "T23:59:59+07:00");
-  return Number.isNaN(end) ? true : Date.now() <= end;
+  const end = Date.parse((env.OFFER_END || OFFER_END_DEFAULT) + "T23:59:59+07:00");
+  return Number.isNaN(end) ? false : Date.now() <= end;
+}
+export function startText(env) {
+  const price = offerActive(env)
+    ? "🎁 ៣ កញ្ចប់ដំបូង ត្រឹម ២,០០០៛ / កញ្ចប់ (បន្ទាប់ ៣,០០០៛)"
+    : "💵 តម្លៃ $0.75 (៣,០០០៛) / កញ្ចប់ · $0.75 per parcel";
+  return `សួស្តី! 👋 ខ្មែរផាសែល — កក់ដឹកឥវ៉ាន់សម្រាប់អ្នកលក់អនឡាញ។\n📦 កក់ចាប់ពី៥កញ្ចប់ឡើង\n${price}\n\nចុចប៊ូតុងខាងក្រោមដើម្បីកក់ 👇`;
 }
 async function getUsed(env, userId) {
   if (!env.KP) return 0;
@@ -241,6 +248,7 @@ function bookingId() {
   return "KP" + Date.now().toString(36).slice(-4).toUpperCase() + toHex(rnd).toUpperCase().slice(0, 4);
 }
 const fmtRiel = (n) => `${Math.round(n).toLocaleString("en-US")}៛`;
+const fmtFee = (n) => `$${(n / RIEL_PER_USD).toFixed(2)} (${fmtRiel(n)})`;
 const escapeHtml = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 async function tg(env, method, payload) {

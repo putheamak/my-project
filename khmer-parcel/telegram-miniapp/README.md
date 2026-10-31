@@ -38,7 +38,7 @@ and the booking is posted to your **office Telegram group**. The seller gets a b
    | `BOT_TOKEN` | Secret | the token from BotFather |
    | `WEBHOOK_SECRET` | Secret | 30+ characters using only letters, numbers, `-` and `_` (no spaces), e.g. `kp_2026_x8Jq...` |
    | `GROUP_CHAT_ID` | Secret | fill in at step 5 |
-   | `OFFER_END` | Text | optional, last day of the offer, e.g. `2026-10-31` |
+   | `OFFER_END` | Text | optional — the code already ends the offer after `2026-10-31`; set only to change that date |
 5. **Offer counter (recommended):** **Storage & Databases → KV → Create** a namespace `khmer-parcel`. Then in the Worker: **Settings → Bindings → Add → KV namespace**, variable name **`KP`**, pick `khmer-parcel`. Without this, everyone always sees the 2,000៛ price until `OFFER_END`.
 
 ### 4. Connect the bot
@@ -61,6 +61,7 @@ You should see `"webhook":true,"menuButton":true`.
 - In the bot's **BotFather → /mybots → Bot Settings → Configure Mini App**, you can also set the Worker address as the main Mini App, so it opens from the bot's profile.
 
 ## Changing things
+- **From 1 Nov 2026: $0.75 (3,000៛) per parcel**, the 2,000៛ offer ends 31 Oct 23:59 Phnom Penh time (`OFFER_END_DEFAULT`). Fees show as "$0.75 (៣,០០០៛)" (1$ = 4,000៛, `RIEL_PER_USD`).
 - Prices / offer size / parcels per booking: top of `src/worker.src.js` (`NORMAL_PRICE`, `OFFER_PRICE`, `OFFER_COUNT` = 3 parcels, `MIN_PARCELS` = 5, `MAX_PARCELS` = 10). The app reads them from the server; the server refuses bookings below the minimum.
 - Text on the screen: `src/app.html`.
 - After editing: `node build.mjs`, then paste `dist/worker.js` into Cloudflare again.

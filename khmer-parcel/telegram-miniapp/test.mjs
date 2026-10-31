@@ -23,7 +23,7 @@ function makeInitData(user, authDate = Math.floor(Date.now() / 1000)) {
 
 const kv = new Map();
 const env = {
-  BOT_TOKEN, GROUP_CHAT_ID: "-1001", WEBHOOK_SECRET: "s3cret",
+  BOT_TOKEN, GROUP_CHAT_ID: "-1001", WEBHOOK_SECRET: "s3cret", OFFER_END: "2099-12-31",
   KP: { get: async (k) => kv.get(k) ?? null, put: async (k, v) => kv.set(k, v) },
 };
 const user = { id: 42, first_name: "Srey", username: "srey_shop" };
@@ -78,6 +78,23 @@ assert.equal(cfg.used, 10);
 // offer ended
 r = await (await worker.fetch(new Request("https://kp.example.workers.dev/api/book", { method: "POST", body: JSON.stringify({ initData: makeInitData({ id: 7, first_name: "N" }), booking: booking(5) }) }), { ...env, OFFER_END: "2020-01-01" })).json();
 assert.deepEqual(r.prices, [3000, 3000, 3000, 3000, 3000], "no offer after OFFER_END");
+
+// built-in end: offer runs through 31 Oct 2026 (Phnom Penh time), $0.75 = 3,000៛ from 1 Nov
+const { startText } = await import("./dist/worker.js");
+const realNow = Date.now;
+const noEnd = { ...env, OFFER_END: undefined };
+const bookAt = async (iso, id) => {
+  Date.now = () => Date.parse(iso);
+  const out = await (await worker.fetch(new Request("https://kp.example.workers.dev/api/book", { method: "POST", body: JSON.stringify({ initData: makeInitData({ id, first_name: "N" }), booking: booking(5) }) }), noEnd)).json();
+  Date.now = realNow;
+  return out;
+};
+assert.deepEqual((await bookAt("2026-10-31T23:00:00+07:00", 8)).prices, [2000, 2000, 2000, 3000, 3000], "offer still on 31 Oct");
+assert.deepEqual((await bookAt("2026-11-01T00:01:00+07:00", 9)).prices, [3000, 3000, 3000, 3000, 3000], "offer over on 1 Nov");
+Date.now = () => Date.parse("2026-11-01T08:00:00+07:00");
+assert.match(startText(noEnd), /\$0\.75/, "/start shows $0.75 after the offer");
+assert.doesNotMatch(startText(noEnd), /២,០០០៛/);
+Date.now = realNow;
 
 // validation
 assert.ok(sanitize(booking(5)), "5 parcels valid");
