@@ -43,6 +43,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: Ch 9 box and text updated to 31 Oct from the blog notes on main (27 posts, 117 products, 58 visits in 12 days, Google 52 impressions/0 clicks, Pinterest 3.42k views/1 click, 2 Amazon clicks). All boxes dated 31 Oct. Waiting for the owner: app bookings, sellers using the app, Khmer Parcel videos posted, hours (Ch 11 and 12), Amazon sales to 31 Oct, and the "30 to 60 seconds" meaning (Ch 12).
 - 28 Oct 2026: the first EPUB failed in Kindle Previewer (E24010/E24001: Contents links not resolved — duplicate title heading and leftover checklists). Fixed with `build-ebook.sh`; new EPUB has 23 Contents entries, one file per chapter, 0 broken links. Owner to re-test in Kindle Previewer.
 - 28 Oct 2026: same simple voice applied to Part One (Ch 1–4), Part Three (Ch 12–13) and the AI-use statement in the front matter. Facts and quotes unchanged.
 - 28 Oct 2026: review fixes 6 and 8 + draft AI strategy (Word + EPUB sent; owner will review later):

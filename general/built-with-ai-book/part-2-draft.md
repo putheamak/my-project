@@ -9,7 +9,7 @@ OWNER CHECKLIST (delete before publishing) — Part Two draft v18, 25 Oct 2026
    (2,546 views, 57 clicks, 0 bookings) — OK to publish these real numbers? (c) your quoted chat messages.
 4. Chapter 6: engineer = "he"; "expert" replaced. Chapter 8: voice-message double work and the habit-change
    challenge added; "first ninety days" section removed for now (add results in a later edition).
-5. Chapter 9 (blog): numbers are as of mid-October 2026 (19 posts, 75 products, almost no outside visitors,
+5. Chapter 9 (blog): box updated to 31 Oct 2026 from the blog notes (27 posts, 117 products, 58 visits in 12 days; earlier: 19 posts, 75 products, almost no outside visitors,
    0 sales). Update them from the tracker before publishing, and confirm you are happy to publish them.
    Also confirm: gift-card payments, Pinterest ads not available, Reddit rule, deadline 30 Mar 2027.
 6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter, Google E-E-A-T 2022.
@@ -402,7 +402,7 @@ The booking app has only just launched. Its real test is still ahead. Real custo
 
 What I can already say is this: a small business owner who is not a programmer described a daily problem in plain words, and within days had a working, secure and free tool that addresses it. Whether sellers embrace it is now a question of trust and habit, the oldest questions in business, and ones no AI can answer on our behalf.
 
-> **Where things stand: 28 October 2026**
+> **Where things stand: 31 October 2026**
 >
 > - **Live since:** October 2026. The first test booking reached our office Telegram group.
 > - **Bookings received through the app:** ⭐ [number]
@@ -467,7 +467,7 @@ It selects a topic guided by the calendar: Halloween snacks in October, Thanksgi
 
 Once a post has been approved, the system goes further still. It builds the web page, compresses the photographs so that the site loads quickly on a phone, designs three different Pinterest images, and produces a short vertical video ready for TikTok, YouTube Shorts and Pinterest.
 
-By mid-October 2026, the blog had **19 published posts** featuring **75 products**. Doing all that by hand would have taken me weeks. The engine did most of it in the background.
+By the end of October 2026, the blog had **27 published posts** and **117 products** in its list. Doing all that by hand would have taken me weeks. The engine did most of it in the background.
 
 That part of the promise is true: AI can produce content faster than any one person. But, as I was about to learn, producing content was never the hard part.
 
@@ -525,7 +525,9 @@ The lesson: publish when your reader starts searching, not when the holiday arri
 
 This is the part the videos about passive income never show.
 
-By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were largely my own, until I set the visitor counter to ignore my connection. Amazon's dashboard recorded a few dozen clicks on product links in the first month, many of them my own tests. **The number of sales was zero.** The box at the end of this chapter has the latest numbers.
+By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were mostly my own, until I set the visitor counter to ignore my connection. Amazon's dashboard recorded a few dozen clicks on product links in the first month, many of them my own tests. **The number of sales was zero.**
+
+In late October, the first real readers started to arrive: 58 visits in twelve days, the first ones from Google and Pinterest, and 2 clicks through to Amazon. It is very small. But for the first time, strangers were finding the blog. The box at the end of this chapter has the numbers.
 
 The project also hit problems that no AI could solve, because they had nothing to do with technology.
 
@@ -553,12 +555,14 @@ In his first letter to Amazon's shareholders, in 1997, Jeff Bezos placed one ide
 
 I will keep the engine running, keep publishing honestly, and keep recording the numbers every Monday. If the first sales arrive, I will explain how they came. If they do not, I will say so, together with everything I learned along the way.
 
-> **Where things stand: 28 October 2026**
+> **Where things stand: 31 October 2026**
 >
-> - **Posts published:** 19 (26 September to 16 October 2026), featuring 75 products
-> - **Visitors:** 22 visits in the week of 5–12 October, most of them my own; real outside traffic was close to zero. ⭐ [latest weekly visits]
-> - **Clicks to Amazon:** 69 in the 30 days to 16 October, about 50 of them my own link tests
-> - **Sales:** 0. Amazon needs 3 qualifying sales by 30 March 2027, or the account closes.
+> - **Posts published:** 27 (26 September to 30 October 2026); 117 products in the list
+> - **Visitors:** 58 real visits in the 12 days to 26 October, the first ones from Google and Pinterest (in early October it was close to zero)
+> - **Google:** the blog appeared 52 times in search results, with 0 clicks
+> - **Pinterest:** pins were seen 3,420 times, with 1 click to the blog
+> - **Clicks to Amazon:** 2 from real readers (12 days to 26 October). Amazon's own count of 69 clicks by 16 October was mostly my link tests.
+> - **Sales:** ⭐ [0? confirm from the Amazon dashboard]. Amazon needs 3 qualifying sales by 30 March 2027, or the account closes.
 > - **Income so far:** $0
 
 
@@ -669,7 +673,7 @@ The video factory gives a one-person business something that once needed a team:
 
 Those remain human tasks: understanding the customer, choosing one clear message, respecting the viewer's time and learning from every number. The machine makes the videos. The thinking remains ours.
 
-> **Where things stand: 28 October 2026**
+> **Where things stand: 31 October 2026**
 >
 > - **Paid ad test (30 September – 1 October, $5 a day):** 2,546 views, 57 clicks, **0 bookings**, 4 rider applicants
 > - **Videos made:** 5 (a launch ad, the 6,000-riel ad, a seller-story ad, a big-screen reel and an AI-era vision video), several in two or three versions
@@ -781,7 +785,7 @@ As I write this, the book is not finished yet. Still ahead: a full edit, updated
 
 Whether the book will sell, I can't say yet. But it has already done something the advertisement on my phone never promised: it has turned a few weeks of real experience into something that may help others to begin.
 
-> **Where things stand: 28 October 2026**
+> **Where things stand: 31 October 2026**
 >
 > - **Writing started:** 18 October 2026
 > - **Draft:** 13 chapters, about 26,000 words, checked by two independent AI editorial reviews
