@@ -659,7 +659,7 @@ AI makes production fast. But only a person watching carefully can catch what th
 
 Social media rewards consistency, so I set a big goal: about one short ad every day. With the AI, I drew up a **thirty-day video calendar**, with a different idea for each day and each aimed at a single audience: a day in the life of an online seller, an explanation of how cash-on-delivery works, a light-hearted story about a rider searching for a house "near the pagoda", deliveries in the rainy season, packing tips for sellers, and a countdown to the end of our launch offer.
 
-The honest truth is that the calendar is ahead of me. A plan for thirty videos is easy to write. Making, checking and posting them while running a new business takes real time. So far, I have made two of the thirty.
+The honest truth is that a plan for thirty videos is easy to write. Making, checking and posting them while running a new business takes real time. By the end of October, I had posted 17 short videos on our Facebook page. Not one a day, but a steady start.
 
 ### A plan, not a promise
 
@@ -676,9 +676,8 @@ Those remain human tasks: understanding the customer, choosing one clear message
 > **Where things stand: 31 October 2026**
 >
 > - **Paid ad test (30 September – 1 October, $5 a day):** 2,546 views, 57 clicks, **0 bookings**, 4 rider applicants
-> - **Videos made:** 5 (a launch ad, the 6,000-riel ad, a seller-story ad, a big-screen reel and an AI-era vision video), several in two or three versions
-> - **30-day video calendar:** 2 of 30 done
-> - **Videos posted:** ⭐ [number]
+> - **Videos posted:** 17 Reels on our Facebook page by 31 October, plus 8 posters and QR-code images
+> - **Views:** most Reels reached between about 170 and 400 views; one reached about 2,600
 > - **Extra cost:** $0 beyond the tools in Chapter 5
 
 
