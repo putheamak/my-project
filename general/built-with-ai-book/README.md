@@ -43,6 +43,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: owner hours: almost 2 months after resigning, 4–8 h a day, on the four projects (Ch 11 box, Ch 12 "The real cost is time"). Time saved per week not measured yet (said so in the text). Ch 8 sellers line replaced with "online sellers only".
 - 1 Nov 2026: Facebook page screenshot: 17 Reels posted by 31 Oct (views about 167–404, one 2.6K) and 8 image posts; Ch 10 box and text updated (calendar count "2 of 30" removed).
 - 1 Nov 2026: Amazon Associates, October: 0 ordered, 0 shipped, $0, 120 clicks (spikes 2 Oct and 30 Oct), conversion 0% (Ch 9 box). Owner to confirm whether the 30 Oct spike was their own link tests.
 - 1 Nov 2026: owner: 32 bookings through the Telegram mini app in October (Ch 8 box). Still waiting: sellers using the app, Amazon sales, videos posted, hours, "30 to 60 seconds".

@@ -788,7 +788,7 @@ Whether the book will sell, I can't say yet. But it has already done something t
 >
 > - **Writing started:** 18 October 2026
 > - **Draft:** 13 chapters, about 26,000 words, checked by two independent AI editorial reviews
-> - **Hours spent so far:** ⭐ [from the weekly tracker]
+> - **Time spent:** part of the almost two months, 4 to 8 hours a day, that I gave to all four projects (see Chapter 12)
 > - **Planned launch:** mid-December 2026, at $4.99
 > - **Copies sold:** 0, as the book is not yet published
 

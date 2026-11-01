@@ -84,7 +84,7 @@ And some risks concern **honesty itself**: praising products I have not used, cl
 
 ### The real cost is time
 
-In Chapter 5, I showed that the tools behind all four projects cost about $31 a month. That number is true, but on its own it misleads. The real cost was **time**: hours of explaining problems, reviewing drafts, testing tools, fixing mistakes and learning how each system works. ⭐ [Add your real hours from the weekly tracker: time spent building, and time saved each week.]
+In Chapter 5, I showed that the tools behind all four projects cost about $31 a month. That number is true, but on its own it misleads. The real cost was **time**: hours of explaining problems, reviewing drafts, testing tools, fixing mistakes and learning how each system works. After I left my job, I spent almost two months on the four projects, usually 4 to 8 hours a day. That is several hundred hours, far more than the $31. I have not measured yet how much time the tools save me each week. That is a number I want to report honestly in the next edition.
 
 That time does not always pay back quickly. The booking app has only just launched, the blog has no sale yet, and most videos in the calendar are still to be made. But every hour also bought something that lasts: skills I did not have a few months ago, and tools that keep working long after I built them.
 
