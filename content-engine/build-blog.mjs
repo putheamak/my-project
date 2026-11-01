@@ -127,6 +127,9 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
+.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
+.reader-tips p{margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -239,6 +242,12 @@ ${others.length ? postItems(others, { short: true }) : ""}
 </section>`;
 }
 
+// Readers' own experience: an invitation under every post (site.json contactEmail).
+const contactEmail = /^[^\s@<>"]+@[^\s@<>"]+\.[a-z]{2,}$/i.test(site.contactEmail || "") ? site.contactEmail : "";
+const tipsInvite = contactEmail
+  ? `<aside class="reader-tips"><h2>Used one of these?</h2><p>Tell me what worked, what didn't, or share a kitchen tip of your own: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>. With your permission, I may share your tip on the blog (first name only, or "a reader").</p></aside>`
+  : "";
+
 // Home page shop (site.json "home"): most visitors type the domain from a video
 // and land here, so put the season's posts, a few picks with Amazon buttons and
 // the posts behind recent videos above the full list.
@@ -349,6 +358,7 @@ for (const post of posts) {
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
 ${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => inlinePhoto(src, post.slug) })}
+${tipsInvite}
 ${related(post)}
 </article>`,
     }),
@@ -415,7 +425,7 @@ if (topics.length) {
 const simple = (slug, title, description, html) =>
   write(`${slug}/index.html`, page({ title: `${title} - ${site.title}`, description, canonical: url(`${slug}/`), body: `<h1>${esc(title)}</h1>\n${html}` }));
 
-simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}`);
+simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}${contactEmail ? `\n<p>Questions, a product you'd like me to look at, or a tip from your own kitchen: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>.</p>` : ""}`);
 
 simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 <p><strong>${esc(disclosure)}</strong></p>
@@ -425,7 +435,7 @@ simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 simple("privacy", "Privacy policy", `Privacy policy for ${site.title}`, `
 <p>This site does not use its own cookies and does not collect personal information from visitors.</p>
 <p>When you click a link to Amazon or another retailer, that site may set cookies to track the referral, as described in its own privacy policy. As a participant in the Amazon Services LLC Associates Program, this site links to Amazon, and Amazon may collect information about your visit.</p>
-${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>
+${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>${contactEmail ? `\n<p>If you email me, I use your address only to reply. I never share it, and I only quote your tip on the blog if you say I may.</p>` : ""}
 <p>Questions? Contact ${esc(site.author)} through the channels listed on the About page.</p>`);
 
 write("404.html", page({ title: `Page not found - ${site.title}`, description: "Page not found", canonical: url(), body: `<h1>Page not found</h1><p><a href="${href()}">Go to the home page</a>.</p>` }));
