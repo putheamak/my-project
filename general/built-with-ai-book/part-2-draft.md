@@ -561,7 +561,7 @@ I will keep the engine running, keep publishing honestly, and keep recording the
 > - **Visitors:** 58 real visits in the 12 days to 26 October, the first ones from Google and Pinterest (in early October it was close to zero)
 > - **Google:** the blog appeared 52 times in search results, with 0 clicks
 > - **Pinterest:** pins were seen 3,420 times, with 1 click to the blog
-> - **Clicks to Amazon:** Amazon counted 120 in October. Most came on two days: about 50 on 2 October, which were my own link tests, and about 45 on 30 October ⭐ [my tests too? confirm]. My visitor counter saw only 2 clicks from real readers in the 12 days to 26 October.
+> - **Clicks to Amazon:** Amazon counted 120 in October. Most came on two days: about 50 on 2 October, which were my own link tests, and about 45 on 30 October, probably my own tests too, as two new posts went live that day. My visitor counter saw only 2 clicks from real readers in the 12 days to 26 October.
 > - **Sales:** 0 items ordered in October, conversion 0% (Amazon dashboard, 31 October). Amazon needs 3 qualifying sales by 30 March 2027, or the account closes.
 > - **Income so far:** $0
 
