@@ -30,7 +30,7 @@ From that seat, I learned something no textbook taught me: in many companies, **
 
 In my experience, a small circle of people close to the top held great influence. Decisions changed so often that many staff could not keep up. New employees seemed to be judged less on their work than on whose side they were on, and those who did not fit in found it very hard to stay.
 
-Months later, I heard an interview that explained what I had lived through. The veteran investor **Jeremy Grantham**, co-founder of the investment firm GMO, appeared on Steven Bartlett's podcast *The Diary of a CEO*. For decades, Grantham has spoken about what he calls *career risk*. His argument, as I understood it, goes like this: large organisations almost never catch the big turning points, because the people inside them cannot afford the career risk involved. In a big institution, the most valuable political skill is simple: **never be wrong on your own.** You can be wrong together with everyone else; you can all jump off the cliff together, and nobody loses their job, because the blame is shared. But if you make a bold call alone and it fails, you will receive very little mercy.[]{#ref-1-1}^[1](#note-1-1)^
+In 2026, I heard an interview that explained what I had been living through. The veteran investor **Jeremy Grantham**, co-founder of the investment firm GMO, appeared on Steven Bartlett's podcast *The Diary of a CEO*. For decades, Grantham has spoken about what he calls *career risk*. His argument, as I understood it, goes like this: large organisations almost never catch the big turning points, because the people inside them cannot afford the career risk involved. In a big institution, the most valuable political skill is simple: **never be wrong on your own.** You can be wrong together with everyone else; you can all jump off the cliff together, and nobody loses their job, because the blame is shared. But if you make a bold call alone and it fails, you will receive very little mercy.[]{#ref-1-1}^[1](#note-1-1)^
 
 I have thought about this idea many times since. There are two very different ways to be wrong:
 
@@ -143,7 +143,7 @@ In the past, the "digital divide" described who had internet access and who did 
 
 ### The real gap, in numbers
 
-**1. Getting online.** About **2.2 billion people** are still offline, and **96%** of them live in low- and middle-income countries. Even among people who are online, the gap is still there: a user in a high-income country consumes about **eight times** as much mobile data as a user in a low-income country, and basic mobile broadband remains unaffordable in about **60%** of low- and middle-income countries.[]{#ref-3-1}^[1](#note-3-1)^ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still leaves roughly **one Cambodian in three** offline.[]{#ref-3-2}^[2](#note-3-2)^ Without the internet, there is no AI.
+**1. Getting online.** About **2.2 billion people** are still offline, and almost all of them live in low- and middle-income countries. Even among people who are online, the gap is still there: a user in a high-income country consumes about **eight times** as much mobile data as a user in a low-income country, and basic mobile broadband remains unaffordable in about **60%** of low- and middle-income countries.[]{#ref-3-1}^[1](#note-3-1)^ In Cambodia, about **67%** of people were using the internet at the end of 2025. That is real progress, but it still leaves roughly **one Cambodian in three** offline.[]{#ref-3-2}^[2](#note-3-2)^ Without the internet, there is no AI.
 
 **2. Using AI.** Microsoft tracks the share of working-age people who use generative AI tools. By mid-2026, the figure stood at about **29% in the Global North** but only **16% in the Global South**, and the gap is **widening, not narrowing**.[]{#ref-3-3}^[3](#note-3-3)^ But the leaders are not only the richest Western countries: in the United Arab Emirates about **seven in ten**, and in Singapore more than **six in ten**, working-age people already use AI. Countries that invest in skills on purpose can move fast.
 
@@ -215,7 +215,7 @@ Either way, the lesson is the same: the later we start, the wider the gap we wil
 
 ### A world already under pressure
 
-All of this is unfolding in a world that is already unstable. In Europe, the war between Russia and Ukraine continues. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, fighting between the Houthis and Saudi Arabia resumed in July 2026, followed by attacks on Saudi territory and on shipping.[]{#ref-3-14}^[14](#note-3-14)^
+All of this is unfolding in a world that is already unstable. At the time of writing, in October 2026, the war between Russia and Ukraine continues in Europe. In the Middle East, the war that followed the US and Israeli strikes on Iran in early 2026 has spread; in Yemen, fighting between the Houthis and Saudi Arabia resumed in July 2026, followed by attacks on Saudi territory and on shipping.[]{#ref-3-14}^[14](#note-3-14)^
 
 Wars, energy prices and the race for AI are now deeply connected. Major powers see AI as a question of national strength and security. For small countries like mine, this means the rules of the future may well be written by others.
 

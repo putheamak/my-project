@@ -56,6 +56,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: third-review should-fix items applied: AI statement matches Ch 11 (AI drafted chapters from owner notes → answer "AI-generated: text" at KDP upload); one post a day in the first two weeks; calendar wording; video length "up to about a minute"; paid Reel wording; "three" AI reviews; Middle East paragraph dated October 2026; Grantham "In 2026"; "programme"; notes: Grantham source → GMO, unconfirmed TIME 15 Sept link removed and WSJ interview mentioned, Microsoft UAE/Singapore note fixed. ITU "96%": could not open itu.int from this session (blocked), so text now says "almost all of them"; owner can check the ITU press release and restore 96% if it is there.
 - 1 Nov 2026: third-review must-fix M2–M7 applied (Ch 9 clicks "about 70 by mid-October", "first five weeks", Ch 4 cross-reference removed, Ch 12 videos line, note 3-4 → Chapter 2 note 5, blog name "Home Picks Under $30"). M1 (Ch 1 employer) NOT applied: owner chose to keep the original wording.
 - 1 Nov 2026: third independent AI review of the final version done (`editorial-review-2026-11-01.md`). Owner to decide which fixes to apply.
 - 1 Nov 2026: final data filled (Ch 8 32 bookings; Ch 9 Amazon October 0 orders/120 clicks; Ch 10 17 Reels; Ch 11–12 hours; Ch 12 "30 to 60 seconds" = video length, the AI guessed right). Owner checklists removed; check-before-export says READY.

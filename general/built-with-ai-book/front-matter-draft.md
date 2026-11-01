@@ -28,7 +28,7 @@ First edition
 
 This book was written with the assistance of artificial intelligence.
 
-The author gave the experiences, notes, opinions, decisions and project records that every chapter is based on. An AI assistant, Claude, made by Anthropic, helped to organise this material into chapters, improve the language, and check facts and the sources of quotations. The author then read, corrected and approved every chapter.
+The author gave the experiences, notes, opinions, decisions and project records that every chapter is based on. An AI assistant, Claude, made by Anthropic, turned this material into draft chapters, improved the language, and helped check facts and the sources of quotations. The author then read, corrected and approved every chapter.
 
 No results, quotations or experiences in this book are invented. Where a fact could not be checked, the text or the notes say so. Chapter 11 describes the writing process in full.
 

@@ -24,7 +24,7 @@ Everything in this book was built with just four core tools.
 
 ### The free supporting cast
 
-Around these four tools, I rely on a handful of free services, none of which asked for my credit card. **Telegram** is where my customers book deliveries and where my team receives the orders. **GoatCounter** is a simple, privacy-friendly counter that tells me how many people visit the blog. **Pinterest, TikTok and Facebook** are where I share content and video ads. **Amazon Associates**, the affiliate program behind the blog, is free to join. And **Amazon KDP** (Kindle Direct Publishing), where this book is published, charges nothing upfront; Amazon simply keeps its share when a copy is sold.
+Around these four tools, I rely on a handful of free services, none of which asked for my credit card. **Telegram** is where my customers book deliveries and where my team receives the orders. **GoatCounter** is a simple, privacy-friendly counter that tells me how many people visit the blog. **Pinterest, TikTok and Facebook** are where I share content and video ads. **Amazon Associates**, the affiliate programme behind the blog, is free to join. And **Amazon KDP** (Kindle Direct Publishing), where this book is published, charges nothing upfront; Amazon simply keeps its share when a copy is sold.
 
 ### The cost that is easy to miss
 
@@ -435,9 +435,9 @@ I also see this work as a window into the future. The world's largest online mar
 
 ### What the machine does
 
-Together with Claude, I built what I call a **content engine**. Three times a week, on Monday, Wednesday and Friday mornings, it starts on its own and performs the work of a small editorial team.
+Together with Claude, I built what I call a **content engine**. Three times a week, on Monday, Wednesday and Friday mornings, it starts on its own and performs the work of a small editorial team. (In the first two weeks, I published one post a day to give the blog a start.)
 
-It selects a topic guided by the calendar: Halloween snacks in October, Thanksgiving cooking in November, gift ideas before Christmas. It writes a complete draft article in clear, helpful English. It prepares a "posting pack" on the same topic, with social media captions, short video scripts and a Pinterest description. And before I see a single word, it checks the draft against Amazon's rules and lists everything that needs correcting.
+It selects a topic guided by the calendar: Halloween snacks and Thanksgiving cooking in October, gift ideas from mid-October until Christmas. It writes a complete draft article in clear, helpful English. It prepares a "posting pack" on the same topic, with social media captions, short video scripts and a Pinterest description. And before I see a single word, it checks the draft against Amazon's rules and lists everything that needs correcting.
 
 Once a post has been approved, the system goes further still. It builds the web page, compresses the photographs so that the site loads quickly on a phone, designs three different Pinterest images, and produces a short vertical video ready for TikTok, YouTube Shorts and Pinterest.
 
@@ -585,7 +585,7 @@ There are free video-editing apps, and many are very good. So why build my own?
 
 The answer is in what a small business needs from its ads. Every video must show **the same correct facts**: the same phone numbers, the same prices, the same offer and the same closing date. It must use **the same brand colours and fonts**, so that customers gradually learn to recognise us. And it must display **the Khmer script** properly, something many tools still struggle to do.
 
-With an editing app, every new video means typing those details again by hand, and every time is a new chance for a mistake. So, together with Claude, I built a small **video factory** instead. Each advertisement is designed like a simple web page, composed of scenes containing text, shapes and movement. A web browser then plays each scene and records it frame by frame, and the frames are assembled into a vertical video of between thirty seconds and a minute, ready for Reels and TikTok. Every video carries a silent soundtrack, so that a voice-over or music can be added afterwards in the app where it is posted.
+With an editing app, every new video means typing those details again by hand, and every time is a new chance for a mistake. So, together with Claude, I built a small **video factory** instead. Each advertisement is designed like a simple web page, composed of scenes containing text, shapes and movement. A web browser then plays each scene and records it frame by frame, and the frames are assembled into a vertical video of up to about a minute, ready for Reels and TikTok. Every video carries a silent soundtrack, so that a voice-over or music can be added afterwards in the app where it is posted.
 
 To create a new advertisement, I copy an earlier design, change the words and images, review a quick preview of each scene and render the final video. The facts, colours and fonts carry over automatically.
 
@@ -651,7 +651,7 @@ Those remain human tasks: understanding the customer, choosing one clear message
 >
 > - **Paid ad test (30 September – 1 October, $5 a day):** 2,546 views, 57 clicks, **0 bookings**, 4 rider applicants
 > - **Videos posted:** 17 Reels on our Facebook page by 31 October, plus 8 posters and QR-code images
-> - **Views:** most Reels reached between about 170 and 400 views without paid promotion; the one we paid to promote reached about 2,600
+> - **Views:** most Reels reached between about 170 and 400 views without paid promotion; the Reel we paid to promote reached about 2,600, most of them the paid views above
 > - **Extra cost:** $0 beyond the tools in Chapter 5
 
 
@@ -761,7 +761,7 @@ Whether the book will sell, I can't say yet. But it has already done something t
 > **Where things stand: 31 October 2026**
 >
 > - **Writing started:** 18 October 2026
-> - **Draft:** 13 chapters, about 26,000 words, checked by two independent AI editorial reviews
+> - **Draft:** 13 chapters, about 26,000 words, checked by three independent AI editorial reviews
 > - **Time spent:** part of the almost two months, 4 to 8 hours a day, that I gave to all four projects (see Chapter 12)
 > - **Planned launch:** mid-December 2026, at $4.99
 > - **Copies sold:** 0, as the book is not yet published
