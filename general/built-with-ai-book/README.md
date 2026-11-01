@@ -56,6 +56,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: third-review must-fix M2–M7 applied (Ch 9 clicks "about 70 by mid-October", "first five weeks", Ch 4 cross-reference removed, Ch 12 videos line, note 3-4 → Chapter 2 note 5, blog name "Home Picks Under $30"). M1 (Ch 1 employer) NOT applied: owner chose to keep the original wording.
 - 1 Nov 2026: third independent AI review of the final version done (`editorial-review-2026-11-01.md`). Owner to decide which fixes to apply.
 - 1 Nov 2026: final data filled (Ch 8 32 bookings; Ch 9 Amazon October 0 orders/120 clicks; Ch 10 17 Reels; Ch 11–12 hours; Ch 12 "30 to 60 seconds" = video length, the AI guessed right). Owner checklists removed; check-before-export says READY.
 - 1 Nov 2026: owner hours: almost 2 months after resigning, 4–8 h a day, on the four projects (Ch 11 box, Ch 12 "The real cost is time"). Time saved per week not measured yet (said so in the text). Ch 8 sellers line replaced with "online sellers only".

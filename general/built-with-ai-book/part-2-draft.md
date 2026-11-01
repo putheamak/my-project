@@ -417,7 +417,7 @@ Spend a few minutes on social media and you will see the same promise again and 
 
 I wanted to find out how much of that promise was true. Not by reading about it, but by testing it myself, honestly, with my own time and money, and then reporting exactly what happened. This chapter is that report.
 
-In Chapter 4, I explained why I chose **affiliate marketing** and a blog about **kitchen gadgets under $30**: no stock, no shipping, free to join, a subject that never goes out of date, and products people buy without thinking for long. The blog is called **Home Picks Under 30**. What follows is the story of how it was built, the reasoning behind each decision, and the results so far, including the uncomfortable ones.
+I chose **affiliate marketing** and a blog about **kitchen gadgets under $30** for simple reasons: no stock, no shipping, free to join, a subject that never goes out of date, and products people buy without thinking for long. The blog is called **Home Picks Under $30**. What follows is the story of how it was built, the reasoning behind each decision, and the results so far, including the uncomfortable ones.
 
 ### Why I finally tried
 
@@ -499,7 +499,7 @@ The lesson: publish when your reader starts searching, not when the holiday arri
 
 This is the part the videos about passive income never show.
 
-By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were mostly my own, until I set the visitor counter to ignore my connection. Amazon's dashboard recorded a few dozen clicks on product links in the first month, many of them my own tests. **The number of sales was zero.**
+By mid-October 2026, the blog had received almost no visitors from outside. The few early visits were mostly my own, until I set the visitor counter to ignore my connection. By mid-October, Amazon's dashboard had recorded about 70 clicks on product links, most of them my own tests. **The number of sales was zero.**
 
 In late October, the first real readers started to arrive: 58 visits in twelve days, the first ones from Google and Pinterest, and 2 clicks through to Amazon. It is very small. But for the first time, strangers were finding the blog. The box at the end of this chapter has the numbers.
 
@@ -517,7 +517,7 @@ None of this means the project has failed. It means the project is young. I am n
 
 ### What "passive income" really means
 
-After two months, this is my honest conclusion.
+After my first five weeks, this is my honest conclusion.
 
 The *production* can mostly be automated. The *audience* cannot. No engine, however clever, can make strangers trust a website they have never heard of. That trust is earned slowly: by publishing useful posts consistently, by sharing them where people are searching, and by never misleading the reader.
 

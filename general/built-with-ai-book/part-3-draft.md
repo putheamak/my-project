@@ -72,7 +72,7 @@ And some risks concern **honesty itself**: praising products I have not used, cl
 
 In Chapter 5, I showed that the tools behind all four projects cost about $31 a month. That number is true, but on its own it misleads. The real cost was **time**: hours of explaining problems, reviewing drafts, testing tools, fixing mistakes and learning how each system works. After I left my job, I spent almost two months on the four projects, usually 4 to 8 hours a day. That is several hundred hours, far more than the $31. I have not measured yet how much time the tools save me each week. That is a number I want to report honestly in the next edition.
 
-That time does not always pay back quickly. The booking app has only just launched, the blog has no sale yet, and most videos in the calendar are still to be made. But every hour also bought something that lasts: skills I did not have a few months ago, and tools that keep working long after I built them.
+That time does not always pay back quickly. The booking app has only just launched, the blog has no sale yet, and the video ads have not brought a booking yet. But every hour also bought something that lasts: skills I did not have a few months ago, and tools that keep working long after I built them.
 
 Count your hours as carefully as your dollars. Then ask yourself honestly: does this project save more time than it takes, or teach me something worth the time?
 
@@ -176,7 +176,7 @@ The rest of the journey is yours.
 1. []{#note-3-1}International Telecommunication Union (ITU), *Facts and Figures 2025*, 17 November 2025: https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx [↩](#ref-3-1)
 2. []{#note-3-2}DataReportal, *Digital 2026: Cambodia*. DataReportal notes that its methods and sources change from year to year, so figures are not always comparable: https://datareportal.com/reports/digital-2026-cambodia [↩](#ref-3-2)
 3. []{#note-3-3}Microsoft AI Economy Institute, "The continued state of global AI diffusion in 2026", 21 September 2026 (28.8% in the Global North and 16.2% in the Global South, working-age population): https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/ · Country figures for the UAE and Singapore from Microsoft's earlier 2026 diffusion report. [↩](#ref-3-3)
-4. []{#note-3-4}Stanford HAI, *AI Index Report 2026* (see note 8), chapter on the economy. [↩](#ref-3-4)
+4. []{#note-3-4}Stanford HAI, *AI Index Report 2026* (see Chapter 2, note 5), chapter on the economy. [↩](#ref-3-4)
 5. []{#note-3-5}UNCTAD, *Technology and Innovation Report 2025: Inclusive Artificial Intelligence for Development* (April 2025): https://unctad.org/press-material/ais-48-trillion-future-un-trade-and-development-alerts-divides-urges-action [↩](#ref-3-5)
 6. []{#note-3-6}Vili Lehdonvirta, Zoe Jay Hawkins and Boxi Wu, University of Oxford (2025), study of the global distribution of AI compute, as reported by TechRepublic: https://www.techrepublic.com/article/news-only-32-countries-host-data-centers-2025/ [↩](#ref-3-6)
 7. []{#note-3-7}Oxford Insights, *Government AI Readiness Index 2025*, as announced in Cambodia: https://opendevelopmentcambodia.net/announcements/press-release-cambodias-progress-in-the-government-ai-readiness-index/ [↩](#ref-3-7)

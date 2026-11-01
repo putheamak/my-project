@@ -268,7 +268,7 @@ Many of our customers are **online sellers** who need to book pickups quickly, a
 
 ### 2. A blog that drafts its own posts, which I always check
 
-I wanted to test a promise heard everywhere: that one person with AI can earn "passive income" online on a tiny budget. So I built **Home Picks Under 30**, an Amazon affiliate blog about kitchen gadgets, where AI drafts posts three times a week and nothing goes live until I approve it. Chapter 9 shares the honest results, including the zeros.
+I wanted to test a promise heard everywhere: that one person with AI can earn "passive income" online on a tiny budget. So I built **Home Picks Under $30**, an Amazon affiliate blog about kitchen gadgets, where AI drafts posts three times a week and nothing goes live until I approve it. Chapter 9 shares the honest results, including the zeros.
 
 ### 3. Video ads every day, without a video editor
 
