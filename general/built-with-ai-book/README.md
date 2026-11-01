@@ -15,6 +15,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 | `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
 | `cover/cover-final.jpg` | **Final cover** (owner's enhanced version, approved 27 Oct 2026). Current file is 1244 × 2000; replace with a 1600 × 2560 export before upload. If made with an AI image tool, answer "yes" to AI-generated images in KDP and check the tool allows commercial use. |
 | `cover/cover-draft.jpg` | Earlier draft cover (kept for reference), 1600 × 2560, from `cover/cover-draft.html`. |
+| `editorial-review-2026-11-01.md` | Third independent AI review of the final version: ready after small fixes, 7.5/10 (8.5 after fixes); 7 must-fix items with exact replacements, fact-check (no invented facts), EPUB links all OK, launch-kit advice. |
 | `editorial-review-2026-10-28.md` | Second independent AI editorial review (after the Ch 2–3 rewrite): 6.5/10 (about 8 with top fixes), fact-check table for Ch 2–3, top 10 issues, 30 language fixes, launch-kit advice. |
 | `editorial-review-2026-10-27.md` | Independent AI editorial review (fresh reviewer, no prior context): 6.5/10, top 10 issues, chapter notes, 40 language fixes, revised Amazon description. |
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
@@ -55,6 +56,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: third independent AI review of the final version done (`editorial-review-2026-11-01.md`). Owner to decide which fixes to apply.
 - 1 Nov 2026: final data filled (Ch 8 32 bookings; Ch 9 Amazon October 0 orders/120 clicks; Ch 10 17 Reels; Ch 11–12 hours; Ch 12 "30 to 60 seconds" = video length, the AI guessed right). Owner checklists removed; check-before-export says READY.
 - 1 Nov 2026: owner hours: almost 2 months after resigning, 4–8 h a day, on the four projects (Ch 11 box, Ch 12 "The real cost is time"). Time saved per week not measured yet (said so in the text). Ch 8 sellers line replaced with "online sellers only".
 - 1 Nov 2026: Facebook page screenshot: 17 Reels posted by 31 Oct (views about 167–404, one 2.6K) and 8 image posts; Ch 10 box and text updated (calendar count "2 of 30" removed).
