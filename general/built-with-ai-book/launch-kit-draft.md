@@ -1,7 +1,7 @@
 # Launch Kit
 
 **Built with AI, No Coding**, by Mak Puthea
-Version 2, 26 October 2026. Decisions approved by the author, who accepted all recommendations.
+Version 3, 1 November 2026: updated with the advice of the third independent review (description, keywords, categories, price, tax and payment, cover, AI disclosure). Version 2 (26 October) was approved by the author.
 
 ---
 
@@ -22,11 +22,13 @@ Version 2, 26 October 2026. Decisions approved by the author, who accepted all r
 
 ## 2. Amazon book description (approved draft)
 
-*KDP supports simple formatting such as bold text and bullet points. Approximately 230 words.*
+*KDP supports simple formatting such as bold text and bullet points. Approximately 290 words.*
 
-> **I am not a programmer. Yet within a few weeks, working from Phnom Penh, I built four real business tools with AI, for about $31 a month.**
+> **I am not a programmer. Yet within a few weeks, working from Phnom Penh, I built four real business tools with AI, for about $31 a month in tool costs.**
 >
 > Most books about AI promise easy money. This one shows what actually happens when an ordinary small-business owner sits down with an AI and begins to build: the decisions, the costs, the mistakes and the results, including those that have yet to arrive.
+>
+> Every project ends with a **"Where things stand"** box with real figures, including the zeros: 2,546 ad views and no bookings, a blog with no sales yet.
 >
 > **Follow four real projects:**
 >
@@ -42,6 +44,7 @@ Version 2, 26 October 2026. Decisions approved by the author, who accepted all r
 > - What building with AI really costs, in money and in time
 > - How to protect your secrets, your customers' data and your reputation
 > - A simple seven-day plan for starting your own first project
+> - **Why AI could widen the gap between rich and developing countries, and what a country like Cambodia can do**
 >
 > Written by a computer science graduate turned researcher and small-business founder in Cambodia, this book is for anyone who has never written code and wonders whether AI is truly meant for them. It is.
 >
@@ -57,9 +60,11 @@ In line with KDP's guidelines, the keywords contain no other authors' names and 
 2. build apps with AI without coding
 3. no-code AI tools for beginners
 4. AI automation for entrepreneurs
-5. artificial intelligence guide for non-programmers
-6. real AI projects and costs
+5. build apps with AI no programming
+6. vibe coding for beginners
 7. AI skills for developing countries
+
+*Changed in v3:* "artificial intelligence guide for non-programmers" and "real AI projects and costs" were replaced: few buyers search for them. A spare option if one field performs badly: "AI for entrepreneurs in Asia".
 
 ---
 
@@ -69,13 +74,15 @@ KDP allows up to three categories. Recommended choices (confirm the exact names 
 
 1. **Business & Money** › Small Business & Entrepreneurship › Small Business
 2. **Computers & Technology** › Computer Science › AI & Machine Learning
-3. **Business & Money** › a category covering technology in business, such as Information Management
+3. **Business & Money** › a category covering technology in business, such as Information Management, or **Business & Money › Entrepreneurship**
+
+**How to choose the third (v3):** for each candidate category, open its Kindle best-seller list and look at the Best Sellers Rank of the #20 book (the same demand check as in Chapter 11). The category where the #20 book has the *highest* rank number (fewer sales) is the easiest to rank in. AI & Machine Learning may be harder than a business-technology or entrepreneurship category.
 
 ---
 
 ## 5. Price and distribution (approved)
 
-- **Launch price:** $4.99, rising to $6.99 after the launch period. Prices between $2.99 and $9.99 qualify for KDP's 70% royalty rate.
+- **Launch price (v3):** $2.99 for the first 2–3 weeks, to collect the first reviews; then $4.99 (fair for about 26,000 words). Consider $6.99 later, once there are reviews. Prices between $2.99 and $9.99 qualify for KDP's 70% royalty rate.
 - **KDP Select (Kindle Unlimited):** enrol. Most competing titles are enrolled, and authors are paid for every page read. Enrolment requires the ebook to be sold exclusively on Amazon for each 90-day term.
 
 ---
@@ -100,3 +107,23 @@ KDP allows up to three categories. Recommended choices (confirm the exact names 
 **Author photo:** best placed inside the book, in About the Author, rather than on the cover. Successful non-fiction covers in this category rely on typography and simple graphics.
 
 **Final check:** reduce the cover to thumbnail size on a phone screen. If the title remains easy to read, the cover is ready.
+
+---
+
+## 7. Tax and payment (do this now, before the first sale)
+
+- **Cambodia has no income-tax treaty with the United States.** After the KDP tax interview, expect **30% US withholding** on royalties from US sales.
+- In KDP → **Account → Getting Paid**, check how you can be paid in Cambodia (electronic transfer or wire to a Cambodian bank, if offered) and set it up now. Do not wait for the first sale.
+- Complete the KDP tax interview with your real details. Never enter another country to get a better rate (the same honesty rule as in Chapter 9).
+
+## 8. AI disclosure at upload
+
+- KDP asks whether the book contains AI-generated content. Answer **Yes → Text: AI-generated**. The AI drafted the chapters from your notes, and you edited every chapter (this matches "How This Book Was Written" and Chapter 11).
+- **Images:** answer yes if any AI tool was used to make or "enhance" the cover.
+
+## 9. Final cover check
+
+- Export at **1,600 × 2,560 pixels**, JPG, RGB.
+- **Thumbnail test:** shrink it to phone-thumbnail size. The title must still be easy to read.
+- The title and author name on the cover must match the details entered in KDP exactly.
+
