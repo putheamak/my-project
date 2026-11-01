@@ -677,7 +677,7 @@ Those remain human tasks: understanding the customer, choosing one clear message
 >
 > - **Paid ad test (30 September – 1 October, $5 a day):** 2,546 views, 57 clicks, **0 bookings**, 4 rider applicants
 > - **Videos posted:** 17 Reels on our Facebook page by 31 October, plus 8 posters and QR-code images
-> - **Views:** most Reels reached between about 170 and 400 views; one reached about 2,600
+> - **Views:** most Reels reached between about 170 and 400 views without paid promotion; the one we paid to promote reached about 2,600
 > - **Extra cost:** $0 beyond the tools in Chapter 5
 
 
