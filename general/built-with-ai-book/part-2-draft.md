@@ -406,7 +406,7 @@ What I can already say is this: a small business owner who is not a programmer d
 >
 > - **Live since:** October 2026. The first test booking reached our office Telegram group.
 > - **Bookings received through the app:** 32 in October, our first month in business
-> - **Online sellers using it:** ⭐ [number] (our goal is about 25 regular sellers)
+> - **Who booked:** online sellers only, as the app is made for them (our goal is about 25 regular sellers)
 > - **Running cost:** $0 a month
 >
 > I will update these numbers in every new edition, including the zeros.
