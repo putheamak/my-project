@@ -1,17 +1,3 @@
-<!--
-OWNER CHECKLIST (delete before publishing) — Part Three draft v4, 26 Oct 2026
-1. Part Three is built only from what earlier chapters already say; no new facts were added.
-2. Chapter 12, "The real cost is time": add (⭐) your real hours from the weekly tracker later.
-3. Chapter 13, "A word to readers in Cambodia": expanded with four divides and calls to action (26 Oct).
-4. About the Author written (26 Oct) from facts in the book; no online profile was found for "Mak Puthea".
-   Pronoun: he (owner, 26 Oct). Contact: email, phone (012, personal) and Telegram (098, business) per owner 27 Oct. Photo added (images/author-photo.jpg).
-7. Glossary added before About the Author (26 Oct). Chapter 13 Cambodia section expanded (26 Oct).
-5. Quotes used: Hopf 2016 / Ibn Khaldun (note 1), Laozi (note 3). Course list sources in note 2.
-6. Chapter 12 additions (26 Oct): five real AI mistakes from writing this book, and "Insecurity in the age of AI"
-   with the free course list. "Block's rules" = new AI laws by regional blocs (EU AI Act, ASEAN guide; note 4).
-   Check the course list is current.
--->
-
 # Part Three: What Comes Next
 
 ---
@@ -36,7 +22,7 @@ Writing this book with an AI brought its own mistakes. I list them here because 
 
 **It made quotations sound bigger than the facts.** One draft had Steve Jobs "telling a conference" that focusing is about saying no. When it checked the sources, the AI found he said it while answering developers' questions, not in a speech. In another case, it found that a famous line usually credited to the inventor Charles Kettering cannot be traced to anything he wrote.
 
-**It guessed at my meaning.** When I said that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video, when I actually meant [the time needed to make one / confirm]. It wrote its guess into the draft and marked it for me to confirm. That was right, but only because I had asked it to mark every guess.
+**It guessed at my meaning.** When I said that my video advertisements took "around 30 to 60 seconds", it assumed I meant the length of each video. This time the guess was right, but it was still a guess. It wrote it into the draft and marked it for me to confirm. That was the right behaviour, but only because I had asked it to mark every guess.
 
 The opposite also happened. When I first asked an AI to write a program for my survey analysis, I did not just accept the result. I compared it, number by number, with what I had calculated by hand. Only when they matched did I start to trust it.
 

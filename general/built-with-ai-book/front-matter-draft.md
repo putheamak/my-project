@@ -1,11 +1,3 @@
-<!--
-OWNER CHECKLIST (delete before publishing) — Front matter draft v2, 26 Oct 2026
-1. Title and subtitle approved by the owner (26 Oct): option A from the launch kit.
-2. Copyright year: 2026 (owner, 26 Oct: aim to publish by late 2026).
-3. Dedication page removed (owner, 26 Oct).
-4. Kindle ebooks do not need an ISBN (Amazon gives an ASIN). A paperback would need one.
--->
-
 # Built with AI, No Coding
 
 ## Real Business Tools, Real Costs and Real Mistakes from a Small-Business Owner in Cambodia

@@ -1,25 +1,3 @@
-<!--
-OWNER CHECKLIST (delete this block before publishing) — draft v3, 20 Oct 2026
-1. Employer is still described as "a leading consumer brand" (not "bottled water") to keep it anonymous.
-2. Jeremy Grantham: confirmed he appeared on The Diary of a CEO and talks about career risk, but the
-   exact words could not be checked, so his idea is paraphrased (no quotation marks). Keep it that way
-   unless you find the exact wording in the episode.
-3. Chapter 4, video ads: written as "each ad runs 30 to 60 seconds". If you meant it takes you
-   30–60 seconds (or minutes) to MAKE one, tell me and I'll change it.
-4. Scenario table (Chapter 2) is clearly labelled as your opinion. Fine to keep.
-5. v4, 27 Oct 2026: Chapter 2 "What is coming" simplified and backed with IMF, WEF, Stanford and the
-   AI-researcher survey; Chapter 3 rewritten with six sourced gaps, Cambodia's garment ladder and
-   "If AI arrives sooner, or later". Notes renumbered 6–22.
-6. CHECK before publishing: Stanford AI Index 2026 figures ($582bn, +130%; US $286bn vs China $12.4bn)
-   come from news coverage of the report; confirm them in the report itself (hai.stanford.edu/ai-index).
-7. CHECK: the Oxford data-centre study (note 15) is cited through TechRepublic; the original report is better.
-8. Microsoft's AI-use figures are updated every few months; refresh note 12 just before publishing.
-10. 28 Oct 2026: Ch 3 "What our own draft strategy admits" added from the owner's PDF (draft NAIS v5, June 2025).
-    CHECK: has the final strategy been adopted since? If yes, update the section and note 18.
-9. v4.1, 28 Oct 2026: Chapters 2 and 3 polished (flow, precision, consistent dates and style). No facts changed
-   except the WEF line now also gives the net gain (78 million), from the same report.
--->
-
 # Part One: Why I Started
 
 ---

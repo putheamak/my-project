@@ -1,10 +1,3 @@
-<!--
-OWNER CHECKLIST (delete before publishing) — Introduction draft v2, 26 Oct 2026
-1. v2: polished for a more professional tone while keeping the personal voice. Tell me if it sounds like you.
-2. Uses only facts already in the book. No results or income claimed.
-3. Spelling follows the rest of the book (British) for now; switch together with the whole book if you choose US spelling.
--->
-
 # Introduction
 
 I am not a programmer. I studied computer science at university, but my major was networking, not building software. Until recently, I had never built an app, run a website or edited a video.

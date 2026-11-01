@@ -1,29 +1,3 @@
-<!--
-OWNER CHECKLIST (delete before publishing) — Part Two draft v18, 25 Oct 2026
-1. Claude API is written as "about $10 a month" (owner's estimate). Replace with the real figure from
-   console.anthropic.com → Billing once you have one or two months of bills.
-2. The chapter now says Khmer Parcel's Facebook ad spend is a business cost, separate from the $31 toolkit
-   (your notes show paid ads at $5–10/day). Check you are happy to mention it.
-3. Chapter 6 is built from the project notes and this chat. Check every example happened as written,
-   especially: (a) AI suggesting promises you had not confirmed (same-day COD payout), (b) the ad results
-   (2,546 views, 57 clicks, 0 bookings) — OK to publish these real numbers? (c) your quoted chat messages.
-4. Chapter 6: engineer = "he"; "expert" replaced. Chapter 8: voice-message double work and the habit-change
-   challenge added; "first ninety days" section removed for now (add results in a later edition).
-5. Chapter 9 (blog): box updated to 31 Oct 2026 from the blog notes (27 posts, 117 products, 58 visits in 12 days; earlier: 19 posts, 75 products, almost no outside visitors,
-   0 sales). Update them from the tracker before publishing, and confirm you are happy to publish them.
-   Also confirm: gift-card payments, Pinterest ads not available, Reddit rule, deadline 30 Mar 2027.
-6. Quotes now have notes: Kettering (attribution unconfirmed), Buffett 1991, Jobs WWDC 16 May 1997, Bezos 1997 letter, Google E-E-A-T 2022.
-7. Chapter 9 additions (24 Oct): "Why I finally tried" (Western audience, encouraging Cambodians, top marketplaces,
-   robots and drones) and "Is it written for humans?" (1–10 scoring + traffic check). Check the robot/drone
-   examples are current before publishing.
-8. Chapter 10 (video ads): uses the real ad results from your notes (2,546 views, 605 3-second views, 4 s average,
-   57 clicks, 0 bookings, 4 rider applicants, mostly men 25–44). Confirm OK to publish. Add (⭐) how many
-   calendar videos are made so far. Ogilvy quote added (note 6).
-9. Chapter 11 (ebook machine): written from this chat (the reels, the three ideas, the Amazon screenshots,
-   how the book is written). Check it matches your memory. ⭐ Add launch details after publication.
-   Zinsser quote added (note 7). MLK 1968 quote and the owner's motivation paragraphs added (note 8).
--->
-
 # Part Two: Building
 
 > **How to read Part Two.** Each chapter tells the story behind a project: the problem, the decisions, and the reasons behind them. Practical step-by-step instructions are kept in boxes marked **Builder's Notes** at the end of each chapter. If you simply want the ideas, skip the boxes. If you want to build, they are there for you.

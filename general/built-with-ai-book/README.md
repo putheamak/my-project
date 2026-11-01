@@ -33,6 +33,18 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - No income claims. No customer names, phone numbers, tokens or passwords in the book or screenshots.
 - Disclose AI-generated content on KDP.
 
+## Final checks before upload (moved from the chapter checklists, 1 Nov 2026)
+The owner checklists were removed from the chapter files (they are in git history). Still open:
+- [ ] Ch 3: is the National AI Strategy 2025–2030 now adopted? If yes, update "What our own draft strategy admits" and its note.
+- [ ] Ch 2–3: confirm the Stanford AI Index 2026 figures ($582bn, +130%; US $286bn vs China $12.4bn) in the report itself.
+- [ ] Ch 3: cite the original Oxford data-centre study instead of TechRepublic if possible.
+- [ ] Ch 3: refresh the Microsoft AI-use figures just before upload.
+- [ ] Ch 5: replace "about $10 a month" for the Claude API with the real bill.
+- [ ] Ch 9: robot and drone examples still current; Ch 12: free course list still current.
+- [ ] Ch 1: decide on the employer passage ("ethics and professionalism", "pushed out") flagged by the second review as a legal risk.
+- [ ] Cover: full-size 1600 × 2560 export. KDP: check payment from Cambodia (Account → Getting Paid).
+- [ ] Run `bash check-before-export.sh` (must say READY) and `bash build-ebook.sh`, then open the EPUB in Kindle Previewer.
+
 ## Update before publishing (owner decided 25 Oct 2026: keep as is for now, update later)
 - Ch 8: add the booking app's real results (bookings, sellers, challenges) in a later edition.
 - Ch 9: update the blog numbers (posts, products, visits, clicks, sales). Mid-October figures: 19 posts, 75 products, 0 sales.
@@ -43,6 +55,7 @@ auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by la
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 1 Nov 2026: final data filled (Ch 8 32 bookings; Ch 9 Amazon October 0 orders/120 clicks; Ch 10 17 Reels; Ch 11–12 hours; Ch 12 "30 to 60 seconds" = video length, the AI guessed right). Owner checklists removed; check-before-export says READY.
 - 1 Nov 2026: owner hours: almost 2 months after resigning, 4–8 h a day, on the four projects (Ch 11 box, Ch 12 "The real cost is time"). Time saved per week not measured yet (said so in the text). Ch 8 sellers line replaced with "online sellers only".
 - 1 Nov 2026: Facebook page screenshot: 17 Reels posted by 31 Oct (views about 167–404, one 2.6K) and 8 image posts; Ch 10 box and text updated (calendar count "2 of 30" removed).
 - 1 Nov 2026: Amazon Associates, October: 0 ordered, 0 shipped, $0, 120 clicks (spikes 2 Oct and 30 Oct), conversion 0% (Ch 9 box). Owner to confirm whether the 30 Oct spike was their own link tests.
