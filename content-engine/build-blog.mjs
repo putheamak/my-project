@@ -154,6 +154,10 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
   const analytics = gc
     ? `<script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}if(${skipZones}.indexOf(z)>-1)return;var s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";s.setAttribute("data-goatcounter","https://${gc}.goatcounter.com/count");document.head.appendChild(s)})();</script>`
     : "";
+  // Opening your own affiliate link adds a click to the Amazon report. On devices
+  // in the owner's time zone, ask before opening one (real readers there can
+  // still continue).
+  const ownClickGuard = `<script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}if(${skipZones}.indexOf(z)<0)return;document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');if(a&&!confirm("This is an Amazon affiliate link. If this is your own blog, opening it adds a click to your Amazon report. Open it anyway?"))e.preventDefault()},true)})();</script>`;
   const ld = jsonLd.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`).join("\n");
   return `<!doctype html>
 <html lang="${esc(site.language)}">
@@ -176,6 +180,7 @@ ${image ? `<meta property="og:image" content="${esc(image)}">\n<meta name="twitt
 ${verify}
 ${pinterestVerify}
 ${analytics}
+${ownClickGuard}
 <style>${css}</style>
 ${ld}
 </head>
