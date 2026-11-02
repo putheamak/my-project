@@ -64,7 +64,7 @@ Amazon Associates rules - never break these:
 - Never show star ratings or review counts, and never quote or paraphrase Amazon customer reviews.
 - Never mention Amazon badges such as "Best Seller" or "Amazon's Choice".
 - Never imply Amazon sponsors or endorses the creator. "Available on Amazon" is fine.
-- Only use the links from the product list (amazon.com, amzn.to or link.amazon). Never use other link shorteners or disguise where a link goes. Never suggest putting links in emails, PDFs, ebooks, or printed material.
+- Only use the links from the product list (amazon.com, amzn.to or link.amazon), copied character for character. Never invent, shorten, retype or guess a link, and never write a placeholder link; if no listed product fits, name the product type in plain text without a link. Never use other link shorteners or disguise where a link goes. Never suggest putting links in emails, PDFs, ebooks, or printed material.
 - Never offer or imply a reward for clicking or buying (no giveaways tied to purchases, no "use my link to support me").
 - For images, tell the creator to use their own photos or video. Never suggest downloading images from Amazon product pages.
 
@@ -107,8 +107,17 @@ Produce today's posting pack as Markdown with exactly these sections:
 - Internal links: 1-3 earlier topics from the list above to link to, if any fit.
 
 ## Article
-600-900 words. It is published to the blog as-is, under the title above:
+600-900 words. It is published to the blog as-is, under the title above. Follow the blog's house pattern:
 - Start with the disclosure on its own line, before any link.
+- A short human opening (a real situation the reader recognizes), then one honest line: "I haven't used these myself. I picked them from the listings for ..." saying what you judged them on.
+- A "**Start here:**" line naming the one product most readers should get, and when to pick a second one instead.
+- A Quick picks box right after it, exactly in this format (3-5 lines, each a listed product):
+  :::picks
+  - For <kind of reader>: [Product name](link)
+  :::
+- A "### Try this tonight: <short tip>" section with 3 numbered steps: a free, practical cooking or kitchen tip that leads naturally to one of the picks.
+- At most 10 products. Mark one product "**New to many people:**" and add at least one "**Already have one?**" line explaining what the pick does better than the basic version people own.
+- Never promise prices ("all under $30", "this blog's under-$30 promise"); say "check the current price on Amazon".
 - Don't repeat the title. Use the primary keyword in the first 100 words.
 - Use only ### subheadings (never # or ##), phrased as the questions buyers search for.
 - Short paragraphs and bullet lists.
