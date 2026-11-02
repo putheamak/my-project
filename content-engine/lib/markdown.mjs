@@ -82,7 +82,9 @@ export function markdownToHtml(md, opts = {}) {
     } else if (heading) {
       flush();
       const level = Math.min(6, Math.max(1, heading[1].length - headingShift));
-      out.push(`<h${level}>${inl(heading[2])}</h${level}>`);
+      // The "Try this tonight" tip gets a fixed id so videos and the home page can link straight to it.
+      const id = /^try this tonight/i.test(heading[2]) ? ' id="try-this-tonight"' : "";
+      out.push(`<h${level}${id}>${inl(heading[2])}</h${level}>`);
     } else if (/^(\s*[-*_]){3,}\s*$/.test(line)) {
       flush();
       out.push("<hr>");

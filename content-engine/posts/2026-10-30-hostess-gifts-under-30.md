@@ -1,7 +1,7 @@
 ---
 title: "Hostess Gifts Under $30 for Someone Who Loves to Cook"
 seoTitle: "Best Hostess Gifts Under $30 for the Host Who Cooks"
-description: "Hostess gifts under $30 for the person hosting holiday dinner: things to use at the table that night, tools for a host who cooks every day, and dessert helpers."
+description: "Invited to dinner? The best hostess gifts under $30 for someone who loves to cook, for the table, everyday cooking and dessert, plus the one to start with."
 slug: "hostess-gifts-under-30"
 keyword: "best hostess gifts under $30 for someone who loves to cook"
 pinTitle: "Hostess Gifts Under $30 for Someone Who Loves to Cook | Holiday Dinner"

@@ -1,7 +1,7 @@
 ---
 title: "Stocking Stuffers for People Who Cook: 4 Grab-and-Go Bundles, Each Item Under $30"
 seoTitle: "Stocking Stuffers for People Who Cook (Each Item Under $30)"
-description: "Stocking stuffers for people who cook, sorted into four ready-made bundles of small kitchen tools, each item under $30: the everyday cook, the baker, the lunch packer and parents or grandparents."
+description: "Stuck on a stocking for the cook? Stocking stuffers for people who cook in four bundles, each item under $30, plus how to pack one that looks planned."
 slug: "stocking-stuffers-for-people-who-cook"
 keyword: "stocking stuffers for people who cook"
 pinTitle: "Stocking Stuffers for People Who Cook: 4 Ready-Made Bundles"

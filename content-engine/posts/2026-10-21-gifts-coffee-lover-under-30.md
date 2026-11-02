@@ -1,7 +1,7 @@
 ---
 title: "Gifts for a Coffee Lover Under $30: One Pick for Every Kind of Coffee Drinker"
 seoTitle: "Gifts for a Coffee Lover Under $30 (Latte, Pour-Over, Keurig)"
-description: "Gifts for a coffee lover under $30, sorted by how they drink it: latte lover, pour-over fan, commuter or desk worker, and Keurig owner."
+description: "Shopping for someone who lives on coffee? Gifts for a coffee lover under $30, one pick per kind of coffee drinker, plus a comparison table."
 slug: "gifts-coffee-lover-under-30"
 keyword: "gifts for a coffee lover under $30"
 pinTitle: "Coffee Lover Gifts Under $30 | Latte, Pour-Over, Commuter, Keurig"

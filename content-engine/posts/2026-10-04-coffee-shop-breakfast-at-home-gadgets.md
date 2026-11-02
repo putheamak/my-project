@@ -1,7 +1,7 @@
 ---
 title: "Coffee-Shop Breakfast at Home: 2 Small Kits for Egg Sandwiches and Foamy Coffee"
 seoTitle: "Coffee Shop Breakfast at Home: Egg Sandwich and Coffee Kits"
-description: "Two small gadget kits for a coffee-shop breakfast at home: a microwave-only egg sandwich kit and a café coffee kit, all under $30."
+description: "Want a coffee-shop egg sandwich and latte, no line? Kitchen gadgets for making coffee shop breakfast at home: two kits under $30 and a jar foam trick."
 slug: "coffee-shop-breakfast-at-home-gadgets"
 keyword: "kitchen gadgets for making coffee shop breakfast at home"
 pinTitle: "Coffee-Shop Breakfast at Home: 2 Gadget Kits for Egg Sandwiches and Foamy Coffee"

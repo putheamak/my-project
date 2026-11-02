@@ -1,7 +1,7 @@
 ---
 title: "Chop, Peel, Prep Faster: 6 Kitchen Gadgets Under $30 That Take Over the Knife Work"
 seoTitle: "Kitchen Gadgets Under $30 for Chopping Vegetables Fast"
-description: "Six kitchen gadgets under $30 that speed up chopping, peeling and mincing on weeknights, plus the order to buy them in and who should skip each one."
+description: "Chopping takes forever? Kitchen gadgets under $30 for chopping vegetables fast, what to buy first, and a 3-step way to dice an onion that holds together."
 slug: "kitchen-gadgets-under-30-chopping-prep"
 keyword: "kitchen gadgets under $30 for chopping vegetables fast"
 pinTitle: "6 Kitchen Gadgets Under $30 for Chopping Vegetables Fast (and What to Buy First)"

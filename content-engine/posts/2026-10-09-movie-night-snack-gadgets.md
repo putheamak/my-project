@@ -1,7 +1,7 @@
 ---
 title: "Movie Night at Home: Popcorn Gadgets and Snack Tools That Keep You on the Couch"
 seoTitle: "Movie Night Snacks Under $30: Popcorn Poppers, Seasonings and Trays"
-description: "Movie night snack gadgets under $30: a microwave popcorn popper or a hot air popper (pick by crowd size), a seasoning sampler and a snack tray."
+description: "Popcorn for two or a crowd? Movie night snack gadgets under $30, a microwave or air popper by group size, plus a 3-step trick to make seasoning stick."
 slug: "movie-night-snack-gadgets"
 keyword: "movie night snack gadgets"
 pinTitle: "Movie Night at Home: Which Popcorn Popper to Buy (and What Else You Need)"

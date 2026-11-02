@@ -1,7 +1,7 @@
 ---
 title: "Gifts for Bakers Under $30: One Pick for Every Kind of Baker"
 seoTitle: "Best Gifts for Bakers Under $30 (Cookies, Decorating, Fun)"
-description: "Gifts for bakers under $30, sorted by the kind of baker: the Christmas cookie baker, the decorator, the bread baker, the one with scorched oven mitts, and the baker who wants a fun project."
+description: "Shopping for a baker? The best gifts for bakers under $30, sorted by kind of baker, the one most would use, and a 3-step tip for cookies that don't spread."
 slug: "gifts-for-bakers-under-30"
 keyword: "best gifts for bakers under $30"
 pinTitle: "Gifts for Bakers Under $30 | Cookie Bakers, Decorators, Fun Projects"

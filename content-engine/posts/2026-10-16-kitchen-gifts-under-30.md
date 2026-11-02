@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Gifts Under $30, Sorted by Who You're Shopping For (2026)"
 seoTitle: "Kitchen Gifts Under $30 for Christmas (2026 Gift Guide)"
-description: "Useful kitchen gifts under $30 for Christmas, grouped by who you're shopping for: home cooks, holiday bakers, solo cooks, students, lunch packers and coffee drinkers."
+description: "Not sure what to get the cook on your list? Kitchen gifts under $30 sorted by who you're shopping for, from bakers to coffee fans, plus a match-up table."
 slug: "kitchen-gifts-under-30"
 keyword: "kitchen gifts under $30"
 pinTitle: "Kitchen Gifts Under $30 by Person (2026 Christmas Guide)"

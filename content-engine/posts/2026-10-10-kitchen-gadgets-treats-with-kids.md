@@ -1,7 +1,7 @@
 ---
 title: "Making Treats With Kids: Mini Donut and Waffle Gadgets Under $30 (With an Age-by-Age Guide)"
 seoTitle: "Kitchen Gadgets Under $30 for Making Treats With Kids"
-description: "Mini donut maker, donut pan and mini waffle maker picks under $30, plus what kids aged 3 to 5, 6 to 8 and 9+ can actually help with and a simple Saturday-morning plan."
+description: "Want a Saturday kitchen project with kids? Kitchen gadgets under $30 for making treats with kids, what each age can help with and a simple morning plan."
 slug: "kitchen-gadgets-treats-with-kids"
 keyword: "kitchen gadgets under $30 for making treats with kids"
 pinTitle: "Mini Donuts and Waffles With Kids: Gadgets Under $30 + Age-by-Age Jobs"

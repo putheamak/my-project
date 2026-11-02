@@ -1,7 +1,7 @@
 ---
 title: "Cooking Without Guesswork: 4 Kitchen Gadgets Under $30 That Tell You When Food Is Done"
 seoTitle: "Kitchen Gadgets Under $30 for Cooking Without Guesswork"
-description: "An instant-read thermometer, a kitchen scale, an oven thermometer and a timer set, all under $30, plus a USDA safe-temperature cheat sheet so you stop cutting into dinner to check."
+description: "Cutting into chicken to check if it's done? Kitchen gadgets under $30 for cooking without guesswork, a USDA safe-temperature chart and which to buy first."
 slug: "kitchen-gadgets-under-30-cooking-without-guesswork"
 keyword: "kitchen gadgets under $30 for cooking without guesswork"
 pinTitle: "Stop Guessing at Dinner: Kitchen Gadgets Under $30"

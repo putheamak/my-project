@@ -1,7 +1,7 @@
 ---
 title: "Thanksgiving Mashed Potatoes and Gravy: 6 Small Tools Under $30"
 seoTitle: "Thanksgiving Mashed Potatoes and Gravy Tools Under $30"
-description: "A potato ricer, a bottom-release gravy separator, a stick blender and three more small tools under $30 for smooth mash and gravy that isn't greasy or lumpy."
+description: "Gluey mash or greasy gravy? Thanksgiving mashed potatoes and gravy tools under $30, which ones to buy first, and a 3-step tip for fluffier potatoes."
 slug: "thanksgiving-mashed-potatoes-gravy-gadgets"
 keyword: "Thanksgiving mashed potatoes and gravy tools"
 pinTitle: "Smooth Mash and Lump-Free Gravy: Thanksgiving Tools Under $30"

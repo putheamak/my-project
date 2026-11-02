@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Gadgets for Small Kitchens Under $30 That Fold, Nest or Disappear"
 seoTitle: "Best Small Kitchen Gadgets Under $30: Space-Saving Picks"
-description: "Space-saving kitchen gadgets under $30 for apartments and rentals: a collapsible colander, nesting bowls, flexible cutting mats, a roll-up drying rack and more."
+description: "Tiny kitchen, no counter space? Kitchen gadgets for small kitchens that fold, nest or tuck away, all under $30, plus the one to start with and a table."
 slug: "kitchen-gadgets-small-kitchens-under-30"
 keyword: "kitchen gadgets for small kitchens"
 pinTitle: "Small Kitchen Gadgets Under $30 That Fold Flat or Nest Away"

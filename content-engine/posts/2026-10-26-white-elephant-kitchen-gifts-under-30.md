@@ -1,7 +1,7 @@
 ---
 title: "White Elephant and Secret Santa Kitchen Gifts Under $30 That Get Stolen"
 seoTitle: "White Elephant Kitchen Gifts Under $30 (Secret Santa Too)"
-description: "White elephant and Secret Santa kitchen gifts under $30, sorted by the kind of exchange: coworkers you barely know, a steal-happy family game, and the dorm or break-room crowd."
+description: "Need a gift for the office or family swap? The best white elephant kitchen gifts under $30, sorted by kind of exchange, plus a safe pick for coworkers."
 slug: "white-elephant-kitchen-gifts-under-30"
 keyword: "best white elephant kitchen gifts under $30"
 pinTitle: "White Elephant Kitchen Gifts Under $30 | Nessie Ladle, S'mores Maker and More"

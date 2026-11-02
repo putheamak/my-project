@@ -333,7 +333,7 @@ const videoBlock = (post, link) => {
 <p class="hint">One trick in 3 steps, then the gadget and the website. Silent: add a sound in the app.</p>
 ${field("Tip video caption", v.tip.caption, 8)}
 ${field("Pinterest video pin title", videoPinTitle(post), 2)}
-${field("Pinterest video pin link", link, 2)}
+${field("Pinterest video pin link", `${link}#try-this-tonight`, 2)}
 ${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
 </div>`
     : "";

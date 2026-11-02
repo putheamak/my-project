@@ -68,12 +68,44 @@
     ],
     "videoPosts": [
       {
-        "slug": "kitchen-gadgets-under-30-quick-breakfasts",
-        "label": "Quick breakfasts"
+        "slug": "small-kitchen-thanksgiving-gadgets",
+        "label": "Dry Thanksgiving turkey?"
+      },
+      {
+        "slug": "thanksgiving-mashed-potatoes-gravy-gadgets",
+        "label": "Watery mashed potatoes?"
+      },
+      {
+        "slug": "kitchen-gifts-under-30",
+        "label": "Wrap a gift with no paper"
+      },
+      {
+        "slug": "stocking-stuffers-for-people-who-cook",
+        "label": "Stocking for someone who cooks"
+      },
+      {
+        "slug": "gifts-coffee-lover-under-30",
+        "label": "Latte foam with a jar"
+      },
+      {
+        "slug": "white-elephant-kitchen-gifts-under-30",
+        "label": "Frothy hot chocolate in a mug"
       },
       {
         "slug": "gifts-for-bakers-under-30",
-        "label": "Gifts for bakers"
+        "label": "Cookies spreading flat?"
+      },
+      {
+        "slug": "halloween-party-snack-gadgets-under-30",
+        "label": "Shiny melted chocolate"
+      },
+      {
+        "slug": "kitchen-gadgets-under-30-quick-breakfasts",
+        "label": "Overnight oats in a jar"
+      },
+      {
+        "slug": "kitchen-gadgets-small-kitchens-under-30",
+        "label": "Small kitchen gadgets"
       },
       {
         "slug": "kitchen-gadgets-under-30-chopping-prep",
@@ -81,31 +113,11 @@
       },
       {
         "slug": "kitchen-gadgets-under-30-leftovers",
-        "label": "Leftovers"
-      },
-      {
-        "slug": "gifts-coffee-lover-under-30",
-        "label": "Coffee lover gifts"
-      },
-      {
-        "slug": "kitchen-gadgets-under-30-cooking-without-guesswork",
-        "label": "Cooking without guesswork"
-      },
-      {
-        "slug": "stocking-stuffers-for-people-who-cook",
-        "label": "Stocking stuffers"
-      },
-      {
-        "slug": "kitchen-gifts-under-30",
-        "label": "Kitchen gifts under $30"
+        "label": "Leftover rice like new"
       },
       {
         "slug": "cook-without-a-stove-microwave-gadgets",
-        "label": "Cook without a stove"
-      },
-      {
-        "slug": "coffee-shop-breakfast-at-home-gadgets",
-        "label": "Coffee shop breakfast"
+        "label": "Cooking without a stove"
       },
       {
         "slug": "kitchen-gadgets-for-cooking-for-one",
@@ -113,27 +125,23 @@
       },
       {
         "slug": "microwave-gadgets-office-lunch",
-        "label": "Office lunch"
+        "label": "Hot lunch at work"
       },
       {
         "slug": "best-lunch-containers-work-lunches",
-        "label": "Lunch containers"
+        "label": "Lunch that won't go soggy"
       },
       {
         "slug": "hands-off-kitchen-gadgets-under-30",
-        "label": "Hands-off gadgets"
+        "label": "Rice that isn't gummy"
       },
       {
         "slug": "movie-night-snack-gadgets",
-        "label": "Movie night snacks"
+        "label": "Movie night popcorn"
       },
       {
         "slug": "kitchen-gadgets-treats-with-kids",
-        "label": "Treats with kids"
-      },
-      {
-        "slug": "small-kitchen-thanksgiving-gadgets",
-        "label": "Small-kitchen Thanksgiving"
+        "label": "Baking with kids"
       }
     ]
   }

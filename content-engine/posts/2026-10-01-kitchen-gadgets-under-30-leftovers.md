@@ -1,7 +1,7 @@
 ---
 title: "Leftover Rescue: Kitchen Gadgets Under $30 to Store, Freeze and Reheat Last Night's Dinner"
 seoTitle: "Kitchen Gadgets Under $30 for Leftovers: Store, Freeze, Reheat"
-description: "Kitchen gadgets under $30 for leftovers: one clear pick each for storing, freezing single portions and reheating, plus who should skip what."
+description: "Leftovers dry, leaky or too big to thaw? Kitchen gadgets under $30 for leftovers, one pick for each step, plus a 3-step trick to reheat rice so it's soft."
 slug: "kitchen-gadgets-under-30-leftovers"
 keyword: "kitchen gadgets under $30 for leftovers"
 pinTitle: "Kitchen Gadgets Under $30 for Leftovers (Store, Freeze & Reheat)"
