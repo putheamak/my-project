@@ -92,9 +92,25 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
-.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
-.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
-.reader-tips p{margin:0}
+.reader-tips{margin-top:36px;padding:20px;border:2px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.25rem;margin:0 0 6px}
+.reader-tips p{margin:0 0 12px}
+.reader-tips form{display:grid;gap:12px}
+.tip-kind{border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.tip-choice{display:flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-weight:600}
+.tip-choice span{font-size:1.4rem}
+.tip-choice input{position:absolute;opacity:0;pointer-events:none}
+.tip-choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.tip-more{display:grid;gap:12px}
+.tip-more[hidden]{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tip-jump{margin:4px 0 20px}
+.tip-jump a{font-weight:600}
+.tip-field{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.tip-field textarea,.tip-field input{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);width:100%;box-sizing:border-box}
+.tip-ok{display:flex;gap:8px;align-items:flex-start;font-size:.95rem}
+.tip-send{justify-self:start;font:inherit;font-weight:700;padding:11px 22px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+.tip-small{font-size:.85rem;color:var(--muted);margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -123,6 +139,7 @@ footer.site a{color:var(--muted)}
 <h2 id="try-this-tonight">Try this tonight: freeze soup in flat portions</h2>
 <ol><li>Let the soup cool a little, but get it chilled within about two hours.</li><li>Ladle single servings into freezer bags, squeeze out the air and lay them flat on a sheet pan to freeze.</li><li>Once they're solid, stand the bags up like files. A flat block thaws much faster than a deep tub, and you grab one serving, not the whole batch.</li></ol>
 <p>If bags feel fiddly, the silicone freezer tray below does it in neat blocks.</p>
+<p class="tip-jump"><a href="#share-your-tip">Tried it tonight? Tell me how it went ↓</a></p>
 <h2>What cuts the chopping time on prep day?</h2>
 <p><img src="/blog/images/kitchen-gadgets-under-30-meal-prep-1.jpg" alt="Chopped vegetables on a cutting board for meal prep" loading="lazy" decoding="async"></p>
 <p><a href="https://amzn.to/4AOlfuj" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4AOlfuj" data-goatcounter-title="Brieftons 2-cup manual pull chopper">Brieftons 2-cup manual pull chopper</a>: it's designed to turn half an onion, a pepper or a handful of herbs into a dice with a few pulls, with no plug and only a bowl and blade to rinse. <strong>Already have one?</strong> A good knife is still faster for one onion, and a food processor wins for big batches. This sits in between: no outlet, no big bowl to wash, and it's ready for half a pepper in seconds. Skip it if you batch whole bags of carrots, since the small bowl means lots of refills.</p>
@@ -146,7 +163,32 @@ footer.site a{color:var(--muted)}
 <p>Cooked grains, roasted vegetables and cooked proteins are commonly treated as a three-to-four-day window, so fridge the first half of the week, freeze the rest and follow your local food safety guidance.</p>
 <h2>Ready for an easier Sunday?</h2>
 <p>Grab the chopper first, then add the containers, scale or freezer trays once prep becomes a habit. For more ideas, see <a href="https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-chopping-prep/" rel="noopener" target="_blank">kitchen gadgets for chopping and prep</a> and <a href="https://homepicksunder30.com/blog/posts/best-lunch-containers-work-lunches/" rel="noopener" target="_blank">lunch containers for work lunches</a>, and check the current price on Amazon before you order.</p>
-<aside class="reader-tips"><h2>Used one of these?</h2><p>Tell me what worked, what didn't, or share a kitchen tip of your own: <a href="mailto:rithrothinak@gmail.com">rithrothinak@gmail.com</a>. With your permission, I may share your tip on the blog (first name only, or "a reader").</p></aside>
+<aside class="reader-tips" id="share-your-tip">
+<h2>Tried tonight's tip (freeze soup in flat portions)?</h2>
+<p>One tap is enough. Real kitchens beat any listing, and the most useful tips get added to this post.</p>
+<form action="https://formsubmit.co/rithrothinak@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Reader tip: Meal Prep Sunday Made Fast: Kitchen Gadgets Under $30 That Do the Boring Work">
+<input type="hidden" name="post" value="https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/">
+<input type="hidden" name="_next" value="https://homepicksunder30.com/blog/thanks/">
+<input type="hidden" name="_template" value="box">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<fieldset class="tip-kind"><legend class="sr-only">How did it go?</legend>
+<label class="tip-choice"><input type="radio" name="result" value="It worked"><span>👍</span>It worked</label>
+<label class="tip-choice"><input type="radio" name="result" value="Not for me"><span>🤔</span>Not for me</label>
+<label class="tip-choice"><input type="radio" name="result" value="I do it differently"><span>💡</span>I do it differently</label>
+<label class="tip-choice"><input type="radio" name="result" value="I have a question"><span>❓</span>I have a question</label>
+</fieldset>
+<div class="tip-more">
+<label class="tip-field">Tell me a little more<textarea name="message" rows="3" maxlength="2000" placeholder="What happened, or what's your trick? One line is plenty."></textarea></label>
+<label class="tip-field">First name (optional)<input type="text" name="first_name" maxlength="40" autocomplete="given-name"></label>
+<label class="tip-field">Email (optional, only if you'd like a reply)<input type="email" name="email" maxlength="120" autocomplete="email"></label>
+<label class="tip-ok"><input type="checkbox" name="may_share" value="Yes, you may share my tip with my first name"> Add my tip to this post (first name only)</label>
+<button type="submit" class="tip-send" data-goatcounter-click="reader-tip-sent" data-goatcounter-title="kitchen-gadgets-under-30-meal-prep">Send</button>
+<p class="tip-small">No account needed. I read every message, never share your email, and only quote you if you tick the box.</p>
+</div>
+</form>
+</aside>
+<script>(function(){var f=document.querySelector("#share-your-tip form");if(!f)return;var m=f.querySelector(".tip-more");m.hidden=true;f.addEventListener("change",function(e){if(e.target.name==="result"){m.hidden=false;var t=f.querySelector("textarea");if(t)t.focus({preventScroll:true})}})})();</script>
 <section class="related">
 <h2>More in <a href="/blog/topics/meal-prep/">Meal Prep &amp; Leftovers</a></h2>
 <ul class="cards"><li><a href="/blog/posts/kitchen-gadgets-under-30-leftovers/"><img src="/blog/images/ayindeabdulmajeed44-spaghetti.jpg" alt="" loading="eager">

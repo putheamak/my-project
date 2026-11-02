@@ -91,9 +91,25 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
-.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
-.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
-.reader-tips p{margin:0}
+.reader-tips{margin-top:36px;padding:20px;border:2px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.25rem;margin:0 0 6px}
+.reader-tips p{margin:0 0 12px}
+.reader-tips form{display:grid;gap:12px}
+.tip-kind{border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.tip-choice{display:flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-weight:600}
+.tip-choice span{font-size:1.4rem}
+.tip-choice input{position:absolute;opacity:0;pointer-events:none}
+.tip-choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.tip-more{display:grid;gap:12px}
+.tip-more[hidden]{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tip-jump{margin:4px 0 20px}
+.tip-jump a{font-weight:600}
+.tip-field{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.tip-field textarea,.tip-field input{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);width:100%;box-sizing:border-box}
+.tip-ok{display:flex;gap:8px;align-items:flex-start;font-size:.95rem}
+.tip-send{justify-self:start;font:inherit;font-weight:700;padding:11px 22px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+.tip-small{font-size:.85rem;color:var(--muted);margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -115,7 +131,7 @@ footer.site a{color:var(--muted)}
 <p>When you click a link to Amazon or another retailer, that site may set cookies to track the referral, as described in its own privacy policy. As a participant in the Amazon Services LLC Associates Program, this site links to Amazon, and Amazon may collect information about your visit.</p>
 <p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>
 <p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>
-<p>If you email me, I use your address only to reply. I never share it, and I only quote your tip on the blog if you say I may.</p>
+<p>If you send a tip through the form under a post (delivered by FormSubmit) or email me, I use your details only to read and reply. I never share your email, and I only quote your tip on the blog, with your first name, if you tick the box that says I may.</p>
 <p>Questions? Contact Mak through the channels listed on the About page.</p>
 </div></main>
 <footer class="site"><div class="wrap">

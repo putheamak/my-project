@@ -92,9 +92,25 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
-.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
-.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
-.reader-tips p{margin:0}
+.reader-tips{margin-top:36px;padding:20px;border:2px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.25rem;margin:0 0 6px}
+.reader-tips p{margin:0 0 12px}
+.reader-tips form{display:grid;gap:12px}
+.tip-kind{border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.tip-choice{display:flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-weight:600}
+.tip-choice span{font-size:1.4rem}
+.tip-choice input{position:absolute;opacity:0;pointer-events:none}
+.tip-choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.tip-more{display:grid;gap:12px}
+.tip-more[hidden]{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tip-jump{margin:4px 0 20px}
+.tip-jump a{font-weight:600}
+.tip-field{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.tip-field textarea,.tip-field input{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);width:100%;box-sizing:border-box}
+.tip-ok{display:flex;gap:8px;align-items:flex-start;font-size:.95rem}
+.tip-send{justify-self:start;font:inherit;font-weight:700;padding:11px 22px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+.tip-small{font-size:.85rem;color:var(--muted);margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -122,6 +138,7 @@ footer.site a{color:var(--muted)}
 <div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For &quot;is the chicken done?&quot;</span><span class="pk-name">TempSwift instant-read thermometer</span><a class="pk-btn" href="https://amzn.to/3TK8QH9" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3TK8QH9" data-goatcounter-title="TempSwift instant-read thermometer">Check price on Amazon</a></li><li><span class="pk-label">For garlic in every dinner</span><span class="pk-name">Zulay large garlic press</span><a class="pk-btn" href="https://amzn.to/4zhnyoi" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4zhnyoi" data-goatcounter-title="Zulay large garlic press">Check price on Amazon</a></li><li><span class="pk-label">For fast, even veggie slices</span><span class="pk-name">Fullstar handheld mandoline and julienne cutter</span><a class="pk-btn" href="https://amzn.to/3TnKSkW" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3TnKSkW" data-goatcounter-title="Fullstar handheld mandoline and julienne cutter">Check price on Amazon</a></li><li><span class="pk-label">For cooking from Sunday prep</span><span class="pk-name">PrepNaturals glass meal prep containers</span><a class="pk-btn" href="https://amzn.to/4rUytBF" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4rUytBF" data-goatcounter-title="PrepNaturals glass meal prep containers">Check price on Amazon</a></li></ul></div>
 <h2 id="try-this-tonight">Try this tonight: let the chicken rest</h2>
 <ol><li>Take the chicken off the heat once the thickest part hits 165°F, or shows no pink when you cut into it (a thermometer saves you that cut).</li><li>Move it to a plate, cover it loosely with foil and leave it alone for 5 minutes while you finish the sides.</li><li>Then slice. The juices stay in the meat instead of running across the board.</li></ol>
+<p class="tip-jump"><a href="#share-your-tip">Tried it tonight? Tell me how it went ↓</a></p>
 <h2>Which tools save the most time while I chop?</h2>
 <p>Prep is where a quick dinner gets slow.</p>
 <p><strong>Garlic:</strong> the <a href="https://amzn.to/4zhnyoi" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4zhnyoi" data-goatcounter-title="Zulay large garlic press">Zulay large garlic press</a> turns a clove into minced garlic in one squeeze, so you skip the peel-smash-mince routine. It comes with a peeler and a cleaning brush, and a press that's easy to clean is one you'll actually reach for. Skip it if you mostly cook with jarred garlic.</p>
@@ -145,7 +162,32 @@ footer.site a{color:var(--muted)}
 <h3>Will these fit in a small kitchen?</h3>
 <p>The press, shears, thermometer and handheld mandoline all fit in one drawer. The salad spinner, grater and containers need cabinet space, so start with the drawer tools if room is tight.</p>
 <p>Start with the thermometer, then add the tool that fixes your slowest step. If doneness is your worry, our <a href="https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-cooking-without-guesswork/" rel="noopener" target="_blank">cooking without guesswork picks</a> go further. Check the current price on Amazon before you order.</p>
-<aside class="reader-tips"><h2>Used one of these?</h2><p>Tell me what worked, what didn't, or share a kitchen tip of your own: <a href="mailto:rithrothinak@gmail.com">rithrothinak@gmail.com</a>. With your permission, I may share your tip on the blog (first name only, or "a reader").</p></aside>
+<aside class="reader-tips" id="share-your-tip">
+<h2>Tried tonight's tip (let the chicken rest)?</h2>
+<p>One tap is enough. Real kitchens beat any listing, and the most useful tips get added to this post.</p>
+<form action="https://formsubmit.co/rithrothinak@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Reader tip: Kitchen Gadgets Under $30 That Get Weeknight Dinner Done Faster">
+<input type="hidden" name="post" value="https://homepicksunder30.com/blog/posts/best-kitchen-gadgets-fast-weeknight-dinners/">
+<input type="hidden" name="_next" value="https://homepicksunder30.com/blog/thanks/">
+<input type="hidden" name="_template" value="box">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<fieldset class="tip-kind"><legend class="sr-only">How did it go?</legend>
+<label class="tip-choice"><input type="radio" name="result" value="It worked"><span>👍</span>It worked</label>
+<label class="tip-choice"><input type="radio" name="result" value="Not for me"><span>🤔</span>Not for me</label>
+<label class="tip-choice"><input type="radio" name="result" value="I do it differently"><span>💡</span>I do it differently</label>
+<label class="tip-choice"><input type="radio" name="result" value="I have a question"><span>❓</span>I have a question</label>
+</fieldset>
+<div class="tip-more">
+<label class="tip-field">Tell me a little more<textarea name="message" rows="3" maxlength="2000" placeholder="What happened, or what's your trick? One line is plenty."></textarea></label>
+<label class="tip-field">First name (optional)<input type="text" name="first_name" maxlength="40" autocomplete="given-name"></label>
+<label class="tip-field">Email (optional, only if you'd like a reply)<input type="email" name="email" maxlength="120" autocomplete="email"></label>
+<label class="tip-ok"><input type="checkbox" name="may_share" value="Yes, you may share my tip with my first name"> Add my tip to this post (first name only)</label>
+<button type="submit" class="tip-send" data-goatcounter-click="reader-tip-sent" data-goatcounter-title="best-kitchen-gadgets-fast-weeknight-dinners">Send</button>
+<p class="tip-small">No account needed. I read every message, never share your email, and only quote you if you tick the box.</p>
+</div>
+</form>
+</aside>
+<script>(function(){var f=document.querySelector("#share-your-tip form");if(!f)return;var m=f.querySelector(".tip-more");m.hidden=true;f.addEventListener("change",function(e){if(e.target.name==="result"){m.hidden=false;var t=f.querySelector("textarea");if(t)t.focus({preventScroll:true})}})})();</script>
 <section class="related">
 <h2>More in <a href="/blog/topics/weeknight-dinners/">Easy Weeknight Dinner Gadgets</a></h2>
 <ul class="cards"><li><a href="/blog/posts/hands-off-kitchen-gadgets-under-30/"><img src="/blog/images/hands-off-kitchen-gadgets-under-30-cover.jpg" alt="" loading="eager">

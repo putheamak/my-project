@@ -92,9 +92,25 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
-.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
-.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
-.reader-tips p{margin:0}
+.reader-tips{margin-top:36px;padding:20px;border:2px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.25rem;margin:0 0 6px}
+.reader-tips p{margin:0 0 12px}
+.reader-tips form{display:grid;gap:12px}
+.tip-kind{border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.tip-choice{display:flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-weight:600}
+.tip-choice span{font-size:1.4rem}
+.tip-choice input{position:absolute;opacity:0;pointer-events:none}
+.tip-choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.tip-more{display:grid;gap:12px}
+.tip-more[hidden]{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tip-jump{margin:4px 0 20px}
+.tip-jump a{font-weight:600}
+.tip-field{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.tip-field textarea,.tip-field input{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);width:100%;box-sizing:border-box}
+.tip-ok{display:flex;gap:8px;align-items:flex-start;font-size:.95rem}
+.tip-send{justify-self:start;font:inherit;font-weight:700;padding:11px 22px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+.tip-small{font-size:.85rem;color:var(--muted);margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -123,6 +139,7 @@ footer.site a{color:var(--muted)}
 <div class="picks"><p class="picks-title">Quick picks</p><ul><li><span class="pk-label">For the person who cooks every night</span><span class="pk-name">Microplane Premium Classic zester</span><a class="pk-btn" href="https://amzn.to/4scC2Df" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4scC2Df" data-goatcounter-title="Microplane Premium Classic zester">Check price on Amazon</a></li><li><span class="pk-label">For the holiday baker</span><span class="pk-name">3-pack stainless steel whisk set</span><a class="pk-btn" href="https://amzn.to/3VPQrcB" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3VPQrcB" data-goatcounter-title="3-pack stainless steel whisk set">Check price on Amazon</a></li><li><span class="pk-label">For the desk-lunch packer</span><span class="pk-name">unwasted reusable silicone stretch lids (7-pack)</span><a class="pk-btn" href="https://amzn.to/4zDoF1v" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4zDoF1v" data-goatcounter-title="unwasted reusable silicone stretch lids (7-pack)">Check price on Amazon</a></li><li><span class="pk-label">For parents and grandparents</span><span class="pk-name">Otstar jar opener</span><a class="pk-btn" href="https://amzn.to/4k2Gx1c" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4k2Gx1c" data-goatcounter-title="Otstar jar opener">Check price on Amazon</a></li></ul></div>
 <h2 id="try-this-tonight">Try this tonight: pack a stocking that looks planned</h2>
 <ol><li>Put the longest pieces in first, like the spatula set or the whisks, handles up so they peek out of the top.</li><li>Tuck a lemon or a few whole nutmegs next to the Microplane, so they can use it the same morning.</li><li>Fill the toe with the smallest things, such as the pinch bowls, and stick a note on each one saying what it's for.</li></ol>
+<p class="tip-jump"><a href="#share-your-tip">Tried it tonight? Tell me how it went ↓</a></p>
 <h2>What goes in a stocking for the everyday cook?</h2>
 <p><img src="/blog/images/stocking-stuffers-for-people-who-cook-1.jpg" alt="Hands zesting a lemon over a cutting board" loading="lazy" decoding="async"></p>
 <ul><li><a href="https://amzn.to/4scC2Df" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/4scC2Df" data-goatcounter-title="Microplane Premium Classic zester">Microplane Premium Classic zester</a>: the long, thin grater for lemon zest, parmesan, garlic, ginger and nutmeg. <strong>Already have one?</strong> Most kitchens have a box grater, but its small holes tend to tear zest and clog. A rasp grater shaves off just the colored peel and turns hard cheese into fluffy strands, so it's still welcome next to a box grater.</li><li><a href="https://amzn.to/47xBjTR" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/47xBjTR" data-goatcounter-title="Norpro silicone mini pinch bowls (set of 4)">Norpro silicone mini pinch bowls (set of 4)</a>: tiny bowls for measured spices, minced garlic or a little dipping sauce, so everything is ready before the pan is hot. Skip them if their counter is already full of prep bowls.</li><li><a href="https://amzn.to/3U0lba7" rel="sponsored nofollow noopener" target="_blank" data-goatcounter-click="https://amzn.to/3U0lba7" data-goatcounter-title="ChefAide 5-piece silicone spatula set">ChefAide 5-piece silicone spatula set</a>: for scraping pans, folding batter and getting the last of the sauce out of the pot. A good swap for one worn, stained spatula.</li></ul>
@@ -144,7 +161,32 @@ footer.site a{color:var(--muted)}
 <p>That depends on the product, so check each Amazon listing. As a general rule, a meat thermometer's electronic part shouldn't be submerged.</p>
 <h2>Ready to fill a stocking?</h2>
 <p>Pick the bundle that matches the person, check the current price on Amazon, and check the delivery date Amazon shows before you order. For the coffee drinker on your list, see <a href="https://homepicksunder30.com/blog/posts/gifts-coffee-lover-under-30/" rel="noopener" target="_blank">gifts for coffee lovers under $30</a>, and for bigger gifts, my <a href="https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/" rel="noopener" target="_blank">kitchen gifts under $30 guide</a>.</p>
-<aside class="reader-tips"><h2>Used one of these?</h2><p>Tell me what worked, what didn't, or share a kitchen tip of your own: <a href="mailto:rithrothinak@gmail.com">rithrothinak@gmail.com</a>. With your permission, I may share your tip on the blog (first name only, or "a reader").</p></aside>
+<aside class="reader-tips" id="share-your-tip">
+<h2>Tried tonight's tip (pack a stocking that looks planned)?</h2>
+<p>One tap is enough. Real kitchens beat any listing, and the most useful tips get added to this post.</p>
+<form action="https://formsubmit.co/rithrothinak@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Reader tip: Stocking Stuffers for People Who Cook: 4 Grab-and-Go Bundles, Each Item Under $30">
+<input type="hidden" name="post" value="https://homepicksunder30.com/blog/posts/stocking-stuffers-for-people-who-cook/">
+<input type="hidden" name="_next" value="https://homepicksunder30.com/blog/thanks/">
+<input type="hidden" name="_template" value="box">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<fieldset class="tip-kind"><legend class="sr-only">How did it go?</legend>
+<label class="tip-choice"><input type="radio" name="result" value="It worked"><span>👍</span>It worked</label>
+<label class="tip-choice"><input type="radio" name="result" value="Not for me"><span>🤔</span>Not for me</label>
+<label class="tip-choice"><input type="radio" name="result" value="I do it differently"><span>💡</span>I do it differently</label>
+<label class="tip-choice"><input type="radio" name="result" value="I have a question"><span>❓</span>I have a question</label>
+</fieldset>
+<div class="tip-more">
+<label class="tip-field">Tell me a little more<textarea name="message" rows="3" maxlength="2000" placeholder="What happened, or what's your trick? One line is plenty."></textarea></label>
+<label class="tip-field">First name (optional)<input type="text" name="first_name" maxlength="40" autocomplete="given-name"></label>
+<label class="tip-field">Email (optional, only if you'd like a reply)<input type="email" name="email" maxlength="120" autocomplete="email"></label>
+<label class="tip-ok"><input type="checkbox" name="may_share" value="Yes, you may share my tip with my first name"> Add my tip to this post (first name only)</label>
+<button type="submit" class="tip-send" data-goatcounter-click="reader-tip-sent" data-goatcounter-title="stocking-stuffers-for-people-who-cook">Send</button>
+<p class="tip-small">No account needed. I read every message, never share your email, and only quote you if you tick the box.</p>
+</div>
+</form>
+</aside>
+<script>(function(){var f=document.querySelector("#share-your-tip form");if(!f)return;var m=f.querySelector(".tip-more");m.hidden=true;f.addEventListener("change",function(e){if(e.target.name==="result"){m.hidden=false;var t=f.querySelector("textarea");if(t)t.focus({preventScroll:true})}})})();</script>
 <section class="related">
 <h2>More in <a href="/blog/topics/gift-ideas/">Kitchen Gift Ideas Under $30</a></h2>
 <ul class="cards"><li><a href="/blog/posts/gifts-for-mom-who-loves-to-cook/"><img src="/blog/images/gifts-for-mom-who-loves-to-cook-cover.png" alt="" loading="eager">
