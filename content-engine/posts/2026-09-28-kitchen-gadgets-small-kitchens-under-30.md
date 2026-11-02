@@ -59,6 +59,13 @@ Plenty of people don't know a [roll-up dish drying rack](https://amzn.to/4zdWGFw
 
 The [HOVER COVER magnetic splatter cover](https://amzn.to/4dnPuye) sticks to the inside top of the microwave between uses, so it never takes up a drawer or a cabinet shelf. Skip it if your microwave interior isn't magnetic.
 
+### What to look for in small kitchen gadgets
+
+- **It folds, nests or hangs:** the best small-kitchen tools shrink when you're done. Collapsible, stackable or magnetic designs free up drawers and shelves.
+- **Measurements that fit your space:** sinks, drawers and microwaves vary a lot, especially in rentals. Measure before you order anything that spans a sink or sits inside the microwave.
+- **One tool doing a bigger tool's job:** a stick blender instead of a blender jar, or a thin mat instead of a heavy board, saves real room.
+- **Easy to put away:** if a tool is a hassle to store, it ends up living on the counter.
+
 ### Quick comparison
 
 | Product | Best for | Skip it if |

@@ -66,6 +66,13 @@ A frother does step three in the mug with no splashing, which is why it makes a 
 
 **Main pick:** the [mini electric cotton candy maker](https://amzn.to/4rXHZEa). It's the one the kids will try to steal, and an adult should run it. Check the price against your exchange limit before you buy; small appliances move around a lot.
 
+### What to look for in a white elephant gift
+
+- **Makes sense in two seconds:** the best gifts are understood the moment the paper comes off, with no explanation needed.
+- **Works for anyone:** in an office exchange, pick something useful whatever the person's cooking skill or kitchen size.
+- **A little fun:** a gift that gets a laugh and still gets used is the one people want to steal.
+- **Fits the limit:** small appliance prices move around a lot. Check the current price against your group's limit before you buy.
+
 ### How do these gift exchange picks compare?
 
 | Gift | Best exchange | Skip it if |
@@ -80,6 +87,12 @@ A frother does step three in the mug with no splashing, which is why it makes a 
 | [Kernel Season's seasonings](https://amzn.to/4y6l5Md) | Add-on to the popper | It would be the whole gift |
 | [Scizza pizza scissors](https://link.amazon/B0aVv2wF3) | Pizza-night households | It's over your limit |
 | [Cotton candy maker](https://amzn.to/4rXHZEa) | Family with kids | It's over your limit |
+
+### What I left out, and why
+
+- **Mini waffle makers, donut makers and sandwich makers:** good gifts, but they're already in my other gift guides, so this list sticks to fresher ideas.
+- **Joke gifts with no use:** they get a laugh and then a drawer. Every pick here gets used after the party.
+- **Anything sharp or easily broken:** a gift exchange gets passed around, so I skipped knife sets and fragile glassware.
 
 ### Frequently asked questions
 

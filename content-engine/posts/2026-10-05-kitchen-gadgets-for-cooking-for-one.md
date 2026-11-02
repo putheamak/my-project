@@ -55,6 +55,13 @@ For eggs on the stove, the [SENSARTE 8-inch ceramic nonstick frying pan](https:/
 
 On rushed mornings, the [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) is designed to make round egg patties that fit an English muffin. Skip it if you only eat eggs on weekends, when the pan does the job.
 
+### What to look for in gadgets for cooking for one
+
+- **One- or two-portion capacity:** a 2-cup rice cooker or an 8-inch pan cooks what one person eats, without a week of the same leftovers.
+- **Small storage size:** compact tools are easier to keep out of the way in a small cabinet or drawer.
+- **More than one meal:** a tool that covers lunch and dinner, or several kinds of breakfast, earns its spot faster than a one-trick gadget.
+- **Easy cleanup:** fewer, smaller parts mean less washing. Check the care instructions, since nonstick surfaces often last longer with hand washing.
+
 ### How do these gadgets compare?
 
 | Product | Best for | Skip it if |

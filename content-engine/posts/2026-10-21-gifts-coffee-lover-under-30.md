@@ -66,6 +66,13 @@ I haven't used these myself. I picked them from the listings for how they brew, 
 
 **To keep those grounds fresh:** the [Coffee Gator 16 oz airtight coffee canister](https://amzn.to/3U4cLyM). It's made to seal beans or grounds on the counter. Skip it if they buy pre-ground coffee in small bags and use it up fast.
 
+### What to look for in a coffee gift
+
+- **Their brewing method:** latte drinkers, pour-over fans and Keurig owners need different tools. If you don't know how they brew, a travel mug works with any method.
+- **Outlet or no outlet:** a hand grinder or a stovetop kettle needs no plug, while a mug warmer does. Think about where they'll use it.
+- **How much coffee they make:** a manual grinder suits one or two cups at a time, not a full pot every morning.
+- **Compatibility:** check that a kettle works on their cooktop, such as induction, and that reusable pods fit their machine model.
+
 ### How do these coffee gifts compare?
 
 | Product | Best for | Skip it if |

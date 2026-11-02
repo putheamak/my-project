@@ -55,6 +55,13 @@ This kit suits dorms, office kitchens and anyone who won't wash a pan before wor
 
 **The pour:** warm the milk, froth it in the [De'Longhi 12 oz stainless steel frothing jug](https://amzn.to/3ViQJsn), then pour it over the coffee. Skip the jug if you're happy frothing straight in your mug.
 
+### What to look for in coffee-shop breakfast gadgets
+
+- **No extra countertop appliance:** microwave tools and handheld gadgets give you the café-style breakfast without a new machine on the counter.
+- **Batch size that matches your mornings:** a 2-egg poacher or a French press for two to four cups suits a small household. A big family may need more.
+- **Clear timing instructions:** microwaves vary in wattage, so look for tools with clear directions and start with the shortest time.
+- **Easy storage:** small tools that live in a drawer are easy to grab on a busy morning.
+
 ### How do the kits compare?
 
 | Product | Best for | Skip it if |

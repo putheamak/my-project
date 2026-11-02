@@ -55,6 +55,13 @@ A [304 stainless steel garlic press](https://amzn.to/4xW41Zr) minces a clove wit
 
 Plenty of home cooks don't know the [Amazon Basics stainless bench scraper](https://amzn.to/4ybHxUs) exists outside a bakery. It's a flat steel blade with a handle that scoops a whole chopped pile off the board and into the pan in one move, instead of chasing bits with the knife edge (which also dulls it). Not worth it if you only chop small amounts.
 
+### What to look for in chopping and prep tools
+
+- **Size that matches your batches:** a small chopper bowl suits one onion, while a grid-style dicer is better for a week of vegetables. Pick the one that fits how much you usually cut.
+- **Fewer parts to wash and store:** every extra blade or insert is one more thing to clean and find room for. Check what comes in the box against your cabinet space.
+- **A grip you like:** peelers and shears come in different shapes, and comfort decides whether you reach for them.
+- **Real safety features:** anything with an open blade should have a hand guard or cover. Use it every time.
+
 ### What order should I buy these in?
 
 1. **Pull chopper.** The single biggest weeknight time saver: start with the [Brieftons pull chopper](https://amzn.to/4AOlfuj).

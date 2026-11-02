@@ -100,6 +100,13 @@ Full guide: [movie night snack gadgets](https://homepicksunder30.com/blog/posts/
 
 Full guide: [gifts for bakers](https://homepicksunder30.com/blog/posts/gifts-for-bakers-under-30/).
 
+### What to look for in kitchen gadgets under $30
+
+- **It fixes a weekly annoyance:** the gadgets worth buying solve something you run into every week, not a once-a-year job.
+- **Start with your biggest problem:** rather than a bundle of single-use tools, pick the one problem that bothers you most and buy for that.
+- **The space it takes up:** check the size against your drawers and counter. Tools that fold flat or fit a drawer are easier to live with.
+- **Easy to clean:** a gadget that's a pain to wash tends to stay in the drawer. Few parts, or parts that wash in the sink, help.
+
 ### All 10 at a glance
 
 | Problem | Pick | Full guide |

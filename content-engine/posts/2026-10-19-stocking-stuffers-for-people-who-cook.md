@@ -61,6 +61,13 @@ I haven't used these myself. I picked them from the listings for stocking-friend
 - [Otstar jar opener](https://amzn.to/4k2Gx1c): grips stubborn jar and bottle lids so they aren't a daily fight. A good fit for anyone with weaker hands or stiff joints.
 - [TempSwift instant-read meat thermometer](https://amzn.to/4zyfuQ5): made to take the guessing out of chicken, pork and the holiday roast. Skip it if they rarely cook meat.
 
+### What to look for in a stocking stuffer gift
+
+- **Small enough to fit:** hand tools, small bowls and flat silicone pieces slide into a stocking. Longer items can poke out of the top.
+- **Something they use every day:** the best picks are tools a cook reaches for daily but rarely replaces, like a worn spatula.
+- **A clear match to the person:** think about how they cook, whether that's baking, packing lunch or wrestling with tight lids.
+- **Easy care:** check each listing for dishwasher guidance, since electronic parts, like a thermometer's, shouldn't be submerged.
+
 ### Quick comparison
 
 | Product | Best for | Skip it if |

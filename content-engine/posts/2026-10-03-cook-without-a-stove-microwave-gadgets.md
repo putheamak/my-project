@@ -65,6 +65,13 @@ A microwave heats food; it doesn't brown it. Burgers come out gray rather than s
 
 And these tools cook for one or two people, so pasta for four is still a stove job.
 
+### What to look for in microwave cooking gadgets
+
+- **A fit for your microwave:** compact and dorm microwaves often have small turntables. Check the listed dimensions against the inside of yours, especially for wider pans.
+- **A lid or cover:** it keeps grease and splatter in the cookware and off the microwave walls, which matters in a shared kitchen.
+- **One clear job:** a tool made for one meal, like eggs or a pressed sandwich, is simple to learn and quick to clean.
+- **Realistic portions:** most microwave cookware is sized for one or two people. Bigger meals are still a stove job.
+
 ### Which no-stove gadget should I get first?
 
 | Product | Best for | Skip it if |

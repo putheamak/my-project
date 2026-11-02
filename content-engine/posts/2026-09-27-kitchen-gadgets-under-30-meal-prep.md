@@ -59,6 +59,13 @@ If bags feel fiddly, the silicone freezer tray below does it in neat blocks.
 
 [Airabc silicone ice cube trays with lids](https://amzn.to/4rP1P4r): smaller cubes for pesto, stock and sauces, so you thaw two tablespoons instead of a whole jar. Skip it if you only freeze full meals; the bigger tray above covers that.
 
+### What to look for in meal prep gadgets
+
+- **Batch size that fits your Sunday:** a small chopper bowl is handy for half an onion but means refills for big batches. Match the size to how much you prep at once.
+- **Containers that match your week:** a set that covers Monday to Friday keeps portions even. Glass resists stains and smells, while plastic is lighter to carry.
+- **Freezer-friendly shapes:** flat or portion-size blocks thaw faster than one deep tub, and you only take out what you need.
+- **Cleanup you'll stick with:** check which parts can go in the dishwasher. Wood boards, for example, need hand washing.
+
 ### Quick comparison
 
 | Product | Best for | Skip it if |

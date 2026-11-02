@@ -72,6 +72,13 @@ The [Contigo Byron 16 oz vacuum-insulated travel mug](https://amzn.to/4yUoaAn) i
 
 For coffee people, grinders, pour-over setups and more, go to the full guide to [gifts for coffee lovers under $30](https://homepicksunder30.com/blog/posts/gifts-coffee-lover-under-30/).
 
+### What to look for in a kitchen gift
+
+- **Everyday use:** a tool they'll reach for every week beats a novelty that ends up in a donation box by spring.
+- **An upgrade, not a duplicate:** think about what they already own. Replacing a slow dial thermometer or a scorched pair of oven mitts is a real upgrade.
+- **A fit for how they cook:** match the gift to their kitchen, whether they bake, pack lunches, cook for one or live in a dorm. Check dorm rules before buying an appliance.
+- **When in doubt, go universal:** tools almost every cook uses, like a thermometer or oven mitts, don't depend on a cooking style or diet.
+
 ### Which gift fits which person?
 
 | Gift | Who it's for | Skip it if |

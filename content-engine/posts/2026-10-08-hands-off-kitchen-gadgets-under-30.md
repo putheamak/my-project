@@ -70,6 +70,13 @@ The [bella 1.5 qt manual slow cooker with 3 heat settings (Surf)](https://amzn.t
 
 Lots of people don't know there's a bowl made just for cooking pasta in the microwave. The [Layron 45 oz microwave ramen and pasta bowl](https://amzn.to/3W7FOBT) is one, and the microwave stops on its own, so you can set the table while it runs and eat from the same bowl.
 
+### What to look for in hands-off kitchen appliances
+
+- **Simple controls:** one button or a dial means you can load it half awake and walk away.
+- **Size that matches your household:** a 2-cup rice cooker suits one or two people, while a 6-cup model covers a few people or a few days of lunches.
+- **Know how it shuts off:** some appliances drop to warm on their own, while manual models keep heating until you switch them off. Check the listing and the manual.
+- **Parts that come out for washing:** a removable pot or filter basket makes cleanup quick at the sink.
+
 ### How do these compare?
 
 | Product | Best for | Skip it if |

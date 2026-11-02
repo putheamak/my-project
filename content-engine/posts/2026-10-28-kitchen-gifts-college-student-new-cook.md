@@ -70,6 +70,13 @@ Check the dorm's rules before you buy anything that heats up. Many allow small a
 
 **For following recipes:** the [cookbook stand](https://amzn.to/4s73AKp) holds a phone, tablet or cookbook upright, so a new cook isn't scrolling with greasy hands.
 
+### What to look for in a dorm or first-kitchen gift
+
+- **What it needs to run:** match the gift to their setup, whether that's a shared microwave, one outlet or a stove.
+- **Dorm rules:** some dorms don't allow appliances that heat up. Check the rules first, or stick to microwave-only tools with no heating element.
+- **Small size:** a first kitchen often means half a counter and one shelf. Compact pieces are easier to live with.
+- **Easy to clean in a small sink:** fewer parts and nonstick or silicone surfaces make washing up quick.
+
 ### How do these picks compare?
 
 | Gift | Needs | Best for | Skip it if |
@@ -84,6 +91,12 @@ Check the dorm's rules before you buy anything that heats up. Many allow small a
 | [ChefAide spatula set](https://amzn.to/3U0lba7) | Nothing | Protecting nonstick pans | They already have silicone tools |
 | [Amazon Basics 1L kettle](https://link.amazon/B0fy6Trhp) | Outlet | Tea, oatmeal, instant noodles | Their dorm bans kettles |
 | [Cookbook stand](https://amzn.to/4s73AKp) | Counter space | Following recipes on a phone | Their counter is tiny |
+
+### What I left out, and why
+
+- **Personal blenders:** popular with students, but the ones I looked at often cost more than this blog's budget.
+- **Full knife sets:** a big set is more than a dorm or first kitchen needs, and some dorms don't allow them.
+- **Hot plates and anything with an open heating element:** many dorms ban them, so I stuck to microwave-friendly and plug-in picks.
 
 ### Frequently asked questions
 

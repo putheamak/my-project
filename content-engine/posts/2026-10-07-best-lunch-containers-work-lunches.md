@@ -57,6 +57,13 @@ Keep the [Quatish stainless steel travel utensil set with case](https://amzn.to/
 
 Planning to cook at work instead? My [microwave gadgets for office lunch](https://homepicksunder30.com/blog/posts/microwave-gadgets-office-lunch/) cover that side.
 
+### What to look for in work lunch containers
+
+- **Compartments that keep food apart:** a divider keeps sauce away from rice or crackers, so lunch isn't soggy by noon.
+- **Sizes that match your week:** a 5-pack fits five days of meal prep, while one box suits packing a single lunch each night.
+- **Microwave guidance you can check:** look at the listing and the symbols on the base before heating. Stainless steel never goes in the microwave.
+- **A bag with a little extra room:** a bag that fits a main, a drink, a snack and slim ice packs keeps the whole lunch together on the commute.
+
 ### Which one should you buy first?
 
 | Product | Best for | Skip it if |

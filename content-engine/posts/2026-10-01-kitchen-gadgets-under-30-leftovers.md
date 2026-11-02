@@ -64,6 +64,13 @@ It's the [meal prep toolkit](https://homepicksunder30.com/blog/posts/kitchen-gad
 
 The [GoodCook microwave steamer](https://amzn.to/4hopeWQ) is the add-on for vegetables, grains and dumplings. It reheats them with a splash of water and steam instead of dry heat. Skip it if you mostly reheat saucy dishes, where the cover alone does the job.
 
+### What to look for in leftover containers and gadgets
+
+- **A lid that seals all the way around:** air is what dries leftovers out. A locking or stretch lid that seals the whole rim beats one that only snaps on at the corners.
+- **Material that fits where it goes:** glass resists stains and smells and goes from fridge to microwave. Plastic is lighter to carry in a work bag.
+- **Portion-size freezing:** trays that freeze single servings let you thaw one meal, not the whole batch.
+- **Care instructions you can live with:** check each listing for microwave, freezer and dishwasher guidance before you buy.
+
 ### Which leftover gadget should you buy first?
 
 | Product | Best for | Skip it if |
