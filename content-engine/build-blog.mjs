@@ -128,9 +128,25 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
 .chips a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);text-decoration:none;font-size:.9rem}
 .chips a:hover{border-color:var(--accent);color:var(--accent)}
-.reader-tips{margin-top:32px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft)}
-.reader-tips h2{font-size:1.1rem;margin:0 0 6px}
-.reader-tips p{margin:0}
+.reader-tips{margin-top:36px;padding:20px;border:2px solid var(--accent);border-radius:12px;background:var(--accent-soft)}
+.reader-tips h2{font-size:1.25rem;margin:0 0 6px}
+.reader-tips p{margin:0 0 12px}
+.reader-tips form{display:grid;gap:12px}
+.tip-kind{border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.tip-choice{display:flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-weight:600}
+.tip-choice span{font-size:1.4rem}
+.tip-choice input{position:absolute;opacity:0;pointer-events:none}
+.tip-choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.tip-more{display:grid;gap:12px}
+.tip-more[hidden]{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tip-jump{margin:4px 0 20px}
+.tip-jump a{font-weight:600}
+.tip-field{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.tip-field textarea,.tip-field input{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);width:100%;box-sizing:border-box}
+.tip-ok{display:flex;gap:8px;align-items:flex-start;font-size:.95rem}
+.tip-send{justify-self:start;font:inherit;font-weight:700;padding:11px 22px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+.tip-small{font-size:.85rem;color:var(--muted);margin:0}
 .related{margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
 .related h2{font-size:1.2rem}
 .related ul{padding-left:20px}
@@ -250,9 +266,52 @@ ${others.length ? postItems(others, { short: true }) : ""}
 
 // Readers' own experience: an invitation under every post (site.json contactEmail).
 const contactEmail = /^[^\s@<>"]+@[^\s@<>"]+\.[a-z]{2,}$/i.test(site.contactEmail || "") ? site.contactEmail : "";
-const tipsInvite = contactEmail
-  ? `<aside class="reader-tips"><h2>Used one of these?</h2><p>Tell me what worked, what didn't, or share a kitchen tip of your own: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>. With your permission, I may share your tip on the blog (first name only, or "a reader").</p></aside>`
-  : "";
+// Readers' own experience: a short form under every post. It posts to FormSubmit
+// (formsubmit.co), which emails each message to site.contactEmail; the first
+// message triggers a one-time activation email the owner must confirm.
+// A small "Tried it?" link at the end of the "Try this tonight" section, pointing to the form.
+const withTipNudge = (html) => {
+  if (!contactEmail) return html;
+  const at = html.indexOf('id="try-this-tonight"');
+  if (at < 0) return html;
+  const next = html.indexOf("<h2", at + 10);
+  const nudge = `<p class="tip-jump"><a href="#share-your-tip">Tried it tonight? Tell me how it went ↓</a></p>\n`;
+  return next < 0 ? html : html.slice(0, next) + nudge + html.slice(next);
+};
+const tipOf = (post) => post.body.match(/^#{2,4} Try this tonight:\s*(.+)$/im)?.[1]?.trim() ?? "";
+const tipsInvite = (post) => {
+  if (!contactEmail) return "";
+  const tip = tipOf(post);
+  const ask = tip ? `Tried tonight's tip (${tip.replace(/\.$/, "")})?` : "Tried one of these?";
+  const choice = (value, icon, text, checked = false) =>
+    `<label class="tip-choice"><input type="radio" name="result" value="${esc(text)}"${checked ? " checked" : ""}><span>${icon}</span>${esc(text)}</label>`;
+  return `<aside class="reader-tips" id="share-your-tip">
+<h2>${esc(ask)}</h2>
+<p>One tap is enough. Real kitchens beat any listing, and the most useful tips get added to this post.</p>
+<form action="https://formsubmit.co/${esc(contactEmail)}" method="POST">
+<input type="hidden" name="_subject" value="Reader tip: ${esc(post.title)}">
+<input type="hidden" name="post" value="${esc(url(`posts/${post.slug}/`))}">
+<input type="hidden" name="_next" value="${esc(url("thanks/"))}">
+<input type="hidden" name="_template" value="box">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<fieldset class="tip-kind"><legend class="sr-only">How did it go?</legend>
+${choice("worked", "👍", "It worked")}
+${choice("not", "🤔", "Not for me")}
+${choice("own", "💡", "I do it differently")}
+${choice("question", "❓", "I have a question")}
+</fieldset>
+<div class="tip-more">
+<label class="tip-field">Tell me a little more<textarea name="message" rows="3" maxlength="2000" placeholder="What happened, or what's your trick? One line is plenty."></textarea></label>
+<label class="tip-field">First name (optional)<input type="text" name="first_name" maxlength="40" autocomplete="given-name"></label>
+<label class="tip-field">Email (optional, only if you'd like a reply)<input type="email" name="email" maxlength="120" autocomplete="email"></label>
+<label class="tip-ok"><input type="checkbox" name="may_share" value="Yes, you may share my tip with my first name"> Add my tip to this post (first name only)</label>
+<button type="submit" class="tip-send" data-goatcounter-click="reader-tip-sent" data-goatcounter-title="${esc(post.slug)}">Send</button>
+<p class="tip-small">No account needed. I read every message, never share your email, and only quote you if you tick the box.</p>
+</div>
+</form>
+</aside>
+<script>(function(){var f=document.querySelector("#share-your-tip form");if(!f)return;var m=f.querySelector(".tip-more");m.hidden=true;f.addEventListener("change",function(e){if(e.target.name==="result"){m.hidden=false;var t=f.querySelector("textarea");if(t)t.focus({preventScroll:true})}})})();</script>`;
+};
 
 // Home page shop (site.json "home"): most visitors type the domain from a video
 // and land here, so put the season's posts, a few picks with Amazon buttons and
@@ -364,8 +423,8 @@ for (const post of posts) {
 <h1>${esc(post.title)}</h1>
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
-${markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => inlinePhoto(src, post.slug) })}
-${tipsInvite}
+${withTipNudge(markdownToHtml(body, { headingShift: 1, imageBase: href(), resolveImage: (src) => inlinePhoto(src, post.slug) }))}
+${tipsInvite(post)}
 ${related(post)}
 </article>`,
     }),
@@ -434,6 +493,8 @@ const simple = (slug, title, description, html) =>
 
 simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}${contactEmail ? `\n<p>Questions, a product you'd like me to look at, or a tip from your own kitchen: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>.</p>` : ""}`);
 
+if (contactEmail) simple("thanks", "Thank you!", "Thanks for sharing your tip", `<p>Your message is on its way. I read every one, and if you ticked the box, your tip may appear in the post soon.</p>\n<p><a href="${href()}">Back to the blog</a></p>`);
+
 simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 <p><strong>${esc(disclosure)}</strong></p>
 <p>Some links on this site are affiliate links. If you click one and buy something, I may earn a small commission at no extra cost to you. This never changes what I write about a product.</p>
@@ -442,7 +503,7 @@ simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 simple("privacy", "Privacy policy", `Privacy policy for ${site.title}`, `
 <p>This site does not use its own cookies and does not collect personal information from visitors.</p>
 <p>When you click a link to Amazon or another retailer, that site may set cookies to track the referral, as described in its own privacy policy. As a participant in the Amazon Services LLC Associates Program, this site links to Amazon, and Amazon may collect information about your visit.</p>
-${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>${contactEmail ? `\n<p>If you email me, I use your address only to reply. I never share it, and I only quote your tip on the blog if you say I may.</p>` : ""}
+${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>${contactEmail ? `\n<p>If you send a tip through the form under a post (delivered by FormSubmit) or email me, I use your details only to read and reply. I never share your email, and I only quote your tip on the blog, with your first name, if you tick the box that says I may.</p>` : ""}
 <p>Questions? Contact ${esc(site.author)} through the channels listed on the About page.</p>`);
 
 write("404.html", page({ title: `Page not found - ${site.title}`, description: "Page not found", canonical: url(), body: `<h1>Page not found</h1><p><a href="${href()}">Go to the home page</a>.</p>` }));
