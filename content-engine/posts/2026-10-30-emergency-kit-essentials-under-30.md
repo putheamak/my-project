@@ -1,7 +1,7 @@
 ---
 title: "Emergency Kit Essentials Under $30: What Governments Recommend and What to Buy"
 seoTitle: "Emergency Kit Essentials Under $30: A Calm, Practical Checklist"
-description: "Emergency kit essentials under $30, based on what the US, UK, EU, Nordic countries and Japan now advise: water, light, power, a radio, warmth, documents and safety."
+description: "Not sure what your emergency kit needs? Emergency kit essentials under $30 based on government advice, the one thing to buy first and a 10-minute check."
 slug: "emergency-kit-essentials-under-30"
 keyword: "emergency kit essentials under $30"
 pinTitle: "Emergency Kit Essentials Under $30 | Water, Light, Radio and Power"

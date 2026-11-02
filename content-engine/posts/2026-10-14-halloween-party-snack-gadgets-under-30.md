@@ -1,7 +1,7 @@
 ---
 title: "Make-Ahead Halloween Party Treats: 6 Kitchen Gadgets Under $30"
 seoTitle: "Kitchen Gadgets for Halloween Party Snacks Under $30"
-description: "Halloween molds, cookie cutters, a chocolate melting pot and candy apple supplies under $30, plus a simple day-before party plan for trick-or-treat night."
+description: "Hosting a Halloween party? Kitchen gadgets for Halloween party snacks under $30, treats you can make the day before, and a 3-step tip for shiny chocolate."
 slug: "halloween-party-snack-gadgets-under-30"
 keyword: "kitchen gadgets for Halloween party snacks under $30"
 pinTitle: "Make-Ahead Halloween Party Treats: 6 Gadgets Under $30"

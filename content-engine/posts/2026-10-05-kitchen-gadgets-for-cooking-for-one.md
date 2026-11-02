@@ -1,7 +1,7 @@
 ---
 title: "Cooking for One: 5 Small Kitchen Gadgets Under $30 That Fit One Person"
 seoTitle: "Kitchen Gadgets for Cooking for One (Under $30)"
-description: "Five small kitchen gadgets under $30 sized for one person: a 2-cup rice cooker, a mini waffle maker, an 8-inch pan, an egg patty maker and a ramen cooker, with who each suits."
+description: "Every recipe makes four servings? Kitchen gadgets for cooking for one, sized for one and under $30, with the one to start with and a rice-freezing tip."
 slug: "kitchen-gadgets-for-cooking-for-one"
 keyword: "kitchen gadgets for cooking for one"
 pinTitle: "5 Kitchen Gadgets for Cooking for One (Under $30)"

@@ -1,7 +1,7 @@
 ---
 title: "Meal Prep Sunday Made Fast: Kitchen Gadgets Under $30 That Do the Boring Work"
 seoTitle: "Meal Prep Gadgets Under $30: Chopper, Containers, Scale"
-description: "Kitchen gadgets under $30 for Sunday meal prep: a pull chopper, glass containers, a scale, freezer trays and a big cutting board, with who each one suits."
+description: "Meal prep eating your whole Sunday? Kitchen gadgets under $30 for meal prep, the one to buy first, a flat-freeze soup tip and a quick comparison table."
 slug: "kitchen-gadgets-under-30-meal-prep"
 keyword: "kitchen gadgets under $30 for meal prep"
 pinTitle: "Meal Prep Sunday Gadgets Under $30 That Do the Boring Work"

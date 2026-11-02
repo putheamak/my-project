@@ -1,7 +1,7 @@
 ---
 title: "Hot Lunch at Your Desk: Microwave Gadgets Under $30 for the Office Break Room"
 seoTitle: "Microwave Lunch Gadgets for Work: Easy Office Meals Under $30"
-description: "Five microwave gadgets under $30 for a hot lunch in the office break room: a pasta bowl, a ramen cooker, a microwave sandwich press, egg molds and a lidded grill pan."
+description: "Break room has only a microwave? Microwave gadgets for office lunch under $30, the one to start with, what to skip if raw meat is banned, and a table."
 slug: "microwave-gadgets-office-lunch"
 keyword: "microwave gadgets for office lunch"
 pinTitle: "Microwave Gadgets That Cook a Real Office Lunch (No Stove)"

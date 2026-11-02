@@ -1,7 +1,7 @@
 ---
 title: "One Oven on Thanksgiving? Gadgets Under $30 for Oven-Free Sides"
 seoTitle: "Small Kitchen Appliances for Thanksgiving Under $30 (One Oven)"
-description: "One small oven and a turkey that fills it? Move one or two sides to a steamer basket and a small slow cooker, check the turkey with a thermometer, and follow a simple day-of timeline."
+description: "Turkey hogging your only oven? Kitchen gadgets for a small kitchen Thanksgiving, under $30, that move sides to the counter, plus a simple day-of timeline."
 slug: "small-kitchen-thanksgiving-gadgets"
 keyword: "kitchen gadgets for a small kitchen Thanksgiving"
 pinTitle: "One Oven on Thanksgiving: Move 1 or 2 Sides to the Counter"

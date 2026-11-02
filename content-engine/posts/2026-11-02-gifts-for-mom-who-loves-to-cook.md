@@ -1,7 +1,7 @@
 ---
 title: "Gifts for Mom Who Loves to Cook: Thoughtful Kitchen Picks Under $30"
 seoTitle: "Kitchen Gifts for Mom Who Loves to Cook (Under $30)"
-description: "Kitchen gifts under $30 for a mom who loves to cook: a comfortable apron, wooden spoons, a windowsill herb planter, a family recipe journal and small upgrades for the spice shelf."
+description: "Shopping for a mom who loves to cook? Gifts for mom who loves to cook under $30, from an apron to a recipe journal, plus a tip to make it personal."
 slug: "gifts-for-mom-who-loves-to-cook"
 keyword: "gifts for mom who loves to cook under $30"
 pinTitle: "Gifts for Mom Who Loves to Cook Under $30 | Apron, Herbs, Recipe Journal"

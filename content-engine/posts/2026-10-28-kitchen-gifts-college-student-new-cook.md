@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Gifts for a College Student or New Cook Under $30: Dorm and First Apartment Picks"
 seoTitle: "Best Kitchen Gifts for a College Student Under $30"
-description: "Kitchen gifts for a college student or new cook under $30, sorted by their setup: a dorm with only a microwave, lunch on the go, a first apartment with a stove, and hot drinks."
+description: "Shopping for a student in a dorm? The best kitchen gifts for a college student under $30, sorted by setup, from microwave-only dorm to first apartment."
 slug: "kitchen-gifts-college-student-new-cook"
 keyword: "best kitchen gifts for a college student under $30"
 pinTitle: "Kitchen Gifts for a College Student Under $30 | Dorm and First Apartment"

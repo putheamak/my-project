@@ -1,7 +1,7 @@
 ---
 title: "Load It and Walk Away: Hands-Off Kitchen Gadgets Under $30"
 seoTitle: "Hands-Off Kitchen Gadgets Under $30: Rice, Slow Cooker, Coffee"
-description: "Hands-off kitchen gadgets under $30 that cook while you shower, work or commute: two rice cookers, a small slow cooker, a 12-cup coffee maker and a microwave pasta bowl."
+description: "No time to stand at the stove? Hands-off kitchen gadgets under $30 that cook while you get ready, a sample morning timeline and which one to start with."
 slug: "hands-off-kitchen-gadgets-under-30"
 keyword: "hands-off kitchen gadgets under $30"
 pinTitle: "Load It and Walk Away: Hands-Off Kitchen Gadgets Under $30"

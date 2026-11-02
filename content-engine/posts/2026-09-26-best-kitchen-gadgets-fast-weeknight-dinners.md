@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Gadgets Under $30 That Get Weeknight Dinner Done Faster"
 seoTitle: "Kitchen Gadgets for Fast Weeknight Dinners (Under $30)"
-description: "One pick per weeknight job: garlic, slicing, grating, cutting, greens, doneness and prep. Small kitchen tools under $30 that cut minutes off dinner."
+description: "Dinner taking too long on weeknights? Kitchen gadgets for fast weeknight dinners, all under $30, with the one to buy first and a quick comparison table."
 slug: "best-kitchen-gadgets-fast-weeknight-dinners"
 keyword: "kitchen gadgets for fast weeknight dinners"
 pinTitle: "Kitchen Gadgets Under $30 for Faster Weeknight Dinners"
