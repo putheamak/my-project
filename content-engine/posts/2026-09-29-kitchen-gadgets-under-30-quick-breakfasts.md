@@ -1,6 +1,6 @@
 ---
 title: "Quick Breakfast Gadgets Under $30: A Sunday Prep, Weekday Grab Routine"
-seoTitle: "Kitchen Gadgets Under $30 for Quick Breakfasts on Busy Mornings"
+seoTitle: "Kitchen Gadgets That Make Breakfast Faster (Under $30)"
 description: "Kitchen gadgets under $30 for quick breakfasts you prep on Sunday: jars for overnight oats, egg bite molds, a mason jar pitcher and egg rings, each picked for one job."
 slug: "kitchen-gadgets-under-30-quick-breakfasts"
 keyword: "kitchen gadgets under $30 for quick breakfasts"

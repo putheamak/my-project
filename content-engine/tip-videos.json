@@ -278,5 +278,16 @@
     "label": "Then add:",
     "product": "A hand-crank radio for news when phones are down",
     "cta": "Emergency kit essentials under $30:"
+  },
+  "gifts-for-mom-who-loves-to-cook": {
+    "hook": "The best gift for mom costs almost nothing?",
+    "steps": [
+      "Ask her to talk you through one family dish",
+      "Write it down, then turn handfuls into amounts",
+      "Copy it neatly with when and why she makes it"
+    ],
+    "label": "Gift idea:",
+    "product": "A blank hardcover journal becomes a family recipe book",
+    "cta": "Gifts for mom who loves to cook, under $30:"
   }
 }
