@@ -118,6 +118,8 @@ Produce today's posting pack as Markdown with exactly these sections:
 - A "### Try this tonight: <short tip>" section with 3 numbered steps: a free, practical cooking or kitchen tip that leads naturally to one of the picks.
 - At most 10 products. Mark one product "**New to many people:**" and add at least one "**Already have one?**" line explaining what the pick does better than the basic version people own.
 - Never promise prices ("all under $30", "this blog's under-$30 promise"); say "check the current price on Amazon".
+- Before the comparison table, a "### What to look for in <product type>" section: 3-4 bullets of general, true buying advice for the category (each a bold short label plus one or two sentences). No invented specs or test results.
+- Optionally a short "### What I left out, and why" section naming product TYPES you chose not to include and the honest reason (too big for a small kitchen, usually over the budget, does the same job as a pick). Never name or criticize specific products that aren't in the product list.
 - Don't repeat the title. Use the primary keyword in the first 100 words.
 - Use only ### subheadings (never # or ##), phrased as the questions buyers search for.
 - Short paragraphs and bullet lists.
