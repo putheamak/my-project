@@ -10,6 +10,17 @@ import { fileURLToPath } from "node:url";
 
 const START = "<!-- compliance:start -->";
 const END = "<!-- compliance:end -->";
+// Amazon links in config.json (the owner's product list). A post linking to an
+// Amazon URL that isn't in the list was probably mistyped or invented by a draft.
+const knownLinks = (() => {
+  try {
+    const cfg = JSON.parse(fs.readFileSync(new URL("./config.json", import.meta.url), "utf8"));
+    return new Set(JSON.stringify(cfg).match(/https?:\/\/(?:amzn\.to|link\.amazon)\/[A-Za-z0-9]+/g) ?? []);
+  } catch {
+    return new Set();
+  }
+})();
+
 const SHORTENER = /^https?:\/\/(?:www\.)?(?:bit\.ly|tinyurl\.com|t\.co|ow\.ly|cutt\.ly|rebrand\.ly|is\.gd|shorturl\.at)\//i;
 
 // FIX = very likely a policy violation. CHECK = a person should look at it.
@@ -91,6 +102,10 @@ export function checkCompliance(rawText, disclosure) {
 
   for (const raw of text.match(/https?:\/\/[^\s)\]>"']+/gi) ?? []) {
     const url = raw.replace(/[.,;:!?]+$/, "");
+    const short = url.match(/^https?:\/\/(?:amzn\.to|link\.amazon)\/[A-Za-z0-9]+/)?.[0];
+    if (short && knownLinks.size && !knownLinks.has(short)) {
+      issues.push({ level: "FIX", found: url, message: "Amazon link not in your product list (config.json). It may be mistyped or invented; use the exact link the owner sent." });
+    }
     if (!/^https?:\/\/(?:[\w-]+\.)*(?:amazon\.[a-z.]+|amzn\.to|link\.amazon)\//i.test(url) && !SHORTENER.test(url)) {
       issues.push({ level: "CHECK", found: url, message: "Non-Amazon link. Make sure it's yours and not disguising an affiliate link." });
     }
