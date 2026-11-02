@@ -66,6 +66,13 @@ Melting is where things go wrong, and a lot of people don't know there's a littl
 - Plate the chocolates and cookies.
 - Set the bagged candy apples by the door as take-home treats.
 
+### What to look for in Halloween party snack gadgets
+
+- **Flexible silicone molds:** silicone bends, so you can push each shape out from the back and keep small details sharp. Rigid trays mean prying.
+- **Make-ahead friendly:** pick tools for chocolates, cookies or candy apples that hold well overnight, so party night is just setting out trays.
+- **Gentle, steady heat for chocolate:** a small melting pot or short microwave bursts with stirring keep chocolate smooth for molds and dipping.
+- **Jobs kids can help with:** piping, decorating and bagging are kid-friendly. Anything hot stays with an adult.
+
 ### Which Halloween gadget should you pick?
 
 | Product | Best for | Skip it if |

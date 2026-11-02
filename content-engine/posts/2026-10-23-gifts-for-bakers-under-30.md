@@ -71,6 +71,13 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 
 **Main pick:** the [Dash Express mini donut maker](https://amzn.to/4hRGJxR). It makes 7 small donuts at a time on the counter, no oven needed, which makes it a good family gift. For donut ideas with kids, see [weekend baking with kids](https://homepicksunder30.com/blog/posts/kitchen-gadgets-treats-with-kids/).
 
+### What to look for in a baking gift
+
+- **Things they use every batch:** mats, scoops and mitts wear out with regular baking, so a fresh set rarely goes to waste.
+- **Their kind of baking:** a cookie baker, a cake decorator and a bread baker want very different tools. Match the gift to what they bake most.
+- **Reusable over disposable:** a silicone mat lines the pan like parchment, then gets washed and used again.
+- **Heat protection you can check:** for oven mitts, look for a listed heat-resistance rating and a surface that wipes clean.
+
 ### How do these baking gifts compare?
 
 | Gift | Best for | Skip it if |
@@ -85,6 +92,12 @@ If the batch comes out even and round, the scoops below make it the easy way eve
 | [Banneton proofing baskets (2-pack)](https://link.amazon/B0ggIqzzC) | Sourdough and round loaves | They bake only in loaf pans |
 | [GORILLA GRIP oven mitts](https://amzn.to/47p2NLi) | Anyone with worn mitts | They bought new mitts this year |
 | [Dash mini donut maker](https://amzn.to/4hRGJxR) | Families, fun gifts | They're short on counter space |
+
+### What I left out, and why
+
+- **Cooling racks:** most bakers already own a set, so they make a weaker gift than mats or a scoop.
+- **A chocolate melting pot:** fun, but it gets used a few times a year; I kept the list to tools a baker reaches for every batch.
+- **A stand mixer or bread machine:** well beyond this blog's budget, and most serious bakers already have one.
 
 ### Frequently asked questions
 

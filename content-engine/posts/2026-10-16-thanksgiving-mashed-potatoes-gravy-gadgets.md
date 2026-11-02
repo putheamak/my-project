@@ -66,6 +66,13 @@ No special server needed: a gravy boat you already own or a measuring cup with a
 
 Cooking the turkey too? The USDA says poultry is safe at 165°F, checked with a food thermometer in the thickest part of the breast, the innermost thigh and the wing. My [small-kitchen Thanksgiving post](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) covers the turkey side.
 
+### What to look for in mashed potato and gravy tools
+
+- **The texture you want:** a ricer gives smooth, lump-free mash, while a masher leaves it chunky. Pick based on what your table likes.
+- **Simple, easy-to-clean materials:** stainless steel and silicone tools rinse clean after starchy potatoes and sticky gravy. Check the listing for dishwasher guidance.
+- **A separator that fits the job:** a 4-cup size suits holiday drippings, and a bottom release lets the juices drain while the fat stays behind.
+- **Outlet or no outlet:** a whisk needs no plug, while a stick blender needs a free outlet near the stove and a shaft long enough for your saucepan.
+
 ### Which ones should I buy first?
 
 | Product | Best for | Skip it if |

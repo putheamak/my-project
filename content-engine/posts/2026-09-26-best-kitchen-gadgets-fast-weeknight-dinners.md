@@ -63,6 +63,13 @@ The [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) let you c
 
 Our [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/) go deeper on cooking ahead.
 
+### What to look for in weeknight dinner gadgets
+
+- **It fixes your slowest step:** think about where dinner actually stalls, whether that's mincing, slicing or checking doneness. One tool aimed at that step saves more time than a drawer full of extras.
+- **Easy to clean:** a tool with lots of nooks gets skipped on a tired night. Look for few parts, or a cleaning brush in the box.
+- **Fits where you'll reach for it:** small tools like a press, shears or thermometer can share one drawer. Bulky ones need cabinet space, so check yours first.
+- **A hand guard on sharp tools:** a mandoline or slicer should come with one. Use it every time.
+
 ### Which one should I buy first?
 
 | Product | Best for | Skip it if |

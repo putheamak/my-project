@@ -79,6 +79,13 @@ Use these as starting points and follow each product's manual.
 | [Dash Mini Waffle Maker (4-inch)](https://amzn.to/46Xe9pI) | One custom waffle per kid | You're feeding a crowd fast |
 | [LE TAUCI ramekins with lids](https://amzn.to/4jCK2ez) | Single-serve bakes and leftovers | You never bake desserts |
 
+### What to look for in kid-friendly baking gadgets
+
+- **Small batches and single portions:** mini makers and small pans give each kid their own waffle or a few donuts, which suits short attention spans.
+- **Jobs kids can do away from the heat:** a pan that starts cold lets kids spoon or pipe batter in before an adult puts it in the oven. Hot plates always stay with an adult.
+- **Nonstick surfaces:** nonstick plates and pans are designed to wipe or wash clean easily after a messy morning.
+- **Oven or no oven:** a countertop maker skips the oven, while a donut pan needs it. Pick the one that fits how you like to bake.
+
 ### Frequently asked questions
 
 #### Can my kid use the donut maker or waffle maker alone?

@@ -69,6 +69,13 @@ USDA guidance says poultry is safe at 165°F, measured in the thickest part. Kee
 
 Thanksgiving is Thursday, Nov 26, 2026. Order early and check the delivery date Amazon shows before you order.
 
+### What to look for in small-kitchen Thanksgiving gadgets
+
+- **It frees the oven or a burner:** the most useful tools move a side dish onto the counter, so the oven can stay with the turkey.
+- **A size that matches the side:** a 1.5 qt slow cooker holds one side for a few people. For a big table, plan on it handling one dish, not the meal.
+- **A fast, clear thermometer reading:** an instant-read model lets you check several spots quickly. Poultry is safe at 165°F in the thickest part.
+- **Outlets you can plan around:** use outlets on different walls when you can, and stagger start times.
+
 ### Quick comparison
 
 | Product | Best for | Skip it if |

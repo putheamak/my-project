@@ -72,6 +72,13 @@ That's the start of a kit already. The gadgets below fill the gaps.
 
 The [EVERLIT 250-piece survival first aid kit](https://link.amazon/B003jUnYZ) costs more than the other picks on this blog. We've included it because a complete first aid kit is one of the most important parts of any emergency kit, and this one is sold as a large survival kit. Check the current price on Amazon. Add a week of any prescription medicines your family needs.
 
+### What to look for in emergency kit gadgets
+
+- **Works without mains power:** pick gear that runs on sun, a hand crank, batteries or nothing at all, since a power cut is often why you need it.
+- **One clear job:** each item should cover one need well, like water, light, news or warmth. That makes gaps in the kit easy to spot.
+- **Simple to use in the dark:** few steps and easy controls matter when you're tired or stressed.
+- **Know the limits:** read what a product does and doesn't do. A personal water filter, for example, may not remove viruses or chemicals.
+
 ### How do these emergency kit picks compare?
 
 | Item | Covers | Needs | Note |

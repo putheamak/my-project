@@ -70,6 +70,13 @@ That page is the start of a family recipe book. Write two or three in the journa
 
 **For small portions:** the [LE TAUCI 6 oz ramekins with lids (set of 4)](https://amzn.to/4jCK2ez). Bake a single crumble or custard and store leftovers in the same dish.
 
+### What to look for in a cooking gift for mom
+
+- **Something she'd use every week:** everyday tools like an apron or a set of spoons get more use than a one-off gadget.
+- **A replacement, not more clutter:** look for an upgrade to something worn out, rather than another gadget for a full drawer.
+- **Small comforts:** things she rarely buys for herself, like an apron that doesn't pull on her neck, make a thoughtful gift.
+- **A personal touch:** a gift you add to yourself, like a few family recipes written in a journal, can mean the most.
+
 ### How do these gifts for mom compare?
 
 | Gift | Best for | Skip it if |

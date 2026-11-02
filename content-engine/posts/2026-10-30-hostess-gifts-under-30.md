@@ -66,6 +66,13 @@ Step three is why a cheese knife set makes such a good hostess gift: it gets use
 
 **For pie à la mode:** the [Spring Chef metal ice cream scoop with soft grip handle](https://amzn.to/3VvPdTP). A metal scoop is made for firm ice cream that a plastic spoon bends on.
 
+### What to look for in a hostess gift
+
+- **Useful on an ordinary weeknight:** the best hostess gifts get used long after the party, not just once.
+- **Neutral style:** plain white or simple wood fits any kitchen. Save strongly styled pieces for people whose taste you know.
+- **Little storage space:** most hosts already have full cabinets, so small items are easier to welcome.
+- **Nice enough to hand over at the door:** pick something that looks like a gift on its own, or pairs with food you bring, like a cheese knife set with a wedge of cheese.
+
 ### How do these hostess gifts compare?
 
 | Gift | Best for | Skip it if |
@@ -80,6 +87,12 @@ Step three is why a cheese knife set makes such a good hostess gift: it gets use
 | [Syntus apron](https://amzn.to/3THBWah) | The host who cooks everything | They already wear one daily |
 | [Orblue pie server](https://amzn.to/4zsGrVh) | Dessert hosts | They don't bake pies |
 | [Spring Chef ice cream scoop](https://amzn.to/3VvPdTP) | Pie à la mode fans | They rarely buy ice cream |
+
+### What I left out, and why
+
+- **Candles and decor:** pretty, but personal taste varies, and they rarely get used in the kitchen.
+- **Wine and food gifts:** lovely to bring, but they're not something to choose from a listing, so this guide sticks to tools.
+- **Gadgets already in my other guides:** popcorn poppers, frothers and grinders are great, but I kept this list to things a host uses at the table or the stove.
 
 ### Frequently asked questions
 

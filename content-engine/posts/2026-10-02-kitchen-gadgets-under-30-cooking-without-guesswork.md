@@ -69,6 +69,13 @@ Quite possibly. Oven thermostats drift, and many run hot or cold. Lots of people
 
 **[4-piece digital timer set](https://amzn.to/4hEGDtk).** One countdown per dish, so a phone call doesn't wipe out your only timer when three things are going at once.
 
+### What to look for in kitchen thermometers, scales and timers
+
+- **A display you can read at a glance:** big, clear numbers matter when your hands are full or the oven door is open.
+- **The right tool for the job:** an instant-read thermometer is for quick checks and comes right back out. An oven thermometer is the one made to stay inside.
+- **Capacity and a tare button on a scale:** the scale should handle your heaviest bowl, and tare lets you weigh several ingredients into it.
+- **Easy to clean:** a probe you can wipe after raw meat and a scale you wipe down instead of rinsing keep cleanup quick.
+
 ### How do these compare?
 
 | Product | Best for | Skip it if |

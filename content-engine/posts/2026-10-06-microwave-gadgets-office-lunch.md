@@ -60,6 +60,13 @@ The [microwave omelet and egg patty maker (2 sets)](https://amzn.to/4zeosSc) sha
 
 Many people don't know you can get a grill pan made just for the microwave. The [microwave grill pan with lid (nonstick, for bacon and burgers)](https://amzn.to/47vJjVd) is designed to cook bacon and burger patties with the lid on. That lid is the point: grease stays in the pan, not on the shared turntable. Skip it if your office has a "no cooking raw meat" rule, which some break rooms do.
 
+### What to look for in microwave lunch gadgets
+
+- **A lid or cover:** in a shared microwave, a cover keeps splatter and grease off the walls and turntable your coworkers use next.
+- **Room to boil:** noodles and pasta bubble up as they cook. A roomy container keeps the water from spilling over.
+- **Cook and eat from one container:** fewer pieces means less to rinse at the break room sink.
+- **A size that fits your drawer and the turntable:** check the listed dimensions so it fits your desk drawer or work bag and turns freely in the microwave.
+
 ### How do these compare?
 
 | Product | Best for | Skip it if |

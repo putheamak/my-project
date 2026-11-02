@@ -61,6 +61,13 @@ Only if you serve more than one snack. The [PLASTICPRO 6-section round serving t
 
 Planning a night of making treats with the kids rather than watching? My [kitchen gadgets for treats with kids](https://homepicksunder30.com/blog/posts/kitchen-gadgets-treats-with-kids/) post covers mini waffles, donuts and more.
 
+### What to look for in popcorn makers and snack gadgets
+
+- **Batch size for your usual crowd:** a microwave popper suits one or two people. A larger air popper makes more sense when a group wants refills.
+- **Storage space:** a collapsible bowl folds flat, while an electric popper needs its own spot on a shelf.
+- **Oil and extras:** check the listing to see whether oil is needed, and plan on adding butter or seasoning after popping.
+- **Easy cleaning:** electric bases should never go in water, so look at how the parts come apart before you buy.
+
 ### Which movie night gadget should you buy?
 
 | Product | Best for | Skip it if |

@@ -64,6 +64,13 @@ A [64 oz mason jar pitcher](https://amzn.to/4zdQpd4) handles the drink side: col
 | [64 oz mason jar pitcher](https://amzn.to/4zdQpd4) | Iced coffee or juice made the night before | You drink hot coffee only |
 | [Egg rings with handles](https://amzn.to/4iYMkVd) | Weekend breakfast sandwiches | You never fry eggs |
 
+### What to look for in quick breakfast gadgets
+
+- **Single-serving sizes:** jars, molds and rings sized for one portion make grab-and-go mornings easy. A matching set also means every lid fits.
+- **Make-ahead friendly:** look for tools that let you prep on Sunday and store in the fridge. That's what turns a weekday breakfast into grab, reheat or pour.
+- **Easy release and cleanup:** for eggs, flexible silicone is designed to let go without scraping. Check the listing's care instructions before you count on the dishwasher.
+- **Storage that stacks:** pieces that stack in a cabinet or slip into a drawer suit a small kitchen.
+
 ### Frequently asked questions
 
 #### Do I need both the jars and the egg bite molds?
