@@ -8,8 +8,8 @@ pinTitle: "Gifts for Mom Who Loves to Cook Under $30 | Apron, Herbs, Recipe Jour
 pinDescription: "Gifts under $30 for a mom who loves to cook: a cross-back canvas apron, a bamboo wooden spoon set, a windowsill herb planter, a blank journal to start a family recipe book, a glass olive oil sprayer, a bamboo salt cellar and a spice rack. Thoughtful picks she'll use every week. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-02"
-image: "images/gifts-for-mom-who-loves-to-cook-cover.jpg"
-status: "draft"
+image: "images/gifts-for-mom-who-loves-to-cook-cover.png"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -38,7 +38,7 @@ That page is the start of a family recipe book. Write two or three in the journa
 
 ### What do you give a mom who's always at the stove?
 
-![Gift ideas for a mom who loves to cook](images/gifts-for-mom-who-loves-to-cook-1.jpg)
+![Wooden spoons and spatulas hanging over a stove](images/gifts-for-mom-who-loves-to-cook-2.jpg)
 
 **Main pick:** the [Tosewever canvas cross-back apron with large pockets](https://link.amazon/B0h93HJwn). **Already have one?** Most aprons hang from a strap around the neck, which pulls after an hour of cooking. A cross-back apron's straps cross behind the shoulders instead, so the weight is spread out. Big pockets hold a towel or her phone.
 
@@ -48,17 +48,19 @@ That page is the start of a family recipe book. Write two or three in the journa
 
 ### What do you give a mom who cooks with fresh herbs?
 
+![A bright kitchen with herbs growing on the windowsill](images/gifts-for-mom-who-loves-to-cook-1.jpg)
+
 **Main pick:** the [farmhouse windowsill herb planter with tray](https://link.amazon/B0bVSqZTW). **New to many people:** the potted basil and parsley sold in grocery stores often last much longer when moved into a roomier pot on a sunny windowsill. The planter comes without plants, so add two or three herb plants from the store and it's ready the day she unwraps it.
 
 **For cut herbs in the fridge:** the [Cole & Mason herb keeper](https://amzn.to/4Bfvbxe). It keeps a bunch of parsley or cilantro upright in a little water, for herbs she buys rather than grows.
 
 ### What's the most meaningful gift for mom?
 
-![A gift for mom's kitchen](images/gifts-for-mom-who-loves-to-cook-2.jpg)
-
 **Main pick:** the [PAPERAGE blank hardcover journal (160 pages)](https://link.amazon/B052Kc9HS). It's a plain notebook, which is exactly the point: it becomes a family recipe book. The listing says the pages are thick 100 GSM paper, so pen shouldn't show through. Write the first recipes yourself using the tip above, and leave the rest for her.
 
 ### What helps keep her kitchen organized?
+
+![Spices in wooden spoons on a dark table](images/gifts-for-mom-who-loves-to-cook-3.jpg)
 
 **For the spice shelf:** the [Lifewit 12-inch spice rack](https://amzn.to/4jfGY89). It puts jars on tiers so she can see every label instead of digging through the back of a cabinet.
 
