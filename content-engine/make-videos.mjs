@@ -216,13 +216,14 @@ function renderTip(spec, photos, out) {
     ];
     const scenes = [
       { len: TIP_HOOK, layer: [...panel(980, 620, "black", 0.6), ...at("center", 0, -60), ...caption(900, 420, 0, "white", spec.hook), ...at("center", 0, -110), ...panel(520, 110, ACCENT, 1), ...at("center", 0, 200), ...caption(480, 80, 0, "white", "Do this:"), ...at("center", 0, 200)] },
-      ...spec.steps.map((text, i) => ({ len: TIP_STEP, layer: step(i, text) })),
-      { len: TIP_STEP, layer: [...panel(980, 640, "black", 0.62), ...at("center", 0, 0), ...caption(880, 110, 64, "#fde7d6", spec.label || "Even easier:"), ...at("center", 0, -200), ...caption(880, 360, 0, "white", spec.product), ...at("center", 0, 60)] },
-      { len: TIP_END, layer: [...panel(980, 820, "black", 0.68), ...at("center", 0, 0), ...caption(880, 230, 0, "white", spec.cta), ...at("center", 0, -230), ...panel(920, 140, ACCENT, 1), ...at("center", 0, 0), ...caption(860, 100, 0, "white", domain), ...at("center", 0, 0), ...caption(860, 80, 42, "#fde7d6", "Type it in your browser"), ...at("center", 0, 140), ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 290)] },
+      // Only the first two steps: step 3 and the gadget are on the blog, which gives
+      // viewers a reason to visit instead of getting the whole answer in the video.
+      ...spec.steps.slice(0, 2).map((text, i) => ({ len: TIP_STEP, layer: step(i, text) })),
+      { len: TIP_END + 0.6, layer: [...panel(980, 900, "black", 0.68), ...at("center", 0, 0), ...caption(880, 260, 62, "white", "Step 3 + the gadget that makes it easier:"), ...at("center", 0, -250), ...panel(920, 140, ACCENT, 1), ...at("center", 0, -30), ...caption(860, 100, 0, "white", domain), ...at("center", 0, -30), ...caption(860, 80, 42, "#fde7d6", "Type it in your browser"), ...at("center", 0, 110), ...caption(860, 70, 34, "#fde7d6", spec.cta), ...at("center", 0, 210), ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 320)] },
     ];
     const parts = scenes.map((scene, i) => {
       // Hook on the cover, steps on the section photos, product and end card back on the cover.
-      const photo = i === 0 || i > spec.steps.length ? photos[0] : photos[1 + ((i - 1) % Math.max(1, photos.length - 1))] ?? photos[0];
+      const photo = i === 0 || i > 2 ? photos[0] : photos[1 + ((i - 1) % Math.max(1, photos.length - 1))] ?? photos[0];
       const bg = path.join(dir, `bg${i}.jpg`);
       const layer = path.join(dir, `l${i}.png`);
       const clip = path.join(dir, `c${i}.mp4`);
@@ -260,7 +261,7 @@ function renderTip(spec, photos, out) {
 }
 
 const tipCaption = (post, spec) =>
-  `${spec.hook}\n${spec.steps.map((s, i) => `${i + 1}. ${s}`).join("\n")}\n\nMore tricks + the gadgets: ${domain}\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
+  `${spec.hook}\n${spec.steps.slice(0, 2).map((s, i) => `${i + 1}. ${s}`).join("\n")}\n3. Step 3 + the gadget that makes it easier: ${domain}\n\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
 
 // Text to paste under the video on TikTok, YouTube Shorts or Pinterest.
 const videoCaption = (post) =>
@@ -326,7 +327,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   if (!spec || !manifest[post.slug]) continue;
   const photos = tipPhotos(post, src);
   const tipKey = createHash("sha1")
-    .update(JSON.stringify([VERSION, spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .update(JSON.stringify([VERSION, "tip2", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
     .digest("hex")
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {

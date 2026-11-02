@@ -117,6 +117,7 @@ article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .shop-intro{margin:0 0 12px;color:var(--muted)}
 .disclosure.small{margin:16px 0 0}
 .seen .chips{margin-bottom:8px}
+.seen .chips a{font-size:1rem;padding:9px 15px;background:var(--accent-soft);border-color:var(--accent)}
 .hero{background:var(--accent-soft);border-radius:14px;padding:22px 20px;margin:0 0 22px}
 .hero h1{margin:0 0 .3em}
 .hero p{margin:0;color:var(--muted)}
@@ -271,15 +272,16 @@ ${markdownToHtml(`:::picks\n${picks.map((x) => `- ${x.label}: [${x.name}](${x.ur
 </section>`
     : "";
   const seen = videos.length
-    ? `<section class="seen"><h2 class="sec">Seen one of my videos? Find the post here</h2>
-<ul class="chips">${videos.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul></section>`
+    ? `<section class="seen"><h2 class="sec">Saw one of my videos? Find the full tip here</h2>
+<ul class="chips">${videos.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}${/^#{2,4} Try this tonight/im.test(v.post.body) ? "#try-this-tonight" : ""}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul></section>`
     : "";
   // One evergreen "start here" page for first-time visitors (site.json home.startHere).
   const start = bySlug(home.startHere ?? "");
   const startLine = start
     ? `<p class="shop-intro"><strong>New here?</strong> Start with <a href="${href(`posts/${start.slug}/`)}">${esc(start.title)}</a>.</p>`
     : "";
-  return startLine + shop + seen;
+  // Most visitors type the address after a video, so the video tips come first.
+  return seen + startLine + shop;
 }
 
 // Photos inside a post: a missing file is skipped quietly, so photo spots can be
