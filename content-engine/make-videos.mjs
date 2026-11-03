@@ -261,7 +261,7 @@ function renderTip(spec, photos, out) {
 }
 
 const tipCaption = (post, spec) =>
-  `${spec.hook}\n${spec.steps.slice(0, 2).map((s, i) => `${i + 1}. ${s}`).join("\n")}\n3. Step 3 + the gadget that makes it easier: ${domain}\n\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
+  `${spec.hook}\n${spec.steps.slice(0, 2).map((s, i) => `${i + 1}. ${s}`).join("\n")}\n👉 Step 3 + the gadget that makes it easier: ${domain}\n\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
 
 // Text to paste under the video on TikTok, YouTube Shorts or Pinterest.
 const videoCaption = (post) =>
