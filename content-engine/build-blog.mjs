@@ -266,9 +266,9 @@ ${others.length ? postItems(others, { short: true }) : ""}
 
 // Readers' own experience: an invitation under every post (site.json contactEmail).
 const contactEmail = /^[^\s@<>"]+@[^\s@<>"]+\.[a-z]{2,}$/i.test(site.contactEmail || "") ? site.contactEmail : "";
-// Readers' own experience: a short form under every post. It posts to FormSubmit
-// (formsubmit.co), which emails each message to site.contactEmail; the first
-// message triggers a one-time activation email the owner must confirm.
+// Readers' own experience: a short form under every post. It posts to Web3Forms
+// (Web3Forms, site.web3formsKey; the key is public by design) which emails each
+// message to the owner's address registered with that key.
 // A small "Tried it?" link at the end of the "Try this tonight" section, pointing to the form.
 const withTipNudge = (html) => {
   if (!contactEmail) return html;
@@ -280,7 +280,7 @@ const withTipNudge = (html) => {
 };
 const tipOf = (post) => post.body.match(/^#{2,4} Try this tonight:\s*(.+)$/im)?.[1]?.trim() ?? "";
 const tipsInvite = (post) => {
-  if (!contactEmail) return "";
+  if (!contactEmail || !site.web3formsKey) return "";
   const tip = tipOf(post);
   const ask = tip ? `Tried tonight's tip (${tip.replace(/\.$/, "")})?` : "Tried one of these?";
   const choice = (value, icon, text, checked = false) =>
@@ -288,12 +288,13 @@ const tipsInvite = (post) => {
   return `<aside class="reader-tips" id="share-your-tip">
 <h2>${esc(ask)}</h2>
 <p>One tap is enough. Real kitchens beat any listing, and the most useful tips get added to this post.</p>
-<form action="https://formsubmit.co/${esc(contactEmail)}" method="POST">
-<input type="hidden" name="_subject" value="Reader tip: ${esc(post.title)}">
+<form action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="${esc(site.web3formsKey)}">
+<input type="hidden" name="subject" value="Reader tip: ${esc(post.title)}">
+<input type="hidden" name="from_name" value="${esc(site.title)} reader">
 <input type="hidden" name="post" value="${esc(url(`posts/${post.slug}/`))}">
-<input type="hidden" name="_next" value="${esc(url("thanks/"))}">
-<input type="hidden" name="_template" value="box">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="redirect" value="${esc(url("thanks/"))}">
+<input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
 <fieldset class="tip-kind"><legend class="sr-only">How did it go?</legend>
 ${choice("worked", "👍", "It worked")}
 ${choice("not", "🤔", "Not for me")}
@@ -503,7 +504,7 @@ simple("disclosure", "Affiliate disclosure", "How this site earns money", `
 simple("privacy", "Privacy policy", `Privacy policy for ${site.title}`, `
 <p>This site does not use its own cookies and does not collect personal information from visitors.</p>
 <p>When you click a link to Amazon or another retailer, that site may set cookies to track the referral, as described in its own privacy policy. As a participant in the Amazon Services LLC Associates Program, this site links to Amazon, and Amazon may collect information about your visit.</p>
-${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>${contactEmail ? `\n<p>If you send a tip through the form under a post (delivered by FormSubmit) or email me, I use your details only to read and reply. I never share your email, and I only quote your tip on the blog, with your first name, if you tick the box that says I may.</p>` : ""}
+${site.goatcounter ? `<p>To see which posts people read, this site counts visits with <a href="https://www.goatcounter.com">GoatCounter</a>. It does not use cookies or collect personal information; it records only the page visited, the referring site, and general browser, device and country details.</p>\n` : ""}<p>The site is hosted on GitHub Pages, which may log basic technical information such as IP addresses for security. See GitHub's privacy statement for details.</p>${contactEmail ? `\n<p>If you send a tip through the form under a post (delivered by Web3Forms) or email me, I use your details only to read and reply. I never share your email, and I only quote your tip on the blog, with your first name, if you tick the box that says I may.</p>` : ""}
 <p>Questions? Contact ${esc(site.author)} through the channels listed on the About page.</p>`);
 
 write("404.html", page({ title: `Page not found - ${site.title}`, description: "Page not found", canonical: url(), body: `<h1>Page not found</h1><p><a href="${href()}">Go to the home page</a>.</p>` }));
