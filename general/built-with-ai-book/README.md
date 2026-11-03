@@ -1,7 +1,7 @@
 # Built with AI, No Coding (book project)
 
 A planned Kindle ebook: real business tools a non-programmer built with AI (Telegram booking app,
-auto-blog, video ads, ebook machine). Target (owner, 26 Oct 2026): publish by late 2026 (aim mid-December); add fuller results in a later edition.
+auto-blog, video ads, ebook machine). Target (owner, 3 Nov 2026): publish by mid-November 2026 at the latest (earlier aim was mid-December); add fuller results in a later edition.
 
 ## Files
 | File | What it is |
@@ -56,6 +56,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 3 Nov 2026: owner: survival target = about 25 parcel orders a day (Ch 8 box); 32 app bookings linked to the ads, which promoted both services (Ch 10 text + box); launch moved to mid-November 2026 at the latest (Ch 11 box, $2.99 first weeks then $4.99).
 - 1 Nov 2026: owner checked the ITU press release and saw 96%: restored in Ch 3 with soft wording ("according to the ITU, about 96%").
 - 1 Nov 2026: third-review should-fix items applied: AI statement matches Ch 11 (AI drafted chapters from owner notes → answer "AI-generated: text" at KDP upload); one post a day in the first two weeks; calendar wording; video length "up to about a minute"; paid Reel wording; "three" AI reviews; Middle East paragraph dated October 2026; Grantham "In 2026"; "programme"; notes: Grantham source → GMO, unconfirmed TIME 15 Sept link removed and WSJ interview mentioned, Microsoft UAE/Singapore note fixed. ITU "96%": could not open itu.int from this session (blocked), so text now says "almost all of them"; owner can check the ITU press release and restore 96% if it is there.
 - 1 Nov 2026: third-review must-fix M2–M7 applied (Ch 9 clicks "about 70 by mid-October", "first five weeks", Ch 4 cross-reference removed, Ch 12 videos line, note 3-4 → Chapter 2 note 5, blog name "Home Picks Under $30"). M1 (Ch 1 employer) NOT applied: owner chose to keep the original wording.
@@ -83,14 +84,12 @@ The owner checklists were removed from the chapter files (they are in git histor
 - 26 Oct 2026: full review copy sent (all 13 chapters). Owner will review later; see `assessment-2026-10-26.md`.
 - 26 Oct 2026: owner's voice pass: fewer formal words (precisely, genuinely, therefore), "The principle:" labels cut from 13 to 3, Part One "Why it matters" labels removed, owner's own phrases restored (peaceful than ever; I am a believer; comfort and convenience; the light ahead will grow brighter).
 
-## Plan to publish by late 2026
-| Week | Dates (2026) | Task | Who |
+## Plan to publish by mid-November 2026 (updated 3 Nov 2026)
+| Step | Dates (2026) | Task | Who |
 |---|---|---|---|
-| 1 | 27 Oct – 2 Nov | Check KDP payment from Cambodia (Account → Getting Paid); read the full review copy | Owner |
-| 2 | 3 – 9 Nov | Send review comments; screenshots of the 4 tools; final title and subtitle | Owner → Claude applies |
-| 3 | 10 – 16 Nov | Apply edits; US or British spelling decision; update tracker numbers | Claude + owner |
-| 4 | 17 – 23 Nov | Cover (Canva or a designer); Amazon description, 7 keywords, 2 categories | Owner + Claude |
-| 5 | 24 – 30 Nov | Format the ebook (EPUB), check in Kindle Previewer; 3–5 beta readers | Claude + owner |
-| 6 | 1 – 7 Dec | Final fixes from beta readers; final proofread | Claude + owner |
-| 7 | 8 – 14 Dec | Upload to KDP (AI disclosure, price, Kindle Unlimited); review takes up to 72 hours | Owner |
-| 8 | 15 – 31 Dec | Live on Amazon; share with your network; ask early readers for honest reviews | Owner |
+| 1 | 3 – 7 Nov | Read the final Word copy and send corrections; set up KDP payment and tax interview (Account → Getting Paid) | Owner |
+| 2 | 3 – 7 Nov | Export the cover at 1600 × 2560 and send it for checking; check whether the National AI Strategy is adopted | Owner |
+| 3 | 8 – 9 Nov | Apply corrections, rebuild EPUB, final checks (`check-before-export.sh`, `build-ebook.sh`) | Claude |
+| 4 | 9 – 10 Nov | Open the EPUB in Kindle Previewer; click each link in the Notes once | Owner |
+| 5 | 10 – 11 Nov | Upload to KDP with the launch kit (AI disclosure: text; KDP Select; $2.99) — Amazon review takes up to 72 hours | Owner, with Claude's step-by-step guide |
+| 6 | about 14 Nov | Live on Amazon; share with your network; ask early readers for honest reviews; raise price to $4.99 after 2–3 weeks | Owner |

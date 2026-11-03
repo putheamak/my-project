@@ -380,7 +380,7 @@ What I can already say is this: a small business owner who is not a programmer d
 >
 > - **Live since:** October 2026. The first test booking reached our office Telegram group.
 > - **Bookings received through the app:** 32 in October, our first month in business
-> - **Who booked:** online sellers only, as the app is made for them (our goal is about 25 regular sellers)
+> - **Who booked:** online sellers only, as the app is made for them (our first target, to survive, is about 25 parcel orders a day)
 > - **Running cost:** $0 a month
 >
 > I will update these numbers in every new edition, including the zeros.
@@ -598,8 +598,10 @@ Our first paid ads ran for two days, at $5 a day, when we launched. Facebook's r
 - **2,546 views**, yet only **605** viewers watched for three seconds or longer
 - An average viewing time of **four seconds**
 - **57 clicks** through to our website
-- **No bookings at all**
+- **No bookings at all** during those two days
 - And, unexpectedly, **four applications from people wanting to become riders**
+
+The bookings came later. Our ads promoted both of our services: door-to-door delivery, booked on our website, and pickups for online sellers, booked through the Telegram app. By the end of October, 32 parcels had been booked through the app. I cannot say which ad or post brought each one, but the zero did not stay a zero.
 
 There was more. Most viewers were **men aged 25 to 44**, but the online sellers we most wanted to reach are often **women aged 20 to 40**. And in our longer advertisement, viewers left in large numbers at the seventeenth second, exactly when the video switched from addressing door-to-door customers to addressing online sellers.
 
@@ -650,6 +652,7 @@ Those remain human tasks: understanding the customer, choosing one clear message
 > **Where things stand: 31 October 2026**
 >
 > - **Paid ad test (30 September – 1 October, $5 a day):** 2,546 views, 57 clicks, **0 bookings**, 4 rider applicants
+> - **Bookings through the app by 31 October:** 32 (see Chapter 8). Our ads promoted both services, the website for door-to-door and the app for online sellers
 > - **Videos posted:** 17 Reels on our Facebook page by 31 October, plus 8 posters and QR-code images
 > - **Views:** most Reels reached between about 170 and 400 views without paid promotion; the Reel we paid to promote reached about 2,600, most of them the paid views above
 > - **Extra cost:** $0 beyond the tools in Chapter 5
@@ -763,7 +766,7 @@ Whether the book will sell, I can't say yet. But it has already done something t
 > - **Writing started:** 18 October 2026
 > - **Draft:** 13 chapters, about 26,000 words, checked by three independent AI editorial reviews
 > - **Time spent:** part of the almost two months, 4 to 8 hours a day, that I gave to all four projects (see Chapter 12)
-> - **Planned launch:** mid-December 2026, at $4.99
+> - **Planned launch:** mid-November 2026, at $2.99 for the first weeks, then $4.99
 > - **Copies sold:** 0, as the book is not yet published
 
 
