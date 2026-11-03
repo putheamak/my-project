@@ -1,6 +1,31 @@
 # Smart Kitchen Picks: notes for the next chat
 
-Read this first. Last updated 12 Oct 2026.
+Read this first. Last updated **3 Nov 2026** (end of a long chat; the owner starts a new chat on 4 Nov).
+
+## START HERE (handoff, 3 Nov)
+**Where things stand**
+- **28 posts live** (newest: gifts for mom, 2 Nov; hostess gifts and emergency kit, 30 Oct; college student, 28 Oct; white elephant and the hub `best-kitchen-gadgets-under-30`, 26 Oct; bakers, 23 Oct). **157 products** in `config.json` (every Amazon link in a post must be in this list; compliance flags others as FIX).
+- **Every post has:** "Start here", Quick picks box, "Try this tonight" (heading id `try-this-tonight`), "Already have one?", a "new to many people" pick, "What to look for in …", comparison table, 3 FAQs, a question-style Google description, and the reader tip form. Gift posts also have "What I left out, and why".
+- **Autonomy (item 26):** Claude merges its own PRs once compliance (0 to fix) and the build pass, and improves traffic within Amazon's rules without asking first. The owner supplies product links (`link.amazon/...` from SiteStripe), photos, pins and videos.
+- **Pre-publish scorecard (item 22):** 5 questions scored 1-10; publish only if the average is 8+ and nothing is below 7. Show the scores in each draft review.
+
+**Daily routine with the owner (7-10 AM Cambodia time = US evening)**
+1. Owner says "tasks today": list that date's pins from `pin-queue.json` (runs to **16 Nov**; extend around **13 Nov** with the same teaser style), and send the next tip video file plus its caption (fetch `blog/pins/<slug>-tip.mp4` and the caption from `blog/pins/videos.json` on the gh-pages branch into `dist-blog/share/`, then SendUserFile).
+2. Tip videos are 13 s: hook, steps 1-2, end card "Step 3 + the gadget that makes it easier: homepicksunder30.com". Pinterest video pin link = post URL + `#try-this-tonight`. Tip videos posted so far: Halloween, bakers, white elephant, coffee lover, stocking stuffers, gift guide, mashed potatoes, small-kitchen Thanksgiving, gifts for mom (3 Nov, YouTube + Pinterest). Next: the rest, newest first (college student, hostess, emergency kit, hub, then older posts).
+3. Mon/Wed/Fri drafts (generated 06:17 Cambodia): review, score, give the owner 4 Amazon search keywords for fresh products + 3 photo names (`<slug>-cover.jpg`, `-1.jpg`, `-2.jpg`), wait for links/photos and "go", rewrite in the house pattern, add products to `config.json`, add a `tip-videos.json` entry, publish, merge, then ask the owner to pin design 1. **Never ask the owner to open affiliate links** (their clicks inflate Amazon's report; item 23).
+4. Mondays: ask for GoatCounter (week, with the clicks/events section), Pinterest Analytics (30 days), Search Console Performance (28 days + Queries list) and the Amazon Associates report. Compare each post's score with what readers did (item 22).
+
+**Open items for 4 Nov onward**
+- **TikTok test:** the 0-view posts were "Paid partnership" + a regular song. 3 Nov the owner posted the small-kitchen Thanksgiving tip with disclosure ON first, then a royalty-free/commercial sound. Ask for its view count on 4 Nov; if still 0 after 2 such videos, try "Your brand" instead of "Branded content".
+- **Measure the bridge (item 25)** on Monday 9 Nov. Baseline (Oct 3 - Nov 2): Pinterest 6,350 impressions, 1 outbound click, 0 saves; Google 150 impressions, 3 clicks, average position about 16; GoatCounter about 20 real visits a week (owner's Cambodia visits now excluded by time zone); Amazon 120 clicks in October but mostly the owner's own, 0 orders.
+- **API key** "daily-content-2" expires **24 Nov**: remind the owner around 20 Nov (item 11).
+- **Reader tips:** the Web3Forms form works (tested 3 Nov). When the owner forwards a tip with permission, add it to the post as "A reader's tip" (first name only, never edited to sound better).
+- **Amazon:** 0 sales so far; 3 qualifying sales needed by **30 Mar 2027**. After 3 sales, set up the Product Advertising API for real product photos and prices.
+- **Emergency kit cover** is the first-aid tin photo; swap if the owner uploads a calmer `emergency-kit-essentials-under-30-cover.jpg`.
+- Bing Webmaster Tools: sitemap submitted 26 Oct; check its Search Performance in mid-November.
+
+Older sections below are history; where they conflict with this block, this block wins.
+
 
 ## The project
 - **Blog:** https://homepicksunder30.com/blog/. The affiliate niche is kitchen gadgets under $30, and Amazon Associates is the affiliate program.
@@ -63,7 +88,7 @@ Read this first. Last updated 12 Oct 2026.
    **Pass mark (from 2 Nov):** average 8 or more AND no question below 7; otherwise rewrite before publishing.
    **Readers decide:** every Monday, put each post's score next to what readers did (GoatCounter visits, Amazon link clicks from GoatCounter events, and sales once the owner sees them in Amazon reports). When scores and reader behavior disagree, the readers are right: look at why and adjust the next drafts.
    **Real experience, two honest sources:** (1) the owner's own short "From my kitchen" notes, in their words; (2) readers' experiences, collected through an invitation at the end of posts once the owner sets up a dedicated contact (a blog email or a free form), quoted only with permission and never invented.
-   Reader tip form (2 Nov, replaces the plain email box): under every post, a box asking about that post's own "Try this tonight" tip with 4 one-tap answers (It worked / Not for me / I do it differently / I have a question); the message, first name, optional email and a "may share" box appear after the tap. It posts to Web3Forms (api.web3forms.com, `site.json` `web3formsKey`, public by design; account in the owner's name, 250 free submissions/month) which emails rithrothinak@gmail.com. Switched from FormSubmit on 3 Nov because FormSubmit messages never arrived. Thank-you page: /blog/thanks/. A "Tried it tonight? Tell me how it went" link sits at the end of each tip section. GoatCounter event "reader-tip-sent" counts submissions.
+   Reader tip form (2 Nov, replaces the plain email box): under every post, a box asking about that post's own "Try this tonight" tip with 4 one-tap answers (It worked / Not for me / I do it differently / I have a question); the message, first name, optional email and a "may share" box appear after the tap. It posts to Web3Forms (api.web3forms.com, `site.json` `web3formsKey`, public by design; account in the owner's name, 250 free submissions/month) which emails rithrothinak@gmail.com. Switched from FormSubmit on 3 Nov because FormSubmit messages never arrived. Owner test on 3 Nov arrived in the inbox: working. Thank-you page: /blog/thanks/. A "Tried it tonight? Tell me how it went" link sits at the end of each tip section. GoatCounter event "reader-tip-sent" counts submissions.
    Blog contact email (owner's own, 1 Nov): `site.json` `contactEmail` = rithrothinak@gmail.com. It shows in a "Used one of these?" box under every post, on the About page, and a privacy line. Quote a reader only with their permission, first name or "a reader", never edited to sound better, never invented.
    After the first 3 sales, set up the Amazon Product Advertising API for real product photos and current prices (already planned, item 8).
    Q3 is the weak spot for AI drafts: never invent experience. Raise it with practical cook's details and with short, true notes from the owner's own kitchen when the owner supplies them.
