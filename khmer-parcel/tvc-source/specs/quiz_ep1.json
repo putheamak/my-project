@@ -1,0 +1,12 @@
+{
+  "html": "scenes_quiz.html",
+  "out": "../khmer_parcel_quiz_ep1.mp4",
+  "xfade": 0.3,
+  "audio": "quiz_ep1_music.m4a",
+  "segments": [
+    {"scene": "quiz", "dur": 5.3, "next": "fadewhite"},
+    {"scene": "reveal", "dur": 2.8, "next": "zoomin"},
+    {"scene": "map", "dur": 3.4, "next": "slideup"},
+    {"scene": "end", "dur": 4.2}
+  ]
+}
