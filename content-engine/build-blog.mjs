@@ -352,7 +352,7 @@ ${picksHtml(picks)}` : ""}
   // One evergreen "start here" page for first-time visitors (site.json home.startHere).
   const start = bySlug(home.startHere ?? "");
   const startLine = start
-    ? `<p class="shop-intro"><strong>New here?</strong> Start with <a href="${href(`posts/${start.slug}/`)}">${esc(start.title)}</a>.</p>`
+    ? `<p class="shop-intro"><strong>New here?</strong> Start with my overview of the whole blog: <a href="${href(`posts/${start.slug}/`)}">${esc(start.title)}</a>.</p>`
     : "";
   // Most visitors type the address after a video, so the video tips come first.
   return seen + startLine + shop;
