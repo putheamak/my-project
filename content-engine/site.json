@@ -144,6 +144,129 @@
         "slug": "kitchen-gadgets-treats-with-kids",
         "label": "Baking with kids"
       }
-    ]
+    ],
+    "picksPool": [
+      {
+        "label": "For the holiday roast",
+        "name": "TempSwift instant-read meat thermometer",
+        "url": "https://amzn.to/4zyfuQ5"
+      },
+      {
+        "label": "For coffee lovers",
+        "name": "Handheld milk frother",
+        "url": "https://amzn.to/4hs2w08"
+      },
+      {
+        "label": "For someone who lives alone",
+        "name": "Maxi-Matic 1.5 qt slow cooker",
+        "url": "https://amzn.to/4hBZNBj"
+      },
+      {
+        "label": "For the cookie baker",
+        "name": "Fayomir cookie scoop set (1, 2 and 3 Tbsp)",
+        "url": "https://link.amazon/B0bi7rFO2"
+      },
+      {
+        "label": "For parents and grandparents",
+        "name": "Otstar jar opener",
+        "url": "https://amzn.to/4k2Gx1c"
+      },
+      {
+        "label": "For a gift exchange laugh",
+        "name": "OTOTO Nessie ladle",
+        "url": "https://link.amazon/B0bMjngg8"
+      },
+      {
+        "label": "For everyday cooks",
+        "name": "Microplane Premium Classic zester",
+        "url": "https://amzn.to/4scC2Df"
+      },
+      {
+        "label": "For the commuter",
+        "name": "Contigo Byron 16 oz travel mug",
+        "url": "https://amzn.to/4yUoaAn"
+      },
+      {
+        "label": "For a dorm with only a microwave",
+        "name": "Joseph Joseph M-Cuisine microwave rice cooker",
+        "url": "https://link.amazon/B0hRghGrh"
+      },
+      {
+        "label": "For the cake decorator",
+        "name": "Piping bags and tips set (124 pieces)",
+        "url": "https://amzn.to/4dBeBO5"
+      },
+      {
+        "label": "For the host who cooks every day",
+        "name": "Totally Bamboo salt cellar with swivel lid",
+        "url": "https://link.amazon/B0ddR1nxB"
+      },
+      {
+        "label": "For a family game night",
+        "name": "Nostalgia indoor electric s'mores maker",
+        "url": "https://link.amazon/B07QOKOVS"
+      },
+      {
+        "label": "For mom",
+        "name": "Tosewever canvas cross-back apron",
+        "url": "https://link.amazon/B0h93HJwn"
+      },
+      {
+        "label": "For the desk worker",
+        "name": "Coffee mug warmer with a 12-hour timer",
+        "url": "https://amzn.to/4dKxLRO"
+      },
+      {
+        "label": "For the smoothie-for-breakfast person",
+        "name": "Magic Bullet personal blender",
+        "url": "https://amzn.to/4AQIYKo"
+      },
+      {
+        "label": "For the bread baker",
+        "name": "Superbaking banneton proofing baskets (set of 2)",
+        "url": "https://link.amazon/B0ggIqzzC"
+      },
+      {
+        "label": "For the dinner party host",
+        "name": "Lunar 6-piece cheese knife set",
+        "url": "https://link.amazon/B068TsUT7"
+      },
+      {
+        "label": "For the gadget fan",
+        "name": "Electric salt and pepper grinder set",
+        "url": "https://amzn.to/4i0yiQS"
+      },
+      {
+        "label": "For fresh herbs on the windowsill",
+        "name": "Farmhouse windowsill herb planter with tray",
+        "url": "https://link.amazon/B0bVSqZTW"
+      },
+      {
+        "label": "For one cup, not a full pot",
+        "name": "Elite Gourmet 14 oz single-serve coffee maker",
+        "url": "https://link.amazon/B0dE7VkOL"
+      },
+      {
+        "label": "For lunch on the go",
+        "name": "Crock-Pot 20 oz electric lunch box",
+        "url": "https://link.amazon/B0aXn1ruc"
+      },
+      {
+        "label": "For scorched old oven mitts",
+        "name": "GORILLA GRIP silicone oven mitts",
+        "url": "https://amzn.to/47p2NLi"
+      },
+      {
+        "label": "For a family recipe book",
+        "name": "PAPERAGE blank journal",
+        "url": "https://link.amazon/B052Kc9HS"
+      },
+      {
+        "label": "For the holiday baker",
+        "name": "3-pack stainless steel whisk set",
+        "url": "https://amzn.to/3VPQrcB"
+      }
+    ],
+    "picksPerDay": 6
   }
 }
