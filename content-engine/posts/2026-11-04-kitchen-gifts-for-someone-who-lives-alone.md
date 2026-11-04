@@ -5,7 +5,7 @@ description: "Shopping for someone who lives alone? Kitchen gifts under $30 size
 slug: "kitchen-gifts-for-someone-who-lives-alone"
 keyword: "kitchen gifts for someone who lives alone"
 pinTitle: "Kitchen Gifts for Someone Who Lives Alone | Sized for One, Under $30"
-pinDescription: "Shopping for someone who lives alone? Most kitchen gadgets are made for a family of four. These are sized for one person: a 1.5-quart slow cooker for a small batch of soup, an 8-inch pan for two eggs, lidded ramekins for cook-once-eat-twice, and a personal blender. Each one with who should skip it. Check the current price on Amazon."
+pinDescription: "Shopping for someone who lives alone? Most kitchen gadgets are made for a family of four. These are sized for one person: a 1.5-quart slow cooker for a small batch of soup, an 8-inch pan for two eggs, a 1.5-quart saucepan, lidded ramekins for cook-once-eat-twice, and a personal blender. Each one with who should skip it. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-04"
 image: ""
@@ -47,6 +47,8 @@ Pair it with the [LE TAUCI 6 oz ramekins with lids (set of 4)](https://amzn.to/4
 
 **Main pick:** the [SENSARTE 8-inch ceramic nonstick frying pan](https://amzn.to/4j69CZf). **Already have one?** Most people who live alone own one big frying pan. Two eggs spread thin across a 12-inch pan and overcook at the edges; in an 8-inch pan they stay together as a proper scramble or small omelet. The listing says it works on induction too. Skip it if they already own a small nonstick pan they like.
 
+Pair it with the [SENSARTE 1.5-quart nonstick saucepan with lid](https://link.amazon/B04817yeA), a pot sized for one bowl of oatmeal, one pack of noodles or a can of soup, so they're not boiling water in a big stockpot for a single serving. The listing says the handle stays cool and it works on induction. Skip it if they already own a small saucepan.
+
 **New to many people:** the [microwave egg cooker](https://amzn.to/4htE2C8), a small container for cooking eggs in the microwave with no pan at all. It suits a tiny kitchen, a late dinner, or anyone who'd rather not wash a pan for two eggs. Skip it if they enjoy cooking eggs on the stove.
 
 For the person who drinks breakfast, the [Magic Bullet personal blender](https://amzn.to/4AQIYKo) blends one smoothie in a 22 oz cup they can drink from, so there's no pitcher to wash. Skip it if they don't drink smoothies or shakes; it will sit in a cupboard.
@@ -76,6 +78,7 @@ The [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns a mug o
 |---|---|---|---|
 | [Maxi-Matic 1.5 qt slow cooker](https://amzn.to/4hBZNBj) | Soup and stew for one, hands-off | An outlet and a few hours | They want dinner in ten minutes |
 | [SENSARTE 8-inch nonstick pan](https://amzn.to/4j69CZf) | Two eggs, a small omelet | A stove | They own a small nonstick pan they like |
+| [SENSARTE 1.5-quart saucepan with lid](https://link.amazon/B04817yeA) | Oatmeal, noodles or soup for one | A stove | They already own a small saucepan |
 | [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) | Baking and storing one portion | An oven or fridge | They never keep leftovers |
 | [Microwave egg cooker](https://amzn.to/4htE2C8) | Eggs with no pan | A microwave | They enjoy eggs on the stove |
 | [Magic Bullet personal blender](https://amzn.to/4AQIYKo) | One smoothie in the cup you drink from | An outlet | They don't drink smoothies |
