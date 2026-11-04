@@ -58,6 +58,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 4 Nov 2026: KDP account setup finished: identity, payment by cheque for now (switch to Payoneer US receiving account in about 60 days), tax interview complete (W-8BEN, individual, no treaty → 30% on US royalties, no TIN: "could not/have not obtained"). Next: upload on 10–11 Nov with `kdp-upload-guide.md`.
 - 4 Nov 2026: KDP account created; identity filled. **Cambodia is not in KDP's bank-country list.** Plan: finish the tax interview and publish anyway (royalties are held until a bank is added); get paid through a USD receiving account in the owner's own name (Payoneer once its review is cleared, or Wise if it accepts Cambodian residents); never use a bank country that is not the account's real country.
 - 4 Nov 2026: owner finished the review ("no more comments"). Cover enlarged to 1600 × 2560 (`cover/cover-kdp-1600x2560.jpg`) and used in the EPUB; KDP upload guide written (`kdp-upload-guide.md`).
 - 3 Nov 2026: owner: survival target = about 25 parcel orders a day (Ch 8 box); 32 app bookings linked to the ads, which promoted both services (Ch 10 text + box); launch moved to mid-November 2026 at the latest (Ch 11 box, $2.99 first weeks then $4.99).
