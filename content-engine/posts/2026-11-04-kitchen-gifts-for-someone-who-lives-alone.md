@@ -8,7 +8,7 @@ pinTitle: "Kitchen Gifts for Someone Who Lives Alone | Sized for One, Under $30"
 pinDescription: "Shopping for someone who lives alone? Most kitchen gadgets are made for a family of four. These are sized for one person: a 1.5-quart slow cooker for a small batch of soup, an 8-inch pan for two eggs, a 1.5-quart saucepan, lidded ramekins for cook-once-eat-twice, and a personal blender. Each one with who should skip it. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-04"
-image: "images/kitchen-gifts-for-someone-who-lives-alone-1.jpg"
+image: "images/kitchen-gifts-for-someone-who-lives-alone-cover.jpg"
 status: "published"
 ---
 
@@ -37,11 +37,15 @@ The trick works because the second meal is already decided and portioned. Lidded
 
 ### What do you give someone who skips dinner because it's too much work?
 
+![A bowl of soup for one with a spoon](images/kitchen-gifts-for-someone-who-lives-alone-1.jpg)
+
 **Main pick:** the [Maxi-Matic 1.5 qt electric slow cooker](https://amzn.to/4hBZNBj). A 1.5-quart pot holds a small batch, a couple of bowls of soup or stew, not a family-size vat that turns into a week of the same dinner. The work happens while they're at work or on the couch, and there's one pot to wash. **Already have one?** Slow cooker makers usually recommend filling the pot at least halfway, so a big family slow cooker is awkward for one portion. The small size is the point. Skip it if they want dinner in ten minutes; a slow cooker needs hours.
 
 Pair it with the [LE TAUCI 6 oz ramekins with lids (set of 4)](https://amzn.to/4jCK2ez). The listing says they're oven safe, so one dish can bake a single portion, go in the fridge with its lid on, and come back out for tomorrow's lunch. That's the cook-once trick above, made easy. Skip them if they never keep leftovers.
 
 ### What about breakfast for one?
+
+![Two fried eggs in a small pan](images/kitchen-gifts-for-someone-who-lives-alone-3.jpg)
 
 **Main pick:** the [SENSARTE 8-inch ceramic nonstick frying pan](https://amzn.to/4j69CZf). **Already have one?** Most people who live alone own one big frying pan. Two eggs spread thin across a 12-inch pan and overcook at the edges; in an 8-inch pan they stay together as a proper scramble or small omelet. The listing says it works on induction too. Skip it if they already own a small nonstick pan they like.
 
@@ -53,7 +57,7 @@ For the person who drinks breakfast, the [Magic Bullet personal blender](https:/
 
 ### What's a small gift that still feels special?
 
-![A small wrapped gift on a kitchen table](images/kitchen-gifts-for-someone-who-lives-alone-2.jpg)
+![A single cup of black coffee on a saucer](images/kitchen-gifts-for-someone-who-lives-alone-4.jpg)
 
 The [Elite Gourmet 14 oz single-serve coffee maker](https://link.amazon/B0dE7VkOL) makes one cup at a time. The listing describes one-touch brewing of up to 14 oz into a travel mug, so they're not brewing a full pot and pouring most of it away. It's an easy gift to make personal: wrap it with a bag of their favorite coffee (check the listing first for whether it takes ground coffee or pods). Skip it if they already have a coffee machine they like, or drink tea.
 
@@ -83,6 +87,8 @@ The [Elite Gourmet 14 oz single-serve coffee maker](https://link.amazon/B0dE7VkO
 | [Elite Gourmet single-serve coffee maker](https://link.amazon/B0dE7VkOL) | One cup of coffee, no full pot | An outlet | They already have a coffee machine they like |
 
 ### Frequently asked questions
+
+![Small gifts wrapped in brown paper and red string](images/kitchen-gifts-for-someone-who-lives-alone-2.jpg)
 
 #### Is a small appliance a cheap-feeling gift?
 
