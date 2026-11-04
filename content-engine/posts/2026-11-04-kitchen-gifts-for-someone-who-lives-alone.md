@@ -57,7 +57,7 @@ For the person who drinks breakfast, the [Magic Bullet personal blender](https:/
 
 ![A small wrapped gift on a kitchen table](images/kitchen-gifts-for-someone-who-lives-alone-2.jpg)
 
-The [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns a mug of hot chocolate or coffee into something that feels like a café drink, and it fits in a drawer (batteries included, says the listing). It's an easy gift to make personal: wrap it with a tin of their favorite cocoa or a bag of coffee. Skip it if they only drink black coffee.
+The [Elite Gourmet 14 oz single-serve coffee maker](https://link.amazon/B0dE7VkOL) makes one cup at a time. The listing describes one-touch brewing of up to 14 oz into a travel mug, so they're not brewing a full pot and pouring most of it away. It's an easy gift to make personal: wrap it with a bag of their favorite coffee (check the listing first for whether it takes ground coffee or pods). Skip it if they already have a coffee machine they like, or drink tea.
 
 ### What to look for in gifts for one-person cooking
 
@@ -82,7 +82,7 @@ The [Zulay Kitchen handheld milk frother](https://amzn.to/4rXjcjE) turns a mug o
 | [LE TAUCI 6 oz ramekins with lids](https://amzn.to/4jCK2ez) | Baking and storing one portion | An oven or fridge | They never keep leftovers |
 | [Microwave egg cooker](https://amzn.to/4htE2C8) | Eggs with no pan | A microwave | They enjoy eggs on the stove |
 | [Magic Bullet personal blender](https://amzn.to/4AQIYKo) | One smoothie in the cup you drink from | An outlet | They don't drink smoothies |
-| [Zulay Kitchen milk frother](https://amzn.to/4rXjcjE) | Frothy cocoa or coffee at home | Batteries | They only drink black coffee |
+| [Elite Gourmet single-serve coffee maker](https://link.amazon/B0dE7VkOL) | One cup of coffee, no full pot | An outlet | They already have a coffee machine they like |
 
 ### Frequently asked questions
 
@@ -96,6 +96,6 @@ Give them an upgrade instead of a new habit: the 8-inch pan or the lidded rameki
 
 #### Can I put two small gifts together?
 
-Yes. The milk frother with a tin of cocoa, or the ramekins with a favorite soup recipe written on a card, make a small set without spending much more. Check each price before you buy, since prices change.
+Yes. The coffee maker with a bag of their favorite coffee, or the ramekins with a favorite soup recipe written on a card, make a small set without spending much more. Check each price before you buy, since prices change.
 
 Pick one gadget, not three: someone who lives alone needs one thing they'll use every week, not a counter full of boxes. For more ideas, see [gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/), [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) and [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/), and check the current price on Amazon.
