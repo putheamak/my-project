@@ -58,6 +58,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 4 Nov 2026: owner will upload to KDP on **10 November 2026** (files: EPUB, cover-kdp-1600x2560.jpg, kdp-upload-guide, launch kit v3).
 - 4 Nov 2026: KDP account setup finished: identity, payment by cheque for now (switch to Payoneer US receiving account in about 60 days), tax interview complete (W-8BEN, individual, no treaty → 30% on US royalties, no TIN: "could not/have not obtained"). Next: upload on 10–11 Nov with `kdp-upload-guide.md`.
 - 4 Nov 2026: KDP account created; identity filled. **Cambodia is not in KDP's bank-country list.** Plan: finish the tax interview and publish anyway (royalties are held until a bank is added); get paid through a USD receiving account in the owner's own name (Payoneer once its review is cleared, or Wise if it accepts Cambodian residents); never use a bank country that is not the account's real country.
 - 4 Nov 2026: owner finished the review ("no more comments"). Cover enlarged to 1600 × 2560 (`cover/cover-kdp-1600x2560.jpg`) and used in the EPUB; KDP upload guide written (`kdp-upload-guide.md`).
@@ -96,5 +97,5 @@ The owner checklists were removed from the chapter files (they are in git histor
 | 2 | 3 – 7 Nov | Export the cover at 1600 × 2560 and send it for checking; check whether the National AI Strategy is adopted | Owner |
 | 3 | 8 – 9 Nov | Apply corrections, rebuild EPUB, final checks (`check-before-export.sh`, `build-ebook.sh`) | Claude |
 | 4 | 9 – 10 Nov | Open the EPUB in Kindle Previewer; click each link in the Notes once | Owner |
-| 5 | 10 – 11 Nov | Upload to KDP with the launch kit (AI disclosure: text; KDP Select; $2.99) — Amazon review takes up to 72 hours | Owner, with Claude's step-by-step guide |
+| 5 | **10 Nov** (owner's date) | Upload to KDP with the launch kit (AI disclosure: text; KDP Select; $2.99) — Amazon review takes up to 72 hours | Owner, with Claude's step-by-step guide |
 | 6 | about 14 Nov | Live on Amazon; share with your network; ask early readers for honest reviews; raise price to $4.99 after 2–3 weeks | Owner |
