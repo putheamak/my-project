@@ -36,7 +36,7 @@ rights: "Copyright © 2026 Mak Puthea. All rights reserved."
 toc-title: "Contents"
 YAML
 pandoc "$TMP/book.md" --metadata-file="$TMP/meta.yaml" --resource-path=. \
-  --epub-cover-image=cover/cover-final.jpg --toc --toc-depth=2 --split-level=2 -o "$OUT"
+  --epub-cover-image=cover/cover-kdp-1600x2560.jpg --toc --toc-depth=2 --split-level=2 -o "$OUT"
 # check: every link in the book and in the Contents points to something that exists
 python3 - "$OUT" <<'PY'
 import re,sys,zipfile,posixpath

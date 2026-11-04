@@ -13,6 +13,8 @@ auto-blog, video ads, ebook machine). Target (owner, 3 Nov 2026): publish by mid
 | `part-3-draft.md` | Part Three (chapters 12–13): lessons learned, "Your turn" 7-day plan, closing, About the Author (written), glossary, A Request to the Reader. v4 polished 26 Oct 2026 (AI mistakes, insecurity in the age of AI, free courses). |
 | `launch-kit-draft.md` | Title, Amazon description, 7 keywords, categories, price, cover brief, tax and payment, AI disclosure. v3 1 Nov 2026 (third-review advice: Part One bullet, "Where things stand" line, $2.99 for 2–3 weeks then $4.99, new keywords, 30% US withholding). |
 | `cover-canva-steps.md` | Step-by-step Canva instructions for the cover (1600 × 2560, colours, fonts, icons, download). |
+| `cover/cover-kdp-1600x2560.jpg` | **Upload this cover to KDP.** The final cover enlarged to 1600 × 2560 (4 Nov 2026), RGB JPG; thumbnail test passed. Enlarging adds size, not detail. |
+| `kdp-upload-guide.md` | Step-by-step guide for upload day: what to type or choose on each KDP page. |
 | `cover/cover-final.jpg` | **Final cover** (owner's enhanced version, approved 27 Oct 2026). Current file is 1244 × 2000; replace with a 1600 × 2560 export before upload. If made with an AI image tool, answer "yes" to AI-generated images in KDP and check the tool allows commercial use. |
 | `cover/cover-draft.jpg` | Earlier draft cover (kept for reference), 1600 × 2560, from `cover/cover-draft.html`. |
 | `editorial-review-2026-11-01.md` | Third independent AI review of the final version: ready after small fixes, 7.5/10 (8.5 after fixes); 7 must-fix items with exact replacements, fact-check (no invented facts), EPUB links all OK, launch-kit advice. |
@@ -43,7 +45,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - [ ] Ch 5: replace "about $10 a month" for the Claude API with the real bill.
 - [ ] Ch 9: robot and drone examples still current; Ch 12: free course list still current.
 - [ ] Ch 1: decide on the employer passage ("ethics and professionalism", "pushed out") flagged by the second review as a legal risk.
-- [ ] Cover: full-size 1600 × 2560 export. KDP: check payment from Cambodia (Account → Getting Paid).
+- [x] Cover: 1600 × 2560 made from the final cover (4 Nov). KDP: check payment from Cambodia (Account → Getting Paid).
 - [ ] Run `bash check-before-export.sh` (must say READY) and `bash build-ebook.sh`, then open the EPUB in Kindle Previewer.
 
 ## Update before publishing (owner decided 25 Oct 2026: keep as is for now, update later)
@@ -56,6 +58,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 4 Nov 2026: owner finished the review ("no more comments"). Cover enlarged to 1600 × 2560 (`cover/cover-kdp-1600x2560.jpg`) and used in the EPUB; KDP upload guide written (`kdp-upload-guide.md`).
 - 3 Nov 2026: owner: survival target = about 25 parcel orders a day (Ch 8 box); 32 app bookings linked to the ads, which promoted both services (Ch 10 text + box); launch moved to mid-November 2026 at the latest (Ch 11 box, $2.99 first weeks then $4.99).
 - 1 Nov 2026: owner checked the ITU press release and saw 96%: restored in Ch 3 with soft wording ("according to the ITU, about 96%").
 - 1 Nov 2026: third-review should-fix items applied: AI statement matches Ch 11 (AI drafted chapters from owner notes → answer "AI-generated: text" at KDP upload); one post a day in the first two weeks; calendar wording; video length "up to about a minute"; paid Reel wording; "three" AI reviews; Middle East paragraph dated October 2026; Grantham "In 2026"; "programme"; notes: Grantham source → GMO, unconfirmed TIME 15 Sept link removed and WSJ interview mentioned, Microsoft UAE/Singapore note fixed. ITU "96%": could not open itu.int from this session (blocked), so text now says "almost all of them"; owner can check the ITU press release and restore 96% if it is there.
