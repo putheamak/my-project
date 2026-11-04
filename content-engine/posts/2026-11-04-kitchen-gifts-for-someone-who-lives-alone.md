@@ -8,8 +8,8 @@ pinTitle: "Kitchen Gifts for Someone Who Lives Alone | Sized for One, Under $30"
 pinDescription: "Shopping for someone who lives alone? Most kitchen gadgets are made for a family of four. These are sized for one person: a 1.5-quart slow cooker for a small batch of soup, an 8-inch pan for two eggs, a 1.5-quart saucepan, lidded ramekins for cook-once-eat-twice, and a personal blender. Each one with who should skip it. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-04"
-image: ""
-status: "draft"
+image: "images/kitchen-gifts-for-someone-who-lives-alone-1.jpg"
+status: "published"
 ---
 
 As an Amazon Associate I earn from qualifying purchases.
@@ -36,8 +36,6 @@ I haven't used these myself. I picked them from the listings for one-person capa
 The trick works because the second meal is already decided and portioned. Lidded single-portion dishes, like the ramekins below, are made for exactly this.
 
 ### What do you give someone who skips dinner because it's too much work?
-
-![A small pot of soup on a stove](images/kitchen-gifts-for-someone-who-lives-alone-1.jpg)
 
 **Main pick:** the [Maxi-Matic 1.5 qt electric slow cooker](https://amzn.to/4hBZNBj). A 1.5-quart pot holds a small batch, a couple of bowls of soup or stew, not a family-size vat that turns into a week of the same dinner. The work happens while they're at work or on the couch, and there's one pot to wash. **Already have one?** Slow cooker makers usually recommend filling the pot at least halfway, so a big family slow cooker is awkward for one portion. The small size is the point. Skip it if they want dinner in ten minutes; a slow cooker needs hours.
 
