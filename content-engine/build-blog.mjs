@@ -321,14 +321,28 @@ function homeShop() {
   const home = site.home ?? {};
   const bySlug = (slug) => posts.find((p) => p.slug === slug);
   const featured = (home.posts ?? []).map(bySlug).filter(Boolean);
-  const picks = (home.picks ?? []).filter((x) => /^https:\/\//.test(x.url ?? ""));
+  const picks = (home.picksPool?.length ? home.picksPool : home.picks ?? []).filter((x) => /^https:\/\//.test(x.url ?? ""));
+  // home.picksPool rotates: the pool is cut into groups of picksPerDay (in pool
+  // order, so each group stays a balanced mix) and each day shows the next group.
+  // Every group is in the HTML (same link markup and click tracking); a tiny
+  // script shows the visitor's day's group, and without JS the build day's shows.
+  const picksHtml = (list) => {
+    const box = (items) => markdownToHtml(`:::picks\n${items.map((x) => `- ${x.label}: [${x.name}](${x.url})`).join("\n")}\n:::`);
+    const per = Number(home.picksPerDay) || 0;
+    if (!home.picksPool?.length || !per || list.length <= per) return box(list);
+    const groups = [];
+    for (let i = 0; i < list.length; i += per) groups.push(list.slice(i, i + per));
+    const today = Math.floor(Date.now() / 864e5) % groups.length;
+    return `${groups.map((g, i) => `<div data-pick-day="${i}"${i === today ? "" : " hidden"}>${box(g).replace('<p class="picks-title">Quick picks</p>', `<p class="picks-title">Today's gift picks</p>`)}</div>`).join("\n")}
+<script>(function(){var b=document.querySelectorAll("[data-pick-day]");if(!b.length)return;var d=Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5)%b.length;for(var i=0;i<b.length;i++)b[i].hidden=i!==d})()</script>`;
+  };
   const videos = (home.videoPosts ?? []).map((v) => ({ ...v, post: bySlug(v.slug) })).filter((v) => v.post);
   const shop = featured.length || picks.length
     ? `<section class="shop">
 ${home.title ? `<h2 class="sec">${esc(home.title)}</h2>` : ""}${home.intro ? `<p class="shop-intro">${esc(home.intro)}</p>` : ""}
 ${featured.length ? postItems(featured, { short: true }) : ""}
 ${picks.length ? `<p class="disclosure small">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
-${markdownToHtml(`:::picks\n${picks.map((x) => `- ${x.label}: [${x.name}](${x.url})`).join("\n")}\n:::`)}` : ""}
+${picksHtml(picks)}` : ""}
 </section>`
     : "";
   const seen = videos.length
