@@ -23,6 +23,7 @@ auto-blog, video ads, ebook machine). Target (owner, 3 Nov 2026): publish by mid
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `build-ebook.sh` | `bash build-ebook.sh` makes the Kindle-ready EPUB in `build/`: removes owner checklists and the typed title/Contents, adds a linked Contents, starts each chapter on a new page, and checks every link (must say 0 broken). Open the result in Kindle Previewer before uploading. |
 | `check-before-export.sh` | Run `bash check-before-export.sh` before exporting for KDP: lists any ⭐ placeholders, `<!-- -->` owner checklists, unlinked note numbers and [Update…]/[confirm] notes. Must say READY. |
+| `next-book-ideas.md` | Research for the next ebook (4 Nov 2026): world concerns, ranked shortlist, demand-check steps. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
 ## How we write it
