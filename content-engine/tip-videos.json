@@ -289,5 +289,16 @@
     "label": "Gift idea:",
     "product": "A blank hardcover journal becomes a family recipe book",
     "cta": "Gifts for mom who loves to cook, under $30:"
+  },
+  "kitchen-gifts-for-someone-who-lives-alone": {
+    "hook": "Dinner for one turns into a week of leftovers?",
+    "steps": [
+      "Cook a normal batch of chili or soup",
+      "Before you eat, spoon tomorrow's portion into a lidded dish",
+      "Reheat that dish tomorrow, no digging through a big tub"
+    ],
+    "label": "Gift idea:",
+    "product": "A 1.5-quart slow cooker sized for one",
+    "cta": "Kitchen gifts for someone who lives alone:"
   }
 }
