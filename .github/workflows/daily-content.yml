@@ -2,8 +2,8 @@ name: Daily content pack
 
 on:
   schedule:
-    # Three posts a week: 23:17 UTC on Sun, Tue and Thu = 06:17 on Mon, Wed and Fri in Cambodia (UTC+7).
-    - cron: "17 23 * * 0,2,4"
+    # One post a week (8-week focus plan, 4 Nov 2026): 23:17 UTC on Sunday = 06:17 Monday in Cambodia (UTC+7).
+    - cron: "17 23 * * 0"
   workflow_dispatch: {}
 
 permissions:
