@@ -3,6 +3,15 @@
 Read this first. Last updated **3 Nov 2026** (end of a long chat; the owner starts a new chat on 4 Nov).
 
 ## START HERE (handoff, 3 Nov)
+**8-WEEK FOCUS PLAN (owner chose "A" on 4 Nov; runs to 31 Dec 2026; this block wins over older notes)**
+- **Topic focus:** cooking for one, small kitchens, living alone (`config.json` `focus`; `generate.mjs` tells every draft to fit it and to combine it with occasions, e.g. gifts or holiday meals for one). Big-batch/family topics are out of scope.
+- **Drafts: 1 a week**, Monday 06:17 Cambodia (workflow cron `17 23 * * 0`; was Mon/Wed/Fri). Use the freed time to improve 1 existing focus post a week (Claude does it on its own).
+- **Videos:** YouTube Shorts is the main channel, plus Pinterest video pins. TikTok paused until about 11 Nov, then one clean test (see TikTok diagnosis below).
+- **Real experience:** the owner tests cheap items like those in focus posts (bought locally if easier) and sends short "From my kitchen" notes in their own words plus their own photos or clips. If the tested item isn't the exact linked product, the post must say so ("I tested a similar 8-inch pan I bought locally"). Never invent experience. Buying is the owner's money decision.
+- **Pins:** keep Thanksgiving and gift pins (season); when extending `pin-queue.json` around 13 Nov, give most new pins to the focus posts (cooking for one, small kitchens, lives alone, microwave/no-stove, office lunch).
+- **Targets:** 9 Nov = baseline week; 30 Nov = 50 real visits/week; **31 Dec = 100 real visits/week or a first sale, otherwise stop or change the model** (owner agreed). Weekly Monday check: GoatCounter, Pinterest, Search Console, YouTube Studio Shorts views.
+- **Honesty rule from the owner's feedback:** label guesses as "my guess"; facts only from data.
+
 **Where things stand**
 - **28 posts live** (newest: gifts for mom, 2 Nov; hostess gifts and emergency kit, 30 Oct; college student, 28 Oct; white elephant and the hub `best-kitchen-gadgets-under-30`, 26 Oct; bakers, 23 Oct). **157 products** in `config.json` (every Amazon link in a post must be in this list; compliance flags others as FIX).
 - **Every post has:** "Start here", Quick picks box, "Try this tonight" (heading id `try-this-tonight`), "Already have one?", a "new to many people" pick, "What to look for in …", comparison table, 3 FAQs, a question-style Google description, and the reader tip form. Gift posts also have "What I left out, and why".
@@ -12,7 +21,7 @@ Read this first. Last updated **3 Nov 2026** (end of a long chat; the owner star
 **Daily routine with the owner (7-10 AM Cambodia time = US evening)**
 1. Owner says "tasks today": list that date's pins from `pin-queue.json` (runs to **16 Nov**; extend around **13 Nov** with the same teaser style), and send the next tip video file plus its caption (fetch `blog/pins/<slug>-tip.mp4` and the caption from `blog/pins/videos.json` on the gh-pages branch into `dist-blog/share/`, then SendUserFile).
 2. Tip videos are 13 s: hook, steps 1-2, end card "Step 3 + the gadget that makes it easier: homepicksunder30.com". Pinterest video pin link = post URL + `#try-this-tonight`. Tip videos posted so far: Halloween, bakers, white elephant, coffee lover, stocking stuffers, gift guide, mashed potatoes, small-kitchen Thanksgiving, gifts for mom (3 Nov, YouTube + Pinterest). Next: the rest, newest first (college student, hostess, emergency kit, hub, then older posts).
-3. Mon/Wed/Fri drafts (generated 06:17 Cambodia): review, score, give the owner 4 Amazon search keywords for fresh products + 3 photo names (`<slug>-cover.jpg`, `-1.jpg`, `-2.jpg`), wait for links/photos and "go", rewrite in the house pattern, add products to `config.json`, add a `tip-videos.json` entry, publish, merge, then ask the owner to pin design 1. **Never ask the owner to open affiliate links** (their clicks inflate Amazon's report; item 23).
+3. Monday drafts (1 a week since 4 Nov, generated 06:17 Cambodia): review, score, give the owner 4 Amazon search keywords for fresh products + 3 photo names (`<slug>-cover.jpg`, `-1.jpg`, `-2.jpg`), wait for links/photos and "go", rewrite in the house pattern, add products to `config.json`, add a `tip-videos.json` entry, publish, merge, then ask the owner to pin design 1. **Never ask the owner to open affiliate links** (their clicks inflate Amazon's report; item 23).
 4. Mondays: ask for GoatCounter (week, with the clicks/events section), Pinterest Analytics (30 days), Search Console Performance (28 days + Queries list) and the Amazon Associates report. Compare each post's score with what readers did (item 22).
 
 **Traffic drop diagnosis (3 Nov, GoatCounter Oct 10 - Nov 3: 73 visits)**

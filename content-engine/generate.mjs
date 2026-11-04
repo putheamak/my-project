@@ -85,7 +85,7 @@ Platforms: ${config.platforms.join(", ")}
 Keyword ideas from the creator: ${(config.targetKeywords ?? []).join(", ") || "(none - suggest your own)"}
 
 ${seasonal}
-
+${config.focus ? `\nFocus (the owner's 8-week plan): ${config.focus}\nEvery topic must fit this focus. When an occasion applies, combine the two (for example a gift guide or a holiday meal for someone who cooks for one).\n` : ""}
 Products the creator can link:
 ${products || "- (none yet - use placeholders)"}
 
