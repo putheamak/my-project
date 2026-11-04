@@ -13,11 +13,11 @@ cube = '<svg viewBox="0 0 64 64"><path d="M32 6 56 19v26L32 58 8 45V19Z M8 19l24
 
 def sticker(kind):
     if kind == "bot":
-        qr = '<img class="qr web" src="qr_bot_plain.png">'  # plain QR: the styled Telegram QR does not decode reliably
+        qr = '<img class="qr web" src="qr_bot_vector.svg">'  # plain vector QR: the styled Telegram QR does not decode reliably
         body = ('<div class="t1">ផ្ញើឥវ៉ាន់ក្នុងភ្នំពេញ</div><div class="price">$0.75<small> / កញ្ចប់</small></div>'
                 '<div class="t2">អ្នកលក់អនឡាញ · ស្កេនកក់តាម Telegram</div>')
     else:
-        qr = f'<img class="qr web" src="{F}qr_khmerparcel_web.png">'
+        qr = '<img class="qr web" src="qr_web_vector.svg">'
         body = ('<div class="t1">ទៅយក និងដឹកដល់ផ្ទះ</div><div class="price"><small>ចាប់ពី </small>$1.50</div>'
                 '<div class="t2">ស្កេនកក់ · www.khmerparcel.com</div>')
     return (f'<div class="st">{qr}<div class="tx"><div class="br"><span class="lg">{cube}</span>ខ្មែរផាសែល</div>'

@@ -3,7 +3,7 @@
 const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch();
-  const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 3 });
+  const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 300 / 96 });  // PNGs at 300 dpi
   await p.goto('file://' + __dirname + '/qr_stickers_A4.html');
   await p.evaluate(() => document.fonts.ready);
   await p.waitForTimeout(500);
