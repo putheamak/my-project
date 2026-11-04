@@ -9,10 +9,11 @@ Copy-and-paste text comes from `launch-kit-draft.md` (version 3).
 
 ## Before you start (once)
 1. Sign in at **kdp.amazon.com** with your Amazon account.
-2. **Account → Getting Paid:** add how you will be paid. **Account → Tax information:** complete the tax interview with your real details. Cambodia has no tax treaty with the US, so 30% of US royalties will be withheld. KDP will not let you publish until both are done.
+2. Click the **Your Account** link in the yellow "Complete your account information" box. First turn on **Two-Step Verification (2SV)**: Amazon sends a code to your phone or an app each time you sign in.
+3. Then, on the same page, **Getting Paid:** add how you will be paid. **Tax information:** complete the tax interview with your real details. Cambodia has no tax treaty with the US, so 30% of US royalties will be withheld. KDP will not let you publish until both are done.
 
 ## Step 1: Create the book
-**Bookshelf → + Create → Kindle eBook.**
+On the KDP home page, click the yellow **+ Create new title or series** button → **Kindle eBook**.
 
 ## Step 2: Kindle eBook Details (first page)
 | Box | What to enter |
