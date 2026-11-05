@@ -253,6 +253,20 @@ const days = new Map();
 // (0 = cover, 1, 2). Past days keep the post's standard design images.
 const renderFrom = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
 const photoTurn = new Map();
+// Pinterest is a search engine: teaser titles ("Eating the Same Chili Four Nights in
+// a Row?") hook readers but match no searches. The Title to paste gets the post's
+// keyword after the teaser ("... | Kitchen Gadgets for Cooking for One"); the pin
+// image keeps the teaser only. "best" is dropped (no unsupported claims), and the
+// suffix is skipped when the title already holds the keyword or would pass 100 characters.
+const small = new Set(["a", "an", "and", "for", "of", "the", "to", "with", "without", "in", "on", "at", "or", "using"]);
+const titleCase = (t) => t.split(" ").map((w, i) => (i && small.has(w.toLowerCase()) ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(" ");
+const searchTitle = (title, post) => {
+  const kw = String(post?.keyword ?? "").replace(/^best\s+/i, "").trim();
+  if (!kw || title.toLowerCase().includes(kw.toLowerCase())) return title;
+  const full = `${title} | ${titleCase(kw)}`;
+  return full.length <= 100 ? full : title;
+};
+
 for (const item of queue) {
   const c = cards.find((x) => x.post.slug === item.slug);
   let file = c && `${item.slug}-${item.design}.jpg`;
@@ -280,7 +294,7 @@ for (const item of queue) {
     continue;
   }
   if (!days.has(item.date)) days.set(item.date, []);
-  days.get(item.date).push({ ...item, description, file, link: c.link, ai: /ai-generated/i.test(c.post.image) });
+  days.get(item.date).push({ ...item, title: searchTitle(item.title, c.post), description, file, link: c.link, ai: /ai-generated/i.test(c.post.image) });
 }
 
 // Pin images keep the same file name when a post changes, so add a content hash
