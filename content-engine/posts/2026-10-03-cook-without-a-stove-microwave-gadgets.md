@@ -99,4 +99,4 @@ A bathroom sink or a dish tub works for small pieces. Wipe grease out of the gri
 
 ### Ready to cook without the stove?
 
-Start with the one meal you miss most and get the gadget for that job, then check the current price on Amazon. If you're feeding just yourself, my [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) help, and the [microwave gadgets for office lunch](https://homepicksunder30.com/blog/posts/microwave-gadgets-office-lunch/) cover meals you heat at work.
+Start with the one meal you miss most and get the gadget for that job, then check the current price on Amazon. If you're feeding just yourself, my [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) help, and the [microwave gadgets for office lunch](https://homepicksunder30.com/blog/posts/microwave-gadgets-office-lunch/) cover meals you heat at work. For a student with only a dorm microwave, see [kitchen gifts for a college student](https://homepicksunder30.com/blog/posts/kitchen-gifts-college-student-new-cook/).

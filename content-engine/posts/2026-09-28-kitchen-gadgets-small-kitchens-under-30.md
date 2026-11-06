@@ -94,4 +94,4 @@ If your blender is easy to reach, probably not. If it sits behind other things i
 
 ### Where to go from here
 
-Start with the one tool that fixes the clutter you trip over most, then add as space allows. For more ideas, see [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) or [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order.
+Start with the one tool that fixes the clutter you trip over most, then add as space allows. For more ideas, see [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) or [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order. Setting up a first apartment or dorm? See [kitchen gifts for a college student or new cook](https://homepicksunder30.com/blog/posts/kitchen-gifts-college-student-new-cook/).

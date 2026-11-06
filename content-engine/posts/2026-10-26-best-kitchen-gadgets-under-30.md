@@ -134,6 +134,6 @@ Only the ones that fix something you do every week. Pick the problem that bother
 
 #### Which of these make good gifts?
 
-The thermometer, milk frother and baking mats all work as gifts without knowing much about the person. For more, see the [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/).
+The thermometer, milk frother and baking mats all work as gifts without knowing much about the person. For more, see the [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/) or [gifts for someone who lives alone](https://homepicksunder30.com/blog/posts/kitchen-gifts-for-someone-who-lives-alone/).
 
-Pick the problem that annoys you most, start with that one gadget, and check the current price on Amazon. Each full guide above compares it with the alternatives, so you can see what to get instead if it doesn't fit your kitchen.
+Pick the problem that annoys you most, start with that one gadget, and check the current price on Amazon. Each full guide above compares it with the alternatives, so you can see what to get instead if it doesn't fit your kitchen. Putting together a home emergency kit as well? See [emergency kit essentials under $30](https://homepicksunder30.com/blog/posts/emergency-kit-essentials-under-30/).

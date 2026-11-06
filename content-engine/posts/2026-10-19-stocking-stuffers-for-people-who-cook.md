@@ -96,4 +96,4 @@ That depends on the product, so check each Amazon listing. As a general rule, a 
 
 ### Ready to fill a stocking?
 
-Pick the bundle that matches the person, check the current price on Amazon, and check the delivery date Amazon shows before you order. For the coffee drinker on your list, see [gifts for coffee lovers under $30](https://homepicksunder30.com/blog/posts/gifts-coffee-lover-under-30/), and for bigger gifts, my [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/).
+Pick the bundle that matches the person, check the current price on Amazon, and check the delivery date Amazon shows before you order. For the coffee drinker on your list, see [gifts for coffee lovers under $30](https://homepicksunder30.com/blog/posts/gifts-coffee-lover-under-30/), and for bigger gifts, my [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/) or [gifts for mom who loves to cook](https://homepicksunder30.com/blog/posts/gifts-for-mom-who-loves-to-cook/).

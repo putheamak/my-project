@@ -110,4 +110,4 @@ That depends on the item and where you live. Check the delivery date Amazon show
 
 ### Ready to shop?
 
-Pick the person first, then the gift, and check the current price on Amazon before you decide. For small extras to tuck in a stocking, see these [stocking stuffers for people who cook](https://homepicksunder30.com/blog/posts/stocking-stuffers-for-people-who-cook/).
+Pick the person first, then the gift, and check the current price on Amazon before you decide. For small extras to tuck in a stocking, see these [stocking stuffers for people who cook](https://homepicksunder30.com/blog/posts/stocking-stuffers-for-people-who-cook/). Shopping for one person in particular? See [gifts for mom who loves to cook](https://homepicksunder30.com/blog/posts/gifts-for-mom-who-loves-to-cook/), [hostess gifts](https://homepicksunder30.com/blog/posts/hostess-gifts-under-30/), [gifts for a college student](https://homepicksunder30.com/blog/posts/kitchen-gifts-college-student-new-cook/) and [gifts for someone who lives alone](https://homepicksunder30.com/blog/posts/kitchen-gifts-for-someone-who-lives-alone/).
