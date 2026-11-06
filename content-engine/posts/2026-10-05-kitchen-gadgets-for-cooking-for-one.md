@@ -86,4 +86,4 @@ No. The pan covers fried eggs and omelets on the stove; the patty maker is for m
 
 Small tools mean small cleanup, but check the care instructions on each product page before you buy, since nonstick surfaces often last longer with hand washing.
 
-Pick the one gadget that matches the meal you cook most, and check the current price on Amazon. For more one-dish ideas, see these [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/) and [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/).
+Pick the one gadget that matches the meal you cook most, and check the current price on Amazon. For more one-dish ideas, see these [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/) and [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/). Shopping for someone else who cooks for one? See [kitchen gifts for someone who lives alone](https://homepicksunder30.com/blog/posts/kitchen-gifts-for-someone-who-lives-alone/).
