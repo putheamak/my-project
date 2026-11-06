@@ -5,7 +5,7 @@ const path = require('path');
 
 (async () => {
   const [mode, a, b, c] = process.argv.slice(2);
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   await page.goto('file://' + path.join(__dirname, process.env.SCENES || 'scenes.html'));
   if (mode === 'preview') {

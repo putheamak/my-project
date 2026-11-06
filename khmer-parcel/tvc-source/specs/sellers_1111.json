@@ -1,0 +1,12 @@
+{
+  "html": "scenes_1111.html",
+  "out": "../khmer_parcel_sellers_1111.mp4",
+  "xfade": 0.3,
+  "audio": "sellers_1111_music.m4a",
+  "segments": [
+    {"scene": "hook", "dur": 3.0, "next": "slideup"},
+    {"scene": "rush", "dur": 3.8, "next": "zoomin"},
+    {"scene": "solve", "dur": 4.6, "next": "circleopen"},
+    {"scene": "end", "dur": 4.4}
+  ]
+}

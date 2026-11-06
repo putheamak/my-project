@@ -27,7 +27,7 @@ Audience key: **S** = online sellers (women 20–40, 3,000៛ / 2,000៛ offer) 
 | 18 | D | "ភ្លេចកាបូបនៅផ្ទះ?" | Forgotten item delivered to office/school |
 | 19 | S | "Live Sale យប់នេះ? យើងដឹកស្អែក" | For Facebook Live sellers: book all orders after live |
 | 20 | D | "Q&A: ថ្លៃប៉ុន្មាន?" | FAQ format: price, time, payment, areas |
-| 21 | S | "11.11 ត្រៀមខ្លួនហើយឬនៅ?" | Shopping-day prep for sellers (post early Nov) |
+| 21 | S | "11.11 ត្រៀមខ្លួនហើយឬនៅ?" | ✅ 14.9 s (`khmer_parcel_sellers_1111.mp4`, cover `_cover.jpg`): owner photo + "11.11" hook → orders pile up to 30 → $0.75 + 4 facts → bot QR, Comment «11.11» |
 | 22 | D | "គ្មានពេលចេញក្រៅ?" | Busy professional books from desk |
 | 23 | S | "អ្នកដឹកមកដល់ម៉ោង ៣ រសៀល" | Fixed pickup times (10:00 / 15:00) explained |
 | 24 | D | "ម្ហូបពីផ្ទះម្តាយ" | Home-cooked food sent to a child at university |

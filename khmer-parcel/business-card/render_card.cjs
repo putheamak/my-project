@@ -3,7 +3,7 @@ const { chromium } = require('playwright'); const path = require('path'); const 
 (async () => {
   const dir = process.argv[2];
   const data = JSON.parse(fs.readFileSync(path.join(dir, 'card_data.js.json'), 'utf8'));
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch();
   const shot = async (view, w, h, out) => {
     const p = await b.newPage({ viewport: { width: w, height: h } });
     await p.goto('file://' + path.join(dir, 'card.html') + '#' + view);
