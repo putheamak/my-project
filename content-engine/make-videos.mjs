@@ -343,7 +343,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   if (!spec || !manifest[post.slug]) continue;
   const photos = tipPhotos(post, src, spec);
   const tipKey = createHash("sha1")
-    .update(JSON.stringify([VERSION, "tip3", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .update(JSON.stringify([VERSION, "tip4", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
     .digest("hex")
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {
