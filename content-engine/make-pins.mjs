@@ -334,6 +334,17 @@ const videoPinTitle = (post) => (post.title.length <= 100 ? post.title : post.se
 const videoPinDescription = (post) =>
   fitPinDescription(`${post.description || ""} Watch the short video, then see the full list and comparison table on the blog.`, disclosure);
 
+// Videos keep their file name when they're remade, so add the video's key to the
+// URL; otherwise a phone or browser keeps playing (and downloading) the old copy.
+// A video made in the last 7 days gets an "Updated" badge so the owner knows to
+// download it again before posting.
+const vurl = (file, key) => `${esc(file)}${key ? `?v=${esc(key)}` : ""}`;
+const fresh = (made) => {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(made ?? "")) return "";
+  const days = (Date.now() - Date.parse(`${made}T00:00:00+07:00`)) / 864e5;
+  return days < 7 ? ` <span class="new">Updated ${esc(new Date(`${made}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" }))}</span>` : "";
+};
+
 const videoBlock = (post, link) => {
   const v = videos[post.slug];
   if (!v) return "";
@@ -341,9 +352,9 @@ const videoBlock = (post, link) => {
   const board = boardFor(post);
   const tipFile = `${post.slug}-tip.mp4`;
   const tip = v.tip
-    ? `<div class="video"><h3>Tip video${v.tip.seconds ? ` (${v.tip.seconds} s)` : ""}: post this one first</h3>
-<video src="${esc(tipFile)}" controls playsinline preload="none" width="180" height="320"></video>
-<p><a class="dl" href="${esc(tipFile)}" download>Download tip video</a></p>
+    ? `<div class="video"><h3>Tip video${v.tip.seconds ? ` (${v.tip.seconds} s)` : ""}: post this one first${fresh(v.tip.made)}</h3>
+<video src="${vurl(tipFile, v.tip.key)}" controls playsinline preload="none" width="180" height="320"></video>
+<p><a class="dl" href="${vurl(tipFile, v.tip.key)}" download="${esc(tipFile)}">Download tip video</a></p>
 <p class="hint">One trick in 3 steps, then the gadget and the website. Silent: add a sound in the app.</p>
 ${field("Tip video caption", v.tip.caption, 8)}
 ${field("Pinterest video pin title", videoPinTitle(post), 2)}
@@ -351,9 +362,9 @@ ${field("Pinterest video pin link", `${link}#try-this-tonight`, 2)}
 ${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
 </div>`
     : "";
-  return `${tip}<div class="video"><h3>List video${v.seconds ? ` (${v.seconds} s)` : ""}</h3>
-<video src="${esc(file)}" controls playsinline preload="none" width="180" height="320"></video>
-<p><a class="dl" href="${esc(file)}" download>Download video</a></p>
+  return `${tip}<div class="video"><h3>List video${v.seconds ? ` (${v.seconds} s)` : ""}${fresh(v.made)}</h3>
+<video src="${vurl(file, v.key)}" controls playsinline preload="none" width="180" height="320"></video>
+<p><a class="dl" href="${vurl(file, v.key)}" download="${esc(file)}">Download video</a></p>
 <p class="hint">The video is silent: add a sound in the app.</p>
 <h4>TikTok and YouTube Shorts</h4>
 ${field("Video caption", v.caption, 6)}
@@ -366,7 +377,13 @@ ${tagsHint(tagsFor(post.slug, board))}
 </div>`;
 };
 
-const card = ({ post, pinTitle, pinDescription, files, link }) => `<section>
+// Posts whose tip or list video was remade in the last 7 days, listed at the top.
+const recentlyUpdated = cards.filter((c) => {
+  const v = videos[c.post.slug];
+  return v && (fresh(v.made) || fresh(v.tip?.made));
+});
+
+const card = ({ post, pinTitle, pinDescription, files, link }) => `<section id="post-${esc(post.slug)}">
 <h2>${esc(post.title)}</h2>
 <div class="pins">${files.map((f) => `<a href="${imgUrl(f)}" download="${esc(f)}"><img src="${imgUrl(f)}" alt="Pin design for ${esc(post.title)}" loading="lazy" width="200" height="300"></a>`).join("")}</div>
 <p class="hint">Tap an image to download it. Pin one design now and the others in the coming weeks.</p>
@@ -399,15 +416,18 @@ textarea{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inhe
 .video video{width:180px;height:320px;border-radius:8px;background:#000;display:block}
 .dl{display:inline-block;padding:6px 14px;border-radius:999px;background:#b4531f;color:#fff;text-decoration:none;font-size:.9rem}
 .day{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}
-.day summary{font-weight:600;cursor:pointer}.day.past{opacity:.6}
+.day summary{font-weight:600;cursor:pointer}.past-days{margin-top:14px}.past-days>summary{cursor:pointer;color:#666}.day.past{opacity:.6}
 .badge{margin-left:8px;font-size:.8rem;padding:2px 8px;border-radius:999px;background:#b4531f;color:#fff}.badge:empty{display:none}
 .photos{padding-left:18px}.photos li{margin:0 0 12px;word-break:break-word}
+.updated-box{background:#e9f6ee;border:1px solid #1f7a3f;border-radius:10px;padding:10px 14px;margin:12px 0}.updated-box ul{margin:6px 0 0;padding-left:20px}
+.new{display:inline-block;background:#1f7a3f;color:#fff;border-radius:999px;padding:1px 9px;font-size:.75em;margin-left:6px;vertical-align:middle}
 .plan-item{display:flex;gap:12px;align-items:flex-start;border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
 .plan-item img{width:96px;height:144px;object-fit:cover;border-radius:8px;display:block}.plan-text{flex:1;min-width:0}
 @media (max-width:480px){.plan-item{flex-direction:column}}
 </style></head><body><main>
 <h1>Pin images</h1>
 <p class="hint">This page isn't linked from the blog.${missingPhotos.length ? ` <a href="#photos">${missingPhotos.length} photos to upload</a>.` : ""}</p>
+${recentlyUpdated.length ? `<div class="updated-box"><strong>Updated in the last 7 days:</strong> download these videos again before posting, so you post the new version.<ul>${recentlyUpdated.map((c) => `<li><a href="#post-${esc(c.post.slug)}">${esc(c.post.title)}</a></li>`).join("")}</ul></div>` : ""}
 ${plan ? `<h2 id="plan">Pin plan</h2>
 <p class="hint">Extra pins with fresh text for posts you've already pinned. Today's pins open first; copy each field into Pinterest and pick the board shown.</p>
 ${plan}
@@ -423,7 +443,17 @@ ${photoList}
   const pad = (n) => String(n).padStart(2, "0");
   const today = now.getFullYear() + "-" + pad(now.getMonth() + 1) + "-" + pad(now.getDate());
   const days = [...document.querySelectorAll(".day")];
-  days.filter((d) => d.dataset.date < today).forEach((d) => d.classList.add("past"));
+  const past = days.filter((d) => d.dataset.date < today);
+  past.forEach((d) => d.classList.add("past"));
+  // Fold past days into one closed section after the plan, so today's pins come first.
+  const later = days.filter((d) => d.dataset.date >= today);
+  if (past.length && later.length) {
+    const box = document.createElement("details");
+    box.className = "past-days";
+    box.innerHTML = "<summary>Past days (" + past.length + ")</summary>";
+    past.forEach((d) => box.appendChild(d));
+    later[later.length - 1].after(box);
+  }
   const next = days.find((d) => d.dataset.date >= today);
   if (next) {
     next.open = true;

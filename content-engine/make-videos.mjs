@@ -273,6 +273,9 @@ function renderTip(spec, photos, out) {
   }
 }
 
+// The day a video was (re)made, in Cambodia time, so the pins page can flag fresh files.
+const madeToday = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Phnom_Penh" }).format(new Date());
+
 const tipCaption = (post, spec) =>
   `${spec.hook}\n${spec.steps.slice(0, 2).map((s, i) => `${i + 1}. ${s}`).join("\n")}\n👉 Step 3 + the gadget that makes it easier: ${domain}\n\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
 
@@ -329,7 +332,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
     try {
       const { seconds, items } = render(post, src, path.join(outDir, `${post.slug}.mp4`));
       console.log(`${post.slug}.mp4: ${seconds.toFixed(1)} s, ${items} gadgets`);
-      manifest[post.slug] = { ...entry, tip: previous[post.slug]?.tip, seconds: Math.round(seconds) };
+      manifest[post.slug] = { ...entry, tip: previous[post.slug]?.tip, seconds: Math.round(seconds), made: madeToday };
       made++;
     } catch (e) {
       console.warn(`video ${post.slug} failed: ${e.message}`);
@@ -350,7 +353,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   try {
     const { seconds } = renderTip(spec, photos, path.join(outDir, `${post.slug}-tip.mp4`));
     console.log(`${post.slug}-tip.mp4: ${seconds.toFixed(1)} s`);
-    manifest[post.slug].tip = { key: tipKey, caption: tipCaption(post, spec), seconds: Math.round(seconds) };
+    manifest[post.slug].tip = { key: tipKey, caption: tipCaption(post, spec), seconds: Math.round(seconds), made: madeToday };
     made++;
   } catch (e) {
     console.warn(`tip video ${post.slug} failed: ${e.message}`);
