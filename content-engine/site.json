@@ -1,6 +1,6 @@
 {
   "title": "Home Picks Under $30",
-  "tagline": "Simple, useful kitchen and home gadgets that save you time",
+  "tagline": "Kitchen help for people who cook for one",
   "author": "Mak",
   "language": "en",
   "baseUrl": "https://homepicksunder30.com/blog",
@@ -69,6 +69,22 @@
     ],
     "videoPosts": [
       {
+        "slug": "kitchen-gadgets-for-cooking-for-one",
+        "label": "Rice for one every night?"
+      },
+      {
+        "slug": "kitchen-gifts-for-someone-who-lives-alone",
+        "label": "Dinner for one turns into leftovers?"
+      },
+      {
+        "slug": "kitchen-gifts-college-student-new-cook",
+        "label": "Egg sandwich in a dorm?"
+      },
+      {
+        "slug": "gifts-for-mom-who-loves-to-cook",
+        "label": "A gift for mom that costs nothing?"
+      },
+      {
         "slug": "small-kitchen-thanksgiving-gadgets",
         "label": "Dry Thanksgiving turkey?"
       },
@@ -119,10 +135,6 @@
       {
         "slug": "cook-without-a-stove-microwave-gadgets",
         "label": "Cooking without a stove"
-      },
-      {
-        "slug": "kitchen-gadgets-for-cooking-for-one",
-        "label": "Cooking for one"
       },
       {
         "slug": "microwave-gadgets-office-lunch",
@@ -267,6 +279,18 @@
         "url": "https://amzn.to/3VPQrcB"
       }
     ],
-    "picksPerDay": 6
-  }
+    "picksPerDay": 6,
+    "videoChipsShown": 8,
+    "focus": {
+      "title": "Cooking for one? Start here",
+      "intro": "The guides I'd read first if you cook for one person or work in a tiny kitchen.",
+      "posts": [
+        "kitchen-gadgets-for-cooking-for-one",
+        "kitchen-gadgets-small-kitchens-under-30",
+        "kitchen-gifts-for-someone-who-lives-alone",
+        "cook-without-a-stove-microwave-gadgets"
+      ]
+    }
+  },
+  "heroText": "Small kitchens, small portions, less washing up. Gadgets under $30, a tip you can try tonight in every post, and who should skip each pick."
 }
