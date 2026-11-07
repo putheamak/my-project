@@ -8,6 +8,7 @@ pinTitle: "Kitchen Gadgets Under $30 for Leftovers (Store, Freeze & Reheat)"
 pinDescription: "Leftovers get wasted for three reasons: the container leaks, the portion is too big to defrost, or the reheat dries everything out. This under $30 list gives one clear pick for each step: glass containers with locking lids, a silicone freezer tray for single portions, and a magnetic microwave cover for rice and pasta. Includes a quick comparison table. Check the current price on Amazon."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-10-01"
+updated: "2026-11-02"
 image: "images/ayindeabdulmajeed44-spaghetti.jpg"
 status: "published"
 ---

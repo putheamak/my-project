@@ -8,6 +8,7 @@ pinTitle: "Emergency Kit Essentials Under $30 | Water, Light, Radio and Power"
 pinDescription: "Emergency kit essentials under $30, built from what governments now advise: a solar and hand-crank radio, a rechargeable headlamp, two power banks, a manual can opener, collapsible water containers, a LifeStraw filter, water tablets, a thermal blanket, a fireproof document bag and a battery CO alarm. A calm, practical checklist. Check the current price on Amazon."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-10-30"
+updated: "2026-11-02"
 image: "images/emergency-kit-essentials-under-30-2.jpg"
 status: "published"
 ---

@@ -8,6 +8,7 @@ pinTitle: "White Elephant Kitchen Gifts Under $30 | Nessie Ladle, S'mores Maker 
 pinDescription: "White elephant and Secret Santa kitchen gifts under $30 that get stolen. Office exchange: a handheld milk frother or 5-blade herb scissors. Steal-happy groups: the OTOTO Nessie ladle, electric salt and pepper grinders, an indoor electric s'mores maker. Dorm and break room: a microwave ramen cooker, a popcorn popper and Scizza pizza scissors. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-26"
+updated: "2026-11-02"
 image: "images/white-elephant-kitchen-gifts-under-30-cover.jpg"
 status: "published"
 ---

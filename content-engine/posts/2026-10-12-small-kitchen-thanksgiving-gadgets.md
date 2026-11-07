@@ -8,6 +8,7 @@ pinTitle: "One Oven on Thanksgiving: Move 1 or 2 Sides to the Counter"
 pinDescription: "Turkey taking up your only oven? Move one or two sides out: steam green beans or carrots in a rice cooker's steaming basket, keep one saucy side in a small 1.5 qt slow cooker, and use an instant-read thermometer to know when the turkey is done. Includes a day-of timeline for Thanksgiving, Nov 26. All gadgets under $30. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-12"
+updated: "2026-11-02"
 image: "images/picturexphotobnb-kitchen.jpg"
 status: "published"
 ---

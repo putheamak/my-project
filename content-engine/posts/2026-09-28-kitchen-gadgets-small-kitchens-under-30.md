@@ -8,6 +8,7 @@ pinTitle: "Small Kitchen Gadgets Under $30 That Fold Flat or Nest Away"
 pinDescription: "Renting a galley kitchen or a studio with three drawers? These space-saving kitchen gadgets under $30 fold flat, nest together or hide inside the microwave: an over-sink collapsible colander, nesting bowls with lids, flexible cutting mats, a roll-up drying rack and an immersion blender that replaces a bulky blender jar. Check the current price on Amazon."
 pinBoard: "Small Kitchen Solutions & Gadgets"
 date: "2026-09-28"
+updated: "2026-11-06"
 image: "images/small-kitchen-corner.jpg"
 status: "published"
 ---

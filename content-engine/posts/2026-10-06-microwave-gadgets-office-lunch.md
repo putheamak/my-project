@@ -8,6 +8,7 @@ pinTitle: "Microwave Gadgets That Cook a Real Office Lunch (No Stove)"
 pinDescription: "Your break room has a microwave and nothing else? These gadgets cook lunch in it: a 45 oz bowl for noodles or pasta, a ramen cooker sized for one noodle block, a microwave sandwich press for grilled cheese, egg molds for breakfast sandwiches and a lidded grill pan for bacon. Quick picks and a comparison table on the blog. Check the current price on Amazon."
 pinBoard: "Easy Work Lunches & Small Kitchen Gadgets"
 date: "2026-10-06"
+updated: "2026-11-07"
 image: "images/microwave-gadgets-office-lunch-1.jpg"
 status: "published"
 ---

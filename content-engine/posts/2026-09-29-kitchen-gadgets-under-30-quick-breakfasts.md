@@ -8,6 +8,7 @@ pinTitle: "Quick Breakfast Gadgets Under $30: Prep Sunday, Grab Weekdays"
 pinDescription: "Out the door with a granola bar again? Prep breakfast on Sunday and grab it on weekdays: mason jars for overnight oats, silicone egg bite molds for a week of egg cups, a mason jar pitcher for iced coffee made the night before, and egg rings for weekend sandwiches. One pick per job, plus who should skip each. Check the current price on Amazon."
 pinBoard: "Quick Breakfast Ideas & Kitchen Gadgets"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "images/quick-breakfast-counter.jpg"
 status: "published"
 ---

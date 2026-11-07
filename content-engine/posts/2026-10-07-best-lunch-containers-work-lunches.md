@@ -8,6 +8,7 @@ pinTitle: "Pack Work Lunches the Night Before: Containers, Bag and Ice Packs Und
 pinDescription: "Pack tomorrow's lunch tonight and grab it on the way out. Six picks under $30 for the trip to work: 2-compartment containers that keep the main and side apart, a bento box, a big salad kit, an insulated lunch bag, slim ice packs and a travel utensil set that lives in the bag. Quick picks, comparison table and FAQ on the blog. Check the current price on Amazon."
 pinBoard: "Work Lunch Ideas & Meal Prep Gear"
 date: "2026-10-07"
+updated: "2026-11-02"
 image: "images/m4muli-food.jpg"
 status: "published"
 ---

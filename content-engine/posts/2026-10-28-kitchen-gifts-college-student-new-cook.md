@@ -8,6 +8,7 @@ pinTitle: "Kitchen Gifts for a College Student Under $30 | Dorm and First Apartm
 pinDescription: "Kitchen gifts for a college student or new cook under $30, matched to their setup. Dorm with only a microwave: a microwave rice cooker and an egg patty maker. Lunch on the go: an electric lunch box that warms food without a microwave. First apartment: a small nonstick pan and saucepan. Plus a 1-liter kettle. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-28"
+updated: "2026-11-02"
 image: "images/kitchen-gifts-college-student-new-cook-cover.jpg"
 status: "published"
 ---

@@ -8,6 +8,7 @@ pinTitle: "6 Kitchen Gadgets Under $30 for Chopping Vegetables Fast (and What to
 pinDescription: "Chopping is the slow part of dinner. These 6 prep tools under $30 take over the knife work: a pull chopper for onions, a dicer with a mandoline blade, a Y-peeler set, kitchen shears, a garlic press and a bench scraper. Includes a numbered buy order and a skip-it-if column so you only buy what you will use. Check the current price on Amazon."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-09-30"
+updated: "2026-11-02"
 image: "images/rolfvandewal-knives.jpg"
 status: "published"
 ---

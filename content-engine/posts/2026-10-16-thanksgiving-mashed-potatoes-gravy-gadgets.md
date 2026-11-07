@@ -8,6 +8,7 @@ pinTitle: "Smooth Mash and Lump-Free Gravy: Thanksgiving Tools Under $30"
 pinDescription: "In charge of potatoes and gravy this Thanksgiving? Six small tools under $30: a potato ricer for smooth mash, a masher if your family likes it chunky, a clip-on pot strainer, a bottom-release gravy separator, a whisk set and a stick blender for lumps. Plus the steam-dry trick for fluffier potatoes. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "images/47313974-turkey.jpg"
 status: "published"
 ---

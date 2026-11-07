@@ -67,7 +67,7 @@ export function postFromPack(pack, date) {
 const FIELDS = [
   "title", "seoTitle", "description", "slug", "keyword",
   "pinTitle", "pinDescription", "pinBoard",
-  "date", "image", "status",
+  "date", "updated", "image", "status",
 ];
 
 export function serializePost(post) {
