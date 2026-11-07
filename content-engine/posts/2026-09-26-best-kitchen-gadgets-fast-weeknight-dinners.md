@@ -24,7 +24,6 @@ I haven't used these myself. I picked them from the listings for the weeknight j
 - For "is the chicken done?": [TempSwift instant-read thermometer](https://amzn.to/3TK8QH9)
 - For garlic in every dinner: [Zulay large garlic press](https://amzn.to/4zhnyoi)
 - For fast, even veggie slices: [Fullstar handheld mandoline and julienne cutter](https://amzn.to/3TnKSkW)
-- For cooking from Sunday prep: [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF)
 :::
 
 ### Try this tonight: let the chicken rest
@@ -57,7 +56,7 @@ For more ways to speed up the knife work, see our [chopping and prep gadgets und
 
 ### How do I make Tuesday faster on Sunday?
 
-The [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) let you chop onions, peppers and cooked rice once, then cook fast all week. Glass doesn't hold onto tomato sauce stains like a lot of plastic does. Skip them if you never cook ahead; the chopping tools above will help you more.
+If you like to chop onions, peppers and cooked rice once and cook fast all week, the containers for that are in my [meal prep guide](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/). Skip that step if you never cook ahead; the chopping tools above will help you more.
 
 ![Glass meal prep containers filled with chopped vegetables](images/best-kitchen-gadgets-fast-weeknight-dinners-2.jpg)
 
@@ -80,7 +79,6 @@ Our [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitche
 | [KitchenAid box grater with container](https://amzn.to/3THo5AC) | Cheese and veggie shreds | You buy pre-shredded cheese |
 | [KitchenAid all-purpose shears](https://amzn.to/4eezyhY) | Herbs, scallions, bacon, packaging | You have shears you like |
 | [OXO Good Grips salad spinner](https://amzn.to/4ywPSD9) | Salad as a nightly side | You eat bagged greens |
-| [PrepNaturals glass meal prep containers](https://amzn.to/4rUytBF) | Cooking from Sunday prep | You never cook ahead |
 
 ### Frequently asked questions
 

@@ -8,7 +8,7 @@ pinTitle: "No Stove? Cook a Week of Meals With 4 Microwave Gadgets"
 pinDescription: "Dorm room, tiny studio, or a rental with a broken stove? These four microwave gadgets under $30 cook poached eggs, egg breakfasts, bacon, burger patties and pressed grilled cheese. Includes a simple Monday to Friday menu that uses only these tools, plus honest limits (no real browning). Check the current price on Amazon."
 pinBoard: "Small Kitchen Gadgets & No-Stove Cooking"
 date: "2026-10-03"
-image: "images/stocksnap-food-2568486.jpg"
+image: "images/cook-without-a-stove-microwave-gadgets-2.jpg"
 status: "published"
 ---
 
@@ -80,8 +80,6 @@ And these tools cook for one or two people, so pasta for four is still a stove j
 | [Microwave egg cooker](https://amzn.to/4htE2C8) | Fast, flexible egg breakfasts | You only want poached eggs |
 | [2-egg microwave poacher](https://amzn.to/46YdVyB) | Two poached eggs on bread | You prefer scrambled eggs |
 | [MAX microwave sandwich maker](https://amzn.to/46YfhcF) | Grilled cheese and paninis | You want a crisp, golden crust |
-
-![Grilled cheese sandwich cut in half on a plate](images/cook-without-a-stove-microwave-gadgets-2.jpg)
 
 ### Frequently asked questions
 
