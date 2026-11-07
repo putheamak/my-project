@@ -8,7 +8,7 @@ pinTitle: "Kitchen Gifts for a College Student Under $30 | Dorm and First Apartm
 pinDescription: "Kitchen gifts for a college student or new cook under $30, matched to their setup. Dorm with only a microwave: a microwave rice cooker and an egg patty maker. Lunch on the go: an electric lunch box that warms food without a microwave. First apartment: a small nonstick pan and saucepan. Plus a 1-liter kettle. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-28"
-updated: "2026-11-02"
+updated: "2026-11-07"
 image: "images/kitchen-gifts-college-student-new-cook-cover.jpg"
 status: "published"
 ---
@@ -31,6 +31,8 @@ I haven't used these myself. I picked them from the listings for what they need 
 
 ### Try this tonight: a microwave breakfast sandwich
 
+![Hands cracking an egg](images/kitchen-gifts-college-student-new-cook-3.jpg)
+
 1. Grease a microwave-safe mug or egg patty maker, crack in one egg, and pierce the yolk with a fork so it doesn't burst.
 2. Microwave in 20-second bursts until the white is just set. Most microwaves take about a minute in total.
 3. Slide the round egg onto a toasted English muffin or bagel with a slice of cheese, and the cheese melts from the heat of the egg.
@@ -39,7 +41,7 @@ It's the cheapest drive-thru breakfast you'll ever make. The round shape is what
 
 ### What's the best gift for a dorm with only a microwave?
 
-![A home kitchen with a microwave above the counter](images/kitchen-gifts-college-student-new-cook-1.jpg)
+![A small microwave on a kitchen counter](images/kitchen-gifts-college-student-new-cook-1.jpg)
 
 **Main pick:** the [Joseph Joseph M-Cuisine microwave rice cooker](https://link.amazon/B0hRghGrh), which holds up to 8.5 cups. **New to many people:** most students don't know you can make proper rice in a microwave. It's a container with a vented lid made for cooking rice or steaming vegetables in the microwave, so a shared microwave becomes a rice cooker.
 
@@ -57,7 +59,7 @@ Check the dorm's rules before you buy anything that heats up. Many allow small a
 
 ### What should a new cook with a first apartment get?
 
-![A cook plating a small dish](images/kitchen-gifts-college-student-new-cook-2.jpg)
+![A small first-apartment kitchen](images/kitchen-gifts-college-student-new-cook-2.jpg)
 
 **Main pick:** the [SENSARTE 8-inch nonstick frying pan](https://amzn.to/4j69CZf), omelet-size and induction compatible. **Already have one?** A lot of first kitchens run on a scratched hand-me-down pan that eggs stick to. A fresh nonstick pan is the cheapest way to make cooking feel easier.
 
