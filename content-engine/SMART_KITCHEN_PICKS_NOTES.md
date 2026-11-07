@@ -1,6 +1,6 @@
 # Smart Kitchen Picks: notes for the next chat
 
-Read this first. Last updated **3 Nov 2026** (end of a long chat; the owner starts a new chat on 4 Nov).
+**Read `AGENT_RULES.md` before this file (owner's rules, required checks, mistake log).** Then read this. Last updated **7 Nov 2026**.
 
 ## START HERE (handoff, 3 Nov)
 **8-WEEK FOCUS PLAN (owner chose "A" on 4 Nov; runs to 31 Dec 2026; this block wins over older notes)**
