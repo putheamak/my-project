@@ -8,7 +8,7 @@ pinTitle: "5 Kitchen Gadgets for Cooking for One (Under $30)"
 pinDescription: "Tired of eating the same recipe four nights in a row? These five small kitchen gadgets under $30 are sized for one person: a 2-cup mini rice cooker, a mini waffle maker, an 8-inch nonstick pan, an omelet and egg patty maker and a microwave ramen cooker. One portion, one thing to wash. Check the current price on Amazon."
 pinBoard: "Cooking for One — Small Kitchen Gadgets"
 date: "2026-10-05"
-image: "images/cooking-for-one.jpg"
+image: "images/kitchen-gadgets-for-cooking-for-one-1.jpg"
 status: "published"
 ---
 
@@ -36,8 +36,6 @@ I haven't used these myself. I picked them from the listings for one-portion cap
 A small rice cooker makes this easy: cook one batch, eat half, freeze half.
 
 ### What's the easiest way to cook rice and noodles for one?
-
-![A small bowl of rice for one person](images/kitchen-gadgets-for-cooking-for-one-1.jpg)
 
 The [Dash Mini Rice Cooker (2-cup)](https://amzn.to/4hCn7gY) comes first because it covers lunch and dinner, not just one meal. A 2-cup cooker makes one or two portions, so you get tonight's rice bowl and maybe tomorrow's lunch, not a vat that sits in the fridge. **Already have one?** If you cook rice in a saucepan now, the difference is the watching: a rice cooker finishes the job on its own, so you're not lifting the lid or scraping a scorched pot while you deal with the rest of dinner.
 

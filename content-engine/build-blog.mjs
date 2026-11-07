@@ -77,6 +77,7 @@ h3{font-size:1.15rem;margin:1.4em 0 .4em}
 .meta{color:var(--muted);font-size:.9rem}
 .disclosure{background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;font-size:.9rem;border-radius:4px;margin:16px 0 24px}
 .picks{background:var(--surface);border:2px solid var(--accent);border-radius:12px;padding:14px 16px;margin:1.2em 0}
+.more-chips summary{cursor:pointer;color:var(--accent);font-weight:600;margin:6px 0 4px}
 .picks-title{margin:0 0 8px;font-weight:700;font-size:1.05rem}
 .picks ul{list-style:none;margin:0;padding:0}
 .picks li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
@@ -96,7 +97,7 @@ blockquote{margin:1em 0;padding:4px 16px;border-left:3px solid var(--line);color
 code{background:var(--surface);padding:1px 5px;border-radius:3px}
 img{max-width:100%;height:auto;display:block;border-radius:8px;margin:1em 0}
 article p img{width:100%;aspect-ratio:3/2;object-fit:cover}
-.cover{margin:0 0 20px}
+.cover{margin:0 0 20px;width:100%;max-height:min(56vh,420px);object-fit:cover}
 .post-list{list-style:none;padding:0;margin:0}
 .cards{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:20px}
 @media (min-width:600px){.cards{grid-template-columns:1fr 1fr}.cards.feature>li:first-child{grid-column:1/-1}}
@@ -337,6 +338,16 @@ function homeShop() {
 <script>(function(){var b=document.querySelectorAll("[data-pick-day]");if(!b.length)return;var d=Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5)%b.length;for(var i=0;i<b.length;i++)b[i].hidden=i!==d})()</script>`;
   };
   const videos = (home.videoPosts ?? []).map((v) => ({ ...v, post: bySlug(v.slug) })).filter((v) => v.post);
+  // Show the newest video tips first and fold the rest away, so the page doesn't
+  // open with a wall of buttons (home.videoChipsShown, default all).
+  const shown = Number(home.videoChipsShown) || videos.length;
+  const chipList = (list) => `<ul class="chips">${list.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}${/^#{2,4} Try this tonight/im.test(v.post.body) ? "#try-this-tonight" : ""}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul>`;
+  // The topic the blog focuses on (home.focus): a few start-here guides near the top.
+  const focusPosts = (home.focus?.posts ?? []).map(bySlug).filter(Boolean);
+  const focus = focusPosts.length
+    ? `<section class="focus"><h2 class="sec">${esc(home.focus.title ?? "Start here")}</h2>${home.focus.intro ? `<p class="shop-intro">${esc(home.focus.intro)}</p>` : ""}
+${postItems(focusPosts, { short: true })}</section>`
+    : "";
   const shop = featured.length || picks.length
     ? `<section class="shop">
 ${home.title ? `<h2 class="sec">${esc(home.title)}</h2>` : ""}${home.intro ? `<p class="shop-intro">${esc(home.intro)}</p>` : ""}
@@ -347,7 +358,7 @@ ${picksHtml(picks)}` : ""}
     : "";
   const seen = videos.length
     ? `<section class="seen"><h2 class="sec">Saw one of my videos? Find the full tip here</h2>
-<ul class="chips">${videos.map((v) => `<li><a href="${href(`posts/${v.post.slug}/`)}${/^#{2,4} Try this tonight/im.test(v.post.body) ? "#try-this-tonight" : ""}">${esc(v.label || v.post.title)}</a></li>`).join("")}</ul></section>`
+${chipList(videos.slice(0, shown))}${videos.length > shown ? `<details class="more-chips"><summary>More video tips (${videos.length - shown})</summary>${chipList(videos.slice(shown))}</details>` : ""}</section>`
     : "";
   // One evergreen "start here" page for first-time visitors (site.json home.startHere).
   const start = bySlug(home.startHere ?? "");
@@ -355,7 +366,7 @@ ${picksHtml(picks)}` : ""}
     ? `<p class="shop-intro"><strong>New here?</strong> Start with my overview of the whole blog: <a href="${href(`posts/${start.slug}/`)}">${esc(start.title)}</a>.</p>`
     : "";
   // Most visitors type the address after a video, so the video tips come first.
-  return seen + startLine + shop;
+  return seen + focus + startLine + shop;
 }
 
 // Photos inside a post: a missing file is skipped quietly, so photo spots can be
@@ -454,7 +465,7 @@ write(
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, alternateName: ["Home Picks Under 30", "homepicksunder30.com"], url: url() }],
     body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
-<p>Kitchen and home gadgets under $30 for busy people, grouped by the job they do and compared side by side.</p></section>
+<p>${esc(site.heroText || "Kitchen and home gadgets under $30 for busy people, grouped by the job they do and compared side by side.")}</p></section>
 ${homeShop()}
 ${topics.length ? `<h2 class="sec">Browse by topic</h2>\n${topicChips(topics)}` : ""}
 ${posts.length ? `<h2 class="sec">All posts</h2>\n${postItems(posts, { feature: true })}` : "<p>New posts are coming soon.</p>"}`,
