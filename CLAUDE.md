@@ -20,7 +20,8 @@ projects — don't change them while working on Khmer Parcel, and the notes belo
 
 ## Smart Kitchen Picks (`content-engine/`) — read first
 Affiliate blog (kitchen gadgets under $30, Amazon Associates). The Khmer Parcel rules above don't apply here.
-Start with `content-engine/SMART_KITCHEN_PICKS_NOTES.md` (status, daily routine, compliance rules, gotchas),
+**First read `content-engine/AGENT_RULES.md` (the owner's rules, checks before/after every change, mistake log) — every chat, every day.**
+Then `content-engine/SMART_KITCHEN_PICKS_NOTES.md` (status, daily routine, compliance rules, gotchas),
 then `content-engine/README.md`. Don't change `khmer-parcel/` while working on this project.
 
 ## General (`general/`)
