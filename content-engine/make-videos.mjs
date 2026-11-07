@@ -199,23 +199,36 @@ const TIP_HOOK = 2.6;
 const TIP_STEP = 3.0;
 const TIP_END = 3.6;
 
-function tipPhotos(post, cover) {
+function tipPhotos(post, cover, spec = {}) {
+  // tip-videos.json "photos": [hook, step 1, step 2] image paths, so each step
+  // shows a picture that matches its words (a missing file falls back to the cover).
+  if (Array.isArray(spec.photos) && spec.photos.length) {
+    return [0, 1, 2].map((i) => {
+      const f = spec.photos[i] && path.join(here, spec.photos[i]);
+      return f && fs.existsSync(f) ? f : cover;
+    });
+  }
   const extra = [1, 2].map((n) => path.join(imagesDir, `${post.slug}-${n}.jpg`)).filter((f) => fs.existsSync(f));
   return [cover, ...extra];
 }
+
+// Shorts, TikTok and Pinterest cover the bottom quarter of the screen with the
+// title, caption and buttons, so tip videos put the domain and the text in the
+// top half and leave the photo visible below.
+const tipBrand = [...panel(700, 76, "black", 0.55), ...at("north", 0, 170), ...caption(660, 56, 38, "white", domain.toUpperCase()), ...at("north", 0, 180)];
 
 function renderTip(spec, photos, out) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "skp-tip-"));
   const part = path.join(dir, "tip.mp4");
   try {
     const step = (i, text) => [
-      ...panel(980, 640, "black", 0.62), ...at("center", 0, 0),
-      ...panel(150, 150, ACCENT, 1), ...at("center", 0, -230),
-      ...caption(130, 120, 80, "white", String(i + 1)), ...at("center", 0, -230),
-      ...caption(880, 380, 0, "white", text), ...at("center", 0, 60),
+      ...panel(980, 520, "black", 0.6), ...at("north", 0, 300),
+      ...panel(130, 130, ACCENT, 1), ...at("north", 0, 330),
+      ...caption(110, 100, 72, "white", String(i + 1)), ...at("north", 0, 345),
+      ...caption(900, 300, 0, "white", text), ...at("north", 0, 485),
     ];
     const scenes = [
-      { len: TIP_HOOK, layer: [...panel(980, 620, "black", 0.6), ...at("center", 0, -60), ...caption(900, 420, 0, "white", spec.hook), ...at("center", 0, -110), ...panel(520, 110, ACCENT, 1), ...at("center", 0, 200), ...caption(480, 80, 0, "white", "Do this:"), ...at("center", 0, 200)] },
+      { len: TIP_HOOK, layer: [...panel(1000, 560, "black", 0.55), ...at("north", 0, 300), ...caption(920, 400, 0, "white", spec.hook), ...at("north", 0, 330), ...panel(460, 100, ACCENT, 1), ...at("north", 0, 760), ...caption(420, 76, 0, "white", "Do this:"), ...at("north", 0, 772)] },
       // Only the first two steps: step 3 and the gadget are on the blog, which gives
       // viewers a reason to visit instead of getting the whole answer in the video.
       ...spec.steps.slice(0, 2).map((text, i) => ({ len: TIP_STEP, layer: step(i, text) })),
@@ -229,7 +242,7 @@ function renderTip(spec, photos, out) {
       const clip = path.join(dir, `c${i}.mp4`);
       const big = `${Math.round(W * 1.15)}x${Math.round(H * 1.15)}`;
       magick([photo, "-auto-orient", "-resize", `${big}^`, "-gravity", "center", "-extent", big, "-fill", "black", "-colorize", "25%", "-quality", "92"], bg);
-      magick(["-size", `${W}x${H}`, "xc:none", ...scene.layer, ...brand], layer);
+      magick(["-size", `${W}x${H}`, "xc:none", ...scene.layer, ...(i === scenes.length - 1 ? [] : tipBrand)], layer);
       const frames = Math.round(scene.len * FPS);
       // Alternate zoom in and out so each cut feels like a new shot.
       const z = i % 2 === 0 ? `1+0.08*on/${frames}` : `1.08-0.08*on/${frames}`;
@@ -325,9 +338,9 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   }
   const spec = tips[post.slug];
   if (!spec || !manifest[post.slug]) continue;
-  const photos = tipPhotos(post, src);
+  const photos = tipPhotos(post, src, spec);
   const tipKey = createHash("sha1")
-    .update(JSON.stringify([VERSION, "tip2", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .update(JSON.stringify([VERSION, "tip3", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
     .digest("hex")
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {
