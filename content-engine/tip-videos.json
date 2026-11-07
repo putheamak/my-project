@@ -285,7 +285,12 @@
     ],
     "label": "Gift idea:",
     "product": "An egg patty maker makes it round, like the real thing",
-    "cta": "Kitchen gifts for college students under $30:"
+    "cta": "Kitchen gifts for college students under $30:",
+    "photos": [
+      "images/kitchen-gifts-college-student-new-cook-cover.jpg",
+      "images/kitchen-gifts-college-student-new-cook-3.jpg",
+      "images/kitchen-gifts-college-student-new-cook-1.jpg"
+    ]
   },
   "hostess-gifts-under-30": {
     "hook": "A cheese board in 10 minutes?",
