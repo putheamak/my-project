@@ -8,6 +8,7 @@ pinTitle: "No Stove? Cook a Week of Meals With 4 Microwave Gadgets"
 pinDescription: "Dorm room, tiny studio, or a rental with a broken stove? These four microwave gadgets under $30 cook poached eggs, egg breakfasts, bacon, burger patties and pressed grilled cheese. Includes a simple Monday to Friday menu that uses only these tools, plus honest limits (no real browning). Check the current price on Amazon."
 pinBoard: "Small Kitchen Gadgets & No-Stove Cooking"
 date: "2026-10-03"
+updated: "2026-11-07"
 image: "images/cook-without-a-stove-microwave-gadgets-2.jpg"
 status: "published"
 ---

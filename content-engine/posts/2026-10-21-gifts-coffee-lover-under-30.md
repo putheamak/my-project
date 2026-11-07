@@ -8,6 +8,7 @@ pinTitle: "Coffee Lover Gifts Under $30 | Latte, Pour-Over, Commuter, Keurig"
 pinDescription: "Coffee lover gifts under $30, matched to how they drink it. Latte lover: a handheld frother and a De'Longhi frothing jug. Pour-over fan: a gooseneck kettle and a manual grinder. Commuter: a Contigo travel mug. Desk worker: a mug warmer with a timer. Keurig owner: reusable pods and an airtight canister for their own grounds. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-21"
+updated: "2026-11-02"
 image: "images/dideechen-coffee.jpg"
 status: "published"
 ---

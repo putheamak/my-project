@@ -8,6 +8,7 @@ pinTitle: "Coffee-Shop Breakfast at Home: 2 Gadget Kits for Egg Sandwiches and F
 pinDescription: "Skip the drive-thru line. Two small kits for a coffee-shop breakfast at home: a microwave-only egg sandwich kit with an egg poacher and sandwich maker, and a café coffee kit with a French press, milk frother and frothing jug. One pick per job, plus who should skip each one. Check the current price on Amazon."
 pinBoard: "Fast Breakfasts & Small Kitchen Gadgets"
 date: "2026-10-04"
+updated: "2026-11-02"
 image: "images/adrianhnt-coffee-shop.jpg"
 status: "published"
 ---

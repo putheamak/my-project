@@ -8,6 +8,7 @@ pinTitle: "Kitchen Gadgets Under $30 for Faster Weeknight Dinners"
 pinDescription: "Dinner in 20 minutes starts with the right small tools. One pick for each slow weeknight job: a garlic press, a handheld mandoline, a box grater with a container, kitchen shears, a salad spinner, an instant-read thermometer and glass prep containers. Each one is under $30, with who it suits and when to skip it. Check the current price on Amazon."
 pinBoard: "Time-Saving Kitchen Tools & Weeknight Dinner Hacks"
 date: "2026-09-26"
+updated: "2026-11-07"
 image: "images/weeknight-dinner.jpg"
 status: "published"
 ---

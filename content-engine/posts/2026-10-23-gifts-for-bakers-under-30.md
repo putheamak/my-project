@@ -8,6 +8,7 @@ pinTitle: "Gifts for Bakers Under $30 | Cookie Bakers, Decorators, Fun Projects"
 pinDescription: "Gifts for bakers under $30, matched to the kind of baker. Cookie baker: silicone baking mats and a 3-size cookie scoop set. Decorator: a 124-piece piping set. Bread baker: a pair of banneton proofing baskets. Scorched mitts: silicone oven mitts. Beginner cake decorator: a 90-piece cake decorating kit. Fun project: a mini donut maker. Plus a zester for the stocking. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-23"
+updated: "2026-11-02"
 image: "images/gifts-for-bakers-under-30-cover.jpg"
 status: "published"
 ---

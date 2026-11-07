@@ -8,6 +8,7 @@ pinTitle: "Kitchen Gifts Under $30 by Person (2026 Christmas Guide)"
 pinDescription: "Christmas kitchen gifts under $30, sorted by who you're shopping for. Start with three safe picks almost any cook uses: an instant-read thermometer, silicone oven mitts and silicone baking mats. Then find gifts for holiday bakers, solo cooks and students, lunch packers and coffee drinkers, each with a note on who should skip it. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-16"
+updated: "2026-11-07"
 image: "images/gift-guide.jpg"
 status: "published"
 ---

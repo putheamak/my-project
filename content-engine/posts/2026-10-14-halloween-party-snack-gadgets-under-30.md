@@ -8,6 +8,7 @@ pinTitle: "Make-Ahead Halloween Party Treats: 6 Gadgets Under $30"
 pinDescription: "Halloween is Saturday, Oct 31. Make the spooky treats the day before: skull and pumpkin chocolates from silicone molds, cut-out cookies, piped mummy stripes and wrapped candy apples. Includes a day-before and one-hour-before party plan. Check the current price on Amazon."
 pinBoard: "Halloween Party Food Ideas"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "images/jillwellington-halloween.jpg"
 status: "published"
 ---

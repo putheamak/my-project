@@ -8,6 +8,7 @@ pinTitle: "Stocking Stuffers for People Who Cook: 4 Ready-Made Bundles"
 pinDescription: "Skip the guesswork: four stocking bundles for the cooks on your list, with each item under $30. The everyday cook gets a Microplane zester, pinch bowls and spatulas. The baker gets whisks and mesh strainers. Plus a lunch packer bundle and one for parents or grandparents with a jar opener and a meat thermometer. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-19"
+updated: "2026-11-06"
 image: "images/kaboompics-cookies.jpg"
 status: "published"
 ---

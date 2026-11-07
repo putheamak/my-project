@@ -8,6 +8,7 @@ pinTitle: "Hostess Gifts Under $30 for Someone Who Loves to Cook | Holiday Dinne
 pinDescription: "Hostess gifts under $30 for the person hosting holiday dinner. For the table that night: a cheese knife set, a white gravy boat, a butter dish with a lid. For a host who cooks every day: a bamboo salt cellar, a glass olive oil sprayer, an herb keeper. For dessert: a double-serrated pie server and an ice cream scoop. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-30"
+updated: "2026-11-02"
 image: "images/hostess-gifts-under-30-cover.jpg"
 status: "published"
 ---

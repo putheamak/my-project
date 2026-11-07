@@ -8,6 +8,7 @@ pinTitle: "Movie Night at Home: Which Popcorn Popper to Buy (and What Else You N
 pinDescription: "Better popcorn for movie night at home: a collapsible microwave popper for one or two people, a hot air popper for a full couch, and a seasoning sampler so everyone picks a flavor. Plus a 6-section snack tray for the candy and pretzels. Check the current price on Amazon."
 pinBoard: "Movie Night Snack Ideas"
 date: "2026-10-09"
+updated: "2026-11-02"
 image: "images/movie-night-snack-gadgets-cover.jpg"
 status: "published"
 ---

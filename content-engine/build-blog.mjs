@@ -53,6 +53,10 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort() : [
   posts.push(post);
 }
 posts.sort((a, b) => b.date.localeCompare(a.date));
+// "updated" (front matter, YYYY-MM-DD) is the last real change to a post; the
+// sitemap, the page's dateModified and the "Updated" line use it so Google and
+// readers can see a post was improved. Ignored unless it's after the post date.
+const modified = (p) => (/^\d{4}-\d{2}-\d{2}$/.test(p.updated ?? "") && p.updated > p.date ? p.updated : p.date);
 const topics = topicsWithPosts(loadTopics(here), posts);
 
 // ---- Templates --------------------------------------------------------------
@@ -421,7 +425,7 @@ for (const post of posts) {
       headline: post.title,
       description,
       datePublished: post.date,
-      dateModified: post.date,
+      dateModified: modified(post),
       author: { "@type": "Person", name: site.author },
       mainEntityOfPage: canonical,
       ...(cover ? { image: cover } : {}),
@@ -445,7 +449,7 @@ for (const post of posts) {
       image: cover,
       jsonLd,
       body: `<article>
-<p class="meta"><time datetime="${esc(post.date)}">${dateLabel(post.date)}</time> · ${esc(site.author)}</p>
+<p class="meta"><time datetime="${esc(post.date)}">${dateLabel(post.date)}</time>${modified(post) !== post.date ? ` · Updated <time datetime="${esc(modified(post))}">${dateLabel(modified(post))}</time>` : ""} · ${esc(site.author)}</p>
 <h1>${esc(post.title)}</h1>
 <p class="disclosure">${esc(disclosure)} <a href="${href("disclosure/")}">Learn more</a>.</p>
 ${coverSrc ? `<img class="cover" src="${esc(coverSrc)}" alt="${esc(post.title)}">` : ""}
@@ -542,7 +546,7 @@ write(
 ${[
   ...staticPages.map((p) => `<url><loc>${esc(url(p))}</loc></url>`),
   ...(topics.length ? ["topics/", ...topics.map((t) => `topics/${t.slug}/`)] : []).map((p) => `<url><loc>${esc(url(p))}</loc></url>`),
-  ...posts.map((p) => `<url><loc>${esc(url(`posts/${p.slug}/`))}</loc><lastmod>${esc(p.date)}</lastmod></url>`),
+  ...posts.map((p) => `<url><loc>${esc(url(`posts/${p.slug}/`))}</loc><lastmod>${esc(modified(p))}</lastmod></url>`),
 ].join("\n")}
 </urlset>
 `,
