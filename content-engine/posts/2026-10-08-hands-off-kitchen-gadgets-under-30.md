@@ -8,7 +8,7 @@ pinTitle: "Load It and Walk Away: Hands-Off Kitchen Gadgets Under $30"
 pinDescription: "Kitchen gadgets under $30 you load and leave: a 12-cup coffee maker that brews while you shower, a rice cooker with a steaming basket, a mini rice cooker for one, a 1.5 qt slow cooker with 3 heat settings, and a microwave pasta bowl. Plus a simple load-and-leave morning timeline. Check the current price on Amazon."
 pinBoard: "Easy Kitchen Gadgets for Busy Weeknights"
 date: "2026-10-08"
-image: "images/hands-off-kitchen-gadgets-under-30-cover.jpg"
+image: "images/hands-off-kitchen-gadgets-under-30-2.jpg"
 status: "published"
 ---
 
@@ -63,8 +63,6 @@ The [BLACK+DECKER 6-cup rice cooker with steaming basket](https://amzn.to/3TLiBV
 The [Dash Mini Rice Cooker (2-cup, removable ceramic nonstick pot)](https://amzn.to/4hCn7gY) is the small option for one or two people. The pot comes out for washing at the sink. Skip it if you batch-cook for the week; it's sized for a meal, not a meal plan.
 
 ### Which small slow cooker is right for one or two people?
-
-![Stew in a small slow cooker](images/hands-off-kitchen-gadgets-under-30-2.jpg)
 
 The [bella 1.5 qt manual slow cooker with 3 heat settings (Surf)](https://amzn.to/4rZWLKM) is sized for small batches. Three heat settings let you match the cook to your recipe. It's manual, so you switch it off yourself when the time is up; skip it if you want a timer that turns itself off.
 

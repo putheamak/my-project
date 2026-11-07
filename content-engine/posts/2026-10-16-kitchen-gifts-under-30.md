@@ -54,8 +54,6 @@ Small kitchens and single portions call for small tools. Before buying an applia
 
 The [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) makes one 4-inch waffle at a time, which is the right size for a solo weekend breakfast. Skip it if they'd rather make a full batch for a family.
 
-The [Rapid Ramen Cooker (2-pack)](https://amzn.to/4AMN4D8) cooks a block of ramen in the microwave, with no pot to wash. It fits students and anyone with a microwave but no stove. Skip it if they cook their noodles from scratch.
-
 For more single-portion ideas, see these [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/).
 
 ### What helps someone who packs lunch for work?
@@ -89,7 +87,6 @@ For coffee people, grinders, pour-over setups and more, go to the full guide to 
 | [Cole & Mason herb keeper](https://amzn.to/4Bfvbxe) | Fresh-herb cooks | They mostly use dried herbs |
 | [Piping bags and tips set](https://amzn.to/4dBeBO5) | Holiday cookie decorators | They have plenty of tips already |
 | [Dash Mini Waffle Maker](https://amzn.to/46Xe9pI) | Solo cooks | They cook for a family |
-| [Rapid Ramen Cooker](https://amzn.to/4AMN4D8) | Students, small kitchens | They cook noodles from scratch |
 | [Umami bento box](https://amzn.to/4hAa8xD) | Office lunch packers | They bring soup most days |
 | [Lifewit insulated lunch bag](https://amzn.to/4zfg0lN) | Long shifts, breakfast-and-lunch packers | They carry a small sandwich and an apple |
 | [Contigo Byron travel mug](https://amzn.to/4yUoaAn) | Commuting coffee drinkers | They drink coffee at home in a favorite mug |

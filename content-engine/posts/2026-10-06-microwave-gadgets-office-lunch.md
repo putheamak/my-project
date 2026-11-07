@@ -8,7 +8,7 @@ pinTitle: "Microwave Gadgets That Cook a Real Office Lunch (No Stove)"
 pinDescription: "Your break room has a microwave and nothing else? These gadgets cook lunch in it: a 45 oz bowl for noodles or pasta, a ramen cooker sized for one noodle block, a microwave sandwich press for grilled cheese, egg molds for breakfast sandwiches and a lidded grill pan for bacon. Quick picks and a comparison table on the blog. Check the current price on Amazon."
 pinBoard: "Easy Work Lunches & Small Kitchen Gadgets"
 date: "2026-10-06"
-image: "images/daria-yakovleva-cooking.jpg"
+image: "images/microwave-gadgets-office-lunch-1.jpg"
 status: "published"
 ---
 
@@ -37,8 +37,6 @@ I haven't used these myself. I picked them from the listings for a lid or cover 
 A roomy bowl like the [Layron 45 oz bowl](https://amzn.to/3W7FOBT) gives you space to stir without spilling.
 
 ### What can I cook for lunch in an office microwave?
-
-![Noodle lunch at an office desk](images/microwave-gadgets-office-lunch-1.jpg)
 
 Noodles and pasta are the easiest place to start. Both cook in water, so the right container does most of the work.
 
