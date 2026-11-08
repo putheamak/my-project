@@ -195,9 +195,10 @@ function render(post, src, out) {
 // (cover, then the post's section photos) so the picture changes with the text.
 const tipsPath = path.join(here, "tip-videos.json");
 const tips = fs.existsSync(tipsPath) ? JSON.parse(fs.readFileSync(tipsPath, "utf8")) : {};
-const TIP_HOOK = 2.6;
-const TIP_STEP = 3.0;
-const TIP_END = 3.6;
+// Faster cuts keep viewers watching (about 11 s in total).
+const TIP_HOOK = 2.0;
+const TIP_STEP = 2.6;
+const TIP_END = 3.0;
 
 function tipPhotos(post, cover, spec = {}) {
   // tip-videos.json "photos": [hook, step 1, step 2] image paths, so each step
@@ -234,6 +235,8 @@ function renderTip(spec, photos, out) {
       ...spec.steps.slice(0, 2).map((text, i) => ({ len: TIP_STEP, layer: step(i, text) })),
       { len: TIP_END + 0.6, layer: [...panel(980, 900, "black", 0.68), ...at("center", 0, 0), ...caption(880, 260, 62, "white", "Step 3 + the gadget that makes it easier:"), ...at("center", 0, -250), ...panel(920, 140, ACCENT, 1), ...at("center", 0, -30), ...caption(860, 100, 0, "white", domain), ...at("center", 0, -30), ...caption(860, 80, 42, "#fde7d6", "Type it in your browser"), ...at("center", 0, 110), ...caption(860, 70, 34, "#fde7d6", spec.cta), ...at("center", 0, 210), ...caption(800, 90, 30, "#d9d9d9", disclosure), ...at("center", 0, 320)] },
     ];
+    const total = scenes.reduce((sum, sc) => sum + sc.len, 0);
+    let start = 0;
     const parts = scenes.map((scene, i) => {
       // Hook on the cover, steps on the section photos, product and end card back on the cover.
       const photo = i === 0 || i > 2 ? photos[0] : photos[1 + ((i - 1) % Math.max(1, photos.length - 1))] ?? photos[0];
@@ -244,21 +247,35 @@ function renderTip(spec, photos, out) {
       magick([photo, "-auto-orient", "-resize", `${big}^`, "-gravity", "center", "-extent", big, "-fill", "black", "-colorize", "25%", "-quality", "92"], bg);
       magick(["-size", `${W}x${H}`, "xc:none", ...scene.layer, ...(i === scenes.length - 1 ? [] : tipBrand)], layer);
       const frames = Math.round(scene.len * FPS);
-      // Alternate zoom in and out so each cut feels like a new shot.
-      const z = i % 2 === 0 ? `1+0.08*on/${frames}` : `1.08-0.08*on/${frames}`;
+      // Real footage when tip-videos.json gives a clip for this scene ("clips":
+      // [hook, step 1, step 2], short vertical videos, e.g. the owner's own or from
+      // Pexels); the end card reuses the hook clip. Otherwise the photo, with a
+      // stronger zoom and a slight drift, alternating direction on each cut.
+      const clipSrc = Array.isArray(spec.clips) ? spec.clips[i > 2 ? 0 : i] : null;
+      const footage = clipSrc && fs.existsSync(path.resolve(here, clipSrc)) ? path.resolve(here, clipSrc) : null;
+      const z = i % 2 === 0 ? `1+0.14*on/${frames}` : `1.14-0.14*on/${frames}`;
+      const drift = i % 2 === 0 ? `+0.04*iw*on/${frames}` : `-0.04*iw*on/${frames}`;
+      const background = footage
+        ? `[0:v]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,eq=brightness=-0.06,fps=${FPS},trim=duration=${scene.len},setpts=PTS-STARTPTS[b]`
+        : `[0:v]zoompan=z='${z}':x='iw/2-(iw/zoom/2)${drift}':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS}[b]`;
+      // Text slides down into place (the hook stays put so the first frame, which
+      // apps use as the cover, already shows it). A thin progress bar runs along
+      // the top edge across the whole video.
+      const slide = i ? `if(lt(t,0.35),-70*(1-t/0.35),0)` : "0";
       const run = spawnSync("ffmpeg", [
         "-y", "-loglevel", "error",
-        "-loop", "1", "-framerate", String(FPS), "-t", String(scene.len), "-i", bg,
+        ...(footage ? ["-stream_loop", "-1", "-i", footage] : ["-loop", "1", "-framerate", String(FPS), "-t", String(scene.len), "-i", bg]),
         "-loop", "1", "-framerate", String(FPS), "-t", String(scene.len), "-i", layer,
-        "-filter_complex", `[0:v]zoompan=z='${z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS}[b];[1:v]format=rgba${i ? ",fade=in:st=0:d=0.25:alpha=1" : ""}[t];[b][t]overlay=0:0,format=yuv420p`,
-        "-t", String(scene.len), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-r", String(FPS), clip,
+        "-f", "lavfi", "-t", String(scene.len), "-i", `color=c=${ACCENT}:s=${W}x14:r=${FPS}`,
+        "-filter_complex", `${background};[1:v]format=rgba${i ? ",fade=in:st=0:d=0.25:alpha=1" : ""}[t];[b][t]overlay=x=0:y='${slide}'[bt];[bt][2:v]overlay=x='-${W}+${W}*(${start.toFixed(3)}+t)/${total.toFixed(3)}':y=0,format=yuv420p`,
+        "-t", String(scene.len), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-r", String(FPS), clip,
       ]);
+      start += scene.len;
       if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
       return clip;
     });
     const list = path.join(dir, "list.txt");
     fs.writeFileSync(list, parts.map((p) => `file '${p}'`).join("\n"));
-    const total = scenes.reduce((sum, sc) => sum + sc.len, 0);
     const run = spawnSync("ffmpeg", [
       "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", list,
       "-f", "lavfi", "-t", String(total), "-i", "anullsrc=r=44100:cl=stereo",
@@ -343,7 +360,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   if (!spec || !manifest[post.slug]) continue;
   const photos = tipPhotos(post, src, spec);
   const tipKey = createHash("sha1")
-    .update(JSON.stringify([VERSION, "tip4", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .update(JSON.stringify([VERSION, "tip5", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
     .digest("hex")
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {
