@@ -99,6 +99,12 @@ jobs:
       # pinterest.autoPost is true in site.json (see content-engine/README.md).
       - name: Wait for GitHub Pages
         run: sleep 20
+      # Tell Bing (IndexNow) about posts published or updated in the last 2 days.
+      # Never fails the workflow; see content-engine/indexnow.mjs.
+      - name: Notify search engines (IndexNow)
+        working-directory: content-engine
+        continue-on-error: true
+        run: node indexnow.mjs
       - name: Post new pins to Pinterest
         working-directory: content-engine
         run: node post-pinterest.mjs
