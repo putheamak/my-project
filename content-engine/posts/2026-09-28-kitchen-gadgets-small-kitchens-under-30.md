@@ -8,7 +8,7 @@ pinTitle: "Small Kitchen Gadgets Under $30 That Fold Flat or Nest Away"
 pinDescription: "Renting a galley kitchen or a studio with three drawers? These space-saving kitchen gadgets under $30 fold flat, nest together or hide inside the microwave: an over-sink collapsible colander, nesting bowls with lids, flexible cutting mats, a roll-up drying rack and an immersion blender that replaces a bulky blender jar. Check the current price on Amazon."
 pinBoard: "Small Kitchen Solutions & Gadgets"
 date: "2026-09-28"
-updated: "2026-11-06"
+updated: "2026-11-09"
 image: "images/small-kitchen-corner.jpg"
 status: "published"
 ---
@@ -95,4 +95,4 @@ If your blender is easy to reach, probably not. If it sits behind other things i
 
 ### Where to go from here
 
-Start with the one tool that fixes the clutter you trip over most, then add as space allows. For more ideas, see [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) or [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order. Setting up a first apartment or dorm? See [kitchen gifts for a college student or new cook](https://homepicksunder30.com/blog/posts/kitchen-gifts-college-student-new-cook/).
+Start with the one tool that fixes the clutter you trip over most, then add as space allows. For more ideas, see [kitchen gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/) or [meal prep gadgets under $30](https://homepicksunder30.com/blog/posts/kitchen-gadgets-under-30-meal-prep/), and check the current price on Amazon before you order. Setting up a first apartment or dorm? See [kitchen gifts for a college student or new cook](https://homepicksunder30.com/blog/posts/kitchen-gifts-college-student-new-cook/). Shopping for someone else with a tiny kitchen? See [what to get someone with a small kitchen for Christmas](https://homepicksunder30.com/blog/posts/gifts-small-kitchen-christmas/).

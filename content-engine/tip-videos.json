@@ -340,5 +340,21 @@
       "images/kitchen-gifts-for-someone-who-lives-alone-1.jpg",
       "images/kitchen-gifts-for-someone-who-lives-alone-1.jpg"
     ]
+  },
+  "gifts-small-kitchen-christmas": {
+    "hook": "Not sure what to get someone with a tiny kitchen?",
+    "steps": [
+      "Look in their pot cabinet: skip anything that size",
+      "Count what's plugged in on the counter",
+      "Look at the sink: a gift that works over it adds space"
+    ],
+    "label": "Gift idea:",
+    "product": "An over-sink cutting board turns the sink into counter",
+    "cta": "Gifts for someone with a small kitchen:",
+    "photos": [
+      "images/gifts-small-kitchen-christmas-cover.jpg",
+      "images/gifts-small-kitchen-christmas-cover.jpg",
+      "images/gifts-small-kitchen-christmas-1.jpg"
+    ]
   }
 }
