@@ -2,6 +2,12 @@
 
 **Read `AGENT_RULES.md` before this file (owner's rules, required checks, mistake log).** Then read this. Last updated **7 Nov 2026**.
 
+## HANDOFF 9 Nov (read this block first, after AGENT_RULES.md)
+- **Pending from the owner:** (1) TikTok clean test final views (posted 8 Nov 21:47 Cambodia; 0 views at ~16 h). Still 0 = stop TikTok for good, focus YouTube/Pinterest/Google; >0 = restart carefully (AGENT_RULES B7). (2) Pin design 1 of `gifts-small-kitchen-christmas` to "Kitchen Gift Ideas Under $30", then add it to `output/pinterest-history.json`. (3) Today's videos: small-kitchen Christmas tip + list video on YouTube (thumbnails on the pins page). (4) Upload the first-frame thumbnails for the 4-5 newest Shorts (sent 9 Nov). (5) Optional: rice-tip photos/note ("From my kitchen") and 3-4 sentences for the About page.
+- **Routine from 10 Nov (owner's choice):** "tasks today" = 1 image pin (pin-queue has 1/day, runs to 16 Nov; extend ~13 Nov, focus posts first) + 2 YouTube Shorts (tip morning, list evening, each with its "Download thumbnail" from the pins page) + the tip video as a Pinterest video pin. Next video order (not yet posted on YouTube, focus first): lives-alone tip (check the channel), small kitchens, cooking for one list video, office lunch, then the rest.
+- **Claude's next work:** improve `kitchen-gadgets-small-kitchens-under-30` for "small kitchen gadgets" (Google position 26); ~12 Nov ask for Search Console Indexing → Pages (5 pages requested 5 Nov); Monday 16 Nov weekly review (targets: 50 visits/week by 30 Nov, 100 or a first sale by 31 Dec). API key "daily-content-2" expires 24 Nov: remind around 20 Nov.
+- **Baseline week 3-9 Nov:** 6 visits (all typed the domain from videos, all stayed on /blog), YouTube 50-90 views/Short, Pinterest 0 clicks, Google 64 impressions 0 clicks, TikTok 0.
+
 ## START HERE (handoff, 3 Nov)
 **8-WEEK FOCUS PLAN (owner chose "A" on 4 Nov; runs to 31 Dec 2026; this block wins over older notes)**
 - **Topic focus:** cooking for one, small kitchens, living alone (`config.json` `focus`; `generate.mjs` tells every draft to fit it and to combine it with occasions, e.g. gifts or holiday meals for one). Big-batch/family topics are out of scope.
