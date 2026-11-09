@@ -8,6 +8,7 @@ pinTitle: "Kitchen Gifts for Someone Who Lives Alone | Sized for One, Under $30"
 pinDescription: "Shopping for someone who lives alone? Most kitchen gadgets are made for a family of four. These are sized for one person: a 1.5-quart slow cooker for a small batch of soup, an 8-inch pan for two eggs, a 1.5-quart saucepan, lidded ramekins for cook-once-eat-twice, and a personal blender. Each one with who should skip it. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-04"
+updated: "2026-11-09"
 image: "images/kitchen-gifts-for-someone-who-lives-alone-cover.jpg"
 status: "published"
 ---
@@ -102,4 +103,4 @@ Give them an upgrade instead of a new habit: the 8-inch pan or the lidded rameki
 
 Yes. The coffee maker with a bag of their favorite coffee, or the ramekins with a favorite soup recipe written on a card, make a small set without spending much more. Check each price before you buy, since prices change.
 
-Pick one gadget, not three: someone who lives alone needs one thing they'll use every week, not a counter full of boxes. For more ideas, see [gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/), [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) and [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/), and check the current price on Amazon.
+Pick one gadget, not three: someone who lives alone needs one thing they'll use every week, not a counter full of boxes. For more ideas, see [gadgets for cooking for one](https://homepicksunder30.com/blog/posts/kitchen-gadgets-for-cooking-for-one/), [gadgets for small kitchens](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) and [no-stove microwave gadgets](https://homepicksunder30.com/blog/posts/cook-without-a-stove-microwave-gadgets/), plus [gifts for someone with a small kitchen](https://homepicksunder30.com/blog/posts/gifts-small-kitchen-christmas/), and check the current price on Amazon.
