@@ -184,6 +184,7 @@ function render(post, src, out) {
     // Copy next to the output first: the temp dir can be on another disk, where rename fails (EXDEV).
     fs.copyFileSync(part, `${out}.part`);
     fs.renameSync(`${out}.part`, out);
+    thumbnail(out);
     return { seconds: total, items: items.length };
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -267,6 +268,7 @@ function renderTip(spec, photos, out) {
     if (run.status !== 0) throw new Error(run.stderr.toString().trim().split("\n").slice(-1)[0]);
     fs.copyFileSync(part, `${out}.part`);
     fs.renameSync(`${out}.part`, out);
+    thumbnail(out);
     return { seconds: total };
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -275,6 +277,31 @@ function renderTip(spec, photos, out) {
 
 // The day a video was (re)made, in Cambodia time, so the pins page can flag fresh files.
 const madeToday = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Phnom_Penh" }).format(new Date());
+
+// YouTube's frame picker for Shorts doesn't offer the first frame, so save it as
+// <video>-thumb.jpg (the hook) for the owner to upload as the thumbnail.
+function thumbnail(video) {
+  spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-ss", "0.05", "-i", video, "-frames:v", "1", "-q:v", "3", video.replace(/\.mp4$/, "-thumb.jpg")]);
+}
+
+// Videos made before thumbnails existed: download the published video once and
+// take its first frame, without re-rendering (so it isn't marked "Updated").
+const RAW = "https://raw.githubusercontent.com/putheamak/my-project/gh-pages/blog/pins/";
+async function backfillThumb(file) {
+  const thumb = path.join(outDir, file.replace(/\.mp4$/, "-thumb.jpg"));
+  if (fs.existsSync(thumb)) return true;
+  try {
+    const res = await fetch(RAW + file, { signal: AbortSignal.timeout(30000) });
+    if (!res.ok) return false;
+    const tmp = path.join(os.tmpdir(), `bf-${file}`);
+    fs.writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
+    spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-ss", "0.05", "-i", tmp, "-frames:v", "1", "-q:v", "3", thumb]);
+    fs.rmSync(tmp, { force: true });
+    return fs.existsSync(thumb);
+  } catch {
+    return false;
+  }
+}
 
 const tipCaption = (post, spec) =>
   `${spec.hook}\n${spec.steps.slice(0, 2).map((s, i) => `${i + 1}. ${s}`).join("\n")}\n👉 Step 3 + the gadget that makes it easier: ${domain}\n\n${disclosure}\n\n#kitchenhacks #cookingtips #kitchentips #homecooking`;
@@ -328,11 +355,12 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   const entry = { key, caption: videoCaption(post) };
   if (!force && previous[post.slug]?.key === key) {
     manifest[post.slug] = { ...previous[post.slug], ...entry };
+    if (!previous[post.slug].thumb && (await backfillThumb(`${post.slug}.mp4`))) manifest[post.slug].thumb = true;
   } else {
     try {
       const { seconds, items } = render(post, src, path.join(outDir, `${post.slug}.mp4`));
       console.log(`${post.slug}.mp4: ${seconds.toFixed(1)} s, ${items} gadgets`);
-      manifest[post.slug] = { ...entry, tip: previous[post.slug]?.tip, seconds: Math.round(seconds), made: madeToday };
+      manifest[post.slug] = { ...entry, tip: previous[post.slug]?.tip, seconds: Math.round(seconds), made: madeToday, thumb: true };
       made++;
     } catch (e) {
       console.warn(`video ${post.slug} failed: ${e.message}`);
@@ -348,12 +376,13 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {
     manifest[post.slug].tip = { ...previous[post.slug].tip, caption: tipCaption(post, spec) };
+    if (!previous[post.slug].tip.thumb && (await backfillThumb(`${post.slug}-tip.mp4`))) manifest[post.slug].tip.thumb = true;
     continue;
   }
   try {
     const { seconds } = renderTip(spec, photos, path.join(outDir, `${post.slug}-tip.mp4`));
     console.log(`${post.slug}-tip.mp4: ${seconds.toFixed(1)} s`);
-    manifest[post.slug].tip = { key: tipKey, caption: tipCaption(post, spec), seconds: Math.round(seconds), made: madeToday };
+    manifest[post.slug].tip = { key: tipKey, caption: tipCaption(post, spec), seconds: Math.round(seconds), made: madeToday, thumb: true };
     made++;
   } catch (e) {
     console.warn(`tip video ${post.slug} failed: ${e.message}`);

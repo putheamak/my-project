@@ -354,7 +354,8 @@ const videoBlock = (post, link) => {
   const tip = v.tip
     ? `<div class="video"><h3>Tip video${v.tip.seconds ? ` (${v.tip.seconds} s)` : ""}: post this one first${fresh(v.tip.made)}</h3>
 <video src="${vurl(tipFile, v.tip.key)}" controls playsinline preload="none" width="180" height="320"></video>
-<p><a class="dl" href="${vurl(tipFile, v.tip.key)}" download="${esc(tipFile)}">Download tip video</a></p>
+<p><a class="dl" href="${vurl(tipFile, v.tip.key)}" download="${esc(tipFile)}">Download tip video</a> ${v.tip.thumb ? `<a class="dl" href="${vurl(tipFile.replace(/\.mp4$/, "-thumb.jpg"), v.tip.key)}" download="${esc(tipFile.replace(/\.mp4$/, "-thumb.jpg"))}">Download thumbnail</a>` : ""}</p>
+<p class="hint">YouTube: Thumbnail → Upload file → choose the thumbnail.</p>
 <p class="hint">One trick in 3 steps, then the gadget and the website. Silent: add a sound in the app.</p>
 ${field("Tip video caption", v.tip.caption, 8)}
 ${field("Pinterest video pin title", videoPinTitle(post), 2)}
@@ -364,7 +365,7 @@ ${board ? `<p class="hint">Board: <strong>${esc(board)}</strong></p>` : ""}
     : "";
   return `${tip}<div class="video"><h3>List video${v.seconds ? ` (${v.seconds} s)` : ""}${fresh(v.made)}</h3>
 <video src="${vurl(file, v.key)}" controls playsinline preload="none" width="180" height="320"></video>
-<p><a class="dl" href="${vurl(file, v.key)}" download="${esc(file)}">Download video</a></p>
+<p><a class="dl" href="${vurl(file, v.key)}" download="${esc(file)}">Download video</a> ${v.thumb ? `<a class="dl" href="${vurl(file.replace(/\.mp4$/, "-thumb.jpg"), v.key)}" download="${esc(file.replace(/\.mp4$/, "-thumb.jpg"))}">Download thumbnail</a>` : ""}</p>
 <p class="hint">The video is silent: add a sound in the app.</p>
 <h4>TikTok and YouTube Shorts</h4>
 ${field("Video caption", v.caption, 6)}
