@@ -319,7 +319,7 @@ ${i.ai ? aiHint : ""}
 </div></div>`;
 
 const dayLabel = (d) => new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" });
-const plan = [...days.keys()].sort().map((d) => `<details class="day" data-date="${d}"><summary>${dayLabel(d)} · ${days.get(d).length} pins<span class="badge"></span></summary>
+const plan = [...days.keys()].sort().map((d) => `<details class="day" data-date="${d}"><summary>${dayLabel(d)} · ${days.get(d).length} pin${days.get(d).length === 1 ? "" : "s"}<span class="badge"></span></summary>
 ${days.get(d).map(planItem).join("\n")}
 </details>`).join("\n");
 
