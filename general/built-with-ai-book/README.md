@@ -59,6 +59,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- **10 Nov 2026: PUBLISHED on KDP** (submitted; "In review", up to 72 hours). Kindle eBook, $2.99, 70% royalty, KDP Select, all territories. Categories: Generative AI; Small Business › Home-Based › General; Entrepreneurship › Startups. AI disclosure: text = entire work, extensive editing (Claude); images = one or a few (cover, Google Gemini); translations = none. Images accessible: all (author photo has alt text). Next: check the live Amazon page; price to $4.99 after 2–3 weeks; add Payoneer when approved; paperback later (optional).
 - 4 Nov 2026: owner will upload to KDP on **10 November 2026** (files: EPUB, cover-kdp-1600x2560.jpg, kdp-upload-guide, launch kit v3).
 - 4 Nov 2026: KDP account setup finished: identity, payment by cheque for now (switch to Payoneer US receiving account in about 60 days), tax interview complete (W-8BEN, individual, no treaty → 30% on US royalties, no TIN: "could not/have not obtained"). Next: upload on 10–11 Nov with `kdp-upload-guide.md`.
 - 4 Nov 2026: KDP account created; identity filled. **Cambodia is not in KDP's bank-country list.** Plan: finish the tax interview and publish anyway (royalties are held until a bank is added); get paid through a USD receiving account in the owner's own name (Payoneer once its review is cleared, or Wise if it accepts Cambodian residents); never use a bank country that is not the account's real country.
