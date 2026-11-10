@@ -28,7 +28,7 @@ Version 3, 1 November 2026: updated with the advice of the third independent rev
 >
 > Most books about AI promise easy money. This one shows what actually happens when an ordinary small-business owner sits down with an AI and begins to build: the decisions, the costs, the mistakes and the results, including those that have yet to arrive.
 >
-> Every project ends with a **"Where things stand"** box with real figures, including the zeros: 2,546 ad views and no bookings, a blog with no sales yet.
+> Every project ends with a **"Where things stand"** box with real figures, including the zeros: 2,546 ad views and no bookings from our first paid test, a blog with no sales yet.
 >
 > **Follow four real projects:**
 >
