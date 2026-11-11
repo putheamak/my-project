@@ -46,6 +46,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # build-blog.mjs makes small card thumbnails (images/thumbs/) with
+      # ImageMagick, so it has to be installed before the build.
+      - name: Install ImageMagick
+        run: |
+          if ! command -v convert >/dev/null && ! command -v magick >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick || true
+          fi
       - run: node build-blog.mjs
         working-directory: content-engine
       # Phone photos are often 3-8 MB. Shrink copies to at most 1600px so pages
