@@ -1,7 +1,7 @@
 ---
 title: "What to Get Someone With a Small Kitchen for Christmas: Gifts That Hang, Fold or Sit Over the Sink"
 seoTitle: "What to Get Someone With a Small Kitchen for Christmas"
-description: "Wondering what to get someone with a small kitchen for Christmas? Gifts under $30 that hang, fold or sit over the sink, the one to start with, and who should skip each."
+description: "What to get someone with a small kitchen for Christmas: gifts under $30 that hang, fold or sit over the sink, the one to start with, and who should skip each."
 slug: "gifts-small-kitchen-christmas"
 keyword: "what to get someone with a small kitchen for Christmas"
 pinTitle: "What to Get Someone With a Small Kitchen for Christmas | Gifts Under $30"

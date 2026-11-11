@@ -8,7 +8,7 @@ pinTitle: "Kitchen Gadgets Under $30 for Leftovers (Store, Freeze & Reheat)"
 pinDescription: "Leftovers get wasted for three reasons: the container leaks, the portion is too big to defrost, or the reheat dries everything out. This under $30 list gives one clear pick for each step: glass containers with locking lids, a silicone freezer tray for single portions, and a magnetic microwave cover for rice and pasta. Includes a quick comparison table. Check the current price on Amazon."
 pinBoard: "Kitchen Gadgets Under $30"
 date: "2026-10-01"
-updated: "2026-11-02"
+updated: "2026-11-11"
 image: "images/ayindeabdulmajeed44-spaghetti.jpg"
 status: "published"
 ---
@@ -100,4 +100,4 @@ That's what it's designed for. A cover traps steam, which generally helps keep t
 
 It depends on the food, so follow the guidance from your local food safety authority. Labeling the date on each container is the easiest way to stay on top of it.
 
-Pick the step that fails most often in your kitchen and fix that one first. If your cabinets are already packed, my [small-kitchen gadgets post](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) covers space-savers, and you can check the current price on Amazon for any pick above.
+Pick the step that fails most often in your kitchen and fix that one first. Planning for Thanksgiving leftovers? Start with [the mashed potatoes and gravy tools](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/). If your cabinets are already packed, my [small-kitchen gadgets post](https://homepicksunder30.com/blog/posts/kitchen-gadgets-small-kitchens-under-30/) covers space-savers, and you can check the current price on Amazon for any pick above.

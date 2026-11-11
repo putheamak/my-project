@@ -8,7 +8,7 @@ pinTitle: "Hostess Gifts Under $30 for Someone Who Loves to Cook | Holiday Dinne
 pinDescription: "Hostess gifts under $30 for the person hosting holiday dinner. For the table that night: a cheese knife set, a white gravy boat, a butter dish with a lid. For a host who cooks every day: a bamboo salt cellar, a glass olive oil sprayer, an herb keeper. For dessert: a double-serrated pie server and an ice cream scoop. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-30"
-updated: "2026-11-02"
+updated: "2026-11-11"
 image: "images/hostess-gifts-under-30-cover.jpg"
 status: "published"
 ---
@@ -109,4 +109,4 @@ The cheese knife set with a cheese from the store on the way. It's ready to use 
 
 A dish counts. If you still want to bring something, keep it small, like the salt cellar or the zester in a gift bag.
 
-For more ideas, see the [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/), [white elephant kitchen gifts](https://homepicksunder30.com/blog/posts/white-elephant-kitchen-gifts-under-30/) or [stocking stuffers for people who cook](https://homepicksunder30.com/blog/posts/stocking-stuffers-for-people-who-cook/). Pick the kind of host, then check the current price on Amazon. For a holiday gift, check the delivery date Amazon shows before you order.
+For more ideas, see the [kitchen gifts under $30 guide](https://homepicksunder30.com/blog/posts/kitchen-gifts-under-30/), [white elephant kitchen gifts](https://homepicksunder30.com/blog/posts/white-elephant-kitchen-gifts-under-30/) or [stocking stuffers for people who cook](https://homepicksunder30.com/blog/posts/stocking-stuffers-for-people-who-cook/). Hosting this year yourself? See [Thanksgiving in a small kitchen](https://homepicksunder30.com/blog/posts/small-kitchen-thanksgiving-gadgets/) and [tools for mashed potatoes and gravy](https://homepicksunder30.com/blog/posts/thanksgiving-mashed-potatoes-gravy-gadgets/). Pick the kind of host, then check the current price on Amazon. For a holiday gift, check the delivery date Amazon shows before you order.
