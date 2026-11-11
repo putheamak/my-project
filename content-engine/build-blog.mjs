@@ -400,17 +400,27 @@ if (fs.existsSync(imagesDir)) fs.cpSync(imagesDir, path.join(dist, "images"), { 
 shrinkPhotos(path.join(dist, "images"));
 // Post cards show a small copy of the cover (images/thumbs/<name>.jpg), so the
 // home page doesn't download thirty full-size photos.
-if (!convert) console.warn("ImageMagick not found: post cards will use full-size photos");
+if (!convert) console.warn("ImageMagick not found: using the saved thumbnails in images/thumbs/");
 const thumbs = new Map();
+// Thumbnails are also kept in content-engine/images/thumbs/ (copied into the
+// site with the other images), so the site still gets them when ImageMagick
+// can't be installed on the build server. With ImageMagick they are remade
+// fresh; `node build-blog.mjs --save-thumbs` writes them back to images/thumbs/.
 const thumbOf = (src) => {
   const m = /\/images\/([^/]+)$/.exec(src);
-  if (!convert || !m) return src;
+  if (!m) return src;
   if (!thumbs.has(m[1])) {
     const from = path.join(dist, "images", m[1]);
     const name = `${m[1].replace(/\.[a-z]+$/i, "")}.jpg`;
     const to = path.join(dist, "images", "thumbs", name);
     fs.mkdirSync(path.dirname(to), { recursive: true });
-    const ok = fs.existsSync(from) && spawnSync(convert, [from, "-auto-orient", "-resize", "720x720>", "-strip", "-quality", "74", to]).status === 0;
+    const made = convert && fs.existsSync(from) && spawnSync(convert, [from, "-auto-orient", "-resize", "720x720>", "-strip", "-quality", "74", to]).status === 0;
+    const ok = made || fs.existsSync(to);
+    if (!ok) console.warn(`no thumbnail for images/${m[1]}: the card uses the full-size photo`);
+    if (made && process.argv.includes("--save-thumbs")) {
+      fs.mkdirSync(path.join(imagesDir, "thumbs"), { recursive: true });
+      fs.copyFileSync(to, path.join(imagesDir, "thumbs", name));
+    }
     thumbs.set(m[1], ok ? src.replace(/[^/]+$/, `thumbs/${name}`) : src);
   }
   return thumbs.get(m[1]);
