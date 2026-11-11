@@ -1,6 +1,6 @@
 ---
 title: "Emergency Kit Essentials Under $30: What Governments Recommend and What to Buy"
-seoTitle: "Emergency Kit Essentials Under $30: A Calm, Practical Checklist"
+seoTitle: "Emergency Kit Essentials Under $30: A Practical Checklist"
 description: "Not sure what your emergency kit needs? Emergency kit essentials under $30 based on government advice, the one thing to buy first and a 10-minute check."
 slug: "emergency-kit-essentials-under-30"
 keyword: "emergency kit essentials under $30"
