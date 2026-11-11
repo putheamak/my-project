@@ -1,6 +1,7 @@
 {
   "title": "Home Picks Under $30",
   "tagline": "Kitchen help for people who cook for one",
+  "homeTitle": "Home Picks Under $30: Kitchen Help for Cooking for One",
   "description": "Kitchen help for people who cook for one: small kitchens, small portions, less washing up. Gadgets under $30, with a tip to try tonight in every post.",
   "author": "Mak",
   "language": "en",
@@ -22,7 +23,13 @@
     "boardId": "",
     "maxPerRun": 1
   },
-  "about": "I share practical kitchen and home gadgets under $30 for busy people who cook at home. Each post explains what a tool is good for, who it suits, and what to look for before you buy.",
+  "about": [
+    "Hi, I'm Mak. I'm a freelancer and small-business founder in Phnom Penh, Cambodia.",
+    "I started Home Picks Under $30 to help people find small, affordable kitchen tools that make cooking at home easier, especially if you cook for one or have a small kitchen.",
+    "I believe AI will change the way we all live and work. One thing I don't think will change: cooking at home for the people you love is one of the good things in life.",
+    "How I pick: I haven't tested these products myself yet. I choose them from their Amazon listings, explain what each one is good for, and tell you who should skip it. When I do try something in my own kitchen, I'll say so in the post.",
+    "This site is part of the Amazon Associates program. If you buy through a link, I may earn a small commission at no extra cost to you."
+  ],
   "contactEmail": "rithrothinak@gmail.com",
   "web3formsKey": "974d1b59-246f-4de8-975f-e367d06d10e0",
   "home": {

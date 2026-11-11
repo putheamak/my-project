@@ -491,7 +491,7 @@ ${related(post)}
 write(
   "index.html",
   page({
-    title: `${site.title} - ${site.tagline}`,
+    title: site.homeTitle || `${site.title} - ${site.tagline}`,
     description: site.description || site.tagline,
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, alternateName: ["Home Picks Under 30", "homepicksunder30.com"], url: url() }],
@@ -548,7 +548,7 @@ if (topics.length) {
 const simple = (slug, title, description, html) =>
   write(`${slug}/index.html`, page({ title: `${title} - ${site.title}`, description, canonical: url(`${slug}/`), body: `<h1>${esc(title)}</h1>\n${html}` }));
 
-simple("about", "About", `About ${site.title}`, `<p>${esc(site.about)}</p>${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}${contactEmail ? `\n<p>Questions, a product you'd like me to look at, or a tip from your own kitchen: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>.</p>` : ""}`);
+simple("about", "About", `About Mak and ${site.title}: who writes it, why it started and how the kitchen gadgets are picked.`, `${[site.about].flat().map((p) => `<p>${esc(p)}</p>`).join("\n")}${socials.length ? `\n<p>Short videos and more: ${socials.join(" · ")}</p>` : ""}${contactEmail ? `\n<p>Questions, a product you'd like me to look at, or a tip from your own kitchen: <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>.</p>` : ""}`);
 
 if (contactEmail) simple("thanks", "Thank you!", "Thanks for sharing your tip", `<p>Your message is on its way. I read every one, and if you ticked the box, your tip may appear in the post soon.</p>\n<p><a href="${href()}">Back to the blog</a></p>`);
 
