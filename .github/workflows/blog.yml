@@ -39,6 +39,7 @@ jobs:
   publish:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -48,7 +49,13 @@ jobs:
           node-version: 22
       # build-blog.mjs makes small card thumbnails (images/thumbs/) with
       # ImageMagick, so it has to be installed before the build.
+      # The install can hang on a slow package mirror, so it gets a time limit
+      # and may fail: the build then warns and uses full-size photos.
       - name: Install ImageMagick
+        timeout-minutes: 4
+        continue-on-error: true
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
           if ! command -v convert >/dev/null && ! command -v magick >/dev/null; then
             sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick || true
