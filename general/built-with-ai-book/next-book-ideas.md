@@ -23,3 +23,7 @@ Goal (owner): a topic the whole world is talking about, linked to daily life in 
 
 ## Next step
 Owner searches Amazon Kindle Store for: "will AI take my job", "AI and jobs", "AI job loss", "AI side hustle", "start a delivery business", and sends screenshots (number of results, reviews, Best Sellers Rank of the top books).
+
+## Update, 11 November 2026 (after Book 1 was published)
+- New signals: "ChatGPT" is among the top 5 search terms worldwide (third-party keyword tools, March 2026); "how to" questions are about 30% of top searches; AI agents for money, health and family admin are the 2026 consumer trend (mostly commentary, not hard data).
+- Proposal sent to the owner: (1) "Will AI Take My Job?" with real worker interviews in Cambodia (still first choice); (2) "AI at Home: a plain guide for families in any country" (big demand, crowded, faster to write); (3) the Khmer Parcel start-up journal (mid-2027).
