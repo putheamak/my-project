@@ -45,6 +45,7 @@ Goal until 31 Dec 2026: 100 real visits a week or a first sale (see the 8-week p
 2. **Each step's photo must match its words.** Set `photos: [hook, step1, step2]` when the default photos don't fit, and check the frames.
 3. Videos show steps 1-2 only; step 3 and the gadget are on the blog.
 4. Post on YouTube Shorts and Pinterest video pins only. **TikTok is stopped for good (9 Nov: the clean test got 0 views in 24 h, so the account is limited).** Don't plan, caption or suggest TikTok posts. Don't delete the account or old posts without the owner's OK (B9), and never open a new account to get around the limit (B6).
+5. **A viewer must find the video they just watched.** Before sending a tip video, check that its post is among the first buttons under "Saw one of my videos?" on the home page (`site.json` `home.videoPosts`, first `videoChipsShown`), with the video's hook as the label.
 
 ## E. Before every merge (all must pass)
 1. **Compliance:** run `node compliance.mjs` on a **copy** in the scratchpad (it writes a report into the file it checks; never run it on `posts/*.md`). Result must be 0 FIX.
@@ -82,6 +83,8 @@ Goal until 31 Dec 2026: 100 real visits a week or a first sale (see the 8-week p
 | 7 Nov | Compliance report written into 6 posts (caught before merge) | E1 |
 | 7 Nov | Test screenshots saved in the project folder (caught before commit) | B10, E5 |
 | 7 Nov | Alt text described something not in the photo ("two-burner cooktop") | C6: describe only what's visible |
+| 11 Nov | Home page video buttons didn't show the videos being posted (office lunch hidden under "More", wrong label; Christmas small-kitchen post missing), so viewers who typed the domain couldn't find their tip | D5 |
+| 11 Nov | List videos still had the domain and item text in the bottom quarter (apps cover it) | D1 now applies to list videos too (VERSION 6) |
 | 9 Nov | Weekly draft (generator) invented a personal anecdote and reused 6 products already in 3 posts | B2, C4: check every draft for made-up experience and run the repeat check |
 
 **Zero-mistakes review:** once traffic recovers, the owner and the agent review this log together. Any mistake that happened again gets a stronger, checkable rule (preferably an automatic check in the code).
