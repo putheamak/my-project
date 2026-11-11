@@ -1,6 +1,6 @@
 ---
 title: "Thanksgiving Mashed Potatoes and Gravy: 6 Small Tools Under $30"
-seoTitle: "Thanksgiving Mashed Potatoes and Gravy Tools Under $30"
+seoTitle: "Gluey Mashed Potatoes? 6 Thanksgiving Tools Under $30"
 description: "Gluey mash or greasy gravy? Thanksgiving mashed potatoes and gravy tools under $30, which ones to buy first, and a 3-step tip for fluffier potatoes."
 slug: "thanksgiving-mashed-potatoes-gravy-gadgets"
 keyword: "Thanksgiving mashed potatoes and gravy tools"
@@ -8,7 +8,7 @@ pinTitle: "Smooth Mash and Lump-Free Gravy: Thanksgiving Tools Under $30"
 pinDescription: "In charge of potatoes and gravy this Thanksgiving? Six small tools under $30: a potato ricer for smooth mash, a masher if your family likes it chunky, a clip-on pot strainer, a bottom-release gravy separator, a whisk set and a stick blender for lumps. Plus the steam-dry trick for fluffier potatoes. Check the current price on Amazon."
 pinBoard: "Thanksgiving Prep & Hosting"
 date: "2026-10-16"
-updated: "2026-11-02"
+updated: "2026-11-11"
 image: "images/47313974-turkey.jpg"
 status: "published"
 ---
