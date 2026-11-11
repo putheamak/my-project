@@ -85,6 +85,7 @@ Goal until 31 Dec 2026: 100 real visits a week or a first sale (see the 8-week p
 | 7 Nov | Alt text described something not in the photo ("two-burner cooktop") | C6: describe only what's visible |
 | 11 Nov | Home page video buttons didn't show the videos being posted (office lunch hidden under "More", wrong label; Christmas small-kitchen post missing), so viewers who typed the domain couldn't find their tip | D5 |
 | 11 Nov | List videos still had the domain and item text in the bottom quarter (apps cover it) | D1 now applies to list videos too (VERSION 6) |
+| 11 Nov | SEO audit: home page loaded every cover at full size (one 3 MB PNG), home meta description was 40 characters, the two Thanksgiving posts had 1 link in | Build now makes card thumbnails; `site.json` `description`; C9 (links in) also applies to seasonal posts before their season |
 | 9 Nov | Weekly draft (generator) invented a personal anecdote and reused 6 products already in 3 posts | B2, C4: check every draft for made-up experience and run the repeat check |
 
 **Zero-mistakes review:** once traffic recovers, the owner and the agent review this log together. Any mistake that happened again gets a stronger, checkable rule (preferably an automatic check in the code).

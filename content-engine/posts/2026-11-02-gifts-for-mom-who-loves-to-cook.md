@@ -8,7 +8,7 @@ pinTitle: "Gifts for Mom Who Loves to Cook Under $30 | Apron, Herbs, Recipe Jour
 pinDescription: "Gifts under $30 for a mom who loves to cook: a cross-back canvas apron, a bamboo wooden spoon set, a windowsill herb planter, a blank journal to start a family recipe book, a glass olive oil sprayer, a bamboo salt cellar and a spice rack. Thoughtful picks she'll use every week. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-11-02"
-image: "images/gifts-for-mom-who-loves-to-cook-cover.png"
+image: "images/gifts-for-mom-who-loves-to-cook-cover.jpg"
 status: "published"
 ---
 

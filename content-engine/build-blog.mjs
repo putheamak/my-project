@@ -252,7 +252,7 @@ const postItems = (list, { feature = false, short = false } = {}) =>
   `<ul class="cards${feature ? " feature" : ""}">${list.map((p, i) => {
     const img = coverOf(p);
     const tag = topicOf(p);
-    return `<li><a href="${href(`posts/${p.slug}/`)}">${img ? `<img src="${esc(img)}" alt="" loading="${i < 3 ? "eager" : "lazy"}">` : '<div class="ph"></div>'}
+    return `<li><a href="${href(`posts/${p.slug}/`)}">${img ? `<img src="${esc(thumbOf(img))}" alt="" loading="${i < 3 ? "eager" : "lazy"}" decoding="async">` : '<div class="ph"></div>'}
 <div class="txt">${tag ? `<span class="tag">${esc(tag.title)}</span>` : ""}<span class="title">${esc(p.title)}</span>${!short && p.description ? `<p>${esc(p.description)}</p>` : ""}</div></a></li>`;
   }).join("\n")}</ul>`;
 const topicChips = (list) =>
@@ -383,8 +383,8 @@ function inlinePhoto(src, slug) {
 // Pexels originals can be several MB, which is slow on phones. Shrink the copies
 // in dist (the uploaded originals stay as they are) to at most 1600 px wide.
 // Skipped quietly when ImageMagick isn't installed.
+const convert = ["magick", "convert"].find((cmd) => spawnSync(cmd, ["-version"]).status === 0);
 function shrinkPhotos(dir) {
-  const convert = ["magick", "convert"].find((cmd) => spawnSync(cmd, ["-version"]).status === 0);
   if (!convert || !fs.existsSync(dir)) return;
   for (const f of fs.readdirSync(dir)) {
     const file = path.join(dir, f);
@@ -398,6 +398,22 @@ function shrinkPhotos(dir) {
 fs.rmSync(dist, { recursive: true, force: true });
 if (fs.existsSync(imagesDir)) fs.cpSync(imagesDir, path.join(dist, "images"), { recursive: true });
 shrinkPhotos(path.join(dist, "images"));
+// Post cards show a small copy of the cover (images/thumbs/<name>.jpg), so the
+// home page doesn't download thirty full-size photos.
+const thumbs = new Map();
+const thumbOf = (src) => {
+  const m = /\/images\/([^/]+)$/.exec(src);
+  if (!convert || !m) return src;
+  if (!thumbs.has(m[1])) {
+    const from = path.join(dist, "images", m[1]);
+    const name = `${m[1].replace(/\.[a-z]+$/i, "")}.jpg`;
+    const to = path.join(dist, "images", "thumbs", name);
+    fs.mkdirSync(path.dirname(to), { recursive: true });
+    const ok = fs.existsSync(from) && spawnSync(convert, [from, "-auto-orient", "-resize", "720x720>", "-strip", "-quality", "74", to]).status === 0;
+    thumbs.set(m[1], ok ? src.replace(/[^/]+$/, `thumbs/${name}`) : src);
+  }
+  return thumbs.get(m[1]);
+};
 const write = (p, content) => {
   const file = path.join(dist, p);
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -439,6 +455,16 @@ for (const post of posts) {
       mainEntity: faqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
     });
   }
+  const crumbTopic = topicOf(post);
+  jsonLd.push({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { name: site.title, item: url() },
+      ...(crumbTopic ? [{ name: crumbTopic.title, item: url(`topics/${crumbTopic.slug}/`) }] : []),
+      { name: post.title, item: canonical },
+    ].map((x, i) => ({ "@type": "ListItem", position: i + 1, ...x })),
+  });
   write(
     `posts/${post.slug}/index.html`,
     page({
@@ -465,7 +491,7 @@ write(
   "index.html",
   page({
     title: `${site.title} - ${site.tagline}`,
-    description: site.tagline,
+    description: site.description || site.tagline,
     canonical: url(),
     jsonLd: [{ "@context": "https://schema.org", "@type": "WebSite", name: site.title, alternateName: ["Home Picks Under 30", "homepicksunder30.com"], url: url() }],
     body: `<section class="hero"><h1>${esc(site.tagline)}</h1>
