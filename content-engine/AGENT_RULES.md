@@ -21,7 +21,7 @@ Goal until 31 Dec 2026: 100 real visits a week or a first sale (see the 8-week p
 1. **Never ask the owner to open, click or test their own Amazon affiliate links** (it inflates Amazon's report and can break Amazon's rules).
 2. **Never invent or retype a link, price, product detail, review, test result or personal experience.** Only use links from `config.json`, character for character. Never write fake first-person use ("I tested this").
 3. Never write a fixed price, star rating, review count, "% off" or Amazon badge. "Under $30" is the only price phrase allowed (with a space, not "under-$30").
-4. Never use Amazon product images. Photos come from the owner, Pexels or Unsplash only.
+4. Never use Amazon product images. Photos come from the owner, Pexels or Unsplash only. This includes images downloaded from Amazon and re-uploaded (the owner asked on 11 Nov; still not allowed). To show a product type, Claude may draw its own simple illustration of the idea (not a copy of the product or its listing photos), labelled "Illustration of the idea, not the actual product".
 5. Never make health or medical claims ("healthy", "non-toxic", "BPA-free" stay out of product names).
 6. Never buy views or followers, use a second account to watch or like the owner's videos, or open a new account to get around a platform limit.
 7. Never use a regular song on a TikTok post that has a commercial disclosure (Paid partnership / Branded content / Your brand). Only the commercial / royalty-free sound list.
