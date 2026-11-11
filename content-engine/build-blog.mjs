@@ -400,6 +400,7 @@ if (fs.existsSync(imagesDir)) fs.cpSync(imagesDir, path.join(dist, "images"), { 
 shrinkPhotos(path.join(dist, "images"));
 // Post cards show a small copy of the cover (images/thumbs/<name>.jpg), so the
 // home page doesn't download thirty full-size photos.
+if (!convert) console.warn("ImageMagick not found: post cards will use full-size photos");
 const thumbs = new Map();
 const thumbOf = (src) => {
   const m = /\/images\/([^/]+)$/.exec(src);
