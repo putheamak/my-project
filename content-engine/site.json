@@ -69,6 +69,18 @@
     ],
     "videoPosts": [
       {
+        "slug": "microwave-gadgets-office-lunch",
+        "label": "Leftovers still cold in the middle?"
+      },
+      {
+        "slug": "kitchen-gadgets-small-kitchens-under-30",
+        "label": "Sauce slides off your pasta?"
+      },
+      {
+        "slug": "gifts-small-kitchen-christmas",
+        "label": "Gift for someone with a tiny kitchen?"
+      },
+      {
         "slug": "kitchen-gadgets-for-cooking-for-one",
         "label": "Rice for one every night?"
       },
@@ -121,10 +133,6 @@
         "label": "Overnight oats in a jar"
       },
       {
-        "slug": "kitchen-gadgets-small-kitchens-under-30",
-        "label": "Small kitchen gadgets"
-      },
-      {
         "slug": "kitchen-gadgets-under-30-chopping-prep",
         "label": "Faster chopping"
       },
@@ -135,10 +143,6 @@
       {
         "slug": "cook-without-a-stove-microwave-gadgets",
         "label": "Cooking without a stove"
-      },
-      {
-        "slug": "microwave-gadgets-office-lunch",
-        "label": "Hot lunch at work"
       },
       {
         "slug": "best-lunch-containers-work-lunches",

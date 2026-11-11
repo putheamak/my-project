@@ -30,7 +30,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const { disclosure } = JSON.parse(fs.readFileSync(path.join(here, "config.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(here, "site.json"), "utf8"));
 const baseUrl = site.baseUrl.replace(/\/+$/, "");
-const VERSION = 5; // bump to remake all videos after changing the design
+const VERSION = 6; // bump to remake all LIST videos after changing their design (tip videos: change "tip4" below)
 const postsDir = path.join(here, "posts");
 const imagesDir = path.join(here, "images");
 const arg = (name) => (process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : "");
@@ -103,7 +103,10 @@ const panel = (w, h, color, alpha) => ["(", "-size", `${w}x${h}`, "xc:none", "-f
 const at = (gravity, x, y) => ["-gravity", gravity, "-geometry", `+${x}+${y}`, "-composite"];
 // TikTok and Shorts captions have no clickable link, so every frame shows the domain to type in.
 const domain = new URL(baseUrl).hostname.replace(/^www\./, "");
-const brand = [...caption(900, 50, 36, "white", domain.toUpperCase()), ...at("south", 0, 110)];
+// Shorts and Pinterest cover the bottom quarter of the screen with the title,
+// caption and buttons, so the domain sits on a dark pill at the top and the
+// item panel stays above that zone.
+const brand = [...panel(700, 76, "black", 0.55), ...at("north", 0, 170), ...caption(660, 56, 38, "white", domain.toUpperCase()), ...at("north", 0, 180)];
 
 // Transparent 1080x1920 overlays, one per scene.
 function overlays(dir, { headline, subline, items }) {
@@ -122,11 +125,11 @@ function overlays(dir, { headline, subline, items }) {
     const f = path.join(dir, `${i + 1}.png`);
     magick([
       ...base,
-      ...panel(960, 640, "black", 0.6), ...at("south", 0, 330),
-      ...panel(170, 90, ACCENT, 1), ...at("south", 0, 900),
-      ...caption(150, 70, 44, "white", `${i + 1}/${items.length}`), ...at("south", 0, 910),
-      ...caption(860, 260, item.name.length > 44 ? 60 : item.name.length > 32 ? 68 : 76, "white", item.name), ...at("south", 0, 640),
-      ...caption(860, 220, 54, "#fde7d6", item.text), ...at("south", 0, 390),
+      ...panel(960, 640, "black", 0.6), ...at("south", 0, 520),
+      ...panel(170, 90, ACCENT, 1), ...at("south", 0, 1090),
+      ...caption(150, 70, 44, "white", `${i + 1}/${items.length}`), ...at("south", 0, 1100),
+      ...caption(860, 260, item.name.length > 44 ? 60 : item.name.length > 32 ? 68 : 76, "white", item.name), ...at("south", 0, 830),
+      ...caption(860, 220, 54, "#fde7d6", item.text), ...at("south", 0, 580),
       ...brand,
     ], f);
     files.push(f);
@@ -216,7 +219,7 @@ function tipPhotos(post, cover, spec = {}) {
 // Shorts, TikTok and Pinterest cover the bottom quarter of the screen with the
 // title, caption and buttons, so tip videos put the domain and the text in the
 // top half and leave the photo visible below.
-const tipBrand = [...panel(700, 76, "black", 0.55), ...at("north", 0, 170), ...caption(660, 56, 38, "white", domain.toUpperCase()), ...at("north", 0, 180)];
+const tipBrand = brand;
 
 function renderTip(spec, photos, out) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "skp-tip-"));
@@ -371,7 +374,7 @@ for (const file of fs.existsSync(postsDir) ? fs.readdirSync(postsDir).sort().rev
   if (!spec || !manifest[post.slug]) continue;
   const photos = tipPhotos(post, src, spec);
   const tipKey = createHash("sha1")
-    .update(JSON.stringify([VERSION, "tip4", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
+    .update(JSON.stringify([5, "tip4", spec, photos.map((f) => [path.basename(f), fs.statSync(f).size])]))
     .digest("hex")
     .slice(0, 12);
   if (!force && previous[post.slug]?.tip?.key === tipKey) {
