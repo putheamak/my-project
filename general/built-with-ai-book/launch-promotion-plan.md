@@ -72,3 +72,22 @@ Honest feedback and reviews are very welcome.
 Hi [name], I hope you are well. I have just published my first book on Amazon, *Built with AI, No Coding*. It is about the four tools I built with AI for my delivery business, with the real costs and mistakes. If the topic is useful for you, here is the link: https://www.amazon.com/dp/B0HRCZGJJ1. If you read it, an honest review on Amazon — good or bad — would help me a lot. No pressure at all. Thank you!
 
 (Khmer — owner please check) សួស្តី [ឈ្មោះ]! ខ្ញុំទើបតែបោះពុម្ពសៀវភៅដំបូងរបស់ខ្ញុំនៅលើ Amazon ឈ្មោះ *Built with AI, No Coding*។ វានិយាយអំពីឧបករណ៍ ៤ ដែលខ្ញុំបង្កើតជាមួយ AI សម្រាប់អាជីវកម្មដឹកជញ្ជូនរបស់ខ្ញុំ។ បើប្រធានបទនេះមានប្រយោជន៍សម្រាប់អ្នក នេះជាតំណ៖ https://www.amazon.com/dp/B0HRCZGJJ1។ បើអ្នកបានអាន សូមជួយសរសេរមតិពិតៗនៅលើ Amazon (ល្អ ឬ មិនល្អ ក៏បាន)។ អរគុណច្រើន!
+
+## Who can actually buy (added 13 November 2026)
+Most of the owner's friends are in Cambodia, where few people have an Amazon account, an international card or the habit of reading English ebooks. So:
+- **Buyers are mostly outside Cambodia**: English readers interested in AI, small business and no-code tools (US, UK, India, Philippines, Europe), plus expats and NGO staff in Cambodia.
+- **Cambodian friends still help** by sharing posts to their international contacts, reading the free sample, and (those with an ABA/ACLEDA Visa card or a Kindle+ subscription) buying or reading it.
+
+## Where to post for international readers (free, value first)
+Rule everywhere: share a useful lesson or story first; put the link at the end or only where the community allows it. Read each group's rules before posting. Never post the same text in many groups at once (that looks like spam).
+1. **LinkedIn** (best fit): one short lesson a week from the book (e.g. "My AI wanted to promise same-day payouts I never offered"), link in the post or first comment.
+2. **Medium or Substack**: 3–4 new articles about the projects (not copied chapters: KDP Select allows at most 10% of the book elsewhere). End with the book link.
+3. **Reddit**: story posts where self-promotion is allowed or in the weekly self-promotion threads (e.g. r/selfpublish for author topics, r/SideProject or r/nocode for "what I built" stories). Check each subreddit's rules first.
+4. **Indie Hackers** (indiehackers.com): a "what I built with AI for $31 a month" post fits this community well.
+5. **Goodreads**: claim the Goodreads Author profile and add the book, so readers can shelve and review it.
+6. **Short videos** (TikTok, YouTube Shorts, Instagram Reels) in English, made with the video factory: one lesson per video, link in bio.
+7. **Expat and NGO groups in Cambodia** (Facebook groups for expats, start-ups and NGO workers in Phnom Penh): English readers with cards. Follow group rules.
+8. **Free Book Promotion days** (KDP Select): announce them on all of the above the day before. Some book-deal newsletters list free days; check their price and rules before submitting.
+
+## Later: a Khmer edition for local readers
+A short Khmer version, sold or shared locally (e.g. PDF paid by KHQR, workshops), could reach Cambodian readers that Amazon cannot. Decide after the first month's results.
