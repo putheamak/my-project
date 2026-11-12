@@ -23,6 +23,7 @@ auto-blog, video ads, ebook machine). Target (owner, 3 Nov 2026): publish by mid
 | `assessment-2026-10-26.md` | Draft assessment: scores, top fixes, tools to assess the book. Owner review pending. |
 | `build-ebook.sh` | `bash build-ebook.sh` makes the Kindle-ready EPUB in `build/`: removes owner checklists and the typed title/Contents, adds a linked Contents, starts each chapter on a new page, and checks every link (must say 0 broken). Open the result in Kindle Previewer before uploading. |
 | `check-before-export.sh` | Run `bash check-before-export.sh` before exporting for KDP: lists any ⭐ placeholders, `<!-- -->` owner checklists, unlinked note numbers and [Update…]/[confirm] notes. Must say READY. |
+| `launch-promotion-plan.md` | Launch promotion: rules, week-1 checklist, Free Book Promotion, Author Central bio, ready-to-post texts (Facebook EN/KM, LinkedIn, Telegram, personal message). |
 | `next-book-ideas.md` | Research for the next ebook (4 Nov 2026): world concerns, ranked shortlist, demand-check steps. |
 | `weekly-tracker.xlsx` | Every Monday: last week's numbers per project + story notes. Open in Excel or Google Sheets. |
 
@@ -59,6 +60,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 12 Nov 2026: book is **LIVE** on Amazon (KDP email). Launch promotion plan written.
 - **10 Nov 2026: PUBLISHED on KDP** (submitted; "In review", up to 72 hours). Kindle eBook, $2.99, 70% royalty, KDP Select, all territories. Categories: Generative AI; Small Business › Home-Based › General; Entrepreneurship › Startups. AI disclosure: text = entire work, extensive editing (Claude); images = one or a few (cover, Google Gemini); translations = none. Images accessible: all (author photo has alt text). Next: check the live Amazon page; price to $4.99 after 2–3 weeks; add Payoneer when approved; paperback later (optional).
 - 4 Nov 2026: owner will upload to KDP on **10 November 2026** (files: EPUB, cover-kdp-1600x2560.jpg, kdp-upload-guide, launch kit v3).
 - 4 Nov 2026: KDP account setup finished: identity, payment by cheque for now (switch to Payoneer US receiving account in about 60 days), tax interview complete (W-8BEN, individual, no treaty → 30% on US royalties, no TIN: "could not/have not obtained"). Next: upload on 10–11 Nov with `kdp-upload-guide.md`.
