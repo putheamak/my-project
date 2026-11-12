@@ -2,6 +2,7 @@
 
 For *Built with AI, No Coding*, by Mak Puthea. The book went live on Amazon on 12 November 2026 (Kindle, $2.99, KDP Select).
 Book link (short and clean, use this everywhere): **https://www.amazon.com/dp/B0HRCZGJJ1** (ASIN B0HRCZGJJ1).
+Author page: **https://www.amazon.com/author/makputhea** (use in profiles: LinkedIn, Medium, Goodreads).
 
 ## Rules (keep the account safe)
 - Ask for **honest** reviews only. Never pay, never give gifts or free products for a review, never ask for 5 stars, never swap reviews with other authors.
