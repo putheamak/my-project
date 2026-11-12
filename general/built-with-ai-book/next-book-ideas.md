@@ -33,3 +33,8 @@ Owner searches Amazon Kindle Store for: "will AI take my job", "AI and jobs", "A
 - Work: Ryan Roslansky (LinkedIn CEO), *Open to Work: How to Get Ahead in the Age of AI* (HarperCollins, March 2026); *Manage the Machine* (Sept 2026); many self-published titles.
 - Developing countries: Reimers et al., *Artificial Intelligence and Education in the Global South* (Springer 2026, open access, academic). No practical, personal book for ordinary readers found.
 - Conclusion: big publishers own "parents + AI" and "jobs + AI". Gap = a practical, personal "learn with AI" book from a self-taught adult in a developing country, for learners anywhere. Confirm with the owner's Kindle Store screenshots.
+
+## Kindle Store results from the owner, 12 November 2026
+- "AI in education" (about 7 pages): mostly teacher guides; top books 100–320 reviews (Teaching with AI 228, AI for Educators 321, AI-Powered Classroom 212); long tail 0–30 reviews. Outside teacher shelf: Human Edge in the AI Age (807), Claude AI for Beginners Bible (454). Parent/student titles are new and small (You Can't Predict Your Child's Future; Raising Generation AI, pre-order July 2027; Being Human in the Age of AI; AI in Education: A Student's Handbook).
+- "Future of education": scattered results (Future Shock 1984, Pearson course books, nursing, law, church). Relevant books are academic/policy (The Great Upheaval 176, The Future of Smart 176, Why Fascists Fear Teachers 135, Neuroteach 132). Buyers do not search this phrase much; "AI" in the title matters.
+- Decision proposed: education book for learners and parents (not teachers), with "AI" and "learn" in the title, global market, Cambodia as viewpoint, real interviews. Working title and outline in chat 12 Nov; owner to approve.
