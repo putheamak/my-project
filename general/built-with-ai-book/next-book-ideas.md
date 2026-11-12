@@ -27,3 +27,9 @@ Owner searches Amazon Kindle Store for: "will AI take my job", "AI and jobs", "A
 ## Update, 11 November 2026 (after Book 1 was published)
 - New signals: "ChatGPT" is among the top 5 search terms worldwide (third-party keyword tools, March 2026); "how to" questions are about 30% of top searches; AI agents for money, health and family admin are the 2026 consumer trend (mostly commentary, not hard data).
 - Proposal sent to the owner: (1) "Will AI Take My Job?" with real worker interviews in Cambodia (still first choice); (2) "AI at Home: a plain guide for families in any country" (big demand, crowded, faster to write); (3) the Khmer Parcel start-up journal (mid-2027).
+
+## Competition scan, 12 November 2026 (web search; Amazon itself not reachable from this session)
+- Education / parents: Daniel Susskind, *What Should My Children Do? How to Flourish in the Age of AI* (Penguin, UK Sept 2026, US 17 Nov 2026), almost the same title as our working title → do NOT use "What Should We/My Children Learn Now". Also C.T. Moody, *Which Way to Smart?* (May 2026); Matt Ramsey, *SuperSkills* (July 2026); Narciso, *Generative AI in Education: A Guide for Parents and Teachers* (Apress 2024); many teacher guides.
+- Work: Ryan Roslansky (LinkedIn CEO), *Open to Work: How to Get Ahead in the Age of AI* (HarperCollins, March 2026); *Manage the Machine* (Sept 2026); many self-published titles.
+- Developing countries: Reimers et al., *Artificial Intelligence and Education in the Global South* (Springer 2026, open access, academic). No practical, personal book for ordinary readers found.
+- Conclusion: big publishers own "parents + AI" and "jobs + AI". Gap = a practical, personal "learn with AI" book from a self-taught adult in a developing country, for learners anywhere. Confirm with the owner's Kindle Store screenshots.
