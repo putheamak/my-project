@@ -60,6 +60,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 12 Nov 2026: Amazon page checked: https://www.amazon.com/dp/B0HRCZGJJ1 (ASIN B0HRCZGJJ1), $2.99 or free with Kindle+, 129 pages, published 12 Nov 2026, listed in Entrepreneurship › Startups. Link added to the promotion texts.
 - 12 Nov 2026: book is **LIVE** on Amazon (KDP email). Launch promotion plan written.
 - **10 Nov 2026: PUBLISHED on KDP** (submitted; "In review", up to 72 hours). Kindle eBook, $2.99, 70% royalty, KDP Select, all territories. Categories: Generative AI; Small Business › Home-Based › General; Entrepreneurship › Startups. AI disclosure: text = entire work, extensive editing (Claude); images = one or a few (cover, Google Gemini); translations = none. Images accessible: all (author photo has alt text). Next: check the live Amazon page; price to $4.99 after 2–3 weeks; add Payoneer when approved; paperback later (optional).
 - 4 Nov 2026: owner will upload to KDP on **10 November 2026** (files: EPUB, cover-kdp-1600x2560.jpg, kdp-upload-guide, launch kit v3).
