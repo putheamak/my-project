@@ -23,7 +23,7 @@ Author page: **https://www.amazon.com/author/makputhea** (use in profiles: Linke
 ## Next 3 weeks
 - **Free Book Promotion (KDP Select):** up to 5 free days in each 90-day period. Suggestion: 2 days, about 10 days after launch, announced on Facebook, LinkedIn and Telegram the day before. Free downloads bring readers and, later, honest reviews. KDP → Bookshelf → "…" → KDP Select → Free Book Promotion.
 - **After 2–3 weeks:** raise the price to **$4.99**.
-- **Kindle Countdown Deal** (later): needs the same list price for 30 days before the deal, so use it only after the price has stayed at $4.99 for 30 days.
+- **Kindle Countdown Deal** (later): only one promotion type per 90-day KDP Select period, and this period (to 9 Feb 2027) is used for free days. A Countdown Deal is possible in the next period, if the price has stayed the same for 30 days before it.
 - Ask 2–3 local groups (universities, NGOs, business clubs) whether you can give a free 30-minute talk: "What I built with AI for $31 a month". Mention the book at the end.
 
 ## Author Central biography (paste in Author Central)
