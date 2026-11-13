@@ -61,6 +61,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 13 Nov 2026: Medium article 1 published: https://medium.com/@putheamak/im-not-a-programmer-here-is-what-i-built-with-ai-for-31-a-month-and-what-it-didn-t-do-4cbce246b2f7 . LinkedIn share post ready (`promotion/linkedin-post-medium-share.md`).
 - 13 Nov 2026: Amazon Author page set up: photo (author-photo-square), biography, URL **amazon.com/author/makputhea**. LinkedIn post 1 published.
 - 12 Nov 2026: Amazon page checked: https://www.amazon.com/dp/B0HRCZGJJ1 (ASIN B0HRCZGJJ1), $2.99 or free with Kindle+, 129 pages, published 12 Nov 2026, listed in Entrepreneurship › Startups. Link added to the promotion texts.
 - 12 Nov 2026: book is **LIVE** on Amazon (KDP email). Launch promotion plan written.
