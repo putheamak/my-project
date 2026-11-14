@@ -77,6 +77,10 @@
     ],
     "videoPosts": [
       {
+        "slug": "hands-off-kitchen-gadgets-under-30",
+        "label": "Your rice always turns out gummy?"
+      },
+      {
         "slug": "microwave-gadgets-office-lunch",
         "label": "Leftovers still cold in the middle?"
       },
@@ -155,10 +159,6 @@
       {
         "slug": "best-lunch-containers-work-lunches",
         "label": "Lunch that won't go soggy"
-      },
-      {
-        "slug": "hands-off-kitchen-gadgets-under-30",
-        "label": "Rice that isn't gummy"
       },
       {
         "slug": "movie-night-snack-gadgets",
