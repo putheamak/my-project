@@ -61,6 +61,7 @@ The owner checklists were removed from the chapter files (they are in git histor
 - Cover: replace `cover/cover-final.jpg` with the full-size 1600 × 2560 export.
 
 ## Owner review
+- 14 Nov 2026: book on Goodreads (Book 264531868); Goodreads Author Program application submitted (approval in a few days). Indie Hackers profile done (indiehackers.com/makputhea: products + Medium article). "Follow the author" now shows on the Amazon page. Reminder set for 22 Nov 3:05 pm Cambodia time (free days).
 - 13 Nov 2026: Free Book Promotion scheduled: 22 Nov 2026 12:00 AM PST to 23 Nov 2026 11:59 PM PST (Cambodia: 22 Nov 3 pm to 24 Nov 2:59 pm). KDP Select enrolled until 9 Feb 2027 (auto-renews); 3 free days left this period; no Countdown Deal possible this period (one promotion type per period). KENPC page count 167. Goodreads account created; book not yet on Goodreads (check again ~17 Nov).
 - 13 Nov 2026: Medium article 1 published: https://medium.com/@putheamak/im-not-a-programmer-here-is-what-i-built-with-ai-for-31-a-month-and-what-it-didn-t-do-4cbce246b2f7 . LinkedIn share post ready (`promotion/linkedin-post-medium-share.md`).
 - 13 Nov 2026: Amazon Author page set up: photo (author-photo-square), biography, URL **amazon.com/author/makputhea**. LinkedIn post 1 published.
