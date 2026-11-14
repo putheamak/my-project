@@ -43,7 +43,12 @@
       "Fridge overnight. Add fruit in the morning"
     ],
     "product": "Matching 16 oz mason jars make it a weekly habit",
-    "cta": "More 2-minute breakfasts + gadgets under $30:"
+    "cta": "More 2-minute breakfasts + gadgets under $30:",
+    "photos": [
+      "images/kitchen-gadgets-under-30-quick-breakfasts-1.jpg",
+      "images/kitchen-gadgets-under-30-quick-breakfasts-1.jpg",
+      "images/kitchen-gadgets-under-30-quick-breakfasts-1.jpg"
+    ]
   },
   "kitchen-gadgets-under-30-chopping-prep": {
     "hook": "Onion falls apart when you dice it?",
@@ -63,7 +68,12 @@
       "Heat in short bursts, stirring in between"
     ],
     "product": "A magnetic microwave cover keeps the steam in, with no plate balancing",
-    "cta": "More leftover tricks + gadgets under $30:"
+    "cta": "More leftover tricks + gadgets under $30:",
+    "photos": [
+      "images/kitchen-gadgets-under-30-leftovers-2.jpg",
+      "images/kitchen-gadgets-under-30-leftovers-2.jpg",
+      "images/kitchen-gadgets-under-30-leftovers-2.jpg"
+    ]
   },
   "kitchen-gadgets-under-30-cooking-without-guesswork": {
     "hook": "You cut the meat and the juice runs out?",
