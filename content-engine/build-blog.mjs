@@ -172,9 +172,12 @@ function page({ title, description, canonical, body, jsonLd = [], type = "websit
   // Visits from the time zones in site.goatcounterSkipTimeZones (the owner's own
   // country) aren't counted, on every device and in-app browser, so the numbers
   // show real readers; the #toggle-goatcounter link only covers one browser.
+  // Adding ?gctest to an address counts the visit anyway (to test the counter
+  // end to end from the owner's phone on mobile data; home Wi-Fi is also
+  // ignored in GoatCounter's own settings).
   const skipZones = JSON.stringify(site.goatcounterSkipTimeZones ?? []);
   const analytics = gc
-    ? `<script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}if(${skipZones}.indexOf(z)>-1)return;var s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";s.setAttribute("data-goatcounter","https://${gc}.goatcounter.com/count");document.head.appendChild(s)})();</script>`
+    ? `<script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}if(${skipZones}.indexOf(z)>-1&&location.search.indexOf("gctest")<0)return;var s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";s.setAttribute("data-goatcounter","https://${gc}.goatcounter.com/count");document.head.appendChild(s)})();</script>`
     : "";
   // Opening your own affiliate link adds a click to the Amazon report. On devices
   // in the owner's time zone, ask before opening one (real readers there can
