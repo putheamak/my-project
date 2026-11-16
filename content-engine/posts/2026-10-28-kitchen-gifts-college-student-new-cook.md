@@ -8,7 +8,7 @@ pinTitle: "Kitchen Gifts for a College Student Under $30 | Dorm and First Apartm
 pinDescription: "Kitchen gifts for a college student or new cook under $30, matched to their setup. Dorm with only a microwave: a microwave rice cooker and an egg patty maker. Lunch on the go: an electric lunch box that warms food without a microwave. First apartment: a small nonstick pan and saucepan. Plus a 1-liter kettle. Check the current price on Amazon."
 pinBoard: "Kitchen Gift Ideas Under $30"
 date: "2026-10-28"
-updated: "2026-11-07"
+updated: "2026-11-16"
 image: "images/kitchen-gifts-college-student-new-cook-cover.jpg"
 status: "published"
 ---
@@ -66,6 +66,8 @@ Check the dorm's rules before you buy anything that heats up. Many allow small a
 **Add-on:** the [SENSARTE 1.5-quart nonstick saucepan with lid](https://link.amazon/B0eXwSnKx). Small enough for one or two people: ramen, rice, oatmeal or a can of soup. With the frying pan, it's a two-piece starter set.
 
 **To protect the new pans:** the [ChefAide 5-piece silicone spatula set](https://amzn.to/3U0lba7). Silicone won't scratch the nonstick coating the way metal utensils can.
+
+**Why one small pan goes so far: a one-pan dinner for one.** Heat the pan on medium and cook the protein first (an egg, a sausage or a handful of shrimp), then move it to the plate. Cook chopped vegetables in what's left in the pan for a few minutes, add a splash of water and cover for two minutes so they steam. Put the protein back, add a pinch of salt and any sauce from the fridge door, and eat from the plate you already used. One pan, one plate, no colander.
 
 ### What's a good gift for tea, coffee and instant meals?
 
