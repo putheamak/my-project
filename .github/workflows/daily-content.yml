@@ -1,9 +1,11 @@
 name: Daily content pack
 
 on:
-  schedule:
-    # One post a week (8-week focus plan, 4 Nov 2026): 23:17 UTC on Sunday = 06:17 Monday in Cambodia (UTC+7).
-    - cron: "17 23 * * 0"
+  # Schedule removed 21 Nov 2026: the owner decided to shut the blog down.
+  # It now runs only when started by hand (Actions tab, Run workflow).
+  # To restart weekly drafts, add back:
+  #   schedule:
+  #     - cron: "17 23 * * 0"   # 06:17 Monday in Cambodia
   workflow_dispatch: {}
 
 permissions:
