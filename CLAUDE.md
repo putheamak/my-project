@@ -24,5 +24,6 @@ Start with `content-engine/SMART_KITCHEN_PICKS_NOTES.md` (status, daily routine,
 then `content-engine/README.md`. Don't change `khmer-parcel/` while working on this project.
 
 ## General (`general/`)
+Book project *Built with AI, No Coding* (Mak Puthea): start with `general/built-with-ai-book/HANDOVER.md`.
 Standalone pieces that belong to no project, e.g. `general/ai-in-the-future-of-cambodia/` (bilingual page + video
 on AI and jobs in Cambodia). Each folder has its own README.
